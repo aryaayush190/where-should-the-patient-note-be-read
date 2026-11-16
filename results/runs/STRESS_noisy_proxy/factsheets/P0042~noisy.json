@@ -1,0 +1,213 @@
+{
+ "patient_id": "P0042~noisy",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    56.0,
+    56.0
+   ],
+   "evidence": "56-year-old female",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "female",
+   "evidence": "female",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "non-small cell lung cancer",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "histology": {
+   "status": "value",
+   "value": "adenocarcinoma",
+   "evidence": "nonsquamous non-small cell lung cancer",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IV",
+   "evidence": "stage IV advanced",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "measurable_disease": {
+   "status": "value",
+   "value": true,
+   "evidence": "at least one intracranial target lesion and one extracranial target lesion",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "newly_diagnosed",
+   "evidence": "completely treatment-naive for systemic therapy",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "brain_mets": {
+   "status": "value",
+   "value": "treated_stable",
+   "evidence": "treated, stable brain mets (stable >= 2 wk, no steroids or anticonvulsants)",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "malignant_effusion": {
+   "status": "negated",
+   "value": null,
+   "evidence": "no active pleural, pericardial, or peritoneal effusions requiring intervention",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "arrhythmia": {
+   "status": "value",
+   "value": "controlled",
+   "evidence": "controlled arrhythmia",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "active_infection": {
+   "status": "negated",
+   "value": null,
+   "evidence": "no active infections",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "life_expectancy_months": {
+   "status": "value",
+   "value": [
+    3.0,
+    Infinity
+   ],
+   "evidence": "expected survival exceeding 12 wk",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "creatinine_mg_dl": {
+   "status": "value",
+   "value": [
+    1.2,
+    1.2
+   ],
+   "evidence": "creatinine 1.2 mg/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "anc_k_ul": {
+   "status": "value",
+   "value": [
+    2.4,
+    2.4
+   ],
+   "evidence": "ANC 2.4 x times 10^3µL",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "platelets_k_ul": {
+   "status": "value",
+   "value": [
+    332.0,
+    332.0
+   ],
+   "evidence": "plt 332kµL",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "hemoglobin_g_dl": {
+   "status": "value",
+   "value": [
+    15.3,
+    15.3
+   ],
+   "evidence": "Hb 15.3 g/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "egfr": {
+   "status": "value",
+   "value": "positive",
+   "evidence": "EGFR sensittive mutation (Exon 19 deletion)",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "bilirubin_mg_dl": {
+   "status": "value",
+   "value": [
+    1.0,
+    1.0
+   ],
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  }
+ },
+ "therapy_status": "negated",
+ "events": [],
+ "lines_of_therapy": [
+  0.0,
+  0.0
+ ],
+ "reader_meta": {
+  "reader": "edge_proxy",
+  "conflicts": [],
+  "therapy_verified": true,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 5.138
+  }
+ }
+}

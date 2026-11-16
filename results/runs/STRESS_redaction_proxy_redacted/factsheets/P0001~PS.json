@@ -1,0 +1,222 @@
+{
+ "patient_id": "P0001~PS",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    73.0,
+    73.0
+   ],
+   "evidence": "73-year-old female",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "female",
+   "evidence": "female",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "NSCLC",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "histology": {
+   "status": "value",
+   "value": "adenocarcinoma",
+   "evidence": "adenocarcinoma",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IV",
+   "evidence": "clinical stage IV",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "progressed_after_prior",
+   "evidence": "progressed following prior systemic therapy",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "measurable_disease": {
+   "status": "value",
+   "value": true,
+   "evidence": "measurable disease per RECIST v1.1",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "malignant_effusion": {
+   "status": "value",
+   "value": true,
+   "evidence": "malignant pleural effusion",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "egfr": {
+   "status": "value",
+   "value": "positive",
+   "evidence": "EGFR exon 19 deletion",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "creatinine_mg_dl": {
+   "status": "value",
+   "value": [
+    1.5,
+    1.5
+   ],
+   "evidence": "creatinine 1.5 mg/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "anc_k_ul": {
+   "status": "value",
+   "value": [
+    2.2,
+    2.2
+   ],
+   "evidence": "ANC 2.2 x10^3",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "platelets_k_ul": {
+   "status": "value",
+   "value": [
+    248.0,
+    248.0
+   ],
+   "evidence": "platelets 248k",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "hemoglobin_g_dl": {
+   "status": "value",
+   "value": [
+    10.2,
+    10.2
+   ],
+   "evidence": "hemoglobin 10.2 g/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "bilirubin_mg_dl": {
+   "status": "value",
+   "value": [
+    1.8,
+    1.8
+   ],
+   "evidence": "bilirubin 1.8 mg/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_t": {
+   "status": "value",
+   "value": "T2",
+   "evidence": "T2N2M1a",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_n": {
+   "status": "value",
+   "value": "N2",
+   "evidence": "T2N2M1a",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_m": {
+   "status": "value",
+   "value": "M1A",
+   "evidence": "T2N2M1a",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  }
+ },
+ "therapy_status": "value",
+ "events": [
+  {
+   "cls": "chemo",
+   "agents": [],
+   "line": null,
+   "setting": null,
+   "thoracic": null,
+   "months_ago": [
+    6.0,
+    Infinity
+   ],
+   "ongoing": false,
+   "evidence": "She previously received chemotherapy (over 6 months ago).",
+   "verified": true
+  }
+ ],
+ "lines_of_therapy": null,
+ "reader_meta": {
+  "reader": "edge_proxy",
+  "conflicts": [],
+  "therapy_verified": true,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 3.862
+  }
+ }
+}

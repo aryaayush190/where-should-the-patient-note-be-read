@@ -1,0 +1,72 @@
+{
+ "0428ad8fbf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "09450c1c3f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "14ccca429b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3820e72de4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "386e6eff24": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "735248f9e2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "77559690b3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7958c72354": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7bd0fb558f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "83a8f9e336": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "87caa41a10": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c5483a2e0a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cd7fa4572d": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "mild peripheral neuropathy present"
+ },
+ "eba8f701b4": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "PET-positive mediastinal lymph node involvement"
+ }
+}

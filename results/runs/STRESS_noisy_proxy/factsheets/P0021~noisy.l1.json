@@ -1,0 +1,557 @@
+{
+ "1051afa86a": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "tumor peripheral, not near bronchial tree"
+ },
+ "122dd43b9f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "tumor 1.8 cm (18 mm) meets size requirement"
+ },
+ "1399f65557": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no cavitary or necrotic tumor noted"
+ },
+ "13f7a9a273": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "labs within normal limits, no marrow or organ dysfunction"
+ },
+ "154d52890e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no pleural or pericardial effusion reported"
+ },
+ "1871c555ab": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no hepatic encephalopathy or cirrhosis"
+ },
+ "188c73df91": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "bilirubin 1.4 mg/dL, below 1.5\u00d7 ULN"
+ },
+ "1bcb3429fa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "AST level not provided"
+ },
+ "1c4edd10e4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no hypersensitivity history"
+ },
+ "1dc08cb25f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no concurrent interventional study"
+ },
+ "1e2d5dd2a1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no compliance issues noted"
+ },
+ "21c1b1720c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no hypertension mentioned"
+ },
+ "263e50af0e": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no mention of alcohol or drug abuse"
+ },
+ "2a498aa15b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "2f36628671": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "tumor is solid 1.8 cm, not ground\u2011glass"
+ },
+ "30e0fa0457": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no interstitial lung disease noted"
+ },
+ "32ec7c957e": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "stage IA2, no brain metastasis"
+ },
+ "363310d974": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no pulmonary hypertension mentioned"
+ },
+ "3686dd4cd4": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "nodes 1 cm, no abnormal uptake, condition not met"
+ },
+ "36952821b3": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no hemorrhagic or thrombotic event reported"
+ },
+ "3698667849": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "creatinine 0.6 mg/dL indicates adequate renal function"
+ },
+ "3bea08439c": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no other study participation reported"
+ },
+ "3d5e0fd351": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no unresolved toxicity or intracranial hemorrhage"
+ },
+ "44c486bac8": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "AST not mentioned, bilirubin 1.4 mg/dL"
+ },
+ "4581ef1119": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "48f24f06b1": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "tumor 1.8 cm, \u22642 cm"
+ },
+ "49135a9c3e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4a7abd27b8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4e0330adb8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "508a8ed716": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "stage IA2, not stage II"
+ },
+ "526a80d7d6": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "disease not recurrent"
+ },
+ "530ec4c769": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5529ff66cb": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "adenocarcinoma, not small\u2011cell or others"
+ },
+ "55b2d67ce1": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior malignancies"
+ },
+ "5683e0b3a7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "58451a782e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "58e871d944": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "normal organ function and no uncontrolled systemic disease"
+ },
+ "5a6e009b31": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "patient has invasive adenocarcinoma, not carcinoma in situ"
+ },
+ "5c0804ebb1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "60630931d4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "66ae5b44a5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "67f461d0f2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "69a7bdd1b6": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6c74f48d4b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6df4b3a1d4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7699330c66": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "tumor newly diagnosed, not cured >5 years"
+ },
+ "80f04fea7b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "86b1a1ffe7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "895b6834d8": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior invasive malignancy"
+ },
+ "8c6cede88a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8d66bff067": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8e7b99bb88": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior thoracic radiotherapy"
+ },
+ "8f542662a0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "900138caef": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "stage IA2 (T1bN0M0) confirmed"
+ },
+ "91c5874ee1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "924c3d1193": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no concurrent investigational therapy"
+ },
+ "95b7d34363": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "989d47fbc3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "997db60674": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9d8e244d51": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no severe medical or psychiatric conditions"
+ },
+ "a187ab7280": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a4d9088c1f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a5b827a3f4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a8aa01fb3f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a9c6224678": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "aba5446ba7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "abf808c166": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "adcd0bc958": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b0701a6b34": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b4cd0c0705": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b868c02ce5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b8d9688e9e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b9d0f306b1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "bac32f378a": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "hilar/mediastinal nodes \u22641\u202fcm, no PET uptake (N0)"
+ },
+ "bef6c682ea": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no regional or distant metastases (M0, N0)"
+ },
+ "bfab6396a3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c096d1c8f1": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "disease resectable and suitable for SBRT"
+ },
+ "c43286b5cc": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c508739e51": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c69cf938aa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ccac2a0a33": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cce42d77b3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cd44ecf60a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cd6887c5a8": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "tumor peripherally located"
+ },
+ "d05052cdb5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d3868ee68a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d78af4d562": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d8419cdf91": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d8cdbd6ad0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "db339f9df1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e193b95631": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e73a551bc8": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "tumor 1.8 cm"
+ },
+ "e7d0eb955c": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no prior therapy"
+ },
+ "e8308b718a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e87ae1f727": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e89085887a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e8ee280dfe": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ea2673beb7": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ead5afcc49": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no central pleura or mediastinal involvement"
+ },
+ "eba8f701b4": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "tumor 1.8 cm measurable"
+ },
+ "ef58bd54e8": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "WBC 2.9 x10^3/uL below 4"
+ },
+ "f035c9c02a": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no other malignancies"
+ },
+ "f1259e700e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f26d20ed31": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "tumor peripheral, not central"
+ },
+ "f3e913376a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f488b098eb": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no effusions"
+ },
+ "fa63a5c74c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "fa9b403fc4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "fba10ba7b1": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "staging completed within 8 weeks"
+ },
+ "fbb2dd4361": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no recurrence of disease"
+ },
+ "fd5e3f6599": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ }
+}

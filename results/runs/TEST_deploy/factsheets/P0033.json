@@ -1,0 +1,268 @@
+{
+ "patient_id": "P0033",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    72.0,
+    72.0
+   ],
+   "evidence": "72-year-old female",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "female",
+   "evidence": "female patient",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "squamous cell carcinoma of the lung",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "histology": {
+   "status": "value",
+   "value": "squamous",
+   "evidence": "squamous cell carcinoma of the lung",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IV",
+   "evidence": "stage IV (T3N2M1b)",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "measurable_disease": {
+   "status": "value",
+   "value": true,
+   "evidence": "bi-dimensionally measurable disease per RECIST v1.1",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ecog": {
+   "status": "value",
+   "value": [
+    0.0,
+    0.0
+   ],
+   "evidence": "ECOG performance status of -0",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "newly_diagnosed",
+   "evidence": "chemotherapy-naïve for advanced disease",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "brain_mets": {
+   "status": "value",
+   "value": "treated_stable",
+   "evidence": "imaging demonstrated treated and stable brain metastases",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "mi_history": {
+   "status": "negated",
+   "value": null,
+   "evidence": "no recent unstable angina, myocardial infarction",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "unstable_angina": {
+   "status": "negated",
+   "value": null,
+   "evidence": "no recent unstable angina",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "chf": {
+   "status": "negated",
+   "value": null,
+   "evidence": "cardiac history is clean",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "neuropathy_grade": {
+   "status": "value",
+   "value": [
+    0.0,
+    0.0
+   ],
+   "evidence": "peripheral neuropathy has resolved to Grade 0",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "steroids_systemic": {
+   "status": "negated",
+   "value": null,
+   "evidence": "not requiring concurrent steroids",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "alk": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "molecular profiling showed no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "ros1": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "molecular profiling showed no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "kras": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "molecular profiling showed no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "ret": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "molecular profiling showed no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "braf": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "molecular profiling showed no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "met": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "molecular profiling showed no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "tnm_t": {
+   "status": "value",
+   "value": "T3",
+   "evidence": "stage IV (T3N2M1b)",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_n": {
+   "status": "value",
+   "value": "N2",
+   "evidence": "stage IV (T3N2M1b)",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_m": {
+   "status": "value",
+   "value": "M1B",
+   "evidence": "stage IV (T3N2M1b)",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "egfr": {
+   "status": "value",
+   "value": "negative",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  }
+ },
+ "therapy_status": "negated",
+ "events": [],
+ "lines_of_therapy": null,
+ "reader_meta": {
+  "reader": "edge_local",
+  "conflicts": [
+   "unstable_angina",
+   "alk",
+   "ros1",
+   "kras",
+   "ret",
+   "braf",
+   "met"
+  ],
+  "therapy_verified": false,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 269.56,
+   "prompt_tokens": 1549,
+   "gen_tokens": 1294,
+   "prompt_s": 10.372,
+   "gen_s": 251.409,
+   "load_s": 0.015
+  }
+ }
+}

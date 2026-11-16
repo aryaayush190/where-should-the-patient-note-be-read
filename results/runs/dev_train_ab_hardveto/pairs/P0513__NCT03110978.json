@@ -1,0 +1,755 @@
+{
+ "pair_id": "P0513__NCT03110978",
+ "patient_id": "P0513",
+ "trial_id": "NCT03110978",
+ "label": 0,
+ "selective": "NOT_ELIGIBLE",
+ "forced": "NOT_ELIGIBLE",
+ "n_l2": 5,
+ "n_forced_unknown": 0,
+ "n_provisional": 42,
+ "u": 26.0,
+ "asks": [
+  {
+   "atom": "c0A7",
+   "category": "OTHER",
+   "question": "Do the tumors share the same histology?",
+   "answerable_by": "record",
+   "pol": "inclusion"
+  },
+  {
+   "atom": "c0A10",
+   "category": "OTHER",
+   "question": "Do the metachronous tumors have different histology?",
+   "answerable_by": "record",
+   "pol": "inclusion"
+  },
+  {
+   "atom": "c0A11",
+   "category": "OTHER",
+   "question": "Do the metachronous tumors share the same histology?",
+   "answerable_by": "record",
+   "pol": "inclusion"
+  },
+  {
+   "atom": "c0A16",
+   "category": "OTHER",
+   "question": "Is the recurrent lesion suitable for SABR?",
+   "answerable_by": "clinician",
+   "pol": "inclusion"
+  },
+  {
+   "atom": "c0A17",
+   "category": "OTHER",
+   "question": "Is there only a single metastatic focus in the lung with no other disease?",
+   "answerable_by": "record",
+   "pol": "inclusion"
+  },
+  {
+   "atom": "c1A5",
+   "category": "OTHER",
+   "question": "Can you confirm: For patients with left-sided tumors and enlarged nodes (> 1.0 cm in the shortest diameter) on the aortopulmonary window setting, the aortopulmonary nodes must be biopsied by extended mediastinoscopy, Chamberlain procedure, video-assisted thoracoscopic surgery (VATS) approach, or ultrasound-guided biopsy to ensure that the patient does not have N2 disease. At the time of cervical mediastinoscopy, esophageal endoscopic ultrasound-guided biopsy, or endobronchial ultrasound-guided biopsy, the following nodal stations must be examined and biopsied, if present:?",
+   "answerable_by": "record",
+   "pol": "inclusion"
+  }
+ ],
+ "n_atoms": 68,
+ "trace": [
+  {
+   "atom": "c0A0",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "permission:not_a_requirement"
+  },
+  {
+   "atom": "c0A1",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "permission:not_a_requirement"
+  },
+  {
+   "atom": "c0A2",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "F",
+   "verified": true,
+   "assumed": false,
+   "route": "exclude:verified"
+  },
+  {
+   "atom": "c0A3",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "F",
+   "l2": "F",
+   "route": "exclude:l1+l2"
+  },
+  {
+   "atom": "c0A4",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "permission:not_a_requirement"
+  },
+  {
+   "atom": "c0A5",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A6",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "F",
+   "l2": "F",
+   "route": "exclude:l1+l2"
+  },
+  {
+   "atom": "c0A7",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A8",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A9",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A10",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A11",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A12",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A13",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "exclude:hard_veto"
+  },
+  {
+   "atom": "c0A14",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "permission:not_a_requirement"
+  },
+  {
+   "atom": "c0A15",
+   "type": "HAS",
+   "pol": "inclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "exclude:hard_veto"
+  },
+  {
+   "atom": "c0A16",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A17",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A18",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c0A19",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "l2": "T",
+   "route": "exclude:l1+l2"
+  },
+  {
+   "atom": "c0A20",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c0A21",
+   "type": "SINCE",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A22",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "F",
+   "l2": "F",
+   "route": "exclude:l1+l2"
+  },
+  {
+   "atom": "c0A23",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A24",
+   "type": "ANY",
+   "pol": "inclusion",
+   "det": "F",
+   "verified": true,
+   "assumed": false,
+   "route": "permission:not_a_requirement"
+  },
+  {
+   "atom": "c0A25",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "F",
+   "l2": "F",
+   "route": "exclude:l1+l2"
+  },
+  {
+   "atom": "c0A26",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "permission:not_a_requirement"
+  },
+  {
+   "atom": "c1A0",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c1A1",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c1A2",
+   "type": "IF",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c1A3",
+   "type": "IF",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c1A4",
+   "type": "IF",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c1A5",
+   "type": "IF",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A6",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c1A7",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c1A8",
+   "type": "IF",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c1A9",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c1A10",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c1A11",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c1A12",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c1A13",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c1A14",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c1A15",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c1A16",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c1A17",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c1A18",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c1A19",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c1A20",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c1A21",
+   "type": "ANY",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c1A22",
+   "type": "ALL",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c1A23",
+   "type": "ANY",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c1A24",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c2A0",
+   "type": "IN",
+   "pol": "exclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "exclude:hard_veto"
+  },
+  {
+   "atom": "c2A1",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c2A2",
+   "type": "HAS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c2A3",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c2A4",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c2A5",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c2A6",
+   "type": "UNSCREENABLE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c2A7",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c2A8",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c2A9",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c2A10",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c2A11",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c2A12",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c2A13",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c2A14",
+   "type": "HAS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c2A15",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  }
+ ],
+ "site_verify": [
+  "Synchronous tumors (diagnosed within 6 months [mo]),",
+  "Second tumor in different lobed or lung;",
+  "Metachronous tumors (diagnosed > 6 mo apart),",
+  "Second tumor in different lobe or lung,",
+  "Both Chest CT and PET/CT are required within 16 weeks and at least one of them needs to be done within 12 weeks (plus/minus 1 week). Any lymph node suspected of harboring disease based on its shape, size, or PET standardized uptake value (SUV) should be discussed by treating physician and diagnostic radiologist",
+  "The following mandatory staging studies must be done within 12 weeks before study registration:",
+  "Chest CT or PET/CT scans of both lungs, the mediastinum, adrenal glands and rest of the body; primary tumor dimension will be measured on diagnostic CT and again on simulation CT using the lung window setting.",
+  "Mediastinoscopy or endobronchial ultrasound-guided biopsy of the mediastinal lymph nodes is recommended and required for any patients with PET/CT or CT findings suggesting lymph node involvement.",
+  "Invasive mediastinal staging: For all patients with CT or PET evidence of hilar involvement (level 10) or with mediastinal lymph nodes > 1.0 cm in the shortest diameter or clinically suspicious by treating physician and/or radiologist, disease must be staged by cervical mediastinoscopy, esophageal endoscopic ultrasound-guided biopsy, or endobronchial ultrasound-guided biopsy",
+  "Ipsilateral nodal station 4",
+  "Contralateral nodal station level 4, and",
+  "Subcarinal nodes (level 7) For left-sided tumors, any lymph node in the superior or anterior mediastinum > 1.0 cm in the shortest axis on CT or positive on PET must be identified and biopsied. Eligibility requires that any PET-positive mediastinal or distant sites must be biopsy-negative. However, if the treating physician and diagnostic radiologist strongly suspect PET positivity, the patient should not be enrolled even if the biopsy is negative (to exclude patients with false-negative biopsy)",
+  "All patients must sign a study-specific consent form",
+  "All patients (men & women) of childbearing potential should use a method of birth control that is effective for them throughout their participation in this study.",
+  "Women of childbearing potential should use an adequate contraceptive method to avoid pregnancy for 5 months (30 days plus the time required for nivolumab to undergo five half-lives) after the last dose of investigational drug; must have a negative serum or urine pregnancy test (minimum sensitivity 25 IU/L or equivalent units of human chorionic gonadotropin [HCG]) within 24 hours before the start of nivolumab; and must not be breastfeeding.",
+  "Women of childbearing potential should use an adequate contraceptive method to avoid pregnancy for 5 months (30 days plus the time required for nivolumab to undergo five half-lives) after the last dose of investigational drug; must have a negative serum or urine pregnancy test (minimum sensitivity 25 IU/L or equivalent units of human chorionic gonadotropin [HCG]) within 24 hours before the start of nivolumab; and must not be breastfeeding.",
+  "Men who are sexually active with women of childbearing potential must use a contraceptive method with a failure rate of less than 1% per year; men receiving nivolumab will be instructed to use contraception for 7 months after the last dose of nivolumab.",
+  "Men who are sexually active with women of childbearing potential must use a contraceptive method with a failure rate of less than 1% per year; men receiving nivolumab will be instructed to use contraception for 7 months after the last dose of nivolumab.",
+  "Women who are not of childbearing potential (i.e. are postmenopausal or surgically sterile) & azoospermic men do not require contraception",
+  "White blood cell (WBC) >= 2000/uL (within 30 days before study registration)",
+  "Neutrophils (Neuts) >= 1500/uL (within 30 days before study registration)",
+  "Platelets (PLT) >= 100 x 10^3/uL (within 30 days before study registration)",
+  "Hemoglobin (HGB) > 9.0 g/dL (within 30 days before study registration)",
+  "Serum creatinine =< 2 x upper limit of normal (ULN) or creatinine clearance (calculated with the Cockcroft-Gault formula) >= 30 mL/min (within 30 days before study registration)",
+  "Aspartate aminotransferase (AST)/alanine aminotransferase (ALT) =< 3 x ULN (within 30 days before study registration)",
+  "Total bilirubin (Bili T) =< 1.5 x ULN (although patients with Gilbert syndrome can have total bilirubin < 3.0 mg/dL (within 30 days before study registration)",
+  "Patients for whom SABR plans cannot meet the minimum requirement of target coverage and dose-volume constraints of critical structures (see SABR treatment planning section) are not eligible"
+ ]
+}

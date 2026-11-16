@@ -1,0 +1,572 @@
+{
+ "0128bac762": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0625bc9454": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no significant organ dysfunction reported"
+ },
+ "072aec9082": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior chemotherapy, so no progression after prior"
+ },
+ "08bb050321": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior platinum regimen, so no progression during or after"
+ },
+ "0a460b0d58": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "122dd43b9f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "at least one measurable lesion \u226510 mm"
+ },
+ "1399f65557": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "13f7a9a273": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "normal blood counts, adequate marrow reserve"
+ },
+ "154fdc6f4e": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no GI abnormalities noted"
+ },
+ "1871c555ab": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no hepatic encephalopathy or cirrhosis"
+ },
+ "188c73df91": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "bilirubin 0.8 mg/dL, below 1.5\u00d7ULN"
+ },
+ "19b80e7231": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no anticoagulant therapy reported"
+ },
+ "1bcb3429fa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1e2d5dd2a1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "22e55c1b53": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no prior chemo, radiotherapy, or immunotherapy"
+ },
+ "250a5a72e0": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no allergic reaction mentioned"
+ },
+ "2a498aa15b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "30001da547": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no TB, hepatitis B, AIDS, or syphilis"
+ },
+ "30e0fa0457": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no interstitial lung disease"
+ },
+ "32ec7c957e": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no brain metastasis"
+ },
+ "3d496bb66e": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "normal labs and organ function"
+ },
+ "3d5e0fd351": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no unresolved toxicity"
+ },
+ "44c486bac8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4581ef1119": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no organ transplant"
+ },
+ "49135a9c3e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4a7abd27b8": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "bilirubin 0.8 mg/dL, below 3\u00d7 ULN"
+ },
+ "4db6714c89": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4e0330adb8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4eb83e2c01": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "50d1243369": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "530ec4c769": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5529ff66cb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "55b2d67ce1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5683e0b3a7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "58451a782e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "58e871d944": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5a6e009b31": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5ad4e6b460": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5c0804ebb1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5c32b40b00": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5e0680de39": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5f6da7f984": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5fb33fb177": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "60630931d4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "66ae5b44a5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "678afd1432": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6c74f48d4b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6cf13fb718": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6df4b3a1d4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "708e745f01": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7699330c66": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "lung adenocarcinoma stage IIIB, not cured"
+ },
+ "7863357e5e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7caa314d2f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7cad937428": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8976af4735": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8d66bff067": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8df03fc7d1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8f2db0a05c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8f542662a0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "91c5874ee1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "924c3d1193": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no concurrent investigational therapy noted"
+ },
+ "949ea603c8": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no prior NSCLC treatment within 28 days"
+ },
+ "95b7d34363": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no QTc risk factors mentioned"
+ },
+ "989d47fbc3": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no brain metastases reported"
+ },
+ "9b13285bc0": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no treated brain metastases"
+ },
+ "9d2b95131f": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no prior radiation/chemotherapy"
+ },
+ "9d8e244d51": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no severe medical or lab abnormalities"
+ },
+ "9ecdb12dc7": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "bilirubin 0.8 mg/dL"
+ },
+ "a187ab7280": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no GI dysfunction noted"
+ },
+ "a4d9088c1f": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "ALT not provided, no liver mets"
+ },
+ "a5b827a3f4": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no hematuria or proteinuria"
+ },
+ "a712433309": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no solitary brain metastasis treated"
+ },
+ "abf808c166": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ad1e0cff0f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ae86ef7ced": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "patient has stage IIIB, not stage II"
+ },
+ "b0701a6b34": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b07d357e44": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b481ad4ad0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b8d9688e9e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "beba0e985c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "bfab6396a3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c3c34a9aca": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c508739e51": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c67c5354dd": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c69cf938aa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c7750c6907": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ccac2a0a33": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cce42d77b3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cdefdb5806": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ce3e3d3255": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d0167bc974": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d05052cdb5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d3868ee68a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d51904a648": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d78af4d562": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d8419cdf91": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d8cdbd6ad0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d9bdac4798": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "malignant pleural effusion present"
+ },
+ "db339f9df1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "dcbb5daaf4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ddeae40555": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e3883c624b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e7d0eb955c": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no prior chemo, radiotherapy, or surgery"
+ },
+ "e8308b718a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ea2673beb7": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no recent cardiovascular events"
+ },
+ "ee81f30190": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "chemotherapy-na\u00efve"
+ },
+ "f1259e700e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f3e913376a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f488b098eb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "malignant pleural effusion present"
+ },
+ "f5e69c5a5f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no prior study participation"
+ },
+ "fb28697345": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "life expectancy not stated"
+ },
+ "fbb2dd4361": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no prior adjuvant therapy"
+ },
+ "fd5e3f6599": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no neurological/mental disorder"
+ },
+ "ffac75eeec": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not a prisoner"
+ }
+}

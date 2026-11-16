@@ -1,0 +1,179 @@
+{
+  "label": "testing_data_veto",
+  "n_errors": 27,
+  "by_category": {
+    "conditional_effusion": 9,
+    "cardiac": 4,
+    "temporal_washout": 9,
+    "stage_or_other": 4,
+    "molecular": 1
+  },
+  "by_direction": {
+    "false_negative": 21,
+    "false_positive": 6
+  },
+  "errors": [
+    {
+      "pair_id": "P0001__NCT00266877",
+      "trial_id": "NCT00266877",
+      "direction": "false_negative",
+      "category": "conditional_effusion"
+    },
+    {
+      "pair_id": "P0002__NCT03057340",
+      "trial_id": "NCT03057340",
+      "direction": "false_negative",
+      "category": "cardiac"
+    },
+    {
+      "pair_id": "P0005__NCT01766739",
+      "trial_id": "NCT01766739",
+      "direction": "false_negative",
+      "category": "cardiac"
+    },
+    {
+      "pair_id": "P0007__NCT01766739",
+      "trial_id": "NCT01766739",
+      "direction": "false_negative",
+      "category": "cardiac"
+    },
+    {
+      "pair_id": "P0007__NCT02182102",
+      "trial_id": "NCT02182102",
+      "direction": "false_negative",
+      "category": "temporal_washout"
+    },
+    {
+      "pair_id": "P0009__NCT02182232",
+      "trial_id": "NCT02182232",
+      "direction": "false_negative",
+      "category": "conditional_effusion"
+    },
+    {
+      "pair_id": "P0010__NCT02182102",
+      "trial_id": "NCT02182102",
+      "direction": "false_negative",
+      "category": "temporal_washout"
+    },
+    {
+      "pair_id": "P0011__NCT03141359",
+      "trial_id": "NCT03141359",
+      "direction": "false_negative",
+      "category": "stage_or_other"
+    },
+    {
+      "pair_id": "P0012__NCT00753714",
+      "trial_id": "NCT00753714",
+      "direction": "false_positive",
+      "category": "temporal_washout"
+    },
+    {
+      "pair_id": "P0013__NCT02182232",
+      "trial_id": "NCT02182232",
+      "direction": "false_negative",
+      "category": "conditional_effusion"
+    },
+    {
+      "pair_id": "P0015__NCT00049543",
+      "trial_id": "NCT00049543",
+      "direction": "false_positive",
+      "category": "molecular"
+    },
+    {
+      "pair_id": "P0019__NCT03360929",
+      "trial_id": "NCT03360929",
+      "direction": "false_negative",
+      "category": "temporal_washout"
+    },
+    {
+      "pair_id": "P0020__NCT00266877",
+      "trial_id": "NCT00266877",
+      "direction": "false_negative",
+      "category": "conditional_effusion"
+    },
+    {
+      "pair_id": "P0025__NCT03141359",
+      "trial_id": "NCT03141359",
+      "direction": "false_positive",
+      "category": "stage_or_other"
+    },
+    {
+      "pair_id": "P0025__NCT00753714",
+      "trial_id": "NCT00753714",
+      "direction": "false_positive",
+      "category": "temporal_washout"
+    },
+    {
+      "pair_id": "P0028__NCT03141359",
+      "trial_id": "NCT03141359",
+      "direction": "false_negative",
+      "category": "stage_or_other"
+    },
+    {
+      "pair_id": "P0029__NCT02182232",
+      "trial_id": "NCT02182232",
+      "direction": "false_negative",
+      "category": "conditional_effusion"
+    },
+    {
+      "pair_id": "P0030__NCT02182102",
+      "trial_id": "NCT02182102",
+      "direction": "false_negative",
+      "category": "temporal_washout"
+    },
+    {
+      "pair_id": "P0031__NCT03141359",
+      "trial_id": "NCT03141359",
+      "direction": "false_negative",
+      "category": "stage_or_other"
+    },
+    {
+      "pair_id": "P0033__NCT02182232",
+      "trial_id": "NCT02182232",
+      "direction": "false_negative",
+      "category": "conditional_effusion"
+    },
+    {
+      "pair_id": "P0035__NCT01766739",
+      "trial_id": "NCT01766739",
+      "direction": "false_negative",
+      "category": "cardiac"
+    },
+    {
+      "pair_id": "P0038__NCT02182102",
+      "trial_id": "NCT02182102",
+      "direction": "false_negative",
+      "category": "temporal_washout"
+    },
+    {
+      "pair_id": "P0040__NCT02182102",
+      "trial_id": "NCT02182102",
+      "direction": "false_negative",
+      "category": "temporal_washout"
+    },
+    {
+      "pair_id": "P0041__NCT01047059",
+      "trial_id": "NCT01047059",
+      "direction": "false_positive",
+      "category": "conditional_effusion"
+    },
+    {
+      "pair_id": "P0043__NCT02182232",
+      "trial_id": "NCT02182232",
+      "direction": "false_negative",
+      "category": "conditional_effusion"
+    },
+    {
+      "pair_id": "P0044__NCT00465907",
+      "trial_id": "NCT00465907",
+      "direction": "false_positive",
+      "category": "conditional_effusion"
+    },
+    {
+      "pair_id": "P0045__NCT03360929",
+      "trial_id": "NCT03360929",
+      "direction": "false_negative",
+      "category": "temporal_washout"
+    }
+  ]
+}

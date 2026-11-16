@@ -1,0 +1,497 @@
+{
+ "0178364e2c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "03e9c338e3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "045efc8402": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "06b0302702": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0a75062b24": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "patient has N3 mediastinal nodes, not a single lung metastasis"
+ },
+ "0aab92d26e": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "stage IIIB with PET-positive N3 nodes, no cervical spread"
+ },
+ "1094c534af": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "10b1a6aee7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1407f0200c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1954c8cd9e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "19d69939fe": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1d70d5faca": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "20bc1877d4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "248f173aa8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "2b8cf92f14": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "2d6aaca79d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "2f1b8359f7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "34076aee51": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "34eb008960": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3660100e14": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3f5ef0df75": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "422c49f372": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4605b8f436": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "463253974b": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "patient willing to take folic acid, vitamin B12, dexamethasone"
+ },
+ "46ac9fd47d": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no active cardiovascular disease"
+ },
+ "47faf1ca5c": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no recent angina"
+ },
+ "48efafc2ff": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ANC 4.1, platelets 245k, CrCl >45, bilirubin \u2264ULN, transaminases normal"
+ },
+ "49d50e3638": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Stage IIIB, no malignant effusion"
+ },
+ "4acebfc9fa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4b4f05ae68": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "54fa5fd901": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Brain MRI negative, no symptoms"
+ },
+ "56e59e578b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5ba45a5bcb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5e83c22799": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no other malignancy"
+ },
+ "5f0132f7cc": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "606bcee8f4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6141c5ac7c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "61abc8fe61": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "61ed9b9a96": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no concurrent malignancies"
+ },
+ "64a1c0fd3d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "65980154bb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "68eca96387": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6b4294b2e3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6d96545337": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6df126a96f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no prior malignancy, tumor-free interval >4 years"
+ },
+ "6ea4fad1e4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "707e83addf": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "mediastinoscopy/EBUS not performed"
+ },
+ "728864a218": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "male patient"
+ },
+ "72fb1c8fd5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "75145873b9": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "768f47a08d": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "775ded288f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7792755c2e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "77acaa96e8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7d61b9afed": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7f0aa1ec94": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "MI >2 years ago"
+ },
+ "7ffcee888e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "83a8f9e336": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "863de5933c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "86da255d7a": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ANC 4.1 x10^3/uL"
+ },
+ "88a0f7fbe4": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no other primary cancer"
+ },
+ "88c49e050c": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "single NSCLC tumor"
+ },
+ "89ed9257c6": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no second tumor"
+ },
+ "8c239f6de9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "contraception not discussed"
+ },
+ "8ed9f7d336": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no other lesions"
+ },
+ "90a32651bf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "hemoglobin not listed"
+ },
+ "99463c247b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no concurrent therapy mentioned"
+ },
+ "9cdd0a042a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no allergy noted"
+ },
+ "a1a1161f7d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not lactating"
+ },
+ "a2c9994df2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "creatinine not provided"
+ },
+ "a3a61d08dc": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no bleeding event"
+ },
+ "abb480b946": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no thrombotic event"
+ },
+ "ae1b8aebb2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b10ad1cccd": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no other malignancy within 5 years"
+ },
+ "bd4e17552f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "bda8d89e70": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c6511f66e5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ca9309ffd5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ca9fdf175a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cdc5047f7e": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "DLCO 60% predicted"
+ },
+ "cf8f73ad34": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no prior non\u2011lung malignancy in 3 years"
+ },
+ "d045c90c34": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "same histology"
+ },
+ "d218f6e623": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d67a705d32": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "remote MI >2 years ago, stable"
+ },
+ "d76a14fcec": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "da2a30e7da": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "remote MI, stable, no severe pulmonary or cardiac disease"
+ },
+ "dbaf04e9e1": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "N3 mediastinal lymph node involvement"
+ },
+ "e0c9479baa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e18e5d2757": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e304c336e3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e3af1cca71": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e44ea04cd3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e8619f0d29": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "eba8f701b4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ee465feefa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f0bd52bbef": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f6a03bc8be": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "T2N3M0 stage IIIB"
+ },
+ "fad34d4513": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "fd1bee54ee": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ }
+}

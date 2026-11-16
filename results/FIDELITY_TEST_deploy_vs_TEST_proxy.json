@@ -1,0 +1,8 @@
+{
+ "patients": 45,
+ "field_agreement": 0.7757894736842105,
+ "field_agreement_on_verified": 0.940387481371088,
+ "pairs": 270,
+ "forced_decision_agreement": 0.8925925925925926,
+ "selective_decision_agreement": 0.7962962962962963
+}

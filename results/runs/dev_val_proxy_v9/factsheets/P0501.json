@@ -1,0 +1,253 @@
+{
+ "patient_id": "P0501",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    87.0,
+    87.0
+   ],
+   "evidence": "87-year-old female",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "female",
+   "evidence": "87-year-old female",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "squamous cell carcinoma of the lung",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "histology": {
+   "status": "value",
+   "value": "squamous",
+   "evidence": "histologically confirmed Stage IIIA ... squamous cell carcinoma",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": false
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IIIA",
+   "evidence": "Stage IIIA",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "newly_diagnosed",
+   "evidence": "treatment-naive",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ecog": {
+   "status": "value",
+   "value": [
+    1.0,
+    1.0
+   ],
+   "evidence": "SWOG performance status of 1",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "fev1_l": {
+   "status": "value",
+   "value": [
+    1.2,
+    1.2
+   ],
+   "evidence": "FEV1 1.2 L",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "creatinine_mg_dl": {
+   "status": "value",
+   "value": [
+    0.8,
+    0.8
+   ],
+   "evidence": "creatinine 0.8 mg/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "crcl_ml_min": {
+   "status": "value",
+   "value": [
+    45.0,
+    Infinity
+   ],
+   "evidence": "calculated CrCl > 45 mL/min",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "anc_k_ul": {
+   "status": "value",
+   "value": [
+    4.3,
+    4.3
+   ],
+   "evidence": "ANC 4.3 x10^3/µL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "platelets_k_ul": {
+   "status": "value",
+   "value": [
+    269.0,
+    269.0
+   ],
+   "evidence": "platelets 269k/µL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "hemoglobin_g_dl": {
+   "status": "value",
+   "value": [
+    15.1,
+    15.1
+   ],
+   "evidence": "hemoglobin 15.1 g/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "bilirubin_mg_dl": {
+   "status": "value",
+   "value": [
+    0.7,
+    0.7
+   ],
+   "evidence": "bilirubin 0.7 mg/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "brain_mets": {
+   "status": "negated",
+   "value": "none",
+   "evidence": "brain MRI is negative for metastases",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "tnm_t": {
+   "status": "value",
+   "value": "T3",
+   "evidence": "T3N2M0",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_n": {
+   "status": "value",
+   "value": "N2",
+   "evidence": "T3N2M0",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_m": {
+   "status": "value",
+   "value": "M0",
+   "evidence": "T3N2M0",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "unstable_angina": {
+   "status": "value",
+   "value": true,
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  }
+ },
+ "therapy_status": "value",
+ "events": [
+  {
+   "cls": "chemo",
+   "agents": [],
+   "line": null,
+   "setting": null,
+   "thoracic": null,
+   "months_ago": null,
+   "ongoing": null,
+   "evidence": null,
+   "verified": false
+  },
+  {
+   "cls": "radio",
+   "agents": [],
+   "line": null,
+   "setting": null,
+   "thoracic": null,
+   "months_ago": null,
+   "ongoing": null,
+   "evidence": null,
+   "verified": false
+  }
+ ],
+ "lines_of_therapy": null,
+ "reader_meta": {
+  "reader": "edge_proxy",
+  "conflicts": [],
+  "therapy_verified": false,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "cached": true,
+   "latency_s": 11.994
+  }
+ }
+}

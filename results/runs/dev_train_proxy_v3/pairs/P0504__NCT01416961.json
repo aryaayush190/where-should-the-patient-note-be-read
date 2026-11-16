@@ -1,0 +1,396 @@
+{
+ "pair_id": "P0504__NCT01416961",
+ "patient_id": "P0504",
+ "trial_id": "NCT01416961",
+ "label": 0,
+ "selective": "NOT_ELIGIBLE",
+ "forced": "NOT_ELIGIBLE",
+ "n_l2": 0,
+ "n_forced_unknown": 0,
+ "n_provisional": 5,
+ "u": 2.5,
+ "asks": [
+  {
+   "atom": "c0A3",
+   "category": "LABS",
+   "question": "Is the absolute neutrophil count \u2265\u202f1.5\u202f\u00d7\u202f10\u2079/L (1.5\u202f\u00d7\u202f10\u00b3/\u00b5L)?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A4",
+   "category": "LABS",
+   "question": "Is the platelet count \u2265\u202f100\u202f\u00d7\u202f10\u00b3/\u00b5L?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A5",
+   "category": "FEV1",
+   "question": "Is serum creatinine \u2264\u202f1.5\u202f\u00d7\u202fULN?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A6",
+   "category": "LABS",
+   "question": "Is calculated creatinine clearance \u2265\u202f45\u202fmL/min?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A7",
+   "category": "FEV1",
+   "question": "Is serum bilirubin \u2264\u202fULN?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A8",
+   "category": "LABS",
+   "question": "Is AST \u2264\u202f1.5\u202f\u00d7\u202fULN?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A9",
+   "category": "LABS",
+   "question": "Is ALT \u2264\u202f1.5\u202f\u00d7\u202fULN?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A10",
+   "category": "OTHER",
+   "question": "Is alkaline phosphatase \u2264\u202f2.5\u202f\u00d7\u202fULN?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A11",
+   "category": "FEV1",
+   "question": "Is FEV1 \u2265\u202f1\u202fL?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A12",
+   "category": "OTHER",
+   "question": "Is DLCO >\u202f50\u202f% of predicted?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A18",
+   "category": "OTHER",
+   "question": "Does the patient have a concurrent or prior malignancy that could affect study outcomes?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c0A22",
+   "category": "CARDIAC",
+   "question": "Has the patient had an MI or CV event within the past 6\u202fmonths?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A23",
+   "category": "OTHER",
+   "question": "Does the patient have chronic hepatitis, HIV, or an active bacterial infection?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A24",
+   "category": "OTHER",
+   "question": "Is the patient unable or unwilling to take folic acid, vitamin\u202fB12, or dexamethasone?",
+   "answerable_by": "patient"
+  },
+  {
+   "atom": "c0A26",
+   "category": "OTHER",
+   "question": "Is the patient currently lactating?",
+   "answerable_by": "patient"
+  },
+  {
+   "atom": "c0A28",
+   "category": "OTHER",
+   "question": "Is the patient enrolled in any other investigational therapeutic study?",
+   "answerable_by": "record"
+  }
+ ],
+ "n_atoms": 29,
+ "trace": [
+  {
+   "atom": "c0A0",
+   "type": "ANY",
+   "pol": "inclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "l1": "F",
+   "route": "exclude:program+l1"
+  },
+  {
+   "atom": "c0A1",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A2",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A3",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A4",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A5",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A6",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A7",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A8",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A9",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A10",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A11",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A12",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A13",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A14",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A15",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A16",
+   "type": "HAS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A17",
+   "type": "HAS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A18",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A19",
+   "type": "CMP",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A20",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A21",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A22",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A23",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A24",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A25",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A26",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A27",
+   "type": "UNSCREENABLE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A28",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  }
+ ],
+ "site_verify": [
+  "Signed informed consent that details the investigational nature of the study according to institutional and federal guidelines.",
+  "Registered with Clinical Trials Office at Karmanos Cancer Institute/Wayne State University.",
+  "Pregnant or lactating women. All pre-menopausal and peri-menopausal women should have a urine test for pregnancy within a week of starting therapy. All patients of child bearing potential should agree to use an effective contraceptive method."
+ ]
+}

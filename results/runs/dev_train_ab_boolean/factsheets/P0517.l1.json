@@ -1,0 +1,312 @@
+{
+ "03e9c338e3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0428ad8fbf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "06b0302702": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "09450c1c3f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "098c176bf9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1366b4ab78": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "14ccca429b": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "stage IIIB with prior chemotherapy 3-6 months ago"
+ },
+ "1565b8bf0b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "15dad95720": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1bcb3429fa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1d70d5faca": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1f565f60a2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "2b0b11e5cb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "386e6eff24": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3ec3d228fa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3f5ef0df75": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "422c49f372": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "46ac9fd47d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4b4f05ae68": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "553cd52031": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "prior systemic chemotherapy 3-6 months ago"
+ },
+ "56e59e578b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5b5700b6c7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5bb82fd6d8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5e83c22799": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "606bcee8f4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6df4b3a1d4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "730d8b6b4c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "735248f9e2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "76c72e85b5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "77559690b3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "775ded288f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7958c72354": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7bd0fb558f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7fd1031fb0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "80052e760d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "83a8f9e336": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "86ff93829f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "87caa41a10": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8f20d19f08": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "chemotherapy 3-6 months ago, not within 4 weeks"
+ },
+ "961a1d1d42": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "brain metastases present, distant metastases exist"
+ },
+ "984dd3970c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a0eabff41b": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "received chemotherapy 3-6 months ago"
+ },
+ "b11de9a6e9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b7d0d32b78": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "be6a282f9b": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "brain metastases present, regional/distant metastases exist"
+ },
+ "c5483a2e0a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c8a1c292bd": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no severe cerebral, cardiac, or vascular disease mentioned"
+ },
+ "ca9309ffd5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cd4e10b83b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cd7fa4572d": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "stable brain metastases, no active neurologic disease"
+ },
+ "d5e05d5bfc": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e072202eae": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e2af713b2d": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "T3 tumor >3 cm"
+ },
+ "e3af1cca71": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e485fd72f8": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "patient is T3N2M0, not T1N0M0"
+ },
+ "eafb6cb79f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "eba8f701b4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ee465feefa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f18e74a770": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f2280d1d9e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f277661871": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "fdebab3d73": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ }
+}

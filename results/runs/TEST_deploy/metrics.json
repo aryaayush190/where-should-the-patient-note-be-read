@@ -1,0 +1,61 @@
+{
+ "n": 270,
+ "forced": {
+  "coverage": 1.0,
+  "acc_all": 0.7703703703703704,
+  "acc_decided": 0.7703703703703704,
+  "precision": 0.5466666666666666,
+  "recall": 0.5942028985507246,
+  "f1": 0.5694444444444444,
+  "tp": 41,
+  "fp": 34,
+  "fn": 28,
+  "tn": 167,
+  "dist": {
+   "NOT_ELIGIBLE": 195,
+   "ELIGIBLE": 75
+  }
+ },
+ "selective": {
+  "coverage": 0.8111111111111111,
+  "acc_all": 0.7,
+  "acc_decided": 0.863013698630137,
+  "precision": 0.88,
+  "recall": 0.4489795918367347,
+  "f1": 0.5945945945945946,
+  "tp": 22,
+  "fp": 3,
+  "fn": 27,
+  "tn": 167,
+  "dist": {
+   "NOT_ELIGIBLE": 194,
+   "DEFER": 28,
+   "ELIGIBLE": 25,
+   "NEED_INFO": 23
+  }
+ },
+ "pending_as_eligible": {
+  "coverage": 0.8962962962962963,
+  "acc_decided": 0.8223140495867769,
+  "precision": 0.6666666666666666,
+  "recall": 0.5423728813559322,
+  "f1": 0.5981308411214954,
+  "tp": 32,
+  "fp": 16,
+  "fn": 27,
+  "tn": 167
+ },
+ "mean_l2_per_pair": 2.1037037037037036,
+ "offline_decided": 0.1925925925925926,
+ "config": {
+  "split": "test",
+  "edge": "local",
+  "name": "TEST_deploy",
+  "hard_veto": false,
+  "no_l1": false,
+  "no_l2": false,
+  "boolean_only": false,
+  "programs_variant": "",
+  "factsheets_from": ""
+ }
+}

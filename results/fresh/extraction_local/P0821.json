@@ -1,0 +1,268 @@
+{
+ "patient_id": "P0821",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    83.0,
+    83.0
+   ],
+   "evidence": "83-year-old",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "female",
+   "evidence": "has histologically confirmed squamous cell carcinoma of the lung",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "histologically confirmed squamous cell carcinoma of the lung",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "histology": {
+   "status": "value",
+   "value": "squamous",
+   "evidence": "histologically confirmed squamous cell carcinoma of the lung",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IV",
+   "evidence": "staged as IV (T3N2M1b)",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "progressed_after_prior",
+   "evidence": "The disease has progressed following prior systemic therapy",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "measurable_disease": {
+   "status": "value",
+   "value": true,
+   "evidence": "Imaging shows measurable disease per RECIST v1.1",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "malignant_effusion": {
+   "status": "value",
+   "value": true,
+   "evidence": "A malignant pleural effusion is present",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ecog": {
+   "status": "value",
+   "value": [
+    1.0,
+    1.0
+   ],
+   "evidence": "has an ECOG performance status of -1",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "egfr": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular profiling showed no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "alk": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular profiling showed no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "ros1": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular profiling showed no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "kras": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular profiling showed no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "ret": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular profiling showed no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "braf": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular profiling showed no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "met": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular profiling showed no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "tnm_t": {
+   "status": "value",
+   "value": "T3",
+   "evidence": "staged as IV (T3N2M1b)",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_n": {
+   "status": "value",
+   "value": "N2",
+   "evidence": "staged as IV (T3N2M1b)",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_m": {
+   "status": "value",
+   "value": "M1B",
+   "evidence": "staged as IV (T3N2M1b)",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  }
+ },
+ "therapy_status": "value",
+ "events": [
+  {
+   "cls": "systemic",
+   "agents": [
+    "chemotherapy"
+   ],
+   "line": null,
+   "setting": "prior",
+   "thoracic": null,
+   "months_ago": [
+    3.0,
+    6.0
+   ],
+   "ongoing": false,
+   "evidence": "previously received chemotherapy, radiotherapy, immunotherapy (3-6 months ago)",
+   "verified": false
+  },
+  {
+   "cls": "radio",
+   "agents": [
+    "radiotherapy"
+   ],
+   "line": null,
+   "setting": "prior",
+   "thoracic": true,
+   "months_ago": [
+    3.0,
+    6.0
+   ],
+   "ongoing": false,
+   "evidence": "previously received chemotherapy, radiotherapy, immunotherapy (3-6 months ago)",
+   "verified": true
+  },
+  {
+   "cls": "io",
+   "agents": [
+    "immunotherapy"
+   ],
+   "line": null,
+   "setting": "prior",
+   "thoracic": null,
+   "months_ago": [
+    3.0,
+    6.0
+   ],
+   "ongoing": false,
+   "evidence": "previously received chemotherapy, radiotherapy, immunotherapy (3-6 months ago)",
+   "verified": true
+  }
+ ],
+ "lines_of_therapy": null,
+ "reader_meta": {
+  "reader": "edge_local",
+  "conflicts": [
+   "egfr",
+   "alk",
+   "ros1",
+   "kras",
+   "ret",
+   "braf",
+   "met"
+  ],
+  "therapy_verified": false,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 211.721,
+   "prompt_tokens": 1443,
+   "gen_tokens": 1411,
+   "prompt_s": 3.089,
+   "gen_s": 206.552,
+   "load_s": 0.008
+  }
+ }
+}

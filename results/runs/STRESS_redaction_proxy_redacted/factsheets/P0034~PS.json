@@ -1,0 +1,252 @@
+{
+ "patient_id": "P0034~PS",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    76.0,
+    76.0
+   ],
+   "evidence": "76-year-old female",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "female",
+   "evidence": "76-year-old female",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "NSCLC",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "histology": {
+   "status": "value",
+   "value": "adenocarcinoma",
+   "evidence": "adenocarcinoma",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IIIB",
+   "evidence": "IIIB",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "measurable_disease": {
+   "status": "value",
+   "value": true,
+   "evidence": "measurable disease per RECIST v1.1",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "progressed_after_prior",
+   "evidence": "progressed following prior chemotherapy and TKI therapy",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ros1": {
+   "status": "value",
+   "value": "positive",
+   "evidence": "ROS1 fusion",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "brain_mets": {
+   "status": "value",
+   "value": "treated_stable",
+   "evidence": "Brain metastases are treated and currently stable",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "creatinine_mg_dl": {
+   "status": "value",
+   "value": [
+    0.8,
+    0.8
+   ],
+   "evidence": "creatinine 0.8 mg/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "anc_k_ul": {
+   "status": "value",
+   "value": [
+    3.6,
+    3.6
+   ],
+   "evidence": "ANC 3.6 x10^3",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "platelets_k_ul": {
+   "status": "value",
+   "value": [
+    292.0,
+    292.0
+   ],
+   "evidence": "platelets 292k",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "hemoglobin_g_dl": {
+   "status": "value",
+   "value": [
+    14.4,
+    14.4
+   ],
+   "evidence": "hemoglobin 14.4 g/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "bilirubin_mg_dl": {
+   "status": "value",
+   "value": [
+    1.0,
+    1.0
+   ],
+   "evidence": "bilirubin 1.0 mg/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "active_infection": {
+   "status": "negated",
+   "value": null,
+   "evidence": "No active infections",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_t": {
+   "status": "value",
+   "value": "T3",
+   "evidence": "T3N2M0",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_n": {
+   "status": "value",
+   "value": "N2",
+   "evidence": "T3N2M0",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_m": {
+   "status": "value",
+   "value": "M0",
+   "evidence": "T3N2M0",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  }
+ },
+ "therapy_status": "value",
+ "events": [
+  {
+   "cls": "chemo",
+   "agents": [
+    "chemotherapy"
+   ],
+   "line": null,
+   "setting": "advanced",
+   "thoracic": null,
+   "months_ago": [
+    3.0,
+    Infinity
+   ],
+   "ongoing": false,
+   "evidence": "prior chemotherapy and TKI therapy completed over 3 months ago",
+   "verified": true
+  },
+  {
+   "cls": "tki",
+   "agents": [
+    "tki"
+   ],
+   "line": null,
+   "setting": "advanced",
+   "thoracic": null,
+   "months_ago": [
+    3.0,
+    Infinity
+   ],
+   "ongoing": false,
+   "evidence": "prior chemotherapy and TKI therapy completed over 3 months ago",
+   "verified": true
+  }
+ ],
+ "lines_of_therapy": [
+  2.0,
+  2.0
+ ],
+ "reader_meta": {
+  "reader": "edge_proxy",
+  "conflicts": [],
+  "therapy_verified": true,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 3.512
+  }
+ }
+}

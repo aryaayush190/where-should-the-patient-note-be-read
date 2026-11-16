@@ -1,0 +1,236 @@
+{
+ "patient_id": "P0009~noisy",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    76.0,
+    76.0
+   ],
+   "evidence": "76-year-old female",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "female",
+   "evidence": "76-year-old female",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "NSCLC not otherwise specified",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "histology": {
+   "status": "value",
+   "value": "nos",
+   "evidence": "not otherwise specified",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IV",
+   "evidence": "stage IV",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "measurable_disease": {
+   "status": "value",
+   "value": true,
+   "evidence": "measurable disease per RECIST v1.1 (≥ 10 mm longest diameter)",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": false
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "newly_diagnosed",
+   "evidence": "pt chemo-naïve for advanced disease (no prior systemic therapy for metastatic disease)",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "fev1_pct": {
+   "status": "value",
+   "value": [
+    49.0,
+    49.0
+   ],
+   "evidence": "FEV1 of 49% predicted",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "egfr": {
+   "status": "value",
+   "value": "negative",
+   "evidence": "no actionable driver mutation",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "alk": {
+   "status": "value",
+   "value": "negative",
+   "evidence": "no actionable driver mutation",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ros1": {
+   "status": "value",
+   "value": "negative",
+   "evidence": "no actionable driver mutation",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "kras": {
+   "status": "value",
+   "value": "negative",
+   "evidence": "no actionable driver mutation",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ret": {
+   "status": "value",
+   "value": "negative",
+   "evidence": "no actionable driver mutation",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "braf": {
+   "status": "value",
+   "value": "negative",
+   "evidence": "no actionable driver mutation",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "met": {
+   "status": "value",
+   "value": "negative",
+   "evidence": "no actionable driver mutation",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "unstable_angina": {
+   "status": "negated",
+   "value": null,
+   "evidence": "no h/o of significant cardiovascular events",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "chf": {
+   "status": "negated",
+   "value": null,
+   "evidence": "no h/o of significant cardiovascular events",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "tnm_t": {
+   "status": "value",
+   "value": "T4",
+   "evidence": "T4N3M1c",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "tnm_n": {
+   "status": "value",
+   "value": "N3",
+   "evidence": "T4N3M1c",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "tnm_m": {
+   "status": "value",
+   "value": "M1C",
+   "evidence": "T4N3M1c",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  }
+ },
+ "therapy_status": "value",
+ "events": [
+  {
+   "cls": "systemic",
+   "agents": [],
+   "line": null,
+   "setting": "adjuvant",
+   "thoracic": null,
+   "months_ago": [
+    3.0,
+    Infinity
+   ],
+   "ongoing": false,
+   "evidence": "any prior adjuvant chemo completed more than 3 mo ago",
+   "verified": false
+  }
+ ],
+ "lines_of_therapy": [
+  0.0,
+  0.0
+ ],
+ "reader_meta": {
+  "reader": "edge_proxy",
+  "conflicts": [],
+  "therapy_verified": false,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 5.428
+  }
+ }
+}

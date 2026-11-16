@@ -1,0 +1,368 @@
+{
+ "pair_id": "P0527__NCT00410059",
+ "patient_id": "P0527",
+ "trial_id": "NCT00410059",
+ "label": 1,
+ "selective": "NEED_INFO",
+ "forced": "ELIGIBLE",
+ "n_l2": 30,
+ "n_forced_unknown": 16,
+ "n_provisional": 8,
+ "u": 50.0,
+ "asks": [
+  {
+   "atom": "c0A13",
+   "category": "LABS",
+   "question": "Is ALT \u22642.5\u202f\u00d7\u202fULN?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A14",
+   "category": "OTHER",
+   "question": "Is alkaline phosphatase \u22642.5\u202f\u00d7\u202fULN?",
+   "answerable_by": "record"
+  }
+ ],
+ "n_atoms": 34,
+ "trace": [
+  {
+   "atom": "c0A0",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A1",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A2",
+   "type": "COUNT",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A3",
+   "type": "WITHIN",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "l2": "U",
+   "route": "defer"
+  },
+  {
+   "atom": "c0A4",
+   "type": "IS",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A5",
+   "type": "ANY",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A6",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "l2": "U",
+   "route": "defer"
+  },
+  {
+   "atom": "c0A7",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A8",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A9",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "l2": "U",
+   "route": "defer"
+  },
+  {
+   "atom": "c0A10",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A11",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A12",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "l2": "U",
+   "route": "defer"
+  },
+  {
+   "atom": "c0A13",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A14",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A15",
+   "type": "ANY",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A16",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "l2": "U",
+   "route": "defer"
+  },
+  {
+   "atom": "c0A17",
+   "type": "IF",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "l2": "U",
+   "route": "defer"
+  },
+  {
+   "atom": "c0A18",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A19",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A20",
+   "type": "IF",
+   "pol": "exclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": true,
+   "l1": "U",
+   "l2": "U",
+   "route": "defer"
+  },
+  {
+   "atom": "c0A21",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "l2": "U",
+   "route": "defer"
+  },
+  {
+   "atom": "c0A22",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "l2": "U",
+   "route": "defer"
+  },
+  {
+   "atom": "c0A23",
+   "type": "WITHIN",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "l2": "U",
+   "route": "defer"
+  },
+  {
+   "atom": "c0A24",
+   "type": "WITHIN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A25",
+   "type": "WITHIN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A26",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A27",
+   "type": "IF",
+   "pol": "exclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": true,
+   "l1": "U",
+   "l2": "U",
+   "route": "defer"
+  },
+  {
+   "atom": "c0A28",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A29",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A30",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "l2": "U",
+   "route": "defer"
+  },
+  {
+   "atom": "c0A31",
+   "type": "CMP",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A32",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "l2": "U",
+   "route": "defer"
+  },
+  {
+   "atom": "c0A33",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "l2": "U",
+   "route": "defer"
+  }
+ ],
+ "site_verify": [
+  "The patient has signed informed consent."
+ ]
+}

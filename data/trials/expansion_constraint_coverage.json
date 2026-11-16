@@ -1,0 +1,122 @@
+{
+  "seed": 3027,
+  "n_selected": 11,
+  "allocation": {
+    "Anti-angiogenic": 1,
+    "Chemoradiation": 1,
+    "Chemotherapy": 2,
+    "Immunotherapy": 1,
+    "Other/Novel-agent": 2,
+    "Targeted-TKI": 4
+  },
+  "summary_counts": {
+    "temporal_washout": 10,
+    "conditional": 7,
+    "inclusive_multistage": 6,
+    "quantified": 3
+  },
+  "rows": [
+    {
+      "trial_id": "NCT01703091",
+      "mechanism_class": "Anti-angiogenic",
+      "quantified": "",
+      "temporal_washout": "within 28 day",
+      "conditional": "",
+      "inclusive_multistage": "",
+      "review_flag": []
+    },
+    {
+      "trial_id": "NCT02357992",
+      "mechanism_class": "Chemoradiation",
+      "quantified": "",
+      "temporal_washout": "within 10 week",
+      "conditional": "except",
+      "inclusive_multistage": "(including suspicious but non-diagnostic uptake)",
+      "review_flag": []
+    },
+    {
+      "trial_id": "NCT00065182",
+      "mechanism_class": "Chemotherapy",
+      "quantified": "one prior chemotherapy",
+      "temporal_washout": "within 30 day",
+      "conditional": "",
+      "inclusive_multistage": "",
+      "review_flag": []
+    },
+    {
+      "trial_id": "NCT00408226",
+      "mechanism_class": "Chemotherapy",
+      "quantified": "one prior chemotherapy",
+      "temporal_washout": "within 28 day",
+      "conditional": "except",
+      "inclusive_multistage": "Stage IIIb (due to malignant pleural effusion or supraclavic",
+      "review_flag": [
+        "(nsclc-primary; note:solid tumor)"
+      ]
+    },
+    {
+      "trial_id": "NCT03022500",
+      "mechanism_class": "Immunotherapy",
+      "quantified": "",
+      "temporal_washout": "within 30 day",
+      "conditional": "",
+      "inclusive_multistage": "(including durvalumab and tremelimumab)",
+      "review_flag": []
+    },
+    {
+      "trial_id": "NCT02038699",
+      "mechanism_class": "Other/Novel-agent",
+      "quantified": "",
+      "temporal_washout": "within 28 day",
+      "conditional": "except",
+      "inclusive_multistage": "",
+      "review_flag": []
+    },
+    {
+      "trial_id": "NCT03053804",
+      "mechanism_class": "Other/Novel-agent",
+      "quantified": "",
+      "temporal_washout": "",
+      "conditional": "",
+      "inclusive_multistage": "",
+      "review_flag": []
+    },
+    {
+      "trial_id": "NCT00977470",
+      "mechanism_class": "Targeted-TKI",
+      "quantified": "",
+      "temporal_washout": "in the past 3 year",
+      "conditional": "provided that",
+      "inclusive_multistage": "",
+      "review_flag": []
+    },
+    {
+      "trial_id": "NCT01542437",
+      "mechanism_class": "Targeted-TKI",
+      "quantified": "3 or more prior chemotherapy",
+      "temporal_washout": "in the previous 5 year",
+      "conditional": "except",
+      "inclusive_multistage": "stage IIIB or IV",
+      "review_flag": []
+    },
+    {
+      "trial_id": "NCT03087448",
+      "mechanism_class": "Targeted-TKI",
+      "quantified": "",
+      "temporal_washout": "within 3 day",
+      "conditional": "except",
+      "inclusive_multistage": "stage IIIB or IV",
+      "review_flag": []
+    },
+    {
+      "trial_id": "NCT03602027",
+      "mechanism_class": "Targeted-TKI",
+      "quantified": "",
+      "temporal_washout": "6 months before",
+      "conditional": "except",
+      "inclusive_multistage": "stage III or IV",
+      "review_flag": []
+    }
+  ],
+  "note": "Refreshed to the final 11 after clinical-relevance review removed NCT03502330 (melanoma/NSCLC/RCC basket), NCT00372203 & NCT04828850 (EBUS diagnostic procedures). Kept NCT00408226 (NSCLC phase-2 cohort). Matches trials_development_expansion.jsonl."
+}

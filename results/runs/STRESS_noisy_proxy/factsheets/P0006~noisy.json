@@ -1,0 +1,173 @@
+{
+ "patient_id": "P0006~noisy",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    67.0,
+    67.0
+   ],
+   "evidence": "67-year-old male",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "male",
+   "evidence": "male",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "NSCLC",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "histology": {
+   "status": "value",
+   "value": "large_cell",
+   "evidence": "large cell carcinoma",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IIIB",
+   "evidence": "clinical stage IIIB",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "measurable_disease": {
+   "status": "value",
+   "value": true,
+   "evidence": "measurable disease per RECIST v1.1",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "recurrent",
+   "evidence": "recurrent disease after previous treatment",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": false
+  },
+  "kps": {
+   "status": "value",
+   "value": [
+    80.0,
+    80.0
+   ],
+   "evidence": "Karnofsky PS 80",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "egfr": {
+   "status": "value",
+   "value": "positive",
+   "evidence": "EGFR L858R",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "neuropathy_grade": {
+   "status": "value",
+   "value": [
+    2.0,
+    2.0
+   ],
+   "evidence": "peripheral neuropathy Grade 2",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_t": {
+   "status": "value",
+   "value": "T2",
+   "evidence": "T2N3M0",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_n": {
+   "status": "value",
+   "value": "N3",
+   "evidence": "T2N3M0",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_m": {
+   "status": "value",
+   "value": "M0",
+   "evidence": "T2N3M0",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  }
+ },
+ "therapy_status": "value",
+ "events": [
+  {
+   "cls": "io",
+   "agents": [
+    "immunotherapy"
+   ],
+   "line": null,
+   "setting": null,
+   "thoracic": null,
+   "months_ago": [
+    1.0,
+    3.0
+   ],
+   "ongoing": false,
+   "evidence": "He s/p immmunotherapy (1-3 mo ago).",
+   "verified": false
+  }
+ ],
+ "lines_of_therapy": null,
+ "reader_meta": {
+  "reader": "edge_proxy",
+  "conflicts": [],
+  "therapy_verified": false,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 2.714
+  }
+ }
+}

@@ -1,0 +1,466 @@
+{
+ "pair_id": "P0529__NCT04023617",
+ "patient_id": "P0529",
+ "trial_id": "NCT04023617",
+ "label": 0,
+ "selective": "NOT_ELIGIBLE",
+ "forced": "NOT_ELIGIBLE",
+ "n_l2": 1,
+ "n_forced_unknown": 0,
+ "n_provisional": 17,
+ "u": 9.5,
+ "asks": [
+  {
+   "atom": "c0A10",
+   "category": "OTHER",
+   "question": "Is the expected survival at least 12 weeks?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A12",
+   "category": "LABS",
+   "question": "What is the patient\u2019s hemoglobin level?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A13",
+   "category": "LABS",
+   "question": "What is the patient\u2019s absolute neutrophil count?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A14",
+   "category": "LABS",
+   "question": "What is the patient\u2019s platelet count?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A15",
+   "category": "LABS",
+   "question": "Is the total bilirubin \u22641.5\u202f\u00d7\u202fULN?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A16",
+   "category": "LABS",
+   "question": "Can you confirm: Serum total bilirubin \u2264 1.5 \u00d7 normal upper limit (ULN); for patients with liver metastasis, serum total bilirubin \u2264 5 \u00d7 normal upper limit (ULN).?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A17",
+   "category": "LABS",
+   "question": "Is AST \u22642.5\u202f\u00d7\u202fULN?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A18",
+   "category": "LABS",
+   "question": "Is ALT \u22642.5\u202f\u00d7\u202fULN?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A19",
+   "category": "LABS",
+   "question": "What are the AST/ALT levels?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A20",
+   "category": "LABS",
+   "question": "Is serum creatinine \u22641.5\u202f\u00d7\u202fULN?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A26",
+   "category": "PRIOR_THERAPY",
+   "question": "Can you confirm: large area radiotherapy (non\u2011palliative bone)?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A27",
+   "category": "EFFUSION",
+   "question": "Can you confirm: clinically uncontrolled pericardial, pleural or ascitic effusion requiring drainage within 2 weeks?",
+   "answerable_by": "record"
+  }
+ ],
+ "n_atoms": 39,
+ "trace": [
+  {
+   "atom": "c0A0",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A1",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A2",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A3",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A4",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "l1": "F",
+   "route": "exclude:program+l1"
+  },
+  {
+   "atom": "c0A5",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "l2": "F",
+   "route": "exclude:program+l2"
+  },
+  {
+   "atom": "c0A6",
+   "type": "IF",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c0A7",
+   "type": "COUNT",
+   "pol": "inclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "l1": "F",
+   "route": "exclude:program+l1"
+  },
+  {
+   "atom": "c0A8",
+   "type": "IS",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c0A9",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A10",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A11",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A12",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A13",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A14",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A15",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A16",
+   "type": "IF",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A17",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A18",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A19",
+   "type": "IF",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A20",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A21",
+   "type": "IS",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A22",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A23",
+   "type": "ANY",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A24",
+   "type": "WITHIN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A25",
+   "type": "ANY",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A26",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A27",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A28",
+   "type": "ALL",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c1A0",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "F",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c1A1",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c1A2",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c1A3",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c1A4",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c1A5",
+   "type": "IN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c1A6",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c1A7",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c1A8",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c1A9",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  }
+ ],
+ "site_verify": [
+  "Has adequate organ and bone marrow function, defined as follows:",
+  "Written informed consent was signed prior to the experiment."
+ ]
+}

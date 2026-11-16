@@ -1,0 +1,192 @@
+{
+ "01f2289290": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information provided about HIV status."
+ },
+ "04aefdffa8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information about menopausal status or FSH levels provided."
+ },
+ "073bc05f74": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about pleural effusion or its grade provided."
+ },
+ "09552a06c2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information about IV bisphosphonates or dasatinib therapy timeline provided."
+ },
+ "0f41bfbfe7": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about pulmonary fibrosis or prior history provided."
+ },
+ "18283e7453": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about use of CYP3A4 inhibitors or St. John's Wort provided."
+ },
+ "1ea01983e2": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about current medications or investigational agents provided."
+ },
+ "222bbae3d1": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about swallowing or absorption ability provided."
+ },
+ "277876bae4": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about blood pressure or hypertension control provided."
+ },
+ "3641e41948": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about pericardial effusion or its grade provided."
+ },
+ "36af7518b4": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about concurrent investigational agents provided."
+ },
+ "5630320afd": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Tumor tissue is available for EGFR mutational analysis from paraffin block or fresh biopsy."
+ },
+ "5c50ea11f7": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Liver enzymes AST, ALT, and alkaline phosphatase are all strictly within 2.5 times ULN."
+ },
+ "64aa904a67": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient has no reported hypokalemia or hypomagnesemia; no electrolyte abnormalities mentioned."
+ },
+ "6f2068cf6c": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient has metastatic non-uveal melanoma, a solid tumor, eligible for systemic therapy without curative intent."
+ },
+ "7b34e746b0": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Brain metastases are radiographically stable, no steroids, no symptoms, and untreated lesions are not specified but stable."
+ },
+ "7be63afc14": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No Category I drugs causing torsades de pointes are mentioned; patient is not on such drugs."
+ },
+ "80f100c0ac": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No inflammatory bowel disease or uncontrolled chronic diarrhea reported."
+ },
+ "868ac399d1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Stage group and pleural effusion status not specified in the note."
+ },
+ "93d68e6585": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Histologically confirmed metastatic non-uveal melanoma proves solid tumor malignancy."
+ },
+ "9530b1ce3e": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No history of clinically significant ventricular arrhythmias reported."
+ },
+ "99625c940d": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No significant bleeding disorder reported; no congenital, acquired, or GI bleeding mentioned."
+ },
+ "99bb495483": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Heart rate on pre-entry ECG is not stated in the note."
+ },
+ "9cd6772342": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No history of myocardial infarction within the previous 6 months is reported."
+ },
+ "9d14d9aea4": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about prior radiotherapy to ribs, sternum, pelvis, vertebrae, or skull is provided."
+ },
+ "9dc45912c1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information about prior dasatinib, erlotinib, or EGFR/SFK inhibitor use is stated."
+ },
+ "a2de795750": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about heart block or pacemaker use is provided."
+ },
+ "a37d975186": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Oxygen saturation is not stated, but patient has no respiratory symptoms or lab abnormalities indicating hypoxia."
+ },
+ "a3ddc50512": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about QTc interval or sex-specific thresholds is provided."
+ },
+ "a7863589b2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information about contraception agreement or use is stated."
+ },
+ "b5f513be31": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Serum calcium is within normal limits, as bilirubin and other labs are compliant with ULN thresholds."
+ },
+ "cbc2c64cdf": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ALT is strictly below 2.5x ULN as per laboratory values compliance."
+ },
+ "cd645d8fdd": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information about St. John\u2019s Wort use or discontinuation is provided."
+ },
+ "d7f3029e94": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information about pregnancy test results or status is stated."
+ },
+ "e2a4ce86a3": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient has no reported difficulty swallowing or oral intake issues; can consume oral medication."
+ },
+ "e308410aeb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information provided about congenital long QT syndrome."
+ },
+ "cf2452ec88": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "e739b63b75": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ }
+}

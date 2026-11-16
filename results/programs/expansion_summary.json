@@ -1,0 +1,239 @@
+{
+ "total": {
+  "lines": 285,
+  "atoms": 383,
+  "typed_atoms": 200,
+  "typed_atoms_agree": 143,
+  "downgraded": 57,
+  "agreement_rate": 0.715
+ },
+ "trials": [
+  {
+   "trial_id": "NCT01703091",
+   "lines": 23,
+   "atoms": 24,
+   "typed_atoms": 11,
+   "typed_atoms_agree": 7,
+   "downgraded": 4,
+   "types": {
+    "IN": 1,
+    "ANY": 1,
+    "COUNT": 1,
+    "IF": 2,
+    "CMP": 2,
+    "IS": 2,
+    "JUDGE": 13,
+    "WITHIN": 1,
+    "HAS": 1
+   },
+   "chunk_failures": [],
+   "secs": 801.9
+  },
+  {
+   "trial_id": "NCT02357992",
+   "lines": 19,
+   "atoms": 24,
+   "typed_atoms": 9,
+   "typed_atoms_agree": 5,
+   "downgraded": 4,
+   "types": {
+    "IN": 3,
+    "JUDGE": 12,
+    "CMP": 3,
+    "UNSCREENABLE": 3,
+    "HAS": 1,
+    "IS": 1,
+    "ANY": 1
+   },
+   "chunk_failures": [],
+   "secs": 801.9
+  },
+  {
+   "trial_id": "NCT00065182",
+   "lines": 20,
+   "atoms": 24,
+   "typed_atoms": 18,
+   "typed_atoms_agree": 10,
+   "downgraded": 8,
+   "types": {
+    "UNSCREENABLE": 1,
+    "CMP": 2,
+    "IN": 3,
+    "COUNT": 1,
+    "HAS": 3,
+    "JUDGE": 5,
+    "SINCE": 5,
+    "IS": 3,
+    "WITHIN": 1
+   },
+   "chunk_failures": [],
+   "secs": 801.9
+  },
+  {
+   "trial_id": "NCT00408226",
+   "lines": 23,
+   "atoms": 34,
+   "typed_atoms": 19,
+   "typed_atoms_agree": 15,
+   "downgraded": 4,
+   "types": {
+    "UNSCREENABLE": 3,
+    "JUDGE": 12,
+    "ANY": 1,
+    "HAS": 1,
+    "IS": 2,
+    "CMP": 10,
+    "WITHIN": 4,
+    "IN": 1
+   },
+   "chunk_failures": [
+    "no key in the pool can serve qwen/qwen3.8-27b"
+   ],
+   "secs": 801.9
+  },
+  {
+   "trial_id": "NCT03022500",
+   "lines": 18,
+   "atoms": 44,
+   "typed_atoms": 26,
+   "typed_atoms_agree": 19,
+   "downgraded": 7,
+   "types": {
+    "CMP": 9,
+    "IN": 4,
+    "JUDGE": 16,
+    "ANY": 1,
+    "IS": 9,
+    "UNSCREENABLE": 2,
+    "IF": 1,
+    "HAS": 1,
+    "WITHIN": 1
+   },
+   "chunk_failures": [],
+   "secs": 776.0
+  },
+  {
+   "trial_id": "NCT02038699",
+   "lines": 20,
+   "atoms": 40,
+   "typed_atoms": 26,
+   "typed_atoms_agree": 14,
+   "downgraded": 12,
+   "types": {
+    "IN": 4,
+    "JUDGE": 13,
+    "IS": 4,
+    "WITHIN": 6,
+    "CMP": 9,
+    "ANY": 1,
+    "UNSCREENABLE": 1,
+    "HAS": 1,
+    "IF": 1
+   },
+   "chunk_failures": [],
+   "secs": 771.4
+  },
+  {
+   "trial_id": "NCT03053804",
+   "lines": 9,
+   "atoms": 9,
+   "typed_atoms": 4,
+   "typed_atoms_agree": 3,
+   "downgraded": 1,
+   "types": {
+    "CMP": 2,
+    "IN": 1,
+    "UNSCREENABLE": 1,
+    "JUDGE": 4,
+    "IS": 1
+   },
+   "chunk_failures": [],
+   "secs": 769.8
+  },
+  {
+   "trial_id": "NCT00977470",
+   "lines": 22,
+   "atoms": 25,
+   "typed_atoms": 12,
+   "typed_atoms_agree": 9,
+   "downgraded": 3,
+   "types": {
+    "IN": 3,
+    "JUDGE": 12,
+    "CMP": 3,
+    "IS": 2,
+    "WITHIN": 2,
+    "HAS": 1,
+    "SINCE": 1,
+    "UNSCREENABLE": 1
+   },
+   "chunk_failures": [],
+   "secs": 759.7
+  },
+  {
+   "trial_id": "NCT01542437",
+   "lines": 17,
+   "atoms": 27,
+   "typed_atoms": 22,
+   "typed_atoms_agree": 19,
+   "downgraded": 3,
+   "types": {
+    "IN": 3,
+    "IS": 4,
+    "CMP": 8,
+    "COUNT": 1,
+    "SINCE": 2,
+    "ANY": 1,
+    "UNSCREENABLE": 3,
+    "IF": 2,
+    "HAS": 1,
+    "JUDGE": 2
+   },
+   "chunk_failures": [],
+   "secs": 738.5
+  },
+  {
+   "trial_id": "NCT03087448",
+   "lines": 69,
+   "atoms": 79,
+   "typed_atoms": 30,
+   "typed_atoms_agree": 23,
+   "downgraded": 7,
+   "types": {
+    "CMP": 7,
+    "JUDGE": 37,
+    "IF": 1,
+    "IN": 8,
+    "ANY": 5,
+    "IS": 2,
+    "UNSCREENABLE": 12,
+    "HAS": 3,
+    "WITHIN": 4
+   },
+   "chunk_failures": [
+    "no key in the pool can serve qwen/qwen3.8-27b"
+   ],
+   "secs": 727.0
+  },
+  {
+   "trial_id": "NCT03602027",
+   "lines": 45,
+   "atoms": 53,
+   "typed_atoms": 23,
+   "typed_atoms_agree": 19,
+   "downgraded": 4,
+   "types": {
+    "CMP": 9,
+    "JUDGE": 27,
+    "IN": 5,
+    "SINCE": 1,
+    "HAS": 3,
+    "IS": 3,
+    "ANY": 2,
+    "UNSCREENABLE": 3
+   },
+   "chunk_failures": [],
+   "secs": 706.8
+  }
+ ]
+}

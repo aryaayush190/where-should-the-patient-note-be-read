@@ -1,0 +1,244 @@
+{
+ "patient_id": "P0042",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    56.0,
+    56.0
+   ],
+   "evidence": "56-year-old female",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "female",
+   "evidence": "female patient",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "stage IV advanced nonsquamous non-small cell lung cancer",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IV",
+   "evidence": "stage IV advanced",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "measurable_disease": {
+   "status": "value",
+   "value": true,
+   "evidence": "Imaging per RECIST 1.1 confirms at least one intracranial target lesion and one extraciotic target lesion",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "newly_diagnosed",
+   "evidence": "completely treatment-naive for systemic therapy",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ecog": {
+   "status": "value",
+   "value": [
+    0.0,
+    0.0
+   ],
+   "evidence": "ECOG performance status of 0",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "egfr": {
+   "status": "value",
+   "value": "positive",
+   "evidence": "EGFR sensitive mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "brain_mets": {
+   "status": "value",
+   "value": "treated_stable",
+   "evidence": "currently stable brain metastases",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "malignant_effusion": {
+   "status": "negated",
+   "value": null,
+   "evidence": "no active pleural, pericardial, or peritoneal effusions",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "arrhythmia": {
+   "status": "value",
+   "value": "controlled",
+   "evidence": "controlled arrhythmia",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "active_infection": {
+   "status": "negated",
+   "value": null,
+   "evidence": "no active infections",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "steroids_systemic": {
+   "status": "negated",
+   "value": null,
+   "evidence": "no systemic corticosteroids",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "life_expectancy_months": {
+   "status": "value",
+   "value": [
+    2.76,
+    Infinity
+   ],
+   "evidence": "expected survival exceeding 12 weeks",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "creatinine_mg_dl": {
+   "status": "value",
+   "value": [
+    1.2,
+    1.2
+   ],
+   "evidence": "creatinine 1.2 mg/dL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "crcl_ml_min": {
+   "status": "value",
+   "value": [
+    1.2,
+    1.2
+   ],
+   "evidence": "with normal clearance",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "bilirubin_mg_dl": {
+   "status": "value",
+   "value": [
+    1.0,
+    1.0
+   ],
+   "evidence": "total bilirubin 1.0 mg/dL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "anc_k_ul": {
+   "status": "value",
+   "value": [
+    24.0,
+    24.0
+   ],
+   "evidence": "ANC 2.4 x times 10^3µL",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "platelets_k_ul": {
+   "status": "value",
+   "value": [
+    332.0,
+    332.0
+   ],
+   "evidence": "platelets 332kµL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "hemoglobin_g_dl": {
+   "status": "value",
+   "value": [
+    15.3,
+    15.3
+   ],
+   "evidence": "hemoglobin 15.3 g/dL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  }
+ },
+ "therapy_status": "negated",
+ "events": [],
+ "lines_of_therapy": null,
+ "reader_meta": {
+  "reader": "edge_local",
+  "conflicts": [],
+  "therapy_verified": true,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 303.451,
+   "prompt_tokens": 1675,
+   "gen_tokens": 1239,
+   "prompt_s": 15.41,
+   "gen_s": 285.037,
+   "load_s": 0.027
+  }
+ }
+}

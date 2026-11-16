@@ -1,0 +1,294 @@
+{
+ "patient_id": "P0011~PS~ans",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    49.0,
+    49.0
+   ],
+   "evidence": "49-year-old male",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "male",
+   "evidence": "male",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "NSCLC",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "histology": {
+   "status": "value",
+   "value": "nos",
+   "evidence": "not otherwise specified",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IIIA",
+   "evidence": "stage IIIA",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "measurable_disease": {
+   "status": "value",
+   "value": true,
+   "evidence": "measurable disease per RECIST v1.1",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "newly_diagnosed",
+   "evidence": "newly diagnosed",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ecog": {
+   "status": "value",
+   "value": [
+    2.0,
+    2.0
+   ],
+   "evidence": "ECOG performance status of 2",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "fev1_pct": {
+   "status": "value",
+   "value": [
+    65.0,
+    65.0
+   ],
+   "evidence": "FEV1 of 65% predicted",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "creatinine_mg_dl": {
+   "status": "value",
+   "value": [
+    1.1,
+    1.1
+   ],
+   "evidence": "creatinine 1.1 mg/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "anc_k_ul": {
+   "status": "value",
+   "value": [
+    3.2,
+    3.2
+   ],
+   "evidence": "ANC 3.2 × 10^3",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "platelets_k_ul": {
+   "status": "value",
+   "value": [
+    139.0,
+    139.0
+   ],
+   "evidence": "platelets 139k",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "hemoglobin_g_dl": {
+   "status": "value",
+   "value": [
+    10.8,
+    10.8
+   ],
+   "evidence": "hemoglobin 10.8 g/dL",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "bilirubin_mg_dl": {
+   "status": "value",
+   "value": [
+    2.1,
+    2.1
+   ],
+   "evidence": "bilirubin 2.1 mg/dL",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "brain_mets": {
+   "status": "negated",
+   "value": "none",
+   "evidence": "no intracranial disease",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "malignant_effusion": {
+   "status": "negated",
+   "value": null,
+   "evidence": "No pleural or pericardial effusion is present.",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "egfr": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular testing has not been performed.",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "alk": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular testing has not been performed.",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ros1": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular testing has not been performed.",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "kras": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular testing has not been performed.",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ret": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular testing has not been performed.",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "braf": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular testing has not been performed.",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "met": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular testing has not been performed.",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_t": {
+   "status": "value",
+   "value": "T2",
+   "evidence": "$T_2N_2M_0$",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "tnm_n": {
+   "status": "value",
+   "value": "N2",
+   "evidence": "$T_2N_2M_0$",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "tnm_m": {
+   "status": "value",
+   "value": "M0",
+   "evidence": "$T_2N_2M_0$",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  }
+ },
+ "therapy_status": "negated",
+ "events": [],
+ "lines_of_therapy": null,
+ "reader_meta": {
+  "reader": "edge_proxy",
+  "conflicts": [],
+  "therapy_verified": true,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 5.319
+  }
+ }
+}

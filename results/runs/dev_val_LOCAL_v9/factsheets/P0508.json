@@ -1,0 +1,289 @@
+{
+ "patient_id": "P0508",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    56.0,
+    56.0
+   ],
+   "evidence": "56-year-old",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "female",
+   "evidence": "Ms.",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": false
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "Stage IA (T1N0M0) adenocarcinoma of the lung",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "histology": {
+   "status": "value",
+   "value": "adenocarcinoma",
+   "evidence": "adenocarcinoma of the lung",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IA",
+   "evidence": "Stage IA (T1N0M0)",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "newly_diagnosed",
+   "evidence": "treatment-naïve",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "kps": {
+   "status": "value",
+   "value": [
+    90.0,
+    90.0
+   ],
+   "evidence": "Karnofsky Performance Status of 90",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ecog": {
+   "status": "value",
+   "value": [
+    0.0,
+    0.0
+   ],
+   "evidence": "ECOG 0",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "egfr": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "alk": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "ros1": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "kras": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "ret": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "braf": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "met": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "creatinine_mg_dl": {
+   "status": "value",
+   "value": [
+    0.8,
+    0.8
+   ],
+   "evidence": "creatinine 0.8 mg/dL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "bilirubin_mg_dl": {
+   "status": "value",
+   "value": [
+    1.1,
+    1.1
+   ],
+   "evidence": "bilirubin 1.1 mg/dL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "anc_k_ul": {
+   "status": "value",
+   "value": [
+    5.9,
+    5.9
+   ],
+   "evidence": "ANC 5.9 ×10³/µL",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "platelets_k_ul": {
+   "status": "value",
+   "value": [
+    320.0,
+    320.0
+   ],
+   "evidence": "platelets 320k/µL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "hemoglobin_g_dl": {
+   "status": "value",
+   "value": [
+    14.4,
+    14.4
+   ],
+   "evidence": "hemoglobin 14.4 g/dL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_t": {
+   "status": "value",
+   "value": "T1",
+   "evidence": "Stage IA (T1N0M0)",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_n": {
+   "status": "value",
+   "value": "N0",
+   "evidence": "Stage IA (T1N0M0)",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_m": {
+   "status": "value",
+   "value": "M0",
+   "evidence": "Stage IA (T1N0M0)",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "fev1_pct": {
+   "status": "value",
+   "value": [
+    84.0,
+    84.0
+   ],
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  }
+ },
+ "therapy_status": "negated",
+ "events": [],
+ "lines_of_therapy": null,
+ "reader_meta": {
+  "reader": "edge_local",
+  "conflicts": [
+   "egfr",
+   "alk",
+   "ros1",
+   "kras",
+   "ret",
+   "braf",
+   "met"
+  ],
+  "therapy_verified": true,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 200.643,
+   "prompt_tokens": 1591,
+   "gen_tokens": 1188,
+   "prompt_s": 8.533,
+   "gen_s": 190.035,
+   "load_s": 0.005
+  }
+ }
+}

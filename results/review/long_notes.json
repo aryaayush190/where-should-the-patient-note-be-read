@@ -1,0 +1,2155 @@
+{
+ "P0002": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for his scheduled follow‑up appointment on a Tuesday morning and completed the standard check‑in paperwork.",
+    "He confirmed his contact information and updated his mailing address for future correspondence.",
+    "Insurance verification was performed and the claim was approved for the upcoming visit.",
+    "The clinic staff printed a copy of the visit summary and placed it in the patient’s electronic record.",
+    "A reminder call was scheduled for the next quarterly visit.",
+    "The patient was provided with a copy of the clinic’s parking policy and a visitor pass for his daughter.",
+    "He signed the consent form for the release of his medical records to his primary care physician.",
+    "The billing department sent an invoice for the previous visit to his home address.",
+    "A follow‑up appointment was booked for three months later, with a note to confirm the time a week in advance."
+   ],
+   "social": [
+    "He enjoys gardening and spends several hours each weekend tending to his vegetable patch.",
+    "On rainy days he likes to read historical biographies and listen to classical music.",
+    "He is an avid fan of jazz and attends a local music club once a month.",
+    "The patient prefers a Mediterranean style diet, often preparing grilled fish, olive oil, and fresh salads at home.",
+    "He enjoys walking his dog, a golden retriever, in the nearby park during the early mornings.",
+    "During the winter months he participates in a community knitting circle that meets at the senior center.",
+    "He volunteers at the local library, helping to organize community events and book drives.",
+    "He likes to travel by train and has planned a weekend trip to a coastal town next summer."
+   ],
+   "family": [
+    "He lives with his wife of 42 years, who works part‑time as a school librarian.",
+    "They have two adult children; a daughter who is an elementary school teacher and a son who is a civil engineer.",
+    "His daughter lives nearby and often assists with grocery shopping and household errands.",
+    "The son recently purchased a house in the suburbs and frequently visits on weekends.",
+    "The family owns a small dog and a cat, both of which are indoor pets.",
+    "His wife enjoys baking and often brings homemade pastries to family gatherings.",
+    "The patient’s sister, who resides in another state, is retired and enjoys painting landscapes."
+   ],
+   "remote_history": [
+    "He underwent cataract surgery on his right eye approximately twelve years ago with an uncomplicated recovery.",
+    "A dental extraction of a molar was performed fifteen years ago due to decay, and the site healed without issue.",
+    "He received a routine eye exam and updated his glasses prescription ten years prior.",
+    "Ten years ago he had a minor skin lesion removed on his forearm, which was benign on pathology.",
+    "He had a routine colon screening colonoscopy eleven years ago with normal findings."
+   ],
+   "logistics": [
+    "The patient drives a sedan and parks in the clinic’s designated patient parking area.",
+    "He uses a mobility cane for occasional support when walking longer distances.",
+    "His daughter arranges rides for him using a ride‑share service when the clinic is busy.",
+    "The clinic provides a shuttle service from the main hospital entrance, which he has used on several occasions.",
+    "He prefers to receive appointment reminders via text message rather than phone calls.",
+    "The patient keeps a printed copy of his medication list in his wallet for reference during visits."
+   ],
+   "other_specialties": [
+    "He has an annual eye exam scheduled with his optometrist next month.",
+    "He attends a weekly physiotherapy class for gentle stretching and balance exercises.",
+    "He sees a dietitian quarterly for general nutrition counseling focused on heart‑healthy meals.",
+    "He has a standing appointment with a local podiatrist for routine foot care.",
+    "He participates in a community art class taught by a local painter."
+   ]
+  }
+ },
+ "P0004": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for his scheduled follow‑up appointment on a Tuesday morning and completed the registration paperwork at the front desk.",
+    "He confirmed his contact information and updated his emergency contact details during the check‑in process.",
+    "The clinic staff printed a copy of the visit summary and placed it in the patient’s electronic record.",
+    "A reminder call was scheduled for his next appointment two weeks from today.",
+    "The billing department verified insurance coverage and noted that the upcoming visit would be billed under his standard outpatient plan."
+   ],
+   "social": [
+    "He enjoys fishing on weekends and often spends time at the local lake with his friends.",
+    "In his spare time he likes to read historical novels and is a member of a book club that meets monthly.",
+    "He prefers a Mediterranean style diet, favoring olive oil, fresh vegetables, and grilled fish for most meals.",
+    "He volunteers at a community garden where he helps maintain vegetable plots for neighborhood families.",
+    "He is an avid fan of classic rock music and attends live concerts when they are in town."
+   ],
+   "family": [
+    "He lives with his wife, who works as a high school teacher, and their two teenage children, a son and a daughter.",
+    "His parents reside in a nearby suburb; his mother is retired and enjoys knitting, while his father is a retired carpenter.",
+    "His older brother is a software engineer who lives out of state and visits during holidays.",
+    "The family often gathers for Sunday brunch at a local diner, where they share meals and catch up on each other's week.",
+    "His aunt on his mother's side has osteoarthritis and uses a cane for mobility."
+   ],
+   "remote_history": [
+    "He had cataract surgery on his right eye approximately 12 years ago, which was performed without complications.",
+    "He underwent a routine dental extraction of a wisdom tooth about 15 years prior, with a smooth recovery.",
+    "He received a pair of prescription glasses for nearsightedness when he was in high school.",
+    "He had a minor skin lesion removed on his forearm when he was 28, and the procedure was performed in an outpatient dermatology clinic.",
+    "He completed a course of physical therapy for a sprained ankle during his college years, which resolved fully."
+   ],
+   "logistics": [
+    "He travels to the clinic by car and parks in the designated patient parking area near the entrance.",
+    "The clinic provides a shuttle service for patients who need assistance reaching the main hospital building.",
+    "He has been given printed directions to the imaging suite for any future appointments that may require it.",
+    "The scheduling coordinator confirmed that his next visit will be on a Thursday afternoon, allowing him to avoid peak traffic times.",
+    "He was offered the option to receive appointment reminders via text message, which he accepted."
+   ],
+   "other_specialties": [
+    "He was referred to the ophthalmology department for a routine eye exam next month.",
+    "He has a standing referral with a nutritionist to discuss balanced meal planning.",
+    "He sees a dentist twice a year for routine cleanings and check‑ups.",
+    "He has an upcoming appointment with a physical therapist to address occasional lower back stiffness.",
+    "He was provided with a contact list for the hospital’s social work team should he need assistance with community resources."
+   ]
+  }
+ },
+ "P0003": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for his scheduled follow‑up appointment on a Tuesday morning and completed the registration paperwork at the front desk.",
+    "He confirmed his contact information and updated his mailing address after moving to a nearby retirement community last year.",
+    "The clinic staff printed a copy of the visit summary and placed it in the patient portal for electronic access.",
+    "A reminder call was placed two days prior to the appointment to confirm attendance and to verify insurance eligibility.",
+    "The patient signed the consent form for the upcoming imaging study and received a copy for his records."
+   ],
+   "social": [
+    "He enjoys gardening in the community garden and tends to a small vegetable patch each spring.",
+    "In his free time, he participates in a weekly bridge club that meets at the local senior center.",
+    "He is an avid reader of historical biographies and often visits the public library on Saturdays.",
+    "The patient likes to listen to classic jazz on his portable radio while walking his dog in the park.",
+    "He prefers a Mediterranean‑style diet, favoring olive oil, fresh fish, and seasonal vegetables."
+   ],
+   "family": [
+    "He lives with his wife of 48 years in a single‑story bungalow near the clinic.",
+    "Their daughter, a schoolteacher, visits weekly and assists with grocery shopping.",
+    "He has two adult grandchildren who reside in neighboring states and call regularly via video chat.",
+    "His sister, who resides in a nearby town, helps with occasional home maintenance tasks.",
+    "The family reports a history of osteoarthritis in the paternal line and cataracts in the maternal line."
+   ],
+   "remote_history": [
+    "He underwent cataract extraction with intraocular lens placement approximately 15 years ago without complications.",
+    "A dental extraction of a molar was performed 12 years prior, and the site healed uneventfully.",
+    "He received a routine colonoscopy 13 years ago, which was normal and required no further intervention.",
+    "He had a minor skin lesion removed on his forearm 11 years ago, with pathology confirming a benign lesion.",
+    "He was fitted for prescription glasses after a routine eye exam 20 years ago and updates his prescription as needed."
+   ],
+   "logistics": [
+    "Transportation to the clinic is provided by a community shuttle service that picks him up from his residence each weekday.",
+    "He prefers to schedule appointments in the morning to avoid peak traffic on his commute.",
+    "The clinic arranged a referral to the radiology department for a scheduled CT scan next week.",
+    "He requested that all future appointment reminders be sent via email rather than text message.",
+    "The billing department confirmed that his insurance will cover the upcoming imaging study and sent an estimate of out‑of‑pocket costs."
+   ],
+   "other_specialties": [
+    "A referral was placed with the ophthalmology clinic for a routine retinal check in six months.",
+    "He was advised to schedule a dental cleaning with his long‑time dentist within the next quarter.",
+    "The nutrition services team offered a consultation to discuss heart‑healthy meal planning, which he accepted.",
+    "Physical therapy was suggested for a gentle stretching program to maintain mobility, and an initial evaluation is pending.",
+    "The social work department provided information on local senior activity groups and transportation assistance programs."
+   ]
+  }
+ },
+ "P0001": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for her scheduled follow‑up appointment at 9:15 am and completed the registration paperwork without difficulty.",
+    "She confirmed her contact information, noting a change of telephone number two weeks ago.",
+    "The clinic staff verified her insurance coverage and updated the billing address on file.",
+    "A reminder call was placed three days prior to the visit, and the patient acknowledged receipt of the reminder.",
+    "The patient signed the consent form for the upcoming routine imaging study and received a copy for her records."
+   ],
+   "social": [
+    "She lives independently in a single‑story home with her daughter, who visits daily to assist with meals and errands.",
+    "Her husband passed away several years ago; she maintains regular contact with her three adult grandchildren via video calls.",
+    "In her free time, she enjoys knitting scarves and attending a weekly book club at the local library.",
+    "She volunteers twice a month at the community garden, helping to tend vegetable plots and organize harvest festivals.",
+    "The patient prefers a Mediterranean‑style diet, often preparing grilled fish, olive oil‑based salads, and fresh fruit for breakfast."
+   ],
+   "family": [
+    "Her daughter, a retired schoolteacher, works part‑time as a tutor and helps coordinate transportation to appointments.",
+    "One of her grandchildren is a college student studying architecture and frequently shares photos of campus projects.",
+    "The patient’s sister, who resides nearby, has osteoarthritis of the knees and uses a cane for short distances.",
+    "Her brother, a retired electrician, enjoys woodworking and often builds small furniture pieces for family members.",
+    "There is a family history of cataract surgery in her mother, who underwent the procedure in her early seventies."
+   ],
+   "remote_history": [
+    "She underwent cataract extraction with intraocular lens placement in her right eye twelve years ago, reporting good visual outcome.",
+    "A dental extraction of a molar was performed fifteen years prior due to decay, with uncomplicated healing.",
+    "She received a routine colonoscopy ten years ago, which was normal and required no further intervention.",
+    "Ten years ago she had a minor skin lesion removed from her forearm, with pathology confirming a benign lesion.",
+    "She had a routine hearing test eleven years ago, which showed mild age‑related changes."
+   ],
+   "logistics": [
+    "Transportation to the clinic is provided by a community shuttle service that picks her up from her residence at 8:30 am.",
+    "The patient prefers to schedule appointments in the morning to avoid peak traffic hours.",
+    "She has a standing order for a repeat prescription refill, which will be mailed to her home address prior to the next visit.",
+    "The clinic has arranged for a follow‑up referral to the ophthalmology department for routine eye examination next month.",
+    "A copy of her recent imaging report will be faxed to her primary care physician for coordination of care."
+   ],
+   "other_specialties": [
+    "A referral to the nutrition services team was placed to discuss balanced meal planning and portion control.",
+    "She was scheduled for a physiotherapy assessment to address mild lower‑back stiffness and improve mobility.",
+    "The occupational therapy department will evaluate her home environment for any modifications that could enhance safety.",
+    "A social work consult is pending to explore community resources for senior activities and support groups.",
+    "The patient will be seen by the dental hygiene clinic in six weeks for a routine cleaning and oral health review."
+   ]
+  }
+ },
+ "P0005": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for her scheduled follow‑up appointment at 9:15 am and completed the registration paperwork without difficulty.",
+    "She confirmed her contact information and updated her mailing address, noting a recent move to a senior‑living community on Oak Street.",
+    "The clinic staff verified her insurance eligibility and processed the pre‑authorization for the upcoming imaging study.",
+    "A reminder call was placed two days prior to the visit, and the patient acknowledged receipt of the reminder via text message.",
+    "The patient signed the consent form for the routine annual health questionnaire and received a copy for her records."
+   ],
+   "social": [
+    "She enjoys gardening in the community greenhouse and tends to a small plot of roses and herbs each spring.",
+    "On weekends she attends a weekly book club at the local library, where members discuss classic literature.",
+    "The patient volunteers twice a month at the nearby animal shelter, helping to walk dogs and socialize cats.",
+    "She prefers a Mediterranean‑style diet, often preparing grilled fish, olive oil‑based salads, and fresh fruit for meals.",
+    "Her favorite pastime is knitting, and she recently completed a patterned blanket that she donated to a charity drive."
+   ],
+   "family": [
+    "The patient lives with her daughter, who works as a schoolteacher, and her grandson, a college student studying engineering.",
+    "Her son resides in another state and visits during holidays; he is retired and enjoys woodworking.",
+    "The family reports a history of osteoarthritis in the patient's mother and cataracts in her father, both managed conservatively.",
+    "Her sister, a retired librarian, lives nearby and assists with grocery shopping on a weekly basis.",
+    "The patient’s niece, a graphic designer, often helps with setting up video calls for family gatherings."
+   ],
+   "remote_history": [
+    "Approximately 15 years ago she underwent uncomplicated cataract extraction in the left eye and has used reading glasses since.",
+    "She had a dental extraction of a wisdom tooth in her early 60s without any reported complications.",
+    "In her 50s she received a routine colonoscopy that was normal and required no further intervention.",
+    "She had a minor skin lesion removed on her forearm about 12 years ago, which healed without issue.",
+    "A routine eye exam 11 years ago identified mild presbyopia, leading to the prescription of bifocal lenses."
+   ],
+   "logistics": [
+    "Transportation to the clinic is provided by a community shuttle service that picks her up from the senior residence each morning.",
+    "Parking permits have been arranged for her daughter, who accompanies her to appointments.",
+    "The clinic has scheduled her next MRI for next Thursday at 2:00 pm, and the appointment confirmation was emailed to her daughter.",
+    "A copy of the imaging request form was faxed to the radiology department earlier today.",
+    "The patient requested that all future correspondence be sent via email to reduce paper use."
+   ],
+   "other_specialties": [
+    "A referral to the ophthalmology department was placed for a routine retinal screening next month.",
+    "She was advised to schedule a dental cleaning with her long‑time dentist, who is located two blocks from the clinic.",
+    "The clinic’s nutritionist will meet with her during her next visit to discuss heart‑healthy meal planning.",
+    "A physical therapist was consulted to provide gentle stretching exercises for maintaining flexibility.",
+    "The patient was offered a consultation with the social work team to explore community resources for seniors."
+   ]
+  }
+ },
+ "P0006": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for his scheduled follow‑up appointment at 9:15 am and completed the registration paperwork.",
+    "He confirmed his contact information and updated his mailing address to the same residence on Oak Street.",
+    "The clinic staff verified his insurance coverage and noted that the upcoming visit is covered under his plan.",
+    "He signed the consent form for the routine outpatient visit and received a copy for his records."
+   ],
+   "social": [
+    "He lives alone in a two‑bedroom apartment and reports that his neighbor assists with grocery shopping.",
+    "His favorite pastime is gardening, and he spends several hours each weekend tending to his vegetable patch.",
+    "He enjoys listening to classic rock music and often tunes in to a local radio station while cooking.",
+    "He prefers a Mediterranean‑style diet, favoring olive oil, fresh fish, and a variety of vegetables."
+   ],
+   "family": [
+    "His daughter, a school teacher, lives nearby and visits him weekly for meals and conversation.",
+    "He has a brother who resides in a neighboring town and works as a carpenter; they speak on the phone regularly.",
+    "His sister, retired from a career in accounting, lives out of state and sends holiday cards each year.",
+    "There is a family history of osteoarthritis in his mother and cataracts in his father."
+   ],
+   "remote_history": [
+    "He underwent cataract surgery on his right eye in 2008 and reports good visual recovery.",
+    "In 2012 he had a dental extraction of a molar due to decay, with uncomplicated healing.",
+    "He received a routine colonoscopy in 2015, which was normal and required no further intervention.",
+    "He had a minor skin lesion removed on his forearm in 2017, with pathology confirming a benign result."
+   ],
+   "logistics": [
+    "Transportation to the clinic is provided by a community shuttle service that picks him up from his building.",
+    "He has a scheduled appointment with the nutrition services team next week to discuss meal planning.",
+    "A referral to the occupational therapy department has been placed for an ergonomic assessment of his home workspace.",
+    "The next routine blood draw is arranged for the following Monday at the on‑site laboratory."
+   ],
+   "other_specialties": [
+    "He has a standing referral to the ophthalmology clinic for annual eye examinations.",
+    "A consultation with the dental hygienist is planned to review oral hygiene practices.",
+    "He is on the waiting list for a physiotherapy evaluation to address mild joint stiffness.",
+    "The social work department will contact him to discuss community resources for senior activities."
+   ]
+  }
+ },
+ "P0007": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for his scheduled follow‑up appointment on a Tuesday morning and completed the registration paperwork at the front desk.",
+    "He confirmed his contact information and updated his emergency contact details during the check‑in process.",
+    "The clinic staff printed a copy of the visit summary and placed it in the patient portal for electronic access.",
+    "A reminder call was scheduled for the next appointment, which is set for six weeks from today.",
+    "The billing department verified insurance coverage and noted that the upcoming visit will be billed under his primary plan."
+   ],
+   "social": [
+    "He enjoys fishing on weekends and often joins a local angling club that meets at the nearby lake.",
+    "In his spare time he likes to read historical biographies and is a member of the community library book club.",
+    "He prefers a Mediterranean style diet, favoring olive oil, fresh vegetables, and grilled fish for most meals.",
+    "He volunteers at a neighborhood garden project, helping to maintain raised beds for senior residents.",
+    "He listens to classic rock music and attends a monthly live music night at a local venue."
+   ],
+   "family": [
+    "He lives with his spouse, a high school teacher, and their two children, ages 12 and 9.",
+    "His mother, a retired accountant, resides nearby and visits the family on Sundays for dinner.",
+    "His father, a retired carpenter, lives in a different city and communicates by phone weekly.",
+    "The patient’s sister works as a graphic designer and often shares family photos through a group chat.",
+    "Extended family gatherings are held at his parents’ house during holidays, featuring a potluck style meal."
+   ],
+   "remote_history": [
+    "He underwent cataract surgery on his right eye approximately 12 years ago, which restored his vision without complications.",
+    "A dental extraction of a wisdom tooth was performed 15 years prior, with a routine healing course.",
+    "He received a routine eye exam and updated his glasses prescription 13 years ago.",
+    "He had a minor skin lesion removed on his forearm 11 years ago, with pathology confirming a benign result.",
+    "He completed a course of orthodontic treatment in his teenage years, finishing 20 years ago."
+   ],
+   "logistics": [
+    "He travels to the clinic by car, using a designated parking space reserved for patients with mobility considerations.",
+    "The clinic provides a shuttle service from the nearby train station, which he occasionally utilizes on rainy days.",
+    "His appointment schedule includes a 15‑minute buffer to accommodate any paperwork or questions before the clinician sees him.",
+    "He has a preferred pharmacy located two blocks from the clinic for any routine prescriptions.",
+    "The clinic’s patient liaison offered assistance with arranging a follow‑up appointment with a nutritionist, which he accepted."
+   ],
+   "other_specialties": [
+    "A referral was placed with the ophthalmology department for a routine retinal screening next month.",
+    "He was advised to schedule a dental cleaning with his family dentist within the next quarter.",
+    "The clinic’s social work team offered information on local community resources for recreational activities.",
+    "He received a copy of a physical therapy brochure outlining low‑impact exercises for general wellness.",
+    "A consultation with a dietitian was arranged to discuss balanced meal planning aligned with his dietary preferences."
+   ]
+  }
+ },
+ "P0010": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for her scheduled follow‑up appointment at 9:15 am and completed the registration paperwork at the front desk.",
+    "She confirmed her contact information and updated her emergency contact details during the intake process.",
+    "The clinic staff printed a copy of the visit summary and placed it in the patient’s electronic record.",
+    "A reminder call was scheduled for her next appointment two weeks from today.",
+    "The billing department verified insurance coverage and noted that the visit would be processed under her standard outpatient benefits."
+   ],
+   "social": [
+    "She enjoys gardening in her backyard and tends to a small vegetable patch each spring.",
+    "On weekends she attends a local book club that meets at the community center on Saturdays.",
+    "She is an avid fan of classic jazz music and often listens to vinyl records at home.",
+    "Her favorite cuisine is Mediterranean, and she frequently prepares grilled fish and salads for family gatherings.",
+    "She volunteers twice a month at the senior center, helping to organize craft activities."
+   ],
+   "family": [
+    "She lives alone in a two‑story house but receives regular visits from her daughter who works as a schoolteacher.",
+    "Her son, a retired electrician, lives nearby and assists with household chores when needed.",
+    "Her husband passed away ten years ago, and she maintains close contact with her sister who resides in the same town.",
+    "The family history includes her mother’s osteoarthritis and her father’s cataract surgery in his seventies.",
+    "Her niece, a pediatric nurse, occasionally helps with grocery shopping."
+   ],
+   "remote_history": [
+    "She underwent cataract extraction with intra‑ocular lens implantation in both eyes twelve years ago.",
+    "A dental extraction of a molar was performed fifteen years ago without complications.",
+    "She had routine vision correction with spectacles fitted eleven years ago.",
+    "Ten years prior she received a minor skin lesion removal on her forearm.",
+    "She completed a routine colonoscopy eleven years ago with normal findings."
+   ],
+   "logistics": [
+    "Transportation to the clinic is arranged through a community shuttle service that picks her up from her residence at 8:45 am.",
+    "Parking validation was provided at the outpatient building for her convenience.",
+    "The clinic’s patient portal was used to upload a copy of her recent insurance card.",
+    "She requested that her medication list be printed on plain paper for her personal records.",
+    "A follow‑up referral to the ophthalmology department was generated for her upcoming eye exam."
+   ],
+   "other_specialties": [
+    "A referral to the nutrition services team was placed to discuss heart‑healthy meal planning.",
+    "She was scheduled for a physical therapy evaluation to address mild lower‑back stiffness.",
+    "The social work department offered assistance with community resource navigation.",
+    "An appointment with the dental hygiene clinic was arranged for a routine cleaning next month.",
+    "The occupational therapy service was consulted to assess home safety modifications."
+   ]
+  }
+ },
+ "P0008": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for his scheduled appointment at 9:15 am and completed the check‑in paperwork without difficulty.",
+    "He confirmed his contact information and updated his mailing address during the visit.",
+    "The clinic staff verified his insurance eligibility and processed the pre‑authorization for the upcoming referral.",
+    "A copy of his driver’s license was scanned for the electronic health record.",
+    "He signed the consent form for the routine follow‑up visit and received a copy for his records."
+   ],
+   "social": [
+    "He lives in a suburban townhouse with his partner and their two teenage children.",
+    "His partner works as a high school teacher and enjoys gardening on weekends.",
+    "The patient is employed as a project manager for a construction firm and commutes by car.",
+    "In his free time he plays recreational basketball with a local league and enjoys listening to classic rock music.",
+    "He is an avid reader of historical biographies and often visits the community library.",
+    "During evenings he likes to cook simple meals such as grilled chicken, roasted vegetables, and pasta."
+   ],
+   "family": [
+    "His parents reside in a nearby city; his mother is retired and enjoys knitting, while his father volunteers at a local museum.",
+    "He has an older sister who works as a graphic designer and lives with her family in the same county.",
+    "The family reports a history of osteoarthritis in his maternal grandparents.",
+    "His paternal uncle has cataracts and underwent surgery in his seventies.",
+    "There are no known hereditary conditions affecting the immediate family."
+   ],
+   "remote_history": [
+    "He had cataract surgery on his right eye approximately twelve years ago with an uncomplicated outcome.",
+    "Ten years prior he underwent a routine dental extraction of a wisdom tooth without any complications.",
+    "He received a pair of prescription glasses for nearsightedness about fifteen years ago and updates his prescription as needed.",
+    "He had a minor skin lesion removed on his forearm eleven years ago, which healed well.",
+    "He completed a colonoscopy screening thirteen years ago that was reported as normal."
+   ],
+   "logistics": [
+    "Transportation to the clinic is provided by his partner, who drives him from their home each week.",
+    "He prefers to schedule appointments in the morning to avoid peak traffic on his commute.",
+    "The clinic sent a reminder text message two days before the visit, which he confirmed via reply.",
+    "He requested that any future referral letters be emailed to his personal address for convenience.",
+    "The medical records department will forward a copy of today’s visit summary to his primary care physician within 48 hours.",
+    "He was given a printed map of the hospital parking layout to assist with future visits."
+   ],
+   "other_specialties": [
+    "A referral to the ophthalmology department was placed for a routine eye exam next month.",
+    "He was advised to schedule a dental cleaning with his family dentist in the upcoming quarter.",
+    "The clinic’s nutritionist offered a brief consultation on balanced meals, which he accepted for a future date.",
+    "Physical therapy was suggested for general conditioning, and a referral was sent to the outpatient rehab center.",
+    "He was provided with information about the hospital’s patient education workshops on stress management."
+   ]
+  }
+ },
+ "P0011": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for his scheduled follow‑up appointment on a Tuesday morning and completed the standard intake paperwork at the front desk.",
+    "He confirmed his contact information, including a primary phone number and an email address for electronic health record notifications.",
+    "The clinic staff verified his insurance eligibility and updated his billing preferences prior to seeing the provider.",
+    "A consent form for future telehealth visits was signed and filed in his chart.",
+    "He was reminded to bring his identification card and a list of current medications to the next visit."
+   ],
+   "social": [
+    "He lives in a suburban neighborhood and commutes to work by car, typically a 30‑minute drive each way.",
+    "His hobbies include woodworking, gardening, and playing the acoustic guitar on weekends.",
+    "He enjoys cooking meals that feature grilled vegetables, lean proteins, and whole grains.",
+    "In his free time he volunteers at the local community garden, helping to maintain raised beds and organize seasonal planting events.",
+    "He is an avid reader of historical biographies and often visits the public library on Saturday afternoons."
+   ],
+   "family": [
+    "He is married and lives with his spouse, who works as a high school teacher.",
+    "The couple has two children: a 22‑year‑old daughter attending university and a 19‑year‑old son who recently started a trade apprenticeship.",
+    "His parents reside nearby and are retired; his mother enjoys knitting while his father tends to a small hobby workshop.",
+    "A paternal aunt has a history of osteoarthritis that occasionally limits her mobility.",
+    "His maternal grandfather underwent cataract surgery in his seventies and now wears reading glasses."
+   ],
+   "remote_history": [
+    "He had a routine dental extraction performed twelve years ago without complications.",
+    "Approximately fifteen years ago he underwent uncomplicated cataract surgery on his right eye and now uses corrective lenses.",
+    "He received a tetanus booster ten years prior during a minor kitchen injury.",
+    "A childhood ear infection required placement of tympanostomy tubes when he was eight years old.",
+    "He had a minor skin lesion removed on his forearm about eleven years ago, with pathology confirming a benign result."
+   ],
+   "logistics": [
+    "Transportation to the clinic is arranged through a family member who drives him on weekdays.",
+    "He has a parking permit for the hospital lot and typically parks in the designated visitor area.",
+    "Appointment reminders are sent via text message 48 hours before each scheduled visit.",
+    "The clinic offers a shuttle service for patients with mobility concerns, though he has not needed to use it.",
+    "He prefers to schedule follow‑up visits in the early morning to avoid peak traffic."
+   ],
+   "other_specialties": [
+    "He has a standing referral to the ophthalmology department for routine eye examinations.",
+    "An appointment with a dietitian was scheduled to discuss balanced meal planning and portion control.",
+    "He is on the mailing list for the local senior fitness program, which includes low‑impact exercise classes.",
+    "A referral to the occupational therapy clinic was made to assess ergonomic setup at his home workshop.",
+    "He attends a monthly support group for individuals interested in woodworking techniques and tool safety."
+   ]
+  }
+ },
+ "P0012": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for his scheduled follow‑up appointment at 9:15 am and completed the registration paperwork without difficulty.",
+    "He confirmed his contact information, including a new mobile phone number and an updated mailing address.",
+    "The clinic staff verified his insurance coverage and noted that his copayment for the visit is $25.",
+    "He signed the consent form for the upcoming referral to the pulmonary rehabilitation program.",
+    "The electronic health record was updated to reflect his preferred pharmacy as the downtown retail location."
+   ],
+   "social": [
+    "He enjoys gardening in his backyard and spends several hours each week tending to roses and vegetable beds.",
+    "On weekends he attends a local bridge club that meets at the community center on Saturdays.",
+    "He is an avid reader of historical biographies and often visits the public library to borrow new titles.",
+    "He likes to listen to classic jazz records and has a collection of vinyl albums that he plays on his turntable.",
+    "He participates in a weekly walking group that meets at the nearby park for a leisurely stroll."
+   ],
+   "family": [
+    "He lives in a two‑story house with his wife of 48 years, who works part‑time as a school librarian.",
+    "Their daughter, a software engineer, lives in a neighboring city and visits them monthly.",
+    "He has two adult grandchildren who stay with the family during the summer holidays.",
+    "His sister, who resides in the same town, is retired and enjoys knitting and quilting.",
+    "The family reports a history of osteoarthritis in the paternal line and cataracts in the maternal grandparents."
+   ],
+   "remote_history": [
+    "He underwent cataract extraction with intra‑ocular lens placement in 2008 without complications.",
+    "In 2012 he had a routine dental extraction of a molar and received a temporary denture.",
+    "He received a pair of prescription spectacles in 2015 after an eye exam for presbyopia.",
+    "He had a minor skin lesion removed on his forearm in 2017, which healed uneventfully.",
+    "He completed a colonoscopy in 2019 that showed normal findings."
+   ],
+   "logistics": [
+    "Transportation to the clinic is provided by his wife, who drives him from their home each morning.",
+    "He has a scheduled appointment with the nutrition services department next Tuesday at 11:00 am.",
+    "A referral has been placed for a home health aide to assist with light household tasks on Tuesdays and Thursdays.",
+    "He will receive a reminder call from the scheduling office 48 hours before his next visit.",
+    "The clinic has arranged for a parking permit to be placed on his vehicle for convenient access."
+   ],
+   "other_specialties": [
+    "He was referred to the ophthalmology clinic for a routine check‑up of his intra‑ocular lenses.",
+    "A dental hygienist will see him for a cleaning appointment in three weeks.",
+    "He has an upcoming appointment with the physical therapy department to discuss a low‑impact exercise program.",
+    "The audiology service scheduled a hearing assessment for next month to evaluate age‑related changes.",
+    "He was offered a consultation with the social work team to discuss community resources for seniors."
+   ]
+  }
+ },
+ "P0009": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for her scheduled follow‑up appointment at 9:15 am, having confirmed the visit via the clinic’s automated reminder call the previous week.",
+    "She completed the pre‑visit paperwork, including updating her emergency contact information and verifying her insurance coverage for the upcoming year.",
+    "The front desk staff processed her co‑pay and provided a printed copy of the visit summary for her records.",
+    "A referral request was entered into the electronic health record for a nutrition counseling session to discuss dietary preferences and meal planning.",
+    "The patient was offered the option to receive future appointment reminders by text message, which she accepted."
+   ],
+   "social": [
+    "She enjoys gardening in her backyard, tending to roses and lavender, and often spends mornings pruning the flower beds.",
+    "On weekends she attends a local book club that meets at the community center, where members discuss contemporary fiction.",
+    "The patient is an avid fan of classic jazz music and listens to vinyl records on her vintage turntable.",
+    "She volunteers twice a month at the senior center, assisting with arts and crafts activities for other residents.",
+    "Her favorite cuisine is Mediterranean, and she frequently prepares grilled fish with olive oil and herbs for family gatherings."
+   ],
+   "family": [
+    "She lives independently in a single‑story home with her husband of 52 years, who is retired from a career as a high school teacher.",
+    "The couple has two adult children: a daughter who works as a graphic designer and a son employed as a civil engineer.",
+    "Both children reside in neighboring towns and visit regularly, often bringing homemade desserts for shared meals.",
+    "Her granddaughter, age 8, enjoys drawing and visits on Saturdays to paint together in the garden.",
+    "There is a family history of osteoarthritis in her mother and cataracts in her father, both of which were managed conservatively."
+   ],
+   "remote_history": [
+    "Approximately 12 years ago she underwent uncomplicated cataract surgery on her right eye and now wears reading glasses.",
+    "She had a dental extraction of a molar tooth in her late 50s without any reported complications.",
+    "In her early 40s she received a routine colonoscopy that was normal and required no further intervention.",
+    "She had a minor skin lesion removed on her forearm about 15 years ago, which healed without issue.",
+    "A routine eye exam 11 years ago confirmed stable vision correction needs and no further procedures were required."
+   ],
+   "logistics": [
+    "Transportation to the clinic is provided by a community shuttle service that picks her up from her residence at 8:45 am each weekday.",
+    "Parking permits for the outpatient building were renewed during today’s visit and placed on the dashboard of her vehicle.",
+    "The patient requested that her medication refill be sent to the pharmacy located within the same shopping center as her grocery store for convenience.",
+    "She confirmed that her preferred pharmacy hours (9 am–6 pm) align with her daily routine and will continue using that location.",
+    "A copy of the upcoming appointment schedule for the next six months was printed and placed in her personal health binder."
+   ],
+   "other_specialties": [
+    "A referral to the ophthalmology department was placed to evaluate her need for updated lens prescription during her next routine eye exam.",
+    "The patient was scheduled for a dental hygiene cleaning with her long‑time dentist in two weeks.",
+    "She was offered an appointment with the physical therapy clinic to discuss gentle stretching routines that complement her gardening activities.",
+    "A social work consult was arranged to explore community resources for senior volunteers interested in arts programs.",
+    "The clinic’s dietitian will meet with her next month to discuss Mediterranean‑style meal ideas that suit her taste preferences."
+   ]
+  }
+ },
+ "P0014": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for her scheduled follow‑up appointment at 9:15 am, having confirmed the visit via the clinic’s online portal the previous week.",
+    "Her insurance information was verified and updated to reflect the current primary payer and secondary coverage.",
+    "A new consent form for future referrals was signed and filed in the electronic health record.",
+    "The clinic staff printed a copy of the visit summary and placed it in the patient’s after‑visit packet.",
+    "All required demographic fields, including emergency contact details, were reviewed and confirmed as accurate."
+   ],
+   "social": [
+    "She enjoys gardening in her backyard, tending to roses and lavender during the spring and summer months.",
+    "On weekends she attends a local book club that meets at the community center every Thursday evening.",
+    "She volunteers twice a month at the senior center, helping organize bingo games and craft activities.",
+    "Her favorite cuisine is Mediterranean, and she often prepares grilled fish with olive oil and fresh vegetables at home.",
+    "She walks her dog, a golden retriever named Bella, for about thirty minutes each morning in the nearby park."
+   ],
+   "family": [
+    "She lives with her husband of 38 years, who works as a retired high school history teacher.",
+    "Their adult daughter, a software engineer, visits regularly and assists with technology needs.",
+    "She has two grandchildren, ages 10 and 12, who enjoy weekend visits and playing board games together.",
+    "Her sister, residing in a neighboring town, is a retired accountant and provides occasional transportation assistance.",
+    "The family reports a history of osteoarthritis in the mother’s side and cataract surgery in several relatives."
+   ],
+   "remote_history": [
+    "She underwent uncomplicated cataract extraction with intra‑ocular lens placement in 2008, reporting excellent visual recovery.",
+    "In 2012 she had a routine dental extraction of a wisdom tooth without any complications.",
+    "A minor skin lesion was removed in 2015 by a dermatologist, with the specimen sent for routine pathology.",
+    "She received a standard flu vaccination in 2020, documented in her primary care records.",
+    "A routine colonoscopy performed in 2018 showed normal findings and required no further intervention."
+   ],
+   "logistics": [
+    "Transportation to the clinic is arranged through a community shuttle service that picks her up from her residence at 8:45 am.",
+    "Parking permits for the outpatient building were renewed this month and placed on the dashboard of her vehicle.",
+    "The appointment reminder was sent via text message two days prior, and the patient confirmed attendance.",
+    "She requested that future appointment letters be mailed to her home address rather than emailed.",
+    "The clinic’s billing department processed the recent claim and posted the payment to her account, leaving a zero balance."
+   ],
+   "other_specialties": [
+    "A referral to the ophthalmology department was made for a routine eye exam scheduled for next month.",
+    "She was advised to schedule a dental cleaning with her long‑time dentist, with the appointment set for early December.",
+    "The physical therapy team provided a home exercise handout focusing on gentle stretching and balance activities.",
+    "A nutritionist was consulted to discuss heart‑healthy meal planning, and a follow‑up session was booked for the following week.",
+    "The social work office offered information on local senior activity groups and provided a brochure on transportation resources."
+   ]
+  }
+ },
+ "P0013": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for her scheduled follow‑up appointment at 9:15 am and completed the registration paperwork without difficulty.",
+    "She confirmed her contact information and updated her emergency contact details during the visit.",
+    "The clinic staff printed a copy of the visit summary and placed it in the patient portal for online review.",
+    "A reminder call was scheduled for her next appointment two weeks from today.",
+    "The billing department verified insurance coverage and noted that the upcoming visit will be processed as a routine outpatient service."
+   ],
+   "social": [
+    "She enjoys gardening in her backyard and tends to a small vegetable patch each spring.",
+    "On weekends she attends a local book club that meets at the community center on Saturdays.",
+    "She is an avid fan of classic jazz music and often listens to vinyl records at home.",
+    "The patient likes to bake pies and breads, favoring recipes that use fresh seasonal fruit.",
+    "She walks her dog, a golden retriever named Daisy, for short strolls around the neighborhood each morning."
+   ],
+   "family": [
+    "She lives independently in a single‑story house with her husband of 48 years, who is retired from teaching.",
+    "Her daughter, a software engineer, visits monthly and helps with grocery shopping.",
+    "She has two grandchildren who attend a nearby elementary school and enjoy weekend visits.",
+    "Her sister, residing in a neighboring town, calls weekly to discuss family news.",
+    "The family maintains a shared photo album that is updated quarterly with recent events."
+   ],
+   "remote_history": [
+    "She underwent cataract surgery on her left eye in 2008 with an uncomplicated postoperative course.",
+    "In 2012 she had a routine dental extraction of a wisdom tooth, which healed without issue.",
+    "She received a pair of prescription glasses in 2015 after an eye exam for presbyopia.",
+    "A minor skin lesion was removed in 2010 by a dermatologist; pathology was benign.",
+    "She had a routine colonoscopy in 2014 that was normal and required no further intervention."
+   ],
+   "logistics": [
+    "Transportation to the clinic is provided by a community shuttle service that picks her up from her home at 8:45 am.",
+    "Parking validation was issued at the front desk for her use during the appointment.",
+    "The clinic sent a reminder email with directions and a map of the building entrance the day before the visit.",
+    "She requested that her medication list be faxed to her primary care physician for coordination of care.",
+    "The medical records department prepared a copy of her imaging reports to be mailed to her home address."
+   ],
+   "other_specialties": [
+    "A referral was placed with the ophthalmology department for a routine eye exam next month.",
+    "She was scheduled for a dental cleaning with her long‑time dentist in two weeks.",
+    "The nutritionist will see her in three weeks to discuss heart‑healthy meal planning.",
+    "Physical therapy was recommended for a gentle stretching program to maintain flexibility.",
+    "A social worker will meet with her during the next visit to review community resources and support groups."
+   ]
+  }
+ },
+ "P0016": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for her scheduled follow‑up appointment at 9:15 am and completed the registration paperwork without difficulty.",
+    "She confirmed her contact information, noting a change of residence to a senior‑friendly apartment complex two blocks from the clinic.",
+    "The clinic staff verified her insurance coverage and updated the billing address to match the new mailing details.",
+    "A reminder call was placed three days prior to the visit, and the patient acknowledged receipt of the appointment reminder via text message.",
+    "The patient signed the consent form for the upcoming routine imaging study and received a copy for her records."
+   ],
+   "social": [
+    "She enjoys gardening in the community allotment and tends to her rose bushes twice weekly.",
+    "On weekends she attends a local book club that meets at the public library every Saturday morning.",
+    "The patient volunteers at the neighborhood food pantry, helping to organize fresh produce donations.",
+    "She prefers a Mediterranean‑style diet, often preparing grilled fish, olive oil, and fresh vegetables at home.",
+    "In her free time she listens to classic jazz records and occasionally plays the piano for relaxation."
+   ],
+   "family": [
+    "She lives with her husband of 38 years, who works as a retired civil engineer.",
+    "Their adult daughter resides nearby and visits regularly to assist with grocery shopping.",
+    "The patient has two grandchildren who attend a nearby elementary school and enjoy weekend visits.",
+    "Her sister, a retired schoolteacher, lives in the same city and is in good health.",
+    "There is a family history of osteoarthritis in her mother and cataracts in her paternal grandfather."
+   ],
+   "remote_history": [
+    "Ten years ago she underwent uncomplicated cataract surgery on her left eye and reports satisfactory vision with glasses.",
+    "She had a dental extraction of a molar in 2012 without any postoperative complications.",
+    "In 2015 she received a routine colonoscopy that was normal and required no further intervention.",
+    "She had a minor skin lesion removed on her forearm in 2018, which healed uneventfully.",
+    "A routine hearing test performed in 2019 confirmed mild presbycusis, and she now uses a hearing aid during conversations."
+   ],
+   "logistics": [
+    "Transportation to the clinic is arranged through a community shuttle service that picks her up from her apartment complex.",
+    "The patient prefers to schedule appointments in the morning to avoid peak traffic hours.",
+    "She has requested that future referrals to the ophthalmology department be coordinated with her primary care physician.",
+    "The clinic has placed a reminder for her annual flu vaccination in the electronic health record for the upcoming season.",
+    "She opted to receive laboratory results electronically via the patient portal rather than by mail."
+   ],
+   "other_specialties": [
+    "A referral to the physical therapy department was made to address general mobility and balance exercises.",
+    "The patient was scheduled for a routine dental cleaning with her long‑time dentist next month.",
+    "She will see a nutritionist to discuss heart‑healthy meal planning and portion control.",
+    "An appointment with the occupational therapist is planned to evaluate adaptive tools for gardening activities.",
+    "A follow‑up with the optometrist is set for next quarter to update her prescription lenses."
+   ]
+  }
+ },
+ "P0018": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for her scheduled follow‑up appointment on a Tuesday morning and completed the registration paperwork at the front desk.",
+    "She confirmed her contact information and updated her emergency contact details during the check‑in process.",
+    "The clinic staff verified her insurance eligibility and processed the pre‑authorization for the upcoming imaging study.",
+    "A reminder call was placed two days prior to the appointment to confirm attendance and to provide directions to the parking area.",
+    "The patient signed the consent form for the routine health questionnaire required for all outpatient visits."
+   ],
+   "social": [
+    "She enjoys gardening and spends several hours each weekend tending to her vegetable patch.",
+    "In her free time, she attends a local book club that meets monthly at the community center.",
+    "The patient likes to bake homemade bread and often shares loaves with neighbors.",
+    "She is an avid fan of classic jazz music and attends live performances at the downtown venue when possible.",
+    "On weekdays she walks her dog, a golden retriever, for about thirty minutes after work."
+   ],
+   "family": [
+    "The patient lives with her husband, a high school teacher, and their two adult children who both work in the technology sector.",
+    "Her mother, aged 78, resides in a nearby assisted‑living facility and visits the family regularly.",
+    "She has a younger brother who is a civil engineer and lives in the same city.",
+    "The family enjoys weekend outings to the local farmers' market together.",
+    "Her sister, a retired librarian, often helps with household chores and meal preparation."
+   ],
+   "remote_history": [
+    "She underwent cataract surgery on her left eye approximately twelve years ago with an uncomplicated postoperative course.",
+    "Ten years prior, she had a routine dental extraction of a wisdom tooth without any complications.",
+    "She received a prescription for reading glasses after an eye exam fifteen years ago.",
+    "A minor skin lesion was removed on her forearm about eleven years ago, and the pathology was benign.",
+    "She had a routine colonoscopy eleven years ago that was reported as normal."
+   ],
+   "logistics": [
+    "The patient uses a personal vehicle to travel to the clinic and prefers the reserved parking spot near the entrance.",
+    "She has arranged for a family member to accompany her to appointments when the clinic schedule is busy.",
+    "The clinic provided a printed map of the facility highlighting the radiology department and waiting area.",
+    "She requested that future appointment reminders be sent via email rather than text message.",
+    "The patient prefers to schedule follow‑up visits on mornings to avoid peak traffic hours."
+   ],
+   "other_specialties": [
+    "She was referred to the ophthalmology department for a routine eye exam next month.",
+    "A dental hygienist scheduled a cleaning appointment for her in two weeks.",
+    "The nutritionist will meet with her to discuss balanced meal planning for the upcoming season.",
+    "She has a standing referral with the physical therapy clinic for general mobility exercises.",
+    "The social work team offered resources for community gardening programs and will follow up with information packets."
+   ]
+  }
+ },
+ "P0017": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for his scheduled follow‑up appointment on a Tuesday morning and completed the registration paperwork at the front desk.",
+    "He confirmed his contact information, including a new mobile phone number, and signed the consent form for electronic health record access.",
+    "The clinic staff printed a copy of the visit summary and placed it in the patient’s portal for future reference.",
+    "He was reminded of the upcoming annual wellness visit and the need to schedule it at least two weeks in advance.",
+    "The billing department verified insurance coverage and noted that the next co‑pay will be due at the time of the next visit."
+   ],
+   "social": [
+    "He enjoys fishing on the nearby lake during the weekends and often joins a local angling club.",
+    "In his spare time, he reads historical biographies and is a member of a book discussion group that meets monthly at the community center.",
+    "He prefers a Mediterranean‑style diet, favoring olive oil, fresh vegetables, and grilled fish for most meals.",
+    "He volunteers at a neighborhood garden project, helping to plant and maintain vegetable beds for local schools.",
+    "He attends a weekly chess club at the senior center and has been playing competitively for several years."
+   ],
+   "family": [
+    "He lives with his spouse of 32 years in a single‑story home near the suburbs.",
+    "His adult daughter works as a graphic designer and visits the household on weekends.",
+    "His son, a civil engineer, lives in a neighboring city and calls regularly to check in.",
+    "The family owns a small dog named Max, who enjoys daily walks in the nearby park.",
+    "Extended family gatherings are held at his sister’s house each holiday season."
+   ],
+   "remote_history": [
+    "He underwent cataract surgery on his right eye approximately 12 years ago, which was performed without complications.",
+    "A dental extraction of a wisdom tooth was completed 15 years prior, and he reports no lingering issues.",
+    "He had a routine colonoscopy 13 years ago that was unremarkable.",
+    "He received a tetanus booster in his early twenties during a summer camp trip.",
+    "He had his hearing aids fitted a decade ago after a mild age‑related hearing change."
+   ],
+   "logistics": [
+    "Transportation to the clinic is arranged through a community shuttle service that picks him up from his residence at 8:15 am.",
+    "He prefers to schedule appointments in the morning to avoid peak traffic on his commute.",
+    "The clinic provided a printed map showing the parking layout and the nearest accessible entrance.",
+    "He requested that future appointment reminders be sent via text message rather than email.",
+    "A copy of his driver’s license was scanned for verification and stored securely in his file."
+   ],
+   "other_specialties": [
+    "He was referred to the ophthalmology department for a routine eye exam and the appointment is set for next month.",
+    "A dental hygienist scheduled a cleaning for the upcoming quarter, noting his preference for fluoride‑free toothpaste.",
+    "He has an upcoming nutrition counseling session with a dietitian to discuss meal planning for his Mediterranean diet.",
+    "The physical therapy team offered a fall‑prevention workshop, which he plans to attend in the spring.",
+    "He was provided with a contact list for local community resources, including a senior fitness class and a volunteer organization."
+   ]
+  }
+ },
+ "P0019": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for her scheduled outpatient visit at 9:15 am and completed the registration paperwork without delay.",
+    "Her insurance information was verified and the copayment for today’s visit was processed electronically.",
+    "A consent form for the upcoming imaging study was signed and filed in the electronic health record.",
+    "The clinic staff confirmed that the patient’s next appointment is set for three weeks from today at 10:00 am.",
+    "All required pre‑visit questionnaires were reviewed and uploaded to the patient portal."
+   ],
+   "social": [
+    "She enjoys practicing calligraphy on weekends and attends a local cultural club twice a month.",
+    "During her free time she likes to walk in the nearby botanical garden and often brings her grandchildren along.",
+    "The patient prefers a diet rich in fresh vegetables, rice, and occasional dim sum, citing family tradition as the inspiration.",
+    "She is an avid reader of historical novels and participates in a monthly book discussion group at the community center.",
+    "On rainy days she enjoys watching classic Chinese cinema at home."
+   ],
+   "family": [
+    "The patient lives with her husband, who works as a senior accountant for a manufacturing firm.",
+    "She has two adult children: a daughter who is a primary school teacher and a son who is an engineer in the tech industry.",
+    "Her parents are retired and reside in a neighboring province, visiting her during major holidays.",
+    "The family owns a small garden where they grow herbs and ornamental flowers together.",
+    "She reports that her sister recently celebrated her 60th birthday with a family reunion."
+   ],
+   "remote_history": [
+    "Ten years ago she underwent uncomplicated cataract surgery on her left eye and now wears reading glasses.",
+    "Eight years prior she had a routine dental extraction of a wisdom tooth without any complications.",
+    "She received a pair of prescription spectacles for presbyopia five years ago and uses them for reading.",
+    "Six years ago she attended a community workshop on basic computer skills and continues to use a laptop for personal projects.",
+    "She completed a short course in Mandarin calligraphy fifteen years ago and still practices the techniques learned."
+   ],
+   "logistics": [
+    "Transportation to the clinic is arranged through a private shuttle service that picks her up from her residence at 8:45 am.",
+    "Parking validation was provided at the front desk, allowing her to park in the designated visitor area.",
+    "The clinic’s patient portal sent an automated reminder email and text message two days before the appointment.",
+    "She requested that her follow‑up appointment be scheduled in the afternoon to accommodate her husband’s work schedule.",
+    "All necessary forms for the upcoming imaging appointment were faxed to the radiology department yesterday."
+   ],
+   "other_specialties": [
+    "A referral to the ophthalmology department was made for a routine eye exam next month.",
+    "She was advised to schedule a dental cleaning with her long‑time dentist within the next six weeks.",
+    "The clinic’s nutritionist provided a pamphlet on balanced meals that incorporate traditional Chinese ingredients.",
+    "A social worker offered information on local senior activity programs and community events.",
+    "The physiotherapy team sent a brochure on gentle stretching exercises suitable for home practice."
+   ]
+  }
+ },
+ "P0020": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for her scheduled follow‑up appointment at 9:15 am and completed the registration paperwork without delay.",
+    "She confirmed her contact information and updated her emergency contact details during the visit.",
+    "The clinic staff printed a new copy of the consent form for the upcoming imaging study and placed it in the patient’s file.",
+    "A reminder call was scheduled for the next appointment, which is set for three weeks from today.",
+    "The billing department verified insurance coverage for the upcoming outpatient visit and noted a co‑pay of $25."
+   ],
+   "social": [
+    "She enjoys gardening in her backyard and spends several hours each week tending to her rose bushes.",
+    "On weekends she attends a local book club that meets at the community center on Saturday mornings.",
+    "She likes to bake pies and often brings a slice to share with her neighbors during neighborhood gatherings.",
+    "The patient is an avid fan of classic jazz music and listens to vinyl records in the evenings.",
+    "She walks her small terrier for about half an hour each morning around the nearby park."
+   ],
+   "family": [
+    "She lives independently in a single‑story home with her husband of 48 years, who is retired from the postal service.",
+    "Her daughter, a high school teacher, visits weekly and assists with grocery shopping.",
+    "She has two grandchildren who attend a local elementary school and enjoy weekend visits.",
+    "Her sister, who resides in a neighboring town, has osteoarthritis and occasionally calls to discuss joint‑care tips.",
+    "The family reports a history of cataract surgery in the mother, performed when she was 72."
+   ],
+   "remote_history": [
+    "The patient underwent cataract extraction with intra‑ocular lens placement approximately 12 years ago, reporting a successful outcome.",
+    "She had a routine dental extraction of a wisdom tooth about 15 years prior, with no complications.",
+    "Ten years ago she received a pair of prescription spectacles for presbyopia and updates them annually.",
+    "She attended a community art class in her thirties, focusing on watercolor painting.",
+    "In her early twenties she completed a basic first‑aid certification course offered by the Red Cross."
+   ],
+   "logistics": [
+    "Transportation to the clinic is provided by a private driver arranged through the senior services program.",
+    "Parking is reserved in the designated accessible spot near the main entrance for her convenience.",
+    "The patient prefers to receive appointment reminders via text message rather than phone calls.",
+    "She requested that all future correspondence be mailed to her PO Box to ensure privacy.",
+    "The clinic’s nutritionist will meet with her next month to discuss heart‑healthy meal planning."
+   ],
+   "other_specialties": [
+    "A referral to the ophthalmology department was placed to schedule a routine retinal screening next quarter.",
+    "The patient was advised to see the physical therapy team for a gentle stretching program to maintain mobility.",
+    "She was offered a consultation with the dietitian to explore Mediterranean‑style cooking ideas.",
+    "The social work office provided information on local senior activity groups and transportation vouchers.",
+    "A dental hygienist appointment was arranged for a routine cleaning in six weeks."
+   ]
+  }
+ },
+ "P0021": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for her scheduled follow‑up appointment on a Tuesday morning and completed the registration paperwork at the front desk.",
+    "She confirmed her contact information, including a new mobile phone number, and updated her emergency contact details.",
+    "The clinic staff printed a copy of the visit summary and placed it in the patient portal for electronic access.",
+    "A reminder call was placed two days prior to the appointment to confirm attendance and to verify insurance eligibility.",
+    "The patient signed the consent form for the upcoming imaging study and received a copy for her records."
+   ],
+   "social": [
+    "She enjoys gardening in her backyard and often spends time planting seasonal flowers.",
+    "On weekends she attends a local book club that meets at the community center.",
+    "She is an avid fan of classic jazz music and frequently listens to vinyl records at home.",
+    "The patient likes to bake pies and breads, preferring recipes that use fresh, locally sourced ingredients.",
+    "She volunteers twice a month at the senior center, helping organize craft activities."
+   ],
+   "family": [
+    "The patient lives with her husband of 42 years in a single‑story house near a quiet suburban neighborhood.",
+    "They have two adult children; a daughter who works as a schoolteacher and a son who is a civil engineer.",
+    "Both grandchildren visit during the summer holidays and often stay for weekend meals.",
+    "Her husband retired from a career in banking and now enjoys woodworking as a hobby.",
+    "The family owns a small dog named Bella, who accompanies them on short walks around the block."
+   ],
+   "remote_history": [
+    "She underwent cataract extraction with intraocular lens placement approximately 12 years ago, reporting good visual recovery.",
+    "A dental extraction of a molar was performed about 15 years prior without complications.",
+    "She had a routine colonoscopy 13 years ago that was unremarkable.",
+    "Ten years ago she received a pair of prescription spectacles for mild presbyopia.",
+    "She attended a brief ear‑wax removal procedure at an audiology clinic 11 years ago."
+   ],
+   "logistics": [
+    "Transportation to the clinic is provided by a community shuttle service that picks her up from her residence each morning.",
+    "Parking is available in the designated visitor lot adjacent to the outpatient building.",
+    "The patient prefers to schedule appointments in the late morning to avoid rush‑hour traffic.",
+    "She has arranged for her husband to accompany her to visits that require longer waiting periods.",
+    "The clinic sent a copy of the upcoming appointment schedule by email, and she printed a hard copy for reference."
+   ],
+   "other_specialties": [
+    "A referral was placed with the ophthalmology department for a routine eye examination next month.",
+    "She has a standing referral with the dental clinic for biannual cleanings and check‑ups.",
+    "The patient was advised to schedule a yearly hearing assessment with the audiology service.",
+    "A nutrition counseling session with the dietitian was booked to discuss balanced meal planning.",
+    "Physical therapy was suggested for a gentle stretching program to support her gardening activities."
+   ]
+  }
+ },
+ "P0022": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for his scheduled follow‑up appointment on a Tuesday morning and completed the registration paperwork at the front desk.",
+    "He confirmed his contact information and updated his emergency contact details during the check‑in process.",
+    "The clinic staff printed a copy of the visit summary and placed it in the patient’s electronic health record.",
+    "A reminder call was scheduled for his next appointment two weeks from today.",
+    "The billing department verified insurance coverage and noted that the upcoming visit would be covered under his current plan."
+   ],
+   "social": [
+    "He enjoys playing guitar in a local community band and practices several evenings each week.",
+    "On weekends he often goes hiking with a group of friends on nearby trails.",
+    "He is an avid reader of historical non‑fiction and frequently visits the public library.",
+    "The patient prefers a Mediterranean style diet, emphasizing olive oil, fish, vegetables, and whole grains.",
+    "He volunteers at a neighborhood garden where he helps maintain raised‑bed vegetable plots."
+   ],
+   "family": [
+    "He lives with his spouse, a high school teacher, in a two‑bedroom apartment downtown.",
+    "Their 12‑year‑old daughter attends a local middle school and enjoys playing soccer after school.",
+    "His parents, both retired, reside in a nearby suburb and visit on Sundays for family dinner.",
+    "The patient’s older brother works as an electrician and lives in the same city.",
+    "A paternal aunt has osteoarthritis of the knees and uses a cane for mobility."
+   ],
+   "remote_history": [
+    "Approximately fifteen years ago he underwent uncomplicated cataract surgery on his left eye.",
+    "He had a dental extraction of a wisdom tooth in his early twenties without any complications.",
+    "In his teenage years he received a pair of prescription spectacles for mild myopia.",
+    "He completed a routine colonoscopy ten years ago with normal findings.",
+    "He had a minor skin lesion removed on his forearm about twelve years ago, which healed without issue."
+   ],
+   "logistics": [
+    "The patient drives to the clinic and parks in the designated patient parking area.",
+    "He uses a public transit pass for occasional trips when his car is in the shop.",
+    "The clinic arranged for a same‑day laboratory draw at a nearby outpatient lab facility.",
+    "He was provided with a printed map showing the location of the radiology department for future imaging appointments.",
+    "The scheduling coordinator confirmed that his next visit will be at 9:30 am on a Thursday."
+   ],
+   "other_specialties": [
+    "He has a standing referral to the ophthalmology clinic for routine eye examinations.",
+    "The patient sees a dentist twice a year for cleanings and preventive care.",
+    "He is on the mailing list for the local community center’s fitness classes, including yoga and low‑impact aerobics.",
+    "A referral to the nutrition counseling service was placed to discuss balanced meal planning.",
+    "He attends a monthly support group for individuals interested in outdoor recreation."
+   ]
+  }
+ },
+ "P0023": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for his scheduled follow‑up appointment on a Tuesday morning and completed the registration paperwork at the front desk.",
+    "He confirmed his contact information and updated his mailing address, noting a recent move to a single‑story residence on the same street.",
+    "The clinic staff printed a new insurance card copy and verified coverage for upcoming imaging studies.",
+    "A reminder call was placed two days prior to the appointment, confirming the time and providing directions to the parking area.",
+    "The patient signed the consent form for the upcoming outpatient procedure and received a copy for his records."
+   ],
+   "social": [
+    "He enjoys gardening in his backyard, tending to roses and vegetable patches during the spring and summer months.",
+    "On weekends he attends a local bridge club that meets at the community center every Saturday afternoon.",
+    "He is an avid reader of historical biographies and often visits the public library to borrow new titles.",
+    "The patient participates in a weekly walking group that meets at the nearby park, walking at a leisurely pace.",
+    "He likes to listen to classic jazz records and has a collection of vinyl albums that he plays on his home stereo system."
+   ],
+   "family": [
+    "He lives alone in his home, but his daughter, a schoolteacher, visits him twice a week for dinner.",
+    "His son resides in a neighboring town and calls regularly to check in and discuss family matters.",
+    "The patient has a sister who lives out of state and sends holiday cards each year.",
+    "His late wife was a retired librarian; they were married for 45 years before her passing.",
+    "He maintains close contact with his grandchildren, who often video‑call to share school projects."
+   ],
+   "remote_history": [
+    "He underwent cataract surgery on his left eye in 2008, which restored his vision without complications.",
+    "In 2012 he had a routine dental extraction of a molar that required a simple postoperative check.",
+    "He received a pair of prescription spectacles in 2015 after an eye exam revealed mild presbyopia.",
+    "A minor skin lesion was removed in 2017 by a dermatologist, with the procedure performed in an outpatient setting.",
+    "He had a colonoscopy in 2019 that was completed without any findings requiring further intervention."
+   ],
+   "logistics": [
+    "Transportation to the clinic is provided by a community shuttle service that picks him up from his doorstep at 8:15 am.",
+    "He prefers to schedule appointments in the morning to avoid the afternoon traffic on the highway.",
+    "The clinic has arranged for a follow‑up appointment with the radiology department two weeks after today’s visit.",
+    "He requested that all future appointment reminders be sent via email rather than text messages.",
+    "The patient asked that any printed educational materials be mailed to his home address for review at his convenience."
+   ],
+   "other_specialties": [
+    "He has a standing referral with the ophthalmology clinic for annual eye examinations.",
+    "A routine dental cleaning is scheduled with his dentist next month.",
+    "He sees a physical therapist monthly for general mobility and balance exercises.",
+    "The patient has an upcoming nutrition counseling session to discuss heart‑healthy meal planning.",
+    "He is on the mailing list for the local senior center’s wellness workshops."
+   ]
+  }
+ },
+ "P0026": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for his scheduled follow‑up appointment on a Tuesday morning and completed the registration paperwork without difficulty.",
+    "He confirmed his contact information and updated his mailing address after moving to a nearby retirement community last year.",
+    "The clinic staff verified his insurance eligibility and noted that his copayment for the visit would be covered under his Medicare plan.",
+    "A reminder call was placed two days prior to the appointment, confirming the time and providing directions to the outpatient building.",
+    "He signed the consent form for the upcoming referral to the pulmonary rehabilitation program."
+   ],
+   "social": [
+    "He enjoys gardening in the community garden and tends to a small vegetable patch each spring.",
+    "On weekends he participates in a weekly bridge club at the senior center, where he has been a regular member for over a decade.",
+    "He is an avid reader of historical biographies and often visits the local library to borrow new titles.",
+    "He likes to listen to classic jazz records and occasionally attends live performances at the downtown concert hall.",
+    "He prefers a Mediterranean‑style diet, favoring olive oil, fresh fish, and a variety of vegetables in his meals."
+   ],
+   "family": [
+    "He lives with his wife of 48 years, who works part‑time as a school librarian.",
+    "They have two adult children: a daughter who is a high school teacher and a son who is a civil engineer.",
+    "Both children visit regularly and assist with household chores and grocery shopping.",
+    "His sister, residing in a neighboring state, calls weekly to discuss family news and share recipes.",
+    "He reports that his parents both passed away in their seventies from natural causes unrelated to chronic disease."
+   ],
+   "remote_history": [
+    "He underwent cataract extraction with intra‑ocular lens placement approximately 15 years ago, which restored his vision fully.",
+    "A dental extraction of a wisdom tooth was performed when he was 22, with no complications reported.",
+    "He received a routine colonoscopy at age 60, which was normal and required no further intervention.",
+    "He had a minor skin lesion removed on his forearm at age 55, with pathology confirming a benign lesion.",
+    "He had a routine hearing test at age 68, which showed mild age‑related changes but no need for hearing aids."
+   ],
+   "logistics": [
+    "Transportation to the clinic is provided by a community shuttle service that picks him up from his apartment complex each morning.",
+    "He prefers to schedule appointments in the early morning to avoid peak traffic on his commute.",
+    "The clinic has arranged for a follow‑up visit with the nutrition services department next month to discuss meal planning.",
+    "He has been given a printed map of the facility showing the locations of the radiology suite and the pharmacy.",
+    "A copy of his recent imaging reports was mailed to his primary care physician for coordination of care."
+   ],
+   "other_specialties": [
+    "A referral was placed with the ophthalmology department for a routine eye exam next quarter.",
+    "He was scheduled for a dental cleaning with his long‑time dentist in two weeks.",
+    "The orthopedic clinic was consulted to evaluate his mild knee osteoarthritis and discuss supportive footwear.",
+    "He will see a physical therapist to develop a low‑impact exercise routine aimed at maintaining flexibility.",
+    "A social worker will meet with him to discuss community resources for senior activities and transportation assistance."
+   ]
+  }
+ },
+ "P0025": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for her scheduled follow‑up appointment at 9:15 am and completed the registration paperwork without difficulty.",
+    "She confirmed her contact information and updated her emergency contact to her daughter, Maria, who lives nearby.",
+    "The clinic staff printed a copy of the upcoming referral letter to the ophthalmology department for her routine eye exam.",
+    "A reminder call was placed two days prior to the visit to confirm transportation arrangements.",
+    "The patient signed the consent form for the upcoming health‑maintenance questionnaire."
+   ],
+   "social": [
+    "She enjoys gardening in her backyard and spends several hours each week tending to her rose bushes and vegetable patch.",
+    "On weekends she attends a local book club that meets at the community center on Saturdays at 10 am.",
+    "She is an avid fan of classic jazz music and often listens to vinyl records at home.",
+    "The patient prefers a Mediterranean‑style diet, favoring olive oil, fresh fish, and a variety of seasonal vegetables.",
+    "She volunteers twice a month at the senior center, helping to organize craft activities for other residents."
+   ],
+   "family": [
+    "The patient lives with her husband of 48 years, who is retired from a career as a high school history teacher.",
+    "Their two adult children, a son who works as an accountant and a daughter who is a graphic designer, visit regularly.",
+    "Grandchildren live within a 30‑minute drive and often stop by for Sunday lunches.",
+    "The family reports a history of osteoarthritis in the paternal line and cataracts in the maternal line.",
+    "Her sister, who resides in a neighboring town, is a retired librarian and enjoys knitting."
+   ],
+   "remote_history": [
+    "She underwent cataract extraction with intra‑ocular lens placement approximately 12 years ago, reporting excellent visual outcome.",
+    "A dental extraction of a wisdom tooth was performed 15 years prior without complications.",
+    "She had a routine colonoscopy 11 years ago that was unremarkable.",
+    "Ten years ago she received a pair of prescription spectacles for presbyopia and uses them daily.",
+    "She attended a community health fair 13 years ago where she received a basic vision screening."
+   ],
+   "logistics": [
+    "Transportation to the clinic is provided by a private senior shuttle service that picks her up from her residence at 8:45 am.",
+    "Parking is arranged in the designated accessible spot near the main entrance.",
+    "The clinic has scheduled a 30‑minute slot for her appointment to allow ample time for discussion and paperwork.",
+    "A copy of her insurance card was verified and updated in the electronic health record during check‑in.",
+    "The patient requested that all future appointment reminders be sent via email rather than text message."
+   ],
+   "other_specialties": [
+    "A referral has been placed with the audiology department for a routine hearing assessment next month.",
+    "The patient will see a dietitian in two weeks to discuss heart‑healthy meal planning.",
+    "She has an upcoming dental cleaning appointment with her long‑time dentist scheduled for next Thursday.",
+    "The ophthalmology follow‑up is set for three weeks from now to evaluate her intra‑ocular lenses.",
+    "A physical therapist will conduct a mobility assessment during her next visit to the outpatient rehab clinic."
+   ]
+  }
+ },
+ "P0027": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for her scheduled outpatient visit at 9:15 am and completed the registration paperwork without difficulty.",
+    "Her insurance information was verified and the pre‑authorization for the upcoming imaging study was confirmed by the clinic staff.",
+    "A copy of the consent form was signed and placed in the electronic health record for future reference.",
+    "The clinic scheduler confirmed the next appointment for a follow‑up visit in six weeks and provided a reminder call date.",
+    "All required demographic updates were entered, including a change of mailing address to her new residence on Oak Street."
+   ],
+   "social": [
+    "She enjoys gardening and spends several hours each weekend tending to her vegetable patch.",
+    "In her free time she attends a local book club that meets monthly at the community center.",
+    "The patient is an avid fan of classic jazz music and often listens to vinyl records at home.",
+    "She prefers a Mediterranean style diet, favoring fresh fish, olive oil, and a variety of vegetables.",
+    "On weekdays she walks her dog, a golden retriever named Bella, for about thirty minutes after dinner."
+   ],
+   "family": [
+    "The patient lives with her husband, a retired high school teacher, and their two adult children who both work in the technology sector.",
+    "Her mother, aged 78, resides in a nearby assisted‑living facility and visits the family regularly.",
+    "She has a younger brother who is a civil engineer and lives in the same city.",
+    "The family reports a history of osteoarthritis in the paternal grandparents, which has been managed conservatively.",
+    "Her sister, a freelance graphic designer, often helps with household chores during busy periods."
+   ],
+   "remote_history": [
+    "Approximately twelve years ago she underwent uncomplicated cataract surgery on both eyes and has used reading glasses since.",
+    "She had a dental extraction of a wisdom tooth fifteen years ago without any reported complications.",
+    "Ten years prior she received a routine tetanus booster as part of her travel preparation for a vacation to Europe.",
+    "She had a minor skin lesion removed on her forearm eleven years ago, which healed without issue.",
+    "A routine eye exam fifteen years ago noted mild presbyopia, leading to the prescription of bifocal lenses."
+   ],
+   "logistics": [
+    "Transportation to the clinic is provided by a community shuttle service that picks her up from her neighborhood on the day of the appointment.",
+    "Parking validation is arranged through the hospital’s outpatient services desk for patients arriving by car.",
+    "The clinic’s patient portal was used to upload a copy of her driver’s license and proof of residence.",
+    "A reminder text message was scheduled to be sent 24 hours before her next scheduled visit.",
+    "The medical records department confirmed that all prior imaging reports have been transferred to the current system."
+   ],
+   "other_specialties": [
+    "A referral to the nutrition services department was placed to discuss her interest in Mediterranean cooking techniques.",
+    "The occupational therapy team was consulted to assess ergonomic setup for her home office, given her frequent computer use.",
+    "She was offered an appointment with the physical therapy clinic to develop a low‑impact exercise routine for her gardening activities.",
+    "The social work office provided information on local community gardening groups that meet weekly.",
+    "A brief consultation with the ophthalmology clinic confirmed that her current spectacles are up to date."
+   ]
+  }
+ },
+ "P0028": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for his scheduled appointment at 9:15 am and completed the check‑in paperwork without difficulty.",
+    "He confirmed his contact information and updated his mailing address, noting a recent move to a suburban residence two blocks from the clinic.",
+    "Insurance verification was completed on the day of the visit and the claim was submitted electronically to his provider.",
+    "A copy of his identification and driver’s license was scanned for the electronic health record.",
+    "He signed the standard consent form for participation in the outpatient program and received a copy for his records."
+   ],
+   "social": [
+    "He lives alone in a single‑story home and reports that his daily routine includes walking his dog in the neighborhood park each morning.",
+    "His hobbies include gardening, woodworking, and attending a local chess club that meets weekly on Thursdays.",
+    "He enjoys cooking meals that feature fresh vegetables and lean proteins, and he prefers a Mediterranean style diet.",
+    "The patient volunteers at a community library on weekends, helping to organize book donations.",
+    "He is an avid reader of historical biographies and often spends evenings at the nearby coffee shop reading."
+   ],
+   "family": [
+    "His mother, 78, resides in a retirement community and is retired from teaching elementary school.",
+    "His father, 80, lives independently and enjoys fishing trips with friends.",
+    "He has a younger sister, 48, who works as a graphic designer and lives in the same city.",
+    "His sister’s husband is a civil engineer and they have two teenage children who attend the local high school.",
+    "The patient reports a close relationship with his extended family and attends family gatherings during holidays."
+   ],
+   "remote_history": [
+    "He underwent cataract surgery on his right eye in 2012 with an uncomplicated postoperative course.",
+    "In 2015 he had a routine dental extraction of a wisdom tooth, which healed without incident.",
+    "He received a prescription for reading glasses in 2010 after an eye exam revealed mild presbyopia.",
+    "A minor skin lesion was removed in 2018 by a dermatologist; pathology was benign.",
+    "He had a colonoscopy in 2019 that showed normal findings and required no further intervention."
+   ],
+   "logistics": [
+    "Transportation to the clinic is provided by a community shuttle service that picks him up from his home each weekday morning.",
+    "He has a parking permit for the outpatient building and typically parks in the designated visitor lot.",
+    "The clinic sent a reminder call the day before the appointment, confirming the time and location.",
+    "He requested that future appointment letters be mailed to his new address rather than emailed.",
+    "The medical office scheduled his next follow‑up visit for three weeks from today and entered the date into his patient portal."
+   ],
+   "other_specialties": [
+    "He has an established relationship with a local optometrist who conducts annual eye examinations.",
+    "His dentist performs routine cleanings twice a year and last visited the office in March of this year.",
+    "He sees a physical therapist monthly for general mobility and balance exercises.",
+    "A nutritionist was consulted in 2021 to discuss heart‑healthy meal planning, and the patient follows the suggested guidelines.",
+    "He attends a weekly senior fitness class at the community center, which includes low‑impact aerobic activities."
+   ]
+  }
+ },
+ "P0029": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for his scheduled follow‑up appointment at 9:15 am, having checked in at the front desk and confirmed his contact details.",
+    "He completed the pre‑visit paperwork, verifying his mailing address and emergency contact information.",
+    "The clinic staff printed a new copy of the consent form for future referrals and asked him to sign it before seeing the provider."
+   ],
+   "social": [
+    "He lives alone in a single‑story home and uses a weekly grocery delivery service for most of his meals.",
+    "His primary mode of transportation to the clinic is a community shuttle service that picks him up from the senior center on Tuesdays.",
+    "In his free time, he enjoys woodworking projects in his garage and tends a small vegetable garden on his property."
+   ],
+   "family": [
+    "His daughter, a retired schoolteacher, lives nearby and assists with appointments and errands.",
+    "He has two adult grandchildren who visit on weekends and often bring homemade pies.",
+    "His sister, who resides in a neighboring town, has osteoarthritis and uses a cane for mobility."
+   ],
+   "remote_history": [
+    "He underwent cataract surgery with intra‑ocular lens implantation about 12 years ago, which restored his vision without complications.",
+    "Approximately 15 years prior, he had a routine dental extraction of a molar that healed uneventfully.",
+    "He received a pair of prescription spectacles in his early 60s for reading and computer work."
+   ],
+   "logistics": [
+    "The provider ordered a referral to the occupational therapy department for an ergonomic assessment of his woodworking station.",
+    "A copy of his recent imaging reports was faxed to his primary care physician for coordination of care.",
+    "The clinic scheduled his next routine follow‑up visit for three months from today, with a reminder call to be placed one week prior."
+   ],
+   "other_specialties": [
+    "He was advised to schedule a routine eye exam with his optometrist to update his prescription lenses.",
+    "The orthopedic clinic was contacted to arrange a joint‑health check‑up for his sister, who requested information on low‑impact exercise options.",
+    "A nutritionist was offered a consultation to discuss heart‑healthy meal ideas, though the patient declined, preferring his current garden‑to‑table diet."
+   ]
+  }
+ },
+ "P0015": {
+  "source": "llm_plain",
+  "clutter": {
+   "admin": [
+    "The next clinic visit is scheduled for Thursday, June 20 at 9:00 am.",
+    "A reminder call was placed two days prior to confirm attendance.",
+    "Insurance eligibility was verified and updated in the electronic record.",
+    "Consent forms for routine office procedures have been signed and filed.",
+    "Billing information was reviewed with the patient and a copy was provided.",
+    "A follow‑up letter summarizing today’s discussion will be mailed this week."
+   ],
+   "social": [
+    "He enjoys tending to his vegetable garden in the early morning hours.",
+    "Reading mystery novels is a favorite pastime during quiet afternoons.",
+    "He participates in a weekly bridge club at the local senior center.",
+    "Morning walks around the neighborhood park are part of his regular routine.",
+    "He prefers home‑cooked meals, especially grilled fish and steamed vegetables.",
+    "Classical music concerts at the community hall are attended whenever possible."
+   ],
+   "family": [
+    "He lives with his wife of fifty years in a single‑story home.",
+    "Their daughter, a high school teacher, resides two blocks away.",
+    "A son, retired civil engineer, visits on weekends for dinner.",
+    "Two grandchildren, ages eight and ten, come over for board games monthly.",
+    "A sister lives in the neighboring state and calls weekly.",
+    "Family photographs line the hallway, reflecting several generations."
+   ],
+   "remote_history": [
+    "He underwent cataract surgery fifteen years ago and uses reading glasses.",
+    "A dental extraction was performed twelve years ago without complications.",
+    "A benign skin lesion was removed thirteen years ago at a dermatology clinic.",
+    "He received a routine dental cleaning eleven years ago and maintains regular appointments.",
+    "Spectacle lenses were updated ten years ago for distance vision.",
+    "He had a minor ear‑wax removal procedure fourteen years ago."
+   ],
+   "logistics": [
+    "Community shuttle service transports him from his residence to the clinic.",
+    "He prefers morning appointment slots to avoid afternoon traffic.",
+    "A designated parking permit has been arranged for his vehicle.",
+    "Transportation assistance was coordinated with the local senior services office.",
+    "Appointment reminders are sent via text message the day before.",
+    "Referral paperwork to physiotherapy was faxed to the provider yesterday."
+   ],
+   "other_specialties": [
+    "He sees an orthopedist quarterly for management of knee osteoarthritis.",
+    "Annual eye examinations are performed by an ophthalmologist.",
+    "Dental check‑ups occur twice yearly with his long‑standing dentist.",
+    "Audiology appointments are scheduled for hearing aid evaluation as needed.",
+    "A nutrition counselor provides guidance on balanced meals and portion control.",
+    "Physical therapy sessions focus on maintaining mobility and strength."
+   ]
+  }
+ },
+ "P0030": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for her scheduled follow‑up appointment on a Tuesday morning and checked in at the front desk without any delays.",
+    "Her insurance information was verified and found to be current, with the primary carrier listed as BlueCross BlueShield.",
+    "The clinic staff confirmed that the patient has a preferred pharmacy located within the same medical complex for any future prescription needs.",
+    "A reminder call was placed two days prior to the visit, confirming the appointment time and providing directions to the parking garage.",
+    "The patient completed the standard intake forms, including updates to her emergency contact and primary care physician details."
+   ],
+   "social": [
+    "She lives in a single‑story home with her husband, who works as a retired school administrator.",
+    "The couple enjoys gardening together, tending to a vegetable patch and a variety of flowering plants on their property.",
+    "In her free time, she participates in a weekly book club that meets at the local library, focusing on contemporary fiction.",
+    "She is an avid fan of classic jazz music and attends a monthly concert series at the community center.",
+    "The patient prefers to shop at the nearby farmer's market for fresh produce and artisanal breads."
+   ],
+   "family": [
+    "Her husband, age 68, is a retired teacher who enjoys woodworking and volunteers at the local historical society.",
+    "They have two adult children: a daughter, 38, who works as a graphic designer, and a son, 35, who is a civil engineer.",
+    "The daughter lives nearby and often assists with household errands and transportation to appointments.",
+    "The son resides in a neighboring state and visits the family during holidays and special occasions.",
+    "There is a family history of osteoarthritis in the patient's mother, who required knee replacement surgery in her seventies."
+   ],
+   "remote_history": [
+    "Approximately 15 years ago, the patient underwent cataract surgery on her right eye, which resulted in improved vision and no subsequent complications.",
+    "She also had a dental extraction of a molar tooth about 12 years ago, performed without any reported issues.",
+    "At age 45, she received a routine colonoscopy that was normal and required no follow‑up procedures.",
+    "She had a minor skin lesion removed on her forearm roughly 13 years prior, with pathology confirming a benign result.",
+    "A routine eye exam 11 years ago identified early presbyopia, leading to the prescription of reading glasses."
+   ],
+   "logistics": [
+    "Transportation to the clinic is arranged through a community shuttle service that picks her up from her residence each weekday morning.",
+    "The patient prefers to schedule appointments in the late morning to avoid rush‑hour traffic on her commute.",
+    "She has requested that all future correspondence be sent via email to her personal address for quicker access.",
+    "The clinic has noted that she uses a cane for occasional support when walking longer distances, and the waiting area is equipped with a nearby seating bench.",
+    "Her next appointment has been booked for three months from now, with a reminder set to be sent one week in advance."
+   ],
+   "other_specialties": [
+    "A referral was placed with the ophthalmology department for a routine retinal check‑up, scheduled for next month.",
+    "She has an upcoming dental cleaning appointment with her long‑time dentist, arranged for the following week.",
+    "The patient was advised to see a physical therapist for a gentle stretching program to maintain joint flexibility, and a referral was sent to the outpatient rehab clinic.",
+    "A nutritionist appointment has been scheduled to discuss heart‑healthy meal planning, focusing on Mediterranean‑style dishes.",
+    "She will also meet with a social worker to explore community resources for senior activities and volunteer opportunities."
+   ]
+  }
+ },
+ "P0031": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for his scheduled follow‑up appointment at 9:15 am and completed the registration paperwork without delay.",
+    "He confirmed his contact information and updated his mailing address to the apartment complex on Oak Street.",
+    "The clinic staff verified his insurance eligibility and noted that his copayment for the visit is $25.",
+    "A consent form for future referrals was signed and filed in his electronic record.",
+    "He was reminded to bring his photo ID and insurance card to any upcoming specialty visits."
+   ],
+   "social": [
+    "He enjoys playing basketball at the local community center twice a week and is a member of a weekend hiking group.",
+    "On weekends he likes to cook Italian dishes, especially homemade pasta with tomato sauce.",
+    "He is an avid reader of science‑fiction novels and often attends the monthly book club at the library.",
+    "The patient volunteers at a neighborhood clean‑up program every first Saturday of the month.",
+    "He listens to classic rock music and has a collection of vinyl records that he maintains in his living room."
+   ],
+   "family": [
+    "He lives with his partner, a graphic designer, and their two cats in a two‑bedroom condo.",
+    "His parents reside in a nearby suburb; his mother works part‑time as a school librarian and his father is retired from a career in construction.",
+    "He has an older sister who is a high school teacher and a younger brother who is studying engineering at university.",
+    "Family gatherings often feature a barbecue on holidays, and he usually prepares the side dishes.",
+    "His aunt on his mother's side has osteoarthritis and uses a cane for mobility."
+   ],
+   "remote_history": [
+    "He underwent uncomplicated cataract surgery on his right eye in 2012 and wears reading glasses as needed.",
+    "In 2015 he had a dental extraction of a wisdom tooth without any reported complications.",
+    "He received a routine colonoscopy in 2018 that was normal and required no further intervention.",
+    "A minor skin lesion was removed in 2019 under local anesthesia, and the wound healed without issue.",
+    "He had a routine eye exam in 2020 and was prescribed new lenses for distance vision."
+   ],
+   "logistics": [
+    "Transportation to the clinic is provided by a city shuttle service that picks him up from his building at 8:45 am.",
+    "He prefers to schedule appointments in the morning to avoid peak traffic on his commute.",
+    "The clinic sent a reminder text message 24 hours before the visit, which he confirmed via reply.",
+    "He requested that his next appointment be coordinated with his partner’s work schedule to allow joint attendance.",
+    "All referral letters to the orthopedic and ophthalmology departments have been faxed and logged in his chart."
+   ],
+   "other_specialties": [
+    "A referral to the orthopedic clinic was placed for evaluation of mild knee discomfort related to his basketball activities.",
+    "He was scheduled for a routine eye examination with the optometrist to update his prescription lenses.",
+    "The nutritionist will see him next month to discuss balanced meal planning for his active lifestyle.",
+    "A physical therapist will be consulted to develop a stretching routine aimed at preventing muscle tightness after workouts.",
+    "The dental hygienist will perform a cleaning appointment in two weeks as part of his regular oral health maintenance."
+   ]
+  }
+ },
+ "P0032": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for his scheduled follow‑up appointment at 9:15 am, having confirmed the visit via the clinic’s online portal the previous week.",
+    "He completed the standard intake forms, verifying his contact information and emergency contact details.",
+    "The front desk staff processed his insurance verification and noted that his coverage remains active through the end of the year.",
+    "A copy of his most recent imaging report was uploaded to the electronic health record by the radiology department.",
+    "The provider entered a new referral request for a pulmonary function assessment to be performed at the affiliated outpatient testing center."
+   ],
+   "social": [
+    "He enjoys fishing trips on the nearby lake during the summer months and often joins a local angling club.",
+    "On weekends he attends a community gardening group where he helps maintain a vegetable plot at the neighborhood park.",
+    "He is an avid reader of historical biographies and spends evenings at the public library.",
+    "The patient volunteers as a mentor for a youth robotics program at the local high school.",
+    "He prefers a Mediterranean‑style diet, favoring olive oil, fresh vegetables, and grilled fish for most meals."
+   ],
+   "family": [
+    "He lives with his spouse of 32 years in a single‑story home in a suburban neighborhood.",
+    "The couple has two adult children: a daughter who works as a graphic designer and a son employed as a civil engineer.",
+    "His parents are both retired; his mother enjoys knitting while his father tends to a small workshop for woodworking projects.",
+    "The family frequently gathers for Sunday barbecues, during which the patient often prepares the grilled dishes.",
+    "A paternal uncle has a history of osteoarthritis in the knees, requiring occasional use of a cane."
+   ],
+   "remote_history": [
+    "Approximately 15 years ago he underwent uncomplicated cataract surgery on his right eye, resulting in restored visual acuity.",
+    "He had a dental extraction of a molar tooth in his early forties without any reported complications.",
+    "In his late teens he received a routine tonsillectomy performed at a local hospital.",
+    "He was fitted for prescription spectacles at age 45 after developing mild presbyopia.",
+    "A minor skin lesion was removed surgically on his forearm about 12 years ago, with pathology confirming a benign result."
+   ],
+   "logistics": [
+    "Transportation to the clinic is arranged through a private shuttle service that picks him up from his residence each weekday morning.",
+    "He has a designated parking permit for the clinic’s reserved lot, which he uses for appointments requiring longer stays.",
+    "The next scheduled appointment is a telehealth visit set for two weeks from today, during which he will discuss the upcoming testing results.",
+    "A reminder call is planned by the nursing staff 48 hours prior to the next in‑person visit to confirm attendance.",
+    "He has been provided with a printed map of the hospital campus highlighting the locations of the radiology suite and the outpatient pharmacy."
+   ],
+   "other_specialties": [
+    "A referral has been placed with the orthopedics department for evaluation of mild lower‑back discomfort that has been present intermittently for several months.",
+    "He was advised to schedule a routine dental cleaning with his family dentist within the next quarter.",
+    "The ophthalmology clinic sent a follow‑up note confirming stable vision after his prior cataract procedure.",
+    "He has an upcoming appointment with a nutritionist to discuss meal planning aligned with his dietary preferences.",
+    "The physical therapy team will be contacted to arrange a baseline mobility assessment prior to any future activity planning."
+   ]
+  }
+ },
+ "P0033": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for her scheduled follow‑up appointment on a Tuesday morning and completed the registration paperwork at the front desk.",
+    "She confirmed her contact information and updated her emergency contact details during the check‑in process.",
+    "The clinic staff printed a copy of the visit summary and placed it in the patient’s electronic health record.",
+    "A reminder call was placed two days prior to the appointment to verify attendance and to provide parking instructions.",
+    "The patient signed the consent form for the upcoming imaging study and received a copy for her records."
+   ],
+   "social": [
+    "She enjoys gardening in her backyard and tends to a small vegetable patch each spring.",
+    "On weekends she attends a local book club that meets at the community center every second Saturday.",
+    "She is an avid fan of classic jazz music and often listens to vinyl records at home.",
+    "The patient likes to bake pies and breads, favoring recipes that use fresh fruit from her garden.",
+    "She participates in a weekly knitting circle with a group of friends from her neighborhood."
+   ],
+   "family": [
+    "The patient lives independently in a single‑story home with her husband of 48 years.",
+    "Her daughter resides nearby and assists with grocery shopping and occasional household tasks.",
+    "She has two grandchildren who visit during the summer months and enjoy playing board games together.",
+    "Her sister, a retired schoolteacher, lives in the same town and they meet for coffee on Sundays.",
+    "The family’s occupational background includes a retired accountant (husband) and a former elementary school principal (sister)."
+   ],
+   "remote_history": [
+    "Approximately 15 years ago she underwent uncomplicated cataract surgery on both eyes and uses reading glasses.",
+    "She had a dental extraction of a wisdom tooth in her early forties without any subsequent complications.",
+    "In her late twenties she received a routine tetanus booster following a minor kitchen injury.",
+    "She completed a colonoscopy screening a decade ago that was reported as normal.",
+    "She had a minor skin lesion removed on her forearm about 12 years ago, with a simple excision performed in an outpatient setting."
+   ],
+   "logistics": [
+    "The clinic arranged for a wheelchair accessible parking space close to the entrance for her convenience.",
+    "Transportation to the appointment was provided by a community volunteer driver service that picks her up from her home at 8:30 am.",
+    "She was given a printed map of the hospital campus highlighting the radiology department and the outpatient pharmacy.",
+    "The scheduling team confirmed that her next appointment will be in six weeks, with a reminder email sent one week in advance.",
+    "A copy of the referral letter to the ophthalmology department was faxed to her eye doctor for a routine check‑up."
+   ],
+   "other_specialties": [
+    "A referral was placed with the nutrition services team to discuss heart‑healthy meal planning.",
+    "She was scheduled for a routine dental cleaning with her long‑time dentist next month.",
+    "The occupational therapy department was consulted to assess home ergonomics for her gardening activities.",
+    "A social worker will meet with her during the next visit to explore community resources for senior activities.",
+    "The physical therapy clinic was notified to arrange a gentle stretching program focused on flexibility."
+   ]
+  }
+ },
+ "P0024": {
+  "source": "llm_plain",
+  "clutter": {
+   "admin": [
+    "The patient completed the new patient intake form during the check‑in process.",
+    "Insurance eligibility was verified and the co‑pay amount was confirmed.",
+    "A consent form for electronic health record access was signed today.",
+    "The billing department issued an invoice for the previous visit.",
+    "A follow‑up appointment was scheduled for six weeks from now.",
+    "The patient was enrolled in the clinic’s online portal for test results."
+   ],
+   "social": [
+    "She enjoys gardening in her backyard and often grows roses and herbs.",
+    "On weekends she attends a local book club that meets at the library.",
+    "She volunteers twice a month at the community senior center, assisting with crafts.",
+    "Her favorite pastime is knitting scarves for her grandchildren.",
+    "She likes to listen to classic jazz records while preparing meals.",
+    "She plans a short road trip to the coast later this summer."
+   ],
+   "family": [
+    "She lives with her husband of 45 years in a single‑story home.",
+    "They have two adult children, a daughter who works as a teacher and a son who is a carpenter.",
+    "Four grandchildren visit regularly and often stay for dinner.",
+    "Her husband enjoys woodworking and maintains a small workshop in the garage.",
+    "The family owns a pet Labrador retriever that accompanies them on walks.",
+    "All family members are retired and spend time together on holidays."
+   ],
+   "remote_history": [
+    "She underwent uncomplicated cataract surgery fifteen years ago and uses reading glasses.",
+    "A dental extraction was performed twelve years ago without any reported complications.",
+    "She received a routine dental cleaning ten years ago at her local dentist.",
+    "She has worn prescription spectacles since her teenage years for nearsightedness.",
+    "Ten years ago she had a minor skin lesion removed on her forearm.",
+    "She received a flu vaccination eleven years ago, documented in her records."
+   ],
+   "logistics": [
+    "Transportation to the clinic is provided by the community shuttle service.",
+    "A reserved parking space near the entrance is allocated for her vehicle.",
+    "Wheelchair assistance is available upon request for navigating the clinic corridors.",
+    "Appointment reminders are sent via text message two days prior to the visit.",
+    "An interpreter for sign language is on standby should it be needed.",
+    "The clinic’s cafeteria offers a selection of low‑sodium meals for patients."
+   ],
+   "other_specialties": [
+    "A referral to ophthalmology was placed for an annual eye examination.",
+    "She will see a dental hygienist for a routine prophylaxis next month.",
+    "Physiotherapy has been recommended to support her osteoarthritis in the knees.",
+    "A nutritionist will discuss her preference for Mediterranean‑style meals.",
+    "Social work will provide information on local senior activity programs.",
+    "An occupational therapist will assess her home setup for safety improvements."
+   ]
+  }
+ },
+ "P0034": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for her scheduled follow‑up appointment at 9:15 am and completed the registration paperwork without difficulty.",
+    "She confirmed her contact information and updated her mailing address to the same apartment building on Maple Street.",
+    "The clinic staff verified her insurance eligibility and noted that her copayment for the visit is $25.",
+    "A consent form for routine data collection was signed and returned to the front desk.",
+    "The electronic health record was updated to reflect the most recent visit date and the next scheduled appointment in six weeks."
+   ],
+   "social": [
+    "She enjoys gardening in the community allotment and spends several hours each week tending to roses and herbs.",
+    "On weekends she attends a local book club that meets at the senior center to discuss contemporary fiction.",
+    "She is an avid fan of classic jazz music and often listens to vinyl records at home.",
+    "Her preferred cuisine includes Mediterranean dishes, especially grilled vegetables and olive‑oil‑based salads.",
+    "She walks her small terrier, Max, around the neighborhood park each morning."
+   ],
+   "family": [
+    "She lives independently in a two‑bedroom apartment with her sister, who visits daily to share meals.",
+    "Her son resides in a nearby city and calls weekly to check in and coordinate grocery deliveries.",
+    "Her daughter, a retired schoolteacher, lives three blocks away and assists with occasional household tasks.",
+    "The family has a history of osteoarthritis in the grandparents and cataract surgery in her mother at age 68.",
+    "Her niece works as a graphic designer and often helps with technology set‑up for video calls."
+   ],
+   "remote_history": [
+    "She underwent uncomplicated cataract extraction with intraocular lens placement in 2008.",
+    "Dental extraction of a molar was performed in 2012 without any postoperative complications.",
+    "In 2015 she received a routine colonoscopy that was normal and required no further intervention.",
+    "She had a minor skin lesion removed on her forearm in 2017, which healed well.",
+    "A routine hearing test in 2019 confirmed mild presbycusis, and she now uses over‑the‑counter hearing aids."
+   ],
+   "logistics": [
+    "Transportation to the clinic is provided by a community shuttle service that picks her up from the senior center at 8:45 am.",
+    "Parking permits for the outpatient building have been renewed for the current calendar year.",
+    "The clinic sent a reminder call two days prior to the appointment, confirming the time and location.",
+    "She requested that her medication refill be sent to the pharmacy on Main Street, which was arranged by the pharmacy technician.",
+    "The next appointment was scheduled for a routine follow‑up in the oncology outpatient suite, room 4B."
+   ],
+   "other_specialties": [
+    "A referral to the ophthalmology department was made for a routine eye exam next month.",
+    "She was advised to see the dental clinic for a semi‑annual cleaning and was given a referral date.",
+    "The nutrition services team provided a pamphlet on balanced meals for seniors, emphasizing calcium‑rich foods.",
+    "Physical therapy was suggested for a gentle stretching program to maintain mobility, and a referral was placed.",
+    "The social work department offered information on local senior activity programs and provided a brochure."
+   ]
+  }
+ },
+ "P0035": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for his scheduled follow‑up appointment on a Tuesday morning and completed the registration paperwork without difficulty.",
+    "He confirmed his contact information, including a new mobile phone number, and updated his mailing address to a nearby senior living community.",
+    "The clinic staff verified his insurance eligibility and noted that his copayment for the visit would be covered under his plan.",
+    "A reminder call was placed two days prior to the appointment, and the patient acknowledged receipt of the reminder.",
+    "The patient signed the consent form for the upcoming imaging study and received a copy for his records."
+   ],
+   "social": [
+    "He enjoys gardening in the community garden and tends to a small plot of roses and herbs each spring.",
+    "In his free time, he reads historical biographies and is a member of the local book club that meets monthly at the library.",
+    "He volunteers twice a month at the neighborhood food pantry, helping to sort and distribute donations.",
+    "The patient prefers a Mediterranean‑style diet, often preparing grilled fish, olive oil, and fresh vegetables at home.",
+    "He walks his dog, a golden retriever, for about thirty minutes each morning around the residential complex."
+   ],
+   "family": [
+    "He lives with his wife of 48 years, who works part‑time as a school librarian.",
+    "Their daughter resides nearby and visits weekly to assist with household chores and grocery shopping.",
+    "He has two adult grandchildren who attend a local high school and enjoy playing board games together on weekends.",
+    "His older brother, a retired carpenter, lives in the same county and they speak on the phone regularly.",
+    "The family reports a history of osteoarthritis in the paternal line and cataracts in the maternal grandparents."
+   ],
+   "remote_history": [
+    "Ten years ago he underwent uncomplicated cataract surgery on his left eye and uses reading glasses as needed.",
+    "He had a dental extraction of a molar in 2012 without any reported complications.",
+    "In 2015 he received a routine colonoscopy that was normal and required no further intervention.",
+    "He had a minor skin lesion removed on his forearm in 2018, which healed without issue.",
+    "He attended a community workshop on computer basics in 2019 and continues to use email regularly."
+   ],
+   "logistics": [
+    "Transportation to the clinic is provided by a local senior shuttle service that picks him up from his residence at 8:15 am.",
+    "He prefers to schedule appointments in the morning to avoid peak traffic on his commute.",
+    "The clinic has arranged for a follow‑up appointment with the radiology department for a scheduled scan next month.",
+    "He requested that all future appointment letters be mailed to his new address to ensure timely receipt.",
+    "The patient opted to receive electronic copies of his visit summaries via the patient portal."
+   ],
+   "other_specialties": [
+    "A referral was placed with the ophthalmology clinic for a routine eye exam next quarter.",
+    "He has an upcoming dental cleaning scheduled with his long‑time dentist in the neighborhood.",
+    "The patient was advised to see a nutritionist for general dietary counseling, and an appointment was booked for next week.",
+    "A consultation with the physical therapy department was arranged to discuss a low‑impact exercise program.",
+    "He was provided with the contact information for the local senior center, which offers weekly art classes and social events."
+   ]
+  }
+ },
+ "P0036": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for her scheduled clinic visit at 9:15 am and completed the registration paperwork without difficulty.",
+    "She signed the consent form for the upcoming imaging study and received a copy for her records.",
+    "The front desk staff confirmed her insurance information and updated her contact details in the electronic system.",
+    "A reminder call was placed two days prior to the appointment to verify transportation arrangements.",
+    "The patient was provided with a printed schedule outlining the sequence of appointments for the day."
+   ],
+   "social": [
+    "She enjoys gardening and spends several hours each weekend tending to her vegetable patch.",
+    "In her free time, she attends a local book club that meets monthly at the community center.",
+    "The patient is an avid fan of classic jazz music and often listens to vinyl records at home.",
+    "She volunteers at the senior center, helping organize bingo evenings for other residents.",
+    "During the winter months she likes to take short walks in the nearby park with her neighbor."
+   ],
+   "family": [
+    "The patient lives with her husband of 38 years in a single‑story home near a quiet residential neighborhood.",
+    "She has two adult children, a daughter who works as a school teacher and a son employed as a civil engineer.",
+    "Both children visit regularly and assist with household chores when needed.",
+    "Her husband is retired from a career in banking and enjoys woodworking as a hobby.",
+    "The family owns a small dog named Bella, who accompanies them on short outings."
+   ],
+   "remote_history": [
+    "Ten years ago she underwent uncomplicated cataract surgery on her left eye and uses reading glasses.",
+    "She had a dental extraction of a wisdom tooth in 2012 without any reported complications.",
+    "In 2008 she received a routine colonoscopy that was normal and required no follow‑up.",
+    "She had a minor skin lesion removed on her forearm in 2015, which healed well.",
+    "She wears prescription spectacles for distance vision and updates the prescription every few years."
+   ],
+   "logistics": [
+    "Transportation to the clinic is arranged through a community shuttle service that picks her up from her home at 8:45 am.",
+    "Parking permits have been issued for the clinic lot, and she parks in the designated accessible space.",
+    "The patient prefers to receive appointment reminders via text message rather than phone calls.",
+    "She has requested that all future correspondence be mailed to her PO box to ensure privacy.",
+    "The clinic staff coordinated a follow‑up appointment with the radiology department for a scheduled scan next Thursday."
+   ],
+   "other_specialties": [
+    "A referral was placed with the ophthalmology department for a routine eye exam next month.",
+    "She has an upcoming dental cleaning scheduled with her long‑time dentist at the local practice.",
+    "The patient was advised to see a nutritionist for general dietary guidance and a consultation was booked for the following week.",
+    "A physical therapist was consulted to discuss a low‑impact exercise program suitable for her interests.",
+    "She will meet with a social worker to explore community resources and support groups available in her area."
+   ]
+  }
+ },
+ "P0037": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for his scheduled follow‑up appointment on a Tuesday morning and completed the standard check‑in paperwork.",
+    "He confirmed his contact information and updated his emergency contact details during the visit.",
+    "The clinic staff verified his insurance eligibility and processed the co‑pay for the visit.",
+    "A reminder call was placed two days prior to the appointment to confirm attendance.",
+    "The patient was provided with a copy of the clinic’s privacy notice and signed the acknowledgment form."
+   ],
+   "social": [
+    "He lives in a suburban home with his spouse and two teenage children.",
+    "His wife works as a school administrator and enjoys gardening in her free time.",
+    "The patient volunteers at a local community center teaching basic computer skills to seniors.",
+    "In his leisure time, he enjoys fishing trips on nearby lakes and occasional hiking on weekend trails.",
+    "He prefers a Mediterranean style diet, often preparing grilled fish, olive oil, and fresh vegetables at home."
+   ],
+   "family": [
+    "His parents are both retired; his mother enjoys knitting while his father tends to a small vegetable garden.",
+    "He has an older brother who works as an electrician and lives in a neighboring town.",
+    "A paternal aunt has osteoarthritis of the knees and uses a cane for mobility.",
+    "A maternal cousin underwent cataract surgery five years ago and now wears reading glasses.",
+    "There is a family history of hypertension on the maternal side, managed with lifestyle modifications."
+   ],
+   "remote_history": [
+    "He had a routine dental extraction of a wisdom tooth in 2008 without complications.",
+    "In 2012 he underwent cataract surgery on his left eye and now uses a single‑vision lens.",
+    "He received a minor skin lesion removal on his forearm in 2015, performed under local anesthesia.",
+    "A childhood tonsillectomy was performed in 1990 with an uneventful recovery.",
+    "He had a routine colonoscopy in 2018 that showed normal findings."
+   ],
+   "logistics": [
+    "Transportation to the clinic is arranged through a family member who drives him from his home.",
+    "He prefers to schedule appointments in the late morning to avoid peak traffic hours.",
+    "The clinic’s billing department sent an electronic statement for the previous visit, which he reviewed online.",
+    "He requested that future appointment reminders be sent via text message rather than email.",
+    "The patient expressed interest in receiving educational brochures about healthy lifestyle habits."
+   ],
+   "other_specialties": [
+    "A referral was placed with the ophthalmology department for a routine eye exam next month.",
+    "He was scheduled for a dental cleaning with his long‑time dentist in two weeks.",
+    "The orthopedic clinic was consulted regarding his father's knee pain and provided a management plan.",
+    "A nutritionist appointment was arranged to discuss balanced meal planning and portion control.",
+    "He was offered a physiotherapy evaluation to address occasional lower back stiffness."
+   ]
+  }
+ },
+ "P0038": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for his scheduled follow‑up appointment on a Tuesday morning and completed the registration paperwork without difficulty.",
+    "He confirmed his contact information and updated his mailing address to a new apartment on the third floor of the building.",
+    "The clinic staff verified his insurance coverage and noted that his copayment for the visit is $25.",
+    "He checked in at the front desk and received a copy of the clinic’s privacy notice.",
+    "The patient signed the consent form for the upcoming routine blood draw.",
+    "He was escorted to the examination room by the medical assistant.",
+    "The appointment was scheduled for a 45‑minute slot to allow time for a comprehensive review.",
+    "He was reminded to bring his glasses for the visual acuity test during the visit."
+   ],
+   "social": [
+    "The patient enjoys gardening and spends several hours each weekend tending to his vegetable patch.",
+    "He is an avid reader of historical biographies and often visits the local library.",
+    "He participates in a weekly bridge club with a group of longtime friends.",
+    "He volunteers at the community center, helping to organize the monthly craft fair.",
+    "He prefers a Mediterranean style diet, emphasizing olive oil, fish, and fresh vegetables.",
+    "He walks his dog, a golden retriever, for about 30 minutes each morning.",
+    "He attends a local senior choir that meets on Thursday evenings.",
+    "He enjoys watching classic films and attends the downtown cinema’s retro movie nights."
+   ],
+   "family": [
+    "He lives with his spouse of 45 years in a single‑story home near a quiet suburb.",
+    "His daughter, a schoolteacher, visits regularly and assists with household chores.",
+    "His son, a retired electrician, lives nearby and helps with yard work during the summer.",
+    "He has two grandchildren who stay with him on weekends for board games and storytelling.",
+    "His sister, who resides in a neighboring state, calls weekly to check in.",
+    "His brother, a retired carpenter, enjoys woodworking and often shares his projects with the family."
+   ],
+   "remote_history": [
+    "He underwent cataract surgery on his left eye approximately 12 years ago with an uncomplicated recovery.",
+    "He had a dental extraction of a molar tooth about 15 years prior, which healed without incident.",
+    "He received a routine colonoscopy 13 years ago that was normal and required no further intervention.",
+    "He had a minor skin lesion removed from his forearm 11 years ago, which was benign.",
+    "He had a routine hearing test 14 years ago and was fitted with hearing aids for mild presbycusis."
+   ],
+   "logistics": [
+    "The patient uses a community shuttle service to travel to the clinic and has arranged for a wheelchair accessible vehicle for the appointment.",
+    "He prefers to schedule appointments in the morning to avoid peak traffic.",
+    "He has a designated parking spot in the clinic’s visitor lot.",
+    "He has authorized his spouse to receive electronic copies of his medical records.",
+    "He requested that all future appointment reminders be sent via text message rather than email.",
+    "He has a standing order for a yearly flu vaccination at the pharmacy, which he plans to receive after the visit."
+   ],
+   "other_specialties": [
+    "He has a scheduled ophthalmology follow‑up next month for routine eye health monitoring.",
+    "He sees a dentist twice a year for cleanings and check‑ups.",
+    "He has an upcoming appointment with a physical therapist to address mild lower‑back stiffness.",
+    "He is on the mailing list for the local nutrition workshop series focusing on heart‑healthy cooking.",
+    "He attends a monthly support group for retirees that discusses lifestyle and wellness topics."
+   ]
+  }
+ },
+ "P0040": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "Patient arrived for her scheduled follow‑up appointment at 9:15 am and completed the registration paperwork.",
+    "The front desk confirmed her insurance details and updated her contact information in the system.",
+    "A reminder call was placed two days prior to the visit to confirm transportation arrangements.",
+    "The clinic staff printed a copy of the after‑visit summary for the patient to take home."
+   ],
+   "social": [
+    "She lives in a suburban townhouse with her husband and two teenage children.",
+    "Her husband works as a high school teacher and enjoys woodworking on weekends.",
+    "The patient volunteers at the local library, helping organize community reading events.",
+    "In her free time she enjoys gardening, particularly growing roses and herbs."
+   ],
+   "family": [
+    "Her mother, aged 78, has osteoarthritis and uses a cane for mobility.",
+    "Her father, 80, underwent cataract surgery five years ago and wears reading glasses.",
+    "One of her siblings, a brother, is a civil engineer and lives nearby.",
+    "The family reports a history of hypertension in the paternal line, but no other significant conditions."
+   ],
+   "remote_history": [
+    "She had a routine dental extraction of a wisdom tooth in 2008 without complications.",
+    "In 2012 she underwent uncomplicated cataract surgery on her left eye and now uses bifocals.",
+    "A minor skin lesion was removed in 2015 with a simple excision performed by a dermatologist.",
+    "She received a tetanus booster in 2018 following a small kitchen cut."
+   ],
+   "logistics": [
+    "The patient uses a community shuttle service that picks her up from her residence at 8:30 am.",
+    "Parking validation was provided for the accompanying family member who drove her to the clinic.",
+    "A referral has been placed for a nutrition counseling session next month.",
+    "The next routine appointment is scheduled for three months from today, with a reminder set in the patient portal."
+   ],
+   "other_specialties": [
+    "A referral to the ophthalmology department was made for a routine eye exam next quarter.",
+    "She was advised to schedule a dental cleaning with her regular dentist within the next six weeks.",
+    "Physical therapy was suggested to address occasional lower‑back stiffness, with a follow‑up in four weeks.",
+    "The clinic’s social worker offered information on local support groups for caregivers."
+   ]
+  }
+ },
+ "P0039": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for his scheduled follow‑up appointment on a Tuesday morning and completed the registration paperwork at the front desk.",
+    "He confirmed his contact information and updated his mailing address, noting a recent move to a nearby assisted‑living community.",
+    "The clinic staff verified his insurance eligibility and processed the pre‑authorization for the upcoming imaging study.",
+    "He was reminded to bring his identification card and a copy of his recent laboratory report to the next visit.",
+    "The appointment was logged as a routine outpatient review and a copy of the visit summary will be mailed to his primary care physician."
+   ],
+   "social": [
+    "He enjoys gardening in the community courtyard and tends to a small flower bed each spring.",
+    "On weekends he attends a weekly bridge club at the senior center where he meets several longtime friends.",
+    "He is an avid reader of historical biographies and often visits the local library to borrow new titles.",
+    "He prefers a Mediterranean‑style diet, favoring olive oil, fresh vegetables, and grilled fish for his meals.",
+    "He listens to classic jazz records on his portable CD player during his morning walks."
+   ],
+   "family": [
+    "He lives with his daughter, who works as a school administrator, and her husband, a retired electrician.",
+    "His son resides in another state and visits him during the summer holidays.",
+    "His sister, a retired schoolteacher, lives nearby and assists with grocery shopping.",
+    "He has two grandchildren who enjoy playing board games with him during family gatherings.",
+    "The family reports a history of osteoarthritis in his mother and cataracts in his father."
+   ],
+   "remote_history": [
+    "He underwent cataract extraction with intraocular lens placement about 12 years ago, which restored his vision without complications.",
+    "Approximately 15 years prior, he had a routine dental extraction of a molar due to decay.",
+    "He received a pair of prescription spectacles for presbyopia around 13 years ago and updates them as needed.",
+    "He had a minor skin lesion removed on his forearm 11 years ago, with pathology confirming a benign lesion.",
+    "He completed a colonoscopy 14 years ago that showed normal findings."
+   ],
+   "logistics": [
+    "Transportation to the clinic is provided by a community shuttle service that picks him up from his residence each weekday.",
+    "He prefers to schedule appointments in the late morning to avoid the early rush hour traffic.",
+    "The clinic has arranged for a reminder call one day prior to each scheduled visit.",
+    "He uses a medication organizer box, although no specific medications are discussed in this record.",
+    "His next appointment is set for a routine imaging review in six weeks."
+   ],
+   "other_specialties": [
+    "He has a standing referral to the ophthalmology department for annual eye examinations.",
+    "A dental hygienist visits his residence quarterly for routine cleanings and oral health checks.",
+    "He sees a physical therapist monthly to maintain flexibility and balance through gentle stretching exercises.",
+    "He has an upcoming nutrition counseling session to discuss heart‑healthy meal planning.",
+    "He is on the mailing list for the local senior arts program, which offers weekly painting workshops."
+   ]
+  }
+ },
+ "P0041": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient checked in at the front desk at 8:15 am and confirmed her contact information.",
+    "She completed the standard consent forms for the upcoming imaging appointment.",
+    "Insurance verification was completed and the visit was billed under her primary plan.",
+    "The clinic staff updated her emergency contact to her sister, Maria Lopez.",
+    "A copy of the patient’s photo ID was scanned into the electronic health record."
+   ],
+   "social": [
+    "She enjoys gardening and spends several hours each weekend tending to her vegetable patch.",
+    "In her free time she attends a local book club that meets on the first Thursday of each month.",
+    "She volunteers at the community library, helping to organize the children's reading area.",
+    "She prefers a Mediterranean style diet, often preparing grilled fish, olive oil, and fresh salads at home.",
+    "She walks her dog, a golden retriever named Bella, for about 30 minutes each morning."
+   ],
+   "family": [
+    "She lives with her husband of 30 years, who works as a civil engineer.",
+    "Her adult daughter, Sofia, lives nearby and works as a high school teacher.",
+    "Her mother, now 78, resides in an assisted living facility and has mild osteoarthritis.",
+    "Her father passed away from a myocardial infarction at age 72.",
+    "A paternal aunt has a history of cataract surgery in her 60s."
+   ],
+   "remote_history": [
+    "She underwent cataract extraction with intra‑ocular lens placement in 2012.",
+    "Dental extraction of a wisdom tooth was performed in 2015 without complications.",
+    "She had a routine colonoscopy in 2018 that was normal.",
+    "In 2009 she received a pair of prescription glasses for presbyopia.",
+    "She attended a flu vaccination clinic in 2017, which was documented in her records."
+   ],
+   "logistics": [
+    "Transportation to the clinic is provided by a family member who drives her from her suburban home.",
+    "She has a scheduled follow‑up appointment with the radiology department on March 12 at 10:00 am.",
+    "The clinic sent a reminder text message 24 hours prior to today’s visit.",
+    "She requested that all future appointment letters be mailed to her work address for convenience.",
+    "The medical records department confirmed that her imaging reports have been uploaded to the shared portal."
+   ],
+   "other_specialties": [
+    "A referral to the ophthalmology clinic was placed for routine eye examination next month.",
+    "She was advised to schedule a dental cleaning with her local dentist in the coming weeks.",
+    "The nutrition services team offered a consultation to discuss her dietary preferences.",
+    "Physical therapy was suggested for a future evaluation of her back comfort during gardening.",
+    "She was provided with a list of community senior activities by the social work department."
+   ]
+  }
+ },
+ "P0042": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient checked in at the front desk at 8:45 am and completed the standard intake forms.",
+    "Her insurance information was verified and updated in the electronic health record.",
+    "A consent form for the upcoming clinic visit was signed and filed.",
+    "The clinic staff confirmed that the patient’s preferred pharmacy is the downtown retail location.",
+    "A copy of the patient’s identification and driver’s license was scanned for verification."
+   ],
+   "social": [
+    "She enjoys gardening and spends several hours each weekend tending to her vegetable patch.",
+    "In her free time she attends a weekly book club that meets at the local library.",
+    "The patient is an avid fan of classic jazz music and often listens to vinyl records at home.",
+    "She volunteers at the community center, helping organize art classes for seniors.",
+    "During the summer she likes to take short road trips to nearby lakes for picnics."
+   ],
+   "family": [
+    "The patient lives with her husband, who works as a civil engineer for the city.",
+    "They have two adult children: a daughter who is a high school teacher and a son who works in software development.",
+    "Her mother, aged 78, resides in a assisted‑living facility and visits the family monthly.",
+    "The patient’s brother, a retired carpenter, lives nearby and assists with occasional home maintenance.",
+    "Family gatherings are typically held at the patient’s home for holidays and birthdays."
+   ],
+   "remote_history": [
+    "She underwent cataract surgery on her left eye in 2012 with an uncomplicated postoperative course.",
+    "A dental extraction was performed in 2015 without any reported complications.",
+    "The patient received a routine colonoscopy in 2018 that was normal.",
+    "She had a minor skin lesion removed in 2019, which healed well.",
+    "A routine eye exam in 2020 confirmed stable vision correction with new spectacles."
+   ],
+   "logistics": [
+    "The patient uses a personal vehicle to travel to the clinic and parks in the designated patient lot.",
+    "She prefers appointments scheduled in the morning to avoid peak traffic hours.",
+    "The clinic has arranged for a reminder call one day prior to the next scheduled visit.",
+    "Her next follow‑up appointment is booked for three weeks from today at 9:00 am.",
+    "The patient requested that any future correspondence be sent via email rather than postal mail."
+   ],
+   "other_specialties": [
+    "A referral to the ophthalmology department was made for a routine retinal check‑up.",
+    "She has an upcoming dental cleaning scheduled with her long‑time dentist.",
+    "The patient was advised to schedule a yearly flu vaccination with her primary care provider.",
+    "A nutritionist appointment was arranged to discuss balanced meal planning.",
+    "Physical therapy was suggested for general mobility and stretching exercises."
+   ]
+  }
+ },
+ "P0043": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for his scheduled follow‑up appointment at 9:15 am, having checked in using the clinic’s online portal.",
+    "His insurance information was verified and the copayment for today’s visit was collected at the front desk.",
+    "The electronic health record was updated to reflect the new primary care provider referral that was requested during the last visit.",
+    "A copy of the patient’s most recent imaging report was printed and placed in the chart for the physician’s review.",
+    "The patient was reminded to bring his updated driver’s license for identity verification at the next visit."
+   ],
+   "social": [
+    "He lives in a two‑bedroom apartment downtown with his partner, who works as a graphic designer.",
+    "In his free time, he enjoys playing the guitar and practices a few songs each evening.",
+    "He is an avid cyclist and rides his road bike on the city’s bike lanes on weekends.",
+    "He volunteers at a local community garden, helping to maintain the vegetable plots.",
+    "He prefers a Mediterranean‑style diet, often preparing grilled fish, olive oil, and fresh vegetables at home."
+   ],
+   "family": [
+    "His mother, 62, is retired and enjoys knitting and crossword puzzles.",
+    "His father, 65, works part‑time as a carpenter and has a history of osteoarthritis in his knees.",
+    "He has a younger sister, 34, who is a school teacher and lives in a neighboring city.",
+    "The family reports no history of hereditary conditions such as cystic fibrosis or hemophilia.",
+    "All family members are listed as emergency contacts in the patient’s record."
+   ],
+   "remote_history": [
+    "He underwent uncomplicated cataract surgery on his left eye in 2012, with postoperative vision returning to baseline.",
+    "In 2015 he had a routine dental extraction of a wisdom tooth without any complications.",
+    "He received a prescription for reading glasses in 2018 after an eye exam indicated mild presbyopia.",
+    "A minor skin lesion was removed in 2019 by a dermatologist, and the pathology was benign.",
+    "He had a routine colonoscopy in 2020 that showed normal findings."
+   ],
+   "logistics": [
+    "Transportation to the clinic is provided by a city shuttle service that picks him up from his apartment complex.",
+    "He has a parking permit for the outpatient building and typically parks in the designated visitor lot.",
+    "The next appointment is scheduled for three months from now, with a reminder set to be sent via text message.",
+    "A referral to the nutrition services department was placed to discuss balanced meal planning.",
+    "The patient was given a copy of the clinic’s patient handbook, which outlines policies on appointment cancellations and rescheduling."
+   ],
+   "other_specialties": [
+    "A referral to the ophthalmology department was made for a routine eye exam next quarter.",
+    "He was advised to schedule a dental cleaning with his family dentist within the next six weeks.",
+    "The physical therapy team was consulted to provide guidance on low‑impact exercises for joint health.",
+    "An appointment with the occupational therapist was arranged to discuss ergonomic adjustments for his home office setup.",
+    "The social work department offered assistance with community resources and transportation options."
+   ]
+  }
+ },
+ "P0044": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "The patient arrived for his scheduled outpatient visit at 9:15 am and completed the registration paperwork without delay.",
+    "He confirmed his contact information and updated his mailing address during the check‑in process.",
+    "The clinic staff printed a new copy of the consent form for the upcoming study and placed it in the patient’s file.",
+    "A reminder call was made two days prior to the appointment to verify transportation arrangements.",
+    "The patient signed the insurance verification form and received a copy of the visit summary before leaving."
+   ],
+   "social": [
+    "He enjoys gardening in his backyard and spends several hours each weekend tending to roses and vegetable beds.",
+    "On weekdays he walks his dog, a golden retriever, for about thirty minutes after dinner.",
+    "He is an avid reader of historical biographies and often visits the local library on Saturday mornings.",
+    "The patient likes to watch classic western movies and attends a weekly film club at the community center.",
+    "He prefers a Mediterranean style diet, favoring olive oil, fresh fish, and a variety of vegetables."
+   ],
+   "family": [
+    "He lives with his spouse of 38 years in a single‑story home near a quiet suburban neighborhood.",
+    "The couple has two adult children; a daughter who works as a schoolteacher and a son employed in software development.",
+    "Both children visit regularly and assist with household chores when needed.",
+    "His sister, a retired accountant, resides nearby and helps with occasional errands.",
+    "There is a family tradition of Sunday brunches that includes extended relatives from out of state."
+   ],
+   "remote_history": [
+    "He underwent cataract surgery on his right eye in 2008 with an uncomplicated postoperative course.",
+    "In 2012 he had a dental extraction of a molar due to decay, which healed without incident.",
+    "He received a routine colonoscopy in 2015 that was normal and required no further intervention.",
+    "A minor skin lesion was removed in 2017; pathology confirmed a benign result.",
+    "He had a routine hearing test in 2019 and was fitted with a hearing aid for mild presbycusis."
+   ],
+   "logistics": [
+    "The patient uses a private vehicle to travel to the clinic and parks in the designated outpatient lot.",
+    "He has arranged for a family member to accompany him on days when the appointment is scheduled in the early morning.",
+    "The clinic provided a printed map with directions from his home to the parking area and building entrance.",
+    "He requested that future appointments be scheduled on Tuesdays to accommodate his work‑related commitments.",
+    "A follow‑up appointment was booked for six weeks later, and the date was confirmed via email."
+   ],
+   "other_specialties": [
+    "He has a standing referral with an ophthalmologist for routine eye examinations, the next visit is scheduled for next month.",
+    "A dental hygienist will see him for a semi‑annual cleaning in two weeks.",
+    "He sees a physical therapist quarterly for maintenance exercises focused on flexibility and balance.",
+    "The patient has an annual meeting with a nutritionist to discuss meal planning and dietary preferences.",
+    "He is on the mailing list for the local senior center’s wellness workshops and plans to attend the upcoming session on stress‑free living."
+   ]
+  }
+ },
+ "P0045": {
+  "source": "llm_json",
+  "clutter": {
+   "admin": [
+    "Ms. Li scheduled her next follow‑up visit for the 15th of next month at the outpatient oncology clinic.",
+    "The appointment was booked through the hospital's online portal and a reminder call was placed two days prior.",
+    "She confirmed her preferred language for communication is Mandarin and requested that all paperwork be provided in both Mandarin and English.",
+    "The clinic staff verified her insurance details and updated her address to the apartment complex on Riverside Road.",
+    "A copy of her identification and recent utility bill were scanned into the electronic health record for verification purposes.",
+    "Ms. Li was given a printed parking voucher valid for three consecutive days surrounding her appointment.",
+    "The nursing triage team noted that she prefers to be seen in the morning slot to avoid the midday rush.",
+    "A consent form for future referrals was signed and filed in her chart.",
+    "The clinic’s patient liaison arranged for a translator to be present during the visit.",
+    "All administrative notes were entered into the system by 10:00 am on the day of the appointment."
+   ],
+   "social": [
+    "Ms. Li lives with her husband, who works as a senior accountant at a local firm.",
+    "They have two adult children: a 32‑year‑old son who is a software engineer and a 28‑year‑old daughter who teaches elementary school.",
+    "The family enjoys weekend outings to the nearby botanical gardens and often dines at the local dim sum restaurant.",
+    "Ms. Li is an avid fan of traditional Chinese calligraphy and attends a weekly class at the community center.",
+    "She enjoys listening to classical music, particularly the works of Beethoven and Mozart.",
+    "The household owns a small terracotta garden where they grow herbs such as basil and mint for cooking.",
+    "Ms. Li prefers a diet rich in fresh vegetables, rice, and occasional seafood, citing family tradition as the reason.",
+    "She volunteers twice a month at the neighborhood library, helping to organize book displays.",
+    "The family pet is a golden retriever named Lucky, who accompanies Ms. Li on short walks around the block.",
+    "Ms. Li enjoys watching historical drama series on television during the evenings."
+   ],
+   "family": [
+    "Her husband, Mr. Li, was born in 1962 and retired from a banking career two years ago.",
+    "Their son, Jason, lives in the same city and frequently helps with grocery shopping and errands.",
+    "Their daughter, Mei, recently moved back to the hometown after completing a master's degree in education.",
+    "The extended family includes Ms. Li's elderly mother, who resides in a nearby assisted‑living facility.",
+    "Ms. Li's brother, a retired civil engineer, visits the family on holidays and brings homemade pastries.",
+    "Family gatherings often feature traditional mooncakes during the Mid‑Autumn Festival.",
+    "The Li family maintains a close relationship with cousins who live in the coastal province of Fujian.",
+    "Ms. Li's niece is a graphic designer who occasionally shares digital photo albums of family events.",
+    "The family celebrates Chinese New Year together, preparing dumplings and lanterns as part of the tradition.",
+    "Ms. Li's father passed away peacefully at home when she was in her early thirties."
+   ],
+   "remote_history": [
+    "Ms. Li underwent cataract surgery on her right eye in 2011, which was uncomplicated and resulted in improved vision.",
+    "She had a dental extraction of a wisdom tooth in 2013 without any subsequent issues.",
+    "In 2009, she received a routine colonoscopy that showed normal findings.",
+    "She had a minor skin lesion removed from her forearm in 2015, which healed without scarring.",
+    "Ms. Li had a routine eye exam in 2018 where mild presbyopia was noted, and she was prescribed reading glasses.",
+    "She received a flu vaccination in 2017, which she tolerated well.",
+    "In 2012, she had a minor orthopedic procedure to repair a small fracture in her left wrist after a fall at home.",
+    "Ms. Li attended a community health workshop on nutrition in 2020.",
+    "She completed a basic first‑aid course in 2016, earning a certification that is still valid.",
+    "In 2014, she participated in a local charity walk for arthritis awareness."
+   ],
+   "logistics": [
+    "The clinic provides a shuttle service from the central train station, which Ms. Li uses weekly.",
+    "Parking spaces near the outpatient building are reserved for patients with mobility concerns, and Ms. Li has a designated spot.",
+    "Her appointment time is scheduled for 9:30 am, allowing her to return home before lunchtime.",
+    "The clinic’s pharmacy is located on the ground floor, making it convenient for patients to pick up prescriptions after their visit.",
+    "Ms. Li prefers to receive appointment reminders via text message rather than email.",
+    "The hospital’s patient portal allows her to view test results and communicate with staff securely.",
+    "She has a preferred pharmacy in the neighborhood where she picks up over‑the‑counter items.",
+    "The clinic’s waiting area offers complimentary tea and coffee, which Ms. Li enjoys while waiting.",
+    "A wheelchair is available upon request, though Ms. Li typically walks to the clinic.",
+    "The hospital’s cafeteria offers a variety of low‑sodium meals, which Ms. Li sometimes selects for lunch."
+   ],
+   "other_specialties": [
+    "Ms. Li has a scheduled appointment with the ophthalmology department for routine eye check‑up next month.",
+    "She is referred to a dietitian for a personalized nutrition plan focusing on heart‑healthy meals.",
+    "A dental hygienist will see her for a cleaning in two weeks.",
+    "The physiotherapy clinic has offered a gentle stretching program to improve flexibility.",
+    "She has a pending referral to the community mental‑wellness center for stress‑management workshops.",
+    "Ms. Li is on the waiting list for a group tai chi class offered by the senior activity center.",
+    "A podiatrist will evaluate her footwear during her next visit to the foot clinic.",
+    "She has expressed interest in meeting with a financial advisor to discuss retirement planning.",
+    "The hospital’s art therapy program has invited her to attend a weekly painting session.",
+    "Ms. Li will attend a local library talk on traditional Chinese medicine and its cultural significance."
+   ]
+  }
+ }
+}

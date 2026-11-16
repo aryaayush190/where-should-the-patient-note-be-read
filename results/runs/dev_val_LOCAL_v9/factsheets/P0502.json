@@ -1,0 +1,303 @@
+{
+ "patient_id": "P0502",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    59.0,
+    59.0
+   ],
+   "evidence": "59-year-old male",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "male",
+   "evidence": "59-year-old male",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "melanoma",
+   "evidence": "histologically confirmed metastatic non-uveal melanoma",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "histology": {
+   "status": "value",
+   "value": "nos",
+   "evidence": "histologically confirmed metastatic non-uveal melanoma",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "progressed_after_prior",
+   "evidence": "disease recently progressed after achieving a prior partial response",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ecog": {
+   "status": "value",
+   "value": [
+    1.0,
+    1.0
+   ],
+   "evidence": "an ECOG performance status of 1",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "life_expectancy_months": {
+   "status": "value",
+   "value": [
+    2.76,
+    Infinity
+   ],
+   "evidence": "life expectancy >12 weeks",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "measurable_disease": {
+   "status": "value",
+   "value": true,
+   "evidence": "measurable target lesions per RECIST v1.1",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "brain_mets": {
+   "status": "value",
+   "value": "treated_stable",
+   "evidence": "previously treated brain metastases have been radiographically stable for over 4 weeks",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "steroids_systemic": {
+   "status": "negated",
+   "value": null,
+   "evidence": "requires zero systemic corticosteroids",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "autoimmune_active": {
+   "status": "negated",
+   "value": null,
+   "evidence": "no active autoimmune disease",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "unstable_angina": {
+   "status": "negated",
+   "value": null,
+   "evidence": "no cardiovascular illness",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "chf": {
+   "status": "negated",
+   "value": null,
+   "evidence": "no cardiovascular illness",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "creatinine_mg_dl": {
+   "status": "value",
+   "value": [
+    1.0,
+    1.0
+   ],
+   "evidence": "creatinine 1.0 mg/dL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "bilirubin_mg_dl": {
+   "status": "value",
+   "value": [
+    0.8,
+    0.8
+   ],
+   "evidence": "bilirubin 0.8 mg/dL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ast_xuln": {
+   "status": "value",
+   "value": [
+    2.5,
+    2.5
+   ],
+   "evidence": "AST, ALT, and alkaline phosphatase strictly ≤2.5x ULN",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "alt_xuln": {
+   "status": "value",
+   "value": [
+    2.5,
+    2.5
+   ],
+   "evidence": "AST, ALT, and alkaline phosphatase strictly ≤2.5x ULN",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "anc_k_ul": {
+   "status": "value",
+   "value": [
+    3.2,
+    3.2
+   ],
+   "evidence": "ANC 3.2 x10³/µL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "wbc_k_ul": {
+   "status": "value",
+   "value": [
+    5.0,
+    5.0
+   ],
+   "evidence": "WBC 5.0 x10³/µL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "platelets_k_ul": {
+   "status": "value",
+   "value": [
+    245.0,
+    245.0
+   ],
+   "evidence": "platelets 245k/µL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "hemoglobin_g_dl": {
+   "status": "value",
+   "value": [
+    11.8,
+    11.8
+   ],
+   "evidence": "hemoglobin 11.8 g/dL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "albumin_g_dl": {
+   "status": "value",
+   "value": [
+    3.8,
+    3.8
+   ],
+   "evidence": "albumin 3.8 g/dL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "mi_history": {
+   "status": "negated",
+   "value": null,
+   "evidence": "no cardiovascular illness",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  }
+ },
+ "therapy_status": "value",
+ "events": [
+  {
+   "cls": "systemic",
+   "agents": [
+    "previous systemic therapy"
+   ],
+   "line": null,
+   "setting": "advanced",
+   "thoracic": null,
+   "months_ago": [
+    6.0,
+    Infinity
+   ],
+   "ongoing": false,
+   "evidence": "all prior systemic and radiation therapies were completed over 6 months ago",
+   "verified": false
+  }
+ ],
+ "lines_of_therapy": [
+  1.0,
+  1.0
+ ],
+ "reader_meta": {
+  "reader": "edge_local",
+  "conflicts": [],
+  "therapy_verified": false,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "cached": true,
+   "latency_s": 339.517,
+   "prompt_tokens": 1597,
+   "gen_tokens": 1336,
+   "prompt_s": 15.992,
+   "gen_s": 314.899,
+   "load_s": 0.048
+  }
+ }
+}

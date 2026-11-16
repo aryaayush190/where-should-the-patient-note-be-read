@@ -1,0 +1,237 @@
+{
+ "patient_id": "P0005",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    78.0,
+    78.0
+   ],
+   "evidence": "78-year-old female",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "female",
+   "evidence": "female",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "adenocarcinoma of the lung",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "histology": {
+   "status": "value",
+   "value": "adenocarcinoma",
+   "evidence": "histologically confirmed adenocarcinoma",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IIIB",
+   "evidence": "staged as IIIB",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "measurable_disease": {
+   "status": "value",
+   "value": true,
+   "evidence": "at least one measurable lesion ?10 mm",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ecog": {
+   "status": "value",
+   "value": [
+    1.0,
+    1.0
+   ],
+   "evidence": "ECOG performance status of 1",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "egfr": {
+   "status": "value",
+   "value": "positive",
+   "evidence": "Molecular testing revealed EGFR L858R",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "creatinine_mg_dl": {
+   "status": "value",
+   "value": [
+    0.9,
+    0.9
+   ],
+   "evidence": "creatinine 0.9 mg/dL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "anc_k_ul": {
+   "status": "value",
+   "value": [
+    3.7,
+    3.7
+   ],
+   "evidence": "ANC 3.7 x10^-3",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "platelets_k_ul": {
+   "status": "value",
+   "value": [
+    342.0,
+    342.0
+   ],
+   "evidence": "platelets 342k",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "hemoglobin_g_dl": {
+   "status": "value",
+   "value": [
+    15.1,
+    15.1
+   ],
+   "evidence": "hemoglobin 15.1 g/dL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "bilirubin_mg_dl": {
+   "status": "value",
+   "value": [
+    0.8,
+    0.8
+   ],
+   "evidence": "bilirubin 0.8 mg/dL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "malignant_effusion": {
+   "status": "value",
+   "value": true,
+   "evidence": "malignant pleural effusion",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "unstable_angina": {
+   "status": "negated",
+   "value": null,
+   "evidence": "no significant cardiovascular events",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "chf": {
+   "status": "negated",
+   "value": null,
+   "evidence": "no significant cardiovascular events",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "arrhythmia": {
+   "status": "negated",
+   "value": "none",
+   "evidence": "no significant cardiovascular events",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "tnm_t": {
+   "status": "value",
+   "value": "T4",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  },
+  "tnm_n": {
+   "status": "value",
+   "value": "N3",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  },
+  "tnm_m": {
+   "status": "value",
+   "value": "M0",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  }
+ },
+ "therapy_status": "negated",
+ "events": [],
+ "lines_of_therapy": null,
+ "reader_meta": {
+  "reader": "edge_local",
+  "conflicts": [],
+  "therapy_verified": true,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 145.881,
+   "prompt_tokens": 1515,
+   "gen_tokens": 614,
+   "prompt_s": 11.491,
+   "gen_s": 127.942,
+   "load_s": 0.034
+  }
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "n": 270,
+ "forced": {
+  "coverage": 1.0,
+  "acc_all": 0.7333333333333333,
+  "acc_decided": 0.7333333333333333,
+  "precision": 0.4838709677419355,
+  "recall": 0.6521739130434783,
+  "f1": 0.5555555555555556,
+  "tp": 45,
+  "fp": 48,
+  "fn": 24,
+  "tn": 153,
+  "dist": {
+   "NOT_ELIGIBLE": 177,
+   "ELIGIBLE": 93
+  }
+ },
+ "selective": {
+  "coverage": 0.6777777777777778,
+  "acc_all": 0.6148148148148148,
+  "acc_decided": 0.907103825136612,
+  "precision": 0.8571428571428571,
+  "recall": 0.5625,
+  "f1": 0.6792452830188678,
+  "tp": 18,
+  "fp": 3,
+  "fn": 14,
+  "tn": 148,
+  "dist": {
+   "NOT_ELIGIBLE": 162,
+   "NEED_INFO": 75,
+   "ELIGIBLE": 21,
+   "DEFER": 12
+  }
+ },
+ "pending_as_eligible": {
+  "coverage": 0.9555555555555556,
+  "acc_decided": 0.7713178294573644,
+  "precision": 0.53125,
+  "recall": 0.7846153846153846,
+  "f1": 0.6335403726708075,
+  "tp": 51,
+  "fp": 45,
+  "fn": 14,
+  "tn": 148
+ },
+ "mean_l2_per_pair": 1.4259259259259258,
+ "offline_decided": 0.22962962962962963,
+ "ablation": "AB_noL1"
+}

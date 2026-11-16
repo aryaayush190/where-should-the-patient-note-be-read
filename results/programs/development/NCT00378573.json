@@ -1,0 +1,877 @@
+{
+ "trial_id": "NCT00378573",
+ "atoms": [
+  {
+   "id": "c0A0",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "The following information on clinical trials is provided for information purposes only to allow patients and physicians to have an initial discussion about the trial. This information is not intended to be complete information about the trial, to contain all considerations that may be relevant to potential participation in the trial, or to replace the advice of a personal physician or health professional.",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Information disclaimer: trial description is for discussion only and not complete.",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c0A1",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Histologic or cytologic confirmation of locally advanced (pleural effusion) or metastatic (Stage IIIB/IV) NSCLC (non-squamous-cell histology only), mixed tumor types can be selected based on predominant cell type unless small cell elements are discovered (in which case the subject is not eligible);",
+   "lines": [
+    2
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "cancer_type",
+   "op": null,
+   "value": null,
+   "values": [
+    "nsclc"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient's cancer type non‑small cell lung cancer?"
+  },
+  {
+   "id": "c0A2",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Histologic or cytologic confirmation of locally advanced (pleural effusion) or metastatic (Stage IIIB/IV) NSCLC (non-squamous-cell histology only), mixed tumor types can be selected based on predominant cell type unless small cell elements are discovered (in which case the subject is not eligible);",
+   "lines": [
+    2
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "stage_group",
+   "op": null,
+   "value": null,
+   "values": [
+    "IIIB",
+    "IV"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the disease stage IIIB or IV?"
+  },
+  {
+   "id": "c0A3",
+   "type": "IN",
+   "polarity": "exclusion",
+   "source_line": "Histologic or cytologic confirmation of locally advanced (pleural effusion) or metastatic (Stage IIIB/IV) NSCLC (non-squamous-cell histology only), mixed tumor types can be selected based on predominant cell type unless small cell elements are discovered (in which case the subject is not eligible);",
+   "lines": [
+    2
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "histology",
+   "op": null,
+   "value": null,
+   "values": [
+    "squamous"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Does the tumor have squamous histology?"
+  },
+  {
+   "id": "c0A4",
+   "type": "IS",
+   "polarity": "inclusion",
+   "source_line": "Measurable disease, defined as at least one lesion that can be accurately measured in at least one dimension (longest diameter to be recorded) as >/= 20 mm with conventional computerized tomography (CT) or magnetic resonance imaging (MRI) scans, or as >/= 10 mm with spiral computerized tomography (CT) scan",
+   "lines": [
+    3
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "measurable_disease",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have at least one measurable lesion per protocol definition?"
+  },
+  {
+   "id": "c0A5",
+   "type": "HAS",
+   "polarity": "exclusion",
+   "source_line": "No previous systemic chemotherapy | Receipt of prior systemic chemotherapy, vascular endothelial growth factor (VEGF) or endothelial growth factor receptor (EGFR) inhibitor therapy at any time; receipt of recent or current radiation therapy; current, recent (within 4 weeks prior to study registration), or planned receipt of investigational therapy (investigational therapy is defined as treatment for which there is currently no regulatory authority approved indication)",
+   "lines": [
+    4,
+    11
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "chemo"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient received any prior systemic chemotherapy?"
+  },
+  {
+   "id": "c0A6",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Estimated life expectancy of >/= 12 weeks",
+   "lines": [
+    5
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "life_expectancy_months",
+   "op": ">=",
+   "value": 2.761,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Is the estimated life expectancy at least 12 weeks?"
+  },
+  {
+   "id": "c0A7",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Eastern Cooperative Oncology Group (ECOG) Performance Status (PS) of 0, 1 or 2",
+   "lines": [
+    6
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "ecog",
+   "op": "<=",
+   "value": 2,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient's ECOG performance status?"
+  },
+  {
+   "id": "c0A8",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Nonpregnant, nonlactating female subjects; male and female subjects of childbearing potential must be willing to use an effective form of contraception while on therapy and for 90 days thereafter; an effective form of contraception is defined as an oral contraceptive or a double barrier method; pregnancy is to be determined/ ruled out through the use of serum human chorionic gonadotropin (HCG)",
+   "lines": [
+    7
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "pregnant",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Is the patient currently pregnant?"
+  },
+  {
+   "id": "c0A9",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Nonpregnant, nonlactating female subjects; male and female subjects of childbearing potential must be willing to use an effective form of contraception while on therapy and for 90 days thereafter; an effective form of contraception is defined as an oral contraceptive or a double barrier method; pregnancy is to be determined/ ruled out through the use of serum human chorionic gonadotropin (HCG)",
+   "lines": [
+    7
+   ],
+   "section": "inclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Patient is willing and able to use an effective form of contraception for the required period.",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Is the patient willing to use effective contraception during treatment and for 90 days after?"
+  },
+  {
+   "id": "c0A10",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Subjects must have adequate renal function as determined by the following within 1 week prior to study registration: Calculated creatinine clearance >45 mL/min using Cockcroft-Gault formula; Urine protein: creatinine (UPC) ratio <1.0 by spot urinalysis; Urine dipstick for protein <2+ (subjects discovered to have >= 2+ proteinuria on dipstick urinalysis at baseline should undergo a 24-hour urine collection and must demonstrate </= 1 g of protein in 24 hours to be eligible);",
+   "lines": [
+    8
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "crcl_ml_min",
+   "op": ">",
+   "value": 45,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the calculated creatinine clearance (mL/min)?"
+  },
+  {
+   "id": "c0A11",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Subjects must have adequate renal function as determined by the following within 1 week prior to study registration: Calculated creatinine clearance >45 mL/min using Cockcroft-Gault formula; Urine protein: creatinine (UPC) ratio <1.0 by spot urinalysis; Urine dipstick for protein <2+ (subjects discovered to have >= 2+ proteinuria on dipstick urinalysis at baseline should undergo a 24-hour urine collection and must demonstrate </= 1 g of protein in 24 hours to be eligible);",
+   "lines": [
+    8
+   ],
+   "section": "inclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Urine protein‑creatinine ratio is <1.0 and dipstick protein is <2+.",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Are the urine protein/creatinine ratio and dipstick protein within required limits?"
+  },
+  {
+   "id": "c0A12",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Hematologic evaluation within 2 weeks prior to study registration (minimum values): Absolute neutrophil count (ANC) >/= 1500 mm3; Platelet count >/= 100,000 mm3; Hemoglobin (Hg) >/= 9.9 g/dL (erythropoietin may be transfused to maintain or exceed this level); Partial thromboplastin time (PTT) no greater than upper limit of normal (ULN)",
+   "lines": [
+    9
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "anc_k_ul",
+   "op": ">=",
+   "value": 1.5,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the absolute neutrophil count (×10³/µL)?"
+  },
+  {
+   "id": "c0A13",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Hematologic evaluation within 2 weeks prior to study registration (minimum values): Absolute neutrophil count (ANC) >/= 1500 mm3; Platelet count >/= 100,000 mm3; Hemoglobin (Hg) >/= 9.9 g/dL (erythropoietin may be transfused to maintain or exceed this level); Partial thromboplastin time (PTT) no greater than upper limit of normal (ULN)",
+   "lines": [
+    9
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "platelets_k_ul",
+   "op": ">=",
+   "value": 100,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the platelet count (×10³/µL)?"
+  },
+  {
+   "id": "c0A14",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Hematologic evaluation within 2 weeks prior to study registration (minimum values): Absolute neutrophil count (ANC) >/= 1500 mm3; Platelet count >/= 100,000 mm3; Hemoglobin (Hg) >/= 9.9 g/dL (erythropoietin may be transfused to maintain or exceed this level); Partial thromboplastin time (PTT) no greater than upper limit of normal (ULN)",
+   "lines": [
+    9
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "hemoglobin_g_dl",
+   "op": ">=",
+   "value": 9.9,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the hemoglobin level (g/dL)?"
+  },
+  {
+   "id": "c0A15",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Hematologic evaluation within 2 weeks prior to study registration (minimum values): Absolute neutrophil count (ANC) >/= 1500 mm3; Platelet count >/= 100,000 mm3; Hemoglobin (Hg) >/= 9.9 g/dL (erythropoietin may be transfused to maintain or exceed this level); Partial thromboplastin time (PTT) no greater than upper limit of normal (ULN)",
+   "lines": [
+    9
+   ],
+   "section": "inclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Partial thromboplastin time exceeds the upper limit of normal.",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the PTT greater than the ULN?"
+  },
+  {
+   "id": "c0A16",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Hepatic function evaluation within 2 weeks prior to study registration (as detailed in protocol provided to Investigator): Total bilirubin </= upper limit of normal; Aspartate aminotransferase (AST), alanine aminotransferase (ALT) and alkaline phosphatase must be within the range allowing for eligibility; In determining eligibility the more abnormal of the two values (AST or ALT) should be used (details for decision in full protocol as provided to Investigator)",
+   "lines": [
+    10
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "bilirubin_xuln",
+   "op": "<=",
+   "value": 1,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is total bilirubin ≤ upper limit of normal?"
+  },
+  {
+   "id": "c0A17",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Hepatic function evaluation within 2 weeks prior to study registration (as detailed in protocol provided to Investigator): Total bilirubin </= upper limit of normal; Aspartate aminotransferase (AST), alanine aminotransferase (ALT) and alkaline phosphatase must be within the range allowing for eligibility; In determining eligibility the more abnormal of the two values (AST or ALT) should be used (details for decision in full protocol as provided to Investigator)",
+   "lines": [
+    10
+   ],
+   "section": "inclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "AST or ALT values exceed protocol‑specified limits.",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Are AST or ALT above the allowed thresholds?"
+  },
+  {
+   "id": "c0A18",
+   "type": "HAS",
+   "polarity": "exclusion",
+   "source_line": "Receipt of prior systemic chemotherapy, vascular endothelial growth factor (VEGF) or endothelial growth factor receptor (EGFR) inhibitor therapy at any time; receipt of recent or current radiation therapy; current, recent (within 4 weeks prior to study registration), or planned receipt of investigational therapy (investigational therapy is defined as treatment for which there is currently no regulatory authority approved indication)",
+   "lines": [
+    11
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "antiangiogenic"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient received any prior VEGF‑targeted therapy?"
+  },
+  {
+   "id": "c0A19",
+   "type": "HAS",
+   "polarity": "exclusion",
+   "source_line": "Receipt of prior systemic chemotherapy, vascular endothelial growth factor (VEGF) or endothelial growth factor receptor (EGFR) inhibitor therapy at any time; receipt of recent or current radiation therapy; current, recent (within 4 weeks prior to study registration), or planned receipt of investigational therapy (investigational therapy is defined as treatment for which there is currently no regulatory authority approved indication)",
+   "lines": [
+    11
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "targeted_other"
+    ],
+    "agents": [
+     "egfr"
+    ],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient received any prior EGFR inhibitor therapy?"
+  },
+  {
+   "id": "c0A20",
+   "type": "HAS",
+   "polarity": "exclusion",
+   "source_line": "Receipt of prior systemic chemotherapy, vascular endothelial growth factor (VEGF) or endothelial growth factor receptor (EGFR) inhibitor therapy at any time; receipt of recent or current radiation therapy; current, recent (within 4 weeks prior to study registration), or planned receipt of investigational therapy (investigational therapy is defined as treatment for which there is currently no regulatory authority approved indication)",
+   "lines": [
+    11
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "radio"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient received recent or current radiation therapy?"
+  },
+  {
+   "id": "c0A21",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "Receipt of prior systemic chemotherapy, vascular endothelial growth factor (VEGF) or endothelial growth factor receptor (EGFR) inhibitor therapy at any time; receipt of recent or current radiation therapy; current, recent (within 4 weeks prior to study registration), or planned receipt of investigational therapy (investigational therapy is defined as treatment for which there is currently no regulatory authority approved indication)",
+   "lines": [
+    11
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "other"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.921,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Is the patient currently receiving or planning investigational therapy within the past 4 weeks?"
+  },
+  {
+   "id": "c0A22",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Subjects with cardiovascular diseases and related treatments",
+   "lines": [
+    12
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Presence of cardiovascular disease or related treatment.",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have any clinically significant cardiovascular disease?"
+  },
+  {
+   "id": "c0A23",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "Surgical procedure in anamnesis (medical history): Major surgical procedure, open biopsy, or significant traumatic injury within 28 days prior to registration, or anticipation of need for major surgical procedure during the course of the study; Minor surgical procedures (eg, fine needle aspirations, core biopsies) within 7 days prior to registration;",
+   "lines": [
+    13
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "surgery"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.92,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient undergone a major surgical procedure, open biopsy, or significant trauma within the past 28 days?"
+  },
+  {
+   "id": "c0A24",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "Surgical procedure in anamnesis (medical history): Major surgical procedure, open biopsy, or significant traumatic injury within 28 days prior to registration, or anticipation of need for major surgical procedure during the course of the study; Minor surgical procedures (eg, fine needle aspirations, core biopsies) within 7 days prior to registration;",
+   "lines": [
+    13
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "surgery"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.23,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient had a minor surgical procedure (e.g., fine‑needle aspiration) within the past 7 days?"
+  },
+  {
+   "id": "c0A25",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Serious non-healing wound, ulcer, or bone fracture;",
+   "lines": [
+    14
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Serious non‑healing wound, ulcer, or bone fracture present.",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have any serious non‑healing wound, ulcer, or bone fracture?"
+  },
+  {
+   "id": "c0A26",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "History of abdominal fistula, gastrointestinal perforation, or intra-abdominal abscess within 6 months prior to study registration;",
+   "lines": [
+    15
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "History of abdominal fistula, gastrointestinal perforation, or intra‑abdominal abscess within the past 6 months.",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient had any abdominal fistula, GI perforation, or intra‑abdominal abscess in the last 6 months?"
+  },
+  {
+   "id": "c0A27",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "History of gross hemoptysis (defined as bright red blood of >/= 0.5 teaspoon)",
+   "lines": [
+    16
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "History of gross hemoptysis (≥ 0.5 teaspoon).",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Has the patient experienced gross hemoptysis of at least 0.5 teaspoon?"
+  },
+  {
+   "id": "c0A28",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "History of hypersensitivity reaction to drugs formulated with polysorbate 80;",
+   "lines": [
+    17
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Known hypersensitivity reaction to polysorbate 80.",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have a documented allergy to polysorbate 80?"
+  },
+  {
+   "id": "c0A29",
+   "type": "IN",
+   "polarity": "exclusion",
+   "source_line": "Subjects with brain metastases;",
+   "lines": [
+    18
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "brain_mets",
+   "op": null,
+   "value": null,
+   "values": [
+    "treated_stable",
+    "untreated_or_symptomatic"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have brain metastases (treated stable or untreated/symptomatic)?"
+  },
+  {
+   "id": "c0A30",
+   "type": "CMP",
+   "polarity": "exclusion",
+   "source_line": "Peripheral neuropathy >/= Grade 2 (based on Common Toxicity Criteria Adverse Event [CTCAE] v3.0);",
+   "lines": [
+    19
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "neuropathy_grade",
+   "op": ">=",
+   "value": 2,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the highest grade peripheral neuropathy recorded (CTCAE)?"
+  },
+  {
+   "id": "c0A31",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "History of a malignancy other than NSCLC; exceptions to this include: Curatively treated basal cell carcinoma; cervical intraepithelial neoplasia; or localized prostate cancer with a current prostate-specific antigen (PSA) of <1.0 ng/dL on 2 successive evaluations at least 3 months apart, and the most recent evaluation within 4 weeks of study registration; History of another malignancy that was curatively treated and no evidence of disease for a minimum of 5 years;",
+   "lines": [
+    20
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "History of another malignancy that does not meet the specified exceptions.",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have a prior non‑NSCLC cancer that fails to meet the listed exemption criteria?"
+  },
+  {
+   "id": "c0A32",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Symptoms of a clinically meaningful illness in the 90 days before the study, or history of other disease, (such as human immunodeficiency virus (HIV) positive, chronic infection (eg, pulmonary tuberculosis), or hepatitis A, B or C (active or previously treated), active infection with fever, metabolic dysfunction, physical examination finding, or clinical laboratory finding giving reasonable suspicion of a disease or condition that contraindicates the use of an investigational drug, that might affect the interpretation of the results of the study, or render the subject at high risk from treatment complications; (testing for these conditions will be at investigator discretion)",
+   "lines": [
+    21
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Clinically meaningful illness, infection, or other condition within the past 90 days that could affect study safety or interpretation.",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Has the patient had any significant illness, infection, or condition in the last 90 days that might contraindicate study participation?"
+  },
+  {
+   "id": "c0A33",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Mental condition rendering the subject unable to understand the nature, scope, and possible consequences of the study",
+   "lines": [
+    22
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Mental condition that impairs the ability to understand the study.",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have a mental condition that would prevent informed consent?"
+  }
+ ],
+ "compiler_meta": {
+  "primary": {
+   "stage_alternatives_merged": 0,
+   "model": "openai/gpt-oss-120b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 22,
+   "repaired": true,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 34
+  },
+  "secondary": {
+   "stage_alternatives_merged": 0,
+   "model": "qwen/qwen3.8-27b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 22,
+   "repaired": false,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 35
+  },
+  "prompt_version": "compiler-v1.2",
+  "lines": 22,
+  "lines_exact_agree": 15,
+  "typed_atoms": 21,
+  "typed_atoms_agree": 13,
+  "downgraded_atoms": 8
+ }
+}

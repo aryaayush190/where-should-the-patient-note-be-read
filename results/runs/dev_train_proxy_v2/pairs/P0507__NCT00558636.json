@@ -1,0 +1,474 @@
+{
+ "pair_id": "P0507__NCT00558636",
+ "patient_id": "P0507",
+ "trial_id": "NCT00558636",
+ "label": 1,
+ "selective": "NOT_ELIGIBLE",
+ "forced": "NOT_ELIGIBLE",
+ "n_l2": 1,
+ "n_forced_unknown": 0,
+ "n_provisional": 25,
+ "u": 13.5,
+ "asks": [
+  {
+   "atom": "c0A10",
+   "category": "LABS",
+   "question": "Were the required laboratory tests performed within 7 days before the first dose?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A16",
+   "category": "LABS",
+   "question": "Is AST <2.5\u202f\u00d7\u202fULN?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A27",
+   "category": "OTHER",
+   "question": "Does the patient have uncontrolled hypertension (SBP >150\u202fmmHg or DBP >90\u202fmmHg)?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A28",
+   "category": "OTHER",
+   "question": "Does the patient have known HIV infection?",
+   "answerable_by": "record"
+  }
+ ],
+ "n_atoms": 45,
+ "trace": [
+  {
+   "atom": "c0A0",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A1",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "F",
+   "verified": true,
+   "assumed": false,
+   "route": "exclude:verified"
+  },
+  {
+   "atom": "c0A2",
+   "type": "IF",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A3",
+   "type": "IS",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A4",
+   "type": "SINCE",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A5",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c0A6",
+   "type": "SINCE",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A7",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A8",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A9",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": true,
+   "assumed": false,
+   "l1": "T",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c0A10",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A11",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A12",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A13",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A14",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A15",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c0A16",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A17",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c0A18",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c0A19",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A20",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A21",
+   "type": "HAS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A22",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A23",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A24",
+   "type": "IF",
+   "pol": "exclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": true,
+   "l1": "U",
+   "l2": "U",
+   "route": "defer"
+  },
+  {
+   "atom": "c0A25",
+   "type": "IN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A26",
+   "type": "IN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A27",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A28",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A0",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c1A1",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c1A2",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c1A3",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c1A4",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "F",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c1A5",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "F",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c1A6",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c1A7",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "F",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c1A8",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c1A9",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c1A10",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c1A11",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c1A12",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "F",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c1A13",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c1A14",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c1A15",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  }
+ ],
+ "site_verify": [
+  "Ability to understand and the willingness to sign a written informed consent. A signed informed consent must be obtained prior to any study specific procedures"
+ ]
+}

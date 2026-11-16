@@ -1,0 +1,340 @@
+{
+ "patient_id": "P0503",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    66.0,
+    66.0
+   ],
+   "evidence": "66-year-old postmenopausal female",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "female",
+   "evidence": "postmenopausal female",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "Stage IV non-squamous NSCLC",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "histology": {
+   "status": "value",
+   "value": "adenocarcinoma",
+   "evidence": "non-squamous NSCLC (adenocarcinoma)",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IV",
+   "evidence": "Stage IV non-squamous NSCLC",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "measurable_disease": {
+   "status": "value",
+   "value": true,
+   "evidence": "measurable disease per RECIST v1.1",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "progressed_after_prior",
+   "evidence": "progressed radiographically after exactly one line of platinum-based chemotherapy",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "ecog": {
+   "status": "value",
+   "value": [
+    0.0,
+    0.0
+   ],
+   "evidence": "an ECOG of 0",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "egfr": {
+   "status": "value",
+   "value": "negative",
+   "evidence": "negative for EGFR/ALK mutations",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "alk": {
+   "status": "value",
+   "value": "negative",
+   "evidence": "negative for EGFR/ALK mutations",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "ros1": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "negative for EGFR/ALK mutations",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "kras": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "negative for EGFR/ALK mutations",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "ret": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "negative for EGFR/ALK mutations",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "braf": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "negative for EGFR/ALK mutations",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "met": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "naive to anti-MET and immune checkpoint inhibitors",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "brain_mets": {
+   "status": "value",
+   "value": "treated_stable",
+   "evidence": "previously treated brain metastases (WBRT completed >4 weeks ago) are clinically stable",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "malignant_effusion": {
+   "status": "negated",
+   "value": null,
+   "evidence": "no cavitating lesions",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "mi_history": {
+   "status": "negated",
+   "value": null,
+   "evidence": "no cavitating lesions",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "unstable_angina": {
+   "status": "negated",
+   "value": null,
+   "evidence": "no cavitating lesions",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "chf": {
+   "status": "negated",
+   "value": null,
+   "evidence": "no cavitating lesions",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "arrhythmia": {
+   "status": "value",
+   "value": "controlled",
+   "evidence": "QTcF < 500 ms",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "qtc_ms": {
+   "status": "value",
+   "value": [
+    500.0,
+    500.0
+   ],
+   "evidence": "QTcF < 500 ms",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "pregnant": {
+   "status": "negated",
+   "value": null,
+   "evidence": "no cavitating lesions",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "crcl_ml_min": {
+   "status": "value",
+   "value": [
+    50.0,
+    50.0
+   ],
+   "evidence": "renal (CrCl > 50 mL/min/1.73m²)",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "tnm_t": {
+   "status": "value",
+   "value": "T3",
+   "evidence": "Stage IV non-squamous NSCLC",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "tnm_n": {
+   "status": "value",
+   "value": "N2",
+   "evidence": "Stage IV non-squamous NSCLC",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "tnm_m": {
+   "status": "value",
+   "value": "M1B",
+   "evidence": "Stage IV non-squamous NSCLC",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "autoimmune_active": {
+   "status": "value",
+   "value": true,
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  }
+ },
+ "therapy_status": "value",
+ "events": [
+  {
+   "cls": "chemo",
+   "agents": [
+    "platinum-based chemotherapy"
+   ],
+   "line": 1,
+   "setting": "advanced",
+   "thoracic": true,
+   "months_ago": [
+    3.0,
+    Infinity
+   ],
+   "ongoing": false,
+   "evidence": "progressed radiographically after exactly one line of platinum-based chemotherapy (completed >3 weeks ago with resolved toxicities)",
+   "verified": false
+  },
+  {
+   "cls": "io",
+   "agents": [],
+   "line": null,
+   "setting": null,
+   "thoracic": null,
+   "months_ago": null,
+   "ongoing": false,
+   "evidence": "naive to anti-MET and immune checkpoint inhibitors",
+   "verified": false
+  },
+  {
+   "cls": "tki",
+   "agents": [],
+   "line": null,
+   "setting": null,
+   "thoracic": null,
+   "months_ago": null,
+   "ongoing": false,
+   "evidence": "naive to anti-MET and immune checkpoint inhibitors",
+   "verified": false
+  }
+ ],
+ "lines_of_therapy": [
+  1.0,
+  1.0
+ ],
+ "reader_meta": {
+  "reader": "edge_local",
+  "conflicts": [
+   "qtc_ms"
+  ],
+  "therapy_verified": false,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 452.804,
+   "prompt_tokens": 1561,
+   "gen_tokens": 1834,
+   "prompt_s": 13.966,
+   "gen_s": 435.545,
+   "load_s": 0.037
+  }
+ }
+}

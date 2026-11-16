@@ -1,0 +1,497 @@
+{
+ "019b3fdcba": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "01f2289290": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "02245d0e70": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "076e75388e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0ecd1a9ee8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0ee690789a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0f41bfbfe7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "107c5eee35": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "alkaline phosphatase normal"
+ },
+ "11ebd202e7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1565b8bf0b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "30c44c9266": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no EGFR/ALK therapy"
+ },
+ "342317e6b1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "392a1db9a8": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no uncontrolled hypertension"
+ },
+ "3b51c2f72a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3c7cd2d98e": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "had prior platinum chemotherapy"
+ },
+ "3cb15f01d8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3e56f87489": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "stage IV disease"
+ },
+ "44b9dd682b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4bf57b11b5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4f34178bb1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "51d2d1cb0e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "546be7aa50": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "55b427f3a8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5630320afd": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5b47c2ddbf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5bca9eebb8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5c50ea11f7": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "AST normal, below 2.5 ULN"
+ },
+ "61287de1d3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "61d711e9d9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "630c8ac62b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "64aa904a67": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "64b963ec48": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "66136e21c4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "693d3952e0": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no severe cardiac or neurologic disease"
+ },
+ "6a2b0c3565": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6da8636137": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6dc99dc269": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6de5c798b8": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Stage IV metastatic NSCLC, not curative"
+ },
+ "6ea4fad1e4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6fc5eb0aef": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "bilirubin 1.1 mg/dL, within limits"
+ },
+ "75466bf9c2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "769e393603": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "78e0f77ebf": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no recent radiotherapy"
+ },
+ "7a88a0f564": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior investigational therapy"
+ },
+ "7ade9bbd77": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7f72e32699": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "NSCLC, not melanoma"
+ },
+ "7fd1031fb0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "80f100c0ac": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8132788035": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8475559f41": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "84d0b1cdbb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8831d22aba": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8c76759aae": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8df03fc7d1": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "AST/ALT within normal limits"
+ },
+ "918a734537": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "92ea0f52be": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "96fa7c3da5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "989d47fbc3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a0f602ba0e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a33ed45f7c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a3ddc50512": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a4c2b7ced8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a60736ac3e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a772f6e332": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a8eb990a3b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ac66e0620e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "accb02ed91": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ad71f78e5d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b0268e96bb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b30587acf7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b69f5af261": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b772b3a9e3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b96cc26113": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Stage IV NSCLC confirmed"
+ },
+ "bab9ec50f6": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no uncontrolled hypertension"
+ },
+ "bd0e39adb6": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c0c1c96c3b": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Stage IV disease"
+ },
+ "c26009411e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c8d5314647": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c9b144d97e": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no active infection"
+ },
+ "ca85793420": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "NSCLC, not melanoma"
+ },
+ "cb9d9cb2f4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cbc2c64cdf": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ALT within normal limits"
+ },
+ "cfb4a455f6": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no recent illness"
+ },
+ "d1375b2b98": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Stage IV disease"
+ },
+ "d76096ea90": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d8c94bf1b1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e1e6ce7f95": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e308410aeb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e3883c624b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "efb6228445": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f3627d4199": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f41160c68c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f645ba4b4d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f8930d169b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f8fc3abde3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f9e9da59bf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "fa91693289": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no exclusion criteria present"
+ },
+ "fb7d6e6d3e": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no CYP3A4 inhibitors used"
+ },
+ "feb59a4ddc": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no bleeding disorder noted"
+ }
+}

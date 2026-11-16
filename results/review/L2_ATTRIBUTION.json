@@ -1,0 +1,61 @@
+{
+ "TEST_proxy": {
+  "eligible": 69,
+  "missed": 30,
+  "by_route": {
+   "two keys incl. cloud judge": 18,
+   "two keys on the laptop": 8,
+   "cloud judge alone (forced mode)": 4
+  },
+  "by_route_detail": {
+   "exclude:l1+l2": 12,
+   "exclude:verified": 4,
+   "exclude:program+l1": 4,
+   "forced:exclude(l2-ask)": 4,
+   "exclude:program+l2": 6
+  }
+ },
+ "AB_noL2": {
+  "eligible": 69,
+  "missed": 8,
+  "by_route": {
+   "two keys on the laptop": 8
+  },
+  "by_route_detail": {
+   "exclude:verified": 4,
+   "exclude:program+l1": 4
+  }
+ },
+ "TEST_deploy": {
+  "eligible": 69,
+  "missed": 28,
+  "by_route": {
+   "two keys incl. cloud judge": 20,
+   "two keys on the laptop": 7,
+   "cloud judge alone (forced mode)": 1
+  },
+  "by_route_detail": {
+   "exclude:l1+l2": 18,
+   "exclude:program+l1": 4,
+   "exclude:verified": 3,
+   "exclude:program+l2": 2,
+   "forced:exclude(l2-ask)": 1
+  }
+ },
+ "extra_misses_with_l2": {
+  "n": 22,
+  "by_route": {
+   "two keys incl. cloud judge": 18,
+   "cloud judge alone (forced mode)": 4
+  },
+  "by_route_detail": {
+   "exclude:l1+l2": 12,
+   "forced:exclude(l2-ask)": 4,
+   "exclude:program+l2": 6
+  },
+  "selective_without_l2": {
+   "DEFER": 7,
+   "NEED_INFO": 15
+  }
+ }
+}

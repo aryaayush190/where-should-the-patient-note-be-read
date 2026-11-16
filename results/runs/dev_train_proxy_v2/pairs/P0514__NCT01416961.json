@@ -1,0 +1,489 @@
+{
+ "pair_id": "P0514__NCT01416961",
+ "patient_id": "P0514",
+ "trial_id": "NCT01416961",
+ "label": 1,
+ "selective": "NOT_ELIGIBLE",
+ "forced": "NOT_ELIGIBLE",
+ "n_l2": 0,
+ "n_forced_unknown": 0,
+ "n_provisional": 8,
+ "u": 4.0,
+ "asks": [
+  {
+   "atom": "c0A1",
+   "category": "OTHER",
+   "question": "Is any of the listed anatomic involvement present?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c0A2",
+   "category": "OTHER",
+   "question": "Is either imaging pattern present?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c0A3",
+   "category": "OTHER",
+   "question": "Has mediastinal extension been documented?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c0A5",
+   "category": "OTHER",
+   "question": "Does the patient have N3 nodal disease?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c0A7",
+   "category": "OTHER",
+   "question": "Is there right\u2011sided primary with left vocal\u2011cord paralysis?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c0A8",
+   "category": "OTHER",
+   "question": "Is there a history of resected stage\u202fI NSCLC without adjuvant therapy?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c0A14",
+   "category": "LABS",
+   "question": "What is the calculated creatinine clearance (mL/min)?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A15",
+   "category": "FEV1",
+   "question": "Is serum bilirubin \u2264 ULN?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A16",
+   "category": "LABS",
+   "question": "Are AST levels \u22641.5\u202f\u00d7\u202fULN?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A17",
+   "category": "LABS",
+   "question": "Are ALT levels \u22641.5\u202f\u00d7\u202fULN?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A18",
+   "category": "OTHER",
+   "question": "Is alkaline phosphatase within the required range?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A19",
+   "category": "FEV1",
+   "question": "Is FEV1 \u22651\u202fL?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A20",
+   "category": "OTHER",
+   "question": "Is diffusing capacity of the lung for carbon monoxide >50\u202f% predicted?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A21",
+   "category": "BRAIN_METS",
+   "question": "Has brain imaging been performed?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A26",
+   "category": "OTHER",
+   "question": "Is there a concurrent malignancy considered clinically relevant?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c0A31",
+   "category": "CARDIAC",
+   "question": "Any MI or CV event in the last 6 months?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c0A32",
+   "category": "OTHER",
+   "question": "Any chronic hepatitis or HIV?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A33",
+   "category": "OTHER",
+   "question": "Can the patient take folic acid, vitamin\u202fB12, and dexamethasone?",
+   "answerable_by": "patient"
+  },
+  {
+   "atom": "c0A35",
+   "category": "OTHER",
+   "question": "Is the patient currently lactating?",
+   "answerable_by": "patient"
+  }
+ ],
+ "n_atoms": 37,
+ "trace": [
+  {
+   "atom": "c0A0",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "l1": "F",
+   "route": "exclude:program+l1"
+  },
+  {
+   "atom": "c0A1",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A2",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A3",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A4",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A5",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A6",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "F",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c0A7",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A8",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A9",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A10",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A11",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A12",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A13",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A14",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A15",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A16",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A17",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A18",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A19",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A20",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A21",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A22",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A23",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A24",
+   "type": "HAS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A25",
+   "type": "HAS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A26",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A27",
+   "type": "CMP",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A28",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A29",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A30",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A31",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A32",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A33",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A34",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A35",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A36",
+   "type": "HAS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  }
+ ],
+ "site_verify": [
+  "Signed informed consent that details the investigational nature of the study according to institutional and federal guidelines.",
+  "Registered with Clinical Trials Office at Karmanos Cancer Institute/Wayne State University."
+ ]
+}

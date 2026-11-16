@@ -1,0 +1,467 @@
+{
+ "000ad71b20": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "histology is large cell carcinoma"
+ },
+ "00feb95d14": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0112ec995f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "bilirubin 0.8 mg/dL"
+ },
+ "015d4f9adc": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "bilirubin 0.8 mg/dL, AST/ALT normal"
+ },
+ "02245d0e70": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "04d90a0081": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "059095f0de": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "labs within protocol limits"
+ },
+ "0690514c19": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "not on corneal toxic drugs"
+ },
+ "09450c1c3f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "199fdf5ca2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1bcb3429fa": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "AST normal"
+ },
+ "202f85d1f9": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "patient is female"
+ },
+ "28d3c02338": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "29592347ca": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "38fe8b5b44": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3b51c2f72a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3cb15f01d8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4b938755b4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4c69ad7713": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "504621cbeb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5709d8aea4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5b47c2ddbf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5e0ad6e159": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "64cdfb94ce": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "AST and ALT normal"
+ },
+ "686143c9c1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "688184cd19": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6b142c0526": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "patient is female, rule not applicable"
+ },
+ "6d941c296c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6df4b3a1d4": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ALT within normal limits"
+ },
+ "6e7b827026": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "current invasive malignancy present"
+ },
+ "6ea4fad1e4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "75130acb39": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "diagnosis pathologically confirmed"
+ },
+ "77a2e7030a": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "stage IV, not eligible per criteria"
+ },
+ "7955096a69": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7bcbe572a6": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "stage IV, not amenable to curative surgery or radiotherapy"
+ },
+ "7c24c7aa90": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no severe systemic disease noted"
+ },
+ "7fd1031fb0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8132788035": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8608de6f29": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "87caa41a10": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8877e4b25e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "88c8307365": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8935b45c9c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8c6cede88a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8c76759aae": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8f028ea23c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9004178748": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "97311b7c17": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9746544e72": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "982eb1cd32": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9e28260b9f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Stage IV lung cancer is unresectable"
+ },
+ "9f0495adcd": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9f57c7ac3b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a2945c7d18": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a458485f18": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a54ad549cd": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "aa282f1084": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ad1e0cff0f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ad4bbfb68a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "af6c085ad1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b0268e96bb": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b1e52f7379": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b27145e36c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b474a979a6": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b64bc233a3": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b69ba7ce14": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b7968d2c51": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b830e60231": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "bba6c65df8": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "bc03f27625": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "bf30c60eab": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "bf7d2794a1": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c733ed81f5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c8d5314647": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cba6a26c89": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cd40a4d693": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cee7b30d6a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cfb4a455f6": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cfd0562552": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d639cd6a1d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d76096ea90": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no recent hemoptysis"
+ },
+ "d860620d31": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "db279eb127": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no brain metastases"
+ },
+ "db41578d19": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no significant cardiovascular disease"
+ },
+ "ddf54c1f1a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e5b037e0c5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e8308b718a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e953af5764": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "INR/PTT within normal limits"
+ },
+ "edc48c9f48": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ef7abb3dfb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f708633ea7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f738e05707": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f7aadb5ac1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ }
+}

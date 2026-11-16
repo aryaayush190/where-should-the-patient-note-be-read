@@ -1,0 +1,955 @@
+{
+ "trial_id": "NCT00203931",
+ "atoms": [
+  {
+   "id": "c0A0",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Diagnosis of locally advanced or metastatic (Stage III or IV at entry) non-small cell lung cancer (NSCLC) that is not amenable to curative therapy.",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "cancer_type",
+   "op": null,
+   "value": null,
+   "values": [
+    "nsclc"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the diagnosis non‑small cell lung cancer?"
+  },
+  {
+   "id": "c0A1",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Diagnosis of locally advanced or metastatic (Stage III or IV at entry) non-small cell lung cancer (NSCLC) that is not amenable to curative therapy.",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "stage_group",
+   "op": null,
+   "value": null,
+   "values": [
+    "III",
+    "IV"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the disease stage III or IV at entry?"
+  },
+  {
+   "id": "c0A2",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Diagnosis of locally advanced or metastatic (Stage III or IV at entry) non-small cell lung cancer (NSCLC) that is not amenable to curative therapy.",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "not amenable to curative therapy",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Is the tumor considered not amenable to curative therapy?"
+  },
+  {
+   "id": "c0A3",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "ECOG performance status 0-2",
+   "lines": [
+    2
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "ecog",
+   "op": "<=",
+   "value": 2,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the ECOG performance status 0‑2?"
+  },
+  {
+   "id": "c0A4",
+   "type": "COUNT",
+   "polarity": "inclusion",
+   "source_line": "Patients must have been previously treated with one platinum-containing or taxane-containing chemotherapy regimen for locally advanced or metastatic disease. Patients are also eligible if they have received one platinum-based chemotherapy regimen as neoadjuvant or adjuvant chemotherapy, but must have received an additional chemotherapy regimen upon recurrence.",
+   "lines": [
+    3
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": ">=",
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "chemo"
+    ],
+    "agents": [
+     "platinum",
+     "taxane"
+    ],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": 1.0,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient received at least one prior platinum‑ or taxane‑containing chemotherapy regimen for advanced disease?"
+  },
+  {
+   "id": "c0A5",
+   "type": "COUNT",
+   "polarity": "exclusion",
+   "source_line": "No more than two prior systemic anti-cancer therapies will be allowed.",
+   "lines": [
+    4
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": ">",
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "systemic",
+     "chemo"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": 2.0,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient received more than two prior systemic anti‑cancer therapies?"
+  },
+  {
+   "id": "c0A6",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Prior radiation therapy is allowed to <25% of the bone marrow. Prior radiation to the whole pelvis is not allowed, Prior radiotherapy must be completed at least 2 weeks before study enrollment, and the patient must have recovered from the acute toxic effects of the treatment prior to study enrollment.",
+   "lines": [
+    5
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "radiation to <25% of bone marrow",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Was prior radiation limited to less than 25 % of the bone marrow?"
+  },
+  {
+   "id": "c0A7",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Prior radiation therapy is allowed to <25% of the bone marrow. Prior radiation to the whole pelvis is not allowed, Prior radiotherapy must be completed at least 2 weeks before study enrollment, and the patient must have recovered from the acute toxic effects of the treatment prior to study enrollment.",
+   "lines": [
+    5
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "radiation to whole pelvis",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Did the patient receive prior radiation to the whole pelvis?"
+  },
+  {
+   "id": "c0A8",
+   "type": "SINCE",
+   "polarity": "inclusion",
+   "source_line": "Prior radiation therapy is allowed to <25% of the bone marrow. Prior radiation to the whole pelvis is not allowed, Prior radiotherapy must be completed at least 2 weeks before study enrollment, and the patient must have recovered from the acute toxic effects of the treatment prior to study enrollment.",
+   "lines": [
+    5
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "radio"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.46,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Was any prior radiotherapy completed at least 2 weeks before enrollment?"
+  },
+  {
+   "id": "c0A9",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Prior radiation therapy is allowed to <25% of the bone marrow. Prior radiation to the whole pelvis is not allowed, Prior radiotherapy must be completed at least 2 weeks before study enrollment, and the patient must have recovered from the acute toxic effects of the treatment prior to study enrollment.",
+   "lines": [
+    5
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "recovered from acute toxic effects of radiation",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Has the patient recovered from the acute toxic effects of prior radiotherapy?"
+  },
+  {
+   "id": "c0A10",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "Patients must have signed an approved informed consent.",
+   "lines": [
+    6
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "patient has signed an approved informed consent",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Has the patient signed the informed consent form?"
+  },
+  {
+   "id": "c0A11",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "Male and female patients with reproductive potential must use an approved contraceptive method if appropriate (eg, intrauterine device, birth control pills, or barrier device) during and for 3 months after the study. Female patients must either not be of child bearing potential or have a negative pregnancy test within 7 days of treatment. Patients are considered not of child bearing potential if they are surgically sterile (they have undergone a hysterectomy, bilateral tubal ligation, or bilateral oophorectomy) or they are postmenopausal.",
+   "lines": [
+    7
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "use of approved contraceptive method and negative pregnancy test where applicable",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Is the patient using an approved contraceptive method and, if female, has a negative pregnancy test?"
+  },
+  {
+   "id": "c0A12",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Age>18",
+   "lines": [
+    8
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "age",
+   "op": ">",
+   "value": 18,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient older than 18 years?"
+  },
+  {
+   "id": "c0A13",
+   "type": "IS",
+   "polarity": "inclusion",
+   "source_line": "Measurable disease in accord with RECIST criteria",
+   "lines": [
+    9
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "measurable_disease",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have measurable disease per RECIST?"
+  },
+  {
+   "id": "c0A14",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Bone marrow Function: absolute neutrophil count (ANC)>/=1,500/ul, platelets >/=l00,000, hemoglobin> 9g/dL",
+   "lines": [
+    10
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "anc_k_ul",
+   "op": ">=",
+   "value": 1.5,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the absolute neutrophil count ≥ 1,500/µL?"
+  },
+  {
+   "id": "c0A15",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Bone marrow Function: absolute neutrophil count (ANC)>/=1,500/ul, platelets >/=l00,000, hemoglobin> 9g/dL",
+   "lines": [
+    10
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "platelets_k_ul",
+   "op": ">=",
+   "value": 100,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Are platelets ≥ 100,000/µL?"
+  },
+  {
+   "id": "c0A16",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Bone marrow Function: absolute neutrophil count (ANC)>/=1,500/ul, platelets >/=l00,000, hemoglobin> 9g/dL",
+   "lines": [
+    10
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "hemoglobin_g_dl",
+   "op": ">=",
+   "value": 9,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Is hemoglobin ≥ 9 g/dL?"
+  },
+  {
+   "id": "c0A17",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Renal function: creatinine clearance (calculated by Cockcroft and Gault method) >/= 45mL/min",
+   "lines": [
+    11
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "crcl_ml_min",
+   "op": ">=",
+   "value": 45,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is creatinine clearance ≥ 45 mL/min?"
+  },
+  {
+   "id": "c0A18",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Hepatic function: bilirubin </=1.5 x ULN; ALT/AST ,/= 2.5 x ULN; Albumin >/=2.5 g/dL",
+   "lines": [
+    12
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "bilirubin_xuln",
+   "op": "<=",
+   "value": 1.5,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is bilirubin ≤ 1.5 × ULN?"
+  },
+  {
+   "id": "c0A19",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Hepatic function: bilirubin </=1.5 x ULN; ALT/AST ,/= 2.5 x ULN; Albumin >/=2.5 g/dL",
+   "lines": [
+    12
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "ast_xuln",
+   "op": "<=",
+   "value": 2.5,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is AST ≤ 2.5 × ULN?"
+  },
+  {
+   "id": "c0A20",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Hepatic function: bilirubin </=1.5 x ULN; ALT/AST ,/= 2.5 x ULN; Albumin >/=2.5 g/dL",
+   "lines": [
+    12
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "alt_xuln",
+   "op": "<=",
+   "value": 2.5,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is ALT ≤ 2.5 × ULN?"
+  },
+  {
+   "id": "c0A21",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Hepatic function: bilirubin </=1.5 x ULN; ALT/AST ,/= 2.5 x ULN; Albumin >/=2.5 g/dL",
+   "lines": [
+    12
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "albumin_g_dl",
+   "op": ">=",
+   "value": 2.5,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is albumin ≥ 2.5 g/dL?"
+  },
+  {
+   "id": "c0A22",
+   "type": "HAS",
+   "polarity": "exclusion",
+   "source_line": "Prior treatment with pemetrexed",
+   "lines": [
+    13
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "chemo"
+    ],
+    "agents": [
+     "pemetrexed"
+    ],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient previously received pemetrexed?"
+  },
+  {
+   "id": "c0A23",
+   "type": "HAS",
+   "polarity": "exclusion",
+   "source_line": "Prior therapy that targets the EGF pathway.",
+   "lines": [
+    14
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "tki"
+    ],
+    "agents": [
+     "egfr"
+    ],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient received any prior therapy that targets the EGFR pathway?"
+  },
+  {
+   "id": "c0A24",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Active or uncontrolled infection.",
+   "lines": [
+    15
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "active_infection",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have an active or uncontrolled infection?"
+  },
+  {
+   "id": "c0A25",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Significant history of uncontrolled cardiac disease; i.e., uncontrolled hypertension, unstable angina, and congestive heart failure.",
+   "lines": [
+    16
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "unstable_angina",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Does the patient have unstable angina?"
+  },
+  {
+   "id": "c0A26",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Significant history of uncontrolled cardiac disease; i.e., uncontrolled hypertension, unstable angina, and congestive heart failure.",
+   "lines": [
+    16
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "chf",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Does the patient have congestive heart failure?"
+  },
+  {
+   "id": "c0A27",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Significant history of uncontrolled cardiac disease; i.e., uncontrolled hypertension, unstable angina, and congestive heart failure.",
+   "lines": [
+    16
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "uncontrolled hypertension",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have uncontrolled hypertension?"
+  },
+  {
+   "id": "c0A28",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Pleural or pericardial effusions that cannot be completely evacuated prior to pemetrexed therapy.",
+   "lines": [
+    17
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "pleural or pericardial effusion that cannot be completely evacuated prior to pemetrexed therapy",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Is there a pleural or pericardial effusion that cannot be fully evacuated before pemetrexed?"
+  },
+  {
+   "id": "c0A29",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Acute hepatitis or known HIV.",
+   "lines": [
+    18
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "acute hepatitis",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have acute hepatitis?"
+  },
+  {
+   "id": "c0A30",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Acute hepatitis or known HIV.",
+   "lines": [
+    18
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "known HIV infection",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient known to be HIV positive?"
+  },
+  {
+   "id": "c0A31",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Prior severe infusion reaction to a monoclonal antibody.",
+   "lines": [
+    19
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "severe infusion reaction to a monoclonal antibody",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient had a severe infusion reaction to any monoclonal antibody?"
+  },
+  {
+   "id": "c0A32",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Any concurrent chemotherapy not indicated in the study protocol or any other investigational agent(s).",
+   "lines": [
+    20
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "concurrent chemotherapy not indicated in protocol or any other investigational agent",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient receiving any concurrent chemotherapy or investigational agent not allowed by the protocol?"
+  },
+  {
+   "id": "c0A33",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Pregnancy or Breast-feeding.",
+   "lines": [
+    21
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "pregnant",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Is the patient pregnant?"
+  },
+  {
+   "id": "c0A34",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Pregnancy or Breast-feeding.",
+   "lines": [
+    21
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "breast‑feeding",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Is the patient currently breast‑feeding?"
+  },
+  {
+   "id": "c0A35",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Second primary malignancy that is clinically detectable at the time of consideration for study enrollment.",
+   "lines": [
+    22
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "second primary malignancy clinically detectable at enrollment",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have a second primary malignancy that is clinically detectable now?"
+  },
+  {
+   "id": "c1A0",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Inability to interrupt aspirin, or other nonsteroidal anti-inflammatory agents for a 5-day period.",
+   "lines": [
+    23
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Inability to interrupt aspirin or other NSAID agents for a 5‑day period",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Can the patient stop aspirin and other NSAIDs for at least 5 days?"
+  },
+  {
+   "id": "c1A1",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Inability or unwillingness to take folic acid or vitamin B12 supplementation.",
+   "lines": [
+    24
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Inability or unwillingness to take folic acid or vitamin B12 supplementation",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Is the patient willing and able to take folic acid and vitamin B12 supplements?"
+  }
+ ],
+ "compiler_meta": {
+  "primary": {
+   "stage_alternatives_merged": 0,
+   "model": "openai/gpt-oss-120b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 24,
+   "repaired": false,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 38
+  },
+  "secondary": {
+   "stage_alternatives_merged": 0,
+   "model": "qwen/qwen3.8-27b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 24,
+   "repaired": true,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 35
+  },
+  "prompt_version": "compiler-v1.2",
+  "lines": 24,
+  "lines_exact_agree": 17,
+  "typed_atoms": 22,
+  "typed_atoms_agree": 15,
+  "downgraded_atoms": 7
+ }
+}

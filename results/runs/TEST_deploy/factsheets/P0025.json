@@ -1,0 +1,287 @@
+{
+ "patient_id": "P0025",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    74.0,
+    74.0
+   ],
+   "evidence": "74-year-old female",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "female",
+   "evidence": "74-year-old female",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "adenocarcinoma of the lung",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "histology": {
+   "status": "value",
+   "value": "adenocarcinoma",
+   "evidence": "pathologically confirmed adenocarcinoma of the lung",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IIIB",
+   "evidence": "staged as IIIB (T4N3M0) NSCLC",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "measurable_disease": {
+   "status": "value",
+   "value": true,
+   "evidence": "Imaging shows measurable disease per RECIST v1.1",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "newly_diagnosed",
+   "evidence": "This is a newly diagnosed presentation",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ecog": {
+   "status": "value",
+   "value": [
+    1.0,
+    1.0
+   ],
+   "evidence": "ECOG performance status of 1",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "malignant_effusion": {
+   "status": "negated",
+   "value": null,
+   "evidence": "No pleural or pericardial effusion is present",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "egfr": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "No information on EGFR",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "alk": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "No information on ALK",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "ros1": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "No information on ROS1",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "kras": {
+   "status": "value",
+   "value": "positive",
+   "evidence": "Molecular testing revealed KRAS G12C",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ret": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "No information on RET",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "braf": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "No information on BRAF",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "met": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "No information on MET",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "creatinine_mg_dl": {
+   "status": "value",
+   "value": [
+    1.1,
+    1.1
+   ],
+   "evidence": "creatinine 1.1 mg/dL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "bilirubin_mg_dl": {
+   "status": "value",
+   "value": [
+    1.4,
+    1.4
+   ],
+   "evidence": "bilirubin 1.4 mg/dL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "anc_k_ul": {
+   "status": "value",
+   "value": [
+    3.5,
+    3.5
+   ],
+   "evidence": "ANC 3.5 x10^3",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "platelets_k_ul": {
+   "status": "value",
+   "value": [
+    323.0,
+    323.0
+   ],
+   "evidence": "platelets 323k",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "hemoglobin_g_dl": {
+   "status": "value",
+   "value": [
+    10.3,
+    10.3
+   ],
+   "evidence": "hemoglobin 10.3 g/dL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "autoimmune_active": {
+   "status": "negated",
+   "value": null,
+   "evidence": "No active autoimmune conditions",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_t": {
+   "status": "value",
+   "value": "T4",
+   "evidence": "staged as IIIB (T4N3M0) NSCLC",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_n": {
+   "status": "value",
+   "value": "N3",
+   "evidence": "staged as IIIB (T4N3M0) NSCLC",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_m": {
+   "status": "value",
+   "value": "M0",
+   "evidence": "staged as IIIB (T4N3M0) NSCLC",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  }
+ },
+ "therapy_status": "negated",
+ "events": [],
+ "lines_of_therapy": null,
+ "reader_meta": {
+  "reader": "edge_local",
+  "conflicts": [],
+  "therapy_verified": false,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 245.803,
+   "prompt_tokens": 1586,
+   "gen_tokens": 1189,
+   "prompt_s": 12.909,
+   "gen_s": 230.204,
+   "load_s": 0.034
+  }
+ }
+}

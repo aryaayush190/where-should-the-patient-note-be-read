@@ -1,0 +1,237 @@
+{
+ "patient_id": "P0007~CARDIAC",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    46.0,
+    46.0
+   ],
+   "evidence": "46-year-old male",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "male",
+   "evidence": "male",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "NSCLC",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IIIA",
+   "evidence": "staged as IIIA",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "measurable_disease": {
+   "status": "value",
+   "value": true,
+   "evidence": "measurable disease per RECIST v1.1",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "progressed_after_prior",
+   "evidence": "progressed following prior chemotherapy",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ecog": {
+   "status": "value",
+   "value": [
+    1.0,
+    1.0
+   ],
+   "evidence": "ECOG performance status of 1",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "fev1_pct": {
+   "status": "value",
+   "value": [
+    69.0,
+    69.0
+   ],
+   "evidence": "FEV1 69% predicted",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "malignant_effusion": {
+   "status": "value",
+   "value": true,
+   "evidence": "malignant pleural effusion",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "alk": {
+   "status": "value",
+   "value": "positive",
+   "evidence": "ALK rearrangement",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "creatinine_mg_dl": {
+   "status": "value",
+   "value": [
+    1.1,
+    1.1
+   ],
+   "evidence": "creatinine 1.1 mg/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "anc_k_ul": {
+   "status": "value",
+   "value": [
+    2.4,
+    2.4
+   ],
+   "evidence": "ANC 2.4 x10^3",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "platelets_k_ul": {
+   "status": "value",
+   "value": [
+    191.0,
+    191.0
+   ],
+   "evidence": "platelets 191k",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "hemoglobin_g_dl": {
+   "status": "value",
+   "value": [
+    11.3,
+    11.3
+   ],
+   "evidence": "hemoglobin 11.3 g/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "bilirubin_mg_dl": {
+   "status": "value",
+   "value": [
+    0.7,
+    0.7
+   ],
+   "evidence": "bilirubin 0.7 mg/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_t": {
+   "status": "value",
+   "value": "T2",
+   "evidence": "T2N2M0",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_n": {
+   "status": "value",
+   "value": "N2",
+   "evidence": "T2N2M0",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_m": {
+   "status": "value",
+   "value": "M0",
+   "evidence": "T2N2M0",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  }
+ },
+ "therapy_status": "value",
+ "events": [
+  {
+   "cls": "chemo",
+   "agents": [],
+   "line": null,
+   "setting": null,
+   "thoracic": null,
+   "months_ago": [
+    6.0,
+    Infinity
+   ],
+   "ongoing": false,
+   "evidence": "prior chemotherapy completed over 6 months ago",
+   "verified": true
+  }
+ ],
+ "lines_of_therapy": null,
+ "reader_meta": {
+  "reader": "edge_proxy",
+  "conflicts": [],
+  "therapy_verified": true,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 5.102
+  }
+ }
+}

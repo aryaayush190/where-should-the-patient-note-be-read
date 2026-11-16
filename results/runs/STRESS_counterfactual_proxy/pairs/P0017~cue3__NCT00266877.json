@@ -1,0 +1,246 @@
+{
+ "pair_id": "P0017~cue3__NCT00266877",
+ "patient_id": "P0017~cue3",
+ "trial_id": "NCT00266877",
+ "label": 0,
+ "selective": "NOT_ELIGIBLE",
+ "forced": "NOT_ELIGIBLE",
+ "n_l2": 2,
+ "n_forced_unknown": 0,
+ "n_provisional": 16,
+ "u": 10.0,
+ "asks": [
+  {
+   "atom": "c0A3",
+   "category": "OTHER",
+   "question": "For Arm C, does the patient have \u226420 pack\u2011years smoking history and is a current non\u2011smoker?",
+   "answerable_by": "patient",
+   "pol": "inclusion"
+  },
+  {
+   "atom": "c0A4",
+   "category": "PRIOR_THERAPY",
+   "question": "Has the patient received prior treatment with Tarceva or Iressa?",
+   "answerable_by": "record",
+   "pol": "inclusion"
+  }
+ ],
+ "n_atoms": 22,
+ "trace": [
+  {
+   "atom": "c0A0",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A1",
+   "type": "ANY",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A2",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c0A3",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A4",
+   "type": "HAS",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A5",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "F",
+   "l2": "F",
+   "route": "exclude:l1+l2"
+  },
+  {
+   "atom": "c0A6",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A7",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c0A8",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c0A9",
+   "type": "IS",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A10",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c0A11",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c0A12",
+   "type": "COUNT",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A13",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c0A14",
+   "type": "HAS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A15",
+   "type": "IN",
+   "pol": "exclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "l1": "F",
+   "l2": "T",
+   "route": "exclude:program+l2"
+  },
+  {
+   "atom": "c0A16",
+   "type": "WITHIN",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "F",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c0A17",
+   "type": "WITHIN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A18",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "F",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c0A19",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c0A20",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A21",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "F",
+   "route": "satisfied:l1"
+  }
+ ],
+ "site_verify": []
+}

@@ -1,0 +1,285 @@
+{
+ "patient_id": "P0508",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    56.0,
+    56.0
+   ],
+   "evidence": "56-year-old",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "female",
+   "evidence": "female",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": false
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "lung",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "histology": {
+   "status": "value",
+   "value": "adenocarcinoma",
+   "evidence": "adenocarcinoma",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "I",
+   "evidence": "Stage IA",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "newly_diagnosed",
+   "evidence": "treatment-naïve",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ecog": {
+   "status": "value",
+   "value": [
+    0.0,
+    0.0
+   ],
+   "evidence": "ECOG 0",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "kps": {
+   "status": "value",
+   "value": [
+    90.0,
+    90.0
+   ],
+   "evidence": "Karnofsky Performance Status of 90",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "fev1_pct": {
+   "status": "value",
+   "value": [
+    84.0,
+    84.0
+   ],
+   "evidence": "FEV1 84% predicted",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "egfr": {
+   "status": "value",
+   "value": "negative",
+   "evidence": "no actionable driver mutation",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "alk": {
+   "status": "value",
+   "value": "negative",
+   "evidence": "no actionable driver mutation",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ros1": {
+   "status": "value",
+   "value": "negative",
+   "evidence": "no actionable driver mutation",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "kras": {
+   "status": "value",
+   "value": "negative",
+   "evidence": "no actionable driver mutation",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ret": {
+   "status": "value",
+   "value": "negative",
+   "evidence": "no actionable driver mutation",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "braf": {
+   "status": "value",
+   "value": "negative",
+   "evidence": "no actionable driver mutation",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "met": {
+   "status": "value",
+   "value": "negative",
+   "evidence": "no actionable driver mutation",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "creatinine_mg_dl": {
+   "status": "value",
+   "value": [
+    0.8,
+    0.8
+   ],
+   "evidence": "creatinine 0.8 mg/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "bilirubin_mg_dl": {
+   "status": "value",
+   "value": [
+    1.1,
+    1.1
+   ],
+   "evidence": "bilirubin 1.1 mg/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "anc_k_ul": {
+   "status": "value",
+   "value": [
+    5.9,
+    5.9
+   ],
+   "evidence": "ANC 5.9 ×10³/µL",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "platelets_k_ul": {
+   "status": "value",
+   "value": [
+    320.0,
+    320.0
+   ],
+   "evidence": "platelets 320k/µL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "hemoglobin_g_dl": {
+   "status": "value",
+   "value": [
+    14.4,
+    14.4
+   ],
+   "evidence": "hemoglobin 14.4 g/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_t": {
+   "status": "value",
+   "value": "T1",
+   "evidence": "T1N0M0",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_n": {
+   "status": "value",
+   "value": "N0",
+   "evidence": "T1N0M0",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_m": {
+   "status": "value",
+   "value": "M0",
+   "evidence": "T1N0M0",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  }
+ },
+ "therapy_status": "negated",
+ "events": [],
+ "lines_of_therapy": null,
+ "reader_meta": {
+  "reader": "edge_proxy",
+  "conflicts": [
+   "stage_group"
+  ],
+  "therapy_verified": true,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 4.092
+  }
+ }
+}

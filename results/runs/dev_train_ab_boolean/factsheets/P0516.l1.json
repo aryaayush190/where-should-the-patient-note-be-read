@@ -1,0 +1,532 @@
+{
+ "000ad71b20": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "adenocarcinoma histology, not bronchoalveolar"
+ },
+ "01466a3027": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "02d2ed0c5e": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no second primary malignancy"
+ },
+ "0391d91f13": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no mention of radiation therapy"
+ },
+ "07f7b44f00": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no herbal or OTC biologics"
+ },
+ "09450c1c3f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "legal capacity not stated"
+ },
+ "0b13d8acfc": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no allergy to bevacizumab or carboplatin"
+ },
+ "0cb53d6e28": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no concurrent chemotherapy"
+ },
+ "0f5721c5dc": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "PT not reported"
+ },
+ "100fe5aa4f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no QTc affecting meds"
+ },
+ "138fcc299a": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no serious wound or fracture"
+ },
+ "14ccca429b": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior systemic therapy"
+ },
+ "17b201655f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1954c8cd9e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1b44ebcc99": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no uncontrolled pleural or pericardial effusions"
+ },
+ "1bcb3429fa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "20a05441a4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "26081f027f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "2d3f20b618": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3214e094a9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "326eb9a56d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "331dd75eab": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3335d32534": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "36a7a4d0db": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3820e72de4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "386e6eff24": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "WBC 1.7\u00d710^3/uL, below 3\u00d710^3/uL"
+ },
+ "39d20ffd88": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no radiation to pelvis reported"
+ },
+ "3d19563a8f": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no oxygen saturation <90% or O\u2082 requirement mentioned"
+ },
+ "47138eee1d": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no brain metastasis present"
+ },
+ "4b19439e6a": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no major surgery or biopsy within 28 days"
+ },
+ "5c50ea11f7": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "AST/ALT normal, below 2.5\u00d7ULN"
+ },
+ "5ef0f3c826": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5f2280bd85": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5f5d193de5": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "at least one lesion >2\u202fcm on CT"
+ },
+ "5f736f331c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "60ca7f6062": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "total bilirubin 0.8\u202fmg/dL, <1.5\u00d7ULN"
+ },
+ "6183a5b4a2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "63666f1e06": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no other active malignancy"
+ },
+ "673a064f34": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6793113f15": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior systemic therapy"
+ },
+ "68afda86d2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6b86bdf53c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6d941c296c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6df4b3a1d4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "70244a1e0b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "735248f9e2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "77559690b3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "77e3c3ce01": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no uncontrolled pleural or pericardial effusions"
+ },
+ "7958c72354": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "840b0f664c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "87caa41a10": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "tumor biopsy confirmed"
+ },
+ "898797333e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "89d61e9758": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior chemo or radiation within 4 weeks"
+ },
+ "8baf4030d0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8db261386d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8ecd96fa61": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no prior radiation, meets criteria"
+ },
+ "8f20d19f08": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior investigational therapy or chemo within 4 weeks"
+ },
+ "9043577532": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9189d2bde1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "92b98d534e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "93263e578d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "991cd28a62": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "able to interrupt NSAID"
+ },
+ "9a63b076cb": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Stage IV disease"
+ },
+ "a0c54b7714": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a3ea1eaeed": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a67ec1feb3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a7a59f4f9c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a9bb3fc088": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b0d21da406": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "normal bilirubin and transaminases"
+ },
+ "b253b8c65a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b5abb35350": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b7c9dac84e": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "able to take folic acid and B12"
+ },
+ "bcd56a8d6e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c17e594f47": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c19f97f361": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no prior radiation, so bone marrow exposure <25%"
+ },
+ "c1dd84c4d0": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no radiation, thus recovered"
+ },
+ "c478d972a5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c6bdb440e2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c8f7f93c6b": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Stage IV disease"
+ },
+ "c9b52978e3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cbc2c64cdf": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ALT within normal limits"
+ },
+ "cc531dd1c5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cd7fa4572d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ce082b2a26": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "ANC 1.7\u00d710^3/\u00b5L <2\u00d710^3/\u00b5L"
+ },
+ "d18e15a3c0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d1c94aac93": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no prior malignancy within 2 years"
+ },
+ "d5eeaf5a75": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d618edbfbb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d9db33218f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "dab6a164a2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "dd426d1400": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e1bfd3e538": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior systemic therapy"
+ },
+ "e26c0bb0da": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e2ba9aaddd": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "ANC 1.7 <3"
+ },
+ "e427074718": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e6bdf26921": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e8308b718a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "eafb6cb79f": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no brain metastasis"
+ },
+ "f07c920267": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f11a83a20d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f2280d1d9e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f277661871": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f479f70b8f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f7396436c5": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no prior chemo"
+ },
+ "f84f9eb505": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "fc5703143f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no prior systemic therapy"
+ }
+}

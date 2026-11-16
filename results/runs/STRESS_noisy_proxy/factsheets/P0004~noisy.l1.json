@@ -1,0 +1,572 @@
+{
+ "0625bc9454": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no severe organ dysfunction noted"
+ },
+ "1051afa86a": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "tumor not near proximal bronchial tree"
+ },
+ "1399f65557": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "13f7a9a273": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "normal bone marrow labs"
+ },
+ "154d52890e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1871c555ab": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "188c73df91": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "bilirubin 0.7 mg/dL"
+ },
+ "1c4edd10e4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1e2d5dd2a1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "21c1b1720c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "250a5a72e0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "25af5a78d9": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "disease curable with SBRT"
+ },
+ "263e50af0e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "2853595305": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "2a498aa15b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "2f36628671": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "30001da547": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "30e0fa0457": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "32ec7c957e": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "NSCLC confirmed but no brain metastasis"
+ },
+ "363310d974": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3686dd4cd4": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no nodes >1 cm or PET abnormal, so condition not met"
+ },
+ "36952821b3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3bc22117c4": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ALT within normal limits"
+ },
+ "3bea08439c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3d496bb66e": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "normal cardiac, hepatic, renal, pulmonary function and immune labs"
+ },
+ "3d5e0fd351": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "44c486bac8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "48f24f06b1": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "tumor 1.6 cm"
+ },
+ "49135a9c3e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4a7abd27b8": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "bilirubin 0.7, no liver mets"
+ },
+ "4e13af0891": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "male, no breast/ovarian cancer"
+ },
+ "4eb83e2c01": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "51058c1142": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "PS1"
+ },
+ "530ec4c769": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5529ff66cb": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "NSCLC histology"
+ },
+ "55b2d67ce1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "58451a782e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5a6e009b31": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "patient has stage IA2 NSCLC, not carcinoma in situ"
+ },
+ "5cdafa0d42": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5e3d73f5ae": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5f6da7f984": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "60630931d4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "61dd553133": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "performance status 1 (ECOG 1)"
+ },
+ "63ba4916bf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "66ae5b44a5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "68543de007": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "69a7bdd1b6": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6c74f48d4b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "70002978a7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "74d0f6b8dd": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7699330c66": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "77ba1b8656": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7a8e1be451": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "pathologically confirmed NSCLC sample available"
+ },
+ "7b5b5dabfe": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "80f04fea7b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8976af4735": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8c6cede88a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8e1340fb03": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8e7b99bb88": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8eea7dfb4d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8f542662a0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "900138caef": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "stage IA2 (T1bN0M0) confirmed by pathology"
+ },
+ "91e39899f5": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "life expectancy exceeds 6 months"
+ },
+ "95b7d34363": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "989d47fbc3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "997db60674": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9d2b95131f": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "early stage IA2, treatment-na\u00efve, not advanced"
+ },
+ "a187ab7280": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a4d9088c1f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a5b827a3f4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a8aa01fb3f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a9c6224678": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "aaee7f7b57": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "patient has no prior therapy"
+ },
+ "aba5446ba7": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "tumor is peripherally located"
+ },
+ "abf808c166": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no hypersensitivity history"
+ },
+ "ad1e0cff0f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "life expectancy >6 months"
+ },
+ "adcd0bc958": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no hemoptysis reported"
+ },
+ "b0701a6b34": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no recent radiotherapy"
+ },
+ "b4cd0c0705": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no malignant effusion noted"
+ },
+ "b868c02ce5": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no anticoagulation therapy"
+ },
+ "b8d9688e9e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "sexual activity not discussed"
+ },
+ "b9d0f306b1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no peripheral vascular disease mentioned"
+ },
+ "bac32f378a": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "N0 nodes \u22641 cm, no PET uptake"
+ },
+ "bef6c682ea": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no regional or distant metastases"
+ },
+ "c096d1c8f1": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "tumor is resectable and suitable for SBRT"
+ },
+ "c43286b5cc": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c508739e51": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c629d7eedc": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "normal cardiac, renal, hepatic labs and no severe disease"
+ },
+ "c69cf938aa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c9a308243d": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ECOG PS1, no decline"
+ },
+ "cce42d77b3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cd44ecf60a": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no severe cardiac, hepatic, or renal insufficiency"
+ },
+ "cd6887c5a8": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "tumor peripherally located"
+ },
+ "d3868ee68a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d78af4d562": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d8419cdf91": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "db339f9df1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "dcbb5daaf4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ea2f685472": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ead5afcc49": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "tumor does not involve central pleura or mediastinal structures"
+ },
+ "f035c9c02a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f11fd95fae": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f1259e700e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f26d20ed31": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f3e913376a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f488b098eb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f895b235b4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f95f75e555": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ANC 2.4k, platelets 191k, Hb 13.5"
+ },
+ "fa9b403fc4": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "male patient"
+ },
+ "fb28697345": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "life expectancy >6 months"
+ },
+ "fba10ba7b1": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "staging within 8 weeks"
+ },
+ "fbb2dd4361": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior therapy"
+ },
+ "fd5e3f6599": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f5a3e3d249": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ }
+}

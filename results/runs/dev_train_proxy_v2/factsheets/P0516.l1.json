@@ -1,0 +1,562 @@
+{
+ "000ad71b20": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "histology is adenocarcinoma"
+ },
+ "0112ec995f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "bilirubin 0.8 mg/dL"
+ },
+ "014e35066f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "015d4f9adc": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "bilirubin 0.8, AST/ALT normal"
+ },
+ "0690514c19": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior systemic therapy"
+ },
+ "076f5ebe9a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "09450c1c3f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0d3cf12176": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no other active malignancy"
+ },
+ "0f9f7a99d0": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no other active malignancy"
+ },
+ "1581bea40a": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no significant comorbidities"
+ },
+ "1b390ddd0e": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no abdominal fistula or perforation"
+ },
+ "1bcb3429fa": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "AST normal"
+ },
+ "200afd0701": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "21c1b1720c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "28d3c02338": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "28d5274e9d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "299742f573": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "patient can comply with folic acid, B12, dexamethasone"
+ },
+ "3214e094a9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "386e6eff24": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "38fe8b5b44": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no other active malignancy"
+ },
+ "3af7ebc79b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "442d7d6391": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "48ea87952d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "494222cf5b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4bfcf7c581": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4cf071570f": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior systemic therapy"
+ },
+ "504621cbeb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5649f86a8f": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior systemic therapy"
+ },
+ "567cac46cd": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior whole\u2011pelvis radiation"
+ },
+ "5709d8aea4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5e0ad6e159": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "64cdfb94ce": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "AST and ALT within normal limits"
+ },
+ "6a27b1f728": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no myocardial infarction history"
+ },
+ "6d941c296c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6df4b3a1d4": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "AST and ALT within normal limits"
+ },
+ "6e7b827026": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no other invasive malignancy"
+ },
+ "6f0939197c": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior chest irradiation"
+ },
+ "721e400a1b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "77a2e7030a": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "stage IV disease, not eligible for listed options"
+ },
+ "7955096a69": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7ae18ab760": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no uncontrolled pleural or pericardial effusions"
+ },
+ "7c24c7aa90": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7f8deed8eb": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "T2 stage"
+ },
+ "8608de6f29": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "87caa41a10": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8877e4b25e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8935b45c9c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "898797333e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8a8bfdbe4a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8bf261252c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8f54a167d2": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no uncontrolled pleural or pericardial effusions"
+ },
+ "9004178748": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "94a1df8652": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no prior chest irradiation, so no bone marrow suppression"
+ },
+ "97311b7c17": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "982eb1cd32": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no significant cardiovascular disease"
+ },
+ "9e28260b9f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a0699fce64": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a12f544367": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a1706cdc38": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a458485f18": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "af6c085ad1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b33388753e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b474a979a6": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b692038317": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b69ba7ce14": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b830e60231": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b8590b9505": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b9104b2dce": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "lab values within protocol limits"
+ },
+ "b9918a4100": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no second primary malignancy"
+ },
+ "bba6c65df8": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no congenital long QT or family sudden death"
+ },
+ "bc03f27625": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "bc12545100": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "bdf5d20c1a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "bf30c60eab": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c2627f1bd5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c43295b972": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c4b5fd1a49": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior EGFR\u2011targeted therapy"
+ },
+ "c733ed81f5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c8506572c5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cb9a53bb43": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cba6a26c89": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cc2368033c": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "able to take folic acid and vitamin B12"
+ },
+ "cd40a4d693": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ce082b2a26": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "ANC 1.7\u00d710^3/\u00b5L, below 2\u00d710^3/\u00b5L"
+ },
+ "ce681c70f7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "WBC not provided"
+ },
+ "cee7b30d6a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d18e15a3c0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d1c3b3cdfe": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "male patient, not lactating"
+ },
+ "d440ffb150": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Stage IV disease, not curable"
+ },
+ "d516e93110": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "patient can interrupt NSAIDs"
+ },
+ "d639cd6a1d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "dc2cf9e957": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "dd01b3f395": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "dd426d1400": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "albumin not provided"
+ },
+ "ddf54c1f1a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e00ef69d97": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e8308b718a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e953af5764": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "eb67e97841": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ed9ea1f150": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "edd90fd6e0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ef7abb3dfb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f2b64f1b7d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f5bbe46a4f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f708633ea7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f738e05707": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f7aadb5ac1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f7fc46ca27": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "fe65745135": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "fef5dc7499": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9746544e72": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "97c906e2b8": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ }
+}

@@ -1,0 +1,280 @@
+{
+ "patient_id": "P0811",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    61.0,
+    61.0
+   ],
+   "evidence": "61-year-old male",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "male",
+   "evidence": "61-year-old male",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "large cell carcinoma, clinical stage IV (T2N2M1a) NSCLC",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "histology": {
+   "status": "value",
+   "value": "large_cell",
+   "evidence": "large cell carcinoma",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IV",
+   "evidence": "clinical stage IV (T2N2M1a) NSCLC",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "progressed_after_prior",
+   "evidence": "The disease has progressed following prior systemic therapy",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "measurable_disease": {
+   "status": "value",
+   "value": true,
+   "evidence": "Imaging shows measurable disease per RECIST v1.1",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "kps": {
+   "status": "value",
+   "value": [
+    90.0,
+    90.0
+   ],
+   "evidence": "Karnofsky Performance Status is 9-0",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "fev1_pct": {
+   "status": "value",
+   "value": [
+    37.0,
+    37.0
+   ],
+   "evidence": "Pulmonary function testing showed an FEV1 of 37% predicted",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "neuropathy_grade": {
+   "status": "value",
+   "value": [
+    3.0,
+    3.0
+   ],
+   "evidence": "He has peripheral neuropathy Grade 3",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "brain_mets": {
+   "status": "value",
+   "value": "treated_stable",
+   "evidence": "Imaging demonstrated treated, currently stable brain metastases",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "egfr": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular profiling showed no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "alk": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular profiling showed no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "ros1": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular profiling showed no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "kras": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular profiling showed no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "ret": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular profiling showed no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "braf": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular profiling showed no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "met": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular profiling showed no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "tnm_t": {
+   "status": "value",
+   "value": "T2",
+   "evidence": "clinical stage IV (T2N2M1a) NSCLC",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_n": {
+   "status": "value",
+   "value": "N2",
+   "evidence": "clinical stage IV (T2N2M1a) NSCLC",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_m": {
+   "status": "value",
+   "value": "M1A",
+   "evidence": "clinical stage IV (T2N2M1a) NSCLC",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  }
+ },
+ "therapy_status": "value",
+ "events": [
+  {
+   "cls": "systemic",
+   "agents": [
+    "immunotherapy"
+   ],
+   "line": null,
+   "setting": null,
+   "thoracic": null,
+   "months_ago": [
+    0.0,
+    1.0
+   ],
+   "ongoing": false,
+   "evidence": "He previously received radiotherapy, immunotherapy (within 1 month)",
+   "verified": false
+  },
+  {
+   "cls": "radio",
+   "agents": [
+    "radiotherapy"
+   ],
+   "line": null,
+   "setting": null,
+   "thoracic": true,
+   "months_ago": [
+    0.0,
+    1.0
+   ],
+   "ongoing": false,
+   "evidence": "He previously received radiotherapy, immunotherapy (within 1 month)",
+   "verified": true
+  }
+ ],
+ "lines_of_therapy": null,
+ "reader_meta": {
+  "reader": "edge_local",
+  "conflicts": [
+   "egfr",
+   "alk",
+   "ros1",
+   "kras",
+   "ret",
+   "braf",
+   "met"
+  ],
+  "therapy_verified": false,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 253.872,
+   "prompt_tokens": 1464,
+   "gen_tokens": 1505,
+   "prompt_s": 3.671,
+   "gen_s": 248.118,
+   "load_s": 0.007
+  }
+ }
+}

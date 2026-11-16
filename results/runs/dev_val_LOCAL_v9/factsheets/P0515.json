@@ -1,0 +1,194 @@
+{
+ "patient_id": "P0515",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    53.0,
+    53.0
+   ],
+   "evidence": "53-year-old",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "female",
+   "evidence": "Ms.",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": false
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "stage IIIB non-small cell lung cancer",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IIIB",
+   "evidence": "stage IIIB",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "measurable_disease": {
+   "status": "value",
+   "value": true,
+   "evidence": "measurable disease per RECIST",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ecog": {
+   "status": "value",
+   "value": [
+    1.0,
+    1.0
+   ],
+   "evidence": "ECOG performance status of 1",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "kps": {
+   "status": "value",
+   "value": [
+    70.0,
+    70.0
+   ],
+   "evidence": "Karnofsky Performance Status of 70",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "fev1_pct": {
+   "status": "value",
+   "value": [
+    55.0,
+    55.0
+   ],
+   "evidence": "FEV1 of 55% of predicted",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "brain_mets": {
+   "status": "value",
+   "value": "treated_stable",
+   "evidence": "fully treated, completely asymptomatic brain metastases",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "malignant_effusion": {
+   "status": "value",
+   "value": true,
+   "evidence": "malignant pleural effusion",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "arrhythmia": {
+   "status": "value",
+   "value": "controlled",
+   "evidence": "no history of ventricular arrhythmias requiring anti-arrhythmic therapy",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "steroids_systemic": {
+   "status": "negated",
+   "value": null,
+   "evidence": "stable off all corticosteroids and neurological medications",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "life_expectancy_months": {
+   "status": "value",
+   "value": [
+    2.76,
+    Infinity
+   ],
+   "evidence": "life expectancy of at least 12 weeks",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "tnm_t": {
+   "status": "value",
+   "value": "T3",
+   "evidence": "stage IIIB non-small cell lung cancer",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "tnm_n": {
+   "status": "value",
+   "value": "N2",
+   "evidence": "stage IIIB non-small cell lung cancer",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "tnm_m": {
+   "status": "value",
+   "value": "M1B",
+   "evidence": "stage IIIB non-small cell lung cancer",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  }
+ },
+ "therapy_status": "negated",
+ "events": [],
+ "lines_of_therapy": null,
+ "reader_meta": {
+  "reader": "edge_local",
+  "conflicts": [
+   "brain_mets"
+  ],
+  "therapy_verified": true,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 199.137,
+   "prompt_tokens": 1531,
+   "gen_tokens": 1298,
+   "prompt_s": 5.573,
+   "gen_s": 191.481,
+   "load_s": 0.007
+  }
+ }
+}

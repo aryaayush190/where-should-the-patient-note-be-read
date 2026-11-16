@@ -1,0 +1,230 @@
+{
+ "patient_id": "P0023~noisy",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    72.0,
+    72.0
+   ],
+   "evidence": "72-year-old male",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "male",
+   "evidence": "male",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "NSCLC",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "histology": {
+   "status": "value",
+   "value": "adenocarcinoma",
+   "evidence": "adenocarcinoma",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IA2",
+   "evidence": "clinical stage IA2",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "newly_diagnosed",
+   "evidence": "newly diagonsed",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "measurable_disease": {
+   "status": "value",
+   "value": true,
+   "evidence": "primary tumor measurees 1.7 cm",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "ros1": {
+   "status": "value",
+   "value": "positive",
+   "evidence": "ROS1 fusion",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "autoimmune_active": {
+   "status": "negated",
+   "value": null,
+   "evidence": "No active autoimmune conditions",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "life_expectancy_months": {
+   "status": "value",
+   "value": [
+    6.0,
+    Infinity
+   ],
+   "evidence": "Life expectancy exceeds 6 mo",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "creatinine_mg_dl": {
+   "status": "value",
+   "value": [
+    0.9,
+    0.9
+   ],
+   "evidence": "creatinine 0.9 mg/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "bilirubin_mg_dl": {
+   "status": "value",
+   "value": [
+    0.9,
+    0.9
+   ],
+   "evidence": "bilirubin 0.9 mg/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "anc_k_ul": {
+   "status": "value",
+   "value": [
+    2.7,
+    2.7
+   ],
+   "evidence": "ANC 2.7 x10^3",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "platelets_k_ul": {
+   "status": "value",
+   "value": [
+    116.0,
+    116.0
+   ],
+   "evidence": "plt 116k",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "hemoglobin_g_dl": {
+   "status": "value",
+   "value": [
+    13.8,
+    13.8
+   ],
+   "evidence": "Hb 13.8 g/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "fev1_pct": {
+   "status": "value",
+   "value": [
+    91.0,
+    91.0
+   ],
+   "evidence": "FEV1 of 91% predicted",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_t": {
+   "status": "value",
+   "value": "T1B",
+   "evidence": "T1bN0M0",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_n": {
+   "status": "value",
+   "value": "N0",
+   "evidence": "T1bN0M0",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_m": {
+   "status": "value",
+   "value": "M0",
+   "evidence": "T1bN0M0",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  }
+ },
+ "therapy_status": "negated",
+ "events": [],
+ "lines_of_therapy": null,
+ "reader_meta": {
+  "reader": "edge_proxy",
+  "conflicts": [],
+  "therapy_verified": true,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 6.101
+  }
+ }
+}

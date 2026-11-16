@@ -1,0 +1,151 @@
+{
+ "181e2488d6": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on thrombotic or embolic events within 12 months"
+ },
+ "1c08625348": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on baseline pulmonary symptoms due to disease"
+ },
+ "1cf28e1816": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on CNS metastases, seizures, or post-radiation restrictions"
+ },
+ "219dda41bf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on patient's willingness or ability to comply with protocol"
+ },
+ "23a3975a51": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Pathologically confirmed NSCLC with biopsy-accessible disease is squamous cell carcinoma"
+ },
+ "3214e094a9": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Creatinine level is 1.0 mg/dL, indicating normal renal function with estimated GFR over 45 mL/min"
+ },
+ "4596f844ee": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Baseline weight and body mass change over past 6 months are not stated"
+ },
+ "45efc74ffc": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information about gender, fertility, or contraception needs is provided"
+ },
+ "47b67aac0d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information about proteinuria or urine analysis is provided"
+ },
+ "4f3d13abde": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information about hemoptysis or respiratory symptoms is provided"
+ },
+ "52e6fd591a": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on alk status or genetic testing is provided in the note"
+ },
+ "57a1ea1786": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Pathologically confirmed stage IIIB NSCLC with biopsy-accessible disease is available for testing"
+ },
+ "57f215524f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Liver function tests not elevated; bilirubin within normal range"
+ },
+ "58ad59eeeb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on inherited bleeding or thrombosis risk is provided"
+ },
+ "5fb33fb177": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on alcohol or drug abuse is provided"
+ },
+ "6ea4fad1e4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on life expectancy is provided in the note"
+ },
+ "75d0bbed35": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on breastfeeding status is provided"
+ },
+ "7cf156c60a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on NYHA class is provided"
+ },
+ "89703d1bf5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on second primary malignancy is provided"
+ },
+ "951b724896": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on psychiatric illness or compliance is provided"
+ },
+ "95b3a5b806": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on gastrointestinal disease is provided"
+ },
+ "9bbd0d3594": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on leptomeningeal disease is provided"
+ },
+ "afc95f6de7": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on anticoagulation or antiplatelet therapy is provided"
+ },
+ "dddfd19b19": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on palliative radiation or skeletal metastases toxicity is provided"
+ },
+ "e5870e9c1d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on EGFR status or tumor location is provided"
+ },
+ "ed2ced1956": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on tumor location or blood vessel invasion is provided"
+ },
+ "1b28a88218": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "3fa18231c7": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "d4fa041126": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "_errors": {
+  "n": 1,
+  "first": "no JSON found in reply: '{\\n  \"items\": [\\n    {\\n      \"id\": \"181e2488d6\",\\n      \"verdict\": \"U\",\\n      \"basis\": \"not_mentioned\",\\n      \"fact\": \"No informatio"
+ }
+}

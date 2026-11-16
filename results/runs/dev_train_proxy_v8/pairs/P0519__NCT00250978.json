@@ -1,0 +1,350 @@
+{
+ "pair_id": "P0519__NCT00250978",
+ "patient_id": "P0519",
+ "trial_id": "NCT00250978",
+ "label": 0,
+ "selective": "NEED_INFO",
+ "forced": "ELIGIBLE",
+ "n_l2": 3,
+ "n_forced_unknown": 3,
+ "n_provisional": 19,
+ "u": 15.5,
+ "asks": [
+  {
+   "atom": "c0A12",
+   "category": "OTHER",
+   "question": "Is aPTT less than 33.8\u202fseconds?",
+   "answerable_by": "record",
+   "pol": "inclusion"
+  },
+  {
+   "atom": "c0A13",
+   "category": "OTHER",
+   "question": "Is PT/INR less than 1.12?",
+   "answerable_by": "record",
+   "pol": "inclusion"
+  },
+  {
+   "atom": "c0A14",
+   "category": "OTHER",
+   "question": "Is alkaline phosphatase \u22642.5\u202f\u00d7\u202fULN?",
+   "answerable_by": "record",
+   "pol": "inclusion"
+  }
+ ],
+ "n_atoms": 32,
+ "trace": [
+  {
+   "atom": "c0A0",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "permission:not_a_requirement"
+  },
+  {
+   "atom": "c0A1",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "permission:not_a_requirement"
+  },
+  {
+   "atom": "c0A2",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "permission:not_a_requirement"
+  },
+  {
+   "atom": "c0A3",
+   "type": "IS",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "permission:not_a_requirement"
+  },
+  {
+   "atom": "c0A4",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A5",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A6",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A7",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A8",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A9",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A10",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A11",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A12",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A13",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A14",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A15",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A16",
+   "type": "IS",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A17",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A18",
+   "type": "HAS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A19",
+   "type": "IN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A20",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c0A21",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c0A22",
+   "type": "IN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A23",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c0A24",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c0A25",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A26",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c0A27",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c0A28",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c0A29",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c0A30",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c0A31",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  }
+ ],
+ "site_verify": [
+  "Adequate coagulation studies, blood counts, renal and hepatic function: aPTT < 33.8 seconds, PT/INR < 1.12, WBC >= 3,000/ul, hemoglobin >= 9.0 g/dl, platelet count >=100,000/ul, total bilirubin <= 1.3 mg/dl, AST/ALT <= 2.0 X UNL, Alk Phos <= 2.5 X UNL, creatinine <= 1.5 mg/dl",
+  "Adequate coagulation studies, blood counts, renal and hepatic function: aPTT < 33.8 seconds, PT/INR < 1.12, WBC >= 3,000/ul, hemoglobin >= 9.0 g/dl, platelet count >=100,000/ul, total bilirubin <= 1.3 mg/dl, AST/ALT <= 2.0 X UNL, Alk Phos <= 2.5 X UNL, creatinine <= 1.5 mg/dl",
+  "Adequate coagulation studies, blood counts, renal and hepatic function: aPTT < 33.8 seconds, PT/INR < 1.12, WBC >= 3,000/ul, hemoglobin >= 9.0 g/dl, platelet count >=100,000/ul, total bilirubin <= 1.3 mg/dl, AST/ALT <= 2.0 X UNL, Alk Phos <= 2.5 X UNL, creatinine <= 1.5 mg/dl",
+  "Ability to maintain a Pleur-XTM drainage catheter",
+  "Men and women of childbearing potential must be willing to consent to using effective contraception while on treatment and for at least 3 months thereafter."
+ ]
+}

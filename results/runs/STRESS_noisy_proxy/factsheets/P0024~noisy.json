@@ -1,0 +1,199 @@
+{
+ "patient_id": "P0024~noisy",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    69.0,
+    69.0
+   ],
+   "evidence": "69-year-old",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "adenocarcinoma of lung",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "histology": {
+   "status": "value",
+   "value": "adenocarcinoma",
+   "evidence": "histologically confirmed adenocarcinoma of lung",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IV",
+   "evidence": "staged as IV",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "measurable_disease": {
+   "status": "value",
+   "value": true,
+   "evidence": "Imaging shows measurable disease per RECIST v1.1",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "progressed_after_prior",
+   "evidence": "disease progressed following piror systemic theray",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "egfr": {
+   "status": "value",
+   "value": "positive",
+   "evidence": "Molecular tetsing revealed EGFR exon 19 deletion",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "neuropathy_grade": {
+   "status": "value",
+   "value": [
+    3.0,
+    3.0
+   ],
+   "evidence": "She peripheral neuropathy Grade 3",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_t": {
+   "status": "value",
+   "value": "T3",
+   "evidence": "staged as IV (T3N2M1b)",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_n": {
+   "status": "value",
+   "value": "N2",
+   "evidence": "staged as IV (T3N2M1b)",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_m": {
+   "status": "value",
+   "value": "M1B",
+   "evidence": "staged as IV (T3N2M1b)",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "female",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  }
+ },
+ "therapy_status": "value",
+ "events": [
+  {
+   "cls": "chemo",
+   "agents": [],
+   "line": null,
+   "setting": null,
+   "thoracic": null,
+   "months_ago": [
+    3.0,
+    6.0
+   ],
+   "ongoing": false,
+   "evidence": "She s/p chemo, RT, TKI therapy, immunotherapy (3-6 mo ago).",
+   "verified": false
+  },
+  {
+   "cls": "radio",
+   "agents": [],
+   "line": null,
+   "setting": null,
+   "thoracic": null,
+   "months_ago": [
+    3.0,
+    6.0
+   ],
+   "ongoing": false,
+   "evidence": "She s/p chemo, RT, TKI therapy, immunotherapy (3-6 mo ago).",
+   "verified": false
+  },
+  {
+   "cls": "tki",
+   "agents": [],
+   "line": null,
+   "setting": null,
+   "thoracic": null,
+   "months_ago": [
+    3.0,
+    6.0
+   ],
+   "ongoing": false,
+   "evidence": "She s/p chemo, RT, TKI therapy, immunotherapy (3-6 mo ago).",
+   "verified": false
+  },
+  {
+   "cls": "io",
+   "agents": [],
+   "line": null,
+   "setting": null,
+   "thoracic": null,
+   "months_ago": [
+    3.0,
+    6.0
+   ],
+   "ongoing": false,
+   "evidence": "She s/p chemo, RT, TKI therapy, immunotherapy (3-6 mo ago).",
+   "verified": false
+  }
+ ],
+ "lines_of_therapy": null,
+ "reader_meta": {
+  "reader": "edge_proxy",
+  "conflicts": [],
+  "therapy_verified": false,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 3.357
+  }
+ }
+}

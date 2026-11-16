@@ -1,0 +1,258 @@
+{
+ "patient_id": "P0041~noisy",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    56.0,
+    56.0
+   ],
+   "evidence": "56-year-old female",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "female",
+   "evidence": "female",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "NSCLC",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IIIB",
+   "evidence": "IIIB",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "newly_diagnosed",
+   "evidence": "newly diagnosed",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "measurable_disease": {
+   "status": "value",
+   "value": true,
+   "evidence": "measurable disease per RECIST v1.1",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "brain_mets": {
+   "status": "negated",
+   "value": "none",
+   "evidence": "no intracranial disease",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "malignant_effusion": {
+   "status": "negated",
+   "value": null,
+   "evidence": "No pleural or pericardial effusion present",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "ecog": {
+   "status": "value",
+   "value": [
+    0.0,
+    0.0
+   ],
+   "evidence": "ECOG 0",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "kps": {
+   "status": "value",
+   "value": [
+    100.0,
+    100.0
+   ],
+   "evidence": "Karnofsky PS 100",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "fev1_pct": {
+   "status": "value",
+   "value": [
+    70.0,
+    70.0
+   ],
+   "evidence": "FEV1 70% predicted",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "egfr": {
+   "status": "value",
+   "value": "positive",
+   "evidence": "EGFR exon 19 deletion",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "autoimmune_active": {
+   "status": "negated",
+   "value": null,
+   "evidence": "No autoimmune conditions",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "pregnant": {
+   "status": "negated",
+   "value": null,
+   "evidence": "Negative serum pregnancy test",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "creatinine_mg_dl": {
+   "status": "value",
+   "value": [
+    1.0,
+    1.0
+   ],
+   "evidence": "creatininne 1.0 mg/dL",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "anc_k_ul": {
+   "status": "value",
+   "value": [
+    2.8,
+    2.8
+   ],
+   "evidence": "ANC 2.8 x10^3",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "platelets_k_ul": {
+   "status": "value",
+   "value": [
+    197.0,
+    197.0
+   ],
+   "evidence": "plt 197k",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "hemoglobin_g_dl": {
+   "status": "value",
+   "value": [
+    14.8,
+    14.8
+   ],
+   "evidence": "Hb 14.8 g/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "bilirubin_mg_dl": {
+   "status": "value",
+   "value": [
+    1.0,
+    1.0
+   ],
+   "evidence": "bilirubin 1.0 mg/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_t": {
+   "status": "value",
+   "value": "T3",
+   "evidence": "T3N2M0",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_n": {
+   "status": "value",
+   "value": "N2",
+   "evidence": "T3N2M0",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_m": {
+   "status": "value",
+   "value": "M0",
+   "evidence": "T3N2M0",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  }
+ },
+ "therapy_status": "negated",
+ "events": [],
+ "lines_of_therapy": null,
+ "reader_meta": {
+  "reader": "edge_proxy",
+  "conflicts": [],
+  "therapy_verified": false,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 5.287
+  }
+ }
+}

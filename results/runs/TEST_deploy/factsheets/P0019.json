@@ -1,0 +1,144 @@
+{
+ "patient_id": "P0019",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    55.0,
+    55.0
+   ],
+   "evidence": "55-year-old Chinese female",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "female",
+   "evidence": "Chinese female",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "advanced non-small cell lung cancer",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IV",
+   "evidence": "Stage IV",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "brain_mets": {
+   "status": "value",
+   "value": "treated_stable",
+   "evidence": "documented asymptomatic brain metastases",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "measurable_disease": {
+   "status": "value",
+   "value": true,
+   "evidence": "at least one measurable intracranial lesion",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "ecog": {
+   "status": "value",
+   "value": [
+    0.0,
+    0.0
+   ],
+   "evidence": "ECOG performance status of 0",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "life_expectancy_months": {
+   "status": "value",
+   "value": [
+    3.0,
+    3.0
+   ],
+   "evidence": "life expectancy of at least 3 months",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "egfr": {
+   "status": "value",
+   "value": "positive",
+   "evidence": "activating mutation in the EGFR gene",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  }
+ },
+ "therapy_status": "value",
+ "events": [
+  {
+   "cls": "chemo",
+   "agents": [],
+   "line": null,
+   "setting": null,
+   "thoracic": null,
+   "months_ago": null,
+   "ongoing": null,
+   "evidence": null,
+   "verified": false
+  },
+  {
+   "cls": "tki",
+   "agents": [],
+   "line": null,
+   "setting": null,
+   "thoracic": null,
+   "months_ago": null,
+   "ongoing": null,
+   "evidence": null,
+   "verified": false
+  }
+ ],
+ "lines_of_therapy": null,
+ "reader_meta": {
+  "reader": "edge_local",
+  "conflicts": [
+   "brain_mets"
+  ],
+  "therapy_verified": false,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 220.936,
+   "prompt_tokens": 1561,
+   "gen_tokens": 1071,
+   "prompt_s": 10.181,
+   "gen_s": 208.281,
+   "load_s": 0.027
+  }
+ }
+}

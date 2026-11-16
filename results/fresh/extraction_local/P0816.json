@@ -1,0 +1,250 @@
+{
+ "patient_id": "P0816",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    58.0,
+    58.0
+   ],
+   "evidence": "A 58-year-old",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "female",
+   "evidence": "A 58-year-old",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "adenocarcinoma of the lung",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "histology": {
+   "status": "value",
+   "value": "adenocarcinoma",
+   "evidence": "histologically confirmed adenocarcinoma",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IV",
+   "evidence": "staged as IV",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "measurable_disease": {
+   "status": "value",
+   "value": true,
+   "evidence": "Imaging shows measurable disease per RECIST v1.1",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "recurrent",
+   "evidence": "has recurrent disease after previous treatment",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ecog": {
+   "status": "value",
+   "value": [
+    0.0,
+    0.0
+   ],
+   "evidence": "ECOG performance status of 0",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ret": {
+   "status": "value",
+   "value": "positive",
+   "evidence": "Molecular testing revealed RET fusion",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "neuropathy_grade": {
+   "status": "value",
+   "value": [
+    1.0,
+    1.0
+   ],
+   "evidence": "has peripheral neuropathy Grade 1",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "creatinine_mg_dl": {
+   "status": "value",
+   "value": [
+    2.1,
+    2.1
+   ],
+   "evidence": "creatinine 2.1 mg/dL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "anc_k_ul": {
+   "status": "value",
+   "value": [
+    3.4,
+    3.4
+   ],
+   "evidence": "ANC 3.4 x10^3",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "platelets_k_ul": {
+   "status": "value",
+   "value": [
+    291.0,
+    291.0
+   ],
+   "evidence": "platelets 291k",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "hemoglobin_g_dl": {
+   "status": "value",
+   "value": [
+    13.5,
+    13.5
+   ],
+   "evidence": "hemoglobin 13.5 g/dL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "bilirubin_mg_dl": {
+   "status": "value",
+   "value": [
+    2.5,
+    2.5
+   ],
+   "evidence": "bilirubin 2.5 mg/dL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "malignant_effusion": {
+   "status": "value",
+   "value": true,
+   "evidence": "A malignant pleural effusion is present",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_t": {
+   "status": "value",
+   "value": "T4",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  },
+  "tnm_n": {
+   "status": "value",
+   "value": "N3",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  },
+  "tnm_m": {
+   "status": "value",
+   "value": "M1C",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  }
+ },
+ "therapy_status": "value",
+ "events": [
+  {
+   "cls": "chemo",
+   "agents": [
+    "chemotherapy"
+   ],
+   "line": null,
+   "setting": "advanced",
+   "thoracic": null,
+   "months_ago": [
+    6.0,
+    Infinity
+   ],
+   "ongoing": false,
+   "evidence": "She previously received chemotherapy (over 6 months ago)",
+   "verified": true
+  }
+ ],
+ "lines_of_therapy": null,
+ "reader_meta": {
+  "reader": "edge_local",
+  "conflicts": [],
+  "therapy_verified": true,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 94.787,
+   "prompt_tokens": 1500,
+   "gen_tokens": 619,
+   "prompt_s": 4.979,
+   "gen_s": 87.73,
+   "load_s": 0.003
+  }
+ }
+}

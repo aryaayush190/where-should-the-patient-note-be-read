@@ -1,0 +1,269 @@
+{
+ "patient_id": "P0017~PS",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    58.0,
+    58.0
+   ],
+   "evidence": "58-year-old male",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "male",
+   "evidence": "male",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "adenocarcinoma of the lung",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "histology": {
+   "status": "value",
+   "value": "adenocarcinoma",
+   "evidence": "adenocarcinoma",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IV",
+   "evidence": "advanced NSCLC",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "newly_diagnosed",
+   "evidence": "newly diagnosed advanced presentation",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "measurable_disease": {
+   "status": "value",
+   "value": true,
+   "evidence": "at least one measurable intracranial target lesion and one measurable extracranial target lesion",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "brain_mets": {
+   "status": "value",
+   "value": "untreated_or_symptomatic",
+   "evidence": "brain metastases have been clinically stable for at least 2 weeks",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "egfr": {
+   "status": "value",
+   "value": "positive",
+   "evidence": "EGFR L858R mutation",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "alk": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "not tested",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "ros1": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "not tested",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "kras": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "not tested",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "ret": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "not tested",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "braf": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "not tested",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "met": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "not tested",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "active_infection": {
+   "status": "negated",
+   "value": null,
+   "evidence": "no active infections",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "autoimmune_active": {
+   "status": "negated",
+   "value": null,
+   "evidence": "no autoimmune conditions",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "creatinine_mg_dl": {
+   "status": "value",
+   "value": [
+    1.3,
+    1.3
+   ],
+   "evidence": "creatinine 1.3 mg/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "bilirubin_mg_dl": {
+   "status": "value",
+   "value": [
+    0.7,
+    0.7
+   ],
+   "evidence": "bilirubin 0.7 mg/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "anc_k_ul": {
+   "status": "value",
+   "value": [
+    5.2,
+    5.2
+   ],
+   "evidence": "ANC 5.2 x10^3",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "platelets_k_ul": {
+   "status": "value",
+   "value": [
+    279.0,
+    279.0
+   ],
+   "evidence": "platelets 279k",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "hemoglobin_g_dl": {
+   "status": "value",
+   "value": [
+    12.5,
+    12.5
+   ],
+   "evidence": "hemoglobin 12.5 g/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  }
+ },
+ "therapy_status": "value",
+ "events": [
+  {
+   "cls": "radio",
+   "agents": [
+    "radiotherapy"
+   ],
+   "line": null,
+   "setting": "local",
+   "thoracic": null,
+   "months_ago": [
+    5.0,
+    5.0
+   ],
+   "ongoing": false,
+   "evidence": "Radiotherapy was completed 5 months ago to a non-target lesion only.",
+   "verified": true
+  }
+ ],
+ "lines_of_therapy": [
+  0.0,
+  0.0
+ ],
+ "reader_meta": {
+  "reader": "edge_proxy",
+  "conflicts": [
+   "brain_mets"
+  ],
+  "therapy_verified": true,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 4.544
+  }
+ }
+}

@@ -1,0 +1,257 @@
+{
+ "patient_id": "P0502",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    59.0,
+    59.0
+   ],
+   "evidence": "59-year-old male",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "male",
+   "evidence": "male",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "melanoma",
+   "evidence": "metastatic non-uveal melanoma",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "histology": {
+   "status": "value",
+   "value": "other",
+   "evidence": "non-uveal melanoma",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "measurable_disease": {
+   "status": "value",
+   "value": true,
+   "evidence": "measurable target lesions",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "progressed_after_prior",
+   "evidence": "disease recently progressed after achieving a prior partial response",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ecog": {
+   "status": "value",
+   "value": [
+    1.0,
+    1.0
+   ],
+   "evidence": "ECOG performance status of 1",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "brain_mets": {
+   "status": "value",
+   "value": "treated_stable",
+   "evidence": "previously treated brain metastases have been radiographically stable",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "life_expectancy_months": {
+   "status": "value",
+   "value": [
+    3.0,
+    Infinity
+   ],
+   "evidence": "life expectancy >12 weeks",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "creatinine_mg_dl": {
+   "status": "value",
+   "value": [
+    1.0,
+    1.0
+   ],
+   "evidence": "creatinine 1.0 mg/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "bilirubin_mg_dl": {
+   "status": "value",
+   "value": [
+    0.8,
+    0.8
+   ],
+   "evidence": "bilirubin 0.8 mg/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "albumin_g_dl": {
+   "status": "value",
+   "value": [
+    3.8,
+    3.8
+   ],
+   "evidence": "albumin 3.8 g/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ast_xuln": {
+   "status": "value",
+   "value": [
+    2.5,
+    2.5
+   ],
+   "evidence": "AST strictly ≤2.5x ULN",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "alt_xuln": {
+   "status": "value",
+   "value": [
+    2.5,
+    2.5
+   ],
+   "evidence": "ALT strictly ≤2.5x ULN",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "anc_k_ul": {
+   "status": "value",
+   "value": [
+    3.2,
+    3.2
+   ],
+   "evidence": "ANC 3.2 x10³/µL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "wbc_k_ul": {
+   "status": "value",
+   "value": [
+    5.0,
+    5.0
+   ],
+   "evidence": "WBC 5.0 x10³/µL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "platelets_k_ul": {
+   "status": "value",
+   "value": [
+    245.0,
+    245.0
+   ],
+   "evidence": "platelets 245k/µL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "hemoglobin_g_dl": {
+   "status": "value",
+   "value": [
+    11.8,
+    11.8
+   ],
+   "evidence": "hemoglobin 11.8 g/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "autoimmune_active": {
+   "status": "negated",
+   "value": null,
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  }
+ },
+ "therapy_status": "value",
+ "events": [
+  {
+   "cls": "radio",
+   "agents": [],
+   "line": null,
+   "setting": null,
+   "thoracic": null,
+   "months_ago": [
+    6.0,
+    Infinity
+   ],
+   "ongoing": null,
+   "evidence": null,
+   "verified": false
+  }
+ ],
+ "lines_of_therapy": null,
+ "reader_meta": {
+  "reader": "edge_proxy",
+  "conflicts": [
+   "life_expectancy_months"
+  ],
+  "therapy_verified": false,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1",
+  "slm_meta": {
+   "cached": true,
+   "latency_s": 2.849
+  }
+ }
+}

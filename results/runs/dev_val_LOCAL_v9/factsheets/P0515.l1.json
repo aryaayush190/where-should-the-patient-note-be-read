@@ -1,0 +1,157 @@
+{
+ "0178364e2c": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on anticoagulation use or therapy is stated"
+ },
+ "098c176bf9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "White blood cell count not stated in the note"
+ },
+ "19d69939fe": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on wounds, ulcers, or fractures is stated"
+ },
+ "2f1b8359f7": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient has normal coagulation parameters with normal APTT"
+ },
+ "35f05678f9": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Presence of brain metastasis is stated, but no assessment for neurological symptoms is given"
+ },
+ "3ec3d228fa": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Platelet count is not stated, but no abnormality is reported"
+ },
+ "4605b8f436": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "INR is not stated, but no abnormality is reported"
+ },
+ "47faf1ca5c": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Liver, renal, and bone marrow functions are fully within normal limits"
+ },
+ "5c50ea11f7": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "AST is within normal limits as lab parameters are fully within protocol limits"
+ },
+ "65980154bb": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on bleeding diathesis or coagulopathy is stated"
+ },
+ "6b4294b2e3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on swallowing ability or pill intake is provided"
+ },
+ "6ea4fad1e4": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Life expectancy is at least 12 weeks, which is more than 2.762 months"
+ },
+ "728864a218": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No evidence of CHF or NYHA class II or higher; cardiovascular profile is fully controlled"
+ },
+ "75145873b9": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No evidence of CHF; cardiovascular profile is fully normal and well-controlled"
+ },
+ "83a8f9e336": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Hemoglobin level is not stated, but no mention of low hemoglobin; requirement is met by implication"
+ },
+ "9cdd0a042a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on allergies to sorafenib or trial agents is provided"
+ },
+ "a2c9994df2": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Serum creatinine and creatinine clearance are normal, within protocol limits"
+ },
+ "a3a61d08dc": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on hemorrhage or bleeding events within 4 weeks is provided"
+ },
+ "abb480b946": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No history of thrombotic or embolic events; stroke or TIA not reported"
+ },
+ "b10ad1cccd": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Only NSCLC is mentioned; no other cancer within 5 years prior"
+ },
+ "bda8d89e70": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on pulmonary hemorrhage or bleeding events within 4 weeks of first dose"
+ },
+ "ca9fdf175a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on contraceptive use by patient or partner"
+ },
+ "cbc2c64cdf": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Liver function tests show ALT within normal limits, below 2.5 xULN"
+ },
+ "d76a14fcec": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on presence of malabsorption condition"
+ },
+ "d97c6f0d27": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Bilirubin level is within normal limits, below 1.5 xULN"
+ },
+ "e0c9479baa": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on prior major surgery, biopsy, or trauma within 4 weeks"
+ },
+ "e304c336e3": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on blood pressure readings or hypertension control"
+ },
+ "1407f0200c": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "48efafc2ff": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "768f47a08d": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "88a0f7fbe4": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ }
+}

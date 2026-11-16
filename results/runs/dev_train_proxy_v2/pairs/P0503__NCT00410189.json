@@ -1,0 +1,421 @@
+{
+ "pair_id": "P0503__NCT00410189",
+ "patient_id": "P0503",
+ "trial_id": "NCT00410189",
+ "label": 0,
+ "selective": "NEED_INFO",
+ "forced": "ELIGIBLE",
+ "n_l2": 1,
+ "n_forced_unknown": 15,
+ "n_provisional": 12,
+ "u": 22.0,
+ "asks": [
+  {
+   "atom": "c0A6",
+   "category": "OTHER",
+   "question": "Is the tumor accessible for biopsy?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c0A7",
+   "category": "LABS",
+   "question": "Is the absolute neutrophil count \u2265\u202f1,500/mm\u00b3?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A8",
+   "category": "LABS",
+   "question": "Is the platelet count \u2265\u202f100,000/mm\u00b3?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A9",
+   "category": "LABS",
+   "question": "Is the white\u2011blood\u2011cell count \u2265\u202f3,000/mm\u00b3?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A10",
+   "category": "LABS",
+   "question": "Is the hemoglobin \u2265\u202f9\u202fg/dL?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A11",
+   "category": "LABS",
+   "question": "Is total bilirubin \u2264\u202f1.5\u202f\u00d7\u202fULN?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A13",
+   "category": "LABS",
+   "question": "Is AST \u2264\u202f2.5\u202f\u00d7\u202fULN?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A15",
+   "category": "OTHER",
+   "question": "Is the prothrombin time less than 1.5\u202f\u00d7\u202fULN?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A20",
+   "category": "OTHER",
+   "question": "Is the patient using adequate contraception or abstinent as required?",
+   "answerable_by": "patient"
+  },
+  {
+   "atom": "c0A21",
+   "category": "OTHER",
+   "question": "Is the patient legally capable of giving informed consent?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c0A26",
+   "category": "CARDIAC",
+   "question": "Has the patient had a myocardial infarction in the past 3\u202fmonths?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A29",
+   "category": "OTHER",
+   "question": "Does the patient have uncontrolled hypertension?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A30",
+   "category": "OTHER",
+   "question": "Does the patient have an uncontrolled seizure disorder?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A31",
+   "category": "OTHER",
+   "question": "Does the patient have active neurologic disease?",
+   "answerable_by": "record"
+  }
+ ],
+ "n_atoms": 33,
+ "trace": [
+  {
+   "atom": "c0A0",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A1",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A2",
+   "type": "COUNT",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A3",
+   "type": "IF",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c0A4",
+   "type": "IS",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A5",
+   "type": "ANY",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A6",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A7",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A8",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A9",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A10",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A11",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A12",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c0A13",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A14",
+   "type": "ANY",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c0A15",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A16",
+   "type": "IF",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": true,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c0A17",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A18",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A19",
+   "type": "IF",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A20",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A21",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A22",
+   "type": "WITHIN",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "l2": "U",
+   "route": "defer:l1-l2-disagree"
+  },
+  {
+   "atom": "c0A23",
+   "type": "WITHIN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A24",
+   "type": "WITHIN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A25",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A26",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A27",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A28",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A29",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A30",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A31",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A32",
+   "type": "CMP",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  }
+ ],
+ "site_verify": [
+  "The patient has signed informed consent."
+ ]
+}

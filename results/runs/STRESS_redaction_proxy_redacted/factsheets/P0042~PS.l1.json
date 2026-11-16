@@ -1,0 +1,577 @@
+{
+ "01149ff4b4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1051afa86a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "122dd43b9f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1399f65557": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "13f7a9a273": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "labs within protocol limits"
+ },
+ "154d52890e": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no pleural or pericardial effusion"
+ },
+ "1871c555ab": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no hepatic encephalopathy or cirrhosis"
+ },
+ "188c73df91": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "total bilirubin 1.0 mg/dL normal"
+ },
+ "1bcb3429fa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1c4edd10e4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1dc08cb25f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1e2d5dd2a1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "21c1b1720c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "263e50af0e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "2a498aa15b": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "brain metastases stable \u22652 weeks"
+ },
+ "2b8c88fcaa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "2f36628671": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "30e0fa0457": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no interstitial lung disease"
+ },
+ "363310d974": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3686dd4cd4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "36952821b3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3698667849": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3bea08439c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3d5e0fd351": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no unresolved toxicity > grade1"
+ },
+ "44c486bac8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4581ef1119": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "48f24f06b1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "49135a9c3e": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "controlled arrhythmia, no uncontrolled systemic disease"
+ },
+ "4a7abd27b8": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "bilirubin 1.0 mg/dL, within normal limits"
+ },
+ "4e0330adb8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "508a8ed716": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "stage IV disease, not stage II"
+ },
+ "530ec4c769": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5529ff66cb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "55b2d67ce1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5683e0b3a7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "58451a782e": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no QT prolongation risk drugs"
+ },
+ "58e871d944": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no uncontrolled systemic disease or end\u2011organ dysfunction noted"
+ },
+ "5a6e009b31": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "patient has stage IV NSCLC, not carcinoma in situ"
+ },
+ "5c0804ebb1": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no systemic steroids >20 mg reported"
+ },
+ "60630931d4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "61dd553133": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "ECOG not reported"
+ },
+ "66ae5b44a5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "ALT not reported"
+ },
+ "67f461d0f2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "durvalumab candidacy not stated"
+ },
+ "69a7bdd1b6": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "pregnancy/breastfeeding status not stated"
+ },
+ "6c74f48d4b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "HCG test not reported"
+ },
+ "6df4b3a1d4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "ALT not reported"
+ },
+ "7699330c66": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no prior cured malignancy >5 years"
+ },
+ "80f04fea7b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "ALT/AST not reported"
+ },
+ "86b1a1ffe7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "895b6834d8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8d66bff067": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8e7b99bb88": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8f542662a0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "900138caef": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "91c5874ee1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "91e39899f5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "924c3d1193": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "95b7d34363": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no QT prolongation risk, controlled arrhythmia, LVEF >50%"
+ },
+ "997db60674": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9d8e244d51": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "labs within limits, no severe condition"
+ },
+ "a187ab7280": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a4d9088c1f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a5b827a3f4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a8aa01fb3f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a9c6224678": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "aba5446ba7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "abf808c166": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ad1e0cff0f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "adcd0bc958": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b0701a6b34": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b4cd0c0705": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no malignant effusion present"
+ },
+ "b868c02ce5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b8d9688e9e": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "patient willing to use contraception"
+ },
+ "b9d0f306b1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "bac32f378a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "bef6c682ea": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "patient has brain metastases"
+ },
+ "bfab6396a3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c096d1c8f1": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "stage IV disease not resectable"
+ },
+ "c43286b5cc": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c508739e51": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c69cf938aa": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "QT not prolonged"
+ },
+ "cc976d6995": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "brain metastases stable >2 weeks"
+ },
+ "ccac2a0a33": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "controlled arrhythmia, LVEF >50%"
+ },
+ "cd44ecf60a": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "cardiac, hepatic, renal function normal"
+ },
+ "cd6887c5a8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d05052cdb5": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior systemic therapy"
+ },
+ "d3868ee68a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d78af4d562": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "LVEF >50%"
+ },
+ "e89085887a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e8ee280dfe": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ea2673beb7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ead5afcc49": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "eba8f701b4": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "stage IV NSCLC with measurable disease"
+ },
+ "ef58bd54e8": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "ANC 2.4 x10^3/uL <4"
+ },
+ "f035c9c02a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f1259e700e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f26d20ed31": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f3e913376a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f488b098eb": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no effusions requiring intervention"
+ },
+ "f5a3e3d249": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "fa63a5c74c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "fa9b403fc4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "facd6eaaf0": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "stage IV advanced NSCLC"
+ },
+ "fb28697345": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "fba10ba7b1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "fbb2dd4361": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "fd5e3f6599": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cce42d77b3": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "d8419cdf91": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "d8cdbd6ad0": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "db339f9df1": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "e193b95631": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "e73a551bc8": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "e7d0eb955c": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "e8308b718a": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ }
+}

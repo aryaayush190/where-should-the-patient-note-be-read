@@ -1,0 +1,257 @@
+{
+ "045efc8402": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0a75062b24": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "multiple metastatic sites present, not single focus"
+ },
+ "1094c534af": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "10b1a6aee7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1954c8cd9e": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "patient is not lactating"
+ },
+ "20bc1877d4": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "tumor stage IIIB, >7 cm, N3M0"
+ },
+ "248f173aa8": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "single primary tumor"
+ },
+ "2b8cf92f14": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "single histology adenocarcinoma"
+ },
+ "2d6aaca79d": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no HIV history"
+ },
+ "34eb008960": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3660100e14": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4054f52efb": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "has regional metastases (N3)"
+ },
+ "4acebfc9fa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "54fa5fd901": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5ba45a5bcb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5f0132f7cc": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6141c5ac7c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "61abc8fe61": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "68eca96387": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6d96545337": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6df126a96f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "707e83addf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "72fb1c8fd5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "744135886a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7792755c2e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "77acaa96e8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7d61b9afed": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7ffcee888e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "863de5933c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "86da255d7a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "88c49e050c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "89ed9257c6": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8c239f6de9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8ed9f7d336": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "982328a63b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "99463c247b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ae1b8aebb2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "bd4e17552f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c6511f66e5": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no contraindication to radiotherapy noted"
+ },
+ "cf8f73ad34": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d045c90c34": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d218f6e623": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "da2a30e7da": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "dbaf04e9e1": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "tumor involves lymph node (N3)"
+ },
+ "e44ea04cd3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e6b4fb9c9d": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "stage IIIB, not IA/IB/IIA"
+ },
+ "e8619f0d29": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f0bd52bbef": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f6a03bc8be": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "T2N3M0 stage IIIB"
+ },
+ "fad34d4513": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "fd1bee54ee": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ }
+}

@@ -1,0 +1,592 @@
+{
+ "0128bac762": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "patient is male"
+ },
+ "03e5414e0c": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no EGFR mutation"
+ },
+ "081ed4a297": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "platelets >100k"
+ },
+ "0a460b0d58": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0b14ee31a9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1399f65557": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "13f7a9a273": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "normal organ function"
+ },
+ "154d52890e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1871c555ab": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "188c73df91": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "bilirubin <1.5"
+ },
+ "1c4edd10e4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1d98b9d186": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1dc08cb25f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1e2d5dd2a1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "21c1b1720c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "263e50af0e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "26b14ea1f2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "298f0ceeb2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "2a498aa15b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "2b2a5577af": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "30e0fa0457": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "36952821b3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3698667849": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "37de5b69fe": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3bc22117c4": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "AST/ALT <3x ULN"
+ },
+ "3bea08439c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3ced4c07e0": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ECOG 0, stable, life expectancy >3 months"
+ },
+ "3d5e0fd351": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no unresolved toxicity >1, no intracranial hemorrhage"
+ },
+ "423ca9aa74": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "bilirubin <1.5 mg/dL"
+ },
+ "44c486bac8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "49135a9c3e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4a7abd27b8": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "bilirubin <1.5 mg/dL"
+ },
+ "4e13af0891": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "508a8ed716": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "526a80d7d6": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "disease is metastatic, not recurrent"
+ },
+ "530ec4c769": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5529ff66cb": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "55b2d67ce1": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "58451a782e": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5a6e009b31": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5ad4e6b460": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5c838db747": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5cdafa0d42": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "45\u2011year\u2011old male with 25 pack\u2011year smoking history"
+ },
+ "5e0680de39": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "60630931d4": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "62adbf5d60": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "63ba4916bf": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "66ae5b44a5": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "678afd1432": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "67f461d0f2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "683029b89d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "69a7bdd1b6": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "male patient, not pregnant or breastfeeding"
+ },
+ "6af738264a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6c74f48d4b": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "male patient, not female"
+ },
+ "74d0f6b8dd": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7699330c66": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "77ba1b8656": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "AST/ALT <3x ULN"
+ },
+ "7b5b5dabfe": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "WBC >3.5 x10^3/uL"
+ },
+ "7cad937428": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "male patient, not female"
+ },
+ "80f04fea7b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "81d272ec22": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "83a8f9e336": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "86b1a1ffe7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "895b6834d8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8e7b99bb88": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8eea7dfb4d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8f542662a0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "95b7d34363": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "97854a1c45": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "989d47fbc3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a187ab7280": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a4d9088c1f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a5b827a3f4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a5d64e9e6b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a712433309": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "stage IV with no solitary treated brain metastasis"
+ },
+ "a8fa5265a7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a9c6224678": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "aba5446ba7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "abf808c166": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ad1e0cff0f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "life expectancy >3 months"
+ },
+ "adcd0bc958": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ae86ef7ced": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b0701a6b34": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b07d357e44": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b481ad4ad0": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "male patient, not pregnant or breastfeeding"
+ },
+ "b868c02ce5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b8d9688e9e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "beba0e985c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c3c34a9aca": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "malignant pleural effusion with positive cytology"
+ },
+ "c43286b5cc": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c508739e51": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c58fbaf42a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c617fcfd38": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "creatinine <1.5 mg/dL"
+ },
+ "c69cf938aa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cce42d77b3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d0167bc974": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d3868ee68a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d78af4d562": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d8419cdf91": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d878c7080b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d9bdac4798": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "patient has malignant pleural effusion"
+ },
+ "db339f9df1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e193b95631": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e2cc13b4e1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e73a551bc8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e87ae1f727": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "malignant pleural effusion present"
+ },
+ "e89085887a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e8ee280dfe": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ef58bd54e8": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "WBC 3,500/\u00b5L"
+ },
+ "f1259e700e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f3e913376a": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "AST/ALT <3x ULN"
+ },
+ "f488b098eb": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "malignant pleural effusion present"
+ },
+ "f895b235b4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "fa63a5c74c": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "pleural fluid cytology positive for malignancy"
+ },
+ "fb28697345": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "fbb2dd4361": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no recurrence within 6 months"
+ },
+ "fd5e3f6599": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ffac75eeec": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ }
+}

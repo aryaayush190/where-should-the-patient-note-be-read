@@ -1,0 +1,494 @@
+{
+ "pair_id": "P0520__NCT01753414",
+ "patient_id": "P0520",
+ "trial_id": "NCT01753414",
+ "label": 0,
+ "selective": "NOT_ELIGIBLE",
+ "forced": "NOT_ELIGIBLE",
+ "n_l2": 2,
+ "n_forced_unknown": 0,
+ "n_provisional": 5,
+ "u": 4.5,
+ "asks": [
+  {
+   "atom": "c0A3",
+   "category": "OTHER",
+   "question": "What is the tumour histology (adenocarcinoma, squamous, ...)?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A4",
+   "category": "OTHER",
+   "question": "Do abnormal lymph nodes have negative biopsies or have been stable/non\u2011malignant for 6\u202fmonths?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c0A5",
+   "category": "OTHER",
+   "question": "Is the patient a reasonable surgical candidate for lobectomy/pneumonectomy within the past 6\u202fweeks?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c0A6",
+   "category": "OTHER",
+   "question": "Does the thoracic surgeon expect negative surgical margins?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c0A7",
+   "category": "FEV1",
+   "question": "Is baseline FEV1\u202f>\u202f60\u202f% predicted?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A8",
+   "category": "OTHER",
+   "question": "Is DLCO >60\u202f% predicted?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A9",
+   "category": "OTHER",
+   "question": "Does the patient have baseline hypoxemia or hypercapnia?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A10",
+   "category": "FEV1",
+   "question": "When postoperative FEV1/DLCO <40\u202f%, is VO2max >60\u202f%?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A11",
+   "category": "OTHER",
+   "question": "Does the patient have severe pulmonary hypertension?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A12",
+   "category": "CARDIAC",
+   "question": "Does the patient have severe cerebral, cardiac, or peripheral vascular disease?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A13",
+   "category": "EFFUSION",
+   "question": "Does the patient have a malignant pleural effusion?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A15",
+   "category": "OTHER",
+   "question": "Has weight been documented within the past 6\u202fweeks?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A16",
+   "category": "OTHER",
+   "question": "Has the patient been evaluated by a thoracic surgeon within the past 6\u202fweeks?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A17",
+   "category": "OTHER",
+   "question": "Was an FDG\u2011PET/CT performed within the past 4\u202fweeks?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A18",
+   "category": "OTHER",
+   "question": "Was a contrast\u2011enhanced CT of chest/mediastinum/liver/adrenals performed within the past 4\u202fweeks?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A22",
+   "category": "OTHER",
+   "question": "Is the patient using adequate contraception?",
+   "answerable_by": "patient"
+  },
+  {
+   "atom": "c1A0",
+   "category": "OTHER",
+   "question": "Is there evidence of regional or distant metastases on PET or surgical staging?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c1A1",
+   "category": "LABS",
+   "question": "Has the patient had an invasive malignancy in the past 3\u202fyears that does not meet the listed exceptions?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c1A2",
+   "category": "OTHER",
+   "question": "Is the primary tumor larger than 3\u202fcm?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c1A5",
+   "category": "PRIOR_THERAPY",
+   "question": "Has the patient received prior radiotherapy to the study cancer region that would overlap future radiation fields?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c1A6",
+   "category": "OTHER",
+   "question": "Does the patient have a pure bronchioloalveolar carcinoma histology?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c1A9",
+   "category": "OTHER",
+   "question": "Is the patient a woman of child\u2011bearing potential or a sexually active man who is not using acceptable contraception?",
+   "answerable_by": "record"
+  }
+ ],
+ "n_atoms": 35,
+ "trace": [
+  {
+   "atom": "c0A0",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A1",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "F",
+   "verified": true,
+   "assumed": false,
+   "route": "exclude:verified"
+  },
+  {
+   "atom": "c0A2",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "F",
+   "l2": "F",
+   "route": "exclude:l1+l2"
+  },
+  {
+   "atom": "c0A3",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A4",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A5",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A6",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A7",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A8",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A9",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A10",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A11",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A12",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A13",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A14",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "F",
+   "l2": "F",
+   "route": "exclude:l1+l2"
+  },
+  {
+   "atom": "c0A15",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A16",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A17",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A18",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A19",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A20",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A21",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A22",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A23",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A24",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c1A0",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A1",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A2",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A3",
+   "type": "HAS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c1A4",
+   "type": "HAS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c1A5",
+   "type": "HAS",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A6",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A7",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c1A8",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c1A9",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  }
+ ],
+ "site_verify": [
+  "Patients must provide study specific informed consent prior to study entry.",
+  "Patients must provide study\u2011specific informed consent prior to entry"
+ ]
+}

@@ -1,0 +1,7 @@
+label miss unnec
+{Cloud LLM reads full note} 11.1 20.0
+{Cloud LLM reads 4B record} 51.1 11.1
+{SPLIT-Match, facts to cloud} 62.2 75.6
+{SPLIT-Match, offline} 17.8 111.1
+{Qwen3-4B reads note on device} 24.4 55.6
+{gpt-oss-20b reads note on device} 22.2 37.8

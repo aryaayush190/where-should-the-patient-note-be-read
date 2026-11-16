@@ -1,0 +1,225 @@
+{
+ "patient_id": "P0036~FEV1",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    64.0,
+    64.0
+   ],
+   "evidence": "64-year-old female",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "female",
+   "evidence": "female",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "adenocarcinoma of the lung",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "histology": {
+   "status": "value",
+   "value": "adenocarcinoma",
+   "evidence": "adenocarcinoma",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IIIA",
+   "evidence": "Stage IIIA",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "newly_diagnosed",
+   "evidence": "newly diagnosed",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "measurable_disease": {
+   "status": "value",
+   "value": true,
+   "evidence": "measurable disease per RECIST",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "malignant_effusion": {
+   "status": "negated",
+   "value": null,
+   "evidence": "no pleural or pericardial effusions",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "anc_k_ul": {
+   "status": "value",
+   "value": [
+    4.2,
+    4.2
+   ],
+   "evidence": "ANC 4.2 x 10^3/µL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "platelets_k_ul": {
+   "status": "value",
+   "value": [
+    210.0,
+    210.0
+   ],
+   "evidence": "platelets 210,000µ/L",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "hemoglobin_g_dl": {
+   "status": "value",
+   "value": [
+    12.8,
+    12.8
+   ],
+   "evidence": "hemoglobin 12.8g/dL",
+   "readers": [
+    "edge_proxy",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ast_xuln": {
+   "status": "value",
+   "value": [
+    3.0,
+    3.0
+   ],
+   "evidence": "AST/ALT <= 3.0 x ULN",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "alt_xuln": {
+   "status": "value",
+   "value": [
+    3.0,
+    3.0
+   ],
+   "evidence": "AST/ALT <= 3.0 x ULN",
+   "readers": [
+    "edge_proxy"
+   ],
+   "verified": false
+  },
+  "egfr": {
+   "status": "value",
+   "value": "negative",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  },
+  "alk": {
+   "status": "value",
+   "value": "negative",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  },
+  "ros1": {
+   "status": "value",
+   "value": "negative",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  },
+  "kras": {
+   "status": "value",
+   "value": "negative",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  },
+  "ret": {
+   "status": "value",
+   "value": "negative",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  },
+  "braf": {
+   "status": "value",
+   "value": "negative",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  },
+  "met": {
+   "status": "value",
+   "value": "negative",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  }
+ },
+ "therapy_status": "negated",
+ "events": [],
+ "lines_of_therapy": null,
+ "reader_meta": {
+  "reader": "edge_proxy",
+  "conflicts": [],
+  "therapy_verified": false,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 3.487
+  }
+ }
+}

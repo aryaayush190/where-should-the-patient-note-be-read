@@ -1,0 +1,48 @@
+{
+ "n": 104,
+ "forced": {
+  "coverage": 1.0,
+  "acc_all": 0.75,
+  "acc_decided": 0.75,
+  "precision": 0.6129032258064516,
+  "recall": 0.5757575757575758,
+  "f1": 0.59375,
+  "tp": 19,
+  "fp": 12,
+  "fn": 14,
+  "tn": 59,
+  "dist": {
+   "NOT_ELIGIBLE": 73,
+   "ELIGIBLE": 31
+  }
+ },
+ "selective": {
+  "coverage": 0.7019230769230769,
+  "acc_all": 0.5673076923076923,
+  "acc_decided": 0.8082191780821918,
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "tp": 0,
+  "fp": 0,
+  "fn": 14,
+  "tn": 59,
+  "dist": {
+   "NOT_ELIGIBLE": 73,
+   "NEED_INFO": 31
+  }
+ },
+ "mean_l2_per_pair": 1.3173076923076923,
+ "offline_decided": 0.25961538461538464,
+ "config": {
+  "split": "dev_train",
+  "edge": "proxy",
+  "name": "dev_train_proxy_v2",
+  "hard_veto": false,
+  "no_l1": false,
+  "no_l2": false,
+  "boolean_only": false,
+  "programs_variant": "",
+  "factsheets_from": ""
+ }
+}

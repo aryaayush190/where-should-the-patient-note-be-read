@@ -1,0 +1,238 @@
+{
+ "patient_id": "P0517",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    71.0,
+    71.0
+   ],
+   "evidence": "71-year-old",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "male",
+   "evidence": "Mr.",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": false
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "large cell carcinoma of the lung",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "histology": {
+   "status": "value",
+   "value": "large_cell",
+   "evidence": "large cell carcinoma of the lung",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IIIB",
+   "evidence": "stage IIIB",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ecog": {
+   "status": "value",
+   "value": [
+    0.0,
+    0.0
+   ],
+   "evidence": "ECOG performance status of 0",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "stable_on_therapy",
+   "evidence": "Imaging demonstrated treated, currently stable brain metastases",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "fev1_pct": {
+   "status": "value",
+   "value": [
+    70.0,
+    70.0
+   ],
+   "evidence": "Pulmonary function testing showed an FEV1 of 70% predicted",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "egfr": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular testing has not been performed",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "alk": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular testing has not been performed",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ros1": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular testing has not been performed",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "kras": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular testing has not been performed",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ret": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular testing has not been performed",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "braf": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular testing has not been performed",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "met": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular testing has not been performed",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "brain_mets": {
+   "status": "value",
+   "value": "treated_stable",
+   "evidence": "Imaging demonstrated treated, currently stable brain metastases",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_t": {
+   "status": "value",
+   "value": "T3",
+   "evidence": "stage IIIB (T3N2M0)",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_n": {
+   "status": "value",
+   "value": "N2",
+   "evidence": "stage IIIB (T3N2M0)",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_m": {
+   "status": "value",
+   "value": "M0",
+   "evidence": "stage IIIB (T3N2M0)",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  }
+ },
+ "therapy_status": "value",
+ "events": [
+  {
+   "cls": "chemo",
+   "agents": [
+    "chemotherapy"
+   ],
+   "line": null,
+   "setting": "advanced",
+   "thoracic": null,
+   "months_ago": [
+    3.0,
+    6.0
+   ],
+   "ongoing": false,
+   "evidence": "he previously received chemotherapy (3-6 months ago)",
+   "verified": true
+  }
+ ],
+ "lines_of_therapy": null,
+ "reader_meta": {
+  "reader": "edge_local",
+  "conflicts": [],
+  "therapy_verified": true,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 178.812,
+   "prompt_tokens": 1429,
+   "gen_tokens": 1218,
+   "prompt_s": 2.799,
+   "gen_s": 173.972,
+   "load_s": 0.005
+  }
+ }
+}

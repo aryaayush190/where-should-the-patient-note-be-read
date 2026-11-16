@@ -1,0 +1,305 @@
+{
+ "patient_id": "P0815",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    70.0,
+    70.0
+   ],
+   "evidence": "A 70-year-old",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "male",
+   "evidence": "A 70-year-old",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "NSCLC",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "histology": {
+   "status": "value",
+   "value": "nos",
+   "evidence": "not otherwise specified",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IV",
+   "evidence": "staged as IV",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "measurable_disease": {
+   "status": "value",
+   "value": true,
+   "evidence": "Imaging shows measurable disease per RECIST v1.1",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "progressed_after_prior",
+   "evidence": "The disease has progressed following prior systemic therapy",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "kps": {
+   "status": "value",
+   "value": [
+    70.0,
+    70.0
+   ],
+   "evidence": "Karnofsky Performance Status is 7-than",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": false
+  },
+  "malignant_effusion": {
+   "status": "value",
+   "value": true,
+   "evidence": "A malignant pleural effusion is present",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "egfr": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular profiling showed no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "alk": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular profiling showed no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "ros1": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular profiling showed no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "kras": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular profiling showed no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "ret": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular profiling showed no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "braf": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular profiling showed no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "met": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular profiling showed no actionable driver mutation",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "creatinine_mg_dl": {
+   "status": "value",
+   "value": [
+    1.2,
+    1.2
+   ],
+   "evidence": "creatinine 1.2 mg/dL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "anc_k_ul": {
+   "status": "value",
+   "value": [
+    2.0,
+    2.0
+   ],
+   "evidence": "ANC 2.0 x10^3",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "platelets_k_ul": {
+   "status": "value",
+   "value": [
+    162.0,
+    162.0
+   ],
+   "evidence": "platelets 162k",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "hemoglobin_g_dl": {
+   "status": "value",
+   "value": [
+    12.5,
+    12.5
+   ],
+   "evidence": "hemoglobin 12.5 g/dL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "bilirubin_mg_dl": {
+   "status": "value",
+   "value": [
+    1.4,
+    1.4
+   ],
+   "evidence": "bilirubin 1.4 mg/dL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_t": {
+   "status": "value",
+   "value": "T2",
+   "evidence": "staged as IV (T2N3M1a)",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_n": {
+   "status": "value",
+   "value": "N3",
+   "evidence": "staged as IV (T2N3M1a)",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_m": {
+   "status": "value",
+   "value": "M1A",
+   "evidence": "staged as IV (T2N3M1a)",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  }
+ },
+ "therapy_status": "value",
+ "events": [
+  {
+   "cls": "tki",
+   "agents": [
+    "tki"
+   ],
+   "line": null,
+   "setting": null,
+   "thoracic": null,
+   "months_ago": [
+    3.0,
+    6.0
+   ],
+   "ongoing": false,
+   "evidence": "He previously received TKI therapy (3-6 months ago)",
+   "verified": true
+  }
+ ],
+ "lines_of_therapy": [
+  1.0,
+  1.0
+ ],
+ "reader_meta": {
+  "reader": "edge_local",
+  "conflicts": [
+   "egfr",
+   "alk",
+   "ros1",
+   "kras",
+   "ret",
+   "braf",
+   "met"
+  ],
+  "therapy_verified": true,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 150.141,
+   "prompt_tokens": 1495,
+   "gen_tokens": 958,
+   "prompt_s": 5.381,
+   "gen_s": 142.71,
+   "load_s": 0.003
+  }
+ }
+}

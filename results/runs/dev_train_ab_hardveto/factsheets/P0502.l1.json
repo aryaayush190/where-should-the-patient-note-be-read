@@ -1,0 +1,377 @@
+{
+ "0428ad8fbf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "09450c1c3f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0b13d8acfc": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0eced6343d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0f0113763c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "138fcc299a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "15780bb50c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "181e2488d6": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1954c8cd9e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "19f5f187ba": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1b28a88218": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1c08625348": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1c471f0cdf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1cf28e1816": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "brain metastases stable, no steroids"
+ },
+ "219dda41bf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "22cbeba2df": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no cardiovascular illness"
+ },
+ "3214e094a9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "326eb9a56d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "392a1db9a8": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "SBP<160, DBP<100"
+ },
+ "3fa18231c7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4596f844ee": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "45efc74ffc": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "47b67aac0d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4b19439e6a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4f3d13abde": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "52e6fd591a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5609066147": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no investigational agent within 28 days"
+ },
+ "57a1ea1786": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "histologic tissue available for testing"
+ },
+ "57f215524f": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "AST/ALT \u22642.5\u00d7 ULN, not \u22641.5\u00d7 ULN"
+ },
+ "58ad59eeeb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5e642fce93": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5f2280bd85": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5f3cd03d17": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5fb33fb177": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "63666f1e06": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "63d9186a90": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "68afda86d2": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no abdominal fistula or GI perforation reported"
+ },
+ "6b86bdf53c": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no recent minor surgery or biopsy within 7 days"
+ },
+ "735248f9e2": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "blood pressure well controlled (<160/100)"
+ },
+ "737b54e3c4": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "metastatic melanoma stage IV"
+ },
+ "75d0bbed35": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "not a breastfeeding woman"
+ },
+ "77559690b3": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no myocardial infarction history"
+ },
+ "77e3c3ce01": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no pleural, pericardial, or peritoneal effusions"
+ },
+ "7819938ed7": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "bilirubin 0.8 mg/dL \u22641.5\u00d7ULN"
+ },
+ "7958c72354": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no uncontrolled seizure disorder"
+ },
+ "7cf156c60a": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no NYHA III/IV heart failure"
+ },
+ "84349afe6d": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no second malignancy"
+ },
+ "87caa41a10": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "biopsy accessible metastatic tumor"
+ },
+ "89703d1bf5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8baf4030d0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9043577532": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "951b724896": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "95b3a5b806": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "96fa7c3da5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9bbd0d3594": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a3ea1eaeed": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "afc95f6de7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b0d21da406": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "bilirubin 0.8 mg/dL, AST/ALT \u22642.5\u00d7 ULN"
+ },
+ "b51015e898": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "alkaline phosphatase 2.5\u00d7 ULN or less, no bone metastases"
+ },
+ "b5abb35350": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "bcd56a8d6e": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no grade 3/4 non\u2011hematologic toxicity reported"
+ },
+ "c17e594f47": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "blood pressure <160/100, not \u2265150/100"
+ },
+ "c5483a2e0a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "contraception status not stated"
+ },
+ "c9b144d97e": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no active infection requiring therapy"
+ },
+ "c9b41e1d41": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no prior bevacizumab or pemetrexed"
+ },
+ "c9b52978e3": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no recent hemoptysis"
+ },
+ "cd7fa4572d": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no active neurologic disease"
+ },
+ "d18e15a3c0": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no bleeding diathesis or coagulopathy"
+ },
+ "d267fdcf55": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no autoimmune disease"
+ },
+ "dddfd19b19": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no recent palliative radiation to bone"
+ },
+ "e5870e9c1d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "EGFR status not stated"
+ },
+ "e931a069eb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no hazardous underlying conditions mentioned"
+ },
+ "ed2ced1956": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f5957b77c8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f5c51f69e5": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "patient requires zero systemic corticosteroids"
+ }
+}

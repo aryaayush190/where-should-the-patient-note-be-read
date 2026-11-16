@@ -1,0 +1,180 @@
+{
+ "patient_id": "P0038~PS",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    68.0,
+    68.0
+   ],
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  },
+  "sex": {
+   "status": "value",
+   "value": "male",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  },
+  "histology": {
+   "status": "value",
+   "value": "adenocarcinoma",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IIIB",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  },
+  "tnm_t": {
+   "status": "value",
+   "value": "T3",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  },
+  "tnm_n": {
+   "status": "value",
+   "value": "N2",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  },
+  "tnm_m": {
+   "status": "value",
+   "value": "M0",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  },
+  "measurable_disease": {
+   "status": "value",
+   "value": true,
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "recurrent",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  },
+  "egfr": {
+   "status": "value",
+   "value": "negative",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  },
+  "alk": {
+   "status": "value",
+   "value": "negative",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  },
+  "ros1": {
+   "status": "value",
+   "value": "negative",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  },
+  "kras": {
+   "status": "value",
+   "value": "negative",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  },
+  "ret": {
+   "status": "value",
+   "value": "negative",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  },
+  "braf": {
+   "status": "value",
+   "value": "negative",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  },
+  "met": {
+   "status": "value",
+   "value": "negative",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  }
+ },
+ "therapy_status": "value",
+ "events": [
+  {
+   "cls": "chemo",
+   "agents": [],
+   "line": null,
+   "setting": null,
+   "thoracic": null,
+   "months_ago": [
+    3.0,
+    6.0
+   ],
+   "ongoing": null,
+   "evidence": null,
+   "verified": false
+  }
+ ],
+ "lines_of_therapy": null,
+ "reader_meta": {
+  "reader": "edge_proxy",
+  "conflicts": [],
+  "therapy_verified": false,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "error": "Error code: 400 - {'error': {'message': \"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\", 'type': 'invalid_request_error', 'code': 'json_validate_failed'"
+  }
+ }
+}

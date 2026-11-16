@@ -1,0 +1,599 @@
+{
+ "_error": {
+  "error": "Error code: 400 - {'error': {'message': \"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\", 'type': 'invalid_request_error', 'code': 'json_validate_failed'"
+ },
+ "019b3fdcba": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "01f2289290": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "02245d0e70": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "076e75388e": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "0ecd1a9ee8": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "0ee690789a": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "0f41bfbfe7": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "107c5eee35": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "11ebd202e7": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "1565b8bf0b": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "30c44c9266": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "342317e6b1": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "392a1db9a8": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "3b51c2f72a": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "3c7cd2d98e": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "3cb15f01d8": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "3e56f87489": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "44b9dd682b": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "4bf57b11b5": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "4f34178bb1": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "51d2d1cb0e": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "546be7aa50": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "55b427f3a8": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "5630320afd": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "5b47c2ddbf": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "5bca9eebb8": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "5c50ea11f7": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "61287de1d3": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "61d711e9d9": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "630c8ac62b": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "64aa904a67": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "64b963ec48": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "66136e21c4": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "693d3952e0": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "6a2b0c3565": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "6da8636137": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "6dc99dc269": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "6de5c798b8": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "6ea4fad1e4": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "6fc5eb0aef": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "75466bf9c2": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "769e393603": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "78e0f77ebf": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "7a88a0f564": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "7ade9bbd77": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "7f72e32699": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "7fd1031fb0": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "80f100c0ac": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "8132788035": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "8475559f41": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "84d0b1cdbb": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "8831d22aba": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "8c76759aae": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "8df03fc7d1": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "918a734537": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "92ea0f52be": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "96fa7c3da5": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "989d47fbc3": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "a0f602ba0e": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "a33ed45f7c": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "a3ddc50512": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "a4c2b7ced8": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "a60736ac3e": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "a772f6e332": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "a8eb990a3b": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "ac66e0620e": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "accb02ed91": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "ad71f78e5d": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "b0268e96bb": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "b30587acf7": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "b69f5af261": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "b772b3a9e3": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "b96cc26113": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "bab9ec50f6": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "bd0e39adb6": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "c0c1c96c3b": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "c26009411e": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "c8d5314647": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "c9b144d97e": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "ca85793420": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "cb9d9cb2f4": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "cbc2c64cdf": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "cfb4a455f6": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "d1375b2b98": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "d76096ea90": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "d8c94bf1b1": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "e1e6ce7f95": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "e308410aeb": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "e3883c624b": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "efb6228445": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "f3627d4199": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "f41160c68c": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "f645ba4b4d": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "f8930d169b": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "f8fc3abde3": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "f9e9da59bf": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "fa91693289": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "fb7d6e6d3e": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ },
+ "feb59a4ddc": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "not stated",
+  "missing": true
+ }
+}

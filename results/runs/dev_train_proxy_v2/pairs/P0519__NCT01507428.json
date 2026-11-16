@@ -1,0 +1,541 @@
+{
+ "pair_id": "P0519__NCT01507428",
+ "patient_id": "P0519",
+ "trial_id": "NCT01507428",
+ "label": 0,
+ "selective": "NOT_ELIGIBLE",
+ "forced": "NOT_ELIGIBLE",
+ "n_l2": 0,
+ "n_forced_unknown": 0,
+ "n_provisional": 13,
+ "u": 6.5,
+ "asks": [
+  {
+   "atom": "c0A0",
+   "category": "OTHER",
+   "question": "What is the maximum SUV on the PET scan?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A3",
+   "category": "OTHER",
+   "question": "Has the multidisciplinary team determined the disease to be non\u2011operable?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c0A4",
+   "category": "LABS",
+   "question": "Has a thoracic surgeon evaluated the patient within the last 8 weeks?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A6",
+   "category": "PRIOR_THERAPY",
+   "question": "Is a definitive daily fractionated radiation therapy plan in place?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c0A7",
+   "category": "OTHER",
+   "question": "Has a history and physical examination been performed within the last 2 weeks?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A8",
+   "category": "OTHER",
+   "question": "Has an FDG\u2011PET/CT scan been done within the past 4 weeks?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A9",
+   "category": "LABS",
+   "question": "Has a contrast CT of the chest and upper abdomen been performed within the last 6 weeks?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A10",
+   "category": "OTHER",
+   "question": "Has a brain CT or MRI been performed within the past 6 weeks?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A11",
+   "category": "FEV1",
+   "question": "What is the patient\u2019s FEV1 in liters?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A12",
+   "category": "FEV1",
+   "question": "What is the patient\u2019s FEV1 percent predicted?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A13",
+   "category": "FEV1",
+   "question": "Were pulmonary function tests performed within the past 6 weeks?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A15",
+   "category": "OTHER",
+   "question": "Can the patient tolerate PET/CT imaging at an ACR\u2011qualified facility?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c0A19",
+   "category": "LABS",
+   "question": "What is the patient\u2019s creatinine clearance (mL/min)?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A22",
+   "category": "OTHER",
+   "question": "Has the patient agreed to use effective birth control during the study?",
+   "answerable_by": "patient"
+  },
+  {
+   "atom": "c0A25",
+   "category": "EFFUSION",
+   "question": "Is there evidence of a malignant pleural or pericardial effusion?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c1A0",
+   "category": "OTHER",
+   "question": "Does the patient have any severe, active co\u2011morbidity?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c1A3",
+   "category": "CARDIAC",
+   "question": "Has the patient experienced a transmural myocardial infarction in the past 6 months?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c1A5",
+   "category": "OTHER",
+   "question": "Is the patient experiencing a COPD exacerbation or other respiratory illness that requires hospitalization or would preclude study therapy?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c1A7",
+   "category": "OTHER",
+   "question": "Does the patient have AIDS according to CDC criteria?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c1A9",
+   "category": "OTHER",
+   "question": "Is the patient (or male partner) unwilling or unable to use acceptable contraception?",
+   "answerable_by": "patient"
+  },
+  {
+   "atom": "c1A10",
+   "category": "OTHER",
+   "question": "Does the patient have poorly controlled diabetes with fasting glucose >200\u202fmg/dL?",
+   "answerable_by": "record"
+  }
+ ],
+ "n_atoms": 41,
+ "trace": [
+  {
+   "atom": "c0A0",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A1",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A2",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "F",
+   "verified": true,
+   "assumed": false,
+   "route": "exclude:verified"
+  },
+  {
+   "atom": "c0A3",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A4",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A5",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A6",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A7",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A8",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A9",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A10",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A11",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A12",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A13",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A14",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A15",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A16",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A17",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A18",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A19",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A20",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c0A21",
+   "type": "IS",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A22",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A23",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A24",
+   "type": "IN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A25",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A26",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "F",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c0A27",
+   "type": "HAS",
+   "pol": "exclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "route": "exclude:program+l1"
+  },
+  {
+   "atom": "c0A28",
+   "type": "HAS",
+   "pol": "exclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "route": "exclude:program+l1"
+  },
+  {
+   "atom": "c1A0",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A1",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c1A2",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c1A3",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A4",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c1A5",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A6",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "F",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c1A7",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A8",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c1A9",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A10",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A11",
+   "type": "IN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  }
+ ],
+ "site_verify": [
+  "The patient must provide study-specific informed consent prior to study entry"
+ ]
+}

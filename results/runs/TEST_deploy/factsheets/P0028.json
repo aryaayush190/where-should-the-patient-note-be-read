@@ -1,0 +1,201 @@
+{
+ "patient_id": "P0028",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    55.0,
+    55.0
+   ],
+   "evidence": "55-year-old male",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "male",
+   "evidence": "55-year-old male",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "adenocarcinoma, clinical stage IIIA (T2N2M0) NSCLC",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "histology": {
+   "status": "value",
+   "value": "adenocarcinoma",
+   "evidence": "adenocarcinoma",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IIIA",
+   "evidence": "clinical stage IIIA",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "measurable_disease": {
+   "status": "value",
+   "value": true,
+   "evidence": "Imaging shows measurable disease per RECIST v1.1",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "newly_diagnosed",
+   "evidence": "the disease is newly diagnosed",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ecog": {
+   "status": "value",
+   "value": [
+    2.0,
+    2.0
+   ],
+   "evidence": "ECOG performance status of 2",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "met": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "normal baseline parameters",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "mi_history": {
+   "status": "negated",
+   "value": null,
+   "evidence": "no history of recent unstable angina, myocardial infarction, or significant cardiac events",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "unstable_angina": {
+   "status": "negated",
+   "value": null,
+   "evidence": "no history of recent unstable angina, myocardial infarction, or significant cardiac events",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "chf": {
+   "status": "negated",
+   "value": null,
+   "evidence": "no history of recent unstable angina, myocardial infarction, or significant cardiac events",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "arrhythmia": {
+   "status": "negated",
+   "value": "none",
+   "evidence": "no history of recent unstable angina, myocardial infarction, or significant cardiac events",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "tnm_t": {
+   "status": "value",
+   "value": "T2",
+   "evidence": "clinical stage IIIA (T2N2M0) NSCLC",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_n": {
+   "status": "value",
+   "value": "N2",
+   "evidence": "clinical stage IIIA (T2N2M0) NSCLC",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_m": {
+   "status": "value",
+   "value": "M0",
+   "evidence": "clinical stage IIIA (T2N2M0) NSCLC",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  }
+ },
+ "therapy_status": "value",
+ "events": [
+  {
+   "cls": "io",
+   "agents": [
+    "durvalumab"
+   ],
+   "line": null,
+   "setting": null,
+   "thoracic": null,
+   "months_ago": null,
+   "ongoing": true,
+   "evidence": "has the ability to understand and sign a written informed consent document",
+   "verified": false
+  }
+ ],
+ "lines_of_therapy": null,
+ "reader_meta": {
+  "reader": "edge_local",
+  "conflicts": [
+   "unstable_angina"
+  ],
+  "therapy_verified": false,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 300.268,
+   "prompt_tokens": 1524,
+   "gen_tokens": 1478,
+   "prompt_s": 9.583,
+   "gen_s": 287.951,
+   "load_s": 0.038
+  }
+ }
+}

@@ -1,0 +1,243 @@
+{
+ "trial_id": "NCT03053804",
+ "atoms": [
+  {
+   "id": "c0A0",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Age: > 20 years old.",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "age",
+   "op": ">",
+   "value": 20,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient’s age?"
+  },
+  {
+   "id": "c0A1",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Patients have confirmed lung cancer by histopathological methods (fiber, bronchoscopy, lung biopsy, open chest biopsy, pleural effusion exfoliated cells, sputum exfoliated cells)",
+   "lines": [
+    2
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "cancer_type",
+   "op": null,
+   "value": null,
+   "values": [
+    "nsclc",
+    "sclc"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "What type of lung cancer does the patient have?"
+  },
+  {
+   "id": "c0A2",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "Patients voluntarily to join this study and signed informed consents.",
+   "lines": [
+    3
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "voluntary consent signed",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Has the patient signed the informed consent?"
+  },
+  {
+   "id": "c0A3",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Any body metal implants (pacemaker implantation, nerve stimulator, vascular stent, aneurysm clip, eye foreign body, the inner metal prosthesis) or artificial heart valves",
+   "lines": [
+    4
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "body metal implants or artificial heart valves",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have any metal implants or artificial heart valves?"
+  },
+  {
+   "id": "c0A4",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Patients with claustrophobia to MRI examination",
+   "lines": [
+    5
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "claustrophobia to MRI examination",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Is the patient claustrophobic about MRI?"
+  },
+  {
+   "id": "c0A5",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Patients who are reluctant to comply with follow-up and subsequent examination",
+   "lines": [
+    6
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "reluctant to comply with follow‑up and subsequent examinations",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Is the patient unwilling to comply with follow‑up?"
+  },
+  {
+   "id": "c0A6",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "The other condition that do not meet the inclusion criteria.",
+   "lines": [
+    7
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "other condition that does not meet the inclusion criteria",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have any condition that would disqualify them based on the inclusion criteria?"
+  },
+  {
+   "id": "c0A7",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Pregnancy.",
+   "lines": [
+    8
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "pregnant",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient pregnant?"
+  },
+  {
+   "id": "c0A8",
+   "type": "CMP",
+   "polarity": "exclusion",
+   "source_line": "Age < 20 years old.",
+   "lines": [
+    9
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "age",
+   "op": "<",
+   "value": 20,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient’s age?"
+  }
+ ],
+ "compiler_meta": {
+  "primary": {
+   "stage_alternatives_merged": 0,
+   "model": "openai/gpt-oss-120b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 9,
+   "repaired": false,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 9
+  },
+  "secondary": {
+   "stage_alternatives_merged": 0,
+   "model": "qwen/qwen3.8-27b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 9,
+   "repaired": false,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 9
+  },
+  "prompt_version": "compiler-v1.2",
+  "lines": 9,
+  "lines_exact_agree": 6,
+  "typed_atoms": 4,
+  "typed_atoms_agree": 3,
+  "downgraded_atoms": 1
+ }
+}

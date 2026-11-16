@@ -1,0 +1,1098 @@
+[
+  {
+    "pair_id": "P0001__NCT00266877",
+    "trial_id": "NCT00266877",
+    "ground_truth": "Eligible",
+    "patient_profile": "A 73-year-old female patient presents with adenocarcinoma, clinical stage IV (T2N2M1a) NSCLC. The disease has progressed following prior systemic therapy. Imaging shows measurable disease per RECIST v1.1. A malignant pleural effusion is present. She has an ECOG performance status of 1. Molecular testing revealed EGFR exon 19 deletion. Laboratory values: creatinine 1.5 mg/dL, ANC 2.2 x10^3, platelets 248k, hemoglobin 10.2 g/dL, bilirubin 1.8 mg/dL. She previously received chemotherapy (over 6 months ago).",
+    "inclusion_criteria_verbatim": "inclusion criteria: \n\n Pathologic diagnosis of NSCLC and current stage IIIB (with pleural effusion) or IV, not curable with conventional therapy. For Arm C, less than or equal to 20 pack-years smoking history and current non smoker. A pack year = number of packs of cigarettes smoked per day x years smoked. \n\n Progression following at least 12 weeks of treatment with Tarceva or Iressa. (Arms A and B only) \n\n ECOG (Eastern Cooperative Oncology Group) performance status of 0, 1, or 2 (not declining within past 2 weeks). \n\n Tumor sample available and adequate for analysis. \n\n At least one measurable target lesion. \n\n Adequate cardiac, kidney, and liver function \n\n Adequate blood counts \n\n ",
+    "exclusion_criteria_verbatim": ": \n\n More than 3 prior cytotoxic chemotherapy treatments for relapsed or metastatic disease. \n\n Significant cardiac disease or dysfunction. \n\n Prior treatment with anthracyclines with cumulative dose of >400 mg/m^2. \n\n Active central nervous system metastases, as indicated by clinical symptoms and/or progressive growth. \n\n Use of Tarceva or Iressa within 14 days of treatment day 1 (Arms A and B only). \n\n Major surgery, chemotherapy, radiotherapy, investigational drugs, or other cancer therapy within 3 weeks of treatment day 1. \n\n Significant chronic or recent acute gastrointestinal disorder with diarrhea as a major symptom. \n\n Inability or unwillingness to swallow HKI-272 capsules. \n\n Pregnant or breastfeeding women.",
+    "parsed_trial_fields": {
+      "disease": "NSCLC",
+      "stage": [
+        "IIIB"
+      ],
+      "M_status": null,
+      "requires_prior_chemo": false,
+      "requires_non_squamous": false,
+      "requires_squamous": false,
+      "iiib_requires_effusion": true,
+      "performance_status": "ECOG 0-1",
+      "FEV1_cc_min": null,
+      "FEV1_pct_min": null,
+      "excl_prior_chemo": "EXCLUDED_IF_PRESENT",
+      "excl_prior_radio": "EXCLUDED_IF_PRESENT",
+      "excl_cardiovascular": "EXCLUDED_IF_PRESENT",
+      "excl_active_infection": "NOT_AN_EXCLUSION"
+    },
+    "extracted_patient_fields": {
+      "disease": "NSCLC",
+      "histology": "non-squamous",
+      "stage_group": "IV",
+      "T_stage": "",
+      "N_stage": "",
+      "M_stage": "",
+      "has_effusion": true,
+      "performance_status": "1",
+      "prior_chemotherapy": true,
+      "prior_radiotherapy": false,
+      "cardiovascular_event": false,
+      "active_infection": false,
+      "FEV1_cc": null,
+      "FEV1_pct": null
+    },
+    "failing_clauses": [
+      "stage",
+      "prior_systemic_chemotherapy"
+    ],
+    "clause_evaluations": [
+      {
+        "condition": "disease",
+        "sql": "(disease IN ('LUNG', 'NSCLC', 'SCLC') OR disease IS NULL OR disease = '')",
+        "result": true
+      },
+      {
+        "condition": "stage",
+        "sql": "(stage_group IN ('IIIB'))",
+        "result": false
+      },
+      {
+        "condition": "performance_status",
+        "sql": "(performance_status_int <= 1 OR performance_status_int IS NULL)",
+        "result": true
+      },
+      {
+        "condition": "prior_systemic_chemotherapy",
+        "sql": "prior_chemotherapy = 0",
+        "result": false
+      },
+      {
+        "condition": "prior_radiotherapy",
+        "sql": "prior_radiotherapy = 0",
+        "result": true
+      },
+      {
+        "condition": "iiib_requires_effusion",
+        "sql": "(stage_group NOT IN ('IIIB','III') OR has_effusion = 1)",
+        "result": true
+      }
+    ]
+  },
+  {
+    "pair_id": "P0005__NCT01766739",
+    "trial_id": "NCT01766739",
+    "ground_truth": "Eligible",
+    "patient_profile": "A 78-year-old female presents with histologically confirmed adenocarcinoma of the lung, staged as IIIB (T4N3M0) with malignant pleural effusion. She has received no prior chemotherapy for advanced disease. Imaging shows at least one measurable lesion ?10 mm in longest diameter per RECIST criteria. She has an ECOG performance status of 1. Molecular testing revealed EGFR L858R. Laboratory values: creatinine 0.9 mg/dL, ANC 3.7 x10^3, platelets 342k, hemoglobin 15.1 g/dL, bilirubin 0.8 mg/dL. She has no significant cardiovascular events within the past 3 months and no concurrent conditions that would make trial participation undesirable.",
+    "inclusion_criteria_verbatim": "inclusion criteria: \n\n Diagnosis of histologically or cytologically documented, malignant pleural effusions (primary non-small-cell lung carcinoma, mesothelioma, and other histologies), who have free pleural space (partial or total) that permits the intrapleural drug instillation. This includes cytologically negative pleural effusion in conjunction with histologically proven malignancy involving the pleura. \n\n Age must be \u2265 18 years. \n\n All acute toxic effects of any prior radiotherapy, chemotherapy, or surgical procedures must have resolved to Common Terminology Criteria for Adverse Events (CTCAE, Version 4.0) Grade \u2264 1. \n\n Any surgery, where general anesthesia was administered, must have occurred at least 14 days prior to study enrollment. \n\n Chemotherapy, radiotherapy or immunotherapy must have stopped more than 7 days prior to receiving study drug; however, small field palliative radiotherapy, TKI therapies and hormonal therapies are allowed. \n\n Patients with stage IV malignancy (non-mesothelioma) must have had a brain scan (MRI or CT with contrast) showing no evidence of disease progression within 8 weeks of study enrollment. \n\n ECOG Zubrod \u2264 2. \n\n Required baseline laboratory data include: \n\n Absolute neutrophil count (ANC) \u2265 1.5 \u00d7 109 [SI units 10^9/L], \n\n Platelets \u2265 100 \u00d710^9 [SI units 10^9/L], \n\n Hemoglobin \u2265 9.0 g/dL [SI units gm/L], \n\n Serum creatinine \u2264 1.5 \u00d7 upper limit of normal (ULN), \n\n Bilirubin \u2264 1.5 \u00d7 ULN, \n\n AST/ALT \u2264 2.5 \u00d7 ULN (\u2264 5 \u00d7 ULN in the presence of liver metastases) \n\n Negative pregnancy test for females of childbearing potential. \n\n ",
+    "exclusion_criteria_verbatim": ": \n\n Pregnant or breast-feeding women. \n\n Patients with fever or any active systemic infections, including known HIV, hepatitis B or C. \n\n Patients on immunosuppressive therapy or with immune system disorders, including autoimmune diseases. \n\n Concurrent steroid use of more than an equivalent of 20 mg/day prednisone (or equivalent). \n\n Prior splenectomy. \n\n Previous organ transplant. \n\n Patients with clinically significant dermatological disorders, e.g., eczema or psoriasis, as judged by the principal investigator, or any unhealed skin wounds or ulcers. \n\n Clinically significant cardiac disease (New York Heart Association, Class III or IV). \n\n Dementia or altered mental status that would prohibit informed consent. \n\n Other severe, acute, or chronic medical or psychiatric condition or laboratory abnormality, that may increase the risk associated with study participation or study drug administration, or may interfere with the interpretation of study results and, in the judgment of the principal investigator, would make the patient inappropriate for this study. \n\n Known allergy to ovalbumin or other egg products. \n\n Prior gene therapy treatments or prior therapy with cytolytic virus of any type. \n\n Concurrent therapy with any other investigational anticancer agent. \n\n Concurrent antiviral agent active against vaccinia virus (e.g. cidofovir, vaccinia immunoglobulin) during the study.",
+    "parsed_trial_fields": {
+      "disease": "NSCLC",
+      "stage": [
+        "IV"
+      ],
+      "M_status": null,
+      "requires_prior_chemo": true,
+      "requires_non_squamous": false,
+      "requires_squamous": false,
+      "iiib_requires_effusion": false,
+      "performance_status": "",
+      "FEV1_cc_min": null,
+      "FEV1_pct_min": null,
+      "excl_prior_chemo": "NOT_AN_EXCLUSION",
+      "excl_prior_radio": "NOT_AN_EXCLUSION",
+      "excl_cardiovascular": "EXCLUDED_IF_PRESENT",
+      "excl_active_infection": "NOT_AN_EXCLUSION"
+    },
+    "extracted_patient_fields": {
+      "disease": "NSCLC",
+      "histology": "non-squamous",
+      "stage_group": "IV",
+      "T_stage": "",
+      "N_stage": "",
+      "M_stage": "",
+      "has_effusion": true,
+      "performance_status": "1",
+      "prior_chemotherapy": false,
+      "prior_radiotherapy": false,
+      "cardiovascular_event": false,
+      "active_infection": false,
+      "FEV1_cc": null,
+      "FEV1_pct": null
+    },
+    "failing_clauses": [
+      "requires_prior_chemo"
+    ],
+    "clause_evaluations": [
+      {
+        "condition": "disease",
+        "sql": "(disease IN ('LUNG', 'NSCLC', 'SCLC') OR disease IS NULL OR disease = '')",
+        "result": true
+      },
+      {
+        "condition": "stage",
+        "sql": "(stage_group IN ('IV', 'IVA', 'IVB'))",
+        "result": true
+      },
+      {
+        "condition": "requires_prior_chemo",
+        "sql": "prior_chemotherapy = 1",
+        "result": false
+      }
+    ]
+  },
+  {
+    "pair_id": "P0007__NCT02182102",
+    "trial_id": "NCT02182102",
+    "ground_truth": "Eligible",
+    "patient_profile": "A 46-year-old male presents with histologically confirmed NSCLC, staged as IIIA (T2N2M0). The disease has progressed following prior chemotherapy completed over 6 months ago, with all acute toxic effects resolved to Grade ?1. Imaging shows measurable disease per RECIST v1.1. A malignant pleural effusion is present with free pleural space permitting intrapleural drug instillation. He has an ECOG performance status of 1. Molecular testing revealed ALK rearrangement. Laboratory values: creatinine 1.1 mg/dL, ANC 2.4 x10^3, platelets 191k, hemoglobin 11.3 g/dL, bilirubin 0.7 mg/dL. FEV1 69% predicted. No active infections, no autoimmune disease, no immunosuppressive therapy, no prior splenectomy or organ transplant, no significant dermatological disorders, no cardiac disease (NYHA Class I), no allergy to egg products, no prior gene therapy or cytolytic virus therapy.",
+    "inclusion_criteria_verbatim": "inclusion criteria: \n\n Pathologic confirmation of metastatic, unresectable, or locally advanced NSCLC (non-small cell lung cancer) \n\n Disease progression during or following one prior platinum-based (including prior neoadjuvant or adjuvant therapy) chemotherapy regimen for advanced disease \n\n Bi-dimensionally measurable disease by one or more techniques (CT (computed tomography), MRI (magnetic resonance imaging), X-ray) \n\n Age 18 years or older \n\n Life expectancy of at least three (3) months \n\n Eastern Cooperative Oncology Group (ECOG) performance score 0-2 \n\n Written informed consent that is consistent with ICH-GCP (International Conference on Harmonization - Good Clinical Practice) guidelines \n\n ",
+    "exclusion_criteria_verbatim": ": \n\n Participation in another clinical study within the past 28 days prior to the start of therapy or concomitantly with this study \n\n Treatment for NSCLC (except radiotherapy for palliative reasons) within the past 28 days prior to Treatment Day 1 of this trial. All toxicities of the previous therapy must have resolved to baseline prior to Treatment Day 1 \n\n Patient has received more than one prior chemotherapy regimen for advanced disease \n\n Radiotherapy to an area of measurable disease (unless disease progression had been documented following completion of therapy) \n\n Patients who are unwilling or unable to take folic acid and vitamin B12 supplementation \n\n Radiotherapy within 4 weeks prior to Treatment Day 1 \n\n Prior treatment with agents that target the vascular endothelial growth factor (VEGF) pathways, including monoclonal antibody therapy (such as bevacizumab) or tyrosine kinase inhibitors \n\n Active brain metastases (stable for <28 days, symptomatic, or requiring concurrent steroids or antiepileptic therapy). Patients who have received prior whole brain irradiation and whose brain metastases are stable according to the criteria above will not be excluded \n\n Centrally located tumors with radiologic evidence (CT or MRI) of local invasion of major blood vessels, with exception of those tumors which have received prior irradiation and are stable \n\n Cavitary or necrotic tumors \n\n Sanguinous pleural effusion due to disease or pericardial effusion suspicious for disease \n\n Other active malignancy diagnosed within the past 3 years (other than non-melanomatous skin cancer) \n\n Gastrointestinal abnormalities that would interfere with intake or absorption (with exception of patients with gastric esophageal reflux disease controlled with proton pump inhibitors) of the study drug, such as a requirement for intravenous alimentation, prior surgical procedures affecting absorption, treatment for peptic ulcer disease within the last 6 months, active gastrointestinal bleeding unrelated to cancer (as evidenced by either hematemesis, hematochezia, or melena in the past 3 months and without endoscopic documented resolution), or malabsorption syndromes \n\n Significant cardiovascular disease (i.e., uncontrolled hypertension, myocardial infarction within 6 months, unstable angina, serious cardiac arrhythmia, >2 New York Heart Association (NYHA) Grade 2 congestive heart failure) \n\n History of hemorrhagic or thrombotic event (including transient ischemic attacks) in the past 12 months or clinically significant hemoptysis in the past 3 months \n\n Patients receiving any anti-coagulant therapy (including coumadin, heparin, low molecular weight heparin, and aspirin \n\n Patient has received prior therapy with pemetrexed \n\n Absolute neutrophil count (ANC) \u22641,500/\u03bcl, platelet count \u2264100,000/\u03bcl, or hemoglobin <9 gm/dL \n\n Total bilirubin >1.5 mg/dL (26 \u03bcmole/L, SI-Unit equivalent), alanine amino transferase (ALT) and/or aspartate amino transferase (AST) \u22651.5 X upper limit of normal (ULN) \n\n Inadequate renal function determined by a serum creatinine level >1.5 X ULN \n\n Patient is unable or unwilling to interrupt aspirin or other NSAIDS for a 5-day period (8 days period for long lasting agents like piroxicam) \n\n Persistent hematuria or proteinuria (more than trace) \n\n Women and men who are sexually active and unwilling to use a medically acceptable method of contraception \n\n Pregnancy or breast feeding \n\n Known or suspected active alcohol or drug abuse \n\n Patients unable to comply with the protocol",
+    "parsed_trial_fields": {
+      "disease": "NSCLC",
+      "stage": [],
+      "M_status": null,
+      "requires_prior_chemo": false,
+      "requires_non_squamous": false,
+      "requires_squamous": false,
+      "iiib_requires_effusion": false,
+      "performance_status": "",
+      "FEV1_cc_min": null,
+      "FEV1_pct_min": null,
+      "excl_prior_chemo": "EXCLUDED_IF_PRESENT",
+      "excl_prior_radio": "NOT_AN_EXCLUSION",
+      "excl_cardiovascular": "EXCLUDED_IF_PRESENT",
+      "excl_active_infection": "NOT_AN_EXCLUSION"
+    },
+    "extracted_patient_fields": {
+      "disease": "NSCLC",
+      "histology": "",
+      "stage_group": "",
+      "T_stage": "",
+      "N_stage": "",
+      "M_stage": "",
+      "has_effusion": true,
+      "performance_status": "1",
+      "prior_chemotherapy": true,
+      "prior_radiotherapy": false,
+      "cardiovascular_event": false,
+      "active_infection": false,
+      "FEV1_cc": null,
+      "FEV1_pct": 69
+    },
+    "failing_clauses": [
+      "prior_systemic_chemotherapy"
+    ],
+    "clause_evaluations": [
+      {
+        "condition": "disease",
+        "sql": "(disease IN ('LUNG', 'NSCLC', 'SCLC') OR disease IS NULL OR disease = '')",
+        "result": true
+      },
+      {
+        "condition": "prior_systemic_chemotherapy",
+        "sql": "prior_chemotherapy = 0",
+        "result": false
+      },
+      {
+        "condition": "prior_targeted_therapy",
+        "sql": "prior_targeted_therapy = 0",
+        "result": true
+      }
+    ]
+  },
+  {
+    "pair_id": "P0009__NCT02182232",
+    "trial_id": "NCT02182232",
+    "ground_truth": "Eligible",
+    "patient_profile": "A 76-year-old female presents with stage IV ($T_4N_3M_1c$) NSCLC not otherwise specified of the lung. The patient is chemotherapy-na\u00efve for advanced disease (with no prior systemic therapy or immunotherapy for metastatic disease, and any prior adjuvant chemotherapy completed more than 3 months ago). Imaging shows measurable disease per RECIST v1.1 ($\\ge 10$ mm longest diameter). A malignant pleural effusion is present. She has an ECOG performance status of 0. Molecular profiling showed no actionable driver mutation. Pulmonary function testing showed an FEV1 of $49\\%$ predicted. She has adequate end-organ function with no history of significant cardiovascular events, arrhythmias, or abnormal QTc.",
+    "inclusion_criteria_verbatim": "inclusion criteria: \n\n Male or female patients with histologically or cytologically confirmed Stage IIIB (including pleural effusion), IV or recurrent NSCLC \n\n Bi-dimensionally measurable disease by one or more techniques (CT, MRI, X-ray) \n\n Age 18 years or older \n\n Life expectancy of at least three (3) months \n\n Eastern Cooperative Oncology Group (ECOG) performance score 0 or 1 \n\n Written informed consent that is consistent with ICH-GCP guidelines \n\n ",
+    "exclusion_criteria_verbatim": ": \n\n Prior treatment for NSCLC including chemotherapy, biologic response modifier therapy, or any investigational drug \n\n Participation in another clinical study within the past four weeks before start of therapy or concomitantly with this study \n\n Active brain metastases (stable for <28 days, symptomatic, or requiring concurrent steroids or antiepileptic therapy) \n\n Centrally located tumors with radiologic evidence (CT or MRI) of local invasion of major blood vessels \n\n Cavitary or necrotic tumors \n\n Sanguinous pleural effusion due to disease or pericardial effusion suspicious for disease \n\n Radiotherapy to an area of measurable disease (unless disease progression had been documented following completion of therapy) \n\n Radiotherapy within 4 weeks preceding Day 0 \n\n Other active malignancy diagnosed within the past 3 years (other than non-melanomatous skin cancer) \n\n Gastrointestinal abnormalities that would interfere with intake or absorption of the study drug, such as a requirement for intravenous alimentation, prior surgical procedures affecting absorption, treatment for peptic ulcer disease within the last 6 months, active gastrointestinal bleeding unrelated to cancer (as evidenced by either hematemesis, hematochezia, or melena in the past 3 months and without endoscopic documented resolution), or malabsorption syndromes \n\n Significant cardiovascular disease (i.e., uncontrolled hypertension, myocardial infarction within 6 months, unstable angina, serious cardiac arrhythmia, \u2265NYHA Grade 2 congestive heart failure) \n\n History of hemorrhagic or thrombotic event (including transient ischemic attacks) in the past 12 months \n\n Clinically significant hemoptysis (1 teaspoon or more) in the past 3 months \n\n Concurrent therapeutic anticoagulation (except heparin flush as needed for maintenance of an indwelling intravenous device) or antiplatelet therapy (except chronic low-dose daily aspirin <325 mg) \n\n Known hypersensitivity to paclitaxel, carboplatin, or any of their excipients including Cremophor\u00ae (polyoxyethylated castor oil) \n\n Absolute neutrophil count (ANC) \u22641,500/\u03bcl, platelet count \u2264100,000/\u03bcl, or hemoglobin <9 gm/dL \n\n Total bilirubin >1.5 mg/dL (26 \u03bcmol/L, SI Unit equivalent), alanine amino transferase (ALT) and/or aspartate amino transferase (AST) \u22651.5 X ULN, \n\n Serum creatinine >1.5 mg/dL (>132 \u03bcmol/L, SI Unit equivalent) \n\n Persistent hematuria or proteinuria (more than trace) \n\n Women and men who are sexually active and unwilling to use a medically acceptable method of contraception \n\n Pregnancy or breastfeeding \n\n Known or suspected active alcohol or drug abuse \n\n Patients unable to comply with the protocol",
+    "parsed_trial_fields": {
+      "disease": "NSCLC",
+      "stage": [
+        "IIIB"
+      ],
+      "M_status": null,
+      "requires_prior_chemo": false,
+      "requires_non_squamous": false,
+      "requires_squamous": false,
+      "iiib_requires_effusion": true,
+      "performance_status": "",
+      "FEV1_cc_min": null,
+      "FEV1_pct_min": null,
+      "excl_prior_chemo": "NOT_AN_EXCLUSION",
+      "excl_prior_radio": "NOT_AN_EXCLUSION",
+      "excl_cardiovascular": "EXCLUDED_IF_PRESENT",
+      "excl_active_infection": "NOT_AN_EXCLUSION"
+    },
+    "extracted_patient_fields": {
+      "disease": "NSCLC",
+      "histology": "",
+      "stage_group": "IV",
+      "T_stage": "",
+      "N_stage": "",
+      "M_stage": "",
+      "has_effusion": true,
+      "performance_status": "0",
+      "prior_chemotherapy": false,
+      "prior_radiotherapy": false,
+      "cardiovascular_event": true,
+      "active_infection": false,
+      "FEV1_cc": null,
+      "FEV1_pct": null
+    },
+    "failing_clauses": [
+      "stage"
+    ],
+    "clause_evaluations": [
+      {
+        "condition": "disease",
+        "sql": "(disease IN ('LUNG', 'NSCLC', 'SCLC') OR disease IS NULL OR disease = '')",
+        "result": true
+      },
+      {
+        "condition": "stage",
+        "sql": "(stage_group IN ('IIIB'))",
+        "result": false
+      },
+      {
+        "condition": "iiib_requires_effusion",
+        "sql": "(stage_group NOT IN ('IIIB','III') OR has_effusion = 1)",
+        "result": true
+      }
+    ]
+  },
+  {
+    "pair_id": "P0010__NCT02182102",
+    "trial_id": "NCT02182102",
+    "ground_truth": "Eligible",
+    "patient_profile": "A 68-year-old female presents with histologically confirmed squamous cell carcinoma of the lung, staged as IV (T2N3M1a) NSCLC. The disease has progressed following prior chemotherapy and targeted therapy completed over 6 months ago. She is not on any ongoing anticancer therapy. Imaging shows measurable disease per RECIST v1.1. She has an ECOG performance status of 1. Molecular testing revealed EGFR L858R. Laboratory values: creatinine 0.8 mg/dL, ANC 3.5 x10^3, platelets 316k, hemoglobin 14.9 g/dL, bilirubin 0.6 mg/dL. Heart, lung, liver, and kidney function are within normal limits. Immune system function is intact. No brain metastases are present. She has no known allergies to biological products, no asthma, no autoimmune disease, no coagulation dysfunction, no history of tuberculosis, hepatitis B, AIDS, syphilis, diabetes, hypertension, stroke, or heart failure, and is not on long-term glucocorticoids or immunosuppressants.A 68-year-old female presents with histologically confirmed squamous cell carcinoma of the lung, staged as IV (T2N3M1a) NSCLC. The disease has progressed following prior chemotherapy and targeted therapy completed over 6 months ago. She is not on any ongoing anticancer therapy. Imaging shows measurable disease per RECIST v1.1. She has an ECOG performance status of 1. Molecular testing revealed EGFR L858R. Laboratory values: creatinine 0.8 mg/dL, ANC 3.5 x10^3, platelets 316k, hemoglobin 14.9 g/dL, bilirubin 0.6 mg/dL. Heart, lung, liver, and kidney function are within normal limits. Immune system function is intact. No brain metastases are present. She has no known allergies to biological products, no asthma, no autoimmune disease, no coagulation dysfunction, no history of tuberculosis, hepatitis B, AIDS, syphilis, diabetes, hypertension, stroke, or heart failure, and is not on long-term glucocorticoids or immunosuppressants.",
+    "inclusion_criteria_verbatim": "inclusion criteria: \n\n Pathologic confirmation of metastatic, unresectable, or locally advanced NSCLC (non-small cell lung cancer) \n\n Disease progression during or following one prior platinum-based (including prior neoadjuvant or adjuvant therapy) chemotherapy regimen for advanced disease \n\n Bi-dimensionally measurable disease by one or more techniques (CT (computed tomography), MRI (magnetic resonance imaging), X-ray) \n\n Age 18 years or older \n\n Life expectancy of at least three (3) months \n\n Eastern Cooperative Oncology Group (ECOG) performance score 0-2 \n\n Written informed consent that is consistent with ICH-GCP (International Conference on Harmonization - Good Clinical Practice) guidelines \n\n ",
+    "exclusion_criteria_verbatim": ": \n\n Participation in another clinical study within the past 28 days prior to the start of therapy or concomitantly with this study \n\n Treatment for NSCLC (except radiotherapy for palliative reasons) within the past 28 days prior to Treatment Day 1 of this trial. All toxicities of the previous therapy must have resolved to baseline prior to Treatment Day 1 \n\n Patient has received more than one prior chemotherapy regimen for advanced disease \n\n Radiotherapy to an area of measurable disease (unless disease progression had been documented following completion of therapy) \n\n Patients who are unwilling or unable to take folic acid and vitamin B12 supplementation \n\n Radiotherapy within 4 weeks prior to Treatment Day 1 \n\n Prior treatment with agents that target the vascular endothelial growth factor (VEGF) pathways, including monoclonal antibody therapy (such as bevacizumab) or tyrosine kinase inhibitors \n\n Active brain metastases (stable for <28 days, symptomatic, or requiring concurrent steroids or antiepileptic therapy). Patients who have received prior whole brain irradiation and whose brain metastases are stable according to the criteria above will not be excluded \n\n Centrally located tumors with radiologic evidence (CT or MRI) of local invasion of major blood vessels, with exception of those tumors which have received prior irradiation and are stable \n\n Cavitary or necrotic tumors \n\n Sanguinous pleural effusion due to disease or pericardial effusion suspicious for disease \n\n Other active malignancy diagnosed within the past 3 years (other than non-melanomatous skin cancer) \n\n Gastrointestinal abnormalities that would interfere with intake or absorption (with exception of patients with gastric esophageal reflux disease controlled with proton pump inhibitors) of the study drug, such as a requirement for intravenous alimentation, prior surgical procedures affecting absorption, treatment for peptic ulcer disease within the last 6 months, active gastrointestinal bleeding unrelated to cancer (as evidenced by either hematemesis, hematochezia, or melena in the past 3 months and without endoscopic documented resolution), or malabsorption syndromes \n\n Significant cardiovascular disease (i.e., uncontrolled hypertension, myocardial infarction within 6 months, unstable angina, serious cardiac arrhythmia, >2 New York Heart Association (NYHA) Grade 2 congestive heart failure) \n\n History of hemorrhagic or thrombotic event (including transient ischemic attacks) in the past 12 months or clinically significant hemoptysis in the past 3 months \n\n Patients receiving any anti-coagulant therapy (including coumadin, heparin, low molecular weight heparin, and aspirin \n\n Patient has received prior therapy with pemetrexed \n\n Absolute neutrophil count (ANC) \u22641,500/\u03bcl, platelet count \u2264100,000/\u03bcl, or hemoglobin <9 gm/dL \n\n Total bilirubin >1.5 mg/dL (26 \u03bcmole/L, SI-Unit equivalent), alanine amino transferase (ALT) and/or aspartate amino transferase (AST) \u22651.5 X upper limit of normal (ULN) \n\n Inadequate renal function determined by a serum creatinine level >1.5 X ULN \n\n Patient is unable or unwilling to interrupt aspirin or other NSAIDS for a 5-day period (8 days period for long lasting agents like piroxicam) \n\n Persistent hematuria or proteinuria (more than trace) \n\n Women and men who are sexually active and unwilling to use a medically acceptable method of contraception \n\n Pregnancy or breast feeding \n\n Known or suspected active alcohol or drug abuse \n\n Patients unable to comply with the protocol",
+    "parsed_trial_fields": {
+      "disease": "NSCLC",
+      "stage": [],
+      "M_status": null,
+      "requires_prior_chemo": false,
+      "requires_non_squamous": false,
+      "requires_squamous": false,
+      "iiib_requires_effusion": false,
+      "performance_status": "",
+      "FEV1_cc_min": null,
+      "FEV1_pct_min": null,
+      "excl_prior_chemo": "EXCLUDED_IF_PRESENT",
+      "excl_prior_radio": "NOT_AN_EXCLUSION",
+      "excl_cardiovascular": "EXCLUDED_IF_PRESENT",
+      "excl_active_infection": "NOT_AN_EXCLUSION"
+    },
+    "extracted_patient_fields": {
+      "disease": "NSCLC",
+      "histology": "squamous",
+      "stage_group": "",
+      "T_stage": "",
+      "N_stage": "",
+      "M_stage": "",
+      "has_effusion": false,
+      "performance_status": "1",
+      "prior_chemotherapy": true,
+      "prior_radiotherapy": false,
+      "cardiovascular_event": true,
+      "active_infection": true,
+      "FEV1_cc": null,
+      "FEV1_pct": null
+    },
+    "failing_clauses": [
+      "prior_systemic_chemotherapy"
+    ],
+    "clause_evaluations": [
+      {
+        "condition": "disease",
+        "sql": "(disease IN ('LUNG', 'NSCLC', 'SCLC') OR disease IS NULL OR disease = '')",
+        "result": true
+      },
+      {
+        "condition": "prior_systemic_chemotherapy",
+        "sql": "prior_chemotherapy = 0",
+        "result": false
+      },
+      {
+        "condition": "prior_targeted_therapy",
+        "sql": "prior_targeted_therapy = 0",
+        "result": true
+      }
+    ]
+  },
+  {
+    "pair_id": "P0013__NCT02182232",
+    "trial_id": "NCT02182232",
+    "ground_truth": "Eligible",
+    "patient_profile": "A 74-year-old female presents with stage IV  (T3N2M1b) adenocarcinoma of the lung. The patient is chemotherapy-na\u00efve for advanced disease (with no prior systemic chemotherapy, biologic response modifiers, or investigational drugs for metastatic disease). Imaging shows bi-dimensionally measurable disease per RECIST v1.1. She has an ECOG performance status of 1. Molecular profiling showed no actionable driver mutation. Pulmonary function testing showed an FEV1 of 73% predicted. Cardiac history includes a well-controlled cardiac arrhythmia with no serious or unstable manifestations (not meeting NYHA Grade 2 or greater congestive heart failure or serious arrhythmia criteria). Imaging demonstrated treated, stable brain metastases (stable for >= 28 days, asymptomatic, and not requiring concurrent steroids or antiepileptic therapy), with all other systemic organ functions and lab parameters well within protocol limits.",
+    "inclusion_criteria_verbatim": "inclusion criteria: \n\n Male or female patients with histologically or cytologically confirmed Stage IIIB (including pleural effusion), IV or recurrent NSCLC \n\n Bi-dimensionally measurable disease by one or more techniques (CT, MRI, X-ray) \n\n Age 18 years or older \n\n Life expectancy of at least three (3) months \n\n Eastern Cooperative Oncology Group (ECOG) performance score 0 or 1 \n\n Written informed consent that is consistent with ICH-GCP guidelines \n\n ",
+    "exclusion_criteria_verbatim": ": \n\n Prior treatment for NSCLC including chemotherapy, biologic response modifier therapy, or any investigational drug \n\n Participation in another clinical study within the past four weeks before start of therapy or concomitantly with this study \n\n Active brain metastases (stable for <28 days, symptomatic, or requiring concurrent steroids or antiepileptic therapy) \n\n Centrally located tumors with radiologic evidence (CT or MRI) of local invasion of major blood vessels \n\n Cavitary or necrotic tumors \n\n Sanguinous pleural effusion due to disease or pericardial effusion suspicious for disease \n\n Radiotherapy to an area of measurable disease (unless disease progression had been documented following completion of therapy) \n\n Radiotherapy within 4 weeks preceding Day 0 \n\n Other active malignancy diagnosed within the past 3 years (other than non-melanomatous skin cancer) \n\n Gastrointestinal abnormalities that would interfere with intake or absorption of the study drug, such as a requirement for intravenous alimentation, prior surgical procedures affecting absorption, treatment for peptic ulcer disease within the last 6 months, active gastrointestinal bleeding unrelated to cancer (as evidenced by either hematemesis, hematochezia, or melena in the past 3 months and without endoscopic documented resolution), or malabsorption syndromes \n\n Significant cardiovascular disease (i.e., uncontrolled hypertension, myocardial infarction within 6 months, unstable angina, serious cardiac arrhythmia, \u2265NYHA Grade 2 congestive heart failure) \n\n History of hemorrhagic or thrombotic event (including transient ischemic attacks) in the past 12 months \n\n Clinically significant hemoptysis (1 teaspoon or more) in the past 3 months \n\n Concurrent therapeutic anticoagulation (except heparin flush as needed for maintenance of an indwelling intravenous device) or antiplatelet therapy (except chronic low-dose daily aspirin <325 mg) \n\n Known hypersensitivity to paclitaxel, carboplatin, or any of their excipients including Cremophor\u00ae (polyoxyethylated castor oil) \n\n Absolute neutrophil count (ANC) \u22641,500/\u03bcl, platelet count \u2264100,000/\u03bcl, or hemoglobin <9 gm/dL \n\n Total bilirubin >1.5 mg/dL (26 \u03bcmol/L, SI Unit equivalent), alanine amino transferase (ALT) and/or aspartate amino transferase (AST) \u22651.5 X ULN, \n\n Serum creatinine >1.5 mg/dL (>132 \u03bcmol/L, SI Unit equivalent) \n\n Persistent hematuria or proteinuria (more than trace) \n\n Women and men who are sexually active and unwilling to use a medically acceptable method of contraception \n\n Pregnancy or breastfeeding \n\n Known or suspected active alcohol or drug abuse \n\n Patients unable to comply with the protocol",
+    "parsed_trial_fields": {
+      "disease": "NSCLC",
+      "stage": [
+        "IIIB"
+      ],
+      "M_status": null,
+      "requires_prior_chemo": false,
+      "requires_non_squamous": false,
+      "requires_squamous": false,
+      "iiib_requires_effusion": true,
+      "performance_status": "",
+      "FEV1_cc_min": null,
+      "FEV1_pct_min": null,
+      "excl_prior_chemo": "NOT_AN_EXCLUSION",
+      "excl_prior_radio": "NOT_AN_EXCLUSION",
+      "excl_cardiovascular": "EXCLUDED_IF_PRESENT",
+      "excl_active_infection": "NOT_AN_EXCLUSION"
+    },
+    "extracted_patient_fields": {
+      "disease": "NSCLC",
+      "histology": "non-squamous",
+      "stage_group": "IV",
+      "T_stage": "",
+      "N_stage": "",
+      "M_stage": "",
+      "has_effusion": false,
+      "performance_status": "1",
+      "prior_chemotherapy": false,
+      "prior_radiotherapy": false,
+      "cardiovascular_event": true,
+      "active_infection": false,
+      "FEV1_cc": null,
+      "FEV1_pct": 73
+    },
+    "failing_clauses": [
+      "stage"
+    ],
+    "clause_evaluations": [
+      {
+        "condition": "disease",
+        "sql": "(disease IN ('LUNG', 'NSCLC', 'SCLC') OR disease IS NULL OR disease = '')",
+        "result": true
+      },
+      {
+        "condition": "stage",
+        "sql": "(stage_group IN ('IIIB'))",
+        "result": false
+      },
+      {
+        "condition": "iiib_requires_effusion",
+        "sql": "(stage_group NOT IN ('IIIB','III') OR has_effusion = 1)",
+        "result": true
+      }
+    ]
+  },
+  {
+    "pair_id": "P0019__NCT03360929",
+    "trial_id": "NCT03360929",
+    "ground_truth": "Eligible",
+    "patient_profile": "A 55-year-old Chinese female patient presents with histologically confirmed advanced non-small cell lung cancer (Stage IV) with documented asymptomatic brain metastases (BM).Molecular testing confirms an activating mutation in the EGFR gene (Exon 19 deletion), and the patient is T790M-mutation negative. She is EGFR TKI-na\u00efve and has not received any prior systemic anti-cancer therapy, cytotoxic chemotherapy, or investigational drugs within the required washout windows.Imaging confirms at least one measurable intracranial lesion (>= 10 mm). She has an ECOG performance status of 0, which has not worsened in the past 2 weeks, and a life expectancy of at least 3 months. She has no history of whole-brain radiotherapy, no uncontrollable seizures or intracranial hypertension, no major recent surgeries, and is not taking any CYP3A4/CYP3A5 inducers or inhibitors. She has provided written informed consent and agreed to use medically acceptable contraception.",
+    "inclusion_criteria_verbatim": "inclusion criteria: \n\n Subjects must provide written informed consent before any study related procedure. \n\n Male or female Chinese patients \u226518 years old. \n\n Histologically or cytologically confirmed non-small cell lung cancer with activating mutation in EGFR gene (including Exon19Del and/or L858R). A validated and robust test method reviewed and approved by the regulatory authority should be used to determine EGFR mutation status in tissue or plasma locally. \n\n Patients with advanced non-small cell lung cancer (stage IV) with documented BM and/or LM. Part A dose escalation can include EGFR TKI-na\u00efve NSCLC patients with measurable lung lesion and no BM. Patients with BM and/or LM in each dose group shall account for at least one-third. \n\n According to Eastern Cooperative Oncology Group (ECOG) Scale, performance status is grade 0 to 1, without worsening in the past 2 weeks, and life expectancy of at least 3 months. If ECOG performance status is grade 2 due to LM disease, the patient can also be enrolled. \n\n Non-surgical sterilized women of child-bearing potential and male subjects shall agree to take medically acceptable contraception measures during dosing of investigational drug and 3 months after completion of study treatment. Non-surgical sterilized women of child-bearing potential must have negative blood pregnancy test at screening. \n\n Asymptomatic BM patients who have not received prior treatment with any EGFR TKI or symptomatic BM patients who are not warranted temporally for definitive local treatment (surgery or radiotherapy). For patients with prior local treatment for BM lesion (surgery or radiotherapy), intracranial lesion progression is required. \n\n BM patients must have at least one measurable intracranial lesion; in case of prior radiotherapy for BM lesion, progression is required and must meet measurable lesion criteria again. Measurable extracranial disease is not required. \n\n LM patients must be confirmed by the presence of malignant cells by cerebrospinal fluid (CSF) cytology. Diagnosis of LM disease by MRI alone does not meet inclusion criteria. Patients with both BM and LM are considered as LM. \n\n LM patients must have at least one leptomeningeal lesion which shows visible abnormality by MRI. Measurable extracranial disease is not required. \n\n ",
+    "exclusion_criteria_verbatim": ": \n\n Patients meeting any of the following criteria cannot participate in the study: \n\n Have taken any other investigational drug in a clinical trial within 30 days prior to initial dose. \n\n Prior treatment with any EGFR TKI within 8 days or 5 half-lives of the drug (see table 19 Washout of EGFR TKIs) prior to initial dose of study drug. If the washout period for the EGFR TKI cannot be reached due to schedule or pharmacokinetic properties, an alternative washout period can be proposed based on recovery period of known adverse drug reactions, which must be agreed to in advance by the Investigator and the Sponsor. \n\n T790M mutation positive patients. \n\n Have received previous treatment regimen including any cytotoxic chemotherapy or other anti-cancer drugs (other than EGFR TKIs) for treatment of advanced non-small cell lung cancer within 14 days prior to initial dose of study drug. \n\n Patients with medically uncontrollable seizures and/or untreated (eg., requiring mannitol and/or placement a VP shunt) intracranial hypertension are excluded. \n\n Have undergone major surgical procedure (excluding placement of vascular indwelling needle) or serious trauma within 4 weeks prior to initial dose of study drug, or major surgical procedure is expected during the study. \n\n Patients who have received radiotherapy for a large area within 4 weeks, or local palliative radiotherapy for a small area within 1 week prior to initial dose of study drug (for subjects requiring radiotherapy for more than 30% bone marrow, the radiotherapy must be completed before 4 weeks prior to initial dose). \n\n BM and LM patients who have received whole-brain radiotherapy. \n\n Patients with a history of allergy to AZD3759 and its structural analogues (Gefitinib) or pharmaceutical excipients (whether active or not). \n\n Subjects who are receiving (or cannot discontinue at least 1 week prior to initial dose of study drug) any drug or traditional Chinese medicine known to inhibit or induce CYP3A4 or CYP3A5 activity.",
+    "parsed_trial_fields": {
+      "disease": "NSCLC",
+      "stage": [
+        "IV"
+      ],
+      "M_status": null,
+      "requires_prior_chemo": false,
+      "requires_non_squamous": false,
+      "requires_squamous": false,
+      "iiib_requires_effusion": false,
+      "performance_status": "",
+      "FEV1_cc_min": null,
+      "FEV1_pct_min": null,
+      "excl_prior_chemo": "EXCLUDED_IF_PRESENT",
+      "excl_prior_radio": "NOT_AN_EXCLUSION",
+      "excl_cardiovascular": "NOT_AN_EXCLUSION",
+      "excl_active_infection": "NOT_AN_EXCLUSION"
+    },
+    "extracted_patient_fields": {
+      "disease": "NSCLC",
+      "histology": "",
+      "stage_group": "IV",
+      "T_stage": "790M",
+      "N_stage": "",
+      "M_stage": "",
+      "has_effusion": false,
+      "performance_status": "0",
+      "prior_chemotherapy": true,
+      "prior_radiotherapy": false,
+      "cardiovascular_event": false,
+      "active_infection": false,
+      "FEV1_cc": null,
+      "FEV1_pct": null
+    },
+    "failing_clauses": [
+      "prior_systemic_chemotherapy"
+    ],
+    "clause_evaluations": [
+      {
+        "condition": "disease",
+        "sql": "(disease IN ('LUNG', 'NSCLC', 'SCLC') OR disease IS NULL OR disease = '')",
+        "result": true
+      },
+      {
+        "condition": "stage",
+        "sql": "(stage_group IN ('IV', 'IVA', 'IVB'))",
+        "result": true
+      },
+      {
+        "condition": "prior_systemic_chemotherapy",
+        "sql": "prior_chemotherapy = 0",
+        "result": false
+      },
+      {
+        "condition": "prior_targeted_therapy",
+        "sql": "prior_targeted_therapy = 0",
+        "result": true
+      }
+    ]
+  },
+  {
+    "pair_id": "P0020__NCT00266877",
+    "trial_id": "NCT00266877",
+    "ground_truth": "Eligible",
+    "patient_profile": "A 70-year-old female patient presents with adenocarcinoma, clinical stage IV NSCLC with a malignant pleural effusion, not curable with conventional therapy. The disease has progressed following at least 12 weeks of continuous treatment with Tarceva (Arm A). Imaging shows measurable disease per RECIST v1.1. She has an ECOG performance status of 1, with no decline over the past 2 weeks, and an adequate tumor sample available for analysis.She has no active central nervous system metastases (any prior brain lesions are fully treated, stable, and completely asymptomatic without symptoms or progressive growth). Cardiac history is clean, with no significant cardiac disease or dysfunction, and no history of cumulative anthracycline toxicity >400  mg/m^2. She has not used Tarceva or Iressa within 14 days of treatment Day 1 and has undergone no major surgery or recent therapy within 3 weeks. Pulmonary function testing showed an FEV1 of 65% predicted.Laboratory values show fully restored, adequate organ function and blood counts: creatinine 1.0mg/dL, ANC 3.3 times x 10^3, platelets 210k/\u00b5l, hemoglobin 12.4g/dL, and bilirubin 0.7mg/dL. She is able and willing to swallow HKI-272 capsules.",
+    "inclusion_criteria_verbatim": "inclusion criteria: \n\n Pathologic diagnosis of NSCLC and current stage IIIB (with pleural effusion) or IV, not curable with conventional therapy. For Arm C, less than or equal to 20 pack-years smoking history and current non smoker. A pack year = number of packs of cigarettes smoked per day x years smoked. \n\n Progression following at least 12 weeks of treatment with Tarceva or Iressa. (Arms A and B only) \n\n ECOG (Eastern Cooperative Oncology Group) performance status of 0, 1, or 2 (not declining within past 2 weeks). \n\n Tumor sample available and adequate for analysis. \n\n At least one measurable target lesion. \n\n Adequate cardiac, kidney, and liver function \n\n Adequate blood counts \n\n ",
+    "exclusion_criteria_verbatim": ": \n\n More than 3 prior cytotoxic chemotherapy treatments for relapsed or metastatic disease. \n\n Significant cardiac disease or dysfunction. \n\n Prior treatment with anthracyclines with cumulative dose of >400 mg/m^2. \n\n Active central nervous system metastases, as indicated by clinical symptoms and/or progressive growth. \n\n Use of Tarceva or Iressa within 14 days of treatment day 1 (Arms A and B only). \n\n Major surgery, chemotherapy, radiotherapy, investigational drugs, or other cancer therapy within 3 weeks of treatment day 1. \n\n Significant chronic or recent acute gastrointestinal disorder with diarrhea as a major symptom. \n\n Inability or unwillingness to swallow HKI-272 capsules. \n\n Pregnant or breastfeeding women.",
+    "parsed_trial_fields": {
+      "disease": "NSCLC",
+      "stage": [
+        "IIIB"
+      ],
+      "M_status": null,
+      "requires_prior_chemo": false,
+      "requires_non_squamous": false,
+      "requires_squamous": false,
+      "iiib_requires_effusion": true,
+      "performance_status": "ECOG 0-1",
+      "FEV1_cc_min": null,
+      "FEV1_pct_min": null,
+      "excl_prior_chemo": "EXCLUDED_IF_PRESENT",
+      "excl_prior_radio": "EXCLUDED_IF_PRESENT",
+      "excl_cardiovascular": "EXCLUDED_IF_PRESENT",
+      "excl_active_infection": "NOT_AN_EXCLUSION"
+    },
+    "extracted_patient_fields": {
+      "disease": "NSCLC",
+      "histology": "non-squamous",
+      "stage_group": "IV",
+      "T_stage": "",
+      "N_stage": "",
+      "M_stage": "",
+      "has_effusion": true,
+      "performance_status": "1",
+      "prior_chemotherapy": false,
+      "prior_radiotherapy": false,
+      "cardiovascular_event": true,
+      "active_infection": false,
+      "FEV1_cc": null,
+      "FEV1_pct": 65
+    },
+    "failing_clauses": [
+      "stage"
+    ],
+    "clause_evaluations": [
+      {
+        "condition": "disease",
+        "sql": "(disease IN ('LUNG', 'NSCLC', 'SCLC') OR disease IS NULL OR disease = '')",
+        "result": true
+      },
+      {
+        "condition": "stage",
+        "sql": "(stage_group IN ('IIIB'))",
+        "result": false
+      },
+      {
+        "condition": "performance_status",
+        "sql": "(performance_status_int <= 1 OR performance_status_int IS NULL)",
+        "result": true
+      },
+      {
+        "condition": "prior_systemic_chemotherapy",
+        "sql": "prior_chemotherapy = 0",
+        "result": true
+      },
+      {
+        "condition": "prior_radiotherapy",
+        "sql": "prior_radiotherapy = 0",
+        "result": true
+      },
+      {
+        "condition": "iiib_requires_effusion",
+        "sql": "(stage_group NOT IN ('IIIB','III') OR has_effusion = 1)",
+        "result": true
+      }
+    ]
+  },
+  {
+    "pair_id": "P0028__NCT03141359",
+    "trial_id": "NCT03141359",
+    "ground_truth": "Eligible",
+    "patient_profile": "A 55-year-old male patient presents with adenocarcinoma, clinical stage IIIA (T2N2M0) NSCLC with a primary tumor <=7 cm. The disease is newly diagnosed and the patient is completely treatment-naive (with no prior systemic therapy or prior radiation therapy for lung cancer).Imaging shows measurable disease per RECIST v1.1, with no central tumor overlap issues with the proximal bronchial tree. He has an ECOG performance status of 2 and an FEV1 well above protocol limits. Molecular profiling shows normal baseline parameters, and he has no history of recent unstable angina, myocardial infarction, or significant cardiac events.He demonstrates normal organ and marrow function, is considered a candidate for durvalumab by the treating investigator, and has the ability to understand and sign a written informed consent document.",
+    "inclusion_criteria_verbatim": "inclusion criteria \n\n Subjects must meet all the following criteria: \n\n Histologic or cytologic documentation of NSCLC (all histologies allowed) \n\n Stage II or III disease (AJCC 7th Edition) based on imaging as required during screening: Stage II disease includes only subjects with medically inoperable N1 disease otherwise meeting eligibility criteria. Primary tumor \u2264 7 cm \n\n Subjects with non-malignant pleural effusion identified on CT scan are eligible provided the effusion is not known or demonstrated to be an exudative effusion. If a pleural effusion is present, the following criteria must be met to exclude malignant involvement: A pleuracentesis is required if pleural fluid is present and visible on both CT scan and chest x-ray. Pleural fluid cytology must be negative for malignancy. Effusions that are minimal and too small for pleuracentesis as determined by the investigator will be eligible for enrollment. \n\n FEV1 \u2265 1.0 Liter or \u2265 40% predicted with or without bronchodilator within six months prior to initiation of study treatment. Subjects who meet the criterion without O2, but who need acute (started within 10 days prior to enrollment) supplemental oxygen due to tumor-caused obstruction/hypoxia are eligible, provided the amount of the O2 needed has been stable. \n\n Age \u226518 years. \n\n ECOG performance status \u2264 2 \n\n Subjects must have normal organ and marrow function as defined: Leukocytes \u22654,000/mcL; Absolute neutrophil count \u22651,500/mcL; Platelets \u2265100,000/mcL; Total bilirubin \u22641.5 times the upper limit of normal; Creatinine clearance \u226525 mL/min/1.73 m2 \n\n Negative serum or urine pregnancy test prior to enrollment for women of childbearing age and potential. \n\n The effects of radiation on the developing human fetus are not well described. For this reason, women of child-bearing potential and non-sterilized men who are sexually active with a woman of child-bearing potential must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry and for the duration of study treatment. Should a woman become pregnant or suspect she is pregnant while she or her partner is participating in this study, she should inform her treating physician immediately. \n\n Must be considered a candidate for durvalumab, per the treating investigator \n\n Ability to understand and the willingness to sign a written informed consent document. \n\n ",
+    "exclusion_criteria_verbatim": " \n\n Subjects must not meet any of the following criteria. \n\n Subjects who have had prior systemic therapy for lung cancer \n\n Subjects who have had prior radiation to the region of the chest that would result in overlap of radiation therapy fields and determined by the treating physician to impede the treatment of the study malignancy. \n\n Subjects who are actively being treated on any other interventional research study. \n\n Prior invasive malignancy unless disease free for a minimum of 3 years from enrollment. However, non-melanoma skin cancer, low risk prostate cancer, well differentiated thyroid cancers, in situ carcinomas of the breast, oral cavity, cervix, and other organs, and tumors that are not thought to impact the life expectancy of the subject according to the treating investigator is permissible. \n\n Centrally located primary tumor < 2 cm from involved nodal disease which would result in significant overlap of radiation dose. Centrally located is defined as within or touching the zone of the proximal bronchial tree, which is a volume 2 cm in all directions around the proximal bronchial tree (carina, right and left main bronchi, right and left upper lobe bronchi, intermedius bronchus, right middle lobe bronchus, lingular bronchus right and left lower lobe bronchi).",
+    "parsed_trial_fields": {
+      "disease": "NSCLC",
+      "stage": [
+        "II",
+        "III"
+      ],
+      "M_status": null,
+      "requires_prior_chemo": false,
+      "requires_non_squamous": false,
+      "requires_squamous": false,
+      "iiib_requires_effusion": false,
+      "performance_status": "",
+      "FEV1_cc_min": null,
+      "FEV1_pct_min": 40,
+      "excl_prior_chemo": "EXCLUDED_IF_PRESENT",
+      "excl_prior_radio": "EXCLUDED_IF_PRESENT",
+      "excl_cardiovascular": "NOT_AN_EXCLUSION",
+      "excl_active_infection": "NOT_AN_EXCLUSION"
+    },
+    "extracted_patient_fields": {
+      "disease": "NSCLC",
+      "histology": "non-squamous",
+      "stage_group": "IIIA",
+      "T_stage": "",
+      "N_stage": "",
+      "M_stage": "2",
+      "has_effusion": false,
+      "performance_status": "2",
+      "prior_chemotherapy": false,
+      "prior_radiotherapy": true,
+      "cardiovascular_event": true,
+      "active_infection": false,
+      "FEV1_cc": null,
+      "FEV1_pct": null
+    },
+    "failing_clauses": [
+      "prior_radiotherapy"
+    ],
+    "clause_evaluations": [
+      {
+        "condition": "disease",
+        "sql": "(disease IN ('LUNG', 'NSCLC', 'SCLC') OR disease IS NULL OR disease = '')",
+        "result": true
+      },
+      {
+        "condition": "stage",
+        "sql": "(stage_group IN ('II', 'IIA', 'IIB', 'III', 'IIIA', 'IIIB'))",
+        "result": true
+      },
+      {
+        "condition": "FEV1",
+        "sql": "(FEV1_pct >= 40 OR FEV1_pct IS NULL)",
+        "result": true
+      },
+      {
+        "condition": "prior_systemic_chemotherapy",
+        "sql": "prior_chemotherapy = 0",
+        "result": true
+      },
+      {
+        "condition": "prior_radiotherapy",
+        "sql": "prior_radiotherapy = 0",
+        "result": false
+      }
+    ]
+  },
+  {
+    "pair_id": "P0029__NCT02182232",
+    "trial_id": "NCT02182232",
+    "ground_truth": "Eligible",
+    "patient_profile": "A 75-year-old with stage IIIB (T4N2M0) adenocarcinoma of the lung. The disease is currently stable on ongoing therapy. Imaging shows measurable disease per RECIST v1.1. He has an ECOG performance status of 0. Molecular testing revealed KRAS G12C. He has received no prior systemic or radiation therapy. Pulmonary function testing showed an FEV1 of 93% predicted.",
+    "inclusion_criteria_verbatim": "inclusion criteria: \n\n Male or female patients with histologically or cytologically confirmed Stage IIIB (including pleural effusion), IV or recurrent NSCLC \n\n Bi-dimensionally measurable disease by one or more techniques (CT, MRI, X-ray) \n\n Age 18 years or older \n\n Life expectancy of at least three (3) months \n\n Eastern Cooperative Oncology Group (ECOG) performance score 0 or 1 \n\n Written informed consent that is consistent with ICH-GCP guidelines \n\n ",
+    "exclusion_criteria_verbatim": ": \n\n Prior treatment for NSCLC including chemotherapy, biologic response modifier therapy, or any investigational drug \n\n Participation in another clinical study within the past four weeks before start of therapy or concomitantly with this study \n\n Active brain metastases (stable for <28 days, symptomatic, or requiring concurrent steroids or antiepileptic therapy) \n\n Centrally located tumors with radiologic evidence (CT or MRI) of local invasion of major blood vessels \n\n Cavitary or necrotic tumors \n\n Sanguinous pleural effusion due to disease or pericardial effusion suspicious for disease \n\n Radiotherapy to an area of measurable disease (unless disease progression had been documented following completion of therapy) \n\n Radiotherapy within 4 weeks preceding Day 0 \n\n Other active malignancy diagnosed within the past 3 years (other than non-melanomatous skin cancer) \n\n Gastrointestinal abnormalities that would interfere with intake or absorption of the study drug, such as a requirement for intravenous alimentation, prior surgical procedures affecting absorption, treatment for peptic ulcer disease within the last 6 months, active gastrointestinal bleeding unrelated to cancer (as evidenced by either hematemesis, hematochezia, or melena in the past 3 months and without endoscopic documented resolution), or malabsorption syndromes \n\n Significant cardiovascular disease (i.e., uncontrolled hypertension, myocardial infarction within 6 months, unstable angina, serious cardiac arrhythmia, \u2265NYHA Grade 2 congestive heart failure) \n\n History of hemorrhagic or thrombotic event (including transient ischemic attacks) in the past 12 months \n\n Clinically significant hemoptysis (1 teaspoon or more) in the past 3 months \n\n Concurrent therapeutic anticoagulation (except heparin flush as needed for maintenance of an indwelling intravenous device) or antiplatelet therapy (except chronic low-dose daily aspirin <325 mg) \n\n Known hypersensitivity to paclitaxel, carboplatin, or any of their excipients including Cremophor\u00ae (polyoxyethylated castor oil) \n\n Absolute neutrophil count (ANC) \u22641,500/\u03bcl, platelet count \u2264100,000/\u03bcl, or hemoglobin <9 gm/dL \n\n Total bilirubin >1.5 mg/dL (26 \u03bcmol/L, SI Unit equivalent), alanine amino transferase (ALT) and/or aspartate amino transferase (AST) \u22651.5 X ULN, \n\n Serum creatinine >1.5 mg/dL (>132 \u03bcmol/L, SI Unit equivalent) \n\n Persistent hematuria or proteinuria (more than trace) \n\n Women and men who are sexually active and unwilling to use a medically acceptable method of contraception \n\n Pregnancy or breastfeeding \n\n Known or suspected active alcohol or drug abuse \n\n Patients unable to comply with the protocol",
+    "parsed_trial_fields": {
+      "disease": "NSCLC",
+      "stage": [
+        "IIIB"
+      ],
+      "M_status": null,
+      "requires_prior_chemo": false,
+      "requires_non_squamous": false,
+      "requires_squamous": false,
+      "iiib_requires_effusion": true,
+      "performance_status": "",
+      "FEV1_cc_min": null,
+      "FEV1_pct_min": null,
+      "excl_prior_chemo": "NOT_AN_EXCLUSION",
+      "excl_prior_radio": "NOT_AN_EXCLUSION",
+      "excl_cardiovascular": "EXCLUDED_IF_PRESENT",
+      "excl_active_infection": "NOT_AN_EXCLUSION"
+    },
+    "extracted_patient_fields": {
+      "disease": "NSCLC",
+      "histology": "non-squamous",
+      "stage_group": "IIIB",
+      "T_stage": "",
+      "N_stage": "",
+      "M_stage": "",
+      "has_effusion": false,
+      "performance_status": "0",
+      "prior_chemotherapy": false,
+      "prior_radiotherapy": false,
+      "cardiovascular_event": false,
+      "active_infection": false,
+      "FEV1_cc": null,
+      "FEV1_pct": 93
+    },
+    "failing_clauses": [
+      "iiib_requires_effusion"
+    ],
+    "clause_evaluations": [
+      {
+        "condition": "disease",
+        "sql": "(disease IN ('LUNG', 'NSCLC', 'SCLC') OR disease IS NULL OR disease = '')",
+        "result": true
+      },
+      {
+        "condition": "stage",
+        "sql": "(stage_group IN ('IIIB'))",
+        "result": true
+      },
+      {
+        "condition": "iiib_requires_effusion",
+        "sql": "(stage_group NOT IN ('IIIB','III') OR has_effusion = 1)",
+        "result": false
+      }
+    ]
+  },
+  {
+    "pair_id": "P0030__NCT02182102",
+    "trial_id": "NCT02182102",
+    "ground_truth": "Eligible",
+    "patient_profile": "A 66-year-old, has histologically confirmed adenocarcinoma of the lung, staged as IV (T4N3M1c). The disease has progressed following prior systemic therapy. Imaging shows measurable disease per RECIST v1.1. A malignant pleural effusion is present. Her Karnofsky Performance Status is 70. Molecular profiling showed no actionable driver mutation. Pulmonary function testing showed an FEV1 of 43% predicted. She previously received chemotherapy (over 6 months ago).",
+    "inclusion_criteria_verbatim": "inclusion criteria: \n\n Pathologic confirmation of metastatic, unresectable, or locally advanced NSCLC (non-small cell lung cancer) \n\n Disease progression during or following one prior platinum-based (including prior neoadjuvant or adjuvant therapy) chemotherapy regimen for advanced disease \n\n Bi-dimensionally measurable disease by one or more techniques (CT (computed tomography), MRI (magnetic resonance imaging), X-ray) \n\n Age 18 years or older \n\n Life expectancy of at least three (3) months \n\n Eastern Cooperative Oncology Group (ECOG) performance score 0-2 \n\n Written informed consent that is consistent with ICH-GCP (International Conference on Harmonization - Good Clinical Practice) guidelines \n\n ",
+    "exclusion_criteria_verbatim": ": \n\n Participation in another clinical study within the past 28 days prior to the start of therapy or concomitantly with this study \n\n Treatment for NSCLC (except radiotherapy for palliative reasons) within the past 28 days prior to Treatment Day 1 of this trial. All toxicities of the previous therapy must have resolved to baseline prior to Treatment Day 1 \n\n Patient has received more than one prior chemotherapy regimen for advanced disease \n\n Radiotherapy to an area of measurable disease (unless disease progression had been documented following completion of therapy) \n\n Patients who are unwilling or unable to take folic acid and vitamin B12 supplementation \n\n Radiotherapy within 4 weeks prior to Treatment Day 1 \n\n Prior treatment with agents that target the vascular endothelial growth factor (VEGF) pathways, including monoclonal antibody therapy (such as bevacizumab) or tyrosine kinase inhibitors \n\n Active brain metastases (stable for <28 days, symptomatic, or requiring concurrent steroids or antiepileptic therapy). Patients who have received prior whole brain irradiation and whose brain metastases are stable according to the criteria above will not be excluded \n\n Centrally located tumors with radiologic evidence (CT or MRI) of local invasion of major blood vessels, with exception of those tumors which have received prior irradiation and are stable \n\n Cavitary or necrotic tumors \n\n Sanguinous pleural effusion due to disease or pericardial effusion suspicious for disease \n\n Other active malignancy diagnosed within the past 3 years (other than non-melanomatous skin cancer) \n\n Gastrointestinal abnormalities that would interfere with intake or absorption (with exception of patients with gastric esophageal reflux disease controlled with proton pump inhibitors) of the study drug, such as a requirement for intravenous alimentation, prior surgical procedures affecting absorption, treatment for peptic ulcer disease within the last 6 months, active gastrointestinal bleeding unrelated to cancer (as evidenced by either hematemesis, hematochezia, or melena in the past 3 months and without endoscopic documented resolution), or malabsorption syndromes \n\n Significant cardiovascular disease (i.e., uncontrolled hypertension, myocardial infarction within 6 months, unstable angina, serious cardiac arrhythmia, >2 New York Heart Association (NYHA) Grade 2 congestive heart failure) \n\n History of hemorrhagic or thrombotic event (including transient ischemic attacks) in the past 12 months or clinically significant hemoptysis in the past 3 months \n\n Patients receiving any anti-coagulant therapy (including coumadin, heparin, low molecular weight heparin, and aspirin \n\n Patient has received prior therapy with pemetrexed \n\n Absolute neutrophil count (ANC) \u22641,500/\u03bcl, platelet count \u2264100,000/\u03bcl, or hemoglobin <9 gm/dL \n\n Total bilirubin >1.5 mg/dL (26 \u03bcmole/L, SI-Unit equivalent), alanine amino transferase (ALT) and/or aspartate amino transferase (AST) \u22651.5 X upper limit of normal (ULN) \n\n Inadequate renal function determined by a serum creatinine level >1.5 X ULN \n\n Patient is unable or unwilling to interrupt aspirin or other NSAIDS for a 5-day period (8 days period for long lasting agents like piroxicam) \n\n Persistent hematuria or proteinuria (more than trace) \n\n Women and men who are sexually active and unwilling to use a medically acceptable method of contraception \n\n Pregnancy or breast feeding \n\n Known or suspected active alcohol or drug abuse \n\n Patients unable to comply with the protocol",
+    "parsed_trial_fields": {
+      "disease": "NSCLC",
+      "stage": [],
+      "M_status": null,
+      "requires_prior_chemo": false,
+      "requires_non_squamous": false,
+      "requires_squamous": false,
+      "iiib_requires_effusion": false,
+      "performance_status": "",
+      "FEV1_cc_min": null,
+      "FEV1_pct_min": null,
+      "excl_prior_chemo": "EXCLUDED_IF_PRESENT",
+      "excl_prior_radio": "NOT_AN_EXCLUSION",
+      "excl_cardiovascular": "EXCLUDED_IF_PRESENT",
+      "excl_active_infection": "NOT_AN_EXCLUSION"
+    },
+    "extracted_patient_fields": {
+      "disease": "NSCLC",
+      "histology": "non-squamous",
+      "stage_group": "",
+      "T_stage": "",
+      "N_stage": "",
+      "M_stage": "",
+      "has_effusion": true,
+      "performance_status": "70",
+      "prior_chemotherapy": true,
+      "prior_radiotherapy": false,
+      "cardiovascular_event": false,
+      "active_infection": false,
+      "FEV1_cc": null,
+      "FEV1_pct": 43
+    },
+    "failing_clauses": [
+      "prior_systemic_chemotherapy"
+    ],
+    "clause_evaluations": [
+      {
+        "condition": "disease",
+        "sql": "(disease IN ('LUNG', 'NSCLC', 'SCLC') OR disease IS NULL OR disease = '')",
+        "result": true
+      },
+      {
+        "condition": "prior_systemic_chemotherapy",
+        "sql": "prior_chemotherapy = 0",
+        "result": false
+      },
+      {
+        "condition": "prior_targeted_therapy",
+        "sql": "prior_targeted_therapy = 0",
+        "result": true
+      }
+    ]
+  },
+  {
+    "pair_id": "P0033__NCT02182232",
+    "trial_id": "NCT02182232",
+    "ground_truth": "Eligible",
+    "patient_profile": "A 72-year-old female patient presents with stage IV (T3N2M1b) squamous cell carcinoma of the lung. The patient is chemotherapy-na\u00efve for advanced disease (with no prior systemic chemotherapy, biologic response modifiers, or investigational drugs for metastatic disease). Imaging shows bi-dimensionally measurable disease per RECIST v1.1. She has an ECOG performance status of 0. Molecular profiling showed no actionable driver mutation.Her cardiac history is clean, with no recent unstable angina, myocardial infarction, or significant cardiovascular disease. Imaging demonstrated treated and stable brain metastases (stable for >= 28 days, completely asymptomatic, and not requiring concurrent steroids or antiepileptic therapy). Her peripheral neuropathy has resolved to Grade 0 (or mild Grade 1), and she has no hypersensitivity to paclitaxel or carboplatin, with all baseline organ, hematologic, and renal laboratory values well within protocol limits.",
+    "inclusion_criteria_verbatim": "inclusion criteria: \n\n Male or female patients with histologically or cytologically confirmed Stage IIIB (including pleural effusion), IV or recurrent NSCLC \n\n Bi-dimensionally measurable disease by one or more techniques (CT, MRI, X-ray) \n\n Age 18 years or older \n\n Life expectancy of at least three (3) months \n\n Eastern Cooperative Oncology Group (ECOG) performance score 0 or 1 \n\n Written informed consent that is consistent with ICH-GCP guidelines \n\n ",
+    "exclusion_criteria_verbatim": ": \n\n Prior treatment for NSCLC including chemotherapy, biologic response modifier therapy, or any investigational drug \n\n Participation in another clinical study within the past four weeks before start of therapy or concomitantly with this study \n\n Active brain metastases (stable for <28 days, symptomatic, or requiring concurrent steroids or antiepileptic therapy) \n\n Centrally located tumors with radiologic evidence (CT or MRI) of local invasion of major blood vessels \n\n Cavitary or necrotic tumors \n\n Sanguinous pleural effusion due to disease or pericardial effusion suspicious for disease \n\n Radiotherapy to an area of measurable disease (unless disease progression had been documented following completion of therapy) \n\n Radiotherapy within 4 weeks preceding Day 0 \n\n Other active malignancy diagnosed within the past 3 years (other than non-melanomatous skin cancer) \n\n Gastrointestinal abnormalities that would interfere with intake or absorption of the study drug, such as a requirement for intravenous alimentation, prior surgical procedures affecting absorption, treatment for peptic ulcer disease within the last 6 months, active gastrointestinal bleeding unrelated to cancer (as evidenced by either hematemesis, hematochezia, or melena in the past 3 months and without endoscopic documented resolution), or malabsorption syndromes \n\n Significant cardiovascular disease (i.e., uncontrolled hypertension, myocardial infarction within 6 months, unstable angina, serious cardiac arrhythmia, \u2265NYHA Grade 2 congestive heart failure) \n\n History of hemorrhagic or thrombotic event (including transient ischemic attacks) in the past 12 months \n\n Clinically significant hemoptysis (1 teaspoon or more) in the past 3 months \n\n Concurrent therapeutic anticoagulation (except heparin flush as needed for maintenance of an indwelling intravenous device) or antiplatelet therapy (except chronic low-dose daily aspirin <325 mg) \n\n Known hypersensitivity to paclitaxel, carboplatin, or any of their excipients including Cremophor\u00ae (polyoxyethylated castor oil) \n\n Absolute neutrophil count (ANC) \u22641,500/\u03bcl, platelet count \u2264100,000/\u03bcl, or hemoglobin <9 gm/dL \n\n Total bilirubin >1.5 mg/dL (26 \u03bcmol/L, SI Unit equivalent), alanine amino transferase (ALT) and/or aspartate amino transferase (AST) \u22651.5 X ULN, \n\n Serum creatinine >1.5 mg/dL (>132 \u03bcmol/L, SI Unit equivalent) \n\n Persistent hematuria or proteinuria (more than trace) \n\n Women and men who are sexually active and unwilling to use a medically acceptable method of contraception \n\n Pregnancy or breastfeeding \n\n Known or suspected active alcohol or drug abuse \n\n Patients unable to comply with the protocol",
+    "parsed_trial_fields": {
+      "disease": "NSCLC",
+      "stage": [
+        "IIIB"
+      ],
+      "M_status": null,
+      "requires_prior_chemo": false,
+      "requires_non_squamous": false,
+      "requires_squamous": false,
+      "iiib_requires_effusion": true,
+      "performance_status": "",
+      "FEV1_cc_min": null,
+      "FEV1_pct_min": null,
+      "excl_prior_chemo": "NOT_AN_EXCLUSION",
+      "excl_prior_radio": "NOT_AN_EXCLUSION",
+      "excl_cardiovascular": "EXCLUDED_IF_PRESENT",
+      "excl_active_infection": "NOT_AN_EXCLUSION"
+    },
+    "extracted_patient_fields": {
+      "disease": "NSCLC",
+      "histology": "squamous",
+      "stage_group": "IV",
+      "T_stage": "",
+      "N_stage": "",
+      "M_stage": "",
+      "has_effusion": false,
+      "performance_status": "0",
+      "prior_chemotherapy": false,
+      "prior_radiotherapy": false,
+      "cardiovascular_event": true,
+      "active_infection": false,
+      "FEV1_cc": null,
+      "FEV1_pct": null
+    },
+    "failing_clauses": [
+      "stage"
+    ],
+    "clause_evaluations": [
+      {
+        "condition": "disease",
+        "sql": "(disease IN ('LUNG', 'NSCLC', 'SCLC') OR disease IS NULL OR disease = '')",
+        "result": true
+      },
+      {
+        "condition": "stage",
+        "sql": "(stage_group IN ('IIIB'))",
+        "result": false
+      },
+      {
+        "condition": "iiib_requires_effusion",
+        "sql": "(stage_group NOT IN ('IIIB','III') OR has_effusion = 1)",
+        "result": true
+      }
+    ]
+  },
+  {
+    "pair_id": "P0035__NCT01766739",
+    "trial_id": "NCT01766739",
+    "ground_truth": "Eligible",
+    "patient_profile": "A 74-year-old male, has histologically confirmed non-small cell lung cancer of the lung, staged as IIIB with a malignant pleural effusion. The disease is chemotherapy-naive for advanced disease with no prior systemic therapy. Imaging shows measurable disease per RECIST v1.1. He has an ECOG performance status of 1. Laboratory values: creatinine 1.0 mg/dL, ANC 3.2 x10^3, platelets 180k, hemoglobin 12.5 g/dL, bilirubin 0.8 mg/dL. He has a free pleural space permitting intrapleural drug instillation. No active systemic infections, no significant cardiovascular disease, and no history of arrhythmia or prolonged QTc.",
+    "inclusion_criteria_verbatim": "inclusion criteria: \n\n Diagnosis of histologically or cytologically documented, malignant pleural effusions (primary non-small-cell lung carcinoma, mesothelioma, and other histologies), who have free pleural space (partial or total) that permits the intrapleural drug instillation. This includes cytologically negative pleural effusion in conjunction with histologically proven malignancy involving the pleura. \n\n Age must be \u2265 18 years. \n\n All acute toxic effects of any prior radiotherapy, chemotherapy, or surgical procedures must have resolved to Common Terminology Criteria for Adverse Events (CTCAE, Version 4.0) Grade \u2264 1. \n\n Any surgery, where general anesthesia was administered, must have occurred at least 14 days prior to study enrollment. \n\n Chemotherapy, radiotherapy or immunotherapy must have stopped more than 7 days prior to receiving study drug; however, small field palliative radiotherapy, TKI therapies and hormonal therapies are allowed. \n\n Patients with stage IV malignancy (non-mesothelioma) must have had a brain scan (MRI or CT with contrast) showing no evidence of disease progression within 8 weeks of study enrollment. \n\n ECOG Zubrod \u2264 2. \n\n Required baseline laboratory data include: \n\n Absolute neutrophil count (ANC) \u2265 1.5 \u00d7 109 [SI units 10^9/L], \n\n Platelets \u2265 100 \u00d710^9 [SI units 10^9/L], \n\n Hemoglobin \u2265 9.0 g/dL [SI units gm/L], \n\n Serum creatinine \u2264 1.5 \u00d7 upper limit of normal (ULN), \n\n Bilirubin \u2264 1.5 \u00d7 ULN, \n\n AST/ALT \u2264 2.5 \u00d7 ULN (\u2264 5 \u00d7 ULN in the presence of liver metastases) \n\n Negative pregnancy test for females of childbearing potential. \n\n ",
+    "exclusion_criteria_verbatim": ": \n\n Pregnant or breast-feeding women. \n\n Patients with fever or any active systemic infections, including known HIV, hepatitis B or C. \n\n Patients on immunosuppressive therapy or with immune system disorders, including autoimmune diseases. \n\n Concurrent steroid use of more than an equivalent of 20 mg/day prednisone (or equivalent). \n\n Prior splenectomy. \n\n Previous organ transplant. \n\n Patients with clinically significant dermatological disorders, e.g., eczema or psoriasis, as judged by the principal investigator, or any unhealed skin wounds or ulcers. \n\n Clinically significant cardiac disease (New York Heart Association, Class III or IV). \n\n Dementia or altered mental status that would prohibit informed consent. \n\n Other severe, acute, or chronic medical or psychiatric condition or laboratory abnormality, that may increase the risk associated with study participation or study drug administration, or may interfere with the interpretation of study results and, in the judgment of the principal investigator, would make the patient inappropriate for this study. \n\n Known allergy to ovalbumin or other egg products. \n\n Prior gene therapy treatments or prior therapy with cytolytic virus of any type. \n\n Concurrent therapy with any other investigational anticancer agent. \n\n Concurrent antiviral agent active against vaccinia virus (e.g. cidofovir, vaccinia immunoglobulin) during the study.",
+    "parsed_trial_fields": {
+      "disease": "NSCLC",
+      "stage": [
+        "IV"
+      ],
+      "M_status": null,
+      "requires_prior_chemo": true,
+      "requires_non_squamous": false,
+      "requires_squamous": false,
+      "iiib_requires_effusion": false,
+      "performance_status": "",
+      "FEV1_cc_min": null,
+      "FEV1_pct_min": null,
+      "excl_prior_chemo": "NOT_AN_EXCLUSION",
+      "excl_prior_radio": "NOT_AN_EXCLUSION",
+      "excl_cardiovascular": "EXCLUDED_IF_PRESENT",
+      "excl_active_infection": "NOT_AN_EXCLUSION"
+    },
+    "extracted_patient_fields": {
+      "disease": "NSCLC",
+      "histology": "",
+      "stage_group": "IV",
+      "T_stage": "",
+      "N_stage": "",
+      "M_stage": "",
+      "has_effusion": true,
+      "performance_status": "1",
+      "prior_chemotherapy": false,
+      "prior_radiotherapy": false,
+      "cardiovascular_event": true,
+      "active_infection": false,
+      "FEV1_cc": null,
+      "FEV1_pct": null
+    },
+    "failing_clauses": [
+      "requires_prior_chemo"
+    ],
+    "clause_evaluations": [
+      {
+        "condition": "disease",
+        "sql": "(disease IN ('LUNG', 'NSCLC', 'SCLC') OR disease IS NULL OR disease = '')",
+        "result": true
+      },
+      {
+        "condition": "stage",
+        "sql": "(stage_group IN ('IV', 'IVA', 'IVB'))",
+        "result": true
+      },
+      {
+        "condition": "requires_prior_chemo",
+        "sql": "prior_chemotherapy = 1",
+        "result": false
+      }
+    ]
+  },
+  {
+    "pair_id": "P0038__NCT02182102",
+    "trial_id": "NCT02182102",
+    "ground_truth": "Eligible",
+    "patient_profile": "A 68-year-old with stage IIIB (T3N2M0) adenocarcinoma of the lung. The patient has recurrent disease after previous treatment. Imaging shows measurable disease per RECIST v1.1. He has an ECOG performance status of 0. Molecular profiling showed no actionable driver mutation. He previously received chemotherapy (3-6 months ago).",
+    "inclusion_criteria_verbatim": "inclusion criteria: \n\n Pathologic confirmation of metastatic, unresectable, or locally advanced NSCLC (non-small cell lung cancer) \n\n Disease progression during or following one prior platinum-based (including prior neoadjuvant or adjuvant therapy) chemotherapy regimen for advanced disease \n\n Bi-dimensionally measurable disease by one or more techniques (CT (computed tomography), MRI (magnetic resonance imaging), X-ray) \n\n Age 18 years or older \n\n Life expectancy of at least three (3) months \n\n Eastern Cooperative Oncology Group (ECOG) performance score 0-2 \n\n Written informed consent that is consistent with ICH-GCP (International Conference on Harmonization - Good Clinical Practice) guidelines \n\n ",
+    "exclusion_criteria_verbatim": ": \n\n Participation in another clinical study within the past 28 days prior to the start of therapy or concomitantly with this study \n\n Treatment for NSCLC (except radiotherapy for palliative reasons) within the past 28 days prior to Treatment Day 1 of this trial. All toxicities of the previous therapy must have resolved to baseline prior to Treatment Day 1 \n\n Patient has received more than one prior chemotherapy regimen for advanced disease \n\n Radiotherapy to an area of measurable disease (unless disease progression had been documented following completion of therapy) \n\n Patients who are unwilling or unable to take folic acid and vitamin B12 supplementation \n\n Radiotherapy within 4 weeks prior to Treatment Day 1 \n\n Prior treatment with agents that target the vascular endothelial growth factor (VEGF) pathways, including monoclonal antibody therapy (such as bevacizumab) or tyrosine kinase inhibitors \n\n Active brain metastases (stable for <28 days, symptomatic, or requiring concurrent steroids or antiepileptic therapy). Patients who have received prior whole brain irradiation and whose brain metastases are stable according to the criteria above will not be excluded \n\n Centrally located tumors with radiologic evidence (CT or MRI) of local invasion of major blood vessels, with exception of those tumors which have received prior irradiation and are stable \n\n Cavitary or necrotic tumors \n\n Sanguinous pleural effusion due to disease or pericardial effusion suspicious for disease \n\n Other active malignancy diagnosed within the past 3 years (other than non-melanomatous skin cancer) \n\n Gastrointestinal abnormalities that would interfere with intake or absorption (with exception of patients with gastric esophageal reflux disease controlled with proton pump inhibitors) of the study drug, such as a requirement for intravenous alimentation, prior surgical procedures affecting absorption, treatment for peptic ulcer disease within the last 6 months, active gastrointestinal bleeding unrelated to cancer (as evidenced by either hematemesis, hematochezia, or melena in the past 3 months and without endoscopic documented resolution), or malabsorption syndromes \n\n Significant cardiovascular disease (i.e., uncontrolled hypertension, myocardial infarction within 6 months, unstable angina, serious cardiac arrhythmia, >2 New York Heart Association (NYHA) Grade 2 congestive heart failure) \n\n History of hemorrhagic or thrombotic event (including transient ischemic attacks) in the past 12 months or clinically significant hemoptysis in the past 3 months \n\n Patients receiving any anti-coagulant therapy (including coumadin, heparin, low molecular weight heparin, and aspirin \n\n Patient has received prior therapy with pemetrexed \n\n Absolute neutrophil count (ANC) \u22641,500/\u03bcl, platelet count \u2264100,000/\u03bcl, or hemoglobin <9 gm/dL \n\n Total bilirubin >1.5 mg/dL (26 \u03bcmole/L, SI-Unit equivalent), alanine amino transferase (ALT) and/or aspartate amino transferase (AST) \u22651.5 X upper limit of normal (ULN) \n\n Inadequate renal function determined by a serum creatinine level >1.5 X ULN \n\n Patient is unable or unwilling to interrupt aspirin or other NSAIDS for a 5-day period (8 days period for long lasting agents like piroxicam) \n\n Persistent hematuria or proteinuria (more than trace) \n\n Women and men who are sexually active and unwilling to use a medically acceptable method of contraception \n\n Pregnancy or breast feeding \n\n Known or suspected active alcohol or drug abuse \n\n Patients unable to comply with the protocol",
+    "parsed_trial_fields": {
+      "disease": "NSCLC",
+      "stage": [],
+      "M_status": null,
+      "requires_prior_chemo": false,
+      "requires_non_squamous": false,
+      "requires_squamous": false,
+      "iiib_requires_effusion": false,
+      "performance_status": "",
+      "FEV1_cc_min": null,
+      "FEV1_pct_min": null,
+      "excl_prior_chemo": "EXCLUDED_IF_PRESENT",
+      "excl_prior_radio": "NOT_AN_EXCLUSION",
+      "excl_cardiovascular": "EXCLUDED_IF_PRESENT",
+      "excl_active_infection": "NOT_AN_EXCLUSION"
+    },
+    "extracted_patient_fields": {
+      "disease": "NSCLC",
+      "histology": "non-squamous",
+      "stage_group": "IIIB",
+      "T_stage": "",
+      "N_stage": "",
+      "M_stage": "",
+      "has_effusion": false,
+      "performance_status": "0",
+      "prior_chemotherapy": true,
+      "prior_radiotherapy": false,
+      "cardiovascular_event": false,
+      "active_infection": false,
+      "FEV1_cc": null,
+      "FEV1_pct": null
+    },
+    "failing_clauses": [
+      "prior_systemic_chemotherapy"
+    ],
+    "clause_evaluations": [
+      {
+        "condition": "disease",
+        "sql": "(disease IN ('LUNG', 'NSCLC', 'SCLC') OR disease IS NULL OR disease = '')",
+        "result": true
+      },
+      {
+        "condition": "prior_systemic_chemotherapy",
+        "sql": "prior_chemotherapy = 0",
+        "result": false
+      },
+      {
+        "condition": "prior_targeted_therapy",
+        "sql": "prior_targeted_therapy = 0",
+        "result": true
+      }
+    ]
+  },
+  {
+    "pair_id": "P0040__NCT02182102",
+    "trial_id": "NCT02182102",
+    "ground_truth": "Eligible",
+    "patient_profile": "A 50-year-old female with Stage IV (T4N3M1c) NSCLC who has experienced disease progression following exactly one prior platinum-based chemotherapy regimen.She has measurable disease per RECIST v1.1, an ECOG performance status of 0 (KPS 90), and an ALK rearrangement. Her prior autoimmune condition is quiescent and not requiring systemic therapy.She has no prior pemetrexed or anti-VEGF therapy, no active brain metastases, no major vessel invasion, and normal organ, marrow, and renal function. She is willing to take folic acid/B12 supplementation, interrupt NSAIDs/aspirin, use acceptable contraception, and provide written informed consent.",
+    "inclusion_criteria_verbatim": "inclusion criteria: \n\n Pathologic confirmation of metastatic, unresectable, or locally advanced NSCLC (non-small cell lung cancer) \n\n Disease progression during or following one prior platinum-based (including prior neoadjuvant or adjuvant therapy) chemotherapy regimen for advanced disease \n\n Bi-dimensionally measurable disease by one or more techniques (CT (computed tomography), MRI (magnetic resonance imaging), X-ray) \n\n Age 18 years or older \n\n Life expectancy of at least three (3) months \n\n Eastern Cooperative Oncology Group (ECOG) performance score 0-2 \n\n Written informed consent that is consistent with ICH-GCP (International Conference on Harmonization - Good Clinical Practice) guidelines \n\n ",
+    "exclusion_criteria_verbatim": ": \n\n Participation in another clinical study within the past 28 days prior to the start of therapy or concomitantly with this study \n\n Treatment for NSCLC (except radiotherapy for palliative reasons) within the past 28 days prior to Treatment Day 1 of this trial. All toxicities of the previous therapy must have resolved to baseline prior to Treatment Day 1 \n\n Patient has received more than one prior chemotherapy regimen for advanced disease \n\n Radiotherapy to an area of measurable disease (unless disease progression had been documented following completion of therapy) \n\n Patients who are unwilling or unable to take folic acid and vitamin B12 supplementation \n\n Radiotherapy within 4 weeks prior to Treatment Day 1 \n\n Prior treatment with agents that target the vascular endothelial growth factor (VEGF) pathways, including monoclonal antibody therapy (such as bevacizumab) or tyrosine kinase inhibitors \n\n Active brain metastases (stable for <28 days, symptomatic, or requiring concurrent steroids or antiepileptic therapy). Patients who have received prior whole brain irradiation and whose brain metastases are stable according to the criteria above will not be excluded \n\n Centrally located tumors with radiologic evidence (CT or MRI) of local invasion of major blood vessels, with exception of those tumors which have received prior irradiation and are stable \n\n Cavitary or necrotic tumors \n\n Sanguinous pleural effusion due to disease or pericardial effusion suspicious for disease \n\n Other active malignancy diagnosed within the past 3 years (other than non-melanomatous skin cancer) \n\n Gastrointestinal abnormalities that would interfere with intake or absorption (with exception of patients with gastric esophageal reflux disease controlled with proton pump inhibitors) of the study drug, such as a requirement for intravenous alimentation, prior surgical procedures affecting absorption, treatment for peptic ulcer disease within the last 6 months, active gastrointestinal bleeding unrelated to cancer (as evidenced by either hematemesis, hematochezia, or melena in the past 3 months and without endoscopic documented resolution), or malabsorption syndromes \n\n Significant cardiovascular disease (i.e., uncontrolled hypertension, myocardial infarction within 6 months, unstable angina, serious cardiac arrhythmia, >2 New York Heart Association (NYHA) Grade 2 congestive heart failure) \n\n History of hemorrhagic or thrombotic event (including transient ischemic attacks) in the past 12 months or clinically significant hemoptysis in the past 3 months \n\n Patients receiving any anti-coagulant therapy (including coumadin, heparin, low molecular weight heparin, and aspirin \n\n Patient has received prior therapy with pemetrexed \n\n Absolute neutrophil count (ANC) \u22641,500/\u03bcl, platelet count \u2264100,000/\u03bcl, or hemoglobin <9 gm/dL \n\n Total bilirubin >1.5 mg/dL (26 \u03bcmole/L, SI-Unit equivalent), alanine amino transferase (ALT) and/or aspartate amino transferase (AST) \u22651.5 X upper limit of normal (ULN) \n\n Inadequate renal function determined by a serum creatinine level >1.5 X ULN \n\n Patient is unable or unwilling to interrupt aspirin or other NSAIDS for a 5-day period (8 days period for long lasting agents like piroxicam) \n\n Persistent hematuria or proteinuria (more than trace) \n\n Women and men who are sexually active and unwilling to use a medically acceptable method of contraception \n\n Pregnancy or breast feeding \n\n Known or suspected active alcohol or drug abuse \n\n Patients unable to comply with the protocol",
+    "parsed_trial_fields": {
+      "disease": "NSCLC",
+      "stage": [],
+      "M_status": null,
+      "requires_prior_chemo": false,
+      "requires_non_squamous": false,
+      "requires_squamous": false,
+      "iiib_requires_effusion": false,
+      "performance_status": "",
+      "FEV1_cc_min": null,
+      "FEV1_pct_min": null,
+      "excl_prior_chemo": "EXCLUDED_IF_PRESENT",
+      "excl_prior_radio": "NOT_AN_EXCLUSION",
+      "excl_cardiovascular": "EXCLUDED_IF_PRESENT",
+      "excl_active_infection": "NOT_AN_EXCLUSION"
+    },
+    "extracted_patient_fields": {
+      "disease": "NSCLC",
+      "histology": "",
+      "stage_group": "IV",
+      "T_stage": "",
+      "N_stage": "",
+      "M_stage": "",
+      "has_effusion": false,
+      "performance_status": "0",
+      "prior_chemotherapy": true,
+      "prior_radiotherapy": false,
+      "cardiovascular_event": false,
+      "active_infection": false,
+      "FEV1_cc": null,
+      "FEV1_pct": null
+    },
+    "failing_clauses": [
+      "prior_systemic_chemotherapy"
+    ],
+    "clause_evaluations": [
+      {
+        "condition": "disease",
+        "sql": "(disease IN ('LUNG', 'NSCLC', 'SCLC') OR disease IS NULL OR disease = '')",
+        "result": true
+      },
+      {
+        "condition": "prior_systemic_chemotherapy",
+        "sql": "prior_chemotherapy = 0",
+        "result": false
+      },
+      {
+        "condition": "prior_targeted_therapy",
+        "sql": "prior_targeted_therapy = 0",
+        "result": true
+      }
+    ]
+  },
+  {
+    "pair_id": "P0043__NCT02182232",
+    "trial_id": "NCT02182232",
+    "ground_truth": "Eligible",
+    "patient_profile": "A 38-year-old male patient presents with locally advanced, histologically confirmed Stage IIIB (T4N2M0) non-small cell lung cancer.Molecular testing of his tumor confirms an activating EGFR mutation (Exon 21 L858R). He is entirely treatment-naive regarding systemic anti-neoplastic therapy or immunotherapy for advanced disease (he has undergone no prior chemotherapy, biologic therapy, or HER-axis treatments).Imaging demonstrates bi-dimensionally measurable soft-tissue lesions per RECIST v1.1. His Karnofsky Performance Status is 90, reflecting an ECOG performance status of 0. He has normal upper gastrointestinal integrity, no ocular surface inflammation, no peripheral neuropathy, no active brain or spinal cord compression lesions, and a clean baseline health status without HIV.",
+    "inclusion_criteria_verbatim": "inclusion criteria: \n\n Male or female patients with histologically or cytologically confirmed Stage IIIB (including pleural effusion), IV or recurrent NSCLC \n\n Bi-dimensionally measurable disease by one or more techniques (CT, MRI, X-ray) \n\n Age 18 years or older \n\n Life expectancy of at least three (3) months \n\n Eastern Cooperative Oncology Group (ECOG) performance score 0 or 1 \n\n Written informed consent that is consistent with ICH-GCP guidelines \n\n ",
+    "exclusion_criteria_verbatim": ": \n\n Prior treatment for NSCLC including chemotherapy, biologic response modifier therapy, or any investigational drug \n\n Participation in another clinical study within the past four weeks before start of therapy or concomitantly with this study \n\n Active brain metastases (stable for <28 days, symptomatic, or requiring concurrent steroids or antiepileptic therapy) \n\n Centrally located tumors with radiologic evidence (CT or MRI) of local invasion of major blood vessels \n\n Cavitary or necrotic tumors \n\n Sanguinous pleural effusion due to disease or pericardial effusion suspicious for disease \n\n Radiotherapy to an area of measurable disease (unless disease progression had been documented following completion of therapy) \n\n Radiotherapy within 4 weeks preceding Day 0 \n\n Other active malignancy diagnosed within the past 3 years (other than non-melanomatous skin cancer) \n\n Gastrointestinal abnormalities that would interfere with intake or absorption of the study drug, such as a requirement for intravenous alimentation, prior surgical procedures affecting absorption, treatment for peptic ulcer disease within the last 6 months, active gastrointestinal bleeding unrelated to cancer (as evidenced by either hematemesis, hematochezia, or melena in the past 3 months and without endoscopic documented resolution), or malabsorption syndromes \n\n Significant cardiovascular disease (i.e., uncontrolled hypertension, myocardial infarction within 6 months, unstable angina, serious cardiac arrhythmia, \u2265NYHA Grade 2 congestive heart failure) \n\n History of hemorrhagic or thrombotic event (including transient ischemic attacks) in the past 12 months \n\n Clinically significant hemoptysis (1 teaspoon or more) in the past 3 months \n\n Concurrent therapeutic anticoagulation (except heparin flush as needed for maintenance of an indwelling intravenous device) or antiplatelet therapy (except chronic low-dose daily aspirin <325 mg) \n\n Known hypersensitivity to paclitaxel, carboplatin, or any of their excipients including Cremophor\u00ae (polyoxyethylated castor oil) \n\n Absolute neutrophil count (ANC) \u22641,500/\u03bcl, platelet count \u2264100,000/\u03bcl, or hemoglobin <9 gm/dL \n\n Total bilirubin >1.5 mg/dL (26 \u03bcmol/L, SI Unit equivalent), alanine amino transferase (ALT) and/or aspartate amino transferase (AST) \u22651.5 X ULN, \n\n Serum creatinine >1.5 mg/dL (>132 \u03bcmol/L, SI Unit equivalent) \n\n Persistent hematuria or proteinuria (more than trace) \n\n Women and men who are sexually active and unwilling to use a medically acceptable method of contraception \n\n Pregnancy or breastfeeding \n\n Known or suspected active alcohol or drug abuse \n\n Patients unable to comply with the protocol",
+    "parsed_trial_fields": {
+      "disease": "NSCLC",
+      "stage": [
+        "IIIB"
+      ],
+      "M_status": null,
+      "requires_prior_chemo": false,
+      "requires_non_squamous": false,
+      "requires_squamous": false,
+      "iiib_requires_effusion": true,
+      "performance_status": "",
+      "FEV1_cc_min": null,
+      "FEV1_pct_min": null,
+      "excl_prior_chemo": "NOT_AN_EXCLUSION",
+      "excl_prior_radio": "NOT_AN_EXCLUSION",
+      "excl_cardiovascular": "EXCLUDED_IF_PRESENT",
+      "excl_active_infection": "NOT_AN_EXCLUSION"
+    },
+    "extracted_patient_fields": {
+      "disease": "NSCLC",
+      "histology": "",
+      "stage_group": "IIIB",
+      "T_stage": "",
+      "N_stage": "",
+      "M_stage": "",
+      "has_effusion": false,
+      "performance_status": "0",
+      "prior_chemotherapy": false,
+      "prior_radiotherapy": false,
+      "cardiovascular_event": false,
+      "active_infection": true,
+      "FEV1_cc": null,
+      "FEV1_pct": null
+    },
+    "failing_clauses": [
+      "iiib_requires_effusion"
+    ],
+    "clause_evaluations": [
+      {
+        "condition": "disease",
+        "sql": "(disease IN ('LUNG', 'NSCLC', 'SCLC') OR disease IS NULL OR disease = '')",
+        "result": true
+      },
+      {
+        "condition": "stage",
+        "sql": "(stage_group IN ('IIIB'))",
+        "result": true
+      },
+      {
+        "condition": "iiib_requires_effusion",
+        "sql": "(stage_group NOT IN ('IIIB','III') OR has_effusion = 1)",
+        "result": false
+      }
+    ]
+  },
+  {
+    "pair_id": "P0045__NCT03360929",
+    "trial_id": "NCT03360929",
+    "ground_truth": "Eligible",
+    "patient_profile": "A 59-year-old Chinese female presents with histologically confirmed Stage IV non-small cell lung cancer (adenocarcinoma). Her disease involves documented, asymptomatic brain metastases, with MRI confirming at least one measurable intracranial target lesion.Molecular profiling of her tumor tissue demonstrates an activating EGFR mutation (Exon 19 deletion), and she is negative for the T790M resistance mutation. She is strictly EGFR TKI-na\u00efve. While she previously received a cytotoxic chemotherapy regimen, her last dose was administered 4 months ago (satisfying the >14 days washout requirement). She has not undergone whole-brain radiotherapy, nor has she had any recent major surgery or local cranial radiotherapy.She maintains an ECOG performance status of 1 with a life expectancy exceeding 3 months. She has no history of uncontrollable seizures, intracranial hypertension, or allergies to gefitinib-analogue excipients, and she is not taking any CYP3A4/5 interacting medications. Her cardiac history is stable (her prior myocardial infarction occurred over a year ago, fully resolved). Laboratory values reflect normal organ function: creatinine 1.0 mg/dL, ANC 5.6 x 10^3/\u00b5L, platelets 173,000/\u00b5L, hemoglobin 13.2 g/dL, and bilirubin 0.5 mg/dL.",
+    "inclusion_criteria_verbatim": "inclusion criteria: \n\n Subjects must provide written informed consent before any study related procedure. \n\n Male or female Chinese patients \u226518 years old. \n\n Histologically or cytologically confirmed non-small cell lung cancer with activating mutation in EGFR gene (including Exon19Del and/or L858R). A validated and robust test method reviewed and approved by the regulatory authority should be used to determine EGFR mutation status in tissue or plasma locally. \n\n Patients with advanced non-small cell lung cancer (stage IV) with documented BM and/or LM. Part A dose escalation can include EGFR TKI-na\u00efve NSCLC patients with measurable lung lesion and no BM. Patients with BM and/or LM in each dose group shall account for at least one-third. \n\n According to Eastern Cooperative Oncology Group (ECOG) Scale, performance status is grade 0 to 1, without worsening in the past 2 weeks, and life expectancy of at least 3 months. If ECOG performance status is grade 2 due to LM disease, the patient can also be enrolled. \n\n Non-surgical sterilized women of child-bearing potential and male subjects shall agree to take medically acceptable contraception measures during dosing of investigational drug and 3 months after completion of study treatment. Non-surgical sterilized women of child-bearing potential must have negative blood pregnancy test at screening. \n\n Asymptomatic BM patients who have not received prior treatment with any EGFR TKI or symptomatic BM patients who are not warranted temporally for definitive local treatment (surgery or radiotherapy). For patients with prior local treatment for BM lesion (surgery or radiotherapy), intracranial lesion progression is required. \n\n BM patients must have at least one measurable intracranial lesion; in case of prior radiotherapy for BM lesion, progression is required and must meet measurable lesion criteria again. Measurable extracranial disease is not required. \n\n LM patients must be confirmed by the presence of malignant cells by cerebrospinal fluid (CSF) cytology. Diagnosis of LM disease by MRI alone does not meet inclusion criteria. Patients with both BM and LM are considered as LM. \n\n LM patients must have at least one leptomeningeal lesion which shows visible abnormality by MRI. Measurable extracranial disease is not required. \n\n ",
+    "exclusion_criteria_verbatim": ": \n\n Patients meeting any of the following criteria cannot participate in the study: \n\n Have taken any other investigational drug in a clinical trial within 30 days prior to initial dose. \n\n Prior treatment with any EGFR TKI within 8 days or 5 half-lives of the drug (see table 19 Washout of EGFR TKIs) prior to initial dose of study drug. If the washout period for the EGFR TKI cannot be reached due to schedule or pharmacokinetic properties, an alternative washout period can be proposed based on recovery period of known adverse drug reactions, which must be agreed to in advance by the Investigator and the Sponsor. \n\n T790M mutation positive patients. \n\n Have received previous treatment regimen including any cytotoxic chemotherapy or other anti-cancer drugs (other than EGFR TKIs) for treatment of advanced non-small cell lung cancer within 14 days prior to initial dose of study drug. \n\n Patients with medically uncontrollable seizures and/or untreated (eg., requiring mannitol and/or placement a VP shunt) intracranial hypertension are excluded. \n\n Have undergone major surgical procedure (excluding placement of vascular indwelling needle) or serious trauma within 4 weeks prior to initial dose of study drug, or major surgical procedure is expected during the study. \n\n Patients who have received radiotherapy for a large area within 4 weeks, or local palliative radiotherapy for a small area within 1 week prior to initial dose of study drug (for subjects requiring radiotherapy for more than 30% bone marrow, the radiotherapy must be completed before 4 weeks prior to initial dose). \n\n BM and LM patients who have received whole-brain radiotherapy. \n\n Patients with a history of allergy to AZD3759 and its structural analogues (Gefitinib) or pharmaceutical excipients (whether active or not). \n\n Subjects who are receiving (or cannot discontinue at least 1 week prior to initial dose of study drug) any drug or traditional Chinese medicine known to inhibit or induce CYP3A4 or CYP3A5 activity.",
+    "parsed_trial_fields": {
+      "disease": "NSCLC",
+      "stage": [
+        "IV"
+      ],
+      "M_status": null,
+      "requires_prior_chemo": false,
+      "requires_non_squamous": false,
+      "requires_squamous": false,
+      "iiib_requires_effusion": false,
+      "performance_status": "",
+      "FEV1_cc_min": null,
+      "FEV1_pct_min": null,
+      "excl_prior_chemo": "EXCLUDED_IF_PRESENT",
+      "excl_prior_radio": "NOT_AN_EXCLUSION",
+      "excl_cardiovascular": "NOT_AN_EXCLUSION",
+      "excl_active_infection": "NOT_AN_EXCLUSION"
+    },
+    "extracted_patient_fields": {
+      "disease": "NSCLC",
+      "histology": "non-squamous",
+      "stage_group": "IV",
+      "T_stage": "790M",
+      "N_stage": "",
+      "M_stage": "",
+      "has_effusion": false,
+      "performance_status": "1",
+      "prior_chemotherapy": true,
+      "prior_radiotherapy": false,
+      "cardiovascular_event": true,
+      "active_infection": false,
+      "FEV1_cc": null,
+      "FEV1_pct": null
+    },
+    "failing_clauses": [
+      "prior_systemic_chemotherapy"
+    ],
+    "clause_evaluations": [
+      {
+        "condition": "disease",
+        "sql": "(disease IN ('LUNG', 'NSCLC', 'SCLC') OR disease IS NULL OR disease = '')",
+        "result": true
+      },
+      {
+        "condition": "stage",
+        "sql": "(stage_group IN ('IV', 'IVA', 'IVB'))",
+        "result": true
+      },
+      {
+        "condition": "prior_systemic_chemotherapy",
+        "sql": "prior_chemotherapy = 0",
+        "result": false
+      },
+      {
+        "condition": "prior_targeted_therapy",
+        "sql": "prior_targeted_therapy = 0",
+        "result": true
+      }
+    ]
+  }
+]

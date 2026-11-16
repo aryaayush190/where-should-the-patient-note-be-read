@@ -1,0 +1,382 @@
+{
+ "0128bac762": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Contraception use status not stated"
+ },
+ "03e5414e0c": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No EGFR mutation mentioned; KRAS G12C identified instead"
+ },
+ "0625bc9454": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No organ dysfunction reported; no evidence of significant dysfunction"
+ },
+ "08bb050321": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient progressed after prior platinum chemotherapy"
+ },
+ "098c176bf9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "White blood cell count not stated"
+ },
+ "0b14ee31a9": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No history of seizures or intracranial hypertension reported"
+ },
+ "122dd43b9f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Malignant pleural effusion indicates measurable lesion by imaging"
+ },
+ "1399f65557": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Tumor type and morphology not specified as cavitary or necrotic"
+ },
+ "154fdc6f4e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No GI abnormalities or absorption issues reported"
+ },
+ "16203437cd": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No other active cancer mentioned; only NSCLC present"
+ },
+ "19b80e7231": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No anticoagulant therapy reported"
+ },
+ "1e2d5dd2a1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Compliance with protocol not stated"
+ },
+ "250a5a72e0": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "No allergic reactions to biological products, asthma, or other allergies are mentioned in the note."
+ },
+ "26b14ea1f2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "CSF cytology results for leptomeningeal disease are not stated in the note."
+ },
+ "298f0ceeb2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Presence of intracranial lesion progression after prior brain treatment is not stated in the note."
+ },
+ "30001da547": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient has no reported active tuberculosis, hepatitis B, AIDS, or syphilis infection."
+ },
+ "32e2107f32": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Tumor tissue sample was available for molecular testing and central confirmation."
+ },
+ "3c7cd2d98e": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient has had prior chemotherapy, as stated in the note."
+ },
+ "3d496bb66e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on heart, lung, liver, kidney function or immune system status is provided."
+ },
+ "4bec7ea1a1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on intracranial lesions or prior radiotherapy for brain metastasis is provided."
+ },
+ "4bf833a934": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on tumor invasion or abutment of major blood vessels is provided."
+ },
+ "4db6714c89": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on aspirin or NSAID use or interruption is provided."
+ },
+ "4eb83e2c01": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No allergies or active infections affecting tolerance are mentioned in the note."
+ },
+ "50d1243369": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on radiotherapy timing or disease progression after completion"
+ },
+ "53d3c692c7": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient has histologically confirmed advanced NSCLC"
+ },
+ "58e871d944": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No data on end-organ function or systemic disease control"
+ },
+ "5c32b40b00": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on folic acid or vitamin B12 supplementation"
+ },
+ "5e0680de39": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No data on PET/CT timing or imaging findings"
+ },
+ "5f6da7f984": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on diabetes, hypertension, stroke, or kidney disease status"
+ },
+ "5fb33fb177": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No data on alcohol or drug abuse history"
+ },
+ "683029b89d": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on prior brain radiotherapy or intracranial lesion progression"
+ },
+ "6af738264a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No data on CYP3A4/5 inhibitor or inducer use"
+ },
+ "6cf13fb718": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on hemorrhagic/thrombotic events or hemoptysis"
+ },
+ "747ab510d9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No data on bilirubin levels or liver function"
+ },
+ "7863357e5e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on tumor location, vessel invasion, or prior irradiation"
+ },
+ "7caa314d2f": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on other malignancies within past 3 years is provided"
+ },
+ "7cad937428": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient is female of childbearing potential with negative pregnancy test and contraception agreement implied"
+ },
+ "81d272ec22": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No MRI findings or leptomeningeal lesions are described in the note"
+ },
+ "83a8f9e336": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Hemoglobin level is not stated, but peripheral neuropathy is present; no indication of below 9 g/dL"
+ },
+ "8976af4735": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on blood coagulation dysfunction is provided"
+ },
+ "8df03fc7d1": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "No abnormal liver function is mentioned; AST within normal limits assumed"
+ },
+ "933511afdd": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No thyroid function or TSH level is stated"
+ },
+ "933f7d79a9": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No creatinine level or value above 1.5 is stated"
+ },
+ "97854a1c45": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No values for ANC, platelets, or hemoglobin below thresholds are provided"
+ },
+ "989d47fbc3": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Brain metastases are not mentioned; disease is stable or untreated per clinical context"
+ },
+ "9a8d0eebb8": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No ongoing adverse events from prior therapies are reported"
+ },
+ "9b13285bc0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on brain metastases stability or treatment is provided"
+ },
+ "9d2b95131f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient has advanced NSCLC that progressed after radiation, chemotherapy, and targeted therapy."
+ },
+ "9ecdb12dc7": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No liver function test values provided; bilirubin, ALT, or AST levels not stated."
+ },
+ "a0bb93f5d7": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient received prior systemic therapy including chemotherapy and immunotherapy, not limited to adjuvant setting."
+ },
+ "a5b827a3f4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on urine protein or hematuria present in note."
+ },
+ "ad1e0cff0f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient has life expectancy of at least 3 months due to ECOG status 1 and ongoing disease."
+ },
+ "b07d357e44": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on brain imaging performed within 42 days prior to study entry."
+ },
+ "b481ad4ad0": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient is female, not pregnant or breastfeeding; no indication of pregnancy or lactation."
+ },
+ "b8d9688e9e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on sexual activity or contraception use provided in note."
+ },
+ "c10d98ed7b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No blood pressure values or hypertension control status provided in note."
+ },
+ "c3c34a9aca": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Malignant pleural effusion is present and not described as negative cytology or too small to tap."
+ },
+ "c58fbaf42a": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "KRAS G12C mutation is present, not T790M mutation."
+ },
+ "c67c5354dd": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on myocardial infarction or uncontrolled hypertension provided in note."
+ },
+ "c7750c6907": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Pregnancy or breastfeeding status is not stated"
+ },
+ "d0167bc974": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Fasting glucose level is not stated"
+ },
+ "d51904a648": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Malignant pleural effusion is present and suspicious for disease"
+ },
+ "d878c7080b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Allergy to AZD3759, Gefitinib, or related excipients is not stated"
+ },
+ "d9bdac4798": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Pleural effusion is present"
+ },
+ "dcb5aae09d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Creatinine or eGFR values are not stated"
+ },
+ "dcbb5daaf4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "ALT level or upper limit of normal is not stated"
+ },
+ "e3883c624b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "ALT level is not stated"
+ },
+ "e8308b718a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "QTc interval is not stated"
+ },
+ "ea2673beb7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Cardiovascular event or serious cardiac disease is not stated"
+ },
+ "eba8f701b4": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Malignant pleural effusion indicates measurable disease"
+ },
+ "ee81f30190": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Prior chemotherapy was received, but duration and timing relative to trial entry not specified"
+ },
+ "fb483c2713": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on FGFR1/2/3, VEGFA, or PDGFR\u03b1 alterations in molecular testing"
+ },
+ "ffac75eeec": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on patient's legal status or detention"
+ },
+ "3ec3d228fa": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "cb1a877739": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "f5e69c5a5f": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ }
+}

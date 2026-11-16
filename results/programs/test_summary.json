@@ -1,0 +1,361 @@
+{
+ "total": {
+  "lines": 486,
+  "atoms": 592,
+  "typed_atoms": 288,
+  "typed_atoms_agree": 221,
+  "downgraded": 67,
+  "agreement_rate": 0.767
+ },
+ "trials": [
+  {
+   "trial_id": "NCT02182102",
+   "lines": 33,
+   "atoms": 39,
+   "typed_atoms": 21,
+   "typed_atoms_agree": 16,
+   "downgraded": 5,
+   "types": {
+    "IN": 5,
+    "COUNT": 2,
+    "IS": 3,
+    "CMP": 4,
+    "UNSCREENABLE": 1,
+    "JUDGE": 17,
+    "WITHIN": 2,
+    "HAS": 2,
+    "ANY": 3
+   },
+   "chunk_failures": [],
+   "secs": 172.3
+  },
+  {
+   "trial_id": "NCT02182232",
+   "lines": 29,
+   "atoms": 36,
+   "typed_atoms": 19,
+   "typed_atoms_agree": 16,
+   "downgraded": 3,
+   "types": {
+    "IN": 5,
+    "IS": 3,
+    "CMP": 5,
+    "UNSCREENABLE": 1,
+    "HAS": 1,
+    "JUDGE": 16,
+    "WITHIN": 1,
+    "ALL": 1,
+    "ANY": 3
+   },
+   "chunk_failures": [],
+   "secs": 172.3
+  },
+  {
+   "trial_id": "NCT02073968",
+   "lines": 31,
+   "atoms": 30,
+   "typed_atoms": 19,
+   "typed_atoms_agree": 16,
+   "downgraded": 3,
+   "types": {
+    "IN": 2,
+    "IF": 3,
+    "UNSCREENABLE": 6,
+    "ANY": 3,
+    "HAS": 2,
+    "CMP": 7,
+    "IS": 2,
+    "JUDGE": 5
+   },
+   "chunk_failures": [],
+   "secs": 172.3
+  },
+  {
+   "trial_id": "NCT03431415",
+   "lines": 27,
+   "atoms": 29,
+   "typed_atoms": 10,
+   "typed_atoms_agree": 8,
+   "downgraded": 2,
+   "types": {
+    "CMP": 3,
+    "IN": 2,
+    "JUDGE": 17,
+    "IF": 1,
+    "UNSCREENABLE": 2,
+    "HAS": 2,
+    "IS": 1,
+    "ANY": 1
+   },
+   "chunk_failures": [],
+   "secs": 172.3
+  },
+  {
+   "trial_id": "NCT00465907",
+   "lines": 24,
+   "atoms": 30,
+   "typed_atoms": 22,
+   "typed_atoms_agree": 20,
+   "downgraded": 2,
+   "types": {
+    "IN": 3,
+    "IS": 4,
+    "JUDGE": 7,
+    "CMP": 12,
+    "HAS": 1,
+    "UNSCREENABLE": 1,
+    "ANY": 2
+   },
+   "chunk_failures": [],
+   "secs": 150.0
+  },
+  {
+   "trial_id": "NCT00753714",
+   "lines": 8,
+   "atoms": 12,
+   "typed_atoms": 9,
+   "typed_atoms_agree": 6,
+   "downgraded": 3,
+   "types": {
+    "IN": 2,
+    "ANY": 1,
+    "IS": 1,
+    "JUDGE": 3,
+    "HAS": 2,
+    "IF": 1,
+    "CMP": 2
+   },
+   "chunk_failures": [],
+   "secs": 143.4
+  },
+  {
+   "trial_id": "NCT03057340",
+   "lines": 14,
+   "atoms": 20,
+   "typed_atoms": 9,
+   "typed_atoms_agree": 6,
+   "downgraded": 3,
+   "types": {
+    "CMP": 2,
+    "IN": 3,
+    "HAS": 2,
+    "JUDGE": 8,
+    "UNSCREENABLE": 3,
+    "IS": 2
+   },
+   "chunk_failures": [],
+   "secs": 141.8
+  },
+  {
+   "trial_id": "NCT03141359",
+   "lines": 18,
+   "atoms": 27,
+   "typed_atoms": 15,
+   "typed_atoms_agree": 12,
+   "downgraded": 3,
+   "types": {
+    "UNSCREENABLE": 4,
+    "IN": 2,
+    "JUDGE": 8,
+    "IS": 2,
+    "CMP": 9,
+    "HAS": 2
+   },
+   "chunk_failures": [],
+   "secs": 138.2
+  },
+  {
+   "trial_id": "NCT00266877",
+   "lines": 16,
+   "atoms": 22,
+   "typed_atoms": 11,
+   "typed_atoms_agree": 9,
+   "downgraded": 2,
+   "types": {
+    "IN": 2,
+    "ANY": 1,
+    "JUDGE": 11,
+    "HAS": 2,
+    "CMP": 1,
+    "IS": 2,
+    "COUNT": 1,
+    "WITHIN": 2
+   },
+   "chunk_failures": [],
+   "secs": 129.7
+  },
+  {
+   "trial_id": "NCT01766739",
+   "lines": 29,
+   "atoms": 34,
+   "typed_atoms": 20,
+   "typed_atoms_agree": 15,
+   "downgraded": 5,
+   "types": {
+    "IN": 1,
+    "IS": 3,
+    "CMP": 9,
+    "JUDGE": 13,
+    "SINCE": 1,
+    "WITHIN": 3,
+    "UNSCREENABLE": 1,
+    "IF": 2,
+    "HAS": 1
+   },
+   "chunk_failures": [],
+   "secs": 128.5
+  },
+  {
+   "trial_id": "NCT03360929",
+   "lines": 21,
+   "atoms": 27,
+   "typed_atoms": 16,
+   "typed_atoms_agree": 9,
+   "downgraded": 7,
+   "types": {
+    "UNSCREENABLE": 3,
+    "CMP": 3,
+    "IN": 4,
+    "IF": 1,
+    "JUDGE": 8,
+    "IS": 1,
+    "WITHIN": 6,
+    "HAS": 1
+   },
+   "chunk_failures": [],
+   "secs": 117.1
+  },
+  {
+   "trial_id": "NCT00049543",
+   "lines": 42,
+   "atoms": 47,
+   "typed_atoms": 16,
+   "typed_atoms_agree": 12,
+   "downgraded": 4,
+   "types": {
+    "IN": 2,
+    "JUDGE": 25,
+    "UNSCREENABLE": 6,
+    "CMP": 7,
+    "ANY": 4,
+    "IF": 2,
+    "IS": 1
+   },
+   "chunk_failures": [],
+   "secs": 115.0
+  },
+  {
+   "trial_id": "NCT00550173",
+   "lines": 10,
+   "atoms": 13,
+   "typed_atoms": 8,
+   "typed_atoms_agree": 6,
+   "downgraded": 2,
+   "types": {
+    "IN": 4,
+    "JUDGE": 5,
+    "IS": 1,
+    "CMP": 1,
+    "COUNT": 1,
+    "HAS": 1
+   },
+   "chunk_failures": [],
+   "secs": 105.8
+  },
+  {
+   "trial_id": "NCT01047059",
+   "lines": 52,
+   "atoms": 61,
+   "typed_atoms": 20,
+   "typed_atoms_agree": 17,
+   "downgraded": 3,
+   "types": {
+    "IN": 4,
+    "ANY": 1,
+    "JUDGE": 40,
+    "CMP": 11,
+    "UNSCREENABLE": 1,
+    "HAS": 2,
+    "IS": 2
+   },
+   "chunk_failures": [],
+   "secs": 95.4
+  },
+  {
+   "trial_id": "NCT01342965",
+   "lines": 14,
+   "atoms": 17,
+   "typed_atoms": 11,
+   "typed_atoms_agree": 10,
+   "downgraded": 1,
+   "types": {
+    "CMP": 3,
+    "IN": 4,
+    "IS": 2,
+    "HAS": 2,
+    "JUDGE": 6
+   },
+   "chunk_failures": [],
+   "secs": 92.3
+  },
+  {
+   "trial_id": "NCT01639508",
+   "lines": 53,
+   "atoms": 71,
+   "typed_atoms": 29,
+   "typed_atoms_agree": 19,
+   "downgraded": 10,
+   "types": {
+    "UNSCREENABLE": 7,
+    "IN": 5,
+    "ANY": 4,
+    "IF": 3,
+    "CMP": 9,
+    "IS": 3,
+    "ALL": 1,
+    "JUDGE": 35,
+    "WITHIN": 2,
+    "HAS": 2
+   },
+   "chunk_failures": [],
+   "secs": 81.6
+  },
+  {
+   "trial_id": "NCT02109016",
+   "lines": 13,
+   "atoms": 14,
+   "typed_atoms": 7,
+   "typed_atoms_agree": 6,
+   "downgraded": 1,
+   "types": {
+    "IN": 3,
+    "JUDGE": 7,
+    "CMP": 1,
+    "IS": 2,
+    "COUNT": 1
+   },
+   "chunk_failures": [],
+   "secs": 71.8
+  },
+  {
+   "trial_id": "NCT04808752",
+   "lines": 52,
+   "atoms": 63,
+   "typed_atoms": 26,
+   "typed_atoms_agree": 18,
+   "downgraded": 8,
+   "types": {
+    "CMP": 11,
+    "IN": 4,
+    "HAS": 2,
+    "JUDGE": 33,
+    "IS": 4,
+    "UNSCREENABLE": 4,
+    "WITHIN": 4,
+    "ALL": 1
+   },
+   "chunk_failures": [],
+   "secs": 68.3
+  }
+ ]
+}

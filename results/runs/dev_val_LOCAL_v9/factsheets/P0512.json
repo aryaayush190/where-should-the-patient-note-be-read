@@ -1,0 +1,318 @@
+{
+ "patient_id": "P0512",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    67.0,
+    67.0
+   ],
+   "evidence": "67-year-old",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "female",
+   "evidence": "Ms.",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": false
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "Stage IV (T4N3M1a) large cell carcinoma of the lung",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "histology": {
+   "status": "value",
+   "value": "large_cell",
+   "evidence": "large cell carcinoma of the lung",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IV",
+   "evidence": "Stage IV (T4N3M1a)",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "newly_diagnosed",
+   "evidence": "has pathologically confirmed Stage IV large cell carcinoma of the lung",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "kps": {
+   "status": "value",
+   "value": [
+    80.0,
+    80.0
+   ],
+   "evidence": "Karnofsky Performance Status of 80",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "egfr": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular testing has not been performed",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "alk": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular testing has not been performed",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ros1": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular testing has not been performed",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "kras": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular testing has not been performed",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ret": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular testing has not been performed",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "braf": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular testing has not been performed",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "met": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "Molecular testing has not been performed",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "brain_mets": {
+   "status": "negated",
+   "value": "none",
+   "evidence": "no evidence of brain metastases",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "malignant_effusion": {
+   "status": "value",
+   "value": true,
+   "evidence": "malignant pleural effusion requiring therapeutic drainage",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "mi_history": {
+   "status": "negated",
+   "value": null,
+   "evidence": "no evidence of brain metastases, significant cardiovascular or cerebrovascular disease, or recent hemoptysis",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "unstable_angina": {
+   "status": "negated",
+   "value": null,
+   "evidence": "no evidence of brain metastases, significant cardiovascular or cerebrovascular disease, or recent hemoptysis",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "chf": {
+   "status": "negated",
+   "value": null,
+   "evidence": "no evidence of brain metastases, significant cardiovascular or cerebrovascular disease, or recent hemoptysis",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "arrhythmia": {
+   "status": "negated",
+   "value": "none",
+   "evidence": "no evidence of brain metastases, significant cardiovascular or cerebrovascular disease, or recent hemoptysis",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "creatinine_mg_dl": {
+   "status": "value",
+   "value": [
+    0.9,
+    0.9
+   ],
+   "evidence": "creatinine 0.9 mg/dL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "bilirubin_mg_dl": {
+   "status": "value",
+   "value": [
+    0.8,
+    0.8
+   ],
+   "evidence": "bilirubin 0.8 mg/dL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "wbc_k_ul": {
+   "status": "value",
+   "value": [
+    5.8,
+    5.8
+   ],
+   "evidence": "WBC 5.8 ×10³/µL",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "platelets_k_ul": {
+   "status": "value",
+   "value": [
+    245.0,
+    245.0
+   ],
+   "evidence": "platelets 245k/µL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "hemoglobin_g_dl": {
+   "status": "value",
+   "value": [
+    12.6,
+    12.6
+   ],
+   "evidence": "hemoglobin 12.6 g/dL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_t": {
+   "status": "value",
+   "value": "T4",
+   "evidence": "Stage IV (T4N3M1a) large cell carcinoma of the lung",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_n": {
+   "status": "value",
+   "value": "N3",
+   "evidence": "Stage IV (T4N3M1a) large cell carcinoma of the lung",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_m": {
+   "status": "value",
+   "value": "M1A",
+   "evidence": "Stage IV (T4N3M1a) large cell carcinoma of the lung",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  }
+ },
+ "therapy_status": "negated",
+ "events": [],
+ "lines_of_therapy": null,
+ "reader_meta": {
+  "reader": "edge_local",
+  "conflicts": [],
+  "therapy_verified": false,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 250.567,
+   "prompt_tokens": 1557,
+   "gen_tokens": 1588,
+   "prompt_s": 6.798,
+   "gen_s": 241.716,
+   "load_s": 0.003
+  }
+ }
+}

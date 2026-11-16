@@ -1,0 +1,407 @@
+{
+ "01149ff4b4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Cardiac arrhythmia is controlled, but ECG QTc value not stated"
+ },
+ "0128bac762": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Patient's gender and contraception status not stated"
+ },
+ "0625bc9454": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Pulmonary function shows FEV1 86% predicted, no evidence of heart, liver, kidney or bone marrow dysfunction"
+ },
+ "08bb050321": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient had prior platinum-based chemotherapy for advanced disease with recurrence"
+ },
+ "098c176bf9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "White blood cell count not stated in the note"
+ },
+ "122dd43b9f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Imaging shows measurable disease per RECIST v1.1 with lesion size per imaging criteria"
+ },
+ "1399f65557": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Tumor type or appearance (cavitary/necrotic) not described in imaging details"
+ },
+ "154fdc6f4e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on gastrointestinal abnormalities or absorption issues provided"
+ },
+ "16203437cd": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient has NSCLC with brain metastases, no evidence of another active cancer"
+ },
+ "19b80e7231": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on current anti-coagulant therapy or use"
+ },
+ "1bcb3429fa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Liver enzyme levels or AST values not stated in the note"
+ },
+ "1e2d5dd2a1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on compliance with protocol or ability to follow it"
+ },
+ "250a5a72e0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Allergic history or constitution not stated in the note"
+ },
+ "2b8c88fcaa": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No brain imaging within past 8 weeks is stated; disease progression not assessed"
+ },
+ "30001da547": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on tuberculosis, hepatitis B, AIDS, or syphilis infection is provided"
+ },
+ "32e2107f32": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Tumor tissue sample availability for central confirmation is not stated"
+ },
+ "3d496bb66e": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Cardiac arrhythmia is controlled; pulmonary function normal; no liver/kidney issues mentioned"
+ },
+ "3ec3d228fa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Platelet count not stated in the note"
+ },
+ "4581ef1119": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on prior organ transplant is provided"
+ },
+ "4bf833a934": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on tumor invasion or abutment of major blood vessels is provided"
+ },
+ "4db6714c89": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on aspirin or NSAID use or interruption is provided"
+ },
+ "4e0330adb8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on mental status or capacity for informed consent is provided"
+ },
+ "50d1243369": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Radiotherapy to measurable disease site and progression status not stated"
+ },
+ "5683e0b3a7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on autoimmune disease is provided in the note"
+ },
+ "58e871d944": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient has controlled cardiac arrhythmia and stable pulmonary function; no evidence of severe uncontrolled systemic disease"
+ },
+ "5bb82fd6d8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on bilirubin levels or liver function is provided"
+ },
+ "5c0804ebb1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on current steroid use or dose is provided"
+ },
+ "5c32b40b00": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on patient's willingness or ability to take folic acid and vitamin B12 is provided"
+ },
+ "5e0680de39": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on PET/CT or CT imaging timing or findings is provided"
+ },
+ "5f6da7f984": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient has controlled cardiac arrhythmia; no evidence of uncontrolled diabetes, hypertension, stroke, or kidney disease"
+ },
+ "5fb33fb177": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on alcohol or drug abuse is provided"
+ },
+ "6cf13fb718": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on hemorrhagic or thrombotic events or hemoptysis is provided"
+ },
+ "6df4b3a1d4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on PET/CT or CT imaging timing or findings is provided"
+ },
+ "747ab510d9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on bilirubin levels is provided"
+ },
+ "7863357e5e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on tumor location or vessel invasion or prior irradiation is provided"
+ },
+ "7caa314d2f": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on other malignancies within past 3 years is provided"
+ },
+ "83a8f9e336": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Hemoglobin level not stated in the note"
+ },
+ "8976af4735": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on blood coagulation dysfunction is provided"
+ },
+ "8d66bff067": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on egg product allergies is provided"
+ },
+ "8df03fc7d1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on AST level or ULN is provided"
+ },
+ "91c5874ee1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on dermatological disorders or skin wounds is provided"
+ },
+ "924c3d1193": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on concurrent investigational anticancer therapy is provided"
+ },
+ "933511afdd": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on thyroid function or TSH levels is provided"
+ },
+ "933f7d79a9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on creatinine level or its relation to ULN is provided"
+ },
+ "97854a1c45": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on ANC, platelets, or hemoglobin levels is provided"
+ },
+ "9a8d0eebb8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on ongoing adverse events from prior therapies is provided"
+ },
+ "9b13285bc0": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient has symptomatic brain metastases requiring steroids/antiepileptics"
+ },
+ "9d2b95131f": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on radiation or targeted drugs received prior to disease progression"
+ },
+ "9d8e244d51": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No data on severe acute or chronic medical or psychiatric conditions or lab abnormalities"
+ },
+ "9ecdb12dc7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No data on bilirubin, ALT, or AST levels or their upper limits"
+ },
+ "a0bb93f5d7": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient previously received chemotherapy, not in adjuvant setting"
+ },
+ "a2c9994df2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No data on creatinine levels or whether they are at most 1.5 xULN"
+ },
+ "a5b827a3f4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on hematuria or proteinuria presence or severity"
+ },
+ "ad1e0cff0f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient has measurable disease per RECIST, indicating at least 3-month life expectancy"
+ },
+ "b07d357e44": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on MRI or CT of the brain timing relative to study entry"
+ },
+ "b481ad4ad0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on pregnancy or breastfeeding status"
+ },
+ "b4cd0c0705": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on presence of malignant effusion"
+ },
+ "b8d9688e9e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on sexual activity or contraception use"
+ },
+ "bfab6396a3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on immunosuppressive therapy use"
+ },
+ "c10d98ed7b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Blood pressure values not stated"
+ },
+ "c3c34a9aca": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Pleural effusion status or cytology not stated"
+ },
+ "c67c5354dd": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Uncontrolled hypertension not stated; myocardial infarction not stated"
+ },
+ "c7750c6907": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Pregnancy or breastfeeding status not stated"
+ },
+ "ccac2a0a33": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Cardiac disease severity not stated"
+ },
+ "d0167bc974": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Fasting glucose level not stated"
+ },
+ "d05052cdb5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Prior gene therapy or cytolytic virus treatment not stated"
+ },
+ "d51904a648": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Nature of pleural or pericardial effusion not stated"
+ },
+ "d8cdbd6ad0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Splenectomy history not stated"
+ },
+ "d9bdac4798": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Presence of pleural or pericardial effusion not stated"
+ },
+ "dcb5aae09d": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "No evidence of pleural or pericardial effusion present"
+ },
+ "dcbb5daaf4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Systemic glucocorticoid use duration not stated"
+ },
+ "e3883c624b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on xULN levels or serum markers provided in the note"
+ },
+ "e7d0eb955c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No details on acute toxic effects from prior treatments are stated in the note"
+ },
+ "e8308b718a": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Cardiac arrhythmia is controlled, but QTc max not reported; no value given for qtc_ms"
+ },
+ "e9dcde9e58": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Brain metastasis is symptomatic and untreated; thoracic disease is stage IV, not II\u2013III"
+ },
+ "ea2673beb7": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient has controlled cardiac arrhythmia, not a serious cardiac event within 3 months"
+ },
+ "ee81f30190": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient previously received chemotherapy over 6 months ago, not in adjuvant setting"
+ },
+ "f5e69c5a5f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on prior clinical study participation in past 28 days is provided"
+ },
+ "fb483c2713": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No molecular testing results or alterations reported in the note"
+ },
+ "ffac75eeec": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient is not a prisoner or detained; status is not specified but not applicable"
+ },
+ "4eb83e2c01": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ }
+}

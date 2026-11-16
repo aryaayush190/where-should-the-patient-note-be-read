@@ -1,0 +1,257 @@
+{
+ "045efc8402": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on timing of chest CT or PET/CT scans is provided"
+ },
+ "0a75062b24": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on the number or location of lung lesions is provided"
+ },
+ "1094c534af": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on pregnancy status or contraceptive use is provided"
+ },
+ "10b1a6aee7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on sexual activity or contraceptive use is provided"
+ },
+ "1954c8cd9e": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on lactation status is provided"
+ },
+ "20bc1877d4": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Tumor stage and N status are not confirmed by PET/CT in the note"
+ },
+ "248f173aa8": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No mention of multiple primary lung tumors is made in the note"
+ },
+ "2b8cf92f14": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on histology of tumors or differences between them is provided"
+ },
+ "2d6aaca79d": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on HIV status is provided"
+ },
+ "34eb008960": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on suitability of recurrent lesion for SABR is provided"
+ },
+ "3660100e14": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on PET-positive sites or biopsy results is provided"
+ },
+ "4054f52efb": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "No regional or distant metastases are present per imaging findings"
+ },
+ "4acebfc9fa": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about SBRT administration or course count is provided in the note."
+ },
+ "54fa5fd901": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No symptoms or signs suggesting brain metastases are stated in the note."
+ },
+ "5ba45a5bcb": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about tumor invasion of critical structures is provided in the note."
+ },
+ "5f0132f7cc": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No detail about tumor invasion of esophagus, brachial plexus, vessels, heart, or spinal cord is given in the note."
+ },
+ "6141c5ac7c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information about nodal station 4 biopsy status or presence of nodal disease is provided."
+ },
+ "61abc8fe61": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No imaging study (CT or PET/CT) is stated to have been performed in the note."
+ },
+ "68eca96387": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No allergy or hypersensitivity to study drugs or monoclonal antibodies is mentioned in the note."
+ },
+ "6d96545337": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No use of immunosuppressive medications within 14 days is stated in the note."
+ },
+ "6df126a96f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information about tumor-free interval duration is provided in the note."
+ },
+ "707e83addf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information about mediastinal lymph node involvement or biopsy is provided in the note."
+ },
+ "72fb1c8fd5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information about metachronous tumor histology is provided in the note."
+ },
+ "744135886a": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Liver and kidney function tests show values within normal limits, no elevation beyond 3 xULN."
+ },
+ "7792755c2e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on contralateral nodal station level 4 or biopsy status"
+ },
+ "77acaa96e8": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No evidence of a second metachronous tumor in a different lung lobe"
+ },
+ "7d61b9afed": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on hilar involvement, mediastinal nodes, or clinical suspicion of nodes"
+ },
+ "7ffcee888e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on left-sided tumor or aortopulmonary window node enlargement"
+ },
+ "863de5933c": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Tumor is staged as unresectable IIIB, indicating involvement of major vessels or structures"
+ },
+ "86da255d7a": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ANC is 3.4 x10^3/\u00b5L, which meets the wbc_k_ul \u2265 2 x10^3/\u00b5L threshold"
+ },
+ "88c49e050c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on histology of any second tumor"
+ },
+ "89ed9257c6": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No evidence of synchronous tumors diagnosed within 6 months"
+ },
+ "8c239f6de9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on nivolumab use or male patient status"
+ },
+ "8ed9f7d336": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Imaging confirms absence of suspicious lesions in lung or elsewhere"
+ },
+ "982328a63b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on FEV1%, comorbidities, or surgical operability"
+ },
+ "99463c247b": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient has no plans to receive concomitant local or systemic therapy during protocol"
+ },
+ "ae1b8aebb2": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on timing of staging studies relative to registration"
+ },
+ "c6511f66e5": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on contraindications to radiotherapy is provided"
+ },
+ "cf8f73ad34": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on prior non-lung malignancy within past 3 years"
+ },
+ "d045c90c34": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on histology of metachronous tumors is provided"
+ },
+ "d218f6e623": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on contraception use after nivolumab is provided"
+ },
+ "da2a30e7da": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on pulmonary or cardiac disease severity is stated"
+ },
+ "dbaf04e9e1": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on lymph node involvement is provided"
+ },
+ "e44ea04cd3": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient is not breastfeeding as no mention of breastfeeding is made"
+ },
+ "e6b4fb9c9d": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Stage group is not stated; tumor is IIIB, not IA, IB, or IIA"
+ },
+ "e8619f0d29": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on timing between metachronous tumors is provided"
+ },
+ "f0bd52bbef": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on signed study-specific consent is provided"
+ },
+ "f6a03bc8be": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Tumor stage is IIIB, which does not meet T1/T2a or T2 with N0 and M0 requirements"
+ },
+ "fd1bee54ee": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Location of second tumor in the lung is not stated in the note"
+ },
+ "bd4e17552f": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "fad34d4513": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ }
+}

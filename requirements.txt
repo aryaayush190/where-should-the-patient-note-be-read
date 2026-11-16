@@ -1,0 +1,9 @@
+# Pipeline, analyses and tests (versions used for the paper; Python 3.13)
+groq==1.4.0
+pydantic==2.13.4
+numpy==2.4.6
+pandas==3.0.3
+scipy==1.17.1
+requests==2.34.2
+psutil==7.2.2
+pytest==9.1.1

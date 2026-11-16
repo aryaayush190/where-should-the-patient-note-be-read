@@ -1,0 +1,119 @@
+{
+  "label": "testing_data_advisory",
+  "n_errors": 17,
+  "by_category": {
+    "conditional_effusion": 6,
+    "cardiac": 3,
+    "stage_or_other": 4,
+    "temporal_washout": 3,
+    "molecular": 1
+  },
+  "by_direction": {
+    "false_negative": 8,
+    "false_positive": 9
+  },
+  "errors": [
+    {
+      "pair_id": "P0001__NCT00266877",
+      "trial_id": "NCT00266877",
+      "direction": "false_negative",
+      "category": "conditional_effusion"
+    },
+    {
+      "pair_id": "P0002__NCT03057340",
+      "trial_id": "NCT03057340",
+      "direction": "false_negative",
+      "category": "cardiac"
+    },
+    {
+      "pair_id": "P0011__NCT03141359",
+      "trial_id": "NCT03141359",
+      "direction": "false_negative",
+      "category": "stage_or_other"
+    },
+    {
+      "pair_id": "P0012__NCT00753714",
+      "trial_id": "NCT00753714",
+      "direction": "false_positive",
+      "category": "temporal_washout"
+    },
+    {
+      "pair_id": "P0015__NCT00049543",
+      "trial_id": "NCT00049543",
+      "direction": "false_positive",
+      "category": "molecular"
+    },
+    {
+      "pair_id": "P0015__NCT03057340",
+      "trial_id": "NCT03057340",
+      "direction": "false_negative",
+      "category": "cardiac"
+    },
+    {
+      "pair_id": "P0019__NCT02182232",
+      "trial_id": "NCT02182232",
+      "direction": "false_positive",
+      "category": "conditional_effusion"
+    },
+    {
+      "pair_id": "P0022__NCT02182232",
+      "trial_id": "NCT02182232",
+      "direction": "false_positive",
+      "category": "conditional_effusion"
+    },
+    {
+      "pair_id": "P0024__NCT03057340",
+      "trial_id": "NCT03057340",
+      "direction": "false_negative",
+      "category": "cardiac"
+    },
+    {
+      "pair_id": "P0025__NCT03141359",
+      "trial_id": "NCT03141359",
+      "direction": "false_positive",
+      "category": "stage_or_other"
+    },
+    {
+      "pair_id": "P0025__NCT00753714",
+      "trial_id": "NCT00753714",
+      "direction": "false_positive",
+      "category": "temporal_washout"
+    },
+    {
+      "pair_id": "P0030__NCT02182102",
+      "trial_id": "NCT02182102",
+      "direction": "false_negative",
+      "category": "temporal_washout"
+    },
+    {
+      "pair_id": "P0031__NCT02073968",
+      "trial_id": "NCT02073968",
+      "direction": "false_negative",
+      "category": "stage_or_other"
+    },
+    {
+      "pair_id": "P0031__NCT03141359",
+      "trial_id": "NCT03141359",
+      "direction": "false_negative",
+      "category": "stage_or_other"
+    },
+    {
+      "pair_id": "P0041__NCT01047059",
+      "trial_id": "NCT01047059",
+      "direction": "false_positive",
+      "category": "conditional_effusion"
+    },
+    {
+      "pair_id": "P0042__NCT02182232",
+      "trial_id": "NCT02182232",
+      "direction": "false_positive",
+      "category": "conditional_effusion"
+    },
+    {
+      "pair_id": "P0044__NCT00465907",
+      "trial_id": "NCT00465907",
+      "direction": "false_positive",
+      "category": "conditional_effusion"
+    }
+  ]
+}

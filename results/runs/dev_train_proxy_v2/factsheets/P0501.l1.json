@@ -1,0 +1,332 @@
+{
+ "015d4f9adc": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "bilirubin 0.7 mg/dL (\u2264 ULN) and no AST/ALT elevation"
+ },
+ "02245d0e70": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "09450c1c3f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0c4092aa06": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "18501ae188": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1bcb3429fa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1f7e5feee2": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior chemo, surgery, radio, or other treatment"
+ },
+ "21c1b1720c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "22f765334f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3af7ebc79b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3b48d551f9": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior radiotherapy"
+ },
+ "3b51c2f72a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3c7cd2d98e": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no prior chemotherapy"
+ },
+ "3cb15f01d8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "41625fcf4a": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "alkaline phosphatase within normal limits"
+ },
+ "5227b2aeea": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no prior pemetrexed"
+ },
+ "55620dcf23": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5658c510b0": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no concurrent malignancy"
+ },
+ "567cac46cd": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no prior whole\u2011pelvis radiation"
+ },
+ "5d9c9117f0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5db36e494f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "DLCO 58% of predicted"
+ },
+ "6355823a47": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6cdfa1e2db": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6df4b3a1d4": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "alkaline phosphatase within normal limits"
+ },
+ "6ea4fad1e4": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "patient has stage IIIA lung cancer with no distant metastases and good performance status"
+ },
+ "7ae18ab760": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7b60bc8c12": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "stage is IIIA, not IIIB"
+ },
+ "7fd1031fb0": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "CrCl >45 mL/min"
+ },
+ "8132788035": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "87caa41a10": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "biopsy confirmed tumor"
+ },
+ "8877e4b25e": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "bilirubin and transaminases within normal limits"
+ },
+ "8935b45c9c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "898797333e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8bf261252c": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no prior chemotherapy or radiotherapy"
+ },
+ "8c76759aae": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no other malignancies"
+ },
+ "8de98ef0ea": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "962f392b9e": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "N2 mediastinal nodes"
+ },
+ "97d975c57d": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ipsilateral mediastinal nodes and tumor >7 cm"
+ },
+ "9a296ff599": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9a62a3eac6": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9ab592d327": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9abf0164e9": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "squamous cell carcinoma"
+ },
+ "a0699fce64": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a1418ed171": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior platinum/taxane chemo"
+ },
+ "b0268e96bb": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no significant cardiovascular disease"
+ },
+ "b33388753e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b9918a4100": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no concurrent malignancies"
+ },
+ "bc0ddab82f": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior thoracic radiotherapy"
+ },
+ "bf30c60eab": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c4b5fd1a49": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c8d5314647": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c99874b007": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no unstable angina"
+ },
+ "cc2368033c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ce681c70f7": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ANC 4.3, platelets 269k, hemoglobin 15.1"
+ },
+ "cfb4a455f6": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d1c3b3cdfe": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d440ffb150": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d76096ea90": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "dd0cdb6e06": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no prior radiotherapy"
+ },
+ "dd426d1400": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e0fd97b2d5": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior thoracic radiotherapy"
+ },
+ "e114c11927": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "recent brain MRI negative"
+ },
+ "eb67e97841": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "eba8f701b4": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "primary tumor >7 cm"
+ },
+ "edd90fd6e0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ef7abb3dfb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ }
+}

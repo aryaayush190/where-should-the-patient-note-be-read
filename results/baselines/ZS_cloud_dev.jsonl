@@ -1,0 +1,130 @@
+{"pair_id": "P0502__NCT00614822", "trial_id": "NCT00614822", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 2.316}
+{"pair_id": "P0511__NCT00250978", "trial_id": "NCT00250978", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 2.316}
+{"pair_id": "P0521__NCT00250978", "trial_id": "NCT00250978", "label": 0, "prediction": "Not Eligible", "confidence": 0.92, "latency_s": 2.316}
+{"pair_id": "P0509__NCT00378573", "trial_id": "NCT00378573", "label": 0, "prediction": "Not Eligible", "confidence": 0.78, "latency_s": 3.424}
+{"pair_id": "P0513__NCT01248247", "trial_id": "NCT01248247", "label": 0, "prediction": "Not Eligible", "confidence": 0.95, "latency_s": 3.424}
+{"pair_id": "P0520__NCT00558636", "trial_id": "NCT00558636", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 3.424}
+{"pair_id": "P0524__NCT01507428", "trial_id": "NCT01507428", "label": 0, "prediction": "Not Eligible", "confidence": 0.92, "latency_s": 1.106}
+{"pair_id": "P0516__NCT00410059", "trial_id": "NCT00410059", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 2.591}
+{"pair_id": "P0519__NCT01507428", "trial_id": "NCT01507428", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 2.591}
+{"pair_id": "P0504__NCT00411632", "trial_id": "NCT00411632", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 1.463}
+{"pair_id": "P0512__NCT00378573", "trial_id": "NCT00378573", "label": 1, "prediction": "Eligible", "confidence": 0.96, "latency_s": 2.594}
+{"pair_id": "P0510__NCT04023617", "trial_id": "NCT04023617", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 2.593}
+{"pair_id": "P0505__NCT00215930", "trial_id": "NCT00215930", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 2.592}
+{"pair_id": "P0515__NCT00745732", "trial_id": "NCT00745732", "label": 1, "prediction": "Not Eligible", "confidence": 0.88, "latency_s": 2.443}
+{"pair_id": "P0519__NCT00558636", "trial_id": "NCT00558636", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 2.442}
+{"pair_id": "P0527__NCT04023617", "trial_id": "NCT04023617", "label": 1, "prediction": "Eligible", "confidence": 0.97, "latency_s": 2.442}
+{"pair_id": "P0518__NCT01753414", "trial_id": "NCT01753414", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 1.32}
+{"pair_id": "P0527__NCT00410059", "trial_id": "NCT00410059", "label": 1, "prediction": "Eligible", "confidence": 0.97, "latency_s": 2.891}
+{"pair_id": "P0508__NCT01248247", "trial_id": "NCT01248247", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 2.89}
+{"pair_id": "P0511__NCT00745732", "trial_id": "NCT00745732", "label": 1, "prediction": "Eligible", "confidence": 0.97, "latency_s": 1.569}
+{"pair_id": "P0523__NCT00745732", "trial_id": "NCT00745732", "label": 1, "prediction": "Eligible", "confidence": 0.85, "latency_s": 2.723}
+{"pair_id": "P0512__NCT00409968", "trial_id": "NCT00409968", "label": 0, "prediction": "Not Eligible", "confidence": 0.92, "latency_s": 2.722}
+{"pair_id": "P0502__NCT00410189", "trial_id": "NCT00410189", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 2.721}
+{"pair_id": "P0523__NCT00410189", "trial_id": "NCT00410189", "label": 0, "prediction": "Not Eligible", "confidence": 0.98, "latency_s": 1.102}
+{"pair_id": "P0500__NCT01416961", "trial_id": "NCT01416961", "label": 0, "prediction": "Eligible", "confidence": 0.93, "latency_s": 2.834}
+{"pair_id": "P0512__NCT00745732", "trial_id": "NCT00745732", "label": 0, "prediction": "Eligible", "confidence": 0.93, "latency_s": 2.834}
+{"pair_id": "P0516__NCT00745732", "trial_id": "NCT00745732", "label": 0, "prediction": "Eligible", "confidence": 0.85, "latency_s": 1.641}
+{"pair_id": "P0518__NCT00378573", "trial_id": "NCT00378573", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 1.64}
+{"pair_id": "P0519__NCT02718066", "trial_id": "NCT02718066", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 3.218}
+{"pair_id": "P0516__NCT00614822", "trial_id": "NCT00614822", "label": 1, "prediction": "Eligible", "confidence": 0.97, "latency_s": 3.217}
+{"pair_id": "P0529__NCT00250978", "trial_id": "NCT00250978", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 1.471}
+{"pair_id": "P0513__NCT00378573", "trial_id": "NCT00378573", "label": 1, "prediction": "Eligible", "confidence": 0.97, "latency_s": 1.47}
+{"pair_id": "P0523__NCT03110978", "trial_id": "NCT03110978", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 2.955}
+{"pair_id": "P0507__NCT00411632", "trial_id": "NCT00411632", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 2.955}
+{"pair_id": "P0524__NCT00378573", "trial_id": "NCT00378573", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 1.473}
+{"pair_id": "P0501__NCT01416961", "trial_id": "NCT01416961", "label": 1, "prediction": "Eligible", "confidence": 0.97, "latency_s": 1.502}
+{"pair_id": "P0521__NCT00410189", "trial_id": "NCT00410189", "label": 1, "prediction": "Eligible", "confidence": 0.95, "latency_s": 3.372}
+{"pair_id": "P0505__NCT03110978", "trial_id": "NCT03110978", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 3.371}
+{"pair_id": "P0510__NCT00411632", "trial_id": "NCT00411632", "label": 0, "prediction": "Not Eligible", "confidence": 0.92, "latency_s": 1.855}
+{"pair_id": "P0504__NCT00409968", "trial_id": "NCT00409968", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 1.853}
+{"pair_id": "P0501__NCT00409968", "trial_id": "NCT00409968", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 3.443}
+{"pair_id": "P0500__NCT00203931", "trial_id": "NCT00203931", "label": 1, "prediction": "Eligible", "confidence": 0.97, "latency_s": 3.442}
+{"pair_id": "P0514__NCT01416961", "trial_id": "NCT01416961", "label": 1, "prediction": "Eligible", "confidence": 0.97, "latency_s": 1.587}
+{"pair_id": "P0517__NCT00410189", "trial_id": "NCT00410189", "label": 1, "prediction": "Eligible", "confidence": 0.8, "latency_s": 1.585}
+{"pair_id": "P0514__NCT00409968", "trial_id": "NCT00409968", "label": 0, "prediction": "Not Eligible", "confidence": 0.98, "latency_s": 3.076}
+{"pair_id": "P0514__NCT00378573", "trial_id": "NCT00378573", "label": 1, "prediction": "Eligible", "confidence": 0.97, "latency_s": 3.076}
+{"pair_id": "P0515__NCT02718066", "trial_id": "NCT02718066", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 1.489}
+{"pair_id": "P0508__NCT00409968", "trial_id": "NCT00409968", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 2.618}
+{"pair_id": "P0503__NCT01753414", "trial_id": "NCT01753414", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 2.617}
+{"pair_id": "P0514__NCT00215930", "trial_id": "NCT00215930", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 2.617}
+{"pair_id": "P0505__NCT00745732", "trial_id": "NCT00745732", "label": 1, "prediction": "Eligible", "confidence": 0.97, "latency_s": 1.127}
+{"pair_id": "P0513__NCT00410189", "trial_id": "NCT00410189", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 3.179}
+{"pair_id": "P0501__NCT00203931", "trial_id": "NCT00203931", "label": 0, "prediction": "Not Eligible", "confidence": 0.98, "latency_s": 3.177}
+{"pair_id": "P0504__NCT00378573", "trial_id": "NCT00378573", "label": 1, "prediction": "Not Eligible", "confidence": 0.92, "latency_s": 2.019}
+{"pair_id": "P0513__NCT03110978", "trial_id": "NCT03110978", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 3.124}
+{"pair_id": "P0520__NCT00378573", "trial_id": "NCT00378573", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 3.124}
+{"pair_id": "P0516__NCT00203931", "trial_id": "NCT00203931", "label": 0, "prediction": "Not Eligible", "confidence": 0.98, "latency_s": 3.123}
+{"pair_id": "P0527__NCT00250978", "trial_id": "NCT00250978", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 2.436}
+{"pair_id": "P0501__NCT00378573", "trial_id": "NCT00378573", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 2.435}
+{"pair_id": "P0511__NCT00215930", "trial_id": "NCT00215930", "label": 0, "prediction": "Eligible", "confidence": 0.97, "latency_s": 2.434}
+{"pair_id": "P0516__NCT00409968", "trial_id": "NCT00409968", "label": 0, "prediction": "Not Eligible", "confidence": 0.98, "latency_s": 1.332}
+{"pair_id": "P0500__NCT00378573", "trial_id": "NCT00378573", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 2.828}
+{"pair_id": "P0518__NCT00826449", "trial_id": "NCT00826449", "label": 1, "prediction": "Eligible", "confidence": 0.9, "latency_s": 2.827}
+{"pair_id": "P0509__NCT00558636", "trial_id": "NCT00558636", "label": 0, "prediction": "Not Eligible", "confidence": 0.93, "latency_s": 1.495}
+{"pair_id": "P0511__NCT03110978", "trial_id": "NCT03110978", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 1.494}
+{"pair_id": "P0521__NCT04023617", "trial_id": "NCT04023617", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 3.45}
+{"pair_id": "P0524__NCT00409968", "trial_id": "NCT00409968", "label": 1, "prediction": "Eligible", "confidence": 0.97, "latency_s": 3.449}
+{"pair_id": "P0508__NCT01948141", "trial_id": "NCT01948141", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 1.955}
+{"pair_id": "P0503__NCT00411632", "trial_id": "NCT00411632", "label": 1, "prediction": "Eligible", "confidence": 0.97, "latency_s": 1.954}
+{"pair_id": "P0513__NCT00203931", "trial_id": "NCT00203931", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 3.963}
+{"pair_id": "P0519__NCT01248247", "trial_id": "NCT01248247", "label": 1, "prediction": "Eligible", "confidence": 0.97, "latency_s": 3.962}
+{"pair_id": "P0510__NCT00215930", "trial_id": "NCT00215930", "label": 0, "prediction": "Eligible", "confidence": 0.85, "latency_s": 2.006}
+{"pair_id": "P0505__NCT01248247", "trial_id": "NCT01248247", "label": 0, "prediction": "Not Eligible", "confidence": 0.98, "latency_s": 2.005}
+{"pair_id": "P0517__NCT01753414", "trial_id": "NCT01753414", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 3.653}
+{"pair_id": "P0502__NCT02718066", "trial_id": "NCT02718066", "label": 1, "prediction": "Eligible", "confidence": 0.97, "latency_s": 3.652}
+{"pair_id": "P0507__NCT01753414", "trial_id": "NCT01753414", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 1.647}
+{"pair_id": "P0512__NCT03058094", "trial_id": "NCT03058094", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 2.956}
+{"pair_id": "P0518__NCT02718066", "trial_id": "NCT02718066", "label": 0, "prediction": "Not Eligible", "confidence": 0.92, "latency_s": 2.954}
+{"pair_id": "P0520__NCT03468985", "trial_id": "NCT03468985", "label": 1, "prediction": "Not Eligible", "confidence": 0.92, "latency_s": 2.954}
+{"pair_id": "P0507__NCT00614822", "trial_id": "NCT00614822", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 2.388}
+{"pair_id": "P0521__NCT00410059", "trial_id": "NCT00410059", "label": 1, "prediction": "Eligible", "confidence": 0.97, "latency_s": 2.386}
+{"pair_id": "P0515__NCT00614822", "trial_id": "NCT00614822", "label": 1, "prediction": "Eligible", "confidence": 0.97, "latency_s": 2.385}
+{"pair_id": "P0521__NCT00203931", "trial_id": "NCT00203931", "label": 1, "prediction": "Eligible", "confidence": 0.95, "latency_s": 2.258}
+{"pair_id": "P0504__NCT01416961", "trial_id": "NCT01416961", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 2.256}
+{"pair_id": "P0509__NCT01416961", "trial_id": "NCT01416961", "label": 1, "prediction": "Eligible", "confidence": 0.97, "latency_s": 2.255}
+{"pair_id": "P0529__NCT04023617", "trial_id": "NCT04023617", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 2.189}
+{"pair_id": "P0519__NCT00250978", "trial_id": "NCT00250978", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 2.188}
+{"pair_id": "P0517__NCT00378573", "trial_id": "NCT00378573", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 2.187}
+{"pair_id": "P0503__NCT00203931", "trial_id": "NCT00203931", "label": 1, "prediction": "Eligible", "confidence": 0.97, "latency_s": 2.477}
+{"pair_id": "P0524__NCT01248247", "trial_id": "NCT01248247", "label": 1, "prediction": "Eligible", "confidence": 0.97, "latency_s": 2.431}
+{"pair_id": "P0500__NCT00410189", "trial_id": "NCT00410189", "label": 1, "prediction": "Eligible", "confidence": 0.97, "latency_s": 2.431}
+{"pair_id": "P0509__NCT03110978", "trial_id": "NCT03110978", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 1.379}
+{"pair_id": "P0506__NCT01753414", "trial_id": "NCT01753414", "label": 1, "prediction": "Eligible", "confidence": 0.97, "latency_s": 3.117}
+{"pair_id": "P0527__NCT01753414", "trial_id": "NCT01753414", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 3.117}
+{"pair_id": "P0520__NCT00410059", "trial_id": "NCT00410059", "label": 1, "prediction": "Eligible", "confidence": 0.97, "latency_s": 1.737}
+{"pair_id": "P0507__NCT00558636", "trial_id": "NCT00558636", "label": 1, "prediction": "Eligible", "confidence": 0.97, "latency_s": 2.843}
+{"pair_id": "P0503__NCT00410189", "trial_id": "NCT00410189", "label": 0, "prediction": "Eligible", "confidence": 0.97, "latency_s": 2.842}
+{"pair_id": "P0502__NCT01948141", "trial_id": "NCT01948141", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 2.841}
+{"pair_id": "P0515__NCT00409968", "trial_id": "NCT00409968", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 1.106}
+{"pair_id": "P0514__NCT03110978", "trial_id": "NCT03110978", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 2.582}
+{"pair_id": "P0508__NCT01753414", "trial_id": "NCT01753414", "label": 1, "prediction": "Eligible", "confidence": 0.97, "latency_s": 2.582}
+{"pair_id": "P0511__NCT00410189", "trial_id": "NCT00410189", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 3.523}
+{"pair_id": "P0520__NCT01753414", "trial_id": "NCT01753414", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 2.288}
+{"pair_id": "P0507__NCT03110978", "trial_id": "NCT03110978", "label": 0, "prediction": "Not Eligible", "confidence": 0.98, "latency_s": 2.287}
+{"pair_id": "P0518__NCT00410189", "trial_id": "NCT00410189", "label": 1, "prediction": "Eligible", "confidence": 0.97, "latency_s": 2.286}
+{"pair_id": "P0500__NCT03110978", "trial_id": "NCT03110978", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 2.007}
+{"pair_id": "P0510__NCT00410189", "trial_id": "NCT00410189", "label": 0, "prediction": "Not Eligible", "confidence": 0.92, "latency_s": 2.006}
+{"pair_id": "P0529__NCT00410189", "trial_id": "NCT00410189", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 1.206}
+{"pair_id": "P0504__NCT04023617", "trial_id": "NCT04023617", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 2.664}
+{"pair_id": "P0517__NCT00411632", "trial_id": "NCT00411632", "label": 1, "prediction": "Not Eligible", "confidence": 0.45, "latency_s": 2.664}
+{"pair_id": "P0524__NCT01948141", "trial_id": "NCT01948141", "label": 1, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 1.457}
+{"pair_id": "P0506__NCT03468985", "trial_id": "NCT03468985", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 1.456}
+{"pair_id": "P0529__NCT00411632", "trial_id": "NCT00411632", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 3.201}
+{"pair_id": "P0529__NCT00745732", "trial_id": "NCT00745732", "label": 1, "prediction": "Eligible", "confidence": 0.92, "latency_s": 3.2}
+{"pair_id": "P0506__NCT00409968", "trial_id": "NCT00409968", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 1.743}
+{"pair_id": "P0512__NCT01948141", "trial_id": "NCT01948141", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 1.743}
+{"pair_id": "P0517__NCT04023617", "trial_id": "NCT04023617", "label": 1, "prediction": "Not Eligible", "confidence": 0.92, "latency_s": 3.378}
+{"pair_id": "P0509__NCT00410189", "trial_id": "NCT00410189", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 3.377}
+{"pair_id": "P0506__NCT03058094", "trial_id": "NCT03058094", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 1.634}
+{"pair_id": "P0515__NCT00558636", "trial_id": "NCT00558636", "label": 0, "prediction": "Eligible", "confidence": 0.9, "latency_s": 2.712}
+{"pair_id": "P0523__NCT00215930", "trial_id": "NCT00215930", "label": 0, "prediction": "Eligible", "confidence": 0.85, "latency_s": 2.711}
+{"pair_id": "P0523__NCT00378573", "trial_id": "NCT00378573", "label": 0, "prediction": "Not Eligible", "confidence": 0.87, "latency_s": 2.712}
+{"pair_id": "P0502__NCT00826449", "trial_id": "NCT00826449", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 1.086}
+{"pair_id": "P0510__NCT00745732", "trial_id": "NCT00745732", "label": 1, "prediction": "Eligible", "confidence": 0.8, "latency_s": 2.652}
+{"pair_id": "P0506__NCT00250978", "trial_id": "NCT00250978", "label": 0, "prediction": "Not Eligible", "confidence": 0.99, "latency_s": 2.652}
+{"pair_id": "P0505__NCT00410189", "trial_id": "NCT00410189", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 1.507}
+{"pair_id": "P0503__NCT03468985", "trial_id": "NCT03468985", "label": 1, "prediction": "Eligible", "confidence": 0.97, "latency_s": 1.885}
+{"pair_id": "P0501__NCT00411632", "trial_id": "NCT00411632", "label": 0, "prediction": "Not Eligible", "confidence": 0.97, "latency_s": 1.917}
+{"pair_id": "P0508__NCT00378573", "trial_id": "NCT00378573", "label": 0, "prediction": "Not Eligible", "confidence": 0.98, "latency_s": 2.29}
+{"pair_id": "P0527__NCT00409968", "trial_id": "NCT00409968", "label": 1, "prediction": "Eligible", "confidence": 0.97, "latency_s": 1.103}

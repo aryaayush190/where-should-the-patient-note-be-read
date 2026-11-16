@@ -1,0 +1,493 @@
+{
+ "H5": {
+  "split_minus_zero_shot": {
+   "diff": 0.1418,
+   "ci95_trial": [
+    0.0747,
+    0.2173
+   ]
+  },
+  "split_minus_indicon_advisory": {
+   "diff": 0.0973,
+   "ci95_trial": [
+    0.0302,
+    0.1765
+   ]
+  },
+  "aurc": {
+   "split_u": 0.1517,
+   "zero_shot": 0.0098,
+   "indicon_advisory": 0.0544
+  }
+ },
+ "ablations": {
+  "AB_hardveto": {
+   "forced": {
+    "acc_all": 0.8,
+    "precision": 0.6316,
+    "recall": 0.5217,
+    "f1": 0.5714,
+    "tp": 36,
+    "fp": 21,
+    "fn": 33,
+    "tn": 180
+   },
+   "selective": {
+    "coverage": 0.8815,
+    "acc_decided": 0.8529,
+    "precision": 0.8846,
+    "recall": 0.4182
+   },
+   "l2_per_pair": 0.7593,
+   "offline_decided": 0.4889,
+   "f1_diff_vs_full": 0.0103,
+   "f1_diff_ci95": [
+    -0.0674,
+    0.087
+   ],
+   "acc_diff_vs_full": 0.0259,
+   "acc_diff_ci95": [
+    -0.0097,
+    0.0597
+   ],
+   "mcnemar_vs_full": {
+    "A_only_correct": 13,
+    "B_only_correct": 6,
+    "p_exact": 0.1671
+   },
+   "sign_flip_vs_full": {
+    "n_clusters": 18,
+    "net_diff": 7,
+    "p": 0.2227
+   }
+  },
+  "AB_noL1": {
+   "forced": {
+    "acc_all": 0.7333,
+    "precision": 0.4839,
+    "recall": 0.6522,
+    "f1": 0.5556,
+    "tp": 45,
+    "fp": 48,
+    "fn": 24,
+    "tn": 153
+   },
+   "selective": {
+    "coverage": 0.6778,
+    "acc_decided": 0.9071,
+    "precision": 0.8571,
+    "recall": 0.5625
+   },
+   "l2_per_pair": 1.4259,
+   "offline_decided": 0.2296,
+   "f1_diff_vs_full": -0.0056,
+   "f1_diff_ci95": [
+    -0.0704,
+    0.0872
+   ],
+   "acc_diff_vs_full": -0.0407,
+   "acc_diff_ci95": [
+    -0.0879,
+    0.0032
+   ],
+   "mcnemar_vs_full": {
+    "A_only_correct": 7,
+    "B_only_correct": 18,
+    "p_exact": 0.0433
+   },
+   "sign_flip_vs_full": {
+    "n_clusters": 18,
+    "net_diff": -11,
+    "p": 0.1523
+   }
+  },
+  "AB_noL2": {
+   "forced": {
+    "acc_all": 0.7852,
+    "precision": 0.5495,
+    "recall": 0.8841,
+    "f1": 0.6778,
+    "tp": 61,
+    "fp": 50,
+    "fn": 8,
+    "tn": 151
+   },
+   "selective": {
+    "coverage": 0.6926,
+    "acc_decided": 0.9305,
+    "precision": 0.8214,
+    "recall": 0.7419
+   },
+   "l2_per_pair": 0.0,
+   "offline_decided": 0.6926,
+   "f1_diff_vs_full": 0.1166,
+   "f1_diff_ci95": [
+    -0.0278,
+    0.3242
+   ],
+   "acc_diff_vs_full": 0.0111,
+   "acc_diff_ci95": [
+    -0.0574,
+    0.0839
+   ],
+   "mcnemar_vs_full": {
+    "A_only_correct": 22,
+    "B_only_correct": 19,
+    "p_exact": 0.7552
+   },
+   "sign_flip_vs_full": {
+    "n_clusters": 18,
+    "net_diff": 3,
+    "p": 0.8508
+   }
+  },
+  "AB_boolean": {
+   "forced": {
+    "acc_all": 0.7667,
+    "precision": 0.55,
+    "recall": 0.4783,
+    "f1": 0.5116,
+    "tp": 33,
+    "fp": 27,
+    "fn": 36,
+    "tn": 174
+   },
+   "selective": {
+    "coverage": 0.8148,
+    "acc_decided": 0.85,
+    "precision": 0.9375,
+    "recall": 0.3191
+   },
+   "l2_per_pair": 1.5111,
+   "offline_decided": 0.263,
+   "f1_diff_vs_full": -0.0495,
+   "f1_diff_ci95": [
+    -0.2396,
+    0.0875
+   ],
+   "acc_diff_vs_full": -0.0074,
+   "acc_diff_ci95": [
+    -0.0694,
+    0.0435
+   ],
+   "mcnemar_vs_full": {
+    "A_only_correct": 10,
+    "B_only_correct": 12,
+    "p_exact": 0.8318
+   },
+   "sign_flip_vs_full": {
+    "n_clusters": 18,
+    "net_diff": -2,
+    "p": 0.9609
+   }
+  },
+  "AB_single": {
+   "forced": {
+    "acc_all": 0.8111,
+    "precision": 0.6406,
+    "recall": 0.5942,
+    "f1": 0.6165,
+    "tp": 41,
+    "fp": 23,
+    "fn": 28,
+    "tn": 178
+   },
+   "selective": {
+    "coverage": 0.863,
+    "acc_decided": 0.867,
+    "precision": 0.8571,
+    "recall": 0.4706
+   },
+   "l2_per_pair": 1.0185,
+   "offline_decided": 0.4259,
+   "f1_diff_vs_full": 0.0554,
+   "f1_diff_ci95": [
+    0.0118,
+    0.1295
+   ],
+   "acc_diff_vs_full": 0.037,
+   "acc_diff_ci95": [
+    0.0133,
+    0.0714
+   ],
+   "mcnemar_vs_full": {
+    "A_only_correct": 13,
+    "B_only_correct": 3,
+    "p_exact": 0.0213
+   },
+   "sign_flip_vs_full": {
+    "n_clusters": 18,
+    "net_diff": 10,
+    "p": 0.0156
+   }
+  },
+  "AB_noverify": {
+   "forced": {
+    "acc_all": 0.7852,
+    "precision": 0.5797,
+    "recall": 0.5797,
+    "f1": 0.5797,
+    "tp": 40,
+    "fp": 29,
+    "fn": 29,
+    "tn": 172
+   },
+   "selective": {
+    "coverage": 0.8481,
+    "acc_decided": 0.869,
+    "precision": 0.8485,
+    "recall": 0.5283
+   },
+   "l2_per_pair": 1.037,
+   "offline_decided": 0.4148,
+   "f1_diff_vs_full": 0.0186,
+   "f1_diff_ci95": [
+    -0.0377,
+    0.0958
+   ],
+   "acc_diff_vs_full": 0.0111,
+   "acc_diff_ci95": [
+    -0.0134,
+    0.0419
+   ],
+   "mcnemar_vs_full": {
+    "A_only_correct": 7,
+    "B_only_correct": 4,
+    "p_exact": 0.5488
+   },
+   "sign_flip_vs_full": {
+    "n_clusters": 18,
+    "net_diff": 3,
+    "p": 0.5938
+   }
+  },
+  "AB_nocompiler_proxy20b": {
+   "forced": {
+    "n": 270,
+    "decided": 270,
+    "coverage": 1.0,
+    "acc": 0.9259,
+    "precision": 0.8182,
+    "recall": 0.913,
+    "f1": 0.863,
+    "tp": 63,
+    "fp": 14,
+    "fn": 6,
+    "tn": 187
+   },
+   "f1_diff_vs_full": 0.3019,
+   "f1_diff_ci95": [
+    0.1405,
+    0.5037
+   ],
+   "acc_diff_vs_full": 0.1519,
+   "acc_diff_ci95": [
+    0.0648,
+    0.2575
+   ],
+   "mcnemar_vs_full": {
+    "A_only_correct": 54,
+    "B_only_correct": 13,
+    "p_exact": 0.0
+   }
+  },
+  "_full_TEST_proxy": {
+   "forced": {
+    "acc_all": 0.7741,
+    "precision": 0.5571,
+    "recall": 0.5652,
+    "f1": 0.5612
+   },
+   "selective": {
+    "coverage": 0.837,
+    "acc_decided": 0.8628,
+    "precision": 0.8333,
+    "recall": 0.4902
+   },
+   "l2_per_pair": 1.2148,
+   "offline_decided": 0.3704
+  }
+ },
+ "H7": {
+  "f1_full_minus_boolean": 0.0495,
+  "ci95": [
+   -0.0875,
+   0.2396
+  ],
+  "fn17_subset_flagged": {
+   "n": 17,
+   "full_correct": 8,
+   "boolean_correct": 7
+  }
+ },
+ "H8": {
+  "split_f1_clean": 0.5612,
+  "split_f1_noisy": 0.5985,
+  "zs_f1_clean_rerun": 0.8696,
+  "zs_f1_noisy": 0.8636,
+  "split_delta_f1": 0.0374,
+  "split_delta_ci95": [
+   -0.0013,
+   0.0846
+  ],
+  "zs_delta_f1": -0.0059,
+  "zs_delta_ci95": [
+   -0.0421,
+   0.0311
+  ],
+  "delta_split_minus_delta_zs": 0.0433,
+  "ci95": [
+   -0.0117,
+   0.1034
+  ],
+  "split_acc_noisy": 0.7963,
+  "zs_acc_noisy": 0.9333
+ },
+ "frontier": [
+  {
+   "condition": "Cloud zero-shot (full note)",
+   "acc": 0.9481,
+   "f1": 0.9014,
+   "coverage": 1.0,
+   "f1_ci95": [
+    0.8392,
+    0.9649
+   ],
+   "patient_data_to_cloud": "full narrative every pair",
+   "note": ""
+  },
+  {
+   "condition": "Cloud zero-shot rerun",
+   "acc": 0.9333,
+   "f1": 0.8696,
+   "coverage": 1.0,
+   "f1_ci95": [
+    0.7947,
+    0.9355
+   ],
+   "patient_data_to_cloud": "full narrative every pair",
+   "note": "Groq non-determinism check"
+  },
+  {
+   "condition": "Cloud decides from de-identified record (exploratory)",
+   "acc": 0.8815,
+   "f1": 0.7333,
+   "coverage": 1.0,
+   "f1_ci95": [
+    0.6129,
+    0.8212
+   ],
+   "patient_data_to_cloud": "structured record, median 19.0 fields, every pair",
+   "note": ""
+  },
+  {
+   "condition": "INDICON advisory hybrid",
+   "acc": 0.9185,
+   "f1": 0.8722,
+   "coverage": 0.9815,
+   "f1_ci95": [
+    0.8242,
+    0.9219
+   ],
+   "patient_data_to_cloud": "full narrative every pair",
+   "note": ""
+  },
+  {
+   "condition": "SPLIT-Match forced (proxy edge)",
+   "acc": 0.7741,
+   "f1": 0.5612,
+   "coverage": 1.0,
+   "f1_ci95": [
+    0.3478,
+    0.7259
+   ],
+   "patient_data_to_cloud": "single facts on 63% of pairs; no narrative",
+   "note": ""
+  },
+  {
+   "condition": "SPLIT-Match selective (proxy edge)",
+   "acc": 0.7222,
+   "f1": 0.6173,
+   "coverage": 0.837,
+   "f1_ci95": [
+    0.3636,
+    0.7879
+   ],
+   "patient_data_to_cloud": "single facts on 63% of pairs; no narrative",
+   "note": ""
+  },
+  {
+   "condition": "SPLIT-Match offline, -L2 (forced)",
+   "acc": 0.7852,
+   "f1": 0.6778,
+   "coverage": 1.0,
+   "f1_ci95": [
+    0.5572,
+    0.7821
+   ],
+   "patient_data_to_cloud": "none",
+   "note": ""
+  },
+  {
+   "condition": "SPLIT-Match offline, -L2 (selective)",
+   "acc": 0.6444,
+   "f1": 0.7797,
+   "coverage": 0.6926,
+   "f1_ci95": [
+    0.5833,
+    0.8889
+   ],
+   "patient_data_to_cloud": "none",
+   "note": ""
+  },
+  {
+   "condition": "SPLIT-Match forced (local Qwen3-4B edge, deploy)",
+   "acc": 0.7704,
+   "f1": 0.5694,
+   "coverage": 1.0,
+   "f1_ci95": [
+    0.4082,
+    0.7009
+   ],
+   "patient_data_to_cloud": "single facts; no narrative",
+   "note": ""
+  },
+  {
+   "condition": "SPLIT-Match selective (local Qwen3-4B edge, deploy)",
+   "acc": 0.7,
+   "f1": 0.5946,
+   "coverage": 0.8111,
+   "f1_ci95": [
+    0.3182,
+    0.7937
+   ],
+   "patient_data_to_cloud": "single facts; no narrative",
+   "note": ""
+  },
+  {
+   "condition": "Edge zero-shot, gpt-oss-20b (proxy for edge)",
+   "acc": 0.9259,
+   "f1": 0.863,
+   "coverage": 1.0,
+   "f1_ci95": [
+    0.7904,
+    0.9412
+   ],
+   "patient_data_to_cloud": "none (if run on device)",
+   "note": ""
+  },
+  {
+   "condition": "Edge zero-shot, local Qwen3-4B",
+   "acc": 0.8667,
+   "f1": 0.7632,
+   "coverage": 1.0,
+   "f1_ci95": [
+    0.6957,
+    0.8497
+   ],
+   "patient_data_to_cloud": "none",
+   "note": ""
+  }
+ ],
+ "missing": []
+}

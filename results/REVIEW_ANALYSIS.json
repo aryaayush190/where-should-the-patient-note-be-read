@@ -1,0 +1,1708 @@
+{
+ "note": "Exploratory analyses for the pre-submission review; not part of the pre-specified plan.",
+ "clinical": {
+  "cloudZS": {
+   "acc": 0.948,
+   "recall": 0.928,
+   "precision": 0.877,
+   "missed_eligible": 5,
+   "unnecessary_referrals": 9,
+   "referrals": 73,
+   "per100_patients": {
+    "referrals": 162.2,
+    "missed_eligible": 11.1,
+    "unnecessary_referrals": 20.0
+   }
+  },
+  "cloudZSrerun": {
+   "acc": 0.933,
+   "recall": 0.87,
+   "precision": 0.87,
+   "missed_eligible": 9,
+   "unnecessary_referrals": 9,
+   "referrals": 69,
+   "per100_patients": {
+    "referrals": 153.3,
+    "missed_eligible": 20.0,
+    "unnecessary_referrals": 20.0
+   },
+   "recall_diff": -0.058,
+   "acc_diff": -0.015,
+   "recall_diff_ci_trial": [
+    -0.121,
+    0.0
+   ],
+   "acc_diff_ci_trial": [
+    -0.032,
+    0.0
+   ],
+   "recall_diff_ci_patient": [
+    -0.145,
+    0.014
+   ],
+   "acc_diff_ci_patient": [
+    -0.037,
+    0.004
+   ],
+   "recall_diff_ci_twoway": [
+    -0.188,
+    0.044
+   ],
+   "acc_diff_ci_twoway": [
+    -0.052,
+    0.011
+   ],
+   "recall_noninferior_m010_twoway": false,
+   "acc_noninferior_m005_twoway": false
+  },
+  "cloudFS": {
+   "acc": 0.952,
+   "recall": 0.942,
+   "precision": 0.878,
+   "missed_eligible": 4,
+   "unnecessary_referrals": 9,
+   "referrals": 74,
+   "per100_patients": {
+    "referrals": 164.4,
+    "missed_eligible": 8.9,
+    "unnecessary_referrals": 20.0
+   },
+   "recall_diff": 0.014,
+   "acc_diff": 0.004,
+   "recall_diff_ci_trial": [
+    -0.028,
+    0.077
+   ],
+   "acc_diff_ci_trial": [
+    -0.008,
+    0.016
+   ],
+   "recall_diff_ci_patient": [
+    -0.031,
+    0.065
+   ],
+   "acc_diff_ci_patient": [
+    -0.015,
+    0.022
+   ],
+   "recall_diff_ci_twoway": [
+    -0.063,
+    0.123
+   ],
+   "acc_diff_ci_twoway": [
+    -0.025,
+    0.034
+   ],
+   "recall_noninferior_m010_twoway": true,
+   "acc_noninferior_m005_twoway": true
+  },
+  "cloudRAG": {
+   "acc": 0.948,
+   "recall": 0.884,
+   "precision": 0.91,
+   "missed_eligible": 8,
+   "unnecessary_referrals": 6,
+   "referrals": 67,
+   "per100_patients": {
+    "referrals": 148.9,
+    "missed_eligible": 17.8,
+    "unnecessary_referrals": 13.3
+   },
+   "recall_diff": -0.043,
+   "acc_diff": 0.0,
+   "recall_diff_ci_trial": [
+    -0.123,
+    0.022
+   ],
+   "acc_diff_ci_trial": [
+    -0.022,
+    0.018
+   ],
+   "recall_diff_ci_patient": [
+    -0.101,
+    0.015
+   ],
+   "acc_diff_ci_patient": [
+    -0.022,
+    0.019
+   ],
+   "recall_diff_ci_twoway": [
+    -0.167,
+    0.051
+   ],
+   "acc_diff_ci_twoway": [
+    -0.037,
+    0.036
+   ],
+   "recall_noninferior_m010_twoway": false,
+   "acc_noninferior_m005_twoway": true
+  },
+  "indiconAdv": {
+   "acc": 0.926,
+   "recall": 0.841,
+   "precision": 0.866,
+   "missed_eligible": 11,
+   "unnecessary_referrals": 9,
+   "referrals": 67,
+   "per100_patients": {
+    "referrals": 148.9,
+    "missed_eligible": 24.4,
+    "unnecessary_referrals": 20.0
+   },
+   "recall_diff": -0.087,
+   "acc_diff": -0.022,
+   "recall_diff_ci_trial": [
+    -0.18,
+    0.011
+   ],
+   "acc_diff_ci_trial": [
+    -0.054,
+    0.004
+   ],
+   "recall_diff_ci_patient": [
+    -0.167,
+    -0.014
+   ],
+   "acc_diff_ci_patient": [
+    -0.048,
+    0.0
+   ],
+   "recall_diff_ci_twoway": [
+    -0.242,
+    0.033
+   ],
+   "acc_diff_ci_twoway": [
+    -0.074,
+    0.02
+   ],
+   "recall_noninferior_m010_twoway": false,
+   "acc_noninferior_m005_twoway": false
+  },
+  "cloudRecord_proxyFS": {
+   "acc": 0.881,
+   "recall": 0.638,
+   "precision": 0.863,
+   "missed_eligible": 25,
+   "unnecessary_referrals": 7,
+   "referrals": 51,
+   "per100_patients": {
+    "referrals": 113.3,
+    "missed_eligible": 55.6,
+    "unnecessary_referrals": 15.6
+   },
+   "recall_diff": -0.29,
+   "acc_diff": -0.067,
+   "recall_diff_ci_trial": [
+    -0.458,
+    -0.164
+   ],
+   "acc_diff_ci_trial": [
+    -0.108,
+    -0.035
+   ],
+   "recall_diff_ci_patient": [
+    -0.403,
+    -0.184
+   ],
+   "acc_diff_ci_patient": [
+    -0.096,
+    -0.041
+   ],
+   "recall_diff_ci_twoway": [
+    -0.533,
+    -0.115
+   ],
+   "acc_diff_ci_twoway": [
+    -0.129,
+    -0.018
+   ],
+   "recall_noninferior_m010_twoway": false,
+   "acc_noninferior_m005_twoway": false
+  },
+  "cloudRecord_deployFS": {
+   "acc": 0.896,
+   "recall": 0.667,
+   "precision": 0.902,
+   "missed_eligible": 23,
+   "unnecessary_referrals": 5,
+   "referrals": 51,
+   "per100_patients": {
+    "referrals": 113.3,
+    "missed_eligible": 51.1,
+    "unnecessary_referrals": 11.1
+   },
+   "recall_diff": -0.261,
+   "acc_diff": -0.052,
+   "recall_diff_ci_trial": [
+    -0.397,
+    -0.153
+   ],
+   "acc_diff_ci_trial": [
+    -0.088,
+    -0.02
+   ],
+   "recall_diff_ci_patient": [
+    -0.368,
+    -0.162
+   ],
+   "acc_diff_ci_patient": [
+    -0.078,
+    -0.022
+   ],
+   "recall_diff_ci_twoway": [
+    -0.479,
+    -0.095
+   ],
+   "acc_diff_ci_twoway": [
+    -0.108,
+    0.0
+   ],
+   "recall_noninferior_m010_twoway": false,
+   "acc_noninferior_m005_twoway": false
+  },
+  "splitDeploy": {
+   "acc": 0.77,
+   "recall": 0.594,
+   "precision": 0.547,
+   "missed_eligible": 28,
+   "unnecessary_referrals": 34,
+   "referrals": 75,
+   "per100_patients": {
+    "referrals": 166.7,
+    "missed_eligible": 62.2,
+    "unnecessary_referrals": 75.6
+   },
+   "recall_diff": -0.333,
+   "acc_diff": -0.178,
+   "recall_diff_ci_trial": [
+    -0.522,
+    -0.122
+   ],
+   "acc_diff_ci_trial": [
+    -0.251,
+    -0.11
+   ],
+   "recall_diff_ci_patient": [
+    -0.448,
+    -0.214
+   ],
+   "acc_diff_ci_patient": [
+    -0.237,
+    -0.119
+   ],
+   "recall_diff_ci_twoway": [
+    -0.595,
+    -0.059
+   ],
+   "acc_diff_ci_twoway": [
+    -0.283,
+    -0.075
+   ],
+   "recall_noninferior_m010_twoway": false,
+   "acc_noninferior_m005_twoway": false
+  },
+  "splitProxy": {
+   "acc": 0.774,
+   "recall": 0.565,
+   "precision": 0.557,
+   "missed_eligible": 30,
+   "unnecessary_referrals": 31,
+   "referrals": 70,
+   "per100_patients": {
+    "referrals": 155.6,
+    "missed_eligible": 66.7,
+    "unnecessary_referrals": 68.9
+   },
+   "recall_diff": -0.362,
+   "acc_diff": -0.174,
+   "recall_diff_ci_trial": [
+    -0.577,
+    -0.133
+   ],
+   "acc_diff_ci_trial": [
+    -0.269,
+    -0.088
+   ],
+   "recall_diff_ci_patient": [
+    -0.485,
+    -0.242
+   ],
+   "acc_diff_ci_patient": [
+    -0.23,
+    -0.119
+   ],
+   "recall_diff_ci_twoway": [
+    -0.647,
+    -0.088
+   ],
+   "acc_diff_ci_twoway": [
+    -0.295,
+    -0.064
+   ],
+   "recall_noninferior_m010_twoway": false,
+   "acc_noninferior_m005_twoway": false
+  },
+  "offline": {
+   "acc": 0.785,
+   "recall": 0.884,
+   "precision": 0.55,
+   "missed_eligible": 8,
+   "unnecessary_referrals": 50,
+   "referrals": 111,
+   "per100_patients": {
+    "referrals": 246.7,
+    "missed_eligible": 17.8,
+    "unnecessary_referrals": 111.1
+   },
+   "recall_diff": -0.043,
+   "acc_diff": -0.163,
+   "recall_diff_ci_trial": [
+    -0.159,
+    0.068
+   ],
+   "acc_diff_ci_trial": [
+    -0.258,
+    -0.086
+   ],
+   "recall_diff_ci_patient": [
+    -0.134,
+    0.047
+   ],
+   "acc_diff_ci_patient": [
+    -0.222,
+    -0.107
+   ],
+   "recall_diff_ci_twoway": [
+    -0.218,
+    0.125
+   ],
+   "acc_diff_ci_twoway": [
+    -0.286,
+    -0.063
+   ],
+   "recall_noninferior_m010_twoway": false,
+   "acc_noninferior_m005_twoway": false
+  },
+  "edgeTwentyB": {
+   "acc": 0.926,
+   "recall": 0.913,
+   "precision": 0.818,
+   "missed_eligible": 6,
+   "unnecessary_referrals": 14,
+   "referrals": 77,
+   "per100_patients": {
+    "referrals": 171.1,
+    "missed_eligible": 13.3,
+    "unnecessary_referrals": 31.1
+   },
+   "recall_diff": -0.014,
+   "acc_diff": -0.022,
+   "recall_diff_ci_trial": [
+    -0.053,
+    0.043
+   ],
+   "acc_diff_ci_trial": [
+    -0.041,
+    -0.003
+   ],
+   "recall_diff_ci_patient": [
+    -0.063,
+    0.03
+   ],
+   "acc_diff_ci_patient": [
+    -0.052,
+    0.004
+   ],
+   "recall_diff_ci_twoway": [
+    -0.095,
+    0.078
+   ],
+   "acc_diff_ci_twoway": [
+    -0.066,
+    0.012
+   ],
+   "recall_noninferior_m010_twoway": true,
+   "acc_noninferior_m005_twoway": false
+  },
+  "edgeFourB": {
+   "acc": 0.867,
+   "recall": 0.841,
+   "precision": 0.699,
+   "missed_eligible": 11,
+   "unnecessary_referrals": 25,
+   "referrals": 83,
+   "per100_patients": {
+    "referrals": 184.4,
+    "missed_eligible": 24.4,
+    "unnecessary_referrals": 55.6
+   },
+   "recall_diff": -0.087,
+   "acc_diff": -0.081,
+   "recall_diff_ci_trial": [
+    -0.204,
+    0.015
+   ],
+   "acc_diff_ci_trial": [
+    -0.123,
+    -0.039
+   ],
+   "recall_diff_ci_patient": [
+    -0.187,
+    0.0
+   ],
+   "acc_diff_ci_patient": [
+    -0.119,
+    -0.048
+   ],
+   "recall_diff_ci_twoway": [
+    -0.268,
+    0.06
+   ],
+   "acc_diff_ci_twoway": [
+    -0.155,
+    -0.023
+   ],
+   "recall_noninferior_m010_twoway": false,
+   "acc_noninferior_m005_twoway": false
+  },
+  "qwen27b": {
+   "acc": 0.885,
+   "recall": 0.58,
+   "precision": 0.952,
+   "missed_eligible": 29,
+   "unnecessary_referrals": 2,
+   "referrals": 42,
+   "per100_patients": {
+    "referrals": 93.3,
+    "missed_eligible": 64.4,
+    "unnecessary_referrals": 4.4
+   },
+   "recall_diff": -0.348,
+   "acc_diff": -0.063,
+   "recall_diff_ci_trial": [
+    -0.461,
+    -0.22
+   ],
+   "acc_diff_ci_trial": [
+    -0.116,
+    -0.013
+   ],
+   "recall_diff_ci_patient": [
+    -0.457,
+    -0.242
+   ],
+   "acc_diff_ci_patient": [
+    -0.104,
+    -0.022
+   ],
+   "recall_diff_ci_twoway": [
+    -0.528,
+    -0.158
+   ],
+   "acc_diff_ci_twoway": [
+    -0.138,
+    0.007
+   ],
+   "recall_noninferior_m010_twoway": false,
+   "acc_noninferior_m005_twoway": false
+  },
+  "qwen3_1p7b_local": {
+   "acc": 0.533,
+   "recall": 0.87,
+   "precision": 0.339,
+   "missed_eligible": 9,
+   "unnecessary_referrals": 117,
+   "referrals": 177,
+   "per100_patients": {
+    "referrals": 393.3,
+    "missed_eligible": 20.0,
+    "unnecessary_referrals": 260.0
+   },
+   "recall_diff": -0.058,
+   "acc_diff": -0.415,
+   "recall_diff_ci_trial": [
+    -0.224,
+    0.092
+   ],
+   "acc_diff_ci_trial": [
+    -0.488,
+    -0.342
+   ],
+   "recall_diff_ci_patient": [
+    -0.162,
+    0.038
+   ],
+   "acc_diff_ci_patient": [
+    -0.485,
+    -0.348
+   ],
+   "recall_diff_ci_twoway": [
+    -0.278,
+    0.136
+   ],
+   "acc_diff_ci_twoway": [
+    -0.527,
+    -0.299
+   ],
+   "recall_noninferior_m010_twoway": false,
+   "acc_noninferior_m005_twoway": false
+  },
+  "edgeTwentyB_local": {
+   "acc": 0.9,
+   "recall": 0.855,
+   "precision": 0.776,
+   "missed_eligible": 10,
+   "unnecessary_referrals": 17,
+   "referrals": 76,
+   "per100_patients": {
+    "referrals": 168.9,
+    "missed_eligible": 22.2,
+    "unnecessary_referrals": 37.8
+   },
+   "recall_diff": -0.072,
+   "acc_diff": -0.048,
+   "recall_diff_ci_trial": [
+    -0.128,
+    0.0
+   ],
+   "acc_diff_ci_trial": [
+    -0.076,
+    -0.02
+   ],
+   "recall_diff_ci_patient": [
+    -0.169,
+    0.014
+   ],
+   "acc_diff_ci_patient": [
+    -0.085,
+    -0.015
+   ],
+   "recall_diff_ci_twoway": [
+    -0.2,
+    0.046
+   ],
+   "acc_diff_ci_twoway": [
+    -0.107,
+    -0.006
+   ],
+   "recall_noninferior_m010_twoway": false,
+   "acc_noninferior_m005_twoway": false
+  }
+ },
+ "noise": {
+  "cloud_runs_acc": {
+   "cached": 0.9481,
+   "rerun1": 0.9333,
+   "rep1": 0.937,
+   "rep2": 0.937,
+   "rep3": 0.937
+  },
+  "edge20b_runs_acc": {
+   "orig": 0.9259,
+   "rep1": 0.9111,
+   "rep2": 0.9148,
+   "rep3": 0.9074
+  },
+  "cloud_mean": 0.9385,
+  "cloud_sd": 0.005,
+  "edge20b_mean": 0.9148,
+  "edge20b_sd": 0.0069,
+  "cloud_pairwise_agreement": [
+   0.9778,
+   0.9741,
+   0.9741,
+   0.9815,
+   0.9741,
+   0.9815,
+   0.9889,
+   0.9852,
+   0.9778,
+   0.9852
+  ],
+  "edge20b_pairwise_agreement": [
+   0.963,
+   0.9667,
+   0.9667,
+   0.9889,
+   0.9741,
+   0.9852
+  ],
+  "cloud_max_between_run_gap": 0.0148,
+  "run_averaged_diff_edge20b_minus_cloud": -0.0237,
+  "run_averaged_diff_ci_trial": [
+   -0.0456,
+   -0.0015
+  ]
+ },
+ "capacity": {
+  "qwen3_1p7b_local": {
+   "model": "Qwen3-1.7B",
+   "arch": "dense",
+   "params_b": 1.7,
+   "where": "local CPU",
+   "laptop_latency_p50_s": 13.42,
+   "acc": 0.533,
+   "recall": 0.87,
+   "acc_diff_vs_cloud": -0.415,
+   "acc_diff_ci_trial": [
+    -0.488,
+    -0.342
+   ]
+  },
+  "edgeFourB": {
+   "model": "Qwen3-4B-Instruct-2507",
+   "arch": "dense",
+   "params_b": 4.0,
+   "where": "local CPU",
+   "laptop_latency_p50_s": 36.979,
+   "acc": 0.867,
+   "recall": 0.841,
+   "acc_diff_vs_cloud": -0.081,
+   "acc_diff_ci_trial": [
+    -0.123,
+    -0.039
+   ]
+  },
+  "qwen27b": {
+   "model": "Qwen3.8-27B",
+   "arch": "dense",
+   "params_b": 27,
+   "where": "hosted",
+   "laptop_latency_p50_s": null,
+   "acc": 0.885,
+   "recall": 0.58,
+   "acc_diff_vs_cloud": -0.063,
+   "acc_diff_ci_trial": [
+    -0.116,
+    -0.013
+   ]
+  },
+  "edgeTwentyB": {
+   "model": "gpt-oss-20b",
+   "arch": "MoE, 3.6B active",
+   "params_b": 21,
+   "where": "hosted",
+   "laptop_latency_p50_s": null,
+   "acc": 0.926,
+   "recall": 0.913,
+   "acc_diff_vs_cloud": -0.022,
+   "acc_diff_ci_trial": [
+    -0.041,
+    -0.003
+   ]
+  },
+  "edgeTwentyB_local": {
+   "model": "gpt-oss-20b",
+   "arch": "MoE, 3.6B active",
+   "params_b": 21,
+   "where": "local CPU",
+   "laptop_latency_p50_s": 137.9,
+   "acc": 0.9,
+   "recall": 0.855,
+   "acc_diff_vs_cloud": -0.048,
+   "acc_diff_ci_trial": [
+    -0.076,
+    -0.02
+   ]
+  },
+  "cloudZS": {
+   "model": "gpt-oss-120b",
+   "arch": "MoE, 5.1B active",
+   "params_b": 117,
+   "where": "hosted",
+   "laptop_latency_p50_s": null,
+   "acc": 0.948,
+   "recall": 0.928,
+   "acc_diff_vs_cloud": null,
+   "acc_diff_ci_trial": null
+  }
+ },
+ "long_notes": {
+  "cloud120b": {
+   "acc_short": 0.937,
+   "acc_long": 0.937,
+   "delta": 0.0,
+   "delta_ci_trial": [
+    -0.019,
+    0.022
+   ],
+   "recall_short": 0.87,
+   "recall_long": 0.841,
+   "mcnemar": {
+    "A_only_correct": 4,
+    "B_only_correct": 4,
+    "p_exact": 1.0
+   }
+  },
+  "edge20b": {
+   "acc_short": 0.926,
+   "acc_long": 0.907,
+   "delta": -0.019,
+   "delta_ci_trial": [
+    -0.042,
+    0.003
+   ],
+   "recall_short": 0.913,
+   "recall_long": 0.87,
+   "mcnemar": {
+    "A_only_correct": 4,
+    "B_only_correct": 9,
+    "p_exact": 0.266845703125
+   }
+  },
+  "edge4b": {
+   "acc_short": 0.867,
+   "acc_long": 0.856,
+   "delta": -0.011,
+   "delta_ci_trial": [
+    -0.048,
+    0.021
+   ],
+   "recall_short": 0.841,
+   "recall_long": 0.928,
+   "mcnemar": {
+    "A_only_correct": 8,
+    "B_only_correct": 11,
+    "p_exact": 0.6476058959960938
+   }
+  },
+  "notes": {
+   "n": 45,
+   "words_long_median": 755,
+   "words_long_min": 471,
+   "words_long_max": 1279,
+   "filler_sentences": 1388,
+   "filler_dropped_by_screen": 67
+  }
+ },
+ "coverage": {
+  "coverage": 0.693,
+  "offline_split_acc_decided": 0.93,
+  "cloudZS": {
+   "acc_at_same_coverage": 0.984,
+   "offline_minus_model": -0.054,
+   "diff_ci_trial": [
+    -0.082,
+    -0.028
+   ],
+   "distinct_confidence_values": 11
+  },
+  "edgeTwentyB": {
+   "acc_at_same_coverage": 0.93,
+   "offline_minus_model": 0.001,
+   "diff_ci_trial": [
+    -0.044,
+    0.041
+   ],
+   "distinct_confidence_values": 8
+  },
+  "edgeTwentyB_local": {
+   "acc_at_same_coverage": 0.927,
+   "offline_minus_model": 0.004,
+   "diff_ci_trial": [
+    -0.038,
+    0.042
+   ],
+   "distinct_confidence_values": 10
+  },
+  "edgeFourB": {
+   "acc_at_same_coverage": 0.888,
+   "offline_minus_model": 0.043,
+   "diff_ci_trial": [
+    -0.007,
+    0.09
+   ],
+   "distinct_confidence_values": 5
+  }
+ },
+ "same_model": {
+  "acc_read": 0.867,
+  "acc_compiled": 0.77,
+  "acc_diff": 0.096,
+  "mcnemar": {
+   "A_only_correct": 50,
+   "B_only_correct": 24,
+   "p_exact": 0.0033722333341480717
+  },
+  "recall_read": 0.841,
+  "recall_compiled": 0.594,
+  "recall_diff": 0.246,
+  "missed_read": 11,
+  "missed_compiled": 28,
+  "acc_diff_ci_trial": [
+   0.022,
+   0.183
+  ],
+  "recall_diff_ci_trial": [
+   0.0,
+   0.478
+  ],
+  "acc_diff_ci_patient": [
+   0.033,
+   0.159
+  ],
+  "recall_diff_ci_patient": [
+   0.097,
+   0.389
+  ],
+  "acc_diff_ci_twoway": [
+   -0.018,
+   0.213
+  ],
+  "recall_diff_ci_twoway": [
+   -0.066,
+   0.563
+  ],
+  "gptoss20b_hosted": {
+   "acc_read": 0.926,
+   "acc_compiled": 0.774,
+   "acc_diff": 0.152,
+   "mcnemar": {
+    "A_only_correct": 54,
+    "B_only_correct": 13,
+    "p_exact": 4.4658346801823307e-07
+   },
+   "recall_read": 0.913,
+   "recall_compiled": 0.565,
+   "recall_diff": 0.348,
+   "missed_read": 6,
+   "missed_compiled": 30,
+   "acc_diff_ci_trial": [
+    0.063,
+    0.255
+   ],
+   "recall_diff_ci_trial": [
+    0.12,
+    0.562
+   ],
+   "acc_diff_ci_patient": [
+    0.093,
+    0.211
+   ],
+   "recall_diff_ci_patient": [
+    0.227,
+    0.474
+   ],
+   "acc_diff_ci_twoway": [
+    0.034,
+    0.28
+   ],
+   "recall_diff_ci_twoway": [
+    0.069,
+    0.633
+   ]
+  }
+ },
+ "local20b_full": {
+  "pairs_ok": 270,
+  "error_rows": 1,
+  "complete": true,
+  "clinical": {
+   "acc": 0.9,
+   "recall": 0.855,
+   "precision": 0.776,
+   "missed_eligible": 10,
+   "unnecessary_referrals": 17,
+   "referrals": 76,
+   "per100_patients": {
+    "referrals": 168.9,
+    "missed_eligible": 22.2,
+    "unnecessary_referrals": 37.8
+   }
+  },
+  "acc_ci_trial": [
+   0.858,
+   0.95
+  ],
+  "acc_diff_vs_cloud": -0.048,
+  "recall_diff_vs_cloud": -0.072,
+  "acc_diff_ci_trial": [
+   -0.076,
+   -0.02
+  ],
+  "recall_diff_ci_trial": [
+   -0.128,
+   0.0
+  ],
+  "acc_diff_ci_patient": [
+   -0.085,
+   -0.015
+  ],
+  "recall_diff_ci_patient": [
+   -0.169,
+   0.014
+  ],
+  "acc_diff_ci_twoway": [
+   -0.107,
+   -0.006
+  ],
+  "recall_diff_ci_twoway": [
+   -0.2,
+   0.046
+  ],
+  "mcnemar_vs_cloud": {
+   "A_only_correct": 2,
+   "B_only_correct": 15,
+   "p_exact": 0.002349853515625
+  },
+  "diff_vs_cloud_run_mean": -0.0385,
+  "diff_vs_cloud_run_mean_ci_trial": [
+   -0.0689,
+   -0.0113
+  ],
+  "hosted_runs_acc": {
+   "orig": 0.926,
+   "rep1": 0.911,
+   "rep2": 0.915,
+   "rep3": 0.907
+  },
+  "hosted_mean_acc": 0.9148,
+  "agreement_with_hosted": {
+   "orig": 0.959,
+   "rep1": 0.967,
+   "rep2": 0.97,
+   "rep3": 0.97
+  },
+  "acc_diff_vs_hosted_orig": -0.026,
+  "acc_diff_vs_hosted_orig_ci_trial": [
+   -0.04,
+   -0.013
+  ],
+  "mcnemar_vs_hosted_orig": {
+   "A_only_correct": 2,
+   "B_only_correct": 9,
+   "p_exact": 0.0654296875
+  },
+  "cloud_runs_miss_unn": {
+   "cached": {
+    "missed": 5,
+    "unnecessary": 9
+   },
+   "rerun1": {
+    "missed": 9,
+    "unnecessary": 9
+   },
+   "rep1": {
+    "missed": 9,
+    "unnecessary": 8
+   },
+   "rep2": {
+    "missed": 10,
+    "unnecessary": 7
+   },
+   "rep3": {
+    "missed": 8,
+    "unnecessary": 9
+   }
+  },
+  "hosted_runs_miss_unn": {
+   "orig": {
+    "missed": 6,
+    "unnecessary": 14
+   },
+   "rep1": {
+    "missed": 10,
+    "unnecessary": 14
+   },
+   "rep2": {
+    "missed": 9,
+    "unnecessary": 14
+   },
+   "rep3": {
+    "missed": 8,
+    "unnecessary": 17
+   }
+  },
+  "vs_4b_acc_diff": 0.033,
+  "vs_4b_acc_diff_ci_trial": [
+   -0.004,
+   0.069
+  ],
+  "vs_4b_mcnemar": {
+   "A_only_correct": 16,
+   "B_only_correct": 7,
+   "p_exact": 0.0931396484375
+  },
+  "vs_4b_eligible_caught_only": {
+   "20b": 4,
+   "4b": 3
+  },
+  "latency_p50_s": 137.9,
+  "latency_p95_s": 217.14,
+  "latency_mean_s": 144.6,
+  "per_patient_median_s": 831.0,
+  "total_cpu_hours": 10.84,
+  "gen_tok_per_s_median": 1.75,
+  "prompt_tok_per_s_median": 12.98,
+  "peak_ram_mb": 9969.4,
+  "replayed_from_earlier_local_runs": 40
+ },
+ "bandwidth": {
+  "full_note": {
+   "patients": 45,
+   "median_chars_per_patient": 5142,
+   "mean_chars_per_patient": 4975.1
+  },
+  "full_note_total_incl_public": {
+   "patients": 45,
+   "median_chars_per_patient": 26174,
+   "mean_chars_per_patient": 26149.9
+  },
+  "facts_proxy": {
+   "patients": 45,
+   "median_chars_per_patient": 637,
+   "mean_chars_per_patient": 739.6
+  },
+  "facts_proxy_total_incl_public": {
+   "patients": 45,
+   "median_chars_per_patient": 3976,
+   "mean_chars_per_patient": 4501.7
+  },
+  "record_proxy": {
+   "patients": 45,
+   "median_chars_per_patient": 2280,
+   "mean_chars_per_patient": 2244
+  },
+  "record_proxy_total_incl_public": {
+   "patients": 45,
+   "median_chars_per_patient": 23321,
+   "mean_chars_per_patient": 23580.8
+  },
+  "facts_deploy": {
+   "patients": 45,
+   "median_chars_per_patient": 1554,
+   "mean_chars_per_patient": 1619.1
+  },
+  "facts_deploy_total_incl_public": {
+   "patients": 45,
+   "median_chars_per_patient": 8064,
+   "mean_chars_per_patient": 8144.7
+  },
+  "record_deploy": {
+   "patients": 45,
+   "median_chars_per_patient": 2508,
+   "mean_chars_per_patient": 2476.3
+  },
+  "record_deploy_total_incl_public": {
+   "patients": 45,
+   "median_chars_per_patient": 23621,
+   "mean_chars_per_patient": 23813.1
+  },
+  "nothing": {
+   "median_chars_per_patient": 0
+  }
+ },
+ "outage_sim": {
+  "1.0": {
+   "cloud_full_note": {
+    "completion_rate": 1.0,
+    "median_time_to_decision_s": 36.0
+   },
+   "split_match_deploy": {
+    "completion_rate": 1.0,
+    "median_time_to_decision_s": 1197.0
+   },
+   "edge_4b_full_note": {
+    "completion_rate": 1.0,
+    "median_time_to_decision_s": 217.3
+   },
+   "edge_20b_local_full_note": {
+    "completion_rate": 1.0,
+    "median_time_to_decision_s": 831.0
+   }
+  },
+  "0.9": {
+   "cloud_full_note": {
+    "completion_rate": 1.0,
+    "median_time_to_decision_s": 36.0
+   },
+   "split_match_deploy": {
+    "completion_rate": 0.995,
+    "median_time_to_decision_s": 1197.0
+   },
+   "edge_4b_full_note": {
+    "completion_rate": 1.0,
+    "median_time_to_decision_s": 217.3
+   },
+   "edge_20b_local_full_note": {
+    "completion_rate": 1.0,
+    "median_time_to_decision_s": 831.0
+   }
+  },
+  "0.7": {
+   "cloud_full_note": {
+    "completion_rate": 0.959,
+    "median_time_to_decision_s": 36.0
+   },
+   "split_match_deploy": {
+    "completion_rate": 0.834,
+    "median_time_to_decision_s": 1197.0
+   },
+   "edge_4b_full_note": {
+    "completion_rate": 1.0,
+    "median_time_to_decision_s": 217.3
+   },
+   "edge_20b_local_full_note": {
+    "completion_rate": 1.0,
+    "median_time_to_decision_s": 831.0
+   }
+  },
+  "0.5": {
+   "cloud_full_note": {
+    "completion_rate": 0.8,
+    "median_time_to_decision_s": 36.0
+   },
+   "split_match_deploy": {
+    "completion_rate": 0.603,
+    "median_time_to_decision_s": 1197.0
+   },
+   "edge_4b_full_note": {
+    "completion_rate": 1.0,
+    "median_time_to_decision_s": 217.3
+   },
+   "edge_20b_local_full_note": {
+    "completion_rate": 1.0,
+    "median_time_to_decision_s": 831.0
+   }
+  },
+  "assumptions": "per patient 6 trials; cloud call 6 s when link up; link up periods mean 30 min; retry every 30 s; decision window 30 min; SPLIT-Match deploy 1119 s local CPU per patient + 13 cloud calls (2.10 per pair); edge 4B 217.3 s local CPU per patient (measured median). Time to decision = local CPU time + cloud call time, so SPLIT-Match's exceeds its 1119 s CPU time"
+ },
+ "uniqueness": {
+  "population": "generator attribute sampler (synthetic), seed 20261109",
+  "record_level": {
+   "10000": 1.0,
+   "100000": 0.998
+  },
+  "fact_level_mean_uniqueness_over_payloads": {
+   "10000": 0.049,
+   "100000": 0.046
+  },
+  "fact_level_linked_per_patient_mean_uniqueness": {
+   "10000": 0.254,
+   "100000": 0.245
+  },
+  "patients_with_fact_queries": 45,
+  "linked_fields_per_patient_median": 5,
+  "fact_payloads": 567,
+  "fact_payloads_with_structured_fields": 262,
+  "fact_payloads_with_a_lab_value": 57
+ },
+ "local20b": {
+  "LOC_gptoss20b_pilot": {
+   "pairs_ok": 20,
+   "errors": 0,
+   "error_examples": [],
+   "acc": 0.9,
+   "hosted_acc_same_pairs": 0.95,
+   "agreement_with_hosted": 0.95,
+   "latency_p50_s": 162.27,
+   "latency_p95_s": 277.69,
+   "gen_tok_per_s_median": 1.73,
+   "prompt_tok_per_s_median": 11.41,
+   "peak_ram_mb": 9969.4
+  },
+  "LOC_gptoss20b_sub40": {
+   "pairs_ok": 40,
+   "errors": 0,
+   "error_examples": [],
+   "acc": 0.9,
+   "hosted_acc_same_pairs": 0.95,
+   "agreement_with_hosted": 0.95,
+   "latency_p50_s": 154.85,
+   "latency_p95_s": 234.99,
+   "gen_tok_per_s_median": 1.9,
+   "prompt_tok_per_s_median": 11.87,
+   "peak_ram_mb": 9969.4
+  }
+ },
+ "missed": {
+  "cloudZS": {
+   "recall": 0.928,
+   "fnr": 0.072,
+   "missed": 5,
+   "eligible": 69,
+   "recall_ci_trial": [
+    0.859,
+    0.986
+   ],
+   "fnr_ci_trial": [
+    0.014,
+    0.141
+   ]
+  },
+  "cloudRecord_deployFS": {
+   "recall": 0.667,
+   "fnr": 0.333,
+   "missed": 23,
+   "eligible": 69,
+   "recall_ci_trial": [
+    0.5,
+    0.8
+   ],
+   "fnr_ci_trial": [
+    0.2,
+    0.5
+   ],
+   "recall_diff_vs_cloud": -0.261,
+   "recall_diff_ci_trial": [
+    -0.397,
+    -0.153
+   ],
+   "recall_diff_ci_patient": [
+    -0.368,
+    -0.162
+   ],
+   "recall_diff_ci_twoway": [
+    -0.479,
+    -0.095
+   ],
+   "mcnemar_eligible_only": {
+    "A_only_correct": 0,
+    "B_only_correct": 18,
+    "p_exact": 7.62939453125e-06
+   }
+  },
+  "splitDeploy": {
+   "recall": 0.594,
+   "fnr": 0.406,
+   "missed": 28,
+   "eligible": 69,
+   "recall_ci_trial": [
+    0.389,
+    0.812
+   ],
+   "fnr_ci_trial": [
+    0.188,
+    0.611
+   ],
+   "recall_diff_vs_cloud": -0.333,
+   "recall_diff_ci_trial": [
+    -0.522,
+    -0.122
+   ],
+   "recall_diff_ci_patient": [
+    -0.448,
+    -0.214
+   ],
+   "recall_diff_ci_twoway": [
+    -0.595,
+    -0.059
+   ],
+   "mcnemar_eligible_only": {
+    "A_only_correct": 2,
+    "B_only_correct": 25,
+    "p_exact": 5.647540092468262e-06
+   }
+  },
+  "offline": {
+   "recall": 0.884,
+   "fnr": 0.116,
+   "missed": 8,
+   "eligible": 69,
+   "recall_ci_trial": [
+    0.803,
+    0.966
+   ],
+   "fnr_ci_trial": [
+    0.034,
+    0.197
+   ],
+   "recall_diff_vs_cloud": -0.043,
+   "recall_diff_ci_trial": [
+    -0.159,
+    0.068
+   ],
+   "recall_diff_ci_patient": [
+    -0.134,
+    0.047
+   ],
+   "recall_diff_ci_twoway": [
+    -0.218,
+    0.125
+   ],
+   "mcnemar_eligible_only": {
+    "A_only_correct": 4,
+    "B_only_correct": 7,
+    "p_exact": 0.548828125
+   }
+  },
+  "edgeFourB": {
+   "recall": 0.841,
+   "fnr": 0.159,
+   "missed": 11,
+   "eligible": 69,
+   "recall_ci_trial": [
+    0.736,
+    0.943
+   ],
+   "fnr_ci_trial": [
+    0.057,
+    0.264
+   ],
+   "recall_diff_vs_cloud": -0.087,
+   "recall_diff_ci_trial": [
+    -0.204,
+    0.015
+   ],
+   "recall_diff_ci_patient": [
+    -0.187,
+    0.0
+   ],
+   "recall_diff_ci_twoway": [
+    -0.268,
+    0.06
+   ],
+   "mcnemar_eligible_only": {
+    "A_only_correct": 2,
+    "B_only_correct": 8,
+    "p_exact": 0.109375
+   }
+  },
+  "edgeTwentyB_local": {
+   "recall": 0.855,
+   "fnr": 0.145,
+   "missed": 10,
+   "eligible": 69,
+   "recall_ci_trial": [
+    0.769,
+    0.937
+   ],
+   "fnr_ci_trial": [
+    0.063,
+    0.231
+   ],
+   "recall_diff_vs_cloud": -0.072,
+   "recall_diff_ci_trial": [
+    -0.128,
+    0.0
+   ],
+   "recall_diff_ci_patient": [
+    -0.169,
+    0.014
+   ],
+   "recall_diff_ci_twoway": [
+    -0.2,
+    0.046
+   ],
+   "mcnemar_eligible_only": {
+    "A_only_correct": 1,
+    "B_only_correct": 6,
+    "p_exact": 0.125
+   }
+  },
+  "edgeTwentyB": {
+   "recall": 0.913,
+   "fnr": 0.087,
+   "missed": 6,
+   "eligible": 69,
+   "recall_ci_trial": [
+    0.839,
+    0.984
+   ],
+   "fnr_ci_trial": [
+    0.016,
+    0.161
+   ],
+   "recall_diff_vs_cloud": -0.014,
+   "recall_diff_ci_trial": [
+    -0.053,
+    0.043
+   ],
+   "recall_diff_ci_patient": [
+    -0.063,
+    0.03
+   ],
+   "recall_diff_ci_twoway": [
+    -0.095,
+    0.078
+   ],
+   "mcnemar_eligible_only": {
+    "A_only_correct": 1,
+    "B_only_correct": 2,
+    "p_exact": 1.0
+   }
+  },
+  "qwen3_1p7b_local": {
+   "recall": 0.87,
+   "fnr": 0.13,
+   "missed": 9,
+   "eligible": 69,
+   "recall_ci_trial": [
+    0.735,
+    0.982
+   ],
+   "fnr_ci_trial": [
+    0.018,
+    0.265
+   ],
+   "recall_diff_vs_cloud": -0.058,
+   "recall_diff_ci_trial": [
+    -0.224,
+    0.092
+   ],
+   "recall_diff_ci_patient": [
+    -0.162,
+    0.038
+   ],
+   "recall_diff_ci_twoway": [
+    -0.278,
+    0.136
+   ],
+   "mcnemar_eligible_only": {
+    "A_only_correct": 4,
+    "B_only_correct": 8,
+    "p_exact": 0.3876953125
+   }
+  },
+  "qwen27b": {
+   "recall": 0.58,
+   "fnr": 0.42,
+   "missed": 29,
+   "eligible": 69,
+   "recall_ci_trial": [
+    0.453,
+    0.714
+   ],
+   "fnr_ci_trial": [
+    0.286,
+    0.547
+   ],
+   "recall_diff_vs_cloud": -0.348,
+   "recall_diff_ci_trial": [
+    -0.461,
+    -0.22
+   ],
+   "recall_diff_ci_patient": [
+    -0.457,
+    -0.242
+   ],
+   "recall_diff_ci_twoway": [
+    -0.528,
+    -0.158
+   ],
+   "mcnemar_eligible_only": {
+    "A_only_correct": 0,
+    "B_only_correct": 24,
+    "p_exact": 1.1920928955078125e-07
+   }
+  }
+ },
+ "decomposition": {
+  "gptoss20b_hosted": {
+   "complete": true,
+   "note": {
+    "acc": 0.926,
+    "recall": 0.913,
+    "missed": 6,
+    "unnecessary": 14
+   },
+   "fact_sheet": {
+    "acc": 0.878,
+    "recall": 0.71,
+    "missed": 20,
+    "unnecessary": 13
+   },
+   "rules": {
+    "acc": 0.774,
+    "recall": 0.565,
+    "missed": 30,
+    "unnecessary": 31
+   },
+   "note_minus_fact_sheet": {
+    "acc_diff": 0.048,
+    "recall_diff": 0.203,
+    "mcnemar": {
+     "A_only_correct": 24,
+     "B_only_correct": 11,
+     "p_exact": 0.04095959151163697
+    },
+    "acc_diff_ci_trial": [
+     0.004,
+     0.106
+    ],
+    "recall_diff_ci_trial": [
+     0.087,
+     0.36
+    ],
+    "acc_diff_ci_twoway": [
+     -0.028,
+     0.128
+    ],
+    "recall_diff_ci_twoway": [
+     0.021,
+     0.419
+    ]
+   },
+   "fact_sheet_minus_rules": {
+    "acc_diff": 0.104,
+    "recall_diff": 0.145,
+    "mcnemar": {
+     "A_only_correct": 45,
+     "B_only_correct": 17,
+     "p_exact": 0.0004970915863810334
+    },
+    "acc_diff_ci_trial": [
+     0.008,
+     0.204
+    ],
+    "recall_diff_ci_trial": [
+     -0.123,
+     0.4
+    ],
+    "acc_diff_ci_twoway": [
+     -0.021,
+     0.231
+    ],
+    "recall_diff_ci_twoway": [
+     -0.179,
+     0.489
+    ]
+   }
+  },
+  "qwen4b_laptop": {
+   "complete": true,
+   "note": {
+    "acc": 0.867,
+    "recall": 0.841,
+    "missed": 11,
+    "unnecessary": 25
+   },
+   "fact_sheet": {
+    "acc": 0.852,
+    "recall": 0.841,
+    "missed": 11,
+    "unnecessary": 29
+   },
+   "rules": {
+    "acc": 0.77,
+    "recall": 0.594,
+    "missed": 28,
+    "unnecessary": 34
+   },
+   "note_minus_fact_sheet": {
+    "acc_diff": 0.015,
+    "recall_diff": 0.0,
+    "mcnemar": {
+     "A_only_correct": 16,
+     "B_only_correct": 12,
+     "p_exact": 0.5715881884098053
+    },
+    "acc_diff_ci_trial": [
+     -0.021,
+     0.051
+    ],
+    "recall_diff_ci_trial": [
+     -0.097,
+     0.113
+    ],
+    "acc_diff_ci_twoway": [
+     -0.052,
+     0.077
+    ],
+    "recall_diff_ci_twoway": [
+     -0.163,
+     0.169
+    ]
+   },
+   "fact_sheet_minus_rules": {
+    "acc_diff": 0.081,
+    "recall_diff": 0.246,
+    "mcnemar": {
+     "A_only_correct": 50,
+     "B_only_correct": 28,
+     "p_exact": 0.016853089894602595
+    },
+    "acc_diff_ci_trial": [
+     0.008,
+     0.164
+    ],
+    "recall_diff_ci_trial": [
+     0.0,
+     0.46
+    ],
+    "acc_diff_ci_twoway": [
+     -0.031,
+     0.195
+    ],
+    "recall_diff_ci_twoway": [
+     -0.068,
+     0.54
+    ]
+   }
+  }
+ },
+ "local_repeats": {
+  "qwen4b_full_test": {
+   "complete": true,
+   "pairs": 270,
+   "agreement_with_first_run": 0.993,
+   "acc_first_run_same_pairs": 0.867,
+   "acc_repeat": 0.867,
+   "uncached_rows": 270,
+   "latency_p50_s": 30.9,
+   "latency_p95_s": 55.54,
+   "cold_load_s": 0,
+   "warm_load_s_median": 0.02,
+   "peak_ram_mb": 2887.5,
+   "gen_tok_per_s_median": 8.29
+  },
+  "gptoss20b_sub40": {
+   "complete": true,
+   "pairs": 40,
+   "agreement_with_first_run": 0.925,
+   "acc_first_run_same_pairs": 0.9,
+   "acc_repeat": 0.975,
+   "uncached_rows": 40,
+   "latency_p50_s": 229.94,
+   "latency_p95_s": 322.19,
+   "cold_load_s": 95.37,
+   "warm_load_s_median": 0.32,
+   "peak_ram_mb": 7764.1,
+   "gen_tok_per_s_median": 0.93
+  }
+ },
+ "outage_sensitivity": {
+  "5.0": {
+   "0.5": {
+    "cloud_full_note": 0.996,
+    "split_match_deploy": 0.876
+   },
+   "0.7": {
+    "cloud_full_note": 1.0,
+    "split_match_deploy": 0.99
+   },
+   "0.9": {
+    "cloud_full_note": 1.0,
+    "split_match_deploy": 1.0
+   }
+  },
+  "30.0": {
+   "0.5": {
+    "cloud_full_note": 0.8,
+    "split_match_deploy": 0.603
+   },
+   "0.7": {
+    "cloud_full_note": 0.959,
+    "split_match_deploy": 0.834
+   },
+   "0.9": {
+    "cloud_full_note": 1.0,
+    "split_match_deploy": 0.995
+   }
+  },
+  "120.0": {
+   "0.5": {
+    "cloud_full_note": 0.597,
+    "split_match_deploy": 0.53
+   },
+   "0.7": {
+    "cloud_full_note": 0.821,
+    "split_match_deploy": 0.743
+   },
+   "0.9": {
+    "cloud_full_note": 0.986,
+    "split_match_deploy": 0.947
+   }
+  }
+ }
+}

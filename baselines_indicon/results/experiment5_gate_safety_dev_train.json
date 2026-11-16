@@ -1,0 +1,12 @@
+{
+  "label": "dev_train",
+  "n_pairs": 104,
+  "TP": 33,
+  "FP": 17,
+  "FN": 0,
+  "TN": 54,
+  "gate_recall": 1.0,
+  "gate_precision": 0.66,
+  "gate_accuracy": 0.8365,
+  "false_negative_pairs": []
+}

@@ -1,0 +1,732 @@
+{
+ "076e75388e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "076f5ebe9a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0cd63aa38f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0d32eb3105": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0f9f7a99d0": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "has active NSCLC"
+ },
+ "10aadbec24": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1407f0200c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1565b8bf0b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1581bea40a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "163d958e98": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "175a1d46d6": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "INR 1.0"
+ },
+ "17b201655f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "17e6e591f6": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1954c8cd9e": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "male patient, not lactating"
+ },
+ "1b390ddd0e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1b569bdb09": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1bcb3429fa": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "AST within normal limits"
+ },
+ "1ce570a561": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1ec13cc7e1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "200afd0701": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "AST within normal limits"
+ },
+ "21c1b1720c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "248f173aa8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "280f1438ad": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no prior radiation therapy"
+ },
+ "288f285a20": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "28d5274e9d": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no serious wound, ulcer, or bone fracture mentioned"
+ },
+ "299742f573": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "2b877860d1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "2d2f8d5f10": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "stage IIIB, not IV"
+ },
+ "315a7c4250": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "patient is male"
+ },
+ "336c3d29fa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "342317e6b1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "37f4ed57e2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "386e6eff24": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ANC 5.0\u00d710^3/uL, meets \u22653k"
+ },
+ "38a71cffab": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "stage IIIB, not \u22647 cm T1/T2a/T2 N0 M0"
+ },
+ "3b51c2f72a": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no serious wound, ulcer, or bone fracture"
+ },
+ "3cb0c49c77": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "442d7d6391": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "45c663e27a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "462271c3c3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "463de5e84b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "48ea87952d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "494222cf5b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4bfcf7c581": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4cf071570f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4d63f12ffc": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4f34178bb1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5312f82929": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "546be7aa50": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "55b427f3a8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5717256fe2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "59de1b6248": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5a84182187": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "APTT within normal limits"
+ },
+ "5ba45a5bcb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5c50ea11f7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5e69c3e8e1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5e97603d22": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5eb0e56bd0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5ef0ebc1ec": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "61abc8fe61": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Chest CT/PET-CT performed"
+ },
+ "64b963ec48": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "65980154bb": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no bleeding disorders"
+ },
+ "687179fdc6": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "693d3952e0": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "controlled arrhythmia, no major cardiac events"
+ },
+ "6df4b3a1d4": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ALT within normal limits"
+ },
+ "6ea4fad1e4": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "life expectancy >12 weeks"
+ },
+ "6f0939197c": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior radiation therapy"
+ },
+ "721e400a1b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "744135886a": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "AST and ALT within normal limits"
+ },
+ "768f47a08d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "76f4ab817a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "77acaa96e8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7ade9bbd77": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7f8deed8eb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "819302aacf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "83e51065be": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no prior surgery/radio/systemic"
+ },
+ "849d01b255": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8590727528": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "85be37b59b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "86a75de812": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "86da255d7a": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ANC 5.0 10^3/uL"
+ },
+ "8831d22aba": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "88a0f7fbe4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8a4026d8e4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8a8bfdbe4a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8ce7e9cf10": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8f54a167d2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "918a734537": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "91f89dfb50": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "93cdc5f833": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "malignant pleural effusion present"
+ },
+ "94a1df8652": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no prior radiotherapy"
+ },
+ "9a3f837a9a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9a80ede384": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no prior malignancy"
+ },
+ "9ed23dab64": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a0f602ba0e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a12f544367": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a5c37d6f22": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a820f18608": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a8eb990a3b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ace07cff1e": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "disease is stage IIIB with pleural effusion, not isolated lung parenchymal"
+ },
+ "ad1e0cff0f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "life expectancy >12 weeks"
+ },
+ "ad71f78e5d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ae1b8aebb2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b015278ec0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b692038317": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b69f5af261": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "malignant pleural effusion present and cytologically positive"
+ },
+ "b6f9daff71": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b8590b9505": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b9104b2dce": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "creatinine, ANC, platelets, hemoglobin, bilirubin, liver enzymes, INR, APTT within normal limits"
+ },
+ "bc12545100": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "bd0e39adb6": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "bdf5d20c1a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "bdf769be63": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c0c1c96c3b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c2627f1bd5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c43295b972": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c6431312e7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c67de9f139": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c7703eb3ba": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cb9a53bb43": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cbc2c64cdf": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ALT within normal limits"
+ },
+ "d1375b2b98": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "patient has stage IIIB squamous cell carcinoma, not carcinoma in situ"
+ },
+ "d18e15a3c0": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no bleeding disorders, INR 1.0, APTT normal"
+ },
+ "d1c3b3cdfe": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "male patient, not lactating"
+ },
+ "d3c8ac3546": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d516e93110": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d7dd29821d": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no therapeutic anticoagulation"
+ },
+ "db53f885c1": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no swallowing difficulties"
+ },
+ "dc2cf9e957": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "dd01b3f395": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e00ef69d97": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "ALT within normal limits"
+ },
+ "e0ebe7b50a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e304c336e3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ed9ea1f150": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "efb6228445": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f0473276b5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f2b64f1b7d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f5bbe46a4f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f7fc46ca27": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f842c6d522": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "stage IIIB NSCLC, not N0M0"
+ },
+ "f8930d169b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f9e9da59bf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "fa79973fce": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "fb390ee3a1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "fd1bee54ee": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "fe65745135": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ffdc15342f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ }
+}

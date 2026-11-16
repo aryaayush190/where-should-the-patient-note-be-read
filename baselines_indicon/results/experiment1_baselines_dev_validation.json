@@ -1,0 +1,62 @@
+{
+  "label": "dev_validation",
+  "n_pairs": 26,
+  "conditions": {
+    "zero_shot": {
+      "n_pairs": 26,
+      "n_scored": 26,
+      "n_refused": 0,
+      "coverage": 1.0,
+      "n_correct": 22,
+      "accuracy_over_scored": 0.8462,
+      "accuracy_over_all": 0.8462,
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1": 0.75,
+      "mean_brier": 0.1351,
+      "mean_llm_calls": 1.0
+    },
+    "few_shot": {
+      "n_pairs": 26,
+      "n_scored": 23,
+      "n_refused": 3,
+      "coverage": 0.8846,
+      "n_correct": 20,
+      "accuracy_over_scored": 0.8696,
+      "accuracy_over_all": 0.7692,
+      "precision": 0.8333,
+      "recall": 0.7143,
+      "f1": 0.7692,
+      "mean_brier": 0.11,
+      "mean_llm_calls": 0.8846
+    },
+    "rag_only": {
+      "n_pairs": 26,
+      "n_scored": 26,
+      "n_refused": 0,
+      "coverage": 1.0,
+      "n_correct": 24,
+      "accuracy_over_scored": 0.9231,
+      "accuracy_over_all": 0.9231,
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.8571,
+      "mean_brier": 0.0621,
+      "mean_llm_calls": 1.0
+    },
+    "full": {
+      "n_pairs": 26,
+      "n_scored": 26,
+      "n_refused": 0,
+      "coverage": 1.0,
+      "n_correct": 22,
+      "accuracy_over_scored": 0.8462,
+      "accuracy_over_all": 0.8462,
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1": 0.75,
+      "mean_brier": 0.0819,
+      "mean_llm_calls": 6.8077
+    }
+  }
+}

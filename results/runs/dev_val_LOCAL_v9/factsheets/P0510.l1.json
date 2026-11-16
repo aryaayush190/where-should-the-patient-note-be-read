@@ -1,0 +1,312 @@
+{
+ "000ad71b20": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Histology is specified as adenocarcinoma, not bronchoalveolar carcinoma"
+ },
+ "01466a3027": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on serious medical or psychiatric illness is provided"
+ },
+ "0428ad8fbf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on prothrombin time or coagulation parameters is provided"
+ },
+ "0688db57f5": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "CT shows at least one lesion greater than 2 cm in diameter"
+ },
+ "07f7b44f00": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on herbal remedies or over-the-counter biologics is provided"
+ },
+ "09450c1c3f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient is an adult and capable of providing informed consent"
+ },
+ "098c176bf9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on anc_k_ul value is provided"
+ },
+ "100fe5aa4f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on concomitant medications affecting QTc is provided"
+ },
+ "14ccca429b": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient has stage IIIB NSCLC and prior immunotherapy, indicating failed front-line regimen"
+ },
+ "1bcb3429fa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on AST or liver function is provided"
+ },
+ "26081f027f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on cardiac events or NYHA class is provided"
+ },
+ "331dd75eab": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on congenital long QT syndrome or family history of sudden death is provided"
+ },
+ "386e6eff24": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "White blood cell count is not stated in the note"
+ },
+ "3d19563a8f": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Oxygen saturation is not reported; supplemental oxygen use is not mentioned"
+ },
+ "3ec3d228fa": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Platelet count is not stated, but no value is given to assess if it meets 100 10^3/uL"
+ },
+ "5bb82fd6d8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Bilirubin level is not stated in the note"
+ },
+ "5c50ea11f7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "AST level is not stated in the note"
+ },
+ "5f5d193de5": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "CT scan shows at least one lesion greater than 2 cm in size"
+ },
+ "5f736f331c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Donation history or last dose is not stated in the note"
+ },
+ "60ca7f6062": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Liver metastases or bilirubin level related to liver disease is not stated"
+ },
+ "673a064f34": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Sex, contraception, or sterility status is not stated in the note"
+ },
+ "6d941c296c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Serum potassium, calcium, and magnesium levels are not stated"
+ },
+ "6df4b3a1d4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "ALT level is not stated in the note"
+ },
+ "70244a1e0b": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Lung cancer stage IIIB confirmed with radiographic evaluation of primary tumor and regional lymph nodes"
+ },
+ "735248f9e2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on blood pressure control or hypertension status"
+ },
+ "77559690b3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on recent myocardial infarction or cardiac events"
+ },
+ "7958c72354": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on seizure disorder or neurological history"
+ },
+ "7bd0fb558f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on creatinine levels or estimated glomerular filtration rate"
+ },
+ "83a8f9e336": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on hemoglobin level or anemia status"
+ },
+ "840b0f664c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on electrocardiogram or conduction abnormalities"
+ },
+ "87caa41a10": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Tumor is histologically confirmed and accessible via biopsy"
+ },
+ "898797333e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on breastfeeding status or activity"
+ },
+ "8db261386d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on prior invasive malignancies or cancer history"
+ },
+ "92b98d534e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on hypersensitivity to polysorbate 80-containing drugs"
+ },
+ "95911d0716": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on hemoglobin level or anemia status"
+ },
+ "a0c54b7714": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on surgical incision healing status before therapy"
+ },
+ "a67ec1feb3": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on palliative radiation eligibility or history of obstructive pneumonia"
+ },
+ "a7a59f4f9c": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on participation in clinical trials within 4 weeks"
+ },
+ "a9bb3fc088": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on blood pressure readings or hypertension status"
+ },
+ "ad1e0cff0f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient has life expectancy of at least 3 months based on ECOG status and disease stage"
+ },
+ "b253b8c65a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on history of QT prolongation or medication use"
+ },
+ "c5483a2e0a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on contraception use or status for patient or partner"
+ },
+ "c6bdb440e2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on pregnancy test results or contraceptive use"
+ },
+ "c8f7f93c6b": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient has stage IIIB lung cancer with N3, indicating distant metastases"
+ },
+ "cbc2c64cdf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on liver function or ALT/ULN values"
+ },
+ "cc531dd1c5": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on hepatitis B or HIV infection or systemic disease severity"
+ },
+ "cd7fa4572d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on neurologic disease or active neurological conditions"
+ },
+ "ce082b2a26": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "White blood cell count not stated"
+ },
+ "d5eeaf5a75": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No history of active second primary cancer within last 3 years mentioned"
+ },
+ "dab6a164a2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "INR, PT and PTT values not stated"
+ },
+ "e26c0bb0da": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Weight loss in prior 6 months not stated"
+ },
+ "e2ba9aaddd": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "White blood cell count not stated"
+ },
+ "e6bdf26921": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Left ventricular ejection fraction not stated"
+ },
+ "e8308b718a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "QTc interval not stated"
+ },
+ "eba8f701b4": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Lung cancer with stage IIIB indicates measurable disease present"
+ },
+ "f07c920267": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Serum calcium level not stated"
+ },
+ "f479f70b8f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Contraindication for radiation therapy not stated"
+ },
+ "f7396436c5": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "NSCLC stage IIIB with prior chemo meets inclusion criteria for palliative radiation"
+ },
+ "f8360da901": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Creatinine level or eGFR value not stated in the note"
+ },
+ "f84f9eb505": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No condition affecting follow-up is stated in the note"
+ },
+ "0391d91f13": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "d97c6f0d27": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ }
+}

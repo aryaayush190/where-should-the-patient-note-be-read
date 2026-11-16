@@ -1,0 +1,5 @@
+# Figures and the Word manuscript build (paper/figures/make_figures.py, paper/build_ieee_docx.py)
+matplotlib==3.10.0
+python-docx==1.2.0
+# PDF export uses Microsoft Word (paper/docx_to_pdf.ps1, Windows); pymupdf is only for page checks
+pymupdf==2.1

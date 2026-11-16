@@ -1,0 +1,36 @@
+{
+ "meta": {
+  "frozen_at": "2026-11-08 02:31:10",
+  "name": "splitmatch-freeze-v1",
+  "tests": "89 passed",
+  "note": "Freeze recorded as a sha256 manifest (user instruction: no git commit until the end). Any later change to a listed file must be logged in PREREGISTRATION section 9."
+ },
+ "files": {
+  "splitmatch/__init__.py": "42b0b5fc7f4d6feeee5957abf12b6752aa181f0d060467913e943c5a09b07ccb",
+  "splitmatch/baseline.py": "4c3cecead0f6ae19b39ccd3100ccdb9b84663f85948468000366c7a287f08c3a",
+  "splitmatch/compiler.py": "92f131b8c607460fe1405541053cd00c59e343446d85bdaabb6fefe940acd122",
+  "splitmatch/data.py": "31d1ab199da9e8d15bc94e5ba5c16cd356c0d3f4a82dd77a0e698846cac3174e",
+  "splitmatch/evaluator.py": "7a7fe6b75d57cd519b46f9844a1e456d2e9cc27493401d366e4270dbda089bdb",
+  "splitmatch/groq_pool.py": "29debb456ec31bb5b146c578431ba4602cad86d61554cce69109ade1041aa503",
+  "splitmatch/ladder.py": "d45e7f6abb7f01e737d4f74dbc88385cd85c71b44773bb96acaf3762c2468adb",
+  "splitmatch/llm.py": "c402235cb743cf697b97f405f13c4aa9e71842f286a54f0617ea60956cf5f971",
+  "splitmatch/paths.py": "94af76e907d5d068f6ebaf43881cd3c9056380727e82e987e4ed404d6bc0a74d",
+  "splitmatch/pipeline.py": "79edd09605d460247e15a49bd65c6fd76363473510f8dd3382f972206d5a4cd2",
+  "splitmatch/policy.py": "eae4f45944ab2ad0115f8ae9b492bbb0b9a7f5ab919aa2383378eb2a284ad1d3",
+  "splitmatch/privacy.py": "6d61b564e76ce1a559a72ed1c4c205e4586d98881734844ceef09fee1065363b",
+  "splitmatch/regex_reader.py": "d3f50b57ba89a66f2ce7f2957af28037e195a64a2da2887611dceb40f412e77d",
+  "splitmatch/render.py": "d78dacfd2bdbfa1570d15ce394f84ba9f1835e6d449e606ca9f52116d80d60cf",
+  "splitmatch/schema.py": "78a31ee19fe333a8433f25b856bf927cc9eeb973ee5be7a85be95bd6d51647fa",
+  "splitmatch/stats.py": "4c6cf99a7331fd84aeb04c05d675cbf50926e7fbb33f71d1830b5012a43ce8e9",
+  "splitmatch/structurer.py": "54deb50c01df687769cc07b86f80dcde252198b539668985616a6ef7339c8040",
+  "splitmatch/variants.py": "2882f15e6b375bb4f55e496137dfbf3840626bcf63961b9f70a60eff155a74e7",
+  "experiments/analyze.py": "8abae915c4728c0b4f7dfd4615ecab983708d643183ae7b0923512c971d9365c",
+  "experiments/compile_trials.py": "18b171b36dd760ecbbc05f598526cdaa61782c9c510f3168364bc061b3214b5f",
+  "experiments/fidelity.py": "fb034edbd77cb1de07f08111890e5d2cbcace18491ad096d3ae56f95d0e8584d",
+  "experiments/fresh_checks.py": "3bc94b26686a85bd4a5cae8abdb0f32343f0fd1134012b02fb3f7847742201f2",
+  "experiments/run_splitmatch.py": "734d76ec4db4ed865e915b9be9c9b16e635155e377bb66770852ac4f91df0644",
+  "experiments/run_stress.py": "3611cf1913fc7cffb92873c5627142b99729f5a8764bdfe97457ad4b5f090096",
+  "experiments/run_zero_shot.py": "af313aa834c19b7383497cfa2a3eb194cbb1cca0ba2b7def312e1f539fa59134",
+  "docs/PREREGISTRATION.md": "f1ed776eb923bd703377eb9b250f586ae870662bd128061fd332c80148542ca0"
+ }
+}

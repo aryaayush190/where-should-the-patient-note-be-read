@@ -1,0 +1,97 @@
+{
+ "000669530b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on liver metastasis is provided in the note"
+ },
+ "098c176bf9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on ANC level is provided in the note"
+ },
+ "1bcb3429fa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on AST level or xULN is provided in the note"
+ },
+ "1d70d5faca": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on life expectancy is provided in the note"
+ },
+ "22a6002c92": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on autoimmune or inflammatory diseases is provided in the note"
+ },
+ "39cd3c54ce": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on effusions or drainage needs is provided in the note"
+ },
+ "39fadbcd4a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on platelet count is provided in the note"
+ },
+ "56f6da465d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on liver metastasis or bilirubin levels is provided in the note"
+ },
+ "5bb82fd6d8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on bilirubin level or xULN is provided in the note"
+ },
+ "6df4b3a1d4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on ALT level or xULN is provided in the note"
+ },
+ "72aedcc64e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on psychiatric or social conditions is provided in the note"
+ },
+ "83a8f9e336": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on hemoglobin level is provided in the note"
+ },
+ "8a870286b5": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No prior platinum chemotherapy administered; no evidence of recurrence or progression after such therapy."
+ },
+ "bfc2d12e43": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Disease is recurrent or progressed after prior treatment, as indicated by IV stage with progression post-chemotherapy."
+ },
+ "cbd714bdc1": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on radiotherapy; no large area non-palliative radiotherapy performed."
+ },
+ "cd894f5866": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Hypertension control status not stated; no information on blood pressure or control."
+ },
+ "eba8f701b4": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Measurable disease is present, as confirmed by histologically confirmed lung adenocarcinoma with IV stage."
+ },
+ "f26413c741": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No prior major surgery reported; no surgery within 28 days of treatment initiation."
+ },
+ "a2c9994df2": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ }
+}

@@ -1,0 +1,519 @@
+{
+ "pair_id": "P0519__NCT02718066",
+ "patient_id": "P0519",
+ "trial_id": "NCT02718066",
+ "label": 0,
+ "selective": "NOT_ELIGIBLE",
+ "forced": "NOT_ELIGIBLE",
+ "n_l2": 2,
+ "n_forced_unknown": 0,
+ "n_provisional": 17,
+ "u": 10.5,
+ "asks": [
+  {
+   "atom": "c0A6",
+   "category": "LABS",
+   "question": "Has the disease progressed after at least 3\u202fmonths of SD/PR/CR?",
+   "answerable_by": "clinician",
+   "pol": "inclusion"
+  },
+  {
+   "atom": "c0A21",
+   "category": "OTHER",
+   "question": "What is the estimated life expectancy (months)?",
+   "answerable_by": "clinician",
+   "pol": "inclusion"
+  },
+  {
+   "atom": "c0A26",
+   "category": "OTHER",
+   "question": "Has the patient had a Grade\u202f3+ hypersensitivity reaction to a monoclonal antibody?",
+   "answerable_by": "clinician",
+   "pol": "exclusion"
+  },
+  {
+   "atom": "c0A28",
+   "category": "OTHER",
+   "question": "Does the patient have uncontrolled hypertension (SBP\u202f>\u202f160\u202for DBP\u202f>\u202f100)?",
+   "answerable_by": "record",
+   "pol": "exclusion"
+  },
+  {
+   "atom": "c0A30",
+   "category": "BRAIN_METS",
+   "question": "Is there leptomeningeal disease?",
+   "answerable_by": "clinician",
+   "pol": "exclusion"
+  },
+  {
+   "atom": "c0A31",
+   "category": "EFFUSION",
+   "question": "Does the patient have any of the listed gastrointestinal or pleural conditions or immune\u2011mediated toxicity causing discontinuation?",
+   "answerable_by": "clinician",
+   "pol": "exclusion"
+  },
+  {
+   "atom": "c0A32",
+   "category": "OTHER",
+   "question": "Does the patient have an active autoimmune disease not covered by the listed exceptions?",
+   "answerable_by": "clinician",
+   "pol": "exclusion"
+  },
+  {
+   "atom": "c0A33",
+   "category": "OTHER",
+   "question": "Does the patient have an active uncontrolled infection requiring systemic therapy?",
+   "answerable_by": "clinician",
+   "pol": "exclusion"
+  },
+  {
+   "atom": "c0A34",
+   "category": "OTHER",
+   "question": "Has the patient tested positive for HIV or been diagnosed with AIDS?",
+   "answerable_by": "record",
+   "pol": "exclusion"
+  },
+  {
+   "atom": "c0A35",
+   "category": "OTHER",
+   "question": "Does the patient have active hepatitis B or C infection?",
+   "answerable_by": "record",
+   "pol": "exclusion"
+  },
+  {
+   "atom": "c1A4",
+   "category": "OTHER",
+   "question": "Are there any underlying medical conditions that the investigator believes would make study drug administration hazardous or interfere with toxicity assessment?",
+   "answerable_by": "clinician",
+   "pol": "exclusion"
+  },
+  {
+   "atom": "c1A5",
+   "category": "OTHER",
+   "question": "Is the patient unwilling or unable to comply with the required study procedures?",
+   "answerable_by": "record",
+   "pol": "exclusion"
+  }
+ ],
+ "n_atoms": 42,
+ "trace": [
+  {
+   "atom": "c0A0",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A1",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A2",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A3",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A4",
+   "type": "IF",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "F",
+   "l2": "T",
+   "route": "defer:l1-l2-disagree"
+  },
+  {
+   "atom": "c0A5",
+   "type": "IN",
+   "pol": "exclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "l2": "F",
+   "route": "exclude:program+l2"
+  },
+  {
+   "atom": "c0A6",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A7",
+   "type": "IN",
+   "pol": "exclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "l1": "F",
+   "route": "exclude:program+l1"
+  },
+  {
+   "atom": "c0A8",
+   "type": "IS",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A9",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A10",
+   "type": "SINCE",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A11",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A12",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A13",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A14",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A15",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A16",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A17",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A18",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c0A19",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A20",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A21",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A22",
+   "type": "IS",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A23",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A24",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A25",
+   "type": "UNSCREENABLE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A26",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A27",
+   "type": "ANY",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": true,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c0A28",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A29",
+   "type": "IN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A30",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A31",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A32",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A33",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A34",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A35",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A0",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c1A1",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c1A2",
+   "type": "ANY",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": true,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c1A3",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c1A4",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A5",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  }
+ ],
+ "site_verify": [
+  "inclusion criteria. Patients may be entered in the study only if they meet all of the following criteria:",
+  "4. Subject must have at least one measurable target lesion as defined by Response Evaluation Criteria in Solid Tumors (RECIST) v.1.1. Melanoma subjects participating in the optional serial tumor biopsy sub-study must have tumor tissue available from a metastatic or unresectable site for PD-L1 and correlative biomarker analysis.",
+  "6. The following laboratory results within 7 days prior to study drug administration: Adequate hematopoietic, electrolyte, hepatic, and renal laboratory findings as defined below: WBC \u22653000/\u03bcL, Neutrophils \u22651500/\u03bcL, Platelets \u2265100x103/\u03bcL, Hemoglobin \u22659.0g/dL independent of transfusion, Creatinine \u22641.5mg/dL, AST and ALT \u22643x ULN, Alkaline phosphatase \u22642.5x ULN unless bone metastases present, Bilirubin \u22641.5x ULN (unless known Gilbert's disease where it must be \u22643x ULN) and serum albumin \u22653.0g/dL.",
+  "6. The following laboratory results within 7 days prior to study drug administration: Adequate hematopoietic, electrolyte, hepatic, and renal laboratory findings as defined below: WBC \u22653000/\u03bcL, Neutrophils \u22651500/\u03bcL, Platelets \u2265100x103/\u03bcL, Hemoglobin \u22659.0g/dL independent of transfusion, Creatinine \u22641.5mg/dL, AST and ALT \u22643x ULN, Alkaline phosphatase \u22642.5x ULN unless bone metastases present, Bilirubin \u22641.5x ULN (unless known Gilbert's disease where it must be \u22643x ULN) and serum albumin \u22653.0g/dL.",
+  "6. The following laboratory results within 7 days prior to study drug administration: Adequate hematopoietic, electrolyte, hepatic, and renal laboratory findings as defined below: WBC \u22653000/\u03bcL, Neutrophils \u22651500/\u03bcL, Platelets \u2265100x103/\u03bcL, Hemoglobin \u22659.0g/dL independent of transfusion, Creatinine \u22641.5mg/dL, AST and ALT \u22643x ULN, Alkaline phosphatase \u22642.5x ULN unless bone metastases present, Bilirubin \u22641.5x ULN (unless known Gilbert's disease where it must be \u22643x ULN) and serum albumin \u22653.0g/dL.",
+  "6. The following laboratory results within 7 days prior to study drug administration: Adequate hematopoietic, electrolyte, hepatic, and renal laboratory findings as defined below: WBC \u22653000/\u03bcL, Neutrophils \u22651500/\u03bcL, Platelets \u2265100x103/\u03bcL, Hemoglobin \u22659.0g/dL independent of transfusion, Creatinine \u22641.5mg/dL, AST and ALT \u22643x ULN, Alkaline phosphatase \u22642.5x ULN unless bone metastases present, Bilirubin \u22641.5x ULN (unless known Gilbert's disease where it must be \u22643x ULN) and serum albumin \u22653.0g/dL.",
+  "6. The following laboratory results within 7 days prior to study drug administration: Adequate hematopoietic, electrolyte, hepatic, and renal laboratory findings as defined below: WBC \u22653000/\u03bcL, Neutrophils \u22651500/\u03bcL, Platelets \u2265100x103/\u03bcL, Hemoglobin \u22659.0g/dL independent of transfusion, Creatinine \u22641.5mg/dL, AST and ALT \u22643x ULN, Alkaline phosphatase \u22642.5x ULN unless bone metastases present, Bilirubin \u22641.5x ULN (unless known Gilbert's disease where it must be \u22643x ULN) and serum albumin \u22653.0g/dL.",
+  "9. Are willing to abstain from heterosexual activity or practice physical barrier contraception prior to time of study entry to at least 5 months after the last day of treatment.",
+  "10. Have the ability to understand and the willingness to sign a written informed consent document.",
+  ". Subjects who fulfill any of the following criteria at screening will not be eligible for admission into the study:"
+ ]
+}

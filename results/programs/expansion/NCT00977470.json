@@ -1,0 +1,649 @@
+{
+ "trial_id": "NCT00977470",
+ "atoms": [
+  {
+   "id": "c0A0",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Pathologically confirmed diagnosis of non-small cell lung cancer",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "cancer_type",
+   "op": null,
+   "value": null,
+   "values": [
+    "nsclc"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient diagnosed with non‑small cell lung cancer?"
+  },
+  {
+   "id": "c0A1",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Stage IV disease by the American Joint Committee on Cancer/IASLC 7th edition proposed edition staging criteria",
+   "lines": [
+    2
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "stage_group",
+   "op": null,
+   "value": null,
+   "values": [
+    "IV"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the cancer stage IV?"
+  },
+  {
+   "id": "c0A2",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "An EGFR sensitizing mutation must be detected in tumor tissue. Specifically, patients harboring the most common mutations, deletions in exon 19 or the L858R mutation in exon 21 are eligible. Presence of the known resistance mutation T790M as detected by direct tumor sequencing is not allowed. Other rare EGFR mutations may be eligible after discussion with the overall principal investigator",
+   "lines": [
+    3
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "EGFR sensitizing mutation (exon 19 deletion or L858R) detected",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does tumor testing show an EGFR exon 19 deletion or L858R mutation?"
+  },
+  {
+   "id": "c0A3",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "An EGFR sensitizing mutation must be detected in tumor tissue. Specifically, patients harboring the most common mutations, deletions in exon 19 or the L858R mutation in exon 21 are eligible. Presence of the known resistance mutation T790M as detected by direct tumor sequencing is not allowed. Other rare EGFR mutations may be eligible after discussion with the overall principal investigator",
+   "lines": [
+    3
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Presence of EGFR T790M resistance mutation",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the EGFR T790M resistance mutation present?"
+  },
+  {
+   "id": "c0A4",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Age equal to or greater than 18 years",
+   "lines": [
+    4
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "age",
+   "op": ">=",
+   "value": 18,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient at least 18 years old?"
+  },
+  {
+   "id": "c0A5",
+   "type": "IS",
+   "polarity": "inclusion",
+   "source_line": "Measurable disease by RECIST criteria, defined as the presence of at least one lesion that can be accurately measured in at least one dimension (longest diameter to be recorded) as 10mm or greater with spiral CT scan",
+   "lines": [
+    5
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "measurable_disease",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have measurable disease per RECIST?"
+  },
+  {
+   "id": "c0A6",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "ECOG Performance status of 0, 1 or 2",
+   "lines": [
+    6
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "ecog",
+   "op": "<=",
+   "value": 2,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient’s ECOG performance status 0‑2?"
+  },
+  {
+   "id": "c0A7",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "Since prior radiation or surgery, 14 days or more must have elapsed before starting protocol treatment",
+   "lines": [
+    7
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "radio",
+     "surgery"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.459,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient received radiation or surgery within the past 14 days?"
+  },
+  {
+   "id": "c0A8",
+   "type": "HAS",
+   "polarity": "exclusion",
+   "source_line": "No prior treatment with erlotinib, gefitinib, or other small molecule EGFR-TKIs. Prior treatment in the adjuvant setting is allowed if at least 1 year has elapsed since TKI course.",
+   "lines": [
+    8
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "tki"
+    ],
+    "agents": [
+     "erlotinib",
+     "gefitinib"
+    ],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient previously received erlotinib, gefitinib, or any other EGFR‑TKI?"
+  },
+  {
+   "id": "c0A9",
+   "type": "SINCE",
+   "polarity": "inclusion",
+   "source_line": "No prior treatment with erlotinib, gefitinib, or other small molecule EGFR-TKIs. Prior treatment in the adjuvant setting is allowed if at least 1 year has elapsed since TKI course.",
+   "lines": [
+    8
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "tki"
+    ],
+    "agents": [
+     "erlotinib",
+     "gefitinib"
+    ],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 12.0,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has at least 12 months passed since any prior EGFR‑TKI treatment?"
+  },
+  {
+   "id": "c0A10",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "Adequate organ function as outlined in the protocol",
+   "lines": [
+    9
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Adequate organ function as defined by the protocol",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient meet the protocol’s organ function criteria?"
+  },
+  {
+   "id": "c0A11",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Patients must undergo a screening eye exam to obtain approval for HCQ treatment, which establishes the absence of baseline conditions include macular degeneration, visual field changes, other retinal disease, and cataracts that interfere with required funduscopic examinations",
+   "lines": [
+    10
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Baseline macular degeneration, visual field changes, retinal disease, or cataracts that interfere with funduscopic examination",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have any of the listed eye conditions that would preclude hydroxychloroquine treatment?"
+  },
+  {
+   "id": "c0A12",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "No G6PD deficiency, as HCQ may cause hemolysis in patients with G6DP",
+   "lines": [
+    11
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "G6PD deficiency",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have G6PD deficiency?"
+  },
+  {
+   "id": "c0A13",
+   "type": "IN",
+   "polarity": "exclusion",
+   "source_line": "Symptomatic CNS metastases or newly diagnosed CNS metastases that have not yet been definitively treated with radiation and/or surgery. Note that patients with a history of CNS metastases or cord compression are allowed if they have been definitively treated and are clinically stable. Maintenance steroids are allowed but maintenance seizure medication with an EIAED is not allowed",
+   "lines": [
+    12
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "brain_mets",
+   "op": null,
+   "value": null,
+   "values": [
+    "untreated_or_symptomatic"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have symptomatic or newly diagnosed untreated CNS metastases?"
+  },
+  {
+   "id": "c0A14",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Symptomatic CNS metastases or newly diagnosed CNS metastases that have not yet been definitively treated with radiation and/or surgery. Note that patients with a history of CNS metastases or cord compression are allowed if they have been definitively treated and are clinically stable. Maintenance steroids are allowed but maintenance seizure medication with an EIAED is not allowed",
+   "lines": [
+    12
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Use of enzyme‑inducing anti‑epileptic drugs (EIAED)",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient taking an enzyme‑inducing anti‑epileptic drug?"
+  },
+  {
+   "id": "c0A15",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Prior radiation therapy inclusive of all identified target lesions. Note that prior palliative radiation to bony disease, CNS disease, or a limited thoracic area is allowed, provided that there is measurable disease outside the field and radiation is completed at least two weeks prior to starting treatment and the patient has fully recovered from all side effects",
+   "lines": [
+    13
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Prior radiation that covered all identified target lesions",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient received prior radiation encompassing all target lesions?"
+  },
+  {
+   "id": "c0A16",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Current use of hydroxychloroquine for any reason",
+   "lines": [
+    14
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Current use of hydroxychloroquine",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Is the patient currently taking hydroxychloroquine?"
+  },
+  {
+   "id": "c0A17",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Known hypersensitivity to chloroquine, hydroxychloroquine, or any closely related drug: erlotinib, gefitinib, or any closely related drug",
+   "lines": [
+    15
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Known hypersensitivity to chloroquine, hydroxychloroquine, erlotinib, or gefitinib",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Does the patient have a known allergy to chloroquine, hydroxychloroquine, erlotinib, or gefitinib?"
+  },
+  {
+   "id": "c0A18",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Patients who are pregnant or breastfeeding. Female subjects of childbearing potential and male subjects must practice acceptable methods of birth control",
+   "lines": [
+    16
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "pregnant",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Is the patient pregnant or breastfeeding?"
+  },
+  {
+   "id": "c0A19",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Any evidence of clinically active interstitial lung disease. Note that patients with chronic, stable radiographic changes who are asymptomatic are eligible",
+   "lines": [
+    17
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Clinically active interstitial lung disease",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have clinically active interstitial lung disease?"
+  },
+  {
+   "id": "c0A20",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Invasive malignancies within the past 3 years except for adequately treated carcinoma of the cervix, basal or squamous cell carcinomas of the skin",
+   "lines": [
+    18
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Invasive malignancy within the past 3 years (excluding treated cervical carcinoma, basal or squamous skin cancer)",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient had any invasive malignancy in the past 3 years, other than the specified exceptions?"
+  },
+  {
+   "id": "c0A21",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Evidence of any other significant clinical disorder or laboratory finding that makes it undesirable for the patient to participate in the study, including a prior diagnosis of porphyria or non-light-sensitive psoriasis, as HCQ can significantly exacerbate both of these conditions",
+   "lines": [
+    19
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Significant clinical disorder or laboratory abnormality (e.g., porphyria, non‑light‑sensitive psoriasis) that makes participation undesirable",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have any significant disorder such as porphyria or psoriasis that would contraindicate study participation?"
+  },
+  {
+   "id": "c0A22",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "Use of any non-FDA approved or investigational agent in 30 days or less of enrolling onto the trial, or failure to recover from the side effects of any of these agents",
+   "lines": [
+    20
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "other"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.986,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient used any non‑FDA‑approved or investigational agent within the past 30 days?"
+  },
+  {
+   "id": "c0A23",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Penicillamine use for Wilson's disease or any other indication, as concomitant use with HCQ can increase toxicity to penicillamine",
+   "lines": [
+    21
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Penicillamine use",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient taking penicillamine for any indication?"
+  },
+  {
+   "id": "c0A24",
+   "type": "CMP",
+   "polarity": "exclusion",
+   "source_line": "Life expectancy of less than 12 weeks",
+   "lines": [
+    22
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "life_expectancy_months",
+   "op": "<",
+   "value": 3,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "clinician",
+   "question": "Is the patient’s estimated life expectancy less than 12 weeks (3 months)?"
+  }
+ ],
+ "compiler_meta": {
+  "primary": {
+   "stage_alternatives_merged": 0,
+   "model": "openai/gpt-oss-120b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 22,
+   "repaired": false,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 25
+  },
+  "secondary": {
+   "stage_alternatives_merged": 0,
+   "model": "qwen/qwen3.8-27b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 22,
+   "repaired": false,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 28
+  },
+  "prompt_version": "compiler-v1.2",
+  "lines": 22,
+  "lines_exact_agree": 13,
+  "typed_atoms": 12,
+  "typed_atoms_agree": 9,
+  "downgraded_atoms": 3
+ }
+}

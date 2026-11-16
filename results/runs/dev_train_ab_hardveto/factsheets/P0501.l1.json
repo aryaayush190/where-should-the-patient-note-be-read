@@ -1,0 +1,302 @@
+{
+ "02d2ed0c5e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "03e9c338e3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "09450c1c3f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0aab92d26e": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Stage IIIA with >7 cm tumor and ipsilateral mediastinal nodes"
+ },
+ "0c4092aa06": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ALT within normal limits"
+ },
+ "0cb53d6e28": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "14ccca429b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "17b201655f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ALT within normal limits"
+ },
+ "18501ae188": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "AST within normal limits"
+ },
+ "1b44ebcc99": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1bcb3429fa": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "AST within normal limits"
+ },
+ "1d70d5faca": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "20a05441a4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3335d32534": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "34076aee51": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "alkaline phosphatase normal"
+ },
+ "386e6eff24": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ANC 4.3k/\u00b5L"
+ },
+ "39d20ffd88": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3f5ef0df75": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "AST/ALT normal"
+ },
+ "422c49f372": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "463253974b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "46ac9fd47d": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no cardiovascular disease"
+ },
+ "4b4f05ae68": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5227b2aeea": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "56e59e578b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5e83c22799": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5ef0f3c826": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "606bcee8f4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6183a5b4a2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "61ed9b9a96": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no concurrent malignancies"
+ },
+ "64a1c0fd3d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6df4b3a1d4": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ALT within normal limits"
+ },
+ "735248f9e2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "775ded288f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7958c72354": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7f0aa1ec94": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7fd1031fb0": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "CrCl >45 mL/min"
+ },
+ "87caa41a10": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "biopsy confirmed tumor"
+ },
+ "8ecd96fa61": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior radiation"
+ },
+ "8f20d19f08": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior therapy within 4 weeks"
+ },
+ "9189d2bde1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "991cd28a62": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9a63b076cb": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "stage IIIA not curable"
+ },
+ "a1a1161f7d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b7c9dac84e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "bc0ddab82f": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior chest radiation"
+ },
+ "c19f97f361": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior radiation"
+ },
+ "c1dd84c4d0": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior radiation"
+ },
+ "ca9309ffd5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cd7fa4572d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cdc5047f7e": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "DLCO 58% of predicted"
+ },
+ "d1c94aac93": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no prior malignancy"
+ },
+ "d9db33218f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "dd426d1400": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e18e5d2757": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e1bfd3e538": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "treatment-naive"
+ },
+ "e3af1cca71": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e427074718": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "alkaline phosphatase normal"
+ },
+ "eba8f701b4": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "tumor >7 cm measurable"
+ },
+ "ee465feefa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f277661871": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no prior radiation"
+ }
+}

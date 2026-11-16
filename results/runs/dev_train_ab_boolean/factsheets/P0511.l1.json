@@ -1,0 +1,812 @@
+{
+ "000ad71b20": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "histology is squamous cell carcinoma"
+ },
+ "01466a3027": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "028b66a05d": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "labs within protocol limits (\u22642\u00d7ULN)"
+ },
+ "0391d91f13": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "radiation alone recommended, no chemo"
+ },
+ "0428ad8fbf": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "PT within normal limits"
+ },
+ "045efc8402": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "04feb2d6c4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0625a078e9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "07f7b44f00": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no herbal supplements"
+ },
+ "081ed4a297": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "platelets >100k"
+ },
+ "09450c1c3f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "provided informed consent"
+ },
+ "098c176bf9": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ANC \u22651.5k"
+ },
+ "0a75062b24": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0f1f6d9142": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "100fe5aa4f": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no medications affecting QTc"
+ },
+ "1094c534af": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "10b1a6aee7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1168deffb5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "14ccca429b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1954c8cd9e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "19d69939fe": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1bcb3429fa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1e88128e3d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1eb676ae75": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "20bc1877d4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "22049da83a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "234e1d33cb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "248f173aa8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "249891ccca": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "26081f027f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "2a2bbcb8d5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "2b8cf92f14": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "2d6aaca79d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "30f64cf101": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "331dd75eab": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "341b7cf095": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "34a49a7f12": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "34eb008960": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "not suitable for SABR"
+ },
+ "37f488c2cb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "386e6eff24": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3bf481e808": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3cabd561c7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3d19563a8f": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "O2 sat 97% on room air"
+ },
+ "3e95458a64": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3ec3d228fa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4054f52efb": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "has brain metastases (distant mets)"
+ },
+ "4acebfc9fa": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "receives 45 Gy/15 Fx, not SBRT"
+ },
+ "4ad9c49347": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "595c59bc2c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5ba45a5bcb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5bb82fd6d8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5c50ea11f7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5f0132f7cc": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5f5d193de5": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "measurable disease >2 cm"
+ },
+ "5f736f331c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "60ca7f6062": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6141c5ac7c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "61abc8fe61": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Chest CT or PET/CT performed"
+ },
+ "6374e3c417": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "673a064f34": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "postmenopausal female"
+ },
+ "67d668f639": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "68eca96387": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6d941c296c": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "labs within protocol limits"
+ },
+ "6d96545337": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6df126a96f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6df4b3a1d4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "70244a1e0b": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "tumor >2 cm measurable"
+ },
+ "706326d033": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "71d501c015": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "72fb1c8fd5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "735248f9e2": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "blood pressure well-controlled"
+ },
+ "744135886a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "77559690b3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7792755c2e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "77acaa96e8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "78f907dc67": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7958c72354": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7bd0fb558f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8061179ce9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "80703bd380": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "82fe10d26d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "83a8f9e336": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "840b0f664c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "863de5933c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "86da255d7a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "87caa41a10": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "88c49e050c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "88e6c43dd6": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "898797333e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "89d61e9758": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no recent systemic therapy or thoracic radiation"
+ },
+ "89ed9257c6": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8c239f6de9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8db261386d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8dff605df4": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "normal cardiovascular profile, well-controlled BP"
+ },
+ "8e420325b5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8ed9f7d336": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no other suspicious lesions"
+ },
+ "8f20d19f08": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no recent systemic therapy or thoracic radiation"
+ },
+ "90a32651bf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "92b98d534e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "95911d0716": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "99463c247b": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "receiving palliative radiotherapy as part of protocol"
+ },
+ "a0c54b7714": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a67ec1feb3": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "receiving recommended 45 Gy/15 Fx radiotherapy"
+ },
+ "a7a59f4f9c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a7db97f5d2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a9bb3fc088": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "well-controlled blood pressure"
+ },
+ "ad1e0cff0f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ae1b8aebb2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "af40b7d562": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b253b8c65a": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no QT prolongation history"
+ },
+ "b4a27f3540": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "stage IIIB but effusion status unknown"
+ },
+ "b4cd0c0705": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "malignant effusion not mentioned"
+ },
+ "b7d0d32b78": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "bilirubin not stated"
+ },
+ "bd325f8b2c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "AST not stated"
+ },
+ "bd4e17552f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "hepatitis status not stated"
+ },
+ "c5483a2e0a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "contraception not mentioned"
+ },
+ "c6511f66e5": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no contraindication to radiotherapy"
+ },
+ "c6a84058ad": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "hemoglobin not stated"
+ },
+ "c6bdb440e2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "pregnancy test not mentioned"
+ },
+ "c8f7f93c6b": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no distant metastases reported"
+ },
+ "cbc2c64cdf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cc531dd1c5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cd7fa4572d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ce082b2a26": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cf8f73ad34": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d045c90c34": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d218f6e623": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d5eeaf5a75": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d618edbfbb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d905938d5a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d97c6f0d27": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "da2a30e7da": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "dab6a164a2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "dac0acacc0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "dbaf04e9e1": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "patient has N2 lymph node involvement"
+ },
+ "dd21f9fea1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e248074302": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e26c0bb0da": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e2ba9aaddd": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e44ea04cd3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e4aed6ccb8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e65a2505f2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e6bdf26921": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e8308b718a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e8619f0d29": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e963d4d3f0": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no aspirin or platelet\u2011inhibiting NSAIDs taken"
+ },
+ "eafb6cb79f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "brain metastases stable >6 weeks off steroids"
+ },
+ "ec59c843a9": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "lab values within protocol limits"
+ },
+ "ef930eadd5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f07c920267": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f0bd52bbef": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "informed consent provided"
+ },
+ "f2280d1d9e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f277661871": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no recent radiation to measurable tumor"
+ },
+ "f479f70b8f": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no contraindication to radiation"
+ },
+ "f6a03bc8be": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "T3N2M0 stage IIIB"
+ },
+ "f7396436c5": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "palliative radiation 45 Gy/15 Fx recommended"
+ },
+ "f8360da901": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f84f9eb505": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f94da7ba86": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "fad34d4513": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "fbde5a469a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "fd1bee54ee": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ }
+}

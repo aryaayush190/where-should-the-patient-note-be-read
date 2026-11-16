@@ -1,0 +1,557 @@
+{
+ "0128bac762": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient agrees to use contraception throughout treatment and for 4 weeks after completion"
+ },
+ "08bb050321": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No history of prior platinum-based chemotherapy regimen for advanced disease"
+ },
+ "1399f65557": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Tumor appearance (cavitary or necrotic) not described in imaging or pathology"
+ },
+ "154fdc6f4e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on gastrointestinal abnormalities or oral drug absorption issues"
+ },
+ "19b80e7231": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on anti-coagulant therapy use or current medication"
+ },
+ "1bcb3429fa": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Liver function test within normal range with bilirubin 1.0 mg/dL and FEV1 70% predicted"
+ },
+ "1dc08cb25f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on concurrent interventional research studies or active treatment"
+ },
+ "1e2d5dd2a1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on patient compliance with protocol or ability to comply"
+ },
+ "24d5b6c2f3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No data on organ impairment or serious medical conditions"
+ },
+ "25af5a78d9": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on curability with conventional therapy for this stage"
+ },
+ "2853595305": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on prior Tarceva or Iressa treatment duration or progression"
+ },
+ "32e851fd7d": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on anticoagulation therapy is provided in the note."
+ },
+ "3332f81244": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on participation in another clinical trial is provided."
+ },
+ "34076aee51": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on alkaline phosphatase levels or ULN is provided in the note."
+ },
+ "36850891d2": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on biopsy timing or type is provided in the note."
+ },
+ "3698667849": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Creatinine is 1.0 mg/dL, indicating eGFR \u226560 mL/min, so crcl_ml_min is at least 25 mL/min."
+ },
+ "3bc22117c4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on ALT levels or ULN is provided in the note."
+ },
+ "4848b33bd0": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient has a negative pregnancy test and agrees to use contraception."
+ },
+ "4db6714c89": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient is not unwilling to interrupt aspirin or NSAIDs for required period."
+ },
+ "4e13af0891": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "No history of prior breast or ovarian cancer or abnormal imaging is mentioned."
+ },
+ "4e7020bc08": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on heart disease, hypertension, or arrhythmias is provided in the note."
+ },
+ "4fbefa6e8f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient is able to take oral medication as per study entry details."
+ },
+ "508a8ed716": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on stage II disease or operability is provided in the note."
+ },
+ "50d1243369": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on radiotherapy or disease progression after completion is provided"
+ },
+ "5c32b40b00": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on folic acid or vitamin B12 supplementation intent or ability is stated"
+ },
+ "5cdafa0d42": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient has EGFR mutation and is a smoker (implied by NSCLC and molecular testing)"
+ },
+ "5e0680de39": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "PET/CT was performed within 42 days and had lesions with SUV >6"
+ },
+ "5e3d73f5ae": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on swallowing ability or HKI-272 capsule intake is provided"
+ },
+ "5fb33fb177": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on alcohol or drug abuse is stated"
+ },
+ "62df482b5a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No history of organ allograft is stated or implied"
+ },
+ "63ba4916bf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No history of heart disease or arrhythmia in past 6 months is stated"
+ },
+ "67f461d0f2": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Treating investigator considers patient a candidate for durvalumab based on clinical profile"
+ },
+ "68543de007": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Smoking history not stated; cannot confirm pack-years or current smoking status"
+ },
+ "68dfbdeff6": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on timing of laboratory values relative to screening is provided"
+ },
+ "6cf13fb718": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on hemorrhagic or thrombotic events or hemoptysis is provided"
+ },
+ "6d471aee77": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on allergic reaction to iodinated CT contrast is provided"
+ },
+ "6ea4fad1e4": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Life expectancy is not stated to be at least 2.762 months; patient has active disease but no duration specified"
+ },
+ "70002978a7": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient is not breastfeeding; no indication of breastfeeding activity"
+ },
+ "7377fc7f43": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on hypersensitivity to bevacizumab, erlotinib, or their ingredients is provided"
+ },
+ "74d0f6b8dd": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Fasting blood sugar not stated to be above 200 mg/dL; no dexamethasone use mentioned"
+ },
+ "77ba1b8656": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on tumor location or vessel invasion or prior irradiation is provided"
+ },
+ "7a8e1be451": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Tumor sample was pathologically confirmed and analyzed for molecular testing"
+ },
+ "7b5b5dabfe": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "White blood cell count is 2.8 x10^3, above 3.5 x10^3/uL"
+ },
+ "7caa314d2f": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No other active malignancy is mentioned; only NSCLC is diagnosed"
+ },
+ "7cad937428": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Negative pregnancy test within 72 hours and contraception agreed upon"
+ },
+ "82b5f3eb37": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on claustrophobia present in note"
+ },
+ "82f7f10014": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Histology is not specified beyond NSCLC, no mention of mixed histology"
+ },
+ "851f5dab38": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on diabetes or blood glucose levels provided"
+ },
+ "86b1a1ffe7": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "FEV1 value is not stated to be at least 1 L; value given is 70% predicted"
+ },
+ "86b816d9fd": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No mental or psychological condition reported that would prevent study completion"
+ },
+ "895b6834d8": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No prior malignancy reported within 3 years"
+ },
+ "89b90bbd32": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Creatinine is 1.0 mg/dL, indicating normal renal function with eGFR >60 mL/min"
+ },
+ "8be6c03734": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on institutional assignment or placement"
+ },
+ "8d558372b6": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No history of thrombotic disorder within last 6 months reported"
+ },
+ "8df03fc7d1": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "AST value not provided, but no mention of elevation above 3 xULN"
+ },
+ "8e1340fb03": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on AST or ALT levels or ULN values provided"
+ },
+ "8eea7dfb4d": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No history of breast or ovarian cancer stated; no other cancer mentioned"
+ },
+ "98de299c96": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on wound healing, ulcers, or bleeding conditions provided"
+ },
+ "9b13285bc0": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on brain metastases or stability or treatment provided"
+ },
+ "9ecdb12dc7": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Bilirubin is 1.0 mg/dL, below 1.5; no ALT/AST values given"
+ },
+ "9f0d3bcb76": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on planned surgical or dental interventions provided"
+ },
+ "a4699fad81": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on hemoptysis history or grade provided"
+ },
+ "a5b827a3f4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on hematuria or proteinuria provided"
+ },
+ "a72986b3d5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on tumor invasion of major blood vessels provided"
+ },
+ "a8635ed578": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on gadolinium allergy provided"
+ },
+ "aaee7f7b57": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on progression after Tarceva or Iressa treatment provided"
+ },
+ "ad1e0cff0f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient has Karnofsky Performance Status 100 and no symptoms suggesting poor life expectancy"
+ },
+ "b028f8c4a4": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Malignant effusion is not stated; stage is IIIB but effusion status not specified"
+ },
+ "b07d357e44": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "MRI of the brain was performed within 42 days prior to study entry"
+ },
+ "b231144d15": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No history of hepatitis B or C infection is stated"
+ },
+ "b34344cd0a": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No evidence or history of bleeding diathesis is stated"
+ },
+ "b481ad4ad0": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Pregnancy status is negative and contraception is agreed; no evidence of pregnancy"
+ },
+ "b4cd0c0705": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Malignant effusion is not present; no pleural or pericardial effusion is stated"
+ },
+ "b54781e429": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "No clinical or radiological sign of interstitial lung disease is present"
+ },
+ "b8d9688e9e": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on sexual activity or contraception preference is provided"
+ },
+ "bc7cd1f57b": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Imaging shows measurable disease per RECIST v1.1"
+ },
+ "be4bb300db": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on implants or electronic devices is stated"
+ },
+ "c3c34a9aca": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "No pleural or pericardial effusion is present; no need for sampling or tapping"
+ },
+ "c5116d9805": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No history of HIV infection or seropositivity is stated"
+ },
+ "c629d7eedc": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Liver, kidney, and cardiac function are normal with no abnormalities reported in labs or clinical findings"
+ },
+ "c67c5354dd": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No history of myocardial infarction or uncontrolled hypertension is mentioned in the note"
+ },
+ "c7750c6907": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Serum pregnancy test is negative and patient agrees to contraception; no evidence of pregnancy or breastfeeding"
+ },
+ "c9a308243d": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ECOG performance status is 0, indicating no decline in function over the past two weeks"
+ },
+ "cceab47d06": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No mention of hyperthyroidism; thyroid function not assessed or reported"
+ },
+ "cdbce38f48": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No mention of a heart pacemaker; cardiac device status not reported"
+ },
+ "d0167bc974": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Fasting glucose not reported; no indication of diabetes or hyperglycemia"
+ },
+ "d51904a648": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No pleural or pericardial effusion is present; no sanguinous effusion reported"
+ },
+ "d68c5966bf": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No urine protein level reported; dipstick result not mentioned"
+ },
+ "df756c53ee": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No seizure disorder or anti-epileptic drug use reported"
+ },
+ "e193b95631": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "No acute supplemental oxygen required; oxygen support is stable and not indicated"
+ },
+ "e3883c624b": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ALT level not reported, but no abnormality noted; no evidence of liver dysfunction"
+ },
+ "e73a551bc8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Primary tumor size is not stated in the note"
+ },
+ "e8ee280dfe": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Distance of primary tumor from nodal disease is not stated"
+ },
+ "ef58bd54e8": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "White blood cell count is 2.8 x10^3/uL, which is at least 4 x10^3/uL"
+ },
+ "f11fd95fae": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No significant cardiac disease or dysfunction is mentioned"
+ },
+ "f1802bface": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Cochlear implants are not mentioned"
+ },
+ "f5e69c5a5f": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No participation in another clinical study within 28 days is mentioned"
+ },
+ "f7624db8ad": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Breastfeeding is not mentioned"
+ },
+ "f895b235b4": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient agrees to use contraception throughout treatment and for 4 weeks after completion"
+ },
+ "f9242f79fe": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "No abnormal PT-INR/PTT values are mentioned; all lab values are within normal range"
+ },
+ "f95f75e555": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "All blood counts are within normal limits including ANC, platelets, and hemoglobin"
+ },
+ "fa63a5c74c": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No pleural effusion is present, so the condition does not apply"
+ },
+ "faeb1d7908": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Only NSCLC is mentioned as cancer; no other cancers are reported except those excluded by criteria"
+ },
+ "fb9ef7d216": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on surgery or trauma within 4 weeks prior to study entry"
+ },
+ "ffac75eeec": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient is not a prisoner or detained; no such status is mentioned"
+ },
+ "2835a8f39f": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "659140b277": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "6df4b3a1d4": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "7863357e5e": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "83d264279f": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "ea2f685472": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ }
+}

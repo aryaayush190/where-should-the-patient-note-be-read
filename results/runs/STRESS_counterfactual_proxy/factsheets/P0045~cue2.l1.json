@@ -1,0 +1,387 @@
+{
+ "05bb393470": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "08bb050321": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "disease progressed after prior platinum chemotherapy"
+ },
+ "0b14ee31a9": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no uncontrolled seizures or intracranial hypertension"
+ },
+ "1051afa86a": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "tumor not near proximal bronchial tree"
+ },
+ "122dd43b9f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "brain metastasis measurable >10mm"
+ },
+ "1399f65557": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no cavitary or necrotic tumor"
+ },
+ "154fdc6f4e": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no GI abnormalities interfering with absorption"
+ },
+ "19b80e7231": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "not on anticoagulants"
+ },
+ "1dc08cb25f": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "not on another interventional study"
+ },
+ "1e2d5dd2a1": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "able to comply with protocol"
+ },
+ "22ebe27acf": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no HIV infection"
+ },
+ "26b14ea1f2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "298f0ceeb2": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior local brain treatment"
+ },
+ "2f36628671": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "363310d974": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3686dd4cd4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3698667849": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "48f24f06b1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4db6714c89": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4e6c4480a9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "508a8ed716": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "stage IV disease"
+ },
+ "50d1243369": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no radiotherapy"
+ },
+ "58e871d944": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "normal organ function"
+ },
+ "5c32b40b00": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5fb33fb177": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "67f461d0f2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "683029b89d": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior brain radiotherapy"
+ },
+ "6af738264a": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no CYP3A4/5 interacting drugs"
+ },
+ "6cf13fb718": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7863357e5e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "78a9111b8b": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior HER axis therapy"
+ },
+ "79088b98fb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7caa314d2f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "81d272ec22": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "86b1a1ffe7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "895b6834d8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "900138caef": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Stage IV disease, not stage IA2"
+ },
+ "91e39899f5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "97a2f6d3c5": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "previous cytotoxic chemotherapy 4 months ago"
+ },
+ "997db60674": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no severe cerebral or psychiatric issues"
+ },
+ "9b13285bc0": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "untreated asymptomatic brain metastases, no steroids"
+ },
+ "9ecdb12dc7": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "bilirubin 0.5 mg/dL, normal liver enzymes"
+ },
+ "a0bb93f5d7": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "prior cytotoxic chemotherapy 4 months ago"
+ },
+ "a5b827a3f4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a8aa01fb3f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b8d9688e9e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b9d0f306b1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "bac32f378a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "bef6c682ea": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "patient has stage IV disease with brain metastases (M1)"
+ },
+ "c096d1c8f1": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "disease is metastatic, not resectable"
+ },
+ "c58fbaf42a": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "EGFR mutation negative for T790M"
+ },
+ "c67c5354dd": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "myocardial infarction occurred >1 year ago"
+ },
+ "c720377d28": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c7750c6907": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cd44ecf60a": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "normal organ function, no severe insufficiency"
+ },
+ "cd6887c5a8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "tumor location not specified"
+ },
+ "cf5b623242": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "patient previously received cytotoxic chemotherapy"
+ },
+ "d51904a648": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no effusion mentioned"
+ },
+ "d878c7080b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no allergy mentioned"
+ },
+ "e193b95631": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no oxygen requirement mentioned"
+ },
+ "e73a551bc8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e8308b718a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e87ae1f727": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e89085887a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e8ee280dfe": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ea2673beb7": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no recent MI or serious cardiac event within 3 months"
+ },
+ "ead5afcc49": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ee81f30190": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "prior chemotherapy 4 months ago, not chemo-na\u00efve"
+ },
+ "ef58bd54e8": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ANC 5.6 x10^3/\u00b5L meets WBC requirement"
+ },
+ "f035c9c02a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f26d20ed31": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f5e69c5a5f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f70e36fa87": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no treatment of brain metastases reported"
+ },
+ "fa63a5c74c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "pleural effusion status not stated"
+ },
+ "fa9b403fc4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "pregnancy or lactation not mentioned"
+ },
+ "facd6eaaf0": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "patient has Stage IV disease"
+ },
+ "fba10ba7b1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "timing of staging studies not specified"
+ }
+}

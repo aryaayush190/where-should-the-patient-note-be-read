@@ -1,0 +1,24 @@
+# Secrets: never commit
+groq_keys.txt
+.env
+
+# Restored artifacts and new run outputs (python scripts/restore_artifacts.py recreates runtime/)
+runtime/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Paper build outputs (the released PDF is paper/TELMED2027_paper.pdf)
+paper/*.docx
+paper/TELMED2027_submission*.pdf
+~$*
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

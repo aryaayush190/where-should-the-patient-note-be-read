@@ -1,0 +1,462 @@
+{
+ "pair_id": "P0515__NCT02718066",
+ "patient_id": "P0515",
+ "trial_id": "NCT02718066",
+ "label": 0,
+ "selective": "NOT_ELIGIBLE",
+ "forced": "NOT_ELIGIBLE",
+ "n_l2": 3,
+ "n_forced_unknown": 0,
+ "n_provisional": 27,
+ "u": 16.5,
+ "asks": [
+  {
+   "atom": "c0A6",
+   "category": "LABS",
+   "question": "Has the disease progressed after at least 3\u202fmonths of SD/PR/CR?",
+   "answerable_by": "clinician",
+   "pol": "inclusion"
+  },
+  {
+   "atom": "c0A18",
+   "category": "OTHER",
+   "question": "Is alkaline phosphatase \u2264\u202f2.5\u202f\u00d7\u202fULN (or are bone metastases present)?",
+   "answerable_by": "clinician",
+   "pol": "inclusion"
+  },
+  {
+   "atom": "c0A19",
+   "category": "LABS",
+   "question": "Is bilirubin within the allowed limits (considering Gilbert\u2019s disease if present)?",
+   "answerable_by": "clinician",
+   "pol": "inclusion"
+  }
+ ],
+ "n_atoms": 42,
+ "trace": [
+  {
+   "atom": "c0A0",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A1",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A2",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A3",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A4",
+   "type": "IF",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "F",
+   "l2": "F",
+   "route": "exclude:l1+l2"
+  },
+  {
+   "atom": "c0A5",
+   "type": "IN",
+   "pol": "exclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "l2": "F",
+   "route": "exclude:program+l2"
+  },
+  {
+   "atom": "c0A6",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A7",
+   "type": "IN",
+   "pol": "exclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "l2": "F",
+   "route": "exclude:program+l2"
+  },
+  {
+   "atom": "c0A8",
+   "type": "IS",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A9",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A10",
+   "type": "SINCE",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A11",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A12",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A13",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A14",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A15",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c0A16",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A17",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A18",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A19",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A20",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A21",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A22",
+   "type": "IS",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A23",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A24",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A25",
+   "type": "UNSCREENABLE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A26",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c0A27",
+   "type": "ANY",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": true,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c0A28",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c0A29",
+   "type": "IN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A30",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c0A31",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c0A32",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c0A33",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c0A34",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c0A35",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c1A0",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c1A1",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c1A2",
+   "type": "ANY",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": true,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c1A3",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c1A4",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c1A5",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  }
+ ],
+ "site_verify": [
+  "inclusion criteria. Patients may be entered in the study only if they meet all of the following criteria:",
+  "4. Subject must have at least one measurable target lesion as defined by Response Evaluation Criteria in Solid Tumors (RECIST) v.1.1. Melanoma subjects participating in the optional serial tumor biopsy sub-study must have tumor tissue available from a metastatic or unresectable site for PD-L1 and correlative biomarker analysis.",
+  "6. The following laboratory results within 7 days prior to study drug administration: Adequate hematopoietic, electrolyte, hepatic, and renal laboratory findings as defined below: WBC \u22653000/\u03bcL, Neutrophils \u22651500/\u03bcL, Platelets \u2265100x103/\u03bcL, Hemoglobin \u22659.0g/dL independent of transfusion, Creatinine \u22641.5mg/dL, AST and ALT \u22643x ULN, Alkaline phosphatase \u22642.5x ULN unless bone metastases present, Bilirubin \u22641.5x ULN (unless known Gilbert's disease where it must be \u22643x ULN) and serum albumin \u22653.0g/dL.",
+  "6. The following laboratory results within 7 days prior to study drug administration: Adequate hematopoietic, electrolyte, hepatic, and renal laboratory findings as defined below: WBC \u22653000/\u03bcL, Neutrophils \u22651500/\u03bcL, Platelets \u2265100x103/\u03bcL, Hemoglobin \u22659.0g/dL independent of transfusion, Creatinine \u22641.5mg/dL, AST and ALT \u22643x ULN, Alkaline phosphatase \u22642.5x ULN unless bone metastases present, Bilirubin \u22641.5x ULN (unless known Gilbert's disease where it must be \u22643x ULN) and serum albumin \u22653.0g/dL.",
+  "6. The following laboratory results within 7 days prior to study drug administration: Adequate hematopoietic, electrolyte, hepatic, and renal laboratory findings as defined below: WBC \u22653000/\u03bcL, Neutrophils \u22651500/\u03bcL, Platelets \u2265100x103/\u03bcL, Hemoglobin \u22659.0g/dL independent of transfusion, Creatinine \u22641.5mg/dL, AST and ALT \u22643x ULN, Alkaline phosphatase \u22642.5x ULN unless bone metastases present, Bilirubin \u22641.5x ULN (unless known Gilbert's disease where it must be \u22643x ULN) and serum albumin \u22653.0g/dL.",
+  "6. The following laboratory results within 7 days prior to study drug administration: Adequate hematopoietic, electrolyte, hepatic, and renal laboratory findings as defined below: WBC \u22653000/\u03bcL, Neutrophils \u22651500/\u03bcL, Platelets \u2265100x103/\u03bcL, Hemoglobin \u22659.0g/dL independent of transfusion, Creatinine \u22641.5mg/dL, AST and ALT \u22643x ULN, Alkaline phosphatase \u22642.5x ULN unless bone metastases present, Bilirubin \u22641.5x ULN (unless known Gilbert's disease where it must be \u22643x ULN) and serum albumin \u22653.0g/dL.",
+  "6. The following laboratory results within 7 days prior to study drug administration: Adequate hematopoietic, electrolyte, hepatic, and renal laboratory findings as defined below: WBC \u22653000/\u03bcL, Neutrophils \u22651500/\u03bcL, Platelets \u2265100x103/\u03bcL, Hemoglobin \u22659.0g/dL independent of transfusion, Creatinine \u22641.5mg/dL, AST and ALT \u22643x ULN, Alkaline phosphatase \u22642.5x ULN unless bone metastases present, Bilirubin \u22641.5x ULN (unless known Gilbert's disease where it must be \u22643x ULN) and serum albumin \u22653.0g/dL.",
+  "6. The following laboratory results within 7 days prior to study drug administration: Adequate hematopoietic, electrolyte, hepatic, and renal laboratory findings as defined below: WBC \u22653000/\u03bcL, Neutrophils \u22651500/\u03bcL, Platelets \u2265100x103/\u03bcL, Hemoglobin \u22659.0g/dL independent of transfusion, Creatinine \u22641.5mg/dL, AST and ALT \u22643x ULN, Alkaline phosphatase \u22642.5x ULN unless bone metastases present, Bilirubin \u22641.5x ULN (unless known Gilbert's disease where it must be \u22643x ULN) and serum albumin \u22653.0g/dL.",
+  "6. The following laboratory results within 7 days prior to study drug administration: Adequate hematopoietic, electrolyte, hepatic, and renal laboratory findings as defined below: WBC \u22653000/\u03bcL, Neutrophils \u22651500/\u03bcL, Platelets \u2265100x103/\u03bcL, Hemoglobin \u22659.0g/dL independent of transfusion, Creatinine \u22641.5mg/dL, AST and ALT \u22643x ULN, Alkaline phosphatase \u22642.5x ULN unless bone metastases present, Bilirubin \u22641.5x ULN (unless known Gilbert's disease where it must be \u22643x ULN) and serum albumin \u22653.0g/dL.",
+  "9. Are willing to abstain from heterosexual activity or practice physical barrier contraception prior to time of study entry to at least 5 months after the last day of treatment.",
+  "10. Have the ability to understand and the willingness to sign a written informed consent document.",
+  ". Subjects who fulfill any of the following criteria at screening will not be eligible for admission into the study:"
+ ]
+}

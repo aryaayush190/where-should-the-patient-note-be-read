@@ -1,0 +1,622 @@
+{
+ "06bf21386e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on desired nodal levels for right middle lobe is provided in the note"
+ },
+ "081ed4a297": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Platelet count is not stated in the patient note"
+ },
+ "098c176bf9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "White blood cell count is not stated in the patient note"
+ },
+ "0a481fbe85": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on desired nodal levels for right upper lobe is provided in the note"
+ },
+ "0a62c107f9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "ECG status within 14 days prior to randomization is not stated"
+ },
+ "0f654c02bf": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient has stage IA2, which is not IB, II, or IIIA"
+ },
+ "1051afa86a": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Tumor is peripherally located, well outside the 2 cm zone of proximal bronchial tree"
+ },
+ "1399f65557": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Tumor cavitation or necrosis is not described in the note"
+ },
+ "154d52890e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Pleural or pericardial effusion with disease suspicion is not mentioned"
+ },
+ "1bcb3429fa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Liver function test values or AST level relative to ULN are not stated"
+ },
+ "1c4edd10e4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Hypersensitivity to paclitaxel, carboplatin, or excipients is not stated"
+ },
+ "1dc08cb25f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Participation in another interventional research study is not stated"
+ },
+ "1e2d5dd2a1": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about compliance with protocol is provided in the note"
+ },
+ "1f4bb4fb58": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about stage group classification is provided in the note"
+ },
+ "21c1b1720c": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about hypertension status is provided in the note"
+ },
+ "25af5a78d9": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about curability with conventional therapy is provided in the note"
+ },
+ "263e50af0e": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about alcohol or drug abuse is provided in the note"
+ },
+ "2c9e656811": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about lymph node biopsy or resection is provided in the note"
+ },
+ "2f36628671": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about ground-glass opacity or node status is provided in the note"
+ },
+ "363310d974": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about pulmonary hypertension is provided in the note"
+ },
+ "3686dd4cd4": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about PET or node abnormalities and biopsies is provided in the note"
+ },
+ "36952821b3": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about hemorrhagic or thrombotic events in the past 12 months is provided in the note"
+ },
+ "3698667849": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about creatinine clearance or renal function is provided in the note"
+ },
+ "384b79be4f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Chest x-ray timing relative to randomization not stated"
+ },
+ "386e6eff24": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "White blood cell count is at least 3 x10^3/uL"
+ },
+ "391c3ef0c3": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient has stage IA2, not IIIB or IV"
+ },
+ "39a5091dff": {
+  "verdict": "U",
+  "basis": "stated",
+  "fact": "No prior malignancy; skin or cervical exceptions not indicated"
+ },
+ "3bc22117c4": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ALT level is below 3 xULN"
+ },
+ "3bea08439c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Participation in another clinical study within past 4 weeks not stated"
+ },
+ "3ec3d228fa": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Platelet count is at least 100 x10^3/uL"
+ },
+ "423ca9aa74": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Bilirubin level is below 1.5 mg/dL"
+ },
+ "44811f88ec": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No segmentectomy or wedge resection performed"
+ },
+ "48f24f06b1": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Tumor size is \u2264 2 cm"
+ },
+ "4b103eb9a1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Contraception use by patient not stated"
+ },
+ "4b17212ec1": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No incomplete healing from prior oncologic or major surgery"
+ },
+ "4e13af0891": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Patient's gender and cancer history not stated; no information on breast or ovarian cancer or imaging"
+ },
+ "508a8ed716": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Disease stage is IA2, not II; N1 disease not present; stage II requirement not met"
+ },
+ "5bb82fd6d8": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Bilirubin level not stated, but no mention of elevated value"
+ },
+ "5cdafa0d42": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient has no smoking history stated, but is classified as treatment-naive with no prior therapy"
+ },
+ "5d2b1e202a": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Bilirubin level not stated; no evidence of value above 1.5 mg/dL"
+ },
+ "5e3d73f5ae": {
+  "verdict": "T",
+  "basis": "not_mentioned",
+  "fact": "No mention of swallowing difficulty or HKI-272 administration issues"
+ },
+ "5fae2048aa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on chest CT or MRI timing prior to resection"
+ },
+ "609e197d1e": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on desired nodal levels for right lower lobe"
+ },
+ "634daa64de": {
+  "verdict": "T",
+  "basis": "not_mentioned",
+  "fact": "No history of allergic reactions or use of listed agents mentioned"
+ },
+ "63ba4916bf": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No history of heart failure, MI, or arrhythmia within past 6 months"
+ },
+ "654a5380f1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on nodal tissue labeling according to ATS recommendations"
+ },
+ "65fdc122c5": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on adjuvant chemotherapy use or eligibility provided in the note"
+ },
+ "67f461d0f2": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient is newly diagnosed and treatment-naive, eligible for durvalumab per protocol"
+ },
+ "68543de007": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Smoking history not stated in the patient note"
+ },
+ "69a7bdd1b6": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Pregnancy or breastfeeding status not mentioned in the note"
+ },
+ "6d2bed808e": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Creatinine level not stated in the patient note"
+ },
+ "6df4b3a1d4": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "No liver function abnormalities noted; ALT within normal limits"
+ },
+ "70002978a7": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Breastfeeding status not stated in the patient note"
+ },
+ "74d0f6b8dd": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "No mention of fasting blood sugar or dexamethasone use; no elevated glucose"
+ },
+ "77ba1b8656": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "No abnormal AST levels noted; AST within normal range"
+ },
+ "7a8e1be451": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Tumor is pathologically proven and adequate for analysis"
+ },
+ "7a9d2ff760": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Desired nodal levels for left lower lobe not specified in the note"
+ },
+ "7b5b5dabfe": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "White blood cell count not stated in the patient note"
+ },
+ "80f04fea7b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Not stated whether ALT or AST levels are above 1.5 xULN"
+ },
+ "818c3646f9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on ophthalmologic or gastrointestinal conditions"
+ },
+ "86b1a1ffe7": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "FEV1 is at least 1 liter, as per treatment eligibility criteria"
+ },
+ "895b6834d8": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No prior invasive malignancy within 3 years; patient has only newly diagnosed NSCLC"
+ },
+ "8e1340fb03": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No data on AST or ALT levels exceeding 3 xULN"
+ },
+ "8e7b99bb88": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No history of radiotherapy to measurable disease without progression"
+ },
+ "8eea7dfb4d": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No history of breast or ovarian cancer; only NSCLC present"
+ },
+ "900138caef": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Pathology confirms T1aN0M0 stage IA2, consistent with requirement"
+ },
+ "91e39899f5": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient has ECOG 0, age 58, no severe comorbidities; life expectancy is not below 6 months"
+ },
+ "92fca57faa": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Only one primary tumor present, no multiple discrete areas of cancer"
+ },
+ "94a6fc6edb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No data on alkaline phosphatase levels relative to ULN"
+ },
+ "997db60674": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on cerebral or psychiatric pathology is provided"
+ },
+ "9e55d6ec9c": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No mention of mixed tumor types or pulmonary carcinoid tumor"
+ },
+ "a54edc619a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on mediastinal resection or nodal biopsy performed"
+ },
+ "a5b827a3f4": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on hematuria or proteinuria levels"
+ },
+ "a5d64e9e6b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on anc_k_ul level"
+ },
+ "a8aa01fb3f": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on patient's willingness for follow-up"
+ },
+ "a9c6224678": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on other active malignancies in past 3 years"
+ },
+ "aaee7f7b57": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on progression after Tarceva or Iressa therapy"
+ },
+ "aba5446ba7": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on tumor location or blood vessel invasion"
+ },
+ "ad1e0cff0f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient has stage IA2 NSCLC, which is not stage IV or IIIB"
+ },
+ "adcd0bc958": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on hemoptysis in past 3 months"
+ },
+ "b028f8c4a4": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Patient has stage IA2, not stage IIIB or IV with effusion"
+ },
+ "b0485addef": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about surgical margins; positive margins not stated"
+ },
+ "b3829f4dcc": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Platelet count not stated in the note"
+ },
+ "b868c02ce5": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about anticoagulation or antiplatelet therapy is provided"
+ },
+ "b87a8c74f9": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Measurable disease is present as tumor is <=2 cm and clinically stage IA2"
+ },
+ "b8d9688e9e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information about sexual activity or contraception is provided"
+ },
+ "b9d0f306b1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information about peripheral vascular disease is provided"
+ },
+ "bac32f378a": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Hilar and mediastinal nodes are \u22641 cm with no PET abnormal uptake"
+ },
+ "be08358d71": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information about psychiatric or neurological disorders is provided"
+ },
+ "bef6c682ea": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "No regional or distant metastases; M0 and N0 as per clinical stage"
+ },
+ "c096d1c8f1": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Disease is resectable and treatable with SBRT as per clinical presentation"
+ },
+ "c43286b5cc": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information about gastrointestinal abnormalities is provided"
+ },
+ "c617fcfd38": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Creatinine level not stated in the note"
+ },
+ "c629d7eedc": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "No severe cardiac, hepatic, or renal insufficiencies noted"
+ },
+ "c9a308243d": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ECOG performance status is 0, stable over past two weeks"
+ },
+ "cd44ecf60a": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No severe cardiac, hepatic, or renal insufficiency present"
+ },
+ "cd6887c5a8": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Tumor is peripherally located, well outside central bronchial tree"
+ },
+ "dd37633758": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Total bilirubin level not stated in the note"
+ },
+ "e193b95631": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Oxygen requirement status not stated in the note"
+ },
+ "e2beca2127": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No full-dose pre-operative radiotherapy of curative intent given"
+ },
+ "e87ae1f727": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Pleural effusion status and cytology not mentioned in note"
+ },
+ "e89085887a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "FEV1 percentage not stated in the note"
+ },
+ "e8ee280dfe": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No centrally located tumor with radiation overlap present"
+ },
+ "ea2f685472": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No gastrointestinal disorder or diarrhea symptoms are mentioned in the note"
+ },
+ "ead5afcc49": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Tumor is peripherally located, well outside central pleura or mediastinum"
+ },
+ "ef58bd54e8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "White blood cell count not stated in the note"
+ },
+ "f035c9c02a": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No history of other malignancy is mentioned in the note"
+ },
+ "f11fd95fae": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No cardiac disease or dysfunction is mentioned in the note"
+ },
+ "f1882f8ea3": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No surgery or randomization timeline is mentioned in the note"
+ },
+ "f26d20ed31": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Tumor is peripherally located, not central, so pneumonectomy not considered"
+ },
+ "f4a6fa7a5e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "White blood cell or bilirubin levels not stated in the note"
+ },
+ "f7a25e04f1": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Breastfeeding status not mentioned in the note"
+ },
+ "f895b235b4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Contraception use is not stated in the note"
+ },
+ "f95f75e555": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Blood count details such as WBC, platelets, hemoglobin not provided"
+ },
+ "fa017046c7": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information provided about desired nodal levels for left upper lobe"
+ },
+ "fa9b403fc4": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about pregnancy or lactation status"
+ },
+ "fba10ba7b1": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Staging studies performed within 8 weeks prior to enrollment, as per PET scan and clinical stage details"
+ },
+ "2853595305": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "50e18d0902": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "97854a1c45": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "b4cd0c0705": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "e73a551bc8": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "eba8f701b4": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "fa63a5c74c": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ }
+}

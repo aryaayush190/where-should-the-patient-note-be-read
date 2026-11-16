@@ -1,0 +1,687 @@
+{
+ "trial_id": "NCT00266877",
+ "atoms": [
+  {
+   "id": "c0A0",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Pathologic diagnosis of NSCLC and current stage IIIB (with pleural effusion) or IV, not curable with conventional therapy. For Arm C, less than or equal to 20 pack-years smoking history and current non smoker. A pack year = number of packs of cigarettes smoked per day x years smoked.",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "cancer_type",
+   "op": null,
+   "value": null,
+   "values": [
+    "nsclc"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have a pathologic diagnosis of non‑small cell lung cancer?"
+  },
+  {
+   "id": "c0A1",
+   "type": "ANY",
+   "polarity": "inclusion",
+   "source_line": "Pathologic diagnosis of NSCLC and current stage IIIB (with pleural effusion) or IV, not curable with conventional therapy. For Arm C, less than or equal to 20 pack-years smoking history and current non smoker. A pack year = number of packs of cigarettes smoked per day x years smoked.",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c0A1.0",
+     "type": "ALL",
+     "polarity": "inclusion",
+     "source_line": "Pathologic diagnosis of NSCLC and current stage IIIB (with pleural effusion) or IV, not curable with conventional therapy. For Arm C, less than or equal to 20 pack-years smoking history and current non smoker. A pack year = number of packs of cigarettes smoked per day x years smoked.",
+     "lines": [
+      1
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [
+      {
+       "id": "c0A1.0.0",
+       "type": "IN",
+       "polarity": "inclusion",
+       "source_line": "Pathologic diagnosis of NSCLC and current stage IIIB (with pleural effusion) or IV, not curable with conventional therapy. For Arm C, less than or equal to 20 pack-years smoking history and current non smoker. A pack year = number of packs of cigarettes smoked per day x years smoked.",
+       "lines": [
+        1
+       ],
+       "section": "inclusion",
+       "cwa": false,
+       "field": "stage_group",
+       "op": null,
+       "value": null,
+       "values": [
+        "IIIB"
+       ],
+       "filter": null,
+       "k": null,
+       "months": null,
+       "text": null,
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "record",
+       "question": "Is the current disease stage IIIB?"
+      },
+      {
+       "id": "c0A1.0.1",
+       "type": "IS",
+       "polarity": "inclusion",
+       "source_line": "Pathologic diagnosis of NSCLC and current stage IIIB (with pleural effusion) or IV, not curable with conventional therapy. For Arm C, less than or equal to 20 pack-years smoking history and current non smoker. A pack year = number of packs of cigarettes smoked per day x years smoked.",
+       "lines": [
+        1
+       ],
+       "section": "inclusion",
+       "cwa": false,
+       "field": "malignant_effusion",
+       "op": null,
+       "value": true,
+       "values": [],
+       "filter": null,
+       "k": null,
+       "months": null,
+       "text": null,
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "record",
+       "question": "Is there a pleural (malignant) effusion?"
+      }
+     ],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": null
+    },
+    {
+     "id": "c0A1.1",
+     "type": "IN",
+     "polarity": "inclusion",
+     "source_line": "Pathologic diagnosis of NSCLC and current stage IIIB (with pleural effusion) or IV, not curable with conventional therapy. For Arm C, less than or equal to 20 pack-years smoking history and current non smoker. A pack year = number of packs of cigarettes smoked per day x years smoked.",
+     "lines": [
+      1
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": "stage_group",
+     "op": null,
+     "value": null,
+     "values": [
+      "IV"
+     ],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Is the current disease stage IV?"
+    }
+   ],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c0A2",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Pathologic diagnosis of NSCLC and current stage IIIB (with pleural effusion) or IV, not curable with conventional therapy. For Arm C, less than or equal to 20 pack-years smoking history and current non smoker. A pack year = number of packs of cigarettes smoked per day x years smoked.",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "not curable with conventional therapy",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Is the disease considered not curable with conventional therapy?"
+  },
+  {
+   "id": "c0A3",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Pathologic diagnosis of NSCLC and current stage IIIB (with pleural effusion) or IV, not curable with conventional therapy. For Arm C, less than or equal to 20 pack-years smoking history and current non smoker. A pack year = number of packs of cigarettes smoked per day x years smoked.",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "≤20 pack‑years smoking history and current non‑smoker for Arm C",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "For Arm C, does the patient have ≤20 pack‑years smoking history and is a current non‑smoker?"
+  },
+  {
+   "id": "c0A4",
+   "type": "HAS",
+   "polarity": "inclusion",
+   "source_line": "Progression following at least 12 weeks of treatment with Tarceva or Iressa. (Arms A and B only)",
+   "lines": [
+    2
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "tki"
+    ],
+    "agents": [
+     "tarceva",
+     "iressa"
+    ],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient received prior treatment with Tarceva or Iressa?"
+  },
+  {
+   "id": "c0A5",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Progression following at least 12 weeks of treatment with Tarceva or Iressa. (Arms A and B only)",
+   "lines": [
+    2
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "progression after at least 12 weeks of Tarceva or Iressa",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Did disease progression occur after at least 12 weeks of Tarceva or Iressa?"
+  },
+  {
+   "id": "c0A6",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "ECOG (Eastern Cooperative Oncology Group) performance status of 0, 1, or 2 (not declining within past 2 weeks).",
+   "lines": [
+    3
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "ecog",
+   "op": "<=",
+   "value": 2,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient’s ECOG performance status?"
+  },
+  {
+   "id": "c0A7",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "ECOG (Eastern Cooperative Oncology Group) performance status of 0, 1, or 2 (not declining within past 2 weeks).",
+   "lines": [
+    3
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "ECOG not declining within past 2 weeks",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Has the ECOG performance status been stable (no decline) in the past 2 weeks?"
+  },
+  {
+   "id": "c0A8",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Tumor sample available and adequate for analysis.",
+   "lines": [
+    4
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "tumor sample available and adequate for analysis",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is a pathologic tumor sample available and adequate for analysis?"
+  },
+  {
+   "id": "c0A9",
+   "type": "IS",
+   "polarity": "inclusion",
+   "source_line": "At least one measurable target lesion.",
+   "lines": [
+    5
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "measurable_disease",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have at least one measurable target lesion?"
+  },
+  {
+   "id": "c0A10",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Adequate cardiac, kidney, and liver function",
+   "lines": [
+    6
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "adequate cardiac, kidney, and liver function",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Are cardiac, renal, and hepatic functions within acceptable limits?"
+  },
+  {
+   "id": "c0A11",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Adequate blood counts",
+   "lines": [
+    7
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "adequate blood counts",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Are the patient’s blood counts (ANC, platelets, hemoglobin) adequate?"
+  },
+  {
+   "id": "c0A12",
+   "type": "COUNT",
+   "polarity": "exclusion",
+   "source_line": "More than 3 prior cytotoxic chemotherapy treatments for relapsed or metastatic disease.",
+   "lines": [
+    8
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": ">",
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "chemo"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": 3.0,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient received more than three prior cytotoxic chemotherapy regimens for relapsed or metastatic disease?"
+  },
+  {
+   "id": "c0A13",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Significant cardiac disease or dysfunction.",
+   "lines": [
+    9
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "significant cardiac disease or dysfunction",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have significant cardiac disease or dysfunction?"
+  },
+  {
+   "id": "c0A14",
+   "type": "HAS",
+   "polarity": "exclusion",
+   "source_line": "Prior treatment with anthracyclines with cumulative dose of >400 mg/m^2.",
+   "lines": [
+    10
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "chemo"
+    ],
+    "agents": [
+     "anthracycline"
+    ],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient received anthracyclines with a cumulative dose >400 mg/m²?"
+  },
+  {
+   "id": "c0A15",
+   "type": "IN",
+   "polarity": "exclusion",
+   "source_line": "Active central nervous system metastases, as indicated by clinical symptoms and/or progressive growth.",
+   "lines": [
+    11
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "brain_mets",
+   "op": null,
+   "value": null,
+   "values": [
+    "untreated_or_symptomatic"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have active (untreated or symptomatic) central nervous system metastases?"
+  },
+  {
+   "id": "c0A16",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "Use of Tarceva or Iressa within 14 days of treatment day 1 (Arms A and B only).",
+   "lines": [
+    12
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "tki"
+    ],
+    "agents": [
+     "tarceva",
+     "iressa"
+    ],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.459,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient used Tarceva or Iressa within the past 14 days?"
+  },
+  {
+   "id": "c0A17",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "Major surgery, chemotherapy, radiotherapy, investigational drugs, or other cancer therapy within 3 weeks of treatment day 1.",
+   "lines": [
+    13
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "surgery",
+     "chemo",
+     "radio",
+     "other"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.691,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient undergone major surgery, chemotherapy, radiotherapy, or other cancer therapy within the past 3 weeks?"
+  },
+  {
+   "id": "c0A18",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Significant chronic or recent acute gastrointestinal disorder with diarrhea as a major symptom.",
+   "lines": [
+    14
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "significant chronic or recent acute gastrointestinal disorder with diarrhea as a major symptom",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have a significant gastrointestinal disorder with major diarrhea?"
+  },
+  {
+   "id": "c0A19",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Inability or unwillingness to swallow HKI-272 capsules.",
+   "lines": [
+    15
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "inability or unwillingness to swallow HKI-272 capsules",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Is the patient unable or unwilling to swallow HKI-272 capsules?"
+  },
+  {
+   "id": "c0A20",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Pregnant or breastfeeding women.",
+   "lines": [
+    16
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "pregnant",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Is the patient pregnant?"
+  },
+  {
+   "id": "c0A21",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Pregnant or breastfeeding women.",
+   "lines": [
+    16
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "breastfeeding",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Is the patient breastfeeding?"
+  }
+ ],
+ "compiler_meta": {
+  "primary": {
+   "stage_alternatives_merged": 0,
+   "model": "openai/gpt-oss-120b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 16,
+   "repaired": true,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 22
+  },
+  "secondary": {
+   "stage_alternatives_merged": 0,
+   "model": "qwen/qwen3.8-27b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 16,
+   "repaired": false,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 20
+  },
+  "prompt_version": "compiler-v1.2",
+  "lines": 16,
+  "lines_exact_agree": 11,
+  "typed_atoms": 11,
+  "typed_atoms_agree": 9,
+  "downgraded_atoms": 2
+ }
+}

@@ -1,0 +1,1452 @@
+{
+ "trial_id": "NCT04023617",
+ "atoms": [
+  {
+   "id": "c0A0",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Men & women ≥18, and ≤75 years of age.",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "age",
+   "op": ">=",
+   "value": 18,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient's age?"
+  },
+  {
+   "id": "c0A1",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Men & women ≥18, and ≤75 years of age.",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "age",
+   "op": "<=",
+   "value": 75,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient 75 years old or younger?"
+  },
+  {
+   "id": "c0A2",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Subjects with histologically or cytologically-documented non-squamous cell NSCLC who present with Stage IIIB/IV disease or recurrent or progressive disease following multimodal therapy (radiation therapy, surgical resection, or definitive chemoradiation therapy for locally advanced disease) and who will receive study therapy as second line of treatment for advanced disease.",
+   "lines": [
+    2
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "cancer_type",
+   "op": null,
+   "value": null,
+   "values": [
+    "nsclc"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have non‑small cell lung cancer?"
+  },
+  {
+   "id": "c0A3",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Subjects with histologically or cytologically-documented non-squamous cell NSCLC who present with Stage IIIB/IV disease or recurrent or progressive disease following multimodal therapy (radiation therapy, surgical resection, or definitive chemoradiation therapy for locally advanced disease) and who will receive study therapy as second line of treatment for advanced disease.",
+   "lines": [
+    2
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "histology",
+   "op": null,
+   "value": null,
+   "values": [
+    "adenocarcinoma",
+    "large_cell",
+    "nos",
+    "other"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the tumor histology non‑squamous?"
+  },
+  {
+   "id": "c0A4",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Subjects with histologically or cytologically-documented non-squamous cell NSCLC who present with Stage IIIB/IV disease or recurrent or progressive disease following multimodal therapy (radiation therapy, surgical resection, or definitive chemoradiation therapy for locally advanced disease) and who will receive study therapy as second line of treatment for advanced disease.",
+   "lines": [
+    2
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "stage_group",
+   "op": null,
+   "value": null,
+   "values": [
+    "IIIB",
+    "IV"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Is the disease stage IIIB or IV?"
+  },
+  {
+   "id": "c0A5",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Subjects with histologically or cytologically-documented non-squamous cell NSCLC who present with Stage IIIB/IV disease or recurrent or progressive disease following multimodal therapy (radiation therapy, surgical resection, or definitive chemoradiation therapy for locally advanced disease) and who will receive study therapy as second line of treatment for advanced disease.",
+   "lines": [
+    2
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "disease_status",
+   "op": null,
+   "value": null,
+   "values": [
+    "recurrent",
+    "progressed_after_prior"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the disease recurrent or has progressed after prior therapy?"
+  },
+  {
+   "id": "c0A6",
+   "type": "IF",
+   "polarity": "inclusion",
+   "source_line": "The patient's tumor must be free of EGFR gene-sensitive mutations (including but not limited to exon 19 deletion mutation or exon 21 L858R mutation, exon 21 L861Q, exon 18 G719X or exon 20 S768I site Mutation) and ALK gene rearrangement. If the pathology is squamous cell carcinoma or the tumor of a known patient has a KRAS mutation, then EGFR and ALK are not required to be detected.",
+   "lines": [
+    3
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c0A6.0",
+     "type": "ANY",
+     "polarity": "inclusion",
+     "source_line": "The patient's tumor must be free of EGFR gene-sensitive mutations (including but not limited to exon 19 deletion mutation or exon 21 L858R mutation, exon 21 L861Q, exon 18 G719X or exon 20 S768I site Mutation) and ALK gene rearrangement. If the pathology is squamous cell carcinoma or the tumor of a known patient has a KRAS mutation, then EGFR and ALK are not required to be detected.",
+     "lines": [
+      3
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [
+      {
+       "id": "c0A6.0.0",
+       "type": "IN",
+       "polarity": "inclusion",
+       "source_line": "The patient's tumor must be free of EGFR gene-sensitive mutations (including but not limited to exon 19 deletion mutation or exon 21 L858R mutation, exon 21 L861Q, exon 18 G719X or exon 20 S768I site Mutation) and ALK gene rearrangement. If the pathology is squamous cell carcinoma or the tumor of a known patient has a KRAS mutation, then EGFR and ALK are not required to be detected.",
+       "lines": [
+        3
+       ],
+       "section": "inclusion",
+       "cwa": false,
+       "field": "histology",
+       "op": null,
+       "value": null,
+       "values": [
+        "squamous"
+       ],
+       "filter": null,
+       "k": null,
+       "months": null,
+       "text": null,
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "record",
+       "question": "Is the tumor squamous cell carcinoma?"
+      },
+      {
+       "id": "c0A6.0.1",
+       "type": "IN",
+       "polarity": "inclusion",
+       "source_line": "The patient's tumor must be free of EGFR gene-sensitive mutations (including but not limited to exon 19 deletion mutation or exon 21 L858R mutation, exon 21 L861Q, exon 18 G719X or exon 20 S768I site Mutation) and ALK gene rearrangement. If the pathology is squamous cell carcinoma or the tumor of a known patient has a KRAS mutation, then EGFR and ALK are not required to be detected.",
+       "lines": [
+        3
+       ],
+       "section": "inclusion",
+       "cwa": false,
+       "field": "kras",
+       "op": null,
+       "value": null,
+       "values": [
+        "positive"
+       ],
+       "filter": null,
+       "k": null,
+       "months": null,
+       "text": null,
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "record",
+       "question": "Does the tumor have a KRAS mutation?"
+      }
+     ],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": null
+    },
+    {
+     "id": "c0A6.1",
+     "type": "ALL",
+     "polarity": "inclusion",
+     "source_line": "The patient's tumor must be free of EGFR gene-sensitive mutations (including but not limited to exon 19 deletion mutation or exon 21 L858R mutation, exon 21 L861Q, exon 18 G719X or exon 20 S768I site Mutation) and ALK gene rearrangement. If the pathology is squamous cell carcinoma or the tumor of a known patient has a KRAS mutation, then EGFR and ALK are not required to be detected.",
+     "lines": [
+      3
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [
+      {
+       "id": "c0A6.1.0",
+       "type": "IN",
+       "polarity": "inclusion",
+       "source_line": "The patient's tumor must be free of EGFR gene-sensitive mutations (including but not limited to exon 19 deletion mutation or exon 21 L858R mutation, exon 21 L861Q, exon 18 G719X or exon 20 S768I site Mutation) and ALK gene rearrangement. If the pathology is squamous cell carcinoma or the tumor of a known patient has a KRAS mutation, then EGFR and ALK are not required to be detected.",
+       "lines": [
+        3
+       ],
+       "section": "inclusion",
+       "cwa": false,
+       "field": "egfr",
+       "op": null,
+       "value": null,
+       "values": [
+        "negative"
+       ],
+       "filter": null,
+       "k": null,
+       "months": null,
+       "text": null,
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "record",
+       "question": "Is the EGFR test negative?"
+      },
+      {
+       "id": "c0A6.1.1",
+       "type": "IN",
+       "polarity": "inclusion",
+       "source_line": "The patient's tumor must be free of EGFR gene-sensitive mutations (including but not limited to exon 19 deletion mutation or exon 21 L858R mutation, exon 21 L861Q, exon 18 G719X or exon 20 S768I site Mutation) and ALK gene rearrangement. If the pathology is squamous cell carcinoma or the tumor of a known patient has a KRAS mutation, then EGFR and ALK are not required to be detected.",
+       "lines": [
+        3
+       ],
+       "section": "inclusion",
+       "cwa": false,
+       "field": "alk",
+       "op": null,
+       "value": null,
+       "values": [
+        "negative"
+       ],
+       "filter": null,
+       "k": null,
+       "months": null,
+       "text": null,
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "record",
+       "question": "Is the ALK rearrangement negative?"
+      }
+     ],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": null
+    }
+   ],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c0A7",
+   "type": "COUNT",
+   "polarity": "inclusion",
+   "source_line": "Disease recurrence or progression during/after one prior platinum doublet-based chemotherapy regimen for advanced or metastatic disease.",
+   "lines": [
+    4
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": ">=",
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "chemo"
+    ],
+    "agents": [
+     "platinum"
+    ],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": 1.0,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient received at least one prior platinum‑based chemotherapy regimen?"
+  },
+  {
+   "id": "c0A8",
+   "type": "IS",
+   "polarity": "inclusion",
+   "source_line": "Measurable disease by Computed tomography (CT)/Magnetic resonance imaging (MRI) per RECIST 1.1 criteria.",
+   "lines": [
+    5
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "measurable_disease",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have measurable disease per RECIST 1.1?"
+  },
+  {
+   "id": "c0A9",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Eastern Cooperative Oncology Group (ECOG) performance status ≤2.",
+   "lines": [
+    6
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "ecog",
+   "op": "<=",
+   "value": 2,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient’s ECOG performance status?"
+  },
+  {
+   "id": "c0A10",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Expected survival time ≥ 12 weeks.",
+   "lines": [
+    7
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "life_expectancy_months",
+   "op": ">=",
+   "value": 2.761,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the expected survival at least 12 weeks?"
+  },
+  {
+   "id": "c0A11",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "Has adequate organ and bone marrow function, defined as follows:",
+   "lines": [
+    8
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Adequate organ and bone‑marrow function will be assessed by the laboratory criteria listed below.",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c0A12",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Hemoglobin ≥ 9.0 g/dL.",
+   "lines": [
+    9
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "hemoglobin_g_dl",
+   "op": ">=",
+   "value": 9.0,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient’s hemoglobin level?"
+  },
+  {
+   "id": "c0A13",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Absolute neutrophil count ≥1.5 × 109 /L.",
+   "lines": [
+    10
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "anc_k_ul",
+   "op": ">=",
+   "value": 1.5,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient’s absolute neutrophil count?"
+  },
+  {
+   "id": "c0A14",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Platelet count ≥80 × 109 /L.",
+   "lines": [
+    11
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "platelets_k_ul",
+   "op": ">=",
+   "value": 80,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient’s platelet count?"
+  },
+  {
+   "id": "c0A15",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Serum total bilirubin ≤ 1.5 × normal upper limit (ULN); for patients with liver metastasis, serum total bilirubin ≤ 5 × normal upper limit (ULN).",
+   "lines": [
+    12
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "bilirubin_xuln",
+   "op": "<=",
+   "value": 1.5,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the total bilirubin ≤1.5 × ULN?"
+  },
+  {
+   "id": "c0A16",
+   "type": "IF",
+   "polarity": "inclusion",
+   "source_line": "Serum total bilirubin ≤ 1.5 × normal upper limit (ULN); for patients with liver metastasis, serum total bilirubin ≤ 5 × normal upper limit (ULN).",
+   "lines": [
+    12
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c0A16.0",
+     "type": "JUDGE",
+     "polarity": "inclusion",
+     "source_line": "Serum total bilirubin ≤ 1.5 × normal upper limit (ULN); for patients with liver metastasis, serum total bilirubin ≤ 5 × normal upper limit (ULN).",
+     "lines": [
+      12
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": "patient has liver metastasis",
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": null
+    },
+    {
+     "id": "c0A16.1",
+     "type": "CMP",
+     "polarity": "inclusion",
+     "source_line": "Serum total bilirubin ≤ 1.5 × normal upper limit (ULN); for patients with liver metastasis, serum total bilirubin ≤ 5 × normal upper limit (ULN).",
+     "lines": [
+      12
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": "bilirubin_xuln",
+     "op": "<=",
+     "value": 5,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Is the bilirubin ≤5 × ULN in the presence of liver metastases?"
+    }
+   ],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c0A17",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Alanine aminotransferase (ALT) and aspartate aminotransferase (AST) ≤ 2.5 × ULN; for patients with liver metastases: ALT and AST ≤ 5 × ULN.",
+   "lines": [
+    13
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "ast_xuln",
+   "op": "<=",
+   "value": 2.5,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is AST ≤2.5 × ULN?"
+  },
+  {
+   "id": "c0A18",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Alanine aminotransferase (ALT) and aspartate aminotransferase (AST) ≤ 2.5 × ULN; for patients with liver metastases: ALT and AST ≤ 5 × ULN.",
+   "lines": [
+    13
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "alt_xuln",
+   "op": "<=",
+   "value": 2.5,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is ALT ≤2.5 × ULN?"
+  },
+  {
+   "id": "c0A19",
+   "type": "IF",
+   "polarity": "inclusion",
+   "source_line": "Alanine aminotransferase (ALT) and aspartate aminotransferase (AST) ≤ 2.5 × ULN; for patients with liver metastases: ALT and AST ≤ 5 × ULN.",
+   "lines": [
+    13
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c0A19.0",
+     "type": "JUDGE",
+     "polarity": "inclusion",
+     "source_line": "Alanine aminotransferase (ALT) and aspartate aminotransferase (AST) ≤ 2.5 × ULN; for patients with liver metastases: ALT and AST ≤ 5 × ULN.",
+     "lines": [
+      13
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": "patient has liver metastasis",
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": null
+    },
+    {
+     "id": "c0A19.1",
+     "type": "ALL",
+     "polarity": "inclusion",
+     "source_line": "Alanine aminotransferase (ALT) and aspartate aminotransferase (AST) ≤ 2.5 × ULN; for patients with liver metastases: ALT and AST ≤ 5 × ULN.",
+     "lines": [
+      13
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [
+      {
+       "id": "c0A19.1.0",
+       "type": "CMP",
+       "polarity": "inclusion",
+       "source_line": "Alanine aminotransferase (ALT) and aspartate aminotransferase (AST) ≤ 2.5 × ULN; for patients with liver metastases: ALT and AST ≤ 5 × ULN.",
+       "lines": [
+        13
+       ],
+       "section": "inclusion",
+       "cwa": false,
+       "field": "ast_xuln",
+       "op": "<=",
+       "value": 5,
+       "values": [],
+       "filter": null,
+       "k": null,
+       "months": null,
+       "text": null,
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "record",
+       "question": "Is AST ≤5 × ULN in the presence of liver metastases?"
+      },
+      {
+       "id": "c0A19.1.1",
+       "type": "CMP",
+       "polarity": "inclusion",
+       "source_line": "Alanine aminotransferase (ALT) and aspartate aminotransferase (AST) ≤ 2.5 × ULN; for patients with liver metastases: ALT and AST ≤ 5 × ULN.",
+       "lines": [
+        13
+       ],
+       "section": "inclusion",
+       "cwa": false,
+       "field": "alt_xuln",
+       "op": "<=",
+       "value": 5,
+       "values": [],
+       "filter": null,
+       "k": null,
+       "months": null,
+       "text": null,
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "record",
+       "question": "Is ALT ≤5 × ULN in the presence of liver metastases?"
+      }
+     ],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": null
+    }
+   ],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c0A20",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Serum creatinine (Cr) ≤ 1.5 times the upper limit of normal (ULN).",
+   "lines": [
+    14
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "creatinine_xuln",
+   "op": "<=",
+   "value": 1.5,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is serum creatinine ≤1.5 × ULN?"
+  },
+  {
+   "id": "c0A21",
+   "type": "IS",
+   "polarity": "inclusion",
+   "source_line": "Pre-menopausal women have a negative urine or serum pregnancy test within 14 days prior to initiation of treatment.",
+   "lines": [
+    15
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "pregnant",
+   "op": null,
+   "value": false,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient not pregnant (or has a negative pregnancy test)?"
+  },
+  {
+   "id": "c0A22",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "Written informed consent was signed prior to the experiment.",
+   "lines": [
+    16
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Written informed consent must be obtained before enrollment.",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c0A23",
+   "type": "ANY",
+   "polarity": "exclusion",
+   "source_line": "Have been treated with docetaxel or have previously received immunological checkpoint inhibitors targeting PD-1, PD-L1 or CTLA-4.",
+   "lines": [
+    17
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c0A23.0",
+     "type": "HAS",
+     "polarity": "exclusion",
+     "source_line": "Have been treated with docetaxel or have previously received immunological checkpoint inhibitors targeting PD-1, PD-L1 or CTLA-4.",
+     "lines": [
+      17
+     ],
+     "section": "exclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": {
+      "cls": [
+       "chemo"
+      ],
+      "agents": [
+       "docetaxel"
+      ],
+      "thoracic": null,
+      "setting": []
+     },
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Has the patient previously received docetaxel?"
+    },
+    {
+     "id": "c0A23.1",
+     "type": "HAS",
+     "polarity": "exclusion",
+     "source_line": "Have been treated with docetaxel or have previously received immunological checkpoint inhibitors targeting PD-1, PD-L1 or CTLA-4.",
+     "lines": [
+      17
+     ],
+     "section": "exclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": {
+      "cls": [
+       "io"
+      ],
+      "agents": [
+       "pd-1",
+       "pd-l1",
+       "ctla-4"
+      ],
+      "thoracic": null,
+      "setting": []
+     },
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Has the patient previously received PD‑1/PD‑L1 or CTLA‑4 checkpoint inhibitors?"
+    }
+   ],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c0A24",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "Prior to randomization ≤ 21 days (or ≤ 5 half-lives, whichever is shorter) have received chemotherapy, other test drugs, and Chinese herbal medicines used to control cancer.",
+   "lines": [
+    18
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "chemo",
+     "other"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.689,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient received chemotherapy, other investigational drugs, or Chinese herbal medicines within the past 21 days?"
+  },
+  {
+   "id": "c0A25",
+   "type": "ANY",
+   "polarity": "exclusion",
+   "source_line": "Uncontrolled brain metastases and all meningeal metastases. Stereotactic radiotherapy within 7 days prior to the start of treatment in the first cycle, or brain metastases who underwent whole brain radiotherapy within the first 14 days (if the patient detected a new asymptomatic CNS metastasis during the screening scan, then radiotherapy must be received) And/or central nervous system metastases. After treatment, these patients do not require additional brain scans to enter the trial if other inclusion criteria are met.",
+   "lines": [
+    19
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c0A25.0",
+     "type": "IN",
+     "polarity": "exclusion",
+     "source_line": "Uncontrolled brain metastases and all meningeal metastases. Stereotactic radiotherapy within 7 days prior to the start of treatment in the first cycle, or brain metastases who underwent whole brain radiotherapy within the first 14 days (if the patient detected a new asymptomatic CNS metastasis during the screening scan, then radiotherapy must be received) And/or central nervous system metastases. After treatment, these patients do not require additional brain scans to enter the trial if other inclusion criteria are met.",
+     "lines": [
+      19
+     ],
+     "section": "exclusion",
+     "cwa": false,
+     "field": "brain_mets",
+     "op": null,
+     "value": null,
+     "values": [
+      "untreated_or_symptomatic"
+     ],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Does the patient have uncontrolled brain or meningeal metastases?"
+    },
+    {
+     "id": "c0A25.1",
+     "type": "WITHIN",
+     "polarity": "exclusion",
+     "source_line": "Uncontrolled brain metastases and all meningeal metastases. Stereotactic radiotherapy within 7 days prior to the start of treatment in the first cycle, or brain metastases who underwent whole brain radiotherapy within the first 14 days (if the patient detected a new asymptomatic CNS metastasis during the screening scan, then radiotherapy must be received) And/or central nervous system metastases. After treatment, these patients do not require additional brain scans to enter the trial if other inclusion criteria are met.",
+     "lines": [
+      19
+     ],
+     "section": "exclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": {
+      "cls": [
+       "radio"
+      ],
+      "agents": [],
+      "thoracic": null,
+      "setting": []
+     },
+     "k": null,
+     "months": 0.229,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Has the patient received stereotactic brain radiotherapy within the past 7 days?"
+    },
+    {
+     "id": "c0A25.2",
+     "type": "WITHIN",
+     "polarity": "exclusion",
+     "source_line": "Uncontrolled brain metastases and all meningeal metastases. Stereotactic radiotherapy within 7 days prior to the start of treatment in the first cycle, or brain metastases who underwent whole brain radiotherapy within the first 14 days (if the patient detected a new asymptomatic CNS metastasis during the screening scan, then radiotherapy must be received) And/or central nervous system metastases. After treatment, these patients do not require additional brain scans to enter the trial if other inclusion criteria are met.",
+     "lines": [
+      19
+     ],
+     "section": "exclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": {
+      "cls": [
+       "radio"
+      ],
+      "agents": [],
+      "thoracic": null,
+      "setting": []
+     },
+     "k": null,
+     "months": 0.459,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Has the patient received whole‑brain radiotherapy within the past 14 days?"
+    }
+   ],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c0A26",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Large area radiotherapy (except for local palliative radiotherapy for bones).",
+   "lines": [
+    20
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "large area radiotherapy (non‑palliative bone)",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c0A27",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Pericardial effusion, pleural effusion, or ascites that is clinically uncontrolled and requires pericardial puncture, thoracic puncture, or abdominal puncture drainage within 2 weeks of randomization.",
+   "lines": [
+    21
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "clinically uncontrolled pericardial, pleural or ascitic effusion requiring drainage within 2 weeks",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c0A28",
+   "type": "ALL",
+   "polarity": "exclusion",
+   "source_line": "A history of malignancy other than NSCLC within the first 5 years of randomization, except for malignant tumors with a very low risk of metastatic death and expected to heal after treatment (eg fully treated cervical carcinoma in situ, basal or squamous cell skin cancer, accepted Localized prostate cancer for radical treatment, ductal carcinoma in situ for radical surgery).",
+   "lines": [
+    22
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c0A28.0",
+     "type": "IS",
+     "polarity": "exclusion",
+     "source_line": "A history of malignancy other than NSCLC within the first 5 years of randomization, except for malignant tumors with a very low risk of metastatic death and expected to heal after treatment (eg fully treated cervical carcinoma in situ, basal or squamous cell skin cancer, accepted Localized prostate cancer for radical treatment, ductal carcinoma in situ for radical surgery).",
+     "lines": [
+      22
+     ],
+     "section": "exclusion",
+     "cwa": false,
+     "field": "mi_history",
+     "op": null,
+     "value": true,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Does the patient have a history of another malignancy?"
+    },
+    {
+     "id": "c0A28.1",
+     "type": "CMP",
+     "polarity": "exclusion",
+     "source_line": "A history of malignancy other than NSCLC within the first 5 years of randomization, except for malignant tumors with a very low risk of metastatic death and expected to heal after treatment (eg fully treated cervical carcinoma in situ, basal or squamous cell skin cancer, accepted Localized prostate cancer for radical treatment, ductal carcinoma in situ for radical surgery).",
+     "lines": [
+      22
+     ],
+     "section": "exclusion",
+     "cwa": false,
+     "field": "mi_months_ago",
+     "op": "<=",
+     "value": 60,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Was the other malignancy diagnosed within the past 5 years?"
+    }
+   ],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c1A0",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Have undergone major surgery (as defined by the investigator) within 28 days prior to the first dose. Note: For the purpose of palliative care, local surgical treatment of isolated lesions is acceptable.",
+   "lines": [
+    23
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "major surgery within 28 days prior to first dose (excluding local palliative surgery of isolated lesions)",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient undergone any major surgery in the past 28 days?"
+  },
+  {
+   "id": "c1A1",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Any condition that, depending on the investigator's judgment, interferes with the evaluation of the efficacy of the study drug or explains the patient's safety or findings, including but not limited to: persistent or active infection, symptomatic congestive heart failure, poorly controlled hypertension, Unstable angina, arrhythmia, or psychiatric/social conditions that affect the study's requirements, significantly increase the risk of AEs in the study drug, or affect the patient's ability to provide informed consent.",
+   "lines": [
+    24
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "active_infection",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have a persistent or active infection?"
+  },
+  {
+   "id": "c1A2",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Any condition that, depending on the investigator's judgment, interferes with the evaluation of the efficacy of the study drug or explains the patient's safety or findings, including but not limited to: persistent or active infection, symptomatic congestive heart failure, poorly controlled hypertension, Unstable angina, arrhythmia, or psychiatric/social conditions that affect the study's requirements, significantly increase the risk of AEs in the study drug, or affect the patient's ability to provide informed consent.",
+   "lines": [
+    24
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "chf",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have symptomatic congestive heart failure?"
+  },
+  {
+   "id": "c1A3",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Any condition that, depending on the investigator's judgment, interferes with the evaluation of the efficacy of the study drug or explains the patient's safety or findings, including but not limited to: persistent or active infection, symptomatic congestive heart failure, poorly controlled hypertension, Unstable angina, arrhythmia, or psychiatric/social conditions that affect the study's requirements, significantly increase the risk of AEs in the study drug, or affect the patient's ability to provide informed consent.",
+   "lines": [
+    24
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "poorly controlled hypertension",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Is the patient's hypertension poorly controlled?"
+  },
+  {
+   "id": "c1A4",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Any condition that, depending on the investigator's judgment, interferes with the evaluation of the efficacy of the study drug or explains the patient's safety or findings, including but not limited to: persistent or active infection, symptomatic congestive heart failure, poorly controlled hypertension, Unstable angina, arrhythmia, or psychiatric/social conditions that affect the study's requirements, significantly increase the risk of AEs in the study drug, or affect the patient's ability to provide informed consent.",
+   "lines": [
+    24
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "unstable_angina",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have unstable angina?"
+  },
+  {
+   "id": "c1A5",
+   "type": "IN",
+   "polarity": "exclusion",
+   "source_line": "Any condition that, depending on the investigator's judgment, interferes with the evaluation of the efficacy of the study drug or explains the patient's safety or findings, including but not limited to: persistent or active infection, symptomatic congestive heart failure, poorly controlled hypertension, Unstable angina, arrhythmia, or psychiatric/social conditions that affect the study's requirements, significantly increase the risk of AEs in the study drug, or affect the patient's ability to provide informed consent.",
+   "lines": [
+    24
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "arrhythmia",
+   "op": null,
+   "value": null,
+   "values": [
+    "uncontrolled"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have uncontrolled arrhythmia?"
+  },
+  {
+   "id": "c1A6",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Any condition that, depending on the investigator's judgment, interferes with the evaluation of the efficacy of the study drug or explains the patient's safety or findings, including but not limited to: persistent or active infection, symptomatic congestive heart failure, poorly controlled hypertension, Unstable angina, arrhythmia, or psychiatric/social conditions that affect the study's requirements, significantly increase the risk of AEs in the study drug, or affect the patient's ability to provide informed consent.",
+   "lines": [
+    24
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "psychiatric or social conditions that affect study requirements",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have psychiatric or social conditions that would interfere with study participation?"
+  },
+  {
+   "id": "c1A7",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Active or previously documented autoimmune or inflammatory disease (with vitiligo, hypothyroidism (after Hashimoto's syndrome) and stable disease after hormone replacement therapy, no active disease in the past 5 years Patients can be enrolled).",
+   "lines": [
+    25
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "autoimmune_active",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have an active autoimmune or inflammatory disease?"
+  },
+  {
+   "id": "c1A8",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Active or previously documented autoimmune or inflammatory disease (with vitiligo, hypothyroidism (after Hashimoto's syndrome) and stable disease after hormone replacement therapy, no active disease in the past 5 years Patients can be enrolled).",
+   "lines": [
+    25
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "active autoimmune or inflammatory disease not limited to vitiligo, Hashimoto's-related hypothyroidism, or stable disease after hormone replacement therapy",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have an active autoimmune or inflammatory disease other than vitiligo, Hashimoto's-related hypothyroidism, or stable disease after hormone replacement therapy?"
+  },
+  {
+   "id": "c1A9",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Active infections, including tuberculosis, hepatitis B, and hepatitis C.",
+   "lines": [
+    26
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "active_infection",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have an active infection such as tuberculosis, hepatitis B, or hepatitis C?"
+  }
+ ],
+ "compiler_meta": {
+  "primary": {
+   "stage_alternatives_merged": 0,
+   "model": "openai/gpt-oss-120b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 26,
+   "repaired": true,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 39
+  },
+  "secondary": {
+   "stage_alternatives_merged": 0,
+   "model": "qwen/qwen3.8-27b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 26,
+   "repaired": true,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 43
+  },
+  "prompt_version": "compiler-v1.2",
+  "lines": 26,
+  "lines_exact_agree": 14,
+  "typed_atoms": 31,
+  "typed_atoms_agree": 25,
+  "downgraded_atoms": 6
+ }
+}

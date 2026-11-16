@@ -1,0 +1,354 @@
+{
+ "trial_id": "NCT02109016",
+ "atoms": [
+  {
+   "id": "c0A0",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Histologically or cytologically confirmed advanced/metastatic SCLC or NSCLC",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "cancer_type",
+   "op": null,
+   "value": null,
+   "values": [
+    "sclc",
+    "nsclc"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient diagnosed with small cell or non‑small cell lung cancer?"
+  },
+  {
+   "id": "c0A1",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Histologically or cytologically confirmed advanced/metastatic SCLC or NSCLC",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "stage_group",
+   "op": null,
+   "value": null,
+   "values": [
+    "IV"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the disease stage advanced/metastatic (stage IV)?"
+  },
+  {
+   "id": "c0A2",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Any of the following tumor tissue based genetic alterations: FGFR1, FGFR2, FGFR3, VEGFA, or PDGFRα amplification; Any FGFR1, FGFR2, or FGFR3 gene fusion; FGFR1, FGFR2, or FGFR3 activating mutation",
+   "lines": [
+    2
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "FGFR1/2/3, VEGFA, or PDGFRα alteration (amplification, gene fusion, or activating mutation) present",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does tumor testing show any FGFR1/2/3, VEGFA, or PDGFRα alteration (amplification, fusion, or activating mutation)?"
+  },
+  {
+   "id": "c0A3",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Availability of tumor tissue sample suitable for the central confirmation of the genetic alteration and exploratory analyses",
+   "lines": [
+    3
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Suitable tumor tissue sample available for central confirmation",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Is there a tumor tissue sample suitable for central confirmation of the genetic alteration?"
+  },
+  {
+   "id": "c0A4",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Eastern Cooperative Oncology Group (ECOG) of 0 or 1",
+   "lines": [
+    4
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "ecog",
+   "op": "<=",
+   "value": 1,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient's ECOG performance status (must be 0 or 1)?"
+  },
+  {
+   "id": "c0A5",
+   "type": "IS",
+   "polarity": "inclusion",
+   "source_line": "Measurable disease per RECIST 1.1",
+   "lines": [
+    5
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "measurable_disease",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have measurable disease per RECIST 1.1?"
+  },
+  {
+   "id": "c0A6",
+   "type": "COUNT",
+   "polarity": "inclusion",
+   "source_line": "Documented radiographic disease progression following at least one line of therapy in the advanced/metastatic setting",
+   "lines": [
+    6
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": ">=",
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "systemic"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": 1.0,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient received at least one prior line of systemic therapy in the advanced/metastatic setting?"
+  },
+  {
+   "id": "c0A7",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Tumors that are invading a major vessel; NSCLC tumors abutting to a major vessel",
+   "lines": [
+    7
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Tumor invading or abutting a major blood vessel",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Is the tumor invading or abutting a major blood vessel?"
+  },
+  {
+   "id": "c0A8",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Uncontrolled hypertension, defined as SBP ≥ 140 mmHg and/or DBP ≥ 90 mmHg with optimized anti-hypertensive therapy",
+   "lines": [
+    8
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Uncontrolled hypertension (SBP ≥140 mmHg or DBP ≥90 mmHg) despite optimized therapy",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have uncontrolled hypertension (SBP ≥140 or DBP ≥90) despite optimized therapy?"
+  },
+  {
+   "id": "c0A9",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Uncontrolled hypothyroidism defined as serum thyroid stimulating hormone (TSH) higher than 5 mIU/mL while receiving appropriate thyroid hormone therapy",
+   "lines": [
+    9
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Uncontrolled hypothyroidism (TSH >5 mIU/mL while on thyroid hormone therapy)",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient's TSH >5 mIU/mL while on thyroid hormone replacement?"
+  },
+  {
+   "id": "c0A10",
+   "type": "IN",
+   "polarity": "exclusion",
+   "source_line": "Symptomatic and/or untreated central nervous system metastases",
+   "lines": [
+    10
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "brain_mets",
+   "op": null,
+   "value": null,
+   "values": [
+    "untreated_or_symptomatic"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have untreated or symptomatic central nervous system metastases?"
+  },
+  {
+   "id": "c0A11",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Presence of another active cancer",
+   "lines": [
+    11
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Presence of another active cancer",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have any other active malignancy?"
+  },
+  {
+   "id": "c0A12",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Ongoing adverse events from surgery or prior anti-cancer therapies, including radiation, targeted, or cytotoxic therapies",
+   "lines": [
+    12
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Ongoing adverse events from prior surgery or anti‑cancer therapies (radiation, targeted, cytotoxic)",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Is the patient experiencing ongoing adverse events from prior surgery or anti‑cancer therapies?"
+  },
+  {
+   "id": "c0A13",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Pregnant or breastfeeding women",
+   "lines": [
+    13
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "pregnant",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Is the patient pregnant or breastfeeding?"
+  }
+ ],
+ "compiler_meta": {
+  "primary": {
+   "stage_alternatives_merged": 0,
+   "model": "openai/gpt-oss-120b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 13,
+   "repaired": false,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 14
+  },
+  "single_model": true
+ }
+}

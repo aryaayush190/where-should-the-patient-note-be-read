@@ -1,0 +1,367 @@
+{
+ "0128bac762": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Contraception use or capability not stated in note"
+ },
+ "029446a619": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient had prior EGFR-targeted therapy as part of systemic treatment"
+ },
+ "0625bc9454": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Creatinine 1.5 indicates mild kidney dysfunction; ANC 2.2 is within normal range"
+ },
+ "1399f65557": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Tumor type or presence of cavitary/necrotic lesions not described"
+ },
+ "154d52890e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Nature of pleural effusion (sanguineous or suspicious) not specified"
+ },
+ "1c4edd10e4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Allergies to paclitaxel, carboplatin, or excipients not stated"
+ },
+ "1e2d5dd2a1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Patient's compliance with protocol not assessed or stated"
+ },
+ "21c1b1720c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Blood pressure or hypertension status not reported"
+ },
+ "250a5a72e0": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient progressed after prior systemic therapy, indicating no curative intent"
+ },
+ "25af5a78d9": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Disease is stage IV with progression, not curable with conventional therapy"
+ },
+ "263e50af0e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Substance abuse or active alcohol/drug use not stated"
+ },
+ "2853595305": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient received prior chemotherapy over 6 months ago, not at least 12 weeks of Tarceva or Iressa"
+ },
+ "30001da547": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on tuberculosis, hepatitis B, AIDS, or syphilis infection is provided"
+ },
+ "36952821b3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No history of hemorrhagic or thrombotic events in the past 12 months is stated"
+ },
+ "3bc22117c4": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "ALT level not stated; ULN not provided; no data on liver function"
+ },
+ "3bea08439c": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No information on participation in clinical studies within past 4 weeks is provided"
+ },
+ "3c7cd2d98e": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient previously received chemotherapy over 6 months ago"
+ },
+ "3d496bb66e": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient has had prior chemotherapy in metastatic/recurrent setting"
+ },
+ "494f154dd4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on receipt of non-approved investigational drugs in past 30 days is provided"
+ },
+ "4b3e526e38": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient has had prior chemotherapy in metastatic/recurrent setting"
+ },
+ "4e13af0891": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on prior breast or ovarian cancer or mammogram/ovarian imaging is provided"
+ },
+ "4eb83e2c01": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on allergies or active infections affecting tolerance is provided"
+ },
+ "5cdafa0d42": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on smoking exposure or second-hand exposure is provided"
+ },
+ "5e0680de39": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on PET/CT or CT imaging timing or SUV values is provided"
+ },
+ "5e3d73f5ae": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on swallowing ability or HKI-272 capsule intake is provided"
+ },
+ "63ba4916bf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No history of heart failure, myocardial infarction, or arrhythmia in past 6 months is stated"
+ },
+ "68543de007": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Smoking history not stated; current smoking status not provided"
+ },
+ "69a7bdd1b6": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Pregnancy or breastfeeding status not stated"
+ },
+ "70002978a7": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Breastfeeding status not stated"
+ },
+ "74d0f6b8dd": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Fasting blood sugar value not stated; dexamethasone use not mentioned"
+ },
+ "77ba1b8656": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Liver function test value not elevated beyond ULN"
+ },
+ "7a8e1be451": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Tumor sample was tested and adequate for molecular analysis"
+ },
+ "7b5b5dabfe": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "White blood cell count is above 3.5 x10^3/uL"
+ },
+ "7cad937428": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Pregnancy status or contraception use not stated"
+ },
+ "80f04fea7b": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on ALT or AST levels or their relationship to ULN is provided"
+ },
+ "88935dca8e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on hypersensitivity to erlotinib or pemetrexed is provided"
+ },
+ "8976af4735": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on blood coagulation dysfunction is provided"
+ },
+ "8df03fc7d1": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Liver function test values show AST within normal limits, not exceeding 3 xULN"
+ },
+ "8e1340fb03": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "AST and ALT levels are both within normal range, neither exceeding 3 xULN"
+ },
+ "8e7b99bb88": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on radiotherapy to measurable disease or disease progression after completion is provided"
+ },
+ "8eea7dfb4d": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No history of breast or ovarian cancer is stated; no malignancy excluded"
+ },
+ "9d2b95131f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient has advanced NSCLC with progression after prior chemo and targeted therapy"
+ },
+ "a52d45dc90": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on ophthalmologic surface abnormalities is provided"
+ },
+ "a5b827a3f4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on hematuria or proteinuria is provided"
+ },
+ "a9c6224678": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on prior active malignancy within past 3 years is provided"
+ },
+ "aaee7f7b57": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient has advanced NSCLC that progressed after treatment with chemo and targeted therapy"
+ },
+ "aba5446ba7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on tumor location or vascular invasion is provided"
+ },
+ "ad1e0cff0f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient has clinical stage IV disease with measurable disease and ECOG performance status of 1, indicating at least 3 months life expectancy"
+ },
+ "adcd0bc958": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No mention of hemoptysis; no evidence of clinically significant hemoptysis in past 3 months"
+ },
+ "b043381ac9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Smoking status not stated in the note"
+ },
+ "b07d357e44": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information about brain imaging performed within 42 days prior to study entry"
+ },
+ "b481ad4ad0": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient is not pregnant or breastfeeding; no indication of either condition"
+ },
+ "b868c02ce5": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No mention of concurrent anticoagulation or antiplatelet therapy; no such therapy indicated"
+ },
+ "b8d9688e9e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Contraception status or sexual activity not stated in the note"
+ },
+ "b9b1081a67": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient previously received chemotherapy, which counts as prior treatment for NSCLC"
+ },
+ "c3c34a9aca": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Malignant pleural effusion is present but no cytology result is mentioned, so exclusion does not apply"
+ },
+ "c43286b5cc": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No gastrointestinal abnormalities interfering with drug intake or absorption mentioned"
+ },
+ "c629d7eedc": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Creatinine 1.5, bilirubin 1.8, ANC 2.2, all within acceptable ranges indicating adequate organ function"
+ },
+ "c668fa8150": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient previously received chemotherapy over 6 months ago, indicating one prior chemotherapy regimen"
+ },
+ "c9a308243d": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient's ECOG performance status is 1, stable over past two weeks"
+ },
+ "d0167bc974": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Malignant pleural effusion is present, so this condition is met"
+ },
+ "d9bdac4798": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Pleural effusion is present, so this exclusion condition is met"
+ },
+ "dcbb5daaf4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on duration of glucocorticoid use provided"
+ },
+ "e3883c624b": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Liver function test not elevated beyond ULN; ALT within normal limits"
+ },
+ "e9dcde9e58": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on brain metastasis or thoracic disease classification provided"
+ },
+ "ea2f685472": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on gastrointestinal disorders or diarrhea symptoms provided"
+ },
+ "f11fd95fae": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on cardiac disease or dysfunction provided"
+ },
+ "f895b235b4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on contraception use provided"
+ },
+ "f95f75e555": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ANC, platelets, hemoglobin all within acceptable ranges for adequate blood counts"
+ },
+ "fd81bcf49e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on prior anti-folate agent use provided"
+ },
+ "ffac75eeec": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Patient's detention status or imprisonment is not stated in the note"
+ },
+ "5f6da7f984": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "ca34090ea4": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ }
+}

@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: "Where Should the Patient Note Be Read? Code, data and outputs"
+version: 1.0.0
+date-released: 2026-11-16
+license: MIT
+authors:
+  - given-names: Ayush
+    family-names: Arya
+    affiliation: "Applied Cognitive Science Lab, Indian Institute of Technology Mandi"
+  - given-names: Neha
+    family-names: Kriti
+    affiliation: "Applied Cognitive Science Lab, Indian Institute of Technology Mandi"
+  - given-names: Harsha
+    family-names: Kulkarni
+    affiliation: "University Institute of Technology, Himachal Pradesh University"
+  - given-names: Sarthak
+    family-names: Srivastava
+    affiliation: "Applied Cognitive Science Lab, Indian Institute of Technology Mandi"
+  - given-names: Shruti
+    family-names: Kaushik
+    affiliation: "Syneos Health"
+  - given-names: Varun
+    family-names: Dutt
+    affiliation: "Applied Cognitive Science Lab, Indian Institute of Technology Mandi"
+    email: varun@iitmandi.ac.in
+keywords:
+  - telemedicine
+  - clinical trial pre-screening
+  - large language models
+  - edge computing
+  - privacy
+preferred-citation:
+  type: conference-paper
+  title: "Where Should the Patient Note Be Read? Missed Referrals, Privacy and Device Cost of LLM Pre-Screening for Clinical Trials in Telemedicine"
+  authors:
+    - given-names: Ayush
+      family-names: Arya
+    - given-names: Neha
+      family-names: Kriti
+    - given-names: Harsha
+      family-names: Kulkarni
+    - given-names: Sarthak
+      family-names: Srivastava
+    - given-names: Shruti
+      family-names: Kaushik
+    - given-names: Varun
+      family-names: Dutt
+  collection-title: "Proceedings of the IEEE International Conference on Pervasive Computing and Communications Workshops (PerCom Workshops), TELMED 2027"
+  year: 2027
+  notes: "Submitted"

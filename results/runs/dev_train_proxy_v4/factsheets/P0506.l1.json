@@ -1,0 +1,102 @@
+{
+ "1366b4ab78": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1565b8bf0b": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no hypoxemia or hypercapnia"
+ },
+ "15dad95720": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "postoperative FEV1 65% >40% predicted"
+ },
+ "1f565f60a2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "2b0b11e5cb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5b5700b6c7": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no prior invasive malignancy in past 3 years"
+ },
+ "730d8b6b4c": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no severe pulmonary hypertension"
+ },
+ "86ff93829f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no nodes >1cm or PET\u2011abnormal"
+ },
+ "961a1d1d42": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no distant metastases"
+ },
+ "984dd3970c": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "large cell carcinoma, not bronchioloalveolar"
+ },
+ "b11de9a6e9": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "thoracic surgeon evaluation within 6 weeks"
+ },
+ "be6a282f9b": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no regional or distant metastases"
+ },
+ "c8a1c292bd": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no significant cardiac, cerebrovascular, or peripheral vascular disease"
+ },
+ "cd4e10b83b": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "FDG-PET/CT performed within 4 weeks"
+ },
+ "d5e05d5bfc": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "surgeon confirms high likelihood of negative margins"
+ },
+ "e072202eae": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "baseline DLCO 85%, predicted post\u2011op 68%"
+ },
+ "e2af713b2d": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "primary tumor 2.3 cm"
+ },
+ "e485fd72f8": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "FDG-PET/CT confirms T1N0M0"
+ },
+ "f18e74a770": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "candidate for lobectomy within 4 weeks"
+ },
+ "fdebab3d73": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ }
+}

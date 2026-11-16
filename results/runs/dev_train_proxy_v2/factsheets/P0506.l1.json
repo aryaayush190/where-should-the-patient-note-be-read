@@ -1,0 +1,97 @@
+{
+ "076e75388e": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "patient will comply with contraception"
+ },
+ "1565b8bf0b": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no hypoxemia or hypercapnia"
+ },
+ "4f34178bb1": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "tumor is large cell carcinoma, not bronchioloalveolar"
+ },
+ "546be7aa50": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "55b427f3a8": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no pulmonary hypertension"
+ },
+ "64b963ec48": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "DLCO 85% predicted"
+ },
+ "693d3952e0": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no significant cardiac, cerebrovascular, or peripheral vascular disease"
+ },
+ "7ade9bbd77": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "surgical candidate confirmed by thoracic surgeon"
+ },
+ "8831d22aba": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "tumor 2.3 cm, not >3 cm"
+ },
+ "918a734537": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no abnormal nodes >1 cm or PET"
+ },
+ "a0f602ba0e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a8eb990a3b": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no prior invasive malignancy within 3 years"
+ },
+ "b69f5af261": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no pleural effusion present"
+ },
+ "bd0e39adb6": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "postoperative FEV1 65% predicted, DLCO 68% predicted"
+ },
+ "c0c1c96c3b": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "FDG-PET/CT confirms T1N0M0"
+ },
+ "d1375b2b98": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "large cell carcinoma, not carcinoma in situ"
+ },
+ "efb6228445": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "workup completed within 4 weeks"
+ },
+ "f8930d169b": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "surgeon expects high likelihood of negative margins"
+ },
+ "f9e9da59bf": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "patient willing to comply with contraception"
+ }
+}

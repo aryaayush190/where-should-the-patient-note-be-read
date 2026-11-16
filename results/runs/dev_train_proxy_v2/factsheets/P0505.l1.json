@@ -1,0 +1,702 @@
+{
+ "000ad71b20": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "histology is non-bronchoalveolar"
+ },
+ "0112ec995f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "017ab0166e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "027a77a604": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "patient is female"
+ },
+ "0690514c19": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0cd63aa38f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0e00fa6b07": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior systemic therapy"
+ },
+ "13ee9ee30e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "17e6e591f6": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1954c8cd9e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1a010952df": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1b569bdb09": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1bcb3429fa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1ce570a561": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1ec13cc7e1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1f29622175": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "23f5c2391f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "248f173aa8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "26bb3f0ad7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "288f285a20": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "28d3c02338": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "2af66cc340": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "2b877860d1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "315a7c4250": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "336c3d29fa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "37f4ed57e2": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "tumor biopsy confirmed"
+ },
+ "38a71cffab": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "stage IV disease, >7 cm"
+ },
+ "38fe8b5b44": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no other active cancer in last 3 years"
+ },
+ "3cb0c49c77": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "radiotherapy indicated, no contraindication"
+ },
+ "3e56f87489": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "stage IV"
+ },
+ "3f65486e33": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3fafcb8dcc": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "BP 120/80, controlled"
+ },
+ "4a2a788360": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4b8f41a329": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "stable cardio, normal labs, no severe disease"
+ },
+ "4d63f12ffc": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "504621cbeb": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no QT prolongation, QTc <480"
+ },
+ "5312f82929": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no SBRT courses reported"
+ },
+ "5709d8aea4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5717256fe2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no other tumors mentioned"
+ },
+ "58cfac2a45": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "NSCLC histology is adenocarcinoma"
+ },
+ "59c06876fa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no GI issues mentioned"
+ },
+ "59de1b6248": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no other tumors mentioned"
+ },
+ "5ba45a5bcb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no vaccine info"
+ },
+ "5bb82fd6d8": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "bilirubin normal"
+ },
+ "5c50ea11f7": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "AST normal"
+ },
+ "5e0ad6e159": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no hypersensitivity info"
+ },
+ "5e69c3e8e1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no allergy info"
+ },
+ "5e97603d22": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no prior malignancy mentioned"
+ },
+ "5eb0e56bd0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5ef0ebc1ec": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5f3ac58eed": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "61abc8fe61": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Chest CT/PET-CT of both lungs, mediastinum, adrenal glands and rest of body performed"
+ },
+ "64cdfb94ce": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "AST 5.2, ALT 5.2 (both <2.5\u00d7ULN)"
+ },
+ "669c0a346d": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Serum calcium 8.5 mg/dL (<1.1\u00d7UNL)"
+ },
+ "687179fdc6": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "688d060cde": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "693fd57501": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6d941c296c": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Potassium, calcium, magnesium within normal range"
+ },
+ "6df4b3a1d4": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ALT 5.2 (<2.5\u00d7ULN)"
+ },
+ "6e7b827026": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "No invasive malignancy within past 3 years"
+ },
+ "744135886a": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "AST and ALT within normal limits"
+ },
+ "77a2e7030a": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Stage IV, palliative 45Gy/15Fx"
+ },
+ "77acaa96e8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7955096a69": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no left bundle branch block"
+ },
+ "7c1ab7e063": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7c24c7aa90": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "83e51065be": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior systemic therapy or radiation"
+ },
+ "849d01b255": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "852aafcd54": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8590727528": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "85be37b59b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8608de6f29": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "serum calcium normal"
+ },
+ "88e6c43dd6": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "bilirubin within normal limits"
+ },
+ "8ce7e9cf10": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8f459ebb97": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "labs within 14 days"
+ },
+ "9004178748": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9166315d75": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "91f89dfb50": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "92d5d5d655": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "97311b7c17": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9746544e72": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "blood pressure 120/80"
+ },
+ "982eb1cd32": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9a3f837a9a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9affd30947": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9e28260b9f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "patient is medically inoperable"
+ },
+ "9ed23dab64": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9fa406c536": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "AST/ALT normal, alkaline phosphatase not mentioned but assumed normal"
+ },
+ "a26cf4480b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a458485f18": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "female postmenopausal, no contraception mention but meets criteria"
+ },
+ "a5c37d6f22": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a820f18608": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ace07cff1e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ad8b36723e": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "normal PT and APTT"
+ },
+ "ae1b8aebb2": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "staging within 12 weeks"
+ },
+ "af6c085ad1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b015278ec0": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "medically inoperable"
+ },
+ "b14c5e7ee3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b474a979a6": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "weight loss <5% over 6 months"
+ },
+ "b69ba7ce14": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b7d0d32b78": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "normal bilirubin"
+ },
+ "b830e60231": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "at least one lesion >2 cm"
+ },
+ "bba6c65df8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "bbd808a463": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "bc03f27625": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no anthracycline therapy, no LVEF data"
+ },
+ "bd03be0724": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "bd356b6234": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "bdf769be63": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "NSCLC non-bronchoalveolar subtype"
+ },
+ "be06e8813f": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior systemic therapy"
+ },
+ "c048105426": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c6431312e7": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "postmenopausal female"
+ },
+ "c67de9f139": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c733ed81f5": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no CYP3A4 inhibitors"
+ },
+ "c897abf167": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cba6a26c89": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cbc2c64cdf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cd40a4d693": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cee7b30d6a": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no QTc-prolonging meds"
+ },
+ "cf71f150f9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d0e7f9cb8b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d3c8ac3546": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d639cd6a1d": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "O2 saturation 96% on room air"
+ },
+ "dab1ab988e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "dd93f1a68a": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "naive to EGFR TKI"
+ },
+ "ddf54c1f1a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e2c2fb4bfc": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "brain metastases present"
+ },
+ "e5b037e0c5": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior chemotherapy"
+ },
+ "e8d6e37964": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e953af5764": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "INR/PT/PTT normal"
+ },
+ "f16c4938d2": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "QTc <470 ms for female"
+ },
+ "f18bb96585": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f56d8e7000": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f5808f250c": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "CrCl >50 mL/min"
+ },
+ "f708633ea7": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "recommended palliative radiation alone"
+ },
+ "f738e05707": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "at least one lesion >2 cm evaluable"
+ },
+ "f7aadb5ac1": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "not taking herbal remedies"
+ },
+ "f842c6d522": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Stage IV disease"
+ },
+ "fad3e204a3": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "EGFR mutation present, no prior TKI"
+ },
+ "fb390ee3a1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "fd1bee54ee": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ffdc15342f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ }
+}

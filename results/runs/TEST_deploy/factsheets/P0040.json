@@ -1,0 +1,193 @@
+{
+ "patient_id": "P0040",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    50.0,
+    50.0
+   ],
+   "evidence": "50-year-old female",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "female",
+   "evidence": "50-year-old female",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "Stage IV (T4N3M1c) NSCLC",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IV",
+   "evidence": "Stage IV (T4N3M-1c) NSCLC",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "progressed_after_prior",
+   "evidence": "experienced disease progression following exactly one prior platinum-based chemotherapy regimen",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "measurable_disease": {
+   "status": "value",
+   "value": true,
+   "evidence": "has measurable disease per RECIST v1.1",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ecog": {
+   "status": "value",
+   "value": [
+    0.0,
+    0.0
+   ],
+   "evidence": "an ECOG performance status of 0",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "kps": {
+   "status": "value",
+   "value": [
+    90.0,
+    90.0
+   ],
+   "evidence": "KPS 90",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "alk": {
+   "status": "value",
+   "value": "positive",
+   "evidence": "an ALK rearrangement",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "autoimmune_active": {
+   "status": "negated",
+   "value": null,
+   "evidence": "prior autoimmune condition is quiescent",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "brain_mets": {
+   "status": "negated",
+   "value": "none",
+   "evidence": "no active brain metastases",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "tnm_t": {
+   "status": "value",
+   "value": "T4",
+   "evidence": "Stage IV (T4N3M1c) NSCLC",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_n": {
+   "status": "value",
+   "value": "N3",
+   "evidence": "Stage IV (T4N3M1c) NSCLC",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_m": {
+   "status": "value",
+   "value": "M1C",
+   "evidence": "Stage IV (T4N3M1c) NSCLC",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  }
+ },
+ "therapy_status": "value",
+ "events": [
+  {
+   "cls": "chemo",
+   "agents": [
+    "platinum-based"
+   ],
+   "line": 1,
+   "setting": "advanced",
+   "thoracic": null,
+   "months_ago": [
+    0.0,
+    1.0
+   ],
+   "ongoing": false,
+   "evidence": "experienced disease progression following exactly one prior platinum-based chemotherapy regimen",
+   "verified": false
+  }
+ ],
+ "lines_of_therapy": [
+  1.0,
+  1.0
+ ],
+ "reader_meta": {
+  "reader": "edge_local",
+  "conflicts": [
+   "brain_mets"
+  ],
+  "therapy_verified": false,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 322.668,
+   "prompt_tokens": 1494,
+   "gen_tokens": 1545,
+   "prompt_s": 7.658,
+   "gen_s": 312.168,
+   "load_s": 0.052
+  }
+ }
+}

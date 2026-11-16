@@ -1,0 +1,197 @@
+{
+ "03e9c338e3": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about wounds, ulcers, or bone fractures is provided in the note."
+ },
+ "04feb2d6c4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information about myocardial infarction within 6 months is provided in the note."
+ },
+ "06b0302702": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Hemoglobin level is not stated in the patient note."
+ },
+ "081ed4a297": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Platelet count is not stated in the patient note."
+ },
+ "098c176bf9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Absolute neutrophil count is not stated in the patient note."
+ },
+ "1168deffb5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information about diabetes or corticosteroid contraindications is provided."
+ },
+ "1d70d5faca": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Life expectancy is not stated in the patient note."
+ },
+ "234e1d33cb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information about neurologic or psychiatric disorders is provided."
+ },
+ "249891ccca": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "ALT level is not stated in the patient note."
+ },
+ "34a49a7f12": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Creatinine level is not stated in the patient note."
+ },
+ "3cabd561c7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information about active peptic ulcer is provided in the note."
+ },
+ "3ec3d228fa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Platelet count is not stated in the patient note."
+ },
+ "3f5ef0df75": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "AST or ALT levels not stated in the note"
+ },
+ "422c49f372": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "History of gross hemoptysis not stated in the note"
+ },
+ "46ac9fd47d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Cardiovascular disease or related treatment not stated in the note"
+ },
+ "4ad9c49347": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Severe hypersensitivity to Taxotere or polysorbate 80 not stated in the note"
+ },
+ "4b4f05ae68": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Contraception use not stated in the note"
+ },
+ "56e59e578b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Partial thromboplastin time not stated in the note"
+ },
+ "595c59bc2c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "anc_k_ul level not stated in the note"
+ },
+ "5e83c22799": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "History of another malignancy not stated in the note"
+ },
+ "606bcee8f4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Clinically meaningful illness or infection in past 90 days not stated in the note"
+ },
+ "71d501c015": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "PT and APTT values for biopsy not stated in the note"
+ },
+ "775ded288f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Urine protein-creatinine ratio and dipstick protein not stated in the note"
+ },
+ "7fd1031fb0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "eGFR or crcl_ml_min value not stated in the note"
+ },
+ "8061179ce9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on superior vena cava syndrome status"
+ },
+ "80703bd380": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on lactation status"
+ },
+ "b4a27f3540": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient has stage IIIB cancer with malignant effusion present"
+ },
+ "b7d0d32b78": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No bilirubin level or upper limit of normal stated"
+ },
+ "bd325f8b2c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No AST level or upper limit of normal stated"
+ },
+ "c6a84058ad": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No hemoglobin level stated"
+ },
+ "ca9309ffd5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No mental condition or cognitive impairment stated"
+ },
+ "e3af1cca71": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No history of abdominal fistula or intra-abdominal abscess stated"
+ },
+ "e4aed6ccb8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No prior malignancies other than NSCLC stated"
+ },
+ "e65a2505f2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on timing of staging work-up"
+ },
+ "eba8f701b4": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient has stage IIIB NSCLC, which includes measurable disease"
+ },
+ "ee465feefa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on hypersensitivity to polysorbate 80 is stated"
+ },
+ "ef930eadd5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on ascites or pericardial effusion is stated"
+ },
+ "f94da7ba86": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on lesion assessability by radionuclide scan is stated"
+ },
+ "82fe10d26d": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ }
+}

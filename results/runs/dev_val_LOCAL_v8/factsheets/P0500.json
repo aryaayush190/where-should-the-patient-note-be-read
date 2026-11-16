@@ -1,0 +1,358 @@
+{
+ "patient_id": "P0500",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    56.0,
+    56.0
+   ],
+   "evidence": "56-year-old female",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "female",
+   "evidence": "56-year-old female",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "adenocarcinoma of the lung",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "histology": {
+   "status": "value",
+   "value": "adenocarcinoma",
+   "evidence": "histologically confirmed adenocarcinoma",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IIIB",
+   "evidence": "staged as unresectable IIIB",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "ecog": {
+   "status": "value",
+   "value": [
+    1.0,
+    1.0
+   ],
+   "evidence": "ECOG performance status of 1",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "measurable_disease": {
+   "status": "value",
+   "value": true,
+   "evidence": "advanced disease",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "newly_diagnosed",
+   "evidence": "previously received exactly one taxane-based chemotherapy regimen",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "brain_mets": {
+   "status": "negated",
+   "value": "none",
+   "evidence": "imaging confirms the absence of brain metastases",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "creatinine_mg_dl": {
+   "status": "value",
+   "value": [
+    0.9,
+    0.9
+   ],
+   "evidence": "creatinine 0.9 mg/dL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "crcl_ml_min": {
+   "status": "value",
+   "value": [
+    45.0,
+    45.0
+   ],
+   "evidence": "CrCl > 45 mL/min",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "bilirubin_mg_dl": {
+   "status": "value",
+   "value": [
+    0.9,
+    0.9
+   ],
+   "evidence": "bilirubin 0.9 mg/dL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "hemoglobin_g_dl": {
+   "status": "value",
+   "value": [
+    11.6,
+    11.6
+   ],
+   "evidence": "hemoglobin 11.6 g/dL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "albumin_g_dl": {
+   "status": "value",
+   "value": [
+    3.6,
+    3.6
+   ],
+   "evidence": "albumin 3.6 g/dL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "anc_k_ul": {
+   "status": "value",
+   "value": [
+    3.4,
+    3.4
+   ],
+   "evidence": "ANC 3.4 x10^3/µL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "platelets_k_ul": {
+   "status": "value",
+   "value": [
+    176.0,
+    176.0
+   ],
+   "evidence": "platelets 176k/µL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "autoimmune_active": {
+   "status": "negated",
+   "value": null,
+   "evidence": "prior autoimmune condition is quiescent",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "steroids_systemic": {
+   "status": "negated",
+   "value": null,
+   "evidence": "requiring zero systemic therapy",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "active_infection": {
+   "status": "negated",
+   "value": null,
+   "evidence": "no prior pemetrexed exposure",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "egfr": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "no prior pemetrexed exposure",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "alk": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "ros1": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "kras": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "ret": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "braf": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "met": {
+   "status": "value",
+   "value": "not_tested",
+   "evidence": "",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "tnm_t": {
+   "status": "value",
+   "value": "T2",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  },
+  "tnm_n": {
+   "status": "value",
+   "value": "N3",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  },
+  "tnm_m": {
+   "status": "value",
+   "value": "M0",
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  }
+ },
+ "therapy_status": "value",
+ "events": [
+  {
+   "cls": "chemo",
+   "agents": [
+    "taxane"
+   ],
+   "line": 1,
+   "setting": "advanced",
+   "thoracic": null,
+   "months_ago": [
+    6.0,
+    Infinity
+   ],
+   "ongoing": false,
+   "evidence": "previously received exactly one taxane-based chemotherapy regimen for advanced disease and localized radiotherapy (over 6 months ago to <5% of bone marrow)",
+   "verified": true
+  },
+  {
+   "cls": "radio",
+   "agents": [
+    "localized radiotherapy"
+   ],
+   "line": null,
+   "setting": "localized",
+   "thoracic": true,
+   "months_ago": [
+    6.0,
+    Infinity
+   ],
+   "ongoing": false,
+   "evidence": "previously received exactly one taxane-based chemotherapy regimen for advanced disease and localized radiotherapy (over 6 months ago to <5% of bone marrow)",
+   "verified": true
+  }
+ ],
+ "lines_of_therapy": [
+  1.0,
+  1.0
+ ],
+ "reader_meta": {
+  "reader": "edge_local",
+  "conflicts": [],
+  "therapy_verified": true,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 470.976,
+   "prompt_tokens": 1567,
+   "gen_tokens": 1294,
+   "prompt_s": 85.824,
+   "gen_s": 301.355,
+   "load_s": 0.024
+  }
+ }
+}

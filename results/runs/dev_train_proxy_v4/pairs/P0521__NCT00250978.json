@@ -1,0 +1,395 @@
+{
+ "pair_id": "P0521__NCT00250978",
+ "patient_id": "P0521",
+ "trial_id": "NCT00250978",
+ "label": 0,
+ "selective": "NEED_INFO",
+ "forced": "NOT_ELIGIBLE",
+ "n_l2": 0,
+ "n_forced_unknown": 8,
+ "n_provisional": 14,
+ "u": 15.0,
+ "asks": [
+  {
+   "atom": "c0A3",
+   "category": "EFFUSION",
+   "question": "Does the patient have a malignant pleural effusion?",
+   "answerable_by": "record",
+   "pol": "inclusion"
+  },
+  {
+   "atom": "c0A15",
+   "category": "OTHER",
+   "question": "Can the patient maintain a Pleur\u2011XTM drainage catheter?",
+   "answerable_by": "clinician",
+   "pol": "inclusion"
+  },
+  {
+   "atom": "c0A20",
+   "category": "LABS",
+   "question": "Has the patient had hemoptysis of >\u00bd teaspoon in the past 3 months?",
+   "answerable_by": "patient",
+   "pol": "exclusion"
+  },
+  {
+   "atom": "c0A23",
+   "category": "CARDIAC",
+   "question": "Does the patient have clinically significant cardiovascular disease, uncontrolled hypertension, or peripheral vascular disease?",
+   "answerable_by": "clinician",
+   "pol": "exclusion"
+  },
+  {
+   "atom": "c0A24",
+   "category": "LABS",
+   "question": "Has the patient had a stroke or TIA within the past 6 months?",
+   "answerable_by": "record",
+   "pol": "exclusion"
+  },
+  {
+   "atom": "c0A27",
+   "category": "OTHER",
+   "question": "Has the patient undergone major surgery, open biopsy, or significant traumatic injury within the past 28 days?",
+   "answerable_by": "record",
+   "pol": "exclusion"
+  },
+  {
+   "atom": "c0A28",
+   "category": "OTHER",
+   "question": "Has the patient had abdominal fistula, GI perforation, or intra\u2011abdominal abscess within the past 28 days?",
+   "answerable_by": "record",
+   "pol": "exclusion"
+  },
+  {
+   "atom": "c0A29",
+   "category": "OTHER",
+   "question": "Does the patient have a serious non\u2011healing wound, ulcer, or bone fracture?",
+   "answerable_by": "clinician",
+   "pol": "exclusion"
+  }
+ ],
+ "n_atoms": 32,
+ "trace": [
+  {
+   "atom": "c0A0",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A1",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A2",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A3",
+   "type": "IS",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A4",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A5",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c0A6",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A7",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A8",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A9",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A10",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A11",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A12",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A13",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A14",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A15",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A16",
+   "type": "IS",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A17",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A18",
+   "type": "HAS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A19",
+   "type": "IN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A20",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A21",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A22",
+   "type": "IN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A23",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A24",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A25",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A26",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A27",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A28",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A29",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A30",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A31",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A3",
+   "route": "forced:unmet_requirement"
+  }
+ ],
+ "site_verify": [
+  "Adequate coagulation studies, blood counts, renal and hepatic function: aPTT < 33.8 seconds, PT/INR < 1.12, WBC >= 3,000/ul, hemoglobin >= 9.0 g/dl, platelet count >=100,000/ul, total bilirubin <= 1.3 mg/dl, AST/ALT <= 2.0 X UNL, Alk Phos <= 2.5 X UNL, creatinine <= 1.5 mg/dl",
+  "Adequate coagulation studies, blood counts, renal and hepatic function: aPTT < 33.8 seconds, PT/INR < 1.12, WBC >= 3,000/ul, hemoglobin >= 9.0 g/dl, platelet count >=100,000/ul, total bilirubin <= 1.3 mg/dl, AST/ALT <= 2.0 X UNL, Alk Phos <= 2.5 X UNL, creatinine <= 1.5 mg/dl",
+  "Adequate coagulation studies, blood counts, renal and hepatic function: aPTT < 33.8 seconds, PT/INR < 1.12, WBC >= 3,000/ul, hemoglobin >= 9.0 g/dl, platelet count >=100,000/ul, total bilirubin <= 1.3 mg/dl, AST/ALT <= 2.0 X UNL, Alk Phos <= 2.5 X UNL, creatinine <= 1.5 mg/dl",
+  "Adequate coagulation studies, blood counts, renal and hepatic function: aPTT < 33.8 seconds, PT/INR < 1.12, WBC >= 3,000/ul, hemoglobin >= 9.0 g/dl, platelet count >=100,000/ul, total bilirubin <= 1.3 mg/dl, AST/ALT <= 2.0 X UNL, Alk Phos <= 2.5 X UNL, creatinine <= 1.5 mg/dl",
+  "Adequate coagulation studies, blood counts, renal and hepatic function: aPTT < 33.8 seconds, PT/INR < 1.12, WBC >= 3,000/ul, hemoglobin >= 9.0 g/dl, platelet count >=100,000/ul, total bilirubin <= 1.3 mg/dl, AST/ALT <= 2.0 X UNL, Alk Phos <= 2.5 X UNL, creatinine <= 1.5 mg/dl",
+  "Men and women of childbearing potential must be willing to consent to using effective contraception while on treatment and for at least 3 months thereafter.",
+  "Patients already known to have hemorrhagic pleural effusion, defined as a grossly bloody pleural effusion in the opinion of the treating physician,or pleural fluid hemoglobin concentration >= 25% of blood hemoglobin concentration .",
+  "Urine protein: creatinine (UPC) ratio >= 1.0 at screening",
+  "Patients must not be receiving daily treatment with aspirin (>= 325 mg/day) or daily use of non-steroidal anti-inflammatory agents known to inhibit platelet function including ibuprofen, dipyridamole, ticlopidine, clopidogrel and/or cilostazol.",
+  "Patients must not be on therapeutic anticoagulation with warfarin, heparin or low molecular weight heparin."
+ ]
+}

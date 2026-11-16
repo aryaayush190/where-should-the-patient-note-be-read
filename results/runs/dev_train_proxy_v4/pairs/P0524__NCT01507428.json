@@ -1,0 +1,507 @@
+{
+ "pair_id": "P0524__NCT01507428",
+ "patient_id": "P0524",
+ "trial_id": "NCT01507428",
+ "label": 0,
+ "selective": "NOT_ELIGIBLE",
+ "forced": "NOT_ELIGIBLE",
+ "n_l2": 0,
+ "n_forced_unknown": 0,
+ "n_provisional": 9,
+ "u": 4.5,
+ "asks": [
+  {
+   "atom": "c0A0",
+   "category": "OTHER",
+   "question": "Is the tumor FDG\u2011avid with a maximum SUV of at least 4.0?",
+   "answerable_by": "clinician",
+   "pol": "inclusion"
+  },
+  {
+   "atom": "c0A3",
+   "category": "OTHER",
+   "question": "Has a multidisciplinary team declared the disease non\u2011operable?",
+   "answerable_by": "clinician",
+   "pol": "inclusion"
+  },
+  {
+   "atom": "c0A4",
+   "category": "PRIOR_THERAPY",
+   "question": "Can you confirm: Patients with multiple, ipsilateral pulmonary nodules (T3 or T4) are eligible if a definitive course of daily fractionated radiation therapy (RT) is planned?",
+   "answerable_by": "record",
+   "pol": "inclusion"
+  },
+  {
+   "atom": "c0A5",
+   "category": "OTHER",
+   "question": "Was a history and physical exam completed within the past 2 weeks?",
+   "answerable_by": "record",
+   "pol": "inclusion"
+  },
+  {
+   "atom": "c0A6",
+   "category": "OTHER",
+   "question": "Was an FDG\u2011PET/CT scan done within the past 4 weeks for staging and radiation\u2011therapy planning?",
+   "answerable_by": "record",
+   "pol": "inclusion"
+  },
+  {
+   "atom": "c0A7",
+   "category": "LABS",
+   "question": "Was a contrast\u2011enhanced CT of the chest and upper abdomen performed within the past 6 weeks?",
+   "answerable_by": "record",
+   "pol": "inclusion"
+  },
+  {
+   "atom": "c0A8",
+   "category": "OTHER",
+   "question": "Was brain imaging (CT or MRI) performed within the past 6 weeks?",
+   "answerable_by": "record",
+   "pol": "inclusion"
+  },
+  {
+   "atom": "c0A9",
+   "category": "FEV1",
+   "question": "What is the FEV1 in litres?",
+   "answerable_by": "record",
+   "pol": "inclusion"
+  },
+  {
+   "atom": "c0A10",
+   "category": "FEV1",
+   "question": "Were pulmonary function tests (including DLCO) completed within the past 6 weeks?",
+   "answerable_by": "record",
+   "pol": "inclusion"
+  },
+  {
+   "atom": "c0A22",
+   "category": "EFFUSION",
+   "question": "Is there a malignant pleural or pericardial effusion?",
+   "answerable_by": "record",
+   "pol": "exclusion"
+  },
+  {
+   "atom": "c0A23",
+   "category": "OTHER",
+   "question": "Has the patient had a prior invasive malignancy (other than non\u2011melanoma skin cancer) that was disease\u2011free for less than 3\u202fyears?",
+   "answerable_by": "record",
+   "pol": "exclusion"
+  },
+  {
+   "atom": "c1A1",
+   "category": "CARDIAC",
+   "question": "Has the patient had unstable angina or CHF requiring hospitalization in the past 6 months?",
+   "answerable_by": "record",
+   "pol": "exclusion"
+  },
+  {
+   "atom": "c1A2",
+   "category": "CARDIAC",
+   "question": "Has the patient experienced a transmural myocardial infarction in the past 6 months?",
+   "answerable_by": "record",
+   "pol": "exclusion"
+  },
+  {
+   "atom": "c1A4",
+   "category": "OTHER",
+   "question": "Is the patient experiencing a COPD exacerbation or other respiratory illness that requires hospitalization or would preclude study therapy?",
+   "answerable_by": "clinician",
+   "pol": "exclusion"
+  },
+  {
+   "atom": "c1A6",
+   "category": "OTHER",
+   "question": "Does the patient meet CDC criteria for AIDS?",
+   "answerable_by": "record",
+   "pol": "exclusion"
+  },
+  {
+   "atom": "c1A8",
+   "category": "OTHER",
+   "question": "Is the patient (or male partner) not using acceptable contraception?",
+   "answerable_by": "patient",
+   "pol": "exclusion"
+  },
+  {
+   "atom": "c1A9",
+   "category": "OTHER",
+   "question": "Does the patient have fasting glucose >200 mg/dL despite treatment?",
+   "answerable_by": "record",
+   "pol": "exclusion"
+  },
+  {
+   "atom": "c1A10",
+   "category": "OTHER",
+   "question": "Does the patient have T4 disease with radiographic evidence of massive pulmonary artery invasion?",
+   "answerable_by": "record",
+   "pol": "exclusion"
+  }
+ ],
+ "n_atoms": 37,
+ "trace": [
+  {
+   "atom": "c0A0",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A1",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A2",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A3",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A4",
+   "type": "IF",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A5",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A6",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A7",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A8",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A9",
+   "type": "ANY",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A10",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A11",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A12",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A13",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A14",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A15",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A16",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A17",
+   "type": "IS",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A18",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "site_verify:not_mentioned"
+  },
+  {
+   "atom": "c0A19",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A20",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A21",
+   "type": "IN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A22",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A23",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A24",
+   "type": "HAS",
+   "pol": "exclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "route": "exclude:program+l1"
+  },
+  {
+   "atom": "c0A25",
+   "type": "HAS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c1A0",
+   "type": "UNSCREENABLE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c1A1",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A2",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A3",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c1A4",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A5",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "F",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c1A6",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A7",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c1A8",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A9",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A10",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  }
+ ],
+ "site_verify": [
+  "Able to tolerate PET/CT imaging required to be performed at an American College of Radiology (ACR) Imaging Core Laboratory (Lab) qualified facility",
+  "Serum creatinine within normal institutional limits or a creatinine clearance >= 60 ml/min within 2 weeks prior to registration",
+  "Negative serum or urine pregnancy test within 3 days prior to registration for women of childbearing potential",
+  "Women of childbearing potential and male participants must agree to use a medically effective means of birth control throughout their participation in the treatment phase of the study",
+  "The patient must provide study-specific informed consent prior to study entry",
+  "Severe, active co-morbidity, defined as follows:"
+ ]
+}

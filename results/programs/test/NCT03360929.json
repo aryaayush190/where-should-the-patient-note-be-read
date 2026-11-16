@@ -1,0 +1,764 @@
+{
+ "trial_id": "NCT03360929",
+ "atoms": [
+  {
+   "id": "c0A0",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "Subjects must provide written informed consent before any study related procedure.",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Informed consent required",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c0A1",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Male or female Chinese patients ≥18 years old.",
+   "lines": [
+    2
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "age",
+   "op": ">=",
+   "value": 18,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient's age?"
+  },
+  {
+   "id": "c0A2",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Histologically or cytologically confirmed non-small cell lung cancer with activating mutation in EGFR gene (including Exon19Del and/or L858R). A validated and robust test method reviewed and approved by the regulatory authority should be used to determine EGFR mutation status in tissue or plasma locally.",
+   "lines": [
+    3
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "cancer_type",
+   "op": null,
+   "value": null,
+   "values": [
+    "nsclc"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient's cancer type?"
+  },
+  {
+   "id": "c0A3",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Histologically or cytologically confirmed non-small cell lung cancer with activating mutation in EGFR gene (including Exon19Del and/or L858R). A validated and robust test method reviewed and approved by the regulatory authority should be used to determine EGFR mutation status in tissue or plasma locally.",
+   "lines": [
+    3
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "egfr",
+   "op": null,
+   "value": null,
+   "values": [
+    "positive"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Is the EGFR mutation test positive?"
+  },
+  {
+   "id": "c0A4",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Patients with advanced non-small cell lung cancer (stage IV) with documented BM and/or LM. Part A dose escalation can include EGFR TKI-naïve NSCLC patients with measurable lung lesion and no BM. Patients with BM and/or LM in each dose group shall account for at least one-third.",
+   "lines": [
+    4
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "stage_group",
+   "op": null,
+   "value": null,
+   "values": [
+    "IV"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the disease stage?"
+  },
+  {
+   "id": "c0A5",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Patients with advanced non-small cell lung cancer (stage IV) with documented BM and/or LM. Part A dose escalation can include EGFR TKI-naïve NSCLC patients with measurable lung lesion and no BM. Patients with BM and/or LM in each dose group shall account for at least one-third.",
+   "lines": [
+    4
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "brain_mets",
+   "op": null,
+   "value": null,
+   "values": [
+    "treated_stable",
+    "untreated_or_symptomatic"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have brain or leptomeningeal metastases?"
+  },
+  {
+   "id": "c0A6",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "According to Eastern Cooperative Oncology Group (ECOG) Scale, performance status is grade 0 to 1, without worsening in the past 2 weeks, and life expectancy of at least 3 months. If ECOG performance status is grade 2 due to LM disease, the patient can also be enrolled.",
+   "lines": [
+    5
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "life_expectancy_months",
+   "op": ">=",
+   "value": 3,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "What is the patient's estimated life expectancy in months?"
+  },
+  {
+   "id": "c0A7",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "According to Eastern Cooperative Oncology Group (ECOG) Scale, performance status is grade 0 to 1, without worsening in the past 2 weeks, and life expectancy of at least 3 months. If ECOG performance status is grade 2 due to LM disease, the patient can also be enrolled.",
+   "lines": [
+    5
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "ecog",
+   "op": "<=",
+   "value": 1,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient's ECOG performance status?"
+  },
+  {
+   "id": "c0A8",
+   "type": "IF",
+   "polarity": "inclusion",
+   "source_line": "According to Eastern Cooperative Oncology Group (ECOG) Scale, performance status is grade 0 to 1, without worsening in the past 2 weeks, and life expectancy of at least 3 months. If ECOG performance status is grade 2 due to LM disease, the patient can also be enrolled.",
+   "lines": [
+    5
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c0A8.0",
+     "type": "CMP",
+     "polarity": "inclusion",
+     "source_line": "",
+     "lines": [],
+     "section": null,
+     "cwa": false,
+     "field": "ecog",
+     "op": "==",
+     "value": 2,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": null
+    },
+    {
+     "id": "c0A8.1",
+     "type": "IN",
+     "polarity": "inclusion",
+     "source_line": "",
+     "lines": [],
+     "section": null,
+     "cwa": false,
+     "field": "brain_mets",
+     "op": null,
+     "value": null,
+     "values": [
+      "treated_stable",
+      "untreated_or_symptomatic"
+     ],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": null
+    }
+   ],
+   "downgraded": true,
+   "answerable_by": "clinician",
+   "question": "Is the ECOG 2 due to leptomeningeal disease?"
+  },
+  {
+   "id": "c0A9",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "Non-surgical sterilized women of child-bearing potential and male subjects shall agree to take medically acceptable contraception measures during dosing of investigational drug and 3 months after completion of study treatment. Non-surgical sterilized women of child-bearing potential must have negative blood pregnancy test at screening.",
+   "lines": [
+    6
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Contraception agreement and pregnancy test required",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c0A10",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Asymptomatic BM patients who have not received prior treatment with any EGFR TKI or symptomatic BM patients who are not warranted temporally for definitive local treatment (surgery or radiotherapy). For patients with prior local treatment for BM lesion (surgery or radiotherapy), intracranial lesion progression is required.",
+   "lines": [
+    7
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Intracranial lesion progression required after prior local treatment for brain metastasis",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Has intracranial lesion progression been documented after prior local treatment?"
+  },
+  {
+   "id": "c0A11",
+   "type": "IS",
+   "polarity": "inclusion",
+   "source_line": "BM patients must have at least one measurable intracranial lesion; in case of prior radiotherapy for BM lesion, progression is required and must meet measurable lesion criteria again. Measurable extracranial disease is not required.",
+   "lines": [
+    8
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "measurable_disease",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Is there at least one measurable intracranial lesion?"
+  },
+  {
+   "id": "c0A12",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "BM patients must have at least one measurable intracranial lesion; in case of prior radiotherapy for BM lesion, progression is required and must meet measurable lesion criteria again. Measurable extracranial disease is not required.",
+   "lines": [
+    8
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Intracranial lesion progression required after prior radiotherapy for brain metastasis",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Has progression been documented after prior radiotherapy for a brain metastasis?"
+  },
+  {
+   "id": "c0A13",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "LM patients must be confirmed by the presence of malignant cells by cerebrospinal fluid (CSF) cytology. Diagnosis of LM disease by MRI alone does not meet inclusion criteria. Patients with both BM and LM are considered as LM.",
+   "lines": [
+    9
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "CSF cytology confirming malignant cells for leptomeningeal disease",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Has CSF cytology confirmed malignant cells?"
+  },
+  {
+   "id": "c0A14",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "LM patients must have at least one leptomeningeal lesion which shows visible abnormality by MRI. Measurable extracranial disease is not required.",
+   "lines": [
+    10
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "MRI showing leptomeningeal lesion",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does MRI show a leptomeningeal lesion?"
+  },
+  {
+   "id": "c0A15",
+   "type": "UNSCREENABLE",
+   "polarity": "exclusion",
+   "source_line": "Patients meeting any of the following criteria cannot participate in the study:",
+   "lines": [
+    11
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Exclusion criteria header",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c0A16",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "Have taken any other investigational drug in a clinical trial within 30 days prior to initial dose.",
+   "lines": [
+    12
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "other"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.985,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient taken any other investigational drug within the past 30 days?"
+  },
+  {
+   "id": "c0A17",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "Prior treatment with any EGFR TKI within 8 days or 5 half-lives of the drug (see table 19 Washout of EGFR TKIs) prior to initial dose of study drug. If the washout period for the EGFR TKI cannot be reached due to schedule or pharmacokinetic properties, an alternative washout period can be proposed based on recovery period of known adverse drug reactions, which must be agreed to in advance by the Investigator and the Sponsor.",
+   "lines": [
+    13
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "tki"
+    ],
+    "agents": [
+     "egfr tki"
+    ],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.263,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient received any EGFR TKI within the past 8 days?"
+  },
+  {
+   "id": "c0A18",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "T790M mutation positive patients.",
+   "lines": [
+    14
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "T790M mutation positive",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient positive for the T790M EGFR mutation?"
+  },
+  {
+   "id": "c0A19",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "Have received previous treatment regimen including any cytotoxic chemotherapy or other anti-cancer drugs (other than EGFR TKIs) for treatment of advanced non-small cell lung cancer within 14 days prior to initial dose of study drug.",
+   "lines": [
+    15
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "chemo"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.46,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient received cytotoxic chemotherapy within the past 14 days?"
+  },
+  {
+   "id": "c0A20",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Patients with medically uncontrollable seizures and/or untreated (eg., requiring mannitol and/or placement a VP shunt) intracranial hypertension are excluded.",
+   "lines": [
+    16
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Medically uncontrollable seizures or untreated intracranial hypertension",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have medically uncontrollable seizures or untreated intracranial hypertension?"
+  },
+  {
+   "id": "c0A21",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "Have undergone major surgical procedure (excluding placement of vascular indwelling needle) or serious trauma within 4 weeks prior to initial dose of study drug, or major surgical procedure is expected during the study.",
+   "lines": [
+    17
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "surgery"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.921,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient undergone major surgery within the past 4 weeks?"
+  },
+  {
+   "id": "c0A22",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "Patients who have received radiotherapy for a large area within 4 weeks, or local palliative radiotherapy for a small area within 1 week prior to initial dose of study drug (for subjects requiring radiotherapy for more than 30% bone marrow, the radiotherapy must be completed before 4 weeks prior to initial dose).",
+   "lines": [
+    18
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "radio"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.921,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient received radiotherapy to a large area within the past 4 weeks?"
+  },
+  {
+   "id": "c0A23",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "Patients who have received radiotherapy for a large area within 4 weeks, or local palliative radiotherapy for a small area within 1 week prior to initial dose of study drug (for subjects requiring radiotherapy for more than 30% bone marrow, the radiotherapy must be completed before 4 weeks prior to initial dose).",
+   "lines": [
+    18
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "radio"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.23,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient received local palliative radiotherapy within the past 1 week?"
+  },
+  {
+   "id": "c0A24",
+   "type": "HAS",
+   "polarity": "exclusion",
+   "source_line": "BM and LM patients who have received whole-brain radiotherapy.",
+   "lines": [
+    19
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "radio"
+    ],
+    "agents": [
+     "whole-brain radiotherapy"
+    ],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient received whole-brain radiotherapy?"
+  },
+  {
+   "id": "c0A25",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Patients with a history of allergy to AZD3759 and its structural analogues (Gefitinib) or pharmaceutical excipients (whether active or not).",
+   "lines": [
+    20
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Allergy to AZD3759, Gefitinib, or related excipients",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have a known allergy to AZD3759, Gefitinib, or related excipients?"
+  },
+  {
+   "id": "c0A26",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Subjects who are receiving (or cannot discontinue at least 1 week prior to initial dose of study drug) any drug or traditional Chinese medicine known to inhibit or induce CYP3A4 or CYP3A5 activity.",
+   "lines": [
+    21
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Use of CYP3A4 or CYP3A5 inhibitor/inducer that cannot be discontinued 1 week prior",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient taking any drug that inhibits or induces CYP3A4/5 and cannot stop it 1 week before dosing?"
+  }
+ ],
+ "compiler_meta": {
+  "primary": {
+   "stage_alternatives_merged": 0,
+   "model": "openai/gpt-oss-120b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 21,
+   "repaired": true,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 27
+  },
+  "secondary": {
+   "stage_alternatives_merged": 0,
+   "model": "qwen/qwen3.8-27b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 21,
+   "repaired": true,
+   "chunk_failures": [],
+   "errors_after_repair": [
+    "c0A3: IS needs a boolean field and a boolean value"
+   ],
+   "n_atoms": 28
+  },
+  "prompt_version": "compiler-v1.2",
+  "lines": 21,
+  "lines_exact_agree": 9,
+  "typed_atoms": 16,
+  "typed_atoms_agree": 9,
+  "downgraded_atoms": 7
+ }
+}

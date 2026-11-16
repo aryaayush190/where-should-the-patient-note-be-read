@@ -1,0 +1,302 @@
+{
+ "02d2ed0c5e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0428ad8fbf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "09450c1c3f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "patient is legally capable of providing consent"
+ },
+ "098c176bf9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0cb53d6e28": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1366b4ab78": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1565b8bf0b": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no baseline hypoxemia or hypercapnia"
+ },
+ "15dad95720": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "17b201655f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1b44ebcc99": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1bcb3429fa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1f565f60a2": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "adequate contraception used"
+ },
+ "20a05441a4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "2b0b11e5cb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "2d3f20b618": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3335d32534": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "342317e6b1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "343337bf84": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "patient had platinum chemo >3 weeks ago"
+ },
+ "386e6eff24": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "39d20ffd88": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3c7cd2d98e": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "patient had prior chemotherapy"
+ },
+ "3ec3d228fa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "411303eef2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5b5700b6c7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5bb82fd6d8": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "bilirubin within 1.5 ULN"
+ },
+ "5ef0f3c826": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5fe6cddcdb": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no chemo/radio/surgery in past 0.92 months"
+ },
+ "6df4b3a1d4": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ALT within 2.5 ULN"
+ },
+ "730d8b6b4c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "735248f9e2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "77559690b3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7958c72354": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7bd0fb558f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "CrCl >50 mL/min and creatinine <1.5 mg/dL"
+ },
+ "83a8f9e336": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "hemoglobin >9 g/dL"
+ },
+ "86ff93829f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "87caa41a10": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "biopsy accessible tumor"
+ },
+ "9189d2bde1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "961a1d1d42": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "patient has Stage IV disease with distant metastases"
+ },
+ "984dd3970c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "991cd28a62": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9a63b076cb": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Stage IV disease not amenable to curative therapy"
+ },
+ "b11de9a6e9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b7c9dac84e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "be6a282f9b": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "has distant metastases"
+ },
+ "c19f97f361": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c1dd84c4d0": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "radiation toxicities resolved >4 weeks ago"
+ },
+ "c5483a2e0a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c8a1c292bd": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cd4e10b83b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cd7fa4572d": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no active neurologic disease"
+ },
+ "d5e05d5bfc": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no surgical plan"
+ },
+ "d9db33218f": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no myocardial infarction"
+ },
+ "dd426d1400": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "hematologic panels within limits"
+ },
+ "e072202eae": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e2af713b2d": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "stage IV disease"
+ },
+ "e427074718": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "coagulation within limits"
+ },
+ "e485fd72f8": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "not T1N0M0"
+ },
+ "ebf4c7bf7f": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no malignant effusion"
+ },
+ "f18e74a770": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "not surgical candidate"
+ },
+ "fdebab3d73": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ }
+}

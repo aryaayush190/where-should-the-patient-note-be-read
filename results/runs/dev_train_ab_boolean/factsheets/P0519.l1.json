@@ -1,0 +1,607 @@
+{
+ "0011b418e7": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "tumor confirmed by biopsy"
+ },
+ "0178364e2c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "028b66a05d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "02cad20bf8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0625a078e9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0b21a022d6": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "prior therapy finished >6 months ago"
+ },
+ "0c8af1f65b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0eced6343d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0f0113763c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0f1f6d9142": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1407f0200c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "151a16c49f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "15d90052a4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "19d69939fe": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no wound, ulcer, or fracture"
+ },
+ "1bcb3429fa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1c471f0cdf": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no HIV or AIDS"
+ },
+ "22cbeba2df": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no cardiovascular illness"
+ },
+ "2867c1e7db": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "prior chemo/radiation >6 months ago, recovered"
+ },
+ "2b0fcca091": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no recent myocardial infarction"
+ },
+ "2f1b8359f7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "37f488c2cb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "386e6eff24": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "WBC 6.0\u00d710^3/uL"
+ },
+ "392a1db9a8": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no uncontrolled hypertension"
+ },
+ "3a22eb27f6": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no COPD exacerbation"
+ },
+ "3bd72f2fe8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3bf481e808": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3c7cd2d98e": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "patient had prior chemotherapy"
+ },
+ "3e95458a64": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "40128aec8e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4605b8f436": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "471d71652a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4779df2bf2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "48efafc2ff": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "normal CBC, liver, renal labs"
+ },
+ "5609066147": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no investigational agent used"
+ },
+ "5b9854847d": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no EGFR mutation reported"
+ },
+ "5c50ea11f7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5e642fce93": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5f3cd03d17": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6374e3c417": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "63d9186a90": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "65980154bb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6b4294b2e3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6d1db65987": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6df4b3a1d4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6ea4fad1e4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "706326d033": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "71f22d72cc": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "728864a218": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "patient is male, not a woman of childbearing potential"
+ },
+ "73e098eb6a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "75145873b9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "768f47a08d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7819938ed7": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "bilirubin 0.9 mg/dL, within normal limits"
+ },
+ "788c1a92f5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "78f907dc67": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7f37d90653": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7ff3b12fe4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "801833337c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "84349afe6d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "844f51a9db": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "846d10eafc": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "86052d463d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "88a0f7fbe4": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "only NSCLC present"
+ },
+ "899782fd50": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "89b90bbd32": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8bcf69f8d4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8d183db791": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "NSCLC patient"
+ },
+ "8db9d4565c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8df03fc7d1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8dff605df4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8e420325b5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "96ecc48af0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "96fa7c3da5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "980ddaaa74": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "98818f26b0": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "patient has ROS1 fusion, not EML4-ALK"
+ },
+ "9c67b22e1c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9cdd0a042a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9fbab45c42": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a22e8d056e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a26cf4480b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a3a61d08dc": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a772f6e332": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a7db97f5d2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "abb480b946": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ad7e3abb99": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "NSCLC not eligible per protocol amendment"
+ },
+ "b10ad1cccd": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no prior cancer mentioned"
+ },
+ "b1c098fc54": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "NSCLC with ROS1, not EGFR/ALK"
+ },
+ "b37e556ba9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "diabetes not mentioned"
+ },
+ "b4cd0c0705": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "malignant effusion not mentioned"
+ },
+ "b51015e898": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "alkaline phosphatase not provided"
+ },
+ "b59900a287": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "fully recovered from prior therapy toxicities"
+ },
+ "b852040b72": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "bilirubin 0.9 mg/dL, below 1.5\u00d7 ULN"
+ },
+ "bda8d89e70": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "pulmonary hemorrhage not mentioned"
+ },
+ "be2b14d735": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "QTc not provided"
+ },
+ "c048105426": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "atrial fibrillation not mentioned"
+ },
+ "c527e294a2": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no prior malignancy other than NSCLC"
+ },
+ "c9b144d97e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ca71c1b896": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ca9fdf175a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cbc2c64cdf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cf5b623242": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "patient had prior systemic chemotherapy"
+ },
+ "d082806510": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d267fdcf55": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d429039bf7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d76a14fcec": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d7bf5915f9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d905938d5a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d9ce4adf57": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e0c9479baa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e248074302": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e304c336e3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e3883c624b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e931a069eb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e963d4d3f0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ebf4c7bf7f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ee892e7dee": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "stage IV T3N2M1b, not T4"
+ },
+ "f5808f250c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f5957b77c8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f5c51f69e5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f6758a85ad": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ff5e7541c9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "47faf1ca5c": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ }
+}

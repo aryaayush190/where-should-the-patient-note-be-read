@@ -1,0 +1,42 @@
+{
+ "0428ad8fbf": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Liver function test shows normal alkaline phosphatase and PT within protocol limits"
+ },
+ "735248f9e2": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient has no uncontrolled hypertension as stated in the note"
+ },
+ "77559690b3": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No history of myocardial infarction within the past 3 months is stated"
+ },
+ "7958c72354": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No active seizure disorder is mentioned in the patient's history"
+ },
+ "87caa41a10": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Biopsy-accessible lesion is confirmed in the patient's disease profile"
+ },
+ "c5483a2e0a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Contraception status for women and men is not stated in the note"
+ },
+ "cd7fa4572d": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No active neurologic disease is reported; only Grade 1 neuropathy noted"
+ },
+ "09450c1c3f": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ }
+}

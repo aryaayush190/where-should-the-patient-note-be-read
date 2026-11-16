@@ -1,0 +1,1595 @@
+{
+ "trial_id": "NCT00049543",
+ "atoms": [
+  {
+   "id": "c0A0",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Patients must have histological proof of a primary non-small cell lung cancer (bronchoalveolar carcinomas presenting as a discrete solitary radiological mass or nodule are eligible)",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "cancer_type",
+   "op": null,
+   "value": null,
+   "values": [
+    "nsclc"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have a histologically confirmed non‑small cell lung cancer?"
+  },
+  {
+   "id": "c0A1",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Patients must be classified post-operatively as stage IB, II or IIIA on the basis of pathologic criteria",
+   "lines": [
+    2
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "stage_group",
+   "op": null,
+   "value": null,
+   "values": [
+    "IB",
+    "II",
+    "IIIA"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the postoperative pathologic stage (IB, II, or IIIA)?"
+  },
+  {
+   "id": "c0A2",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "At the time of resection a complete mediastinal lymph node resection or at least lymph node sampling should have been attempted; if a complete mediastinal lymph node resection or lymph node sampling was not undertaken, any mediastinal lymph node which measured 1.5 cm or more on the pre-surgical computed tomography (CT)/magnetic resonance imaging (MRI) scan or any area of increased uptake in the mediastinum on a pre-surgical positron emission tomography (PET) scan must have been biopsied; note: a pre-surgical PET scan is not mandatory",
+   "lines": [
+    3
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Mediastinal lymph node resection or sampling was attempted, or any node ≥1.5 cm on imaging or PET uptake was biopsied",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Was mediastinal lymph node sampling performed as required?"
+  },
+  {
+   "id": "c0A3",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "The nodal tissue must be labelled according to the recommendations of the American Thoracic Society; surgeons are encouraged to dissect or sample all accessible nodal levels; the desirable levels for biopsy are:",
+   "lines": [
+    4
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Nodal tissue labelled according to ATS recommendations",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Were resected nodal specimens labelled per ATS guidelines?"
+  },
+  {
+   "id": "c0A4",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Right upper lobe: 4, 7, 10",
+   "lines": [
+    5
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Desired nodal levels for right upper lobe: 4,7,10",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Were right upper lobe nodal levels 4,7,10 sampled?"
+  },
+  {
+   "id": "c0A5",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Right middle lobe: 4, 7, 10",
+   "lines": [
+    6
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Desired nodal levels for right middle lobe: 4,7,10",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Were right middle lobe nodal levels 4,7,10 sampled?"
+  },
+  {
+   "id": "c0A6",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Right lower lobe: 4, 7, 9, 10",
+   "lines": [
+    7
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Desired nodal levels for right lower lobe: 4,7,9,10",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Were right lower lobe nodal levels 4,7,9,10 sampled?"
+  },
+  {
+   "id": "c0A7",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Left upper lobe: 5, 6, 7, 10",
+   "lines": [
+    8
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Desired nodal levels for left upper lobe: 5,6,7,10",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Were left upper lobe nodal levels 5,6,7,10 sampled?"
+  },
+  {
+   "id": "c0A8",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Left lower lobe: 7, 9, 10",
+   "lines": [
+    9
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Desired nodal levels for left lower lobe: 7,9,10",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Were left lower lobe nodal levels 7,9,10 sampled?"
+  },
+  {
+   "id": "c0A9",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Surgery may consist of lobectomy, sleeve resection, bilobectomy or pneumonectomy as determined by the attending surgeon based on the intraoperative findings; patients who have had only segmentectomies or wedge resections are not eligible for this study; all gross disease must have been removed at the end of surgery; all surgical margins of resection must be negative for tumor",
+   "lines": [
+    10
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Segmentectomy or wedge resection performed",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Did the patient undergo only a segmentectomy or wedge resection?"
+  },
+  {
+   "id": "c0A10",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Surgery may consist of lobectomy, sleeve resection, bilobectomy or pneumonectomy as determined by the attending surgeon based on the intraoperative findings; patients who have had only segmentectomies or wedge resections are not eligible for this study; all gross disease must have been removed at the end of surgery; all surgical margins of resection must be negative for tumor",
+   "lines": [
+    10
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Positive surgical margins detected",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Are any surgical margins positive for tumor?"
+  },
+  {
+   "id": "c0A11",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "No more than 16 weeks may have elapsed between surgery and randomization; for patients who received post-operative adjuvant platinum-based chemotherapy, no more than 26 weeks may have elapsed between surgery and randomization",
+   "lines": [
+    11
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "More than 16 weeks elapsed between surgery and randomization (or >26 weeks if adjuvant platinum chemotherapy was given)",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "How many weeks passed between surgery and randomization, and was adjuvant platinum chemotherapy given?"
+  },
+  {
+   "id": "c0A12",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "Patient must consent to provision of and investigator(s) must agree to submit a representative formalin fixed paraffin block of tumor tissue at the request of the Central Tumor Bank in order that the specific EGFR correlative marker assays may be conducted",
+   "lines": [
+    12
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Patient consent to provide a formalin‑fixed paraffin‑embedded tumor block for EGFR correlative assays",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Has the patient consented to provide a tumor tissue block?"
+  },
+  {
+   "id": "c0A13",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "The patient must have an Eastern Cooperative Oncology Group (ECOG) performance status of 0, 1 or 2",
+   "lines": [
+    13
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "ecog",
+   "op": "<=",
+   "value": 2,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "What is the patient’s ECOG performance status?"
+  },
+  {
+   "id": "c0A14",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Leukocytes >= 3.0 x 10^9/L or >= 3000/ul",
+   "lines": [
+    14
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "wbc_k_ul",
+   "op": ">=",
+   "value": 3,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient’s white blood cell count (10^3/uL)?"
+  },
+  {
+   "id": "c0A15",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Absolute granulocyte count >= 1.5 x 10^9/L or >= 1,500/ul",
+   "lines": [
+    15
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "anc_k_ul",
+   "op": ">=",
+   "value": 1.5,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient’s absolute neutrophil count (10^3/uL)?"
+  },
+  {
+   "id": "c0A16",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Platelets >= 100 x 10^9/L or >= 100,000/ul",
+   "lines": [
+    16
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "platelets_k_ul",
+   "op": ">=",
+   "value": 100,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient’s platelet count (10^3/uL)?"
+  },
+  {
+   "id": "c0A17",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Total bilirubin within normal institutional limits",
+   "lines": [
+    17
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "bilirubin_xuln",
+   "op": "<=",
+   "value": 1,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Is the patient’s total bilirubin within normal limits?"
+  },
+  {
+   "id": "c0A18",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Alkaline phosphatase =< 2.5 x institutional upper limit of normal; if alkaline phosphatase is greater than the institutional upper limit of normal (UNL) but less than the maximum allowed, an abdominal (including liver) ultrasound, CT or MRI scan and a radionuclide bone scan must be performed prior to randomization to rule out metastatic disease; if the values are greater than the maximum allowed, patients will not be considered eligible regardless of findings on any supplementary imaging",
+   "lines": [
+    18
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Alkaline phosphatase >2.5× ULN",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is alkaline phosphatase greater than 2.5 times the upper limit of normal?"
+  },
+  {
+   "id": "c0A19",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Aspartate aminotransferase (AST) (serum glutamic oxaloacetic transaminase [SGOT]) and/or alanine aminotransferase (ALT) (serum glutamate pyruvate transaminase [SGPT]) =< 2.5 x institutional upper limit of normal; if AST (SGOT) or ALT (SGPT) are greater than the institutional upper limit of normal (UNL) but less than the maximum allowed, an abdominal (including liver) ultrasound, CT or MRI scan must be performed prior to randomization to rule out metastatic disease; if the values are greater than the maximum allowed, patients will not be considered eligible regardless of findings on any supplementary imaging",
+   "lines": [
+    19
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "ast_xuln",
+   "op": "<=",
+   "value": 2.5,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is AST ≤2.5× ULN?"
+  },
+  {
+   "id": "c0A20",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Aspartate aminotransferase (AST) (serum glutamic oxaloacetic transaminase [SGOT]) and/or alanine aminotransferase (ALT) (serum glutamate pyruvate transaminase [SGPT]) =< 2.5 x institutional upper limit of normal; if AST (SGOT) or ALT (SGPT) are greater than the institutional upper limit of normal (UNL) but less than the maximum allowed, an abdominal (including liver) ultrasound, CT or MRI scan must be performed prior to randomization to rule out metastatic disease; if the values are greater than the maximum allowed, patients will not be considered eligible regardless of findings on any supplementary imaging",
+   "lines": [
+    19
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "alt_xuln",
+   "op": "<=",
+   "value": 2.5,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is ALT ≤2.5× ULN?"
+  },
+  {
+   "id": "c0A21",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Patient must have a chest x-ray done within 14 days prior to randomization; patient must have a CT or MRI scan of the chest done within 90 days prior to surgical resection if at least one of the following was undertaken:",
+   "lines": [
+    20
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Chest x‑ray performed within 14 days prior to randomization",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Was a chest x‑ray obtained within 14 days prior to randomization?"
+  },
+  {
+   "id": "c0A22",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Patient must have a chest x-ray done within 14 days prior to randomization; patient must have a CT or MRI scan of the chest done within 90 days prior to surgical resection if at least one of the following was undertaken:",
+   "lines": [
+    20
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "CT or MRI of chest performed within 90 days prior to surgical resection",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Was a chest CT or MRI obtained within 90 days prior to surgical resection?"
+  },
+  {
+   "id": "c0A23",
+   "type": "ANY",
+   "polarity": "inclusion",
+   "source_line": "A complete mediastinal lymph node resection; or | Biopsy of all desired levels of lymph nodes - as specified above; or",
+   "lines": [
+    21,
+    22
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c0A23.0",
+     "type": "JUDGE",
+     "polarity": "inclusion",
+     "source_line": "A complete mediastinal lymph node resection; or",
+     "lines": [
+      21
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": "Complete mediastinal lymph node resection performed",
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "clinician",
+     "question": "Was a complete mediastinal lymph node resection performed?"
+    },
+    {
+     "id": "c0A23.1",
+     "type": "JUDGE",
+     "polarity": "inclusion",
+     "source_line": "Biopsy of all desired levels of lymph nodes - as specified above; or",
+     "lines": [
+      22
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": "Biopsy of all desired nodal levels performed",
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "clinician",
+     "question": "Were biopsies obtained from all desired nodal levels as specified?"
+    }
+   ],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c1A0",
+   "type": "ANY",
+   "polarity": "inclusion",
+   "source_line": "A pre-surgical PET scan within 60 days prior to surgical resection If none of the above was undertaken then the CT or MRI scan of the chest must have been performed within 60 days prior to surgical resection Note: a pre-surgical PET scan is not mandatory",
+   "lines": [
+    23
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c1A0.0",
+     "type": "JUDGE",
+     "polarity": "inclusion",
+     "source_line": "A pre-surgical PET scan within 60 days prior to surgical resection If none of the above was undertaken then the CT or MRI scan of the chest must have been performed within 60 days prior to surgical resection Note: a pre-surgical PET scan is not mandatory",
+     "lines": [
+      23
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": "Pre‑surgical PET scan performed within 60 days prior to surgical resection",
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Was a pre‑surgical PET scan performed within 60 days before surgery?"
+    },
+    {
+     "id": "c1A0.1",
+     "type": "JUDGE",
+     "polarity": "inclusion",
+     "source_line": "A pre-surgical PET scan within 60 days prior to surgical resection If none of the above was undertaken then the CT or MRI scan of the chest must have been performed within 60 days prior to surgical resection Note: a pre-surgical PET scan is not mandatory",
+     "lines": [
+      23
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": "Chest CT or MRI performed within 60 days prior to surgical resection",
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Was a chest CT or MRI performed within 60 days before surgery?"
+    }
+   ],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c1A1",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Patient must have an electrocardiogram (EKG) done within 14 days prior to randomization",
+   "lines": [
+    24
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Electrocardiogram performed within 14 days prior to randomization",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Was an ECG performed within 14 days before randomization?"
+  },
+  {
+   "id": "c1A2",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Women of childbearing age and men must agree to use adequate contraception (hormonal or barrier method of birth control) prior to study entry and while taking study medication and for a period of three months after final dose; should a woman become pregnant or suspect she is pregnant while she or her male partner are participating in this study, she should inform her treating physician immediately",
+   "lines": [
+    25
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Women of childbearing age and men must agree to use adequate contraception before, during, and for three months after study medication",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Has the patient (and partner if male) agreed to use adequate contraception before, during, and for three months after study medication?"
+  },
+  {
+   "id": "c1A3",
+   "type": "IF",
+   "polarity": "inclusion",
+   "source_line": "Patients may receive post-operative radiation therapy; patients must have completed radiation at least 3 weeks prior to randomization and have recovered from all radiation-induced toxicity; patients who have received radiation therapy should also be randomized within 16 weeks of surgery",
+   "lines": [
+    26
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c1A3.0",
+     "type": "HAS",
+     "polarity": "inclusion",
+     "source_line": "Patients may receive post-operative radiation therapy; patients must have completed radiation at least 3 weeks prior to randomization and have recovered from all radiation-induced toxicity; patients who have received radiation therapy should also be randomized within 16 weeks of surgery",
+     "lines": [
+      26
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": {
+      "cls": [
+       "radio"
+      ],
+      "agents": [],
+      "thoracic": true,
+      "setting": []
+     },
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Has the patient received post‑operative radiation therapy?"
+    },
+    {
+     "id": "c1A3.1",
+     "type": "ALL",
+     "polarity": "inclusion",
+     "source_line": "Patients may receive post-operative radiation therapy; patients must have completed radiation at least 3 weeks prior to randomization and have recovered from all radiation-induced toxicity; patients who have received radiation therapy should also be randomized within 16 weeks of surgery",
+     "lines": [
+      26
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [
+      {
+       "id": "c1A3.1.0",
+       "type": "SINCE",
+       "polarity": "inclusion",
+       "source_line": "Patients may receive post-operative radiation therapy; patients must have completed radiation at least 3 weeks prior to randomization and have recovered from all radiation-induced toxicity; patients who have received radiation therapy should also be randomized within 16 weeks of surgery",
+       "lines": [
+        26
+       ],
+       "section": "inclusion",
+       "cwa": false,
+       "field": null,
+       "op": null,
+       "value": null,
+       "values": [],
+       "filter": {
+        "cls": [
+         "radio"
+        ],
+        "agents": [],
+        "thoracic": true,
+        "setting": []
+       },
+       "k": null,
+       "months": 0.691,
+       "text": null,
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "record",
+       "question": "Has at least 3 weeks passed since completion of radiation therapy?"
+      },
+      {
+       "id": "c1A3.1.1",
+       "type": "JUDGE",
+       "polarity": "inclusion",
+       "source_line": "Patients may receive post-operative radiation therapy; patients must have completed radiation at least 3 weeks prior to randomization and have recovered from all radiation-induced toxicity; patients who have received radiation therapy should also be randomized within 16 weeks of surgery",
+       "lines": [
+        26
+       ],
+       "section": "inclusion",
+       "cwa": false,
+       "field": null,
+       "op": null,
+       "value": null,
+       "values": [],
+       "filter": null,
+       "k": null,
+       "months": null,
+       "text": "Randomization occurs within 16 weeks of surgery",
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "record",
+       "question": "Is randomization scheduled within 16 weeks after surgery?"
+      }
+     ],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": null
+    }
+   ],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c1A4",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "Patient consent must be obtained according to local institutional and/or University Human Experimentation Committee requirements; it will be the responsibility of the local participating investigators to obtain the necessary local clearance, and to indicate in writing to either the National Cancer Institute of Canada (NCIC) Clinical Trials Group (CTG) study coordinator (for NCIC CTG centers) or the Cancer Trials Support Unit (CTSU) (for all other investigators), that such clearance has been obtained, before the trial can commence in that center; a standard consent form for the trial will not be provided, but a sample form is given; this sample consent form has been approved by the National Cancer Institute (NCI) Central Institutional Review Board (IRB) and must be used unaltered by those CTSI centers which operate under CIRB authority; for NCIC CTG centers, a copy of the initial full board Research Ethics Board (REB) approval and approved consent form must be sent to the NCIC CTG central office; please note that the consent form for this study must contain a statement which gives permission for the government agencies, NCI, NCIC CTG and monitoring agencies to review patient records",
+   "lines": [
+    27
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Consent process and institutional approvals as described",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Has the required institutional and ethics committee consent been obtained and documented?"
+  },
+  {
+   "id": "c1A5",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "NCIC-CTG Centers: the patient must have the ability to understand and the willingness to sign a written informed consent document; the patient must sign the consent form prior to randomization",
+   "lines": [
+    28
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Patient must have ability and willingness to sign informed consent (NCIC‑CTG centers)",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Is the patient able and willing to sign the informed consent document?"
+  },
+  {
+   "id": "c1A6",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "CTSU Centers: the patient, or in the case of a mentally incompetent patient his or her legally authorized and qualified representative, must have the ability to understand and the willingness to sign a written informed consent document; the consent form must be signed prior to randomization",
+   "lines": [
+    29
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Patient or legal representative must have ability and willingness to sign consent (CTSU centers)",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Is the patient (or legal representative) able and willing to sign the informed consent document?"
+  },
+  {
+   "id": "c1A7",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "Patients must be accessible for treatment and follow-up; investigators must assure themselves that patients registered on this trial will be available for complete documentation of the treatment administered, toxicity and follow-up",
+   "lines": [
+    30
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Patients must be accessible for treatment and follow‑up",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Is the patient expected to be available for treatment, toxicity documentation, and follow‑up?"
+  },
+  {
+   "id": "c1A8",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "Initiation of protocol treatment must begin within 10 working days of patient randomization",
+   "lines": [
+    31
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Protocol treatment must begin within 10 working days of randomization",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Can protocol treatment be started within 10 working days after randomization?"
+  },
+  {
+   "id": "c1A9",
+   "type": "IF",
+   "polarity": "inclusion",
+   "source_line": "Patients may have received post-operative adjuvant platinum-based chemotherapy; patients must have completed chemotherapy at least 3 weeks prior to randomization and have recovered from all chemotherapy-induced toxicity; patients who have received adjuvant chemotherapy should also be randomized within 26 weeks of surgery",
+   "lines": [
+    32
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c1A9.0",
+     "type": "HAS",
+     "polarity": "inclusion",
+     "source_line": "Patients may have received post-operative adjuvant platinum-based chemotherapy; patients must have completed chemotherapy at least 3 weeks prior to randomization and have recovered from all chemotherapy-induced toxicity; patients who have received adjuvant chemotherapy should also be randomized within 26 weeks of surgery",
+     "lines": [
+      32
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": {
+      "cls": [
+       "chemo"
+      ],
+      "agents": [
+       "platinum"
+      ],
+      "thoracic": null,
+      "setting": []
+     },
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Has the patient received post‑operative adjuvant platinum‑based chemotherapy?"
+    },
+    {
+     "id": "c1A9.1",
+     "type": "ALL",
+     "polarity": "inclusion",
+     "source_line": "Patients may have received post-operative adjuvant platinum-based chemotherapy; patients must have completed chemotherapy at least 3 weeks prior to randomization and have recovered from all chemotherapy-induced toxicity; patients who have received adjuvant chemotherapy should also be randomized within 26 weeks of surgery",
+     "lines": [
+      32
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [
+      {
+       "id": "c1A9.1.0",
+       "type": "SINCE",
+       "polarity": "inclusion",
+       "source_line": "Patients may have received post-operative adjuvant platinum-based chemotherapy; patients must have completed chemotherapy at least 3 weeks prior to randomization and have recovered from all chemotherapy-induced toxicity; patients who have received adjuvant chemotherapy should also be randomized within 26 weeks of surgery",
+       "lines": [
+        32
+       ],
+       "section": "inclusion",
+       "cwa": false,
+       "field": null,
+       "op": null,
+       "value": null,
+       "values": [],
+       "filter": {
+        "cls": [
+         "chemo"
+        ],
+        "agents": [
+         "platinum"
+        ],
+        "thoracic": null,
+        "setting": []
+       },
+       "k": null,
+       "months": 0.691,
+       "text": null,
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "record",
+       "question": "Has at least 3 weeks passed since completion of platinum‑based chemotherapy?"
+      },
+      {
+       "id": "c1A9.1.1",
+       "type": "JUDGE",
+       "polarity": "inclusion",
+       "source_line": "Patients may have received post-operative adjuvant platinum-based chemotherapy; patients must have completed chemotherapy at least 3 weeks prior to randomization and have recovered from all chemotherapy-induced toxicity; patients who have received adjuvant chemotherapy should also be randomized within 26 weeks of surgery",
+       "lines": [
+        32
+       ],
+       "section": "inclusion",
+       "cwa": false,
+       "field": null,
+       "op": null,
+       "value": null,
+       "values": [],
+       "filter": null,
+       "k": null,
+       "months": null,
+       "text": "Randomization occurs within 26 weeks of surgery",
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "record",
+       "question": "Is randomization scheduled within 26 weeks after surgery?"
+      }
+     ],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": null
+    }
+   ],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c1A10",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Prior or concurrent malignancies; patients who have had a previous diagnosis of cancer, if they remain free of recurrence and metastases five years or more following the end of treatment and, in the opinion of the treating physician do not have a substantial risk of recurrence of the prior malignancy, are eligible for the study; patients who have been adequately treated for non-melanomatous skin cancer or carcinoma in situ of the cervix are eligible irrespective of when that treatment was given",
+   "lines": [
+    33
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Prior or concurrent malignancy not meeting the 5‑year disease‑free or specific skin/cervical carcinoma exceptions",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have a prior or concurrent malignancy that does not meet the allowed exceptions?"
+  },
+  {
+   "id": "c1A11",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "A combination of small cell and non-small cell carcinomas or a pulmonary carcinoid tumor",
+   "lines": [
+    34
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Combination of small cell and non‑small cell carcinoma or pulmonary carcinoid tumor",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have a combined small cell and non‑small cell carcinoma or a pulmonary carcinoid tumor?"
+  },
+  {
+   "id": "c1A12",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "More than one discrete area of apparent primary cancer (even if within the same lobe, T4, IIIB)",
+   "lines": [
+    35
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "More than one discrete area of apparent primary cancer (including T4, IIIB)",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have more than one discrete primary tumor area (e.g., T4, IIIB)?"
+  },
+  {
+   "id": "c1A13",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Clinically significant or untreated ophthalmologic (e.g. Sjogren's etc.) or gastrointestinal conditions (e.g. Crohn's disease, ulcerative colitis)",
+   "lines": [
+    36
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Clinically significant or untreated ophthalmologic or gastrointestinal conditions (e.g., Sjogren's, Crohn's, ulcerative colitis)",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have clinically significant untreated eye or GI conditions?"
+  },
+  {
+   "id": "c1A14",
+   "type": "ANY",
+   "polarity": "exclusion",
+   "source_line": "Any active pathological condition that would render the protocol treatment dangerous such as: uncontrolled congestive heart failure, angina, or arrhythmias, active uncontrolled infection, or others",
+   "lines": [
+    37
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c1A14.0",
+     "type": "IS",
+     "polarity": "exclusion",
+     "source_line": "Any active pathological condition that would render the protocol treatment dangerous such as: uncontrolled congestive heart failure, angina, or arrhythmias, active uncontrolled infection, or others",
+     "lines": [
+      37
+     ],
+     "section": "exclusion",
+     "cwa": false,
+     "field": "chf",
+     "op": null,
+     "value": true,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Does the patient have uncontrolled congestive heart failure?"
+    },
+    {
+     "id": "c1A14.1",
+     "type": "IS",
+     "polarity": "exclusion",
+     "source_line": "Any active pathological condition that would render the protocol treatment dangerous such as: uncontrolled congestive heart failure, angina, or arrhythmias, active uncontrolled infection, or others",
+     "lines": [
+      37
+     ],
+     "section": "exclusion",
+     "cwa": false,
+     "field": "unstable_angina",
+     "op": null,
+     "value": true,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Does the patient have unstable angina?"
+    },
+    {
+     "id": "c1A14.2",
+     "type": "IN",
+     "polarity": "exclusion",
+     "source_line": "Any active pathological condition that would render the protocol treatment dangerous such as: uncontrolled congestive heart failure, angina, or arrhythmias, active uncontrolled infection, or others",
+     "lines": [
+      37
+     ],
+     "section": "exclusion",
+     "cwa": false,
+     "field": "arrhythmia",
+     "op": null,
+     "value": null,
+     "values": [
+      "uncontrolled"
+     ],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Does the patient have uncontrolled arrhythmias?"
+    },
+    {
+     "id": "c1A14.3",
+     "type": "IS",
+     "polarity": "exclusion",
+     "source_line": "Any active pathological condition that would render the protocol treatment dangerous such as: uncontrolled congestive heart failure, angina, or arrhythmias, active uncontrolled infection, or others",
+     "lines": [
+      37
+     ],
+     "section": "exclusion",
+     "cwa": false,
+     "field": "active_infection",
+     "op": null,
+     "value": true,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Does the patient have an active uncontrolled infection?"
+    }
+   ],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c1A15",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "A history of psychiatric or neurological disorder that would make the obtainment of informed consent problematic or that would limit compliance with study requirements",
+   "lines": [
+    38
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "History of psychiatric or neurological disorder that would impede informed consent or compliance",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have a psychiatric or neurological disorder that would affect consent or compliance?"
+  },
+  {
+   "id": "c1A16",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Patient, if female, is pregnant or breast-feeding",
+   "lines": [
+    39
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "pregnant",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient currently pregnant?"
+  },
+  {
+   "id": "c1A17",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Patient, if female, is pregnant or breast-feeding",
+   "lines": [
+    39
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Patient is breast‑feeding",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Is the patient currently breast‑feeding?"
+  },
+  {
+   "id": "c1A18",
+   "type": "ANY",
+   "polarity": "exclusion",
+   "source_line": "Neoadjuvant chemotherapy or immunotherapy for NSCLC; however, patients may have received pre-operative limited field, low dose (less than 1000 cGy) external beam radiation therapy or endobronchial brachytherapy or laser therapy for short term control of hemoptysis or lobar obstruction; full dose pre-operative radiotherapy of curative intent is a cause for exclusion; patients may have received post-operative adjuvant platinum-based chemotherapy however non-platinum-based chemotherapy is a cause for exclusion",
+   "lines": [
+    40
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c1A18.0",
+     "type": "HAS",
+     "polarity": "exclusion",
+     "source_line": "Neoadjuvant chemotherapy or immunotherapy for NSCLC; however, patients may have received pre-operative limited field, low dose (less than 1000 cGy) external beam radiation therapy or endobronchial brachytherapy or laser therapy for short term control of hemoptysis or lobar obstruction; full dose pre-operative radiotherapy of curative intent is a cause for exclusion; patients may have received post-operative adjuvant platinum-based chemotherapy however non-platinum-based chemotherapy is a cause for exclusion",
+     "lines": [
+      40
+     ],
+     "section": "exclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": {
+      "cls": [
+       "chemo"
+      ],
+      "agents": [],
+      "thoracic": null,
+      "setting": [
+       "neoadjuvant"
+      ]
+     },
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Has the patient received neoadjuvant chemotherapy for NSCLC?"
+    },
+    {
+     "id": "c1A18.1",
+     "type": "HAS",
+     "polarity": "exclusion",
+     "source_line": "Neoadjuvant chemotherapy or immunotherapy for NSCLC; however, patients may have received pre-operative limited field, low dose (less than 1000 cGy) external beam radiation therapy or endobronchial brachytherapy or laser therapy for short term control of hemoptysis or lobar obstruction; full dose pre-operative radiotherapy of curative intent is a cause for exclusion; patients may have received post-operative adjuvant platinum-based chemotherapy however non-platinum-based chemotherapy is a cause for exclusion",
+     "lines": [
+      40
+     ],
+     "section": "exclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": {
+      "cls": [
+       "io"
+      ],
+      "agents": [],
+      "thoracic": null,
+      "setting": [
+       "neoadjuvant"
+      ]
+     },
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Has the patient received neoadjuvant immunotherapy for NSCLC?"
+    }
+   ],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c1A19",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Neoadjuvant chemotherapy or immunotherapy for NSCLC; however, patients may have received pre-operative limited field, low dose (less than 1000 cGy) external beam radiation therapy or endobronchial brachytherapy or laser therapy for short term control of hemoptysis or lobar obstruction; full dose pre-operative radiotherapy of curative intent is a cause for exclusion; patients may have received post-operative adjuvant platinum-based chemotherapy however non-platinum-based chemotherapy is a cause for exclusion",
+   "lines": [
+    40
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Full‑dose pre‑operative radiotherapy of curative intent",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient received full‑dose pre‑operative radiotherapy with curative intent?"
+  },
+  {
+   "id": "c1A20",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Neoadjuvant chemotherapy or immunotherapy for NSCLC; however, patients may have received pre-operative limited field, low dose (less than 1000 cGy) external beam radiation therapy or endobronchial brachytherapy or laser therapy for short term control of hemoptysis or lobar obstruction; full dose pre-operative radiotherapy of curative intent is a cause for exclusion; patients may have received post-operative adjuvant platinum-based chemotherapy however non-platinum-based chemotherapy is a cause for exclusion",
+   "lines": [
+    40
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Adjuvant non‑platinum based chemotherapy",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient received adjuvant non‑platinum chemotherapy?"
+  },
+  {
+   "id": "c1A21",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "History of allergic reactions attributed to compounds of similar chemical or biologic composition to the agents used on this trial; patients with ongoing use of phenytoin, carbamazepine, barbiturates, rifampicin, or St John's Wort are excluded",
+   "lines": [
+    41
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "History of allergic reactions to similar agents or ongoing use of phenytoin, carbamazepine, barbiturates, rifampicin, or St John’s Wort",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have a history of allergic reactions to similar compounds or is currently using phenytoin, carbamazepine, barbiturates, rifampicin, or St John’s Wort?"
+  },
+  {
+   "id": "c1A22",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Incomplete healing from previous oncologic or other major surgery",
+   "lines": [
+    42
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Incomplete healing from previous oncologic or major surgery",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient fully healed from any prior oncologic or major surgery?"
+  }
+ ],
+ "compiler_meta": {
+  "primary": {
+   "stage_alternatives_merged": 0,
+   "model": "openai/gpt-oss-120b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 42,
+   "repaired": false,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 47
+  },
+  "secondary": {
+   "stage_alternatives_merged": 0,
+   "model": "qwen/qwen3.8-27b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 42,
+   "repaired": true,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 40
+  },
+  "prompt_version": "compiler-v1.2",
+  "lines": 42,
+  "lines_exact_agree": 27,
+  "typed_atoms": 16,
+  "typed_atoms_agree": 12,
+  "downgraded_atoms": 4
+ }
+}

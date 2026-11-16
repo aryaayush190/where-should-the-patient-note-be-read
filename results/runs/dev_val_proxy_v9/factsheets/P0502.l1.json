@@ -1,0 +1,192 @@
+{
+ "01f2289290": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "04aefdffa8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "073bc05f74": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "09552a06c2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0f41bfbfe7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "18283e7453": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "222bbae3d1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "277876bae4": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "BP well-controlled (<160/100)"
+ },
+ "3641e41948": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "36af7518b4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5630320afd": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5c50ea11f7": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "AST, ALT, ALP \u22642.5x ULN"
+ },
+ "64aa904a67": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6f2068cf6c": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "advanced metastatic melanoma, systemic therapy indicated"
+ },
+ "7b34e746b0": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "asymptomatic brain mets, previously irradiated, stable >4 weeks, no steroids"
+ },
+ "7be63afc14": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "80f100c0ac": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "868ac399d1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "93d68e6585": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "histologically confirmed metastatic melanoma"
+ },
+ "9530b1ce3e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "99625c940d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "99bb495483": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9cd6772342": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9d14d9aea4": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "all prior therapies >6 months ago, none within 4 weeks"
+ },
+ "9dc45912c1": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "patient has melanoma, not NSCLC"
+ },
+ "a2de795750": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a37d975186": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a3ddc50512": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a7863589b2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b5f513be31": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cbc2c64cdf": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ALT <=2.5x ULN"
+ },
+ "cd645d8fdd": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cf158450f9": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "prior systemic therapy"
+ },
+ "cf2452ec88": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d7f3029e94": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e2a4ce86a3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e308410aeb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e739b63b75": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ }
+}

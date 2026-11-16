@@ -1,0 +1,515 @@
+{
+ "trial_id": "NCT03057340",
+ "atoms": [
+  {
+   "id": "c0A0",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Aged 18-80 years old, pathological diagnosis of advanced non-small cell lung cancer, after treatment with radiation and chemotherapy and (or) targeted drugs disease still progress.",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "age",
+   "op": ">=",
+   "value": 18,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient's age?"
+  },
+  {
+   "id": "c0A1",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Aged 18-80 years old, pathological diagnosis of advanced non-small cell lung cancer, after treatment with radiation and chemotherapy and (or) targeted drugs disease still progress.",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "age",
+   "op": "<=",
+   "value": 80,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient's age?"
+  },
+  {
+   "id": "c0A2",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Aged 18-80 years old, pathological diagnosis of advanced non-small cell lung cancer, after treatment with radiation and chemotherapy and (or) targeted drugs disease still progress.",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "cancer_type",
+   "op": null,
+   "value": null,
+   "values": [
+    "nsclc"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient been diagnosed with non‑small cell lung cancer?"
+  },
+  {
+   "id": "c0A3",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Aged 18-80 years old, pathological diagnosis of advanced non-small cell lung cancer, after treatment with radiation and chemotherapy and (or) targeted drugs disease still progress.",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "stage_group",
+   "op": null,
+   "value": null,
+   "values": [
+    "IIIB",
+    "IIIC",
+    "IV"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the disease stage IIIB, IIIC, or IV (advanced)?"
+  },
+  {
+   "id": "c0A4",
+   "type": "HAS",
+   "polarity": "inclusion",
+   "source_line": "Aged 18-80 years old, pathological diagnosis of advanced non-small cell lung cancer, after treatment with radiation and chemotherapy and (or) targeted drugs disease still progress.",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "chemo"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient previously received chemotherapy?"
+  },
+  {
+   "id": "c0A5",
+   "type": "HAS",
+   "polarity": "inclusion",
+   "source_line": "Aged 18-80 years old, pathological diagnosis of advanced non-small cell lung cancer, after treatment with radiation and chemotherapy and (or) targeted drugs disease still progress.",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "radio"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient previously received thoracic radiation therapy?"
+  },
+  {
+   "id": "c0A6",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Aged 18-80 years old, pathological diagnosis of advanced non-small cell lung cancer, after treatment with radiation and chemotherapy and (or) targeted drugs disease still progress.",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "disease_status",
+   "op": null,
+   "value": null,
+   "values": [
+    "progressed_after_prior"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Has the disease progressed after prior therapy?"
+  },
+  {
+   "id": "c0A7",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Clear that heart, lung, liver, kidney at physical basic normal, and basic normal immune system function.",
+   "lines": [
+    2
+   ],
+   "section": "inclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "heart, lung, liver, kidney function normal and basic normal immune system function",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Are the heart, lung, liver, kidney functions and immune system normal?"
+  },
+  {
+   "id": "c0A8",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "No allergic reaction of biological products, asthma and other allergic constitution.",
+   "lines": [
+    3
+   ],
+   "section": "inclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "no allergic reaction to biological products, asthma, or other allergic constitution",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have any allergy to biological products, asthma, or other allergic conditions?"
+  },
+  {
+   "id": "c0A9",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "A patient or his legal representative signed informed consent.",
+   "lines": [
+    4
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "signed informed consent",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c0A10",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "The obvious blood coagulation dysfunction patients.",
+   "lines": [
+    5
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "blood coagulation dysfunction",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have any blood coagulation dysfunction?"
+  },
+  {
+   "id": "c0A11",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Patients infected with tuberculosis, hepatitis b, AIDS and syphilis positive diseases.",
+   "lines": [
+    6
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "active tuberculosis, hepatitis B, AIDS, or syphilis infection",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have active TB, hepatitis B, AIDS, or syphilis?"
+  },
+  {
+   "id": "c0A12",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Severe diabetes, high blood pressure, stroke, heart failure, and kidney disease.",
+   "lines": [
+    7
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "severe diabetes, uncontrolled hypertension, stroke, heart failure, or kidney disease",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have severe diabetes, uncontrolled hypertension, stroke, heart failure, or kidney disease?"
+  },
+  {
+   "id": "c0A13",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Autoimmune diseases such as systemic lupus erythematosus (sle) and Rheumatoid arthritis (ra)",
+   "lines": [
+    8
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "autoimmune_active",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Does the patient have an active autoimmune disease?"
+  },
+  {
+   "id": "c0A14",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Large doses or long-term glucocorticoid, and other immunosuppressive users (more than 4 weeks).",
+   "lines": [
+    9
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "systemic glucocorticoid use >4 weeks",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient used systemic glucocorticoids for more than 4 weeks?"
+  },
+  {
+   "id": "c0A15",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Pregnant and nursing women has a history of allergies of biological products.",
+   "lines": [
+    10
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "pregnant",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient pregnant?"
+  },
+  {
+   "id": "c0A16",
+   "type": "UNSCREENABLE",
+   "polarity": "exclusion",
+   "source_line": "Collect blood and doping in another place.",
+   "lines": [
+    11
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "blood collection and doping in another place",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c0A17",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Allergies or active infection that effect the observation of Tolerance activity.",
+   "lines": [
+    12
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "allergies or active infection affecting tolerance observation",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have allergies or an active infection that would affect tolerance observation?"
+  },
+  {
+   "id": "c0A18",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Heart, lung, liver, kidney or bone marrow function obviously low.",
+   "lines": [
+    13
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "significant organ dysfunction (heart, lung, liver, kidney, bone marrow)",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have markedly reduced heart, lung, liver, kidney, or bone marrow function?"
+  },
+  {
+   "id": "c0A19",
+   "type": "UNSCREENABLE",
+   "polarity": "exclusion",
+   "source_line": "Unable or unwilling to sign a consent form or to comply with the technical requirement.",
+   "lines": [
+    14
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "unable or unwilling to sign consent or comply with technical requirements",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  }
+ ],
+ "compiler_meta": {
+  "primary": {
+   "stage_alternatives_merged": 0,
+   "model": "openai/gpt-oss-120b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 14,
+   "repaired": false,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 20
+  },
+  "secondary": {
+   "stage_alternatives_merged": 0,
+   "model": "qwen/qwen3.8-27b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 14,
+   "repaired": false,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 21
+  },
+  "prompt_version": "compiler-v1.2",
+  "lines": 14,
+  "lines_exact_agree": 10,
+  "typed_atoms": 9,
+  "typed_atoms_agree": 6,
+  "downgraded_atoms": 3
+ }
+}

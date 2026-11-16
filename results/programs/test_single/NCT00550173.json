@@ -1,0 +1,346 @@
+{
+ "trial_id": "NCT00550173",
+ "atoms": [
+  {
+   "id": "c0A0",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Patients with locally advanced or metastatic nonsquamous non-small cell lung cancer",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "cancer_type",
+   "op": null,
+   "value": null,
+   "values": [
+    "nsclc"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient's cancer type non‑small cell lung cancer?"
+  },
+  {
+   "id": "c0A1",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Patients with locally advanced or metastatic nonsquamous non-small cell lung cancer",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "histology",
+   "op": null,
+   "value": null,
+   "values": [
+    "adenocarcinoma",
+    "large_cell",
+    "nos",
+    "other"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the tumor histology nonsquamous (e.g., adenocarcinoma, large cell, NOS, other)?"
+  },
+  {
+   "id": "c0A2",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Patients with locally advanced or metastatic nonsquamous non-small cell lung cancer",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "stage_group",
+   "op": null,
+   "value": null,
+   "values": [
+    "IIIB",
+    "IIIC",
+    "IV"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the disease stage locally advanced (IIIB or IIIC) or metastatic (IV)?"
+  },
+  {
+   "id": "c0A3",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Patients must be non-smokers",
+   "lines": [
+    2
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "non‑smoker",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient a non‑smoker?"
+  },
+  {
+   "id": "c0A4",
+   "type": "IS",
+   "polarity": "inclusion",
+   "source_line": "Patients must have at least one measurable lesion",
+   "lines": [
+    3
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "measurable_disease",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have at least one measurable lesion?"
+  },
+  {
+   "id": "c0A5",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Performance status of 0 to 2 on the Eastern Cooperative Oncology Group Scale",
+   "lines": [
+    4
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "ecog",
+   "op": "<=",
+   "value": 2,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient's ECOG performance status (0‑2 required)?"
+  },
+  {
+   "id": "c0A6",
+   "type": "COUNT",
+   "polarity": "inclusion",
+   "source_line": "Patients must have failed only one prior chemotherapy regimen and must be considered eligible for further chemotherapy following progression of their disease.",
+   "lines": [
+    5
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": "==",
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "chemo"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": 1.0,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "How many prior chemotherapy regimens has the patient received?"
+  },
+  {
+   "id": "c0A7",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Patients must have failed only one prior chemotherapy regimen and must be considered eligible for further chemotherapy following progression of their disease.",
+   "lines": [
+    5
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "disease_status",
+   "op": null,
+   "value": null,
+   "values": [
+    "progressed_after_prior"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the disease progressed after prior therapy?"
+  },
+  {
+   "id": "c0A8",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Patients who have received treatment within the last 30 days with a drug that has not received regulatory approval for any indication",
+   "lines": [
+    6
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "received any non‑approved investigational drug within the past 30 days",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient received any non‑approved investigational drug within the past 30 days?"
+  },
+  {
+   "id": "c0A9",
+   "type": "HAS",
+   "polarity": "exclusion",
+   "source_line": "Patients who have previously received treatment with drugs against the human epidermal growth factor receptors",
+   "lines": [
+    7
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "targeted_other"
+    ],
+    "agents": [
+     "egfr"
+    ],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient previously been treated with EGFR‑targeted therapy?"
+  },
+  {
+   "id": "c0A10",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Patients who have previously received treatment with drugs which have similar targets as Pemetrexed",
+   "lines": [
+    8
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "previously received anti‑folate agents similar to pemetrexed",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient previously received anti‑folate agents similar to pemetrexed?"
+  },
+  {
+   "id": "c0A11",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Patients who have any known significant ophthalmologic abnormalities of the surface of the eye",
+   "lines": [
+    9
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "significant ophthalmologic surface abnormalities",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have any significant ophthalmologic surface abnormalities?"
+  },
+  {
+   "id": "c0A12",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Patients who have a history of severe hypersensitivity reaction to erlotinib or pemetrexed",
+   "lines": [
+    10
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "severe hypersensitivity reaction to erlotinib or pemetrexed",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have a history of severe hypersensitivity to erlotinib or pemetrexed?"
+  }
+ ],
+ "compiler_meta": {
+  "primary": {
+   "stage_alternatives_merged": 0,
+   "model": "openai/gpt-oss-120b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 10,
+   "repaired": false,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 13
+  },
+  "single_model": true
+ }
+}

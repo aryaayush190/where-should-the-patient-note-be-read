@@ -1,0 +1,423 @@
+{
+ "pair_id": "P0510__NCT00411632",
+ "patient_id": "P0510",
+ "trial_id": "NCT00411632",
+ "label": 0,
+ "selective": "NOT_ELIGIBLE",
+ "forced": "NOT_ELIGIBLE",
+ "n_l2": 0,
+ "n_forced_unknown": 0,
+ "n_provisional": 9,
+ "u": 4.5,
+ "asks": [
+  {
+   "atom": "c0A4",
+   "category": "OTHER",
+   "question": "Is the tumor accessible for biopsy?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c0A6",
+   "category": "LABS",
+   "question": "Is the absolute neutrophil count \u22651,500/mm\u00b3?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A7",
+   "category": "LABS",
+   "question": "Is the platelet count \u2265100,000/mm\u00b3?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A8",
+   "category": "LABS",
+   "question": "Is the white blood cell count \u22653,000/mm\u00b3?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A9",
+   "category": "LABS",
+   "question": "Is the hemoglobin \u22659\u202fg/dL?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A10",
+   "category": "LABS",
+   "question": "Is total bilirubin \u22641.5\u202f\u00d7\u202fULN?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A11",
+   "category": "LABS",
+   "question": "Is AST \u22642.5\u202f\u00d7\u202fULN?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A12",
+   "category": "LABS",
+   "question": "Is ALT \u22642.5\u202f\u00d7\u202fULN?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A13",
+   "category": "LABS",
+   "question": "Is serum creatinine \u22641.5\u202fmg/dL or creatinine clearance \u226560\u202fmL/min?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A14",
+   "category": "OTHER",
+   "question": "Is the prothrombin time \u22641.5\u202f\u00d7\u202fULN?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c0A18",
+   "category": "OTHER",
+   "question": "Has the patient been disease\u2011free from any prior cancer (other than basal cell carcinoma or cervical pre\u2011invasive) for >2\u202fyears?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A22",
+   "category": "OTHER",
+   "question": "Has the patient undergone thoracic or abdominal surgery (excluding diagnostic biopsy) within the past 28 days?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A25",
+   "category": "CARDIAC",
+   "question": "Has the patient had a myocardial infarction in the last 3 months?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A28",
+   "category": "OTHER",
+   "question": "Does the patient have uncontrolled hypertension?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c0A29",
+   "category": "OTHER",
+   "question": "Does the patient have an uncontrolled seizure disorder?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c0A30",
+   "category": "OTHER",
+   "question": "Does the patient have an active neurologic disease?",
+   "answerable_by": "clinician"
+  }
+ ],
+ "n_atoms": 32,
+ "trace": [
+  {
+   "atom": "c0A0",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A1",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A2",
+   "type": "COUNT",
+   "pol": "inclusion",
+   "det": "F",
+   "verified": true,
+   "assumed": false,
+   "route": "exclude:verified"
+  },
+  {
+   "atom": "c0A3",
+   "type": "IS",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c0A4",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A5",
+   "type": "ANY",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A6",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A7",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A8",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A9",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A10",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A11",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A12",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A13",
+   "type": "ANY",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A14",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A15",
+   "type": "IF",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A16",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A17",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A18",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A19",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A20",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A21",
+   "type": "WITHIN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A22",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A23",
+   "type": "WITHIN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A24",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A25",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A26",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A27",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A28",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A29",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A30",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A31",
+   "type": "CMP",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  }
+ ],
+ "site_verify": [
+  "The patient has signed informed consent.",
+  "Women of child-bearing potential must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry and for the duration of study participation. Childbearing potential will be defined as women who have had menses within the past 12 months, who have not had tubal ligation or bilateral oophorectomy. Should a woman become pregnant or suspect that she is pregnant while participating in this study, she should inform her treating physician immediately. The patient, if a man, agrees to use effective contraception or abstinence.",
+  "Subject must be considered legally capable of providing his or her own consent for participation in this study."
+ ]
+}

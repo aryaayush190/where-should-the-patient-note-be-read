@@ -1,0 +1,170 @@
+{
+ "edge": "local",
+ "patients": 25,
+ "field_recall_correct": 0.8766816143497758,
+ "precision_extracted": 0.8766816143497758,
+ "verified_facts": 323,
+ "verified_precision": 1.0,
+ "unverified_facts": 123,
+ "unverified_precision": 0.5528455284552846,
+ "share_verified": 0.7242152466367713,
+ "therapy_class_exact": 0.6,
+ "per_field": {
+  "active_infection": {
+   "stated": 2,
+   "correct": 2,
+   "extracted": 2
+  },
+  "age": {
+   "stated": 25,
+   "correct": 25,
+   "extracted": 25
+  },
+  "alk": {
+   "stated": 16,
+   "correct": 6,
+   "extracted": 16
+  },
+  "anc_k_ul": {
+   "stated": 14,
+   "correct": 14,
+   "extracted": 14
+  },
+  "arrhythmia": {
+   "stated": 2,
+   "correct": 2,
+   "extracted": 2
+  },
+  "autoimmune_active": {
+   "stated": 1,
+   "correct": 1,
+   "extracted": 1
+  },
+  "bilirubin_mg_dl": {
+   "stated": 14,
+   "correct": 14,
+   "extracted": 14
+  },
+  "brain_mets": {
+   "stated": 8,
+   "correct": 8,
+   "extracted": 8
+  },
+  "creatinine_mg_dl": {
+   "stated": 14,
+   "correct": 14,
+   "extracted": 14
+  },
+  "disease_status": {
+   "stated": 25,
+   "correct": 25,
+   "extracted": 25
+  },
+  "ecog": {
+   "stated": 17,
+   "correct": 17,
+   "extracted": 17
+  },
+  "egfr": {
+   "stated": 19,
+   "correct": 8,
+   "extracted": 19
+  },
+  "fev1_pct": {
+   "stated": 8,
+   "correct": 8,
+   "extracted": 8
+  },
+  "hemoglobin_g_dl": {
+   "stated": 14,
+   "correct": 14,
+   "extracted": 14
+  },
+  "histology": {
+   "stated": 25,
+   "correct": 25,
+   "extracted": 25
+  },
+  "kps": {
+   "stated": 8,
+   "correct": 8,
+   "extracted": 8
+  },
+  "kras": {
+   "stated": 15,
+   "correct": 5,
+   "extracted": 15
+  },
+  "malignant_effusion": {
+   "stated": 11,
+   "correct": 11,
+   "extracted": 11
+  },
+  "measurable_disease": {
+   "stated": 21,
+   "correct": 21,
+   "extracted": 21
+  },
+  "mi_history": {
+   "stated": 5,
+   "correct": 5,
+   "extracted": 5,
+   "hallucinated_true": 1
+  },
+  "mi_months_ago": {
+   "stated": 5,
+   "correct": 4,
+   "extracted": 5
+  },
+  "neuropathy_grade": {
+   "stated": 4,
+   "correct": 4,
+   "extracted": 4
+  },
+  "platelets_k_ul": {
+   "stated": 14,
+   "correct": 14,
+   "extracted": 14
+  },
+  "ret": {
+   "stated": 16,
+   "correct": 6,
+   "extracted": 16
+  },
+  "ros1": {
+   "stated": 15,
+   "correct": 5,
+   "extracted": 15
+  },
+  "sex": {
+   "stated": 25,
+   "correct": 22,
+   "extracted": 25
+  },
+  "stage_group": {
+   "stated": 25,
+   "correct": 25,
+   "extracted": 25
+  },
+  "tnm_m": {
+   "stated": 25,
+   "correct": 25,
+   "extracted": 25
+  },
+  "tnm_n": {
+   "stated": 25,
+   "correct": 25,
+   "extracted": 25
+  },
+  "tnm_t": {
+   "stated": 25,
+   "correct": 25,
+   "extracted": 25
+  },
+  "unstable_angina": {
+   "stated": 3,
+   "correct": 3,
+   "extracted": 3
+  }
+ }
+}

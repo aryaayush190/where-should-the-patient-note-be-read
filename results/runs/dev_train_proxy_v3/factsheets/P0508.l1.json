@@ -1,0 +1,412 @@
+{
+ "0011b418e7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "09450c1c3f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1366b4ab78": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "13a30afe4a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "151a16c49f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1565b8bf0b": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no hypoxemia or hypercapnia"
+ },
+ "15dad95720": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "17b201655f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "181e2488d6": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1b28a88218": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1bcb3429fa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1c08625348": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1cf28e1816": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1f565f60a2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "219dda41bf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "2b0b11e5cb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "2baf855f6e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3214e094a9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "386e6eff24": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "WBC 5.9\u00d710^3/uL"
+ },
+ "3fa18231c7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "40128aec8e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4596f844ee": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "45efc74ffc": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "471d71652a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4779df2bf2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "47b67aac0d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4f3d13abde": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "57a1ea1786": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "histologic confirmation of adenocarcinoma"
+ },
+ "57f215524f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "58ad59eeeb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5b5700b6c7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5fb33fb177": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6183a5b4a2": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "age 56, not childbearing"
+ },
+ "6df4b3a1d4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6ea4fad1e4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "71f22d72cc": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "730d8b6b4c": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no pulmonary hypertension"
+ },
+ "735248f9e2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "737b54e3c4": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "stage IA"
+ },
+ "75d0bbed35": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "788c1a92f5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7958c72354": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7cf156c60a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7ff3b12fe4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "86ff93829f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no nodes >1 cm, PET normal"
+ },
+ "87caa41a10": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "tumor 2.6 cm accessible"
+ },
+ "89703d1bf5": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no second primary malignancy"
+ },
+ "951b724896": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "95b3a5b806": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "961a1d1d42": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no distant metastases"
+ },
+ "96ecc48af0": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "able to swallow capsules, no absorption issues"
+ },
+ "984dd3970c": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "adenocarcinoma, not bronchioloalveolar"
+ },
+ "9bbd0d3594": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no leptomeningeal disease"
+ },
+ "a26cf4480b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "af228953bb": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior chemo or radiotherapy"
+ },
+ "afc95f6de7": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no therapeutic anticoagulation or antiplatelet beyond low\u2011dose aspirin"
+ },
+ "b11de9a6e9": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "preoperative assessment by thoracic surgeon"
+ },
+ "b59900a287": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no prior therapy side effects"
+ },
+ "b852040b72": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "bilirubin 1.1 mg/dL <1.5\u00d7ULN, acceptable"
+ },
+ "be6a282f9b": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no regional or distant metastases"
+ },
+ "c048105426": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c8a1c292bd": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ca71c1b896": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cd4e10b83b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cd7fa4572d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d1c94aac93": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d429039bf7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d5e05d5bfc": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "high likelihood of negative surgical margins"
+ },
+ "d5e1f1ee36": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "stage IA, no prior therapy"
+ },
+ "d9db33218f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "dddfd19b19": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e072202eae": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "DLCO 86% predicted"
+ },
+ "e2af713b2d": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "primary tumor 2.6 cm, less than 3 cm"
+ },
+ "e427074718": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e485fd72f8": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "T1N0M0 confirmed by FDG-PET/CT"
+ },
+ "eba8f701b4": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "tumor 2.6 cm measurable"
+ },
+ "ebf4c7bf7f": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no malignant effusion noted"
+ },
+ "ed2ced1956": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f18e74a770": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "suitable candidate for lobectomy"
+ },
+ "f5808f250c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "fdebab3d73": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ff5e7541c9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ }
+}

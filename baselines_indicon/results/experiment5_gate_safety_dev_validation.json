@@ -1,0 +1,12 @@
+{
+  "label": "dev_validation",
+  "n_pairs": 26,
+  "TP": 8,
+  "FP": 4,
+  "FN": 0,
+  "TN": 14,
+  "gate_recall": 1.0,
+  "gate_precision": 0.6667,
+  "gate_accuracy": 0.8462,
+  "false_negative_pairs": []
+}

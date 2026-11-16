@@ -1,0 +1,1005 @@
+{
+ "trial_id": "NCT01766739",
+ "atoms": [
+  {
+   "id": "c0A0",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Diagnosis of histologically or cytologically documented, malignant pleural effusions (primary non-small-cell lung carcinoma, mesothelioma, and other histologies), who have free pleural space (partial or total) that permits the intrapleural drug instillation. This includes cytologically negative pleural effusion in conjunction with histologically proven malignancy involving the pleura.",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "cancer_type",
+   "op": null,
+   "value": null,
+   "values": [
+    "nsclc",
+    "mesothelioma",
+    "other"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient’s cancer type?"
+  },
+  {
+   "id": "c0A1",
+   "type": "IS",
+   "polarity": "inclusion",
+   "source_line": "Diagnosis of histologically or cytologically documented, malignant pleural effusions (primary non-small-cell lung carcinoma, mesothelioma, and other histologies), who have free pleural space (partial or total) that permits the intrapleural drug instillation. This includes cytologically negative pleural effusion in conjunction with histologically proven malignancy involving the pleura.",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "malignant_effusion",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have a malignant pleural effusion?"
+  },
+  {
+   "id": "c0A2",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Age must be ≥ 18 years.",
+   "lines": [
+    2
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "age",
+   "op": ">=",
+   "value": 18,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient at least 18 years old?"
+  },
+  {
+   "id": "c0A3",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "All acute toxic effects of any prior radiotherapy, chemotherapy, or surgical procedures must have resolved to Common Terminology Criteria for Adverse Events (CTCAE, Version 4.0) Grade ≤ 1.",
+   "lines": [
+    3
+   ],
+   "section": "inclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "No acute toxic effects > Grade 1 from prior radiotherapy, chemotherapy, or surgery",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Have any acute toxic effects from prior radiotherapy, chemotherapy, or surgery resolved to ≤ Grade 1?"
+  },
+  {
+   "id": "c0A4",
+   "type": "SINCE",
+   "polarity": "inclusion",
+   "source_line": "Any surgery, where general anesthesia was administered, must have occurred at least 14 days prior to study enrollment.",
+   "lines": [
+    4
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "surgery"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.459,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Was any prior surgery with general anesthesia performed at least 14 days ago?"
+  },
+  {
+   "id": "c0A5",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "Chemotherapy, radiotherapy or immunotherapy must have stopped more than 7 days prior to receiving study drug; however, small field palliative radiotherapy, TKI therapies and hormonal therapies are allowed.",
+   "lines": [
+    5
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "chemo"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.23,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has chemotherapy been stopped within the last 7 days?"
+  },
+  {
+   "id": "c0A6",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "Chemotherapy, radiotherapy or immunotherapy must have stopped more than 7 days prior to receiving study drug; however, small field palliative radiotherapy, TKI therapies and hormonal therapies are allowed.",
+   "lines": [
+    5
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "radio"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.23,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has radiotherapy been stopped within the last 7 days?"
+  },
+  {
+   "id": "c0A7",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "Chemotherapy, radiotherapy or immunotherapy must have stopped more than 7 days prior to receiving study drug; however, small field palliative radiotherapy, TKI therapies and hormonal therapies are allowed.",
+   "lines": [
+    5
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "io"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.23,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has immunotherapy been stopped within the last 7 days?"
+  },
+  {
+   "id": "c0A8",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "Required baseline laboratory data include:",
+   "lines": [
+    8
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Required baseline laboratory data include:",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c0A9",
+   "type": "IF",
+   "polarity": "inclusion",
+   "source_line": "Patients with stage IV malignancy (non-mesothelioma) must have had a brain scan (MRI or CT with contrast) showing no evidence of disease progression within 8 weeks of study enrollment.",
+   "lines": [
+    6
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c0A9.0",
+     "type": "ALL",
+     "polarity": "inclusion",
+     "source_line": "Patients with stage IV malignancy (non-mesothelioma) must have had a brain scan (MRI or CT with contrast) showing no evidence of disease progression within 8 weeks of study enrollment.",
+     "lines": [
+      6
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [
+      {
+       "id": "c0A9.0.0",
+       "type": "IN",
+       "polarity": "inclusion",
+       "source_line": "Patients with stage IV malignancy (non-mesothelioma) must have had a brain scan (MRI or CT with contrast) showing no evidence of disease progression within 8 weeks of study enrollment.",
+       "lines": [
+        6
+       ],
+       "section": "inclusion",
+       "cwa": false,
+       "field": "stage_group",
+       "op": null,
+       "value": null,
+       "values": [
+        "IV"
+       ],
+       "filter": null,
+       "k": null,
+       "months": null,
+       "text": null,
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "record",
+       "question": "Is the patient’s disease stage IV?"
+      },
+      {
+       "id": "c0A9.0.1",
+       "type": "IN",
+       "polarity": "inclusion",
+       "source_line": "Patients with stage IV malignancy (non-mesothelioma) must have had a brain scan (MRI or CT with contrast) showing no evidence of disease progression within 8 weeks of study enrollment.",
+       "lines": [
+        6
+       ],
+       "section": "inclusion",
+       "cwa": false,
+       "field": "cancer_type",
+       "op": null,
+       "value": null,
+       "values": [
+        "nsclc",
+        "other"
+       ],
+       "filter": null,
+       "k": null,
+       "months": null,
+       "text": null,
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "record",
+       "question": "Is the cancer type non‑mesothelioma (NSCLC or other)?"
+      }
+     ],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": null
+    },
+    {
+     "id": "c0A9.1",
+     "type": "JUDGE",
+     "polarity": "inclusion",
+     "source_line": "Patients with stage IV malignancy (non-mesothelioma) must have had a brain scan (MRI or CT with contrast) showing no evidence of disease progression within 8 weeks of study enrollment.",
+     "lines": [
+      6
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": "Brain imaging (MRI or CT with contrast) within the past 8 weeks shows no disease progression",
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Has a brain scan within the past 8 weeks shown no disease progression?"
+    }
+   ],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "If the patient has stage IV non‑mesothelioma, is there recent imaging showing no brain disease progression?"
+  },
+  {
+   "id": "c0A10",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "ECOG Zubrod ≤ 2.",
+   "lines": [
+    7
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "ecog",
+   "op": "<=",
+   "value": 2,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the ECOG performance status ≤ 2?"
+  },
+  {
+   "id": "c0A11",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Absolute neutrophil count (ANC) ≥ 1.5 × 109 [SI units 10^9/L],",
+   "lines": [
+    9
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "anc_k_ul",
+   "op": ">=",
+   "value": 1.5,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the absolute neutrophil count ≥ 1.5 ×10³/µL?"
+  },
+  {
+   "id": "c0A12",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Platelets ≥ 100 ×10^9 [SI units 10^9/L],",
+   "lines": [
+    10
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "platelets_k_ul",
+   "op": ">=",
+   "value": 100,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Are platelets ≥ 100 ×10³/µL?"
+  },
+  {
+   "id": "c0A13",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Hemoglobin ≥ 9.0 g/dL [SI units gm/L],",
+   "lines": [
+    11
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "hemoglobin_g_dl",
+   "op": ">=",
+   "value": 9.0,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is hemoglobin ≥ 9.0 g/dL?"
+  },
+  {
+   "id": "c0A14",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Serum creatinine ≤ 1.5 × upper limit of normal (ULN),",
+   "lines": [
+    12
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "creatinine_xuln",
+   "op": "<=",
+   "value": 1.5,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is serum creatinine ≤ 1.5 × ULN?"
+  },
+  {
+   "id": "c0A15",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Bilirubin ≤ 1.5 × ULN,",
+   "lines": [
+    13
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "bilirubin_xuln",
+   "op": "<=",
+   "value": 1.5,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is bilirubin ≤ 1.5 × ULN?"
+  },
+  {
+   "id": "c0A16",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "AST/ALT ≤ 2.5 × ULN (≤ 5 × ULN in the presence of liver metastases)",
+   "lines": [
+    14
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "ast_xuln",
+   "op": "<=",
+   "value": 2.5,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is AST ≤ 2.5 × ULN?"
+  },
+  {
+   "id": "c0A17",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "AST/ALT ≤ 2.5 × ULN (≤ 5 × ULN in the presence of liver metastases)",
+   "lines": [
+    14
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "alt_xuln",
+   "op": "<=",
+   "value": 2.5,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is ALT ≤ 2.5 × ULN?"
+  },
+  {
+   "id": "c0A18",
+   "type": "IF",
+   "polarity": "inclusion",
+   "source_line": "Negative pregnancy test for females of childbearing potential.",
+   "lines": [
+    15
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c0A18.0",
+     "type": "IN",
+     "polarity": "inclusion",
+     "source_line": "Negative pregnancy test for females of childbearing potential.",
+     "lines": [
+      15
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": "sex",
+     "op": null,
+     "value": null,
+     "values": [
+      "female"
+     ],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Is the patient female?"
+    },
+    {
+     "id": "c0A18.1",
+     "type": "IS",
+     "polarity": "inclusion",
+     "source_line": "Negative pregnancy test for females of childbearing potential.",
+     "lines": [
+      15
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": "pregnant",
+     "op": null,
+     "value": false,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Is the pregnancy test negative?"
+    }
+   ],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "If the patient is female, is the pregnancy test negative?"
+  },
+  {
+   "id": "c0A19",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Pregnant or breast-feeding women.",
+   "lines": [
+    16
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "pregnant",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient currently pregnant?"
+  },
+  {
+   "id": "c0A20",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Patients with fever or any active systemic infections, including known HIV, hepatitis B or C.",
+   "lines": [
+    17
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "active_infection",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have a fever or active systemic infection?"
+  },
+  {
+   "id": "c0A21",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Patients on immunosuppressive therapy or with immune system disorders, including autoimmune diseases.",
+   "lines": [
+    18
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Patient is on immunosuppressive therapy",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Is the patient receiving immunosuppressive therapy?"
+  },
+  {
+   "id": "c0A22",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Patients on immunosuppressive therapy or with immune system disorders, including autoimmune diseases.",
+   "lines": [
+    18
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Patient has an active autoimmune disease",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have an active autoimmune disease?"
+  },
+  {
+   "id": "c0A23",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Concurrent steroid use of more than an equivalent of 20 mg/day prednisone (or equivalent).",
+   "lines": [
+    19
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Concurrent systemic steroid dose >20 mg prednisone equivalent",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient taking systemic steroids >20 mg prednisone equivalent per day?"
+  },
+  {
+   "id": "c0A24",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Prior splenectomy.",
+   "lines": [
+    20
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Prior splenectomy",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient had a splenectomy?"
+  },
+  {
+   "id": "c0A25",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Previous organ transplant.",
+   "lines": [
+    21
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Previous organ transplant",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient undergone an organ transplant?"
+  },
+  {
+   "id": "c0A26",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Patients with clinically significant dermatological disorders, e.g., eczema or psoriasis, as judged by the principal investigator, or any unhealed skin wounds or ulcers.",
+   "lines": [
+    22
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Clinically significant dermatological disorder or unhealed skin wound/ulcer",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have a significant skin disorder or an unhealed wound/ulcer?"
+  },
+  {
+   "id": "c1A0",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Clinically significant cardiac disease (New York Heart Association, Class III or IV).",
+   "lines": [
+    23
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Clinically significant cardiac disease (NYHA Class III or IV)",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have NYHA Class III or IV cardiac disease?"
+  },
+  {
+   "id": "c1A1",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Dementia or altered mental status that would prohibit informed consent.",
+   "lines": [
+    24
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Dementia or altered mental status that would prohibit informed consent",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have dementia or altered mental status that would prohibit informed consent?"
+  },
+  {
+   "id": "c1A2",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Other severe, acute, or chronic medical or psychiatric condition or laboratory abnormality, that may increase the risk associated with study participation or study drug administration, or may interfere with the interpretation of study results and, in the judgment of the principal investigator, would make the patient inappropriate for this study.",
+   "lines": [
+    25
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Severe acute or chronic medical or psychiatric condition or laboratory abnormality that makes patient inappropriate for study",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have any severe medical, psychiatric, or laboratory abnormality that, in the investigator's judgment, makes them unsuitable for the study?"
+  },
+  {
+   "id": "c1A3",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Known allergy to ovalbumin or other egg products.",
+   "lines": [
+    26
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Known allergy to ovalbumin or other egg products",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Does the patient have a known allergy to ovalbumin or other egg products?"
+  },
+  {
+   "id": "c1A4",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Prior gene therapy treatments or prior therapy with cytolytic virus of any type.",
+   "lines": [
+    27
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Prior gene therapy treatments or prior therapy with cytolytic virus of any type",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient received any prior gene therapy or cytolytic virus treatment?"
+  },
+  {
+   "id": "c1A5",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Concurrent therapy with any other investigational anticancer agent.",
+   "lines": [
+    28
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Concurrent therapy with any other investigational anticancer agent",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient currently receiving any other investigational anticancer agent?"
+  },
+  {
+   "id": "c1A6",
+   "type": "HAS",
+   "polarity": "exclusion",
+   "source_line": "Concurrent antiviral agent active against vaccinia virus (e.g. cidofovir, vaccinia immunoglobulin) during the study.",
+   "lines": [
+    29
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [],
+    "agents": [
+     "cidofovir",
+     "vaccinia immunoglobulin"
+    ],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Is the patient concurrently receiving an antiviral agent active against vaccinia virus (e.g., cidofovir or vaccinia immunoglobulin)?"
+  }
+ ],
+ "compiler_meta": {
+  "primary": {
+   "stage_alternatives_merged": 0,
+   "model": "openai/gpt-oss-120b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 29,
+   "repaired": true,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 34
+  },
+  "secondary": {
+   "stage_alternatives_merged": 0,
+   "model": "qwen/qwen3.8-27b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 29,
+   "repaired": true,
+   "chunk_failures": [],
+   "errors_after_repair": [
+    "c0A18.c0A18.0.c0A18.0.0: IS needs a boolean field and a boolean value"
+   ],
+   "n_atoms": 35
+  },
+  "prompt_version": "compiler-v1.2",
+  "lines": 29,
+  "lines_exact_agree": 21,
+  "typed_atoms": 20,
+  "typed_atoms_agree": 15,
+  "downgraded_atoms": 5
+ }
+}

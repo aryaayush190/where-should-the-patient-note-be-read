@@ -1,0 +1,678 @@
+{
+ "trial_id": "NCT00065182",
+ "atoms": [
+  {
+   "id": "c0A0",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "Written informed consent",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Written informed consent",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Has the patient provided written informed consent?"
+  },
+  {
+   "id": "c0A1",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "At least 18 years old",
+   "lines": [
+    2
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "age",
+   "op": ">=",
+   "value": 18,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient's age?"
+  },
+  {
+   "id": "c0A2",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Confirmed advanced non-small cell lung carcinoma (NSCLC)",
+   "lines": [
+    3
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "cancer_type",
+   "op": null,
+   "value": null,
+   "values": [
+    "nsclc"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have non‑small cell lung cancer?"
+  },
+  {
+   "id": "c0A3",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Confirmed advanced non-small cell lung carcinoma (NSCLC)",
+   "lines": [
+    3
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "stage_group",
+   "op": null,
+   "value": null,
+   "values": [
+    "IIIB",
+    "IIIC",
+    "IV"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient's disease stage?"
+  },
+  {
+   "id": "c0A4",
+   "type": "COUNT",
+   "polarity": "inclusion",
+   "source_line": "Received one prior chemotherapy for metastatic NSCLC excluding TAXOTERE or HYCAMTIN. In addition, subjects are allowed to have previously received a non-cytotoxic therapy, such as an endothelial growth factor receptor (EGFR) or angiogenesis inhibitor.",
+   "lines": [
+    4
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": ">=",
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "chemo"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": 1.0,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient received at least one prior chemotherapy regimen?"
+  },
+  {
+   "id": "c0A5",
+   "type": "HAS",
+   "polarity": "exclusion",
+   "source_line": "Received one prior chemotherapy for metastatic NSCLC excluding TAXOTERE or HYCAMTIN. In addition, subjects are allowed to have previously received a non-cytotoxic therapy, such as an endothelial growth factor receptor (EGFR) or angiogenesis inhibitor.",
+   "lines": [
+    4
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "chemo"
+    ],
+    "agents": [
+     "taxotere",
+     "hycamtin"
+    ],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient previously received taxotere or hycamtin?"
+  },
+  {
+   "id": "c0A6",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Presence of either measurable or non-measurable disease by radiologic study or physical examination.",
+   "lines": [
+    5
+   ],
+   "section": "inclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Presence of disease by radiologic study or physical examination",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Is there evidence of disease on imaging or physical exam?"
+  },
+  {
+   "id": "c0A7",
+   "type": "SINCE",
+   "polarity": "inclusion",
+   "source_line": "Full recovery and at least 21 days from prior treatment for NSCLC; 42 days from treatment with mitomycin or nitrosureas and 30 days from prior non-cytotoxic therapy.",
+   "lines": [
+    6
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "chemo",
+     "radio",
+     "tki",
+     "targeted_other",
+     "other"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.689,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has at least 21 days passed since the last NSCLC treatment?"
+  },
+  {
+   "id": "c0A8",
+   "type": "SINCE",
+   "polarity": "inclusion",
+   "source_line": "Full recovery and at least 21 days from prior treatment for NSCLC; 42 days from treatment with mitomycin or nitrosureas and 30 days from prior non-cytotoxic therapy.",
+   "lines": [
+    6
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [],
+    "agents": [
+     "mitomycin",
+     "nitrosureas"
+    ],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 1.381,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has at least 42 days passed since mitomycin or nitrosureas treatment?"
+  },
+  {
+   "id": "c0A9",
+   "type": "SINCE",
+   "polarity": "inclusion",
+   "source_line": "Full recovery and at least 21 days from prior treatment for NSCLC; 42 days from treatment with mitomycin or nitrosureas and 30 days from prior non-cytotoxic therapy.",
+   "lines": [
+    6
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [],
+    "agents": [
+     "egfr",
+     "angiogenesis"
+    ],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.986,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has at least 30 days passed since the last non‑cytotoxic therapy?"
+  },
+  {
+   "id": "c0A10",
+   "type": "SINCE",
+   "polarity": "inclusion",
+   "source_line": "At least 3 weeks since last major surgery (a lesser period is acceptable if deemed in the best interest of the patient).",
+   "lines": [
+    7
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "surgery"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.691,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has at least 3 weeks passed since the last major surgery?"
+  },
+  {
+   "id": "c0A11",
+   "type": "SINCE",
+   "polarity": "inclusion",
+   "source_line": "At least 7 days since prior radiotherapy.",
+   "lines": [
+    8
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "radio"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.23,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has at least 7 days passed since the last radiotherapy?"
+  },
+  {
+   "id": "c0A12",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "A probable life expectance of at least 3 months.",
+   "lines": [
+    9
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "life_expectancy_months",
+   "op": ">=",
+   "value": 3,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "What is the patient's estimated life expectancy in months?"
+  },
+  {
+   "id": "c0A13",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Adequate bone marrow reserve, CBC/Platelet, kidney and liver function.",
+   "lines": [
+    10
+   ],
+   "section": "inclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Adequate bone marrow, kidney and liver function",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Are the patient's blood counts, renal and hepatic labs within acceptable limits?"
+  },
+  {
+   "id": "c0A14",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Concomitant malignancies or other malignancies within the last five years.",
+   "lines": [
+    11
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Concomitant malignancies or other malignancies within the last five years",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have any other malignancy diagnosed within the past five years?"
+  },
+  {
+   "id": "c0A15",
+   "type": "IN",
+   "polarity": "exclusion",
+   "source_line": "Symptoms of brain metastases requiring treatment with steroids.",
+   "lines": [
+    12
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "brain_mets",
+   "op": null,
+   "value": null,
+   "values": [
+    "untreated_or_symptomatic"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Does the patient have symptomatic brain metastases requiring steroids?"
+  },
+  {
+   "id": "c0A16",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Active infection.",
+   "lines": [
+    13
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "active_infection",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have an active infection?"
+  },
+  {
+   "id": "c0A17",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Severe medical problems other than the diagnosis of NSCLC that would limit the ability of the subject to follow study guidelines or expose the subject to extreme risk.",
+   "lines": [
+    14
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Severe medical problems other than NSCLC that limit study participation",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have severe comorbidities that would limit study participation?"
+  },
+  {
+   "id": "c0A18",
+   "type": "HAS",
+   "polarity": "exclusion",
+   "source_line": "Ongoing or planned chemotherapy (other than treatment during this study), immunotherapy, radiotherapy, or investigational therapy for the treatment of NSCLC.",
+   "lines": [
+    15
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "chemo",
+     "io",
+     "radio",
+     "other"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Is the patient currently receiving or planning to receive chemotherapy, immunotherapy, radiotherapy, or investigational therapy for NSCLC?"
+  },
+  {
+   "id": "c0A19",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "Use of investigational drug within 30 days or 5 half-lives prior to the first dose of study medication.",
+   "lines": [
+    16
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "other"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.986,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient used an investigational drug within the past 30 days?"
+  },
+  {
+   "id": "c0A20",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Women who are pregnant or lactating.",
+   "lines": [
+    17
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "pregnant",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Is the patient pregnant or lactating?"
+  },
+  {
+   "id": "c0A21",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Subjects of child-bearing potential refusing to practice adequate contraception.",
+   "lines": [
+    18
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Refusal to use adequate contraception by child‑bearing potential subjects",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Is the patient of child‑bearing potential who refuses to use adequate contraception?"
+  },
+  {
+   "id": "c0A22",
+   "type": "HAS",
+   "polarity": "exclusion",
+   "source_line": "Prior treatment with or history of allergic reaction to either HYCAMTIN or TAXOTERE.",
+   "lines": [
+    19
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "chemo"
+    ],
+    "agents": [
+     "taxotere",
+     "hycamtin"
+    ],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient previously received taxotere or hycamtin?"
+  },
+  {
+   "id": "c0A23",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Subjects who cannot receive steroid premedication.",
+   "lines": [
+    20
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "steroids_systemic",
+   "op": null,
+   "value": false,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "clinician",
+   "question": "Can the patient receive steroid premedication?"
+  }
+ ],
+ "compiler_meta": {
+  "primary": {
+   "stage_alternatives_merged": 0,
+   "model": "openai/gpt-oss-120b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 20,
+   "repaired": false,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 24
+  },
+  "secondary": {
+   "stage_alternatives_merged": 0,
+   "model": "qwen/qwen3.8-27b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 20,
+   "repaired": false,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 26
+  },
+  "prompt_version": "compiler-v1.2",
+  "lines": 20,
+  "lines_exact_agree": 10,
+  "typed_atoms": 18,
+  "typed_atoms_agree": 10,
+  "downgraded_atoms": 8
+ }
+}

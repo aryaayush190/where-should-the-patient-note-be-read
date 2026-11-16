@@ -1,0 +1,472 @@
+{
+ "trial_id": "NCT00753714",
+ "atoms": [
+  {
+   "id": "c0A0",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Histologic or cytologic confirmation of advanced NSCLC (stage IIIB with supraclavicular lymph node metastases or pleural effusion or stage IV) on entry into study",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "cancer_type",
+   "op": null,
+   "value": null,
+   "values": [
+    "nsclc"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient been diagnosed with non‑small cell lung cancer?"
+  },
+  {
+   "id": "c0A1",
+   "type": "ANY",
+   "polarity": "inclusion",
+   "source_line": "Histologic or cytologic confirmation of advanced NSCLC (stage IIIB with supraclavicular lymph node metastases or pleural effusion or stage IV) on entry into study",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c0A1.0",
+     "type": "ALL",
+     "polarity": "inclusion",
+     "source_line": "",
+     "lines": [],
+     "section": null,
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [
+      {
+       "id": "c0A1.0.0",
+       "type": "IN",
+       "polarity": "inclusion",
+       "source_line": "",
+       "lines": [],
+       "section": null,
+       "cwa": false,
+       "field": "stage_group",
+       "op": null,
+       "value": null,
+       "values": [
+        "IIIB"
+       ],
+       "filter": null,
+       "k": null,
+       "months": null,
+       "text": null,
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "record",
+       "question": null
+      },
+      {
+       "id": "c0A1.0.1",
+       "type": "IS",
+       "polarity": "inclusion",
+       "source_line": "",
+       "lines": [],
+       "section": null,
+       "cwa": false,
+       "field": "malignant_effusion",
+       "op": null,
+       "value": true,
+       "values": [],
+       "filter": null,
+       "k": null,
+       "months": null,
+       "text": null,
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "record",
+       "question": null
+      }
+     ],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": null
+    },
+    {
+     "id": "c0A1.1",
+     "type": "IN",
+     "polarity": "inclusion",
+     "source_line": "",
+     "lines": [],
+     "section": null,
+     "cwa": false,
+     "field": "stage_group",
+     "op": null,
+     "value": null,
+     "values": [
+      "IV"
+     ],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": null
+    }
+   ],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the disease stage IV or stage IIIB with malignant pleural effusion?"
+  },
+  {
+   "id": "c0A2",
+   "type": "IS",
+   "polarity": "inclusion",
+   "source_line": "One or more measurable lesions at least 10 mm in the longest diameter (LD) by spiral CT scan or 20 mm with conventional techniques according to RECIST criteria",
+   "lines": [
+    2
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "measurable_disease",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have at least one measurable lesion per RECIST?"
+  },
+  {
+   "id": "c0A3",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "One or more measurable lesions at least 10 mm in the longest diameter (LD) by spiral CT scan or 20 mm with conventional techniques according to RECIST criteria",
+   "lines": [
+    2
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Measurable lesion size ≥10 mm by CT or ≥20 mm by conventional imaging",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "What is the longest diameter of the measurable lesion?"
+  },
+  {
+   "id": "c0A4",
+   "type": "HAS",
+   "polarity": "exclusion",
+   "source_line": "Chemotherapy-naïve (prior chemotherapy in the adjuvant setting completed more than 3 months before the trial entry is accepted).",
+   "lines": [
+    3
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "chemo"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient received any prior chemotherapy?"
+  },
+  {
+   "id": "c0A5",
+   "type": "IF",
+   "polarity": "inclusion",
+   "source_line": "Chemotherapy-naïve (prior chemotherapy in the adjuvant setting completed more than 3 months before the trial entry is accepted).",
+   "lines": [
+    3
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c0A5.0",
+     "type": "HAS",
+     "polarity": "inclusion",
+     "source_line": "",
+     "lines": [],
+     "section": null,
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": {
+      "cls": [
+       "chemo"
+      ],
+      "agents": [],
+      "thoracic": null,
+      "setting": [
+       "adjuvant"
+      ]
+     },
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": null
+    },
+    {
+     "id": "c0A5.1",
+     "type": "SINCE",
+     "polarity": "inclusion",
+     "source_line": "",
+     "lines": [],
+     "section": null,
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": {
+      "cls": [
+       "chemo"
+      ],
+      "agents": [],
+      "thoracic": null,
+      "setting": [
+       "adjuvant"
+      ]
+     },
+     "k": null,
+     "months": 3.0,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": null
+    }
+   ],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "If the patient had adjuvant chemotherapy, was it completed at least 3 months ago?"
+  },
+  {
+   "id": "c0A6",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Female or male aged 70 years or above",
+   "lines": [
+    4
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "age",
+   "op": ">=",
+   "value": 70,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Is the patient 70 years old or older?"
+  },
+  {
+   "id": "c0A7",
+   "type": "HAS",
+   "polarity": "exclusion",
+   "source_line": "Patients must not have received prior anti-cancer therapy except in the adjuvant setting",
+   "lines": [
+    5
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "chemo",
+     "tki",
+     "io",
+     "antiangiogenic",
+     "targeted_other",
+     "systemic",
+     "radio",
+     "surgery",
+     "other"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient received any prior anti‑cancer therapy (non‑adjuvant)?"
+  },
+  {
+   "id": "c0A8",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Inadequate end-organ function or Evidence of severe or uncontrolled systemic disease or any concurrent condition which in the Investigator's opinion makes it undesirable for the patient to participate in the trial",
+   "lines": [
+    6
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Inadequate end‑organ function or severe uncontrolled systemic disease",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have any organ dysfunction or uncontrolled systemic disease that would make participation undesirable?"
+  },
+  {
+   "id": "c0A9",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Significant cardiovascular event (e.g. myocardial infarction, superior vena cava [SVC] syndrome, New York Heart Association [NYHA] classification of heart disease ³2) within 3 months before entry, or presence of cardiac disease that in the opinion of",
+   "lines": [
+    7
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Significant cardiovascular event (e.g., myocardial infarction, SVC syndrome, NYHA class ≥2) within 3 months before entry or other serious cardiac disease",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Has the patient had a major cardiovascular event within the past 3 months?"
+  },
+  {
+   "id": "c0A10",
+   "type": "IN",
+   "polarity": "exclusion",
+   "source_line": "History of arrhythmia or QTc with Bazett's correction unmeasurable or ≥ 480 msec on screening ECG",
+   "lines": [
+    8
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "arrhythmia",
+   "op": null,
+   "value": null,
+   "values": [
+    "controlled",
+    "uncontrolled"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have a history of arrhythmia?"
+  },
+  {
+   "id": "c0A11",
+   "type": "CMP",
+   "polarity": "exclusion",
+   "source_line": "History of arrhythmia or QTc with Bazett's correction unmeasurable or ≥ 480 msec on screening ECG",
+   "lines": [
+    8
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "qtc_ms",
+   "op": ">=",
+   "value": 480,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient's QTc (Bazett corrected) ≥ 480 ms?"
+  }
+ ],
+ "compiler_meta": {
+  "primary": {
+   "stage_alternatives_merged": 0,
+   "model": "openai/gpt-oss-120b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 8,
+   "repaired": false,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 12
+  },
+  "single_model": true
+ }
+}

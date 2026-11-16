@@ -1,0 +1,129 @@
+{
+  "source": "experiments/results/_cache/experiment_testing_data_advisory_adapter.jsonl",
+  "n_scored": 265,
+  "ece": 0.2254,
+  "reliability_bins": [
+    {
+      "bin": "[0.0,0.1)",
+      "n": 0,
+      "mean_conf": null,
+      "accuracy": null
+    },
+    {
+      "bin": "[0.1,0.2)",
+      "n": 0,
+      "mean_conf": null,
+      "accuracy": null
+    },
+    {
+      "bin": "[0.2,0.3)",
+      "n": 0,
+      "mean_conf": null,
+      "accuracy": null
+    },
+    {
+      "bin": "[0.3,0.4)",
+      "n": 0,
+      "mean_conf": null,
+      "accuracy": null
+    },
+    {
+      "bin": "[0.4,0.5)",
+      "n": 0,
+      "mean_conf": null,
+      "accuracy": null
+    },
+    {
+      "bin": "[0.5,0.6)",
+      "n": 93,
+      "mean_conf": 0.5882,
+      "accuracy": 0.9355
+    },
+    {
+      "bin": "[0.6,0.7)",
+      "n": 51,
+      "mean_conf": 0.6081,
+      "accuracy": 0.9216
+    },
+    {
+      "bin": "[0.7,0.8)",
+      "n": 0,
+      "mean_conf": null,
+      "accuracy": null
+    },
+    {
+      "bin": "[0.8,0.9)",
+      "n": 121,
+      "mean_conf": 0.8476,
+      "accuracy": 0.9421
+    },
+    {
+      "bin": "[0.9,1.0)",
+      "n": 0,
+      "mean_conf": null,
+      "accuracy": null
+    }
+  ],
+  "accuracy_coverage": [
+    {
+      "coverage": 1.0,
+      "n_kept": 265,
+      "accuracy": 0.9358,
+      "min_confidence_kept": 0.542
+    },
+    {
+      "coverage": 0.9,
+      "n_kept": 238,
+      "accuracy": 0.9454,
+      "min_confidence_kept": 0.587
+    },
+    {
+      "coverage": 0.8,
+      "n_kept": 212,
+      "accuracy": 0.9387,
+      "min_confidence_kept": 0.593
+    },
+    {
+      "coverage": 0.7,
+      "n_kept": 186,
+      "accuracy": 0.9409,
+      "min_confidence_kept": 0.597
+    },
+    {
+      "coverage": 0.6,
+      "n_kept": 159,
+      "accuracy": 0.9371,
+      "min_confidence_kept": 0.606
+    },
+    {
+      "coverage": 0.5,
+      "n_kept": 132,
+      "accuracy": 0.9318,
+      "min_confidence_kept": 0.616
+    },
+    {
+      "coverage": 0.4,
+      "n_kept": 106,
+      "accuracy": 0.9434,
+      "min_confidence_kept": 0.837
+    },
+    {
+      "coverage": 0.3,
+      "n_kept": 80,
+      "accuracy": 0.9375,
+      "min_confidence_kept": 0.844
+    },
+    {
+      "coverage": 0.2,
+      "n_kept": 53,
+      "accuracy": 0.9245,
+      "min_confidence_kept": 0.848
+    },
+    {
+      "coverage": 0.1,
+      "n_kept": 26,
+      "accuracy": 1.0,
+      "min_confidence_kept": 0.856
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+{
+ "0428ad8fbf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "09450c1c3f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0b13d8acfc": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0eced6343d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0f0113763c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "138fcc299a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "14ccca429b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "15780bb50c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "181e2488d6": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1954c8cd9e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "19f5f187ba": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1b28a88218": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1c08625348": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no pulmonary symptoms reported"
+ },
+ "1c471f0cdf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1cf28e1816": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "brain metastases stable >4 weeks, no seizures"
+ },
+ "219dda41bf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "22cbeba2df": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no cardiovascular illness reported"
+ },
+ "23a3975a51": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "histology is melanoma, not squamous"
+ },
+ "3214e094a9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "creatinine 1.0 mg/dL, GFR not provided"
+ },
+ "326eb9a56d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "no effusions mentioned"
+ },
+ "37c47ce2e6": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no concurrent chemo/radiotherapy"
+ },
+ "392a1db9a8": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "BP <160/100, controlled"
+ },
+ "3fa18231c7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4596f844ee": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "weight loss not mentioned"
+ },
+ "45efc74ffc": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "47b67aac0d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4b19439e6a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4f3d13abde": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "52e6fd591a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5609066147": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "57a1ea1786": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "histologic tissue available for testing"
+ },
+ "57f215524f": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "AST and ALT are \u22642.5\u00d7 ULN, not \u22641.5\u00d7 ULN"
+ },
+ "58ad59eeeb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5e642fce93": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5f2280bd85": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5f3cd03d17": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5fb33fb177": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "63666f1e06": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "63d9186a90": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "68afda86d2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6b86bdf53c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "735248f9e2": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "blood pressure well controlled (<160/100)"
+ },
+ "737b54e3c4": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "metastatic melanoma stage IV"
+ },
+ "75d0bbed35": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "male, not breastfeeding"
+ },
+ "77559690b3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "77e3c3ce01": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7819938ed7": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "bilirubin 0.8 mg/dL \u22641.5\u00d7ULN"
+ },
+ "7958c72354": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7cf156c60a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "84349afe6d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "87caa41a10": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "89703d1bf5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8baf4030d0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9043577532": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "951b724896": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "95b3a5b806": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "96fa7c3da5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9bbd0d3594": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a3ea1eaeed": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "afc95f6de7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b0d21da406": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "bilirubin 0.8, AST/ALT \u22642.5 ULN"
+ },
+ "b51015e898": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "alkaline phosphatase 2.5 ULN, no bone metastases"
+ },
+ "b5abb35350": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "bcd56a8d6e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c17e594f47": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c5483a2e0a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c9b144d97e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c9b41e1d41": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c9b52978e3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cd7fa4572d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d18e15a3c0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d267fdcf55": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "dddfd19b19": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no radiation within 6 months"
+ },
+ "e5870e9c1d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e5b037e0c5": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "prior systemic therapy completed"
+ },
+ "e931a069eb": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no hazardous conditions"
+ },
+ "ed2ced1956": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f5957b77c8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f5c51f69e5": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "zero systemic corticosteroids"
+ }
+}

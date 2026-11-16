@@ -1,0 +1,1327 @@
+{
+ "trial_id": "NCT01948141",
+ "atoms": [
+  {
+   "id": "c0A0",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Patients with advanced histologically proven squamous cell carcinoma of the lung",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "cancer_type",
+   "op": null,
+   "value": null,
+   "values": [
+    "nsclc"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What type of lung cancer does the patient have?"
+  },
+  {
+   "id": "c0A1",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Patients with advanced histologically proven squamous cell carcinoma of the lung",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "histology",
+   "op": null,
+   "value": null,
+   "values": [
+    "squamous"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the histology of the tumor?"
+  },
+  {
+   "id": "c0A2",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Patients with advanced histologically proven squamous cell carcinoma of the lung",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "stage_group",
+   "op": null,
+   "value": null,
+   "values": [
+    "IIIB",
+    "IIIC",
+    "IV"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the disease stage IIIB, IIIC, or IV (advanced)?"
+  },
+  {
+   "id": "c0A3",
+   "type": "COUNT",
+   "polarity": "inclusion",
+   "source_line": "Patients who have failed at least 1 systemic chemotherapy regimen for metastatic disease, but not more than 2 regimens",
+   "lines": [
+    2
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": ">=",
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "chemo"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": 1.0,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "How many prior systemic chemotherapy regimens has the patient received?"
+  },
+  {
+   "id": "c0A4",
+   "type": "COUNT",
+   "polarity": "inclusion",
+   "source_line": "Patients who have failed at least 1 systemic chemotherapy regimen for metastatic disease, but not more than 2 regimens",
+   "lines": [
+    2
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": "<=",
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "chemo"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": 2.0,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient received no more than two prior systemic chemotherapy regimens?"
+  },
+  {
+   "id": "c0A5",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Eastern Cooperative Oncology Group (ECOG) performance status of =< 1",
+   "lines": [
+    3
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "ecog",
+   "op": "<=",
+   "value": 1,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient's ECOG performance status?"
+  },
+  {
+   "id": "c0A6",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "The pathologic tissue is available to determine FGFR1 amplification status",
+   "lines": [
+    4
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Pathologic tissue is available for FGFR1 amplification testing",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Is adequate tumor tissue available for FGFR1 testing?"
+  },
+  {
+   "id": "c0A7",
+   "type": "IS",
+   "polarity": "inclusion",
+   "source_line": "Presence of either evaluable disease or measurable disease as defined by Response Evaluation Criteria in Solid Tumors (RECIST) 1.1",
+   "lines": [
+    5
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "measurable_disease",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have measurable disease per RECIST 1.1?"
+  },
+  {
+   "id": "c0A8",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Absolute neutrophil count (ANC) >= 1500/uL",
+   "lines": [
+    6
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "anc_k_ul",
+   "op": ">=",
+   "value": 1.5,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient's absolute neutrophil count (×10³/µL)?"
+  },
+  {
+   "id": "c0A9",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Hemoglobin (HgB) >= 9 g/dL",
+   "lines": [
+    7
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "hemoglobin_g_dl",
+   "op": ">=",
+   "value": 9,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient's hemoglobin level (g/dL)?"
+  },
+  {
+   "id": "c0A10",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Platelets >= 100,000/uL",
+   "lines": [
+    8
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "platelets_k_ul",
+   "op": ">=",
+   "value": 100,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient's platelet count (×10³/µL)?"
+  },
+  {
+   "id": "c0A11",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Total bilirubin =< upper limit of normal (ULN)",
+   "lines": [
+    9
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "bilirubin_xuln",
+   "op": "<=",
+   "value": 1,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient's total bilirubin ≤ upper limit of normal?"
+  },
+  {
+   "id": "c0A12",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Alanine aminotransferase (ALT) and aspartate aminotransferase (AST) =< 1.5 x ULN (ALT and AST =< 2.5 x ULN is acceptable if there is liver metastasis)",
+   "lines": [
+    10
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "ALT and AST ≤1.5 × ULN (≤2.5 × ULN acceptable if liver metastasis)",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Are ALT and AST within the allowed limits?"
+  },
+  {
+   "id": "c0A13",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Calculated or measured creatinine clearance >= 45 mL/min",
+   "lines": [
+    11
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "crcl_ml_min",
+   "op": ">=",
+   "value": 45,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient's creatinine clearance (mL/min)?"
+  },
+  {
+   "id": "c0A14",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "Patients of child-bearing potential must agree to use acceptable contraceptive methods (e.g., double barrier) during treatment and have a negative serum or urine pregnancy test done =< 7 days prior to registration (for women of childbearing potential only)",
+   "lines": [
+    12
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Patient agrees to use acceptable contraception and has a negative pregnancy test ≤7 days before registration",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Has the patient provided contraception agreement and a recent negative pregnancy test?"
+  },
+  {
+   "id": "c0A15",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Life expectancy >= 12 weeks",
+   "lines": [
+    13
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "life_expectancy_months",
+   "op": ">=",
+   "value": 2.762,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Is the patient's estimated life expectancy at least 12 weeks?"
+  },
+  {
+   "id": "c0A16",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "Willingness to provide the blood specimens as required by the protocol; please note that the willingness to participate pertains only to the patient and does not factor in the institution's ability to participate in any part of the translational component",
+   "lines": [
+    14
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Willingness to provide required blood specimens",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Is the patient willing to provide blood specimens as required?"
+  },
+  {
+   "id": "c0A17",
+   "type": "IN",
+   "polarity": "exclusion",
+   "source_line": "Patients with any known endothelial growth factor receptor (EGFR) mutation and/or anaplastic lymphoma receptor tyrosine kinase (ALK) translocation",
+   "lines": [
+    15
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "egfr",
+   "op": null,
+   "value": null,
+   "values": [
+    "positive"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have a known EGFR mutation?"
+  },
+  {
+   "id": "c0A18",
+   "type": "IN",
+   "polarity": "exclusion",
+   "source_line": "Patients with any known endothelial growth factor receptor (EGFR) mutation and/or anaplastic lymphoma receptor tyrosine kinase (ALK) translocation",
+   "lines": [
+    15
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "alk",
+   "op": null,
+   "value": null,
+   "values": [
+    "positive"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have a known ALK translocation?"
+  },
+  {
+   "id": "c0A19",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Symptomatic, untreated, or uncontrolled central nervous system (CNS) metastases or seizure disorder; patients with asymptomatic CNS metastases treated with whole brain radiation (WBRT) or gamma knife radiosurgery (GKR) may be enrolled >= 1 week after completion of WBRT/GKR provided toxicities are =< Common Toxicity Criteria (CTC) grade I at the time of registration and/or controlled with dexamethasone 2 mg once daily for at least 5 days at the time of study treatment; patients with symptomatic CNS metastases treated with WBRT/GKR may be enrolled >= 2 weeks after completion of WBRT/GKR provided toxicities are =< CTC grade 1 at the time of registration and neurologic symptoms controlled with dexamethasone =< 2 mg once daily for at least 1 week at the time of study treatment",
+   "lines": [
+    16
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Symptomatic, untreated, or uncontrolled CNS metastases or seizure disorder; restrictions on timing after WBRT/GKR and steroid control",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have symptomatic or uncontrolled CNS disease or fail the post‑radiation timing/steroid criteria?"
+  },
+  {
+   "id": "c0A20",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Patients receiving palliative radiation to skeletal metastases may be registered as early as 1 week after completion of radiation therapy provided toxicities are =< CTC grade I at the time of registration",
+   "lines": [
+    17
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Palliative radiation to skeletal metastases within 1 week of registration with toxicity > grade I",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient received palliative skeletal radiation within 1 week with toxicity > grade I?"
+  },
+  {
+   "id": "c0A21",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "Any of the following prior therapies for malignancy:",
+   "lines": [
+    18
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Any of the following prior therapies for malignancy (see lines 19‑22)",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient received any of the listed prior therapies?"
+  },
+  {
+   "id": "c0A22",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "Systemic chemotherapy =< 4 weeks prior to registration",
+   "lines": [
+    19
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "chemo"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.921,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient received systemic chemotherapy within the past 4 weeks?"
+  },
+  {
+   "id": "c0A23",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "Radiation therapy =< 4 weeks prior to registration (exceptions noted in the prior bullet); the site of previous radiotherapy should have evidence of progressive disease if this is the only site of disease",
+   "lines": [
+    20
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "radio"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.921,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient received radiation therapy within the past 4 weeks?"
+  },
+  {
+   "id": "c0A24",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "Major surgery (i.e., laparotomy), open biopsy, or significant traumatic injury =< 4 weeks prior to registration; minor surgery =< 2 weeks prior to registration; insertion of a vascular access device is not considered major or minor surgery in this regard",
+   "lines": [
+    21
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "surgery"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.921,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient undergone major surgery (or laparotomy) within the past 4 weeks?"
+  },
+  {
+   "id": "c0A25",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "Major surgery (i.e., laparotomy), open biopsy, or significant traumatic injury =< 4 weeks prior to registration; minor surgery =< 2 weeks prior to registration; insertion of a vascular access device is not considered major or minor surgery in this regard",
+   "lines": [
+    21
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "surgery"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.46,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient undergone minor surgery within the past 2 weeks?"
+  },
+  {
+   "id": "c0A26",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "Other investigational agent =< 30 days prior to study treatment",
+   "lines": [
+    22
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "other"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.987,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient received another investigational agent within the past 30 days?"
+  },
+  {
+   "id": "c1A0",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "The following patients will be excluded from this study:",
+   "lines": [
+    23
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "exclusion criteria header",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c1A1",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Pregnant women",
+   "lines": [
+    24
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "pregnant",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient currently pregnant?"
+  },
+  {
+   "id": "c1A2",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Breastfeeding women",
+   "lines": [
+    25
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Breastfeeding woman",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient currently breastfeeding?"
+  },
+  {
+   "id": "c1A3",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Men or women who are sexually active and unwilling to use a medically acceptable method of contraception (e.g., such as implants, injectables, combined oral contraceptives, some intrauterine devices or vasectomized partner for participating females, condoms for participating males) during the trial and for at least three months after end of active therapy; a highly effective method of birth control is defined as one which results in a low failure rate (i.e., less than 1% per year) when used consistently and correctly; patients will be considered to be of childbearing potential unless surgically sterilized by hysterectomy or bilateral tubal ligation/salpingectomy, or post-menopausal for at least 2 years",
+   "lines": [
+    26
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Requires medically acceptable contraception for women of childbearing potential",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient of childbearing potential and using a medically acceptable method of contraception?"
+  },
+  {
+   "id": "c1A4",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Second primary malignancy with the following exceptions which are allowed: | Carcinoma in situ of the cervix | Non-melanoma skin cancer | History of low-grade (Gleason score =< 6) localized prostate cancer even if diagnosed < 5 years prior to registration | Treated stage I breast cancer even if diagnosed =< 5 years prior to registration | Other prior malignancy (including melanoma) allowed if it was diagnosed and definitively treated at least 5 years previously with no subsequent evidence of recurrence",
+   "lines": [
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Second primary malignancy not among allowed exceptions",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have a second primary malignancy that is not one of the allowed exceptions?"
+  },
+  {
+   "id": "c1A5",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Impairment of gastrointestinal function or gastrointestinal disease that may significantly alter the absorption of BIBF 1120 (e.g., ulcerative disease, uncontrolled nausea, vomiting, diarrhea, malabsorption syndrome or extensive small bowel resection)",
+   "lines": [
+    33
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Gastrointestinal disease that may significantly alter absorption of the study drug",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have gastrointestinal disease that could significantly alter absorption of the investigational agent?"
+  },
+  {
+   "id": "c1A6",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Leptomeningeal disease",
+   "lines": [
+    34
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Leptomeningeal disease",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is there evidence of leptomeningeal disease?"
+  },
+  {
+   "id": "c1A7",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Human immunodeficiency virus (HIV)-positive patients receiving combination anti-retroviral therapy are excluded because of possible pharmacokinetic interactions with oral investigational agents",
+   "lines": [
+    35
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "HIV‑positive patient receiving combination antiretroviral therapy",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient HIV‑positive and receiving combination antiretroviral therapy?"
+  },
+  {
+   "id": "c1A8",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Unwilling to, or unable to, comply with the protocol",
+   "lines": [
+    36
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Unwilling or unable to comply with the protocol",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Is the patient unwilling or unable to comply with the protocol?"
+  },
+  {
+   "id": "c1A9",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Uncontrolled intercurrent illness including, but not limited to ongoing or active infection requiring systemic antimicrobial therapy (including history of active or chronic hepatitis C and/or hepatitis B infection), significant pulmonary symptoms at baseline due to disease, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements",
+   "lines": [
+    37
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "active_infection",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Is the patient currently on systemic antimicrobial therapy for an active infection?"
+  },
+  {
+   "id": "c1A10",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Uncontrolled intercurrent illness including, but not limited to ongoing or active infection requiring systemic antimicrobial therapy (including history of active or chronic hepatitis C and/or hepatitis B infection), significant pulmonary symptoms at baseline due to disease, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements",
+   "lines": [
+    37
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "chf",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Does the patient have symptomatic congestive heart failure?"
+  },
+  {
+   "id": "c1A11",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Uncontrolled intercurrent illness including, but not limited to ongoing or active infection requiring systemic antimicrobial therapy (including history of active or chronic hepatitis C and/or hepatitis B infection), significant pulmonary symptoms at baseline due to disease, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements",
+   "lines": [
+    37
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "unstable_angina",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Does the patient have unstable angina?"
+  },
+  {
+   "id": "c1A12",
+   "type": "IN",
+   "polarity": "exclusion",
+   "source_line": "Uncontrolled intercurrent illness including, but not limited to ongoing or active infection requiring systemic antimicrobial therapy (including history of active or chronic hepatitis C and/or hepatitis B infection), significant pulmonary symptoms at baseline due to disease, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements",
+   "lines": [
+    37
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "arrhythmia",
+   "op": null,
+   "value": null,
+   "values": [
+    "uncontrolled"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Does the patient have uncontrolled cardiac arrhythmia?"
+  },
+  {
+   "id": "c1A13",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Uncontrolled intercurrent illness including, but not limited to ongoing or active infection requiring systemic antimicrobial therapy (including history of active or chronic hepatitis C and/or hepatitis B infection), significant pulmonary symptoms at baseline due to disease, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements",
+   "lines": [
+    37
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Significant pulmonary symptoms at baseline due to disease",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have significant pulmonary symptoms at baseline due to disease?"
+  },
+  {
+   "id": "c1A14",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Uncontrolled intercurrent illness including, but not limited to ongoing or active infection requiring systemic antimicrobial therapy (including history of active or chronic hepatitis C and/or hepatitis B infection), significant pulmonary symptoms at baseline due to disease, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements",
+   "lines": [
+    37
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Psychiatric illness or social situation limiting compliance",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have psychiatric illness or a social situation that would limit compliance with study requirements?"
+  },
+  {
+   "id": "c1A15",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Centrally located tumors with radiographic evidence (computed tomography [CT] or magnetic resonance imaging [MRI]) of local invasion of major blood vessels",
+   "lines": [
+    38
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Centrally located tumor with radiographic invasion of major blood vessels",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Are there centrally located tumors with radiographic evidence of invasion of major blood vessels?"
+  },
+  {
+   "id": "c1A16",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Significant weight loss (> 10% of baseline body mass) within past 6 months prior to inclusion into the study",
+   "lines": [
+    39
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Weight loss >10% of baseline body mass within past 6 months",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient lost more than 10% of body weight in the past 6 months?"
+  },
+  {
+   "id": "c1A17",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Coagulation parameters: International normalized ratio (INR) > 2, prothrombin time (PT) and partial thromboplastin time (PTT) > 50% of deviation of institutional ULN",
+   "lines": [
+    40
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Coagulation abnormalities: INR >2 or PT/PTT >50% above ULN",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient’s INR >2 or PT/PTT >50% above the institutional upper limit of normal?"
+  },
+  {
+   "id": "c1A18",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Proteinuria by Common Terminology Criteria for Adverse Events (CTCAE) grade 2 or greater",
+   "lines": [
+    41
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Proteinuria CTCAE grade 2 or greater",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient’s proteinuria CTCAE grade 2 or higher?"
+  },
+  {
+   "id": "c1A19",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Known inherited predisposition to bleeding or thrombosis",
+   "lines": [
+    42
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Known inherited predisposition to bleeding or thrombosis",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have a known inherited predisposition to bleeding or thrombosis?"
+  },
+  {
+   "id": "c1A20",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Therapeutic anticoagulation (except for low-dose heparin and/or heparin flush as needed for maintenance of an in-dwelling intravenous device) or anti-platelet therapy (except for low-dose therapy with acetylsalicylic acid < 325 mg per day)",
+   "lines": [
+    43
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Therapeutic anticoagulation or antiplatelet therapy beyond low‑dose aspirin",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient on therapeutic anticoagulation or antiplatelet therapy beyond low‑dose aspirin (<325 mg/day)?"
+  },
+  {
+   "id": "c1A21",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Baseline hemoptysis, per clinician/investigator evaluation",
+   "lines": [
+    44
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Baseline hemoptysis",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have baseline hemoptysis?"
+  },
+  {
+   "id": "c2A0",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Active alcohol or drug abuse",
+   "lines": [
+    45
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "active alcohol or drug abuse",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Does the patient have active alcohol or drug abuse?"
+  },
+  {
+   "id": "c2A1",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "History of arterial or venous thrombotic/embolic events =< 12 months prior to registration",
+   "lines": [
+    46
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "arterial or venous thrombotic/embolic event within 12 months",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient had any arterial or venous thrombotic or embolic event within the past 12 months?"
+  },
+  {
+   "id": "c2A2",
+   "type": "HAS",
+   "polarity": "exclusion",
+   "source_line": "Prior history with BIBF 1120 or any other vascular endothelial growth factor (VEGF)/VEGF receptor (R) inhibitor",
+   "lines": [
+    47
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "antiangiogenic"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient previously received BIBF 1120 or any VEGF/VEGFR inhibitor?"
+  },
+  {
+   "id": "c2A3",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "New York Heart Association (NYHA) class III or IV; NOTE: patients classified as NYHA class II controlled with treatment may participate, with increased monitoring",
+   "lines": [
+    48
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "NYHA class III or IV",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "What is the patient's NYHA heart failure class?"
+  }
+ ],
+ "compiler_meta": {
+  "primary": {
+   "stage_alternatives_merged": 0,
+   "model": "openai/gpt-oss-120b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 48,
+   "repaired": true,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 53
+  },
+  "secondary": {
+   "stage_alternatives_merged": 0,
+   "model": "qwen/qwen3.8-27b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 48,
+   "repaired": true,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 53
+  },
+  "prompt_version": "compiler-v1.2",
+  "lines": 48,
+  "lines_exact_agree": 35,
+  "typed_atoms": 26,
+  "typed_atoms_agree": 19,
+  "downgraded_atoms": 7
+ }
+}

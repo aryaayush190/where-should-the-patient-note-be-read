@@ -1,0 +1,1917 @@
+{
+ "trial_id": "NCT01248247",
+ "atoms": [
+  {
+   "id": "c0A0",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "The subject has a diagnosis of pathologically confirmed NSCLC by tumor biopsy and/or fine-needle aspiration.",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "cancer_type",
+   "op": null,
+   "value": null,
+   "values": [
+    "nsclc"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient been diagnosed with non‑small cell lung cancer confirmed by pathology?"
+  },
+  {
+   "id": "c0A1",
+   "type": "ANY",
+   "polarity": "inclusion",
+   "source_line": "The subject has a diagnosis of either advanced, incurable stage IIIB or stage IV NSCLC, and failed at least one front-line metastatic NSCLC chemotherapy regimen, or EGFR TKI. (Subjects who have failed adjuvant or locally advanced therapy within 6 months are also eligible to participate in the study).",
+   "lines": [
+    2
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c0A1.0",
+     "type": "ALL",
+     "polarity": "inclusion",
+     "source_line": "",
+     "lines": [],
+     "section": null,
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [
+      {
+       "id": "c0A1.0.0",
+       "type": "IN",
+       "polarity": "inclusion",
+       "source_line": "",
+       "lines": [],
+       "section": null,
+       "cwa": false,
+       "field": "stage_group",
+       "op": null,
+       "value": null,
+       "values": [
+        "IIIB",
+        "IV"
+       ],
+       "filter": null,
+       "k": null,
+       "months": null,
+       "text": null,
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "record",
+       "question": "Is the disease stage IIIB or IV?"
+      },
+      {
+       "id": "c0A1.0.1",
+       "type": "ANY",
+       "polarity": "inclusion",
+       "source_line": "",
+       "lines": [],
+       "section": null,
+       "cwa": false,
+       "field": null,
+       "op": null,
+       "value": null,
+       "values": [],
+       "filter": null,
+       "k": null,
+       "months": null,
+       "text": null,
+       "children": [
+        {
+         "id": "c0A1.0.1.0",
+         "type": "HAS",
+         "polarity": "inclusion",
+         "source_line": "",
+         "lines": [],
+         "section": null,
+         "cwa": false,
+         "field": null,
+         "op": null,
+         "value": null,
+         "values": [],
+         "filter": {
+          "cls": [
+           "chemo"
+          ],
+          "agents": [],
+          "thoracic": null,
+          "setting": []
+         },
+         "k": null,
+         "months": null,
+         "text": null,
+         "children": [],
+         "downgraded": false,
+         "answerable_by": "record",
+         "question": "Has the patient received at least one front‑line metastatic chemotherapy regimen?"
+        },
+        {
+         "id": "c0A1.0.1.1",
+         "type": "HAS",
+         "polarity": "inclusion",
+         "source_line": "",
+         "lines": [],
+         "section": null,
+         "cwa": false,
+         "field": null,
+         "op": null,
+         "value": null,
+         "values": [],
+         "filter": {
+          "cls": [
+           "io"
+          ],
+          "agents": [
+           "egfr tki"
+          ],
+          "thoracic": null,
+          "setting": []
+         },
+         "k": null,
+         "months": null,
+         "text": null,
+         "children": [],
+         "downgraded": false,
+         "answerable_by": "record",
+         "question": "Has the patient received an EGFR tyrosine‑kinase inhibitor?"
+        }
+       ],
+       "downgraded": false,
+       "answerable_by": "record",
+       "question": null
+      }
+     ],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": null
+    },
+    {
+     "id": "c0A1.1",
+     "type": "WITHIN",
+     "polarity": "inclusion",
+     "source_line": "",
+     "lines": [],
+     "section": null,
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": {
+      "cls": [
+       "chemo",
+       "radio"
+      ],
+      "agents": [],
+      "thoracic": null,
+      "setting": [
+       "adjuvant",
+       "neoadjuvant",
+       "definitive",
+       "locally advanced"
+      ]
+     },
+     "k": null,
+     "months": 6.0,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Has the patient failed adjuvant or locally advanced therapy within the past 6 months?"
+    }
+   ],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c0A2",
+   "type": "IS",
+   "polarity": "inclusion",
+   "source_line": "The subject has measurable NSCLC (patients with active new disease growth in previously irradiated site are eligible).",
+   "lines": [
+    3
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "measurable_disease",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have measurable disease?"
+  },
+  {
+   "id": "c0A3",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "The subject's ECOG performance status is </= 2 at study entry.",
+   "lines": [
+    4
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "ecog",
+   "op": "<=",
+   "value": 2,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient’s ECOG performance status 0‑2?"
+  },
+  {
+   "id": "c0A4",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "The subject has biopsy accessible tumor",
+   "lines": [
+    5
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Biopsy‑accessible tumor",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Is a tumor site accessible for biopsy?"
+  },
+  {
+   "id": "c0A5",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "The subject has adequate hematologic function as defined by an absolute neutrophil count (ANC) >/= 1,500/mm3, platelet count >/= 100,000/mm3, WBC >/= 3,000/ mm3, and hemoglobin >/= 9 g/dL.",
+   "lines": [
+    6
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "anc_k_ul",
+   "op": ">=",
+   "value": 1.5,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the absolute neutrophil count ≥1,500/µL?"
+  },
+  {
+   "id": "c0A6",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "The subject has adequate hematologic function as defined by an absolute neutrophil count (ANC) >/= 1,500/mm3, platelet count >/= 100,000/mm3, WBC >/= 3,000/ mm3, and hemoglobin >/= 9 g/dL.",
+   "lines": [
+    6
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "platelets_k_ul",
+   "op": ">=",
+   "value": 100,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the platelet count ≥100,000/µL?"
+  },
+  {
+   "id": "c0A7",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "The subject has adequate hematologic function as defined by an absolute neutrophil count (ANC) >/= 1,500/mm3, platelet count >/= 100,000/mm3, WBC >/= 3,000/ mm3, and hemoglobin >/= 9 g/dL.",
+   "lines": [
+    6
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "wbc_k_ul",
+   "op": ">=",
+   "value": 3,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the white‑blood‑cell count ≥3,000/µL?"
+  },
+  {
+   "id": "c0A8",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "The subject has adequate hematologic function as defined by an absolute neutrophil count (ANC) >/= 1,500/mm3, platelet count >/= 100,000/mm3, WBC >/= 3,000/ mm3, and hemoglobin >/= 9 g/dL.",
+   "lines": [
+    6
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "hemoglobin_g_dl",
+   "op": ">=",
+   "value": 9,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the hemoglobin ≥9 g/dL?"
+  },
+  {
+   "id": "c0A9",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "The subject has adequate hepatic function as defined by a total bilirubin level </= 1.5 x the upper limit of normal (ULN) (bilirubin >/= 1.5 x ULN with known Gilbert's disease is allowed), and alkaline phosphatase, AST and ALT </= 2.5 x the upper limit of normal or </= 5.0 x ULN if liver metastases are present.",
+   "lines": [
+    7
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "bilirubin_xuln",
+   "op": "<=",
+   "value": 1.5,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is total bilirubin ≤1.5 × ULN?"
+  },
+  {
+   "id": "c0A10",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "The subject has adequate hepatic function as defined by a total bilirubin level </= 1.5 x the upper limit of normal (ULN) (bilirubin >/= 1.5 x ULN with known Gilbert's disease is allowed), and alkaline phosphatase, AST and ALT </= 2.5 x the upper limit of normal or </= 5.0 x ULN if liver metastases are present.",
+   "lines": [
+    7
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "ast_xuln",
+   "op": "<=",
+   "value": 2.5,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is AST ≤2.5 × ULN?"
+  },
+  {
+   "id": "c0A11",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "The subject has adequate hepatic function as defined by a total bilirubin level </= 1.5 x the upper limit of normal (ULN) (bilirubin >/= 1.5 x ULN with known Gilbert's disease is allowed), and alkaline phosphatase, AST and ALT </= 2.5 x the upper limit of normal or </= 5.0 x ULN if liver metastases are present.",
+   "lines": [
+    7
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "alt_xuln",
+   "op": "<=",
+   "value": 2.5,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is ALT ≤2.5 × ULN?"
+  },
+  {
+   "id": "c0A12",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "The subject has adequate hepatic function as defined by a total bilirubin level </= 1.5 x the upper limit of normal (ULN) (bilirubin >/= 1.5 x ULN with known Gilbert's disease is allowed), and alkaline phosphatase, AST and ALT </= 2.5 x the upper limit of normal or </= 5.0 x ULN if liver metastases are present.",
+   "lines": [
+    7
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "If liver metastases are present, AST/ALT ≤5 × ULN is acceptable",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have liver metastases that would permit a higher AST/ALT limit?"
+  },
+  {
+   "id": "c0A13",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "The subject has adequate hepatic function as defined by a total bilirubin level </= 1.5 x the upper limit of normal (ULN) (bilirubin >/= 1.5 x ULN with known Gilbert's disease is allowed), and alkaline phosphatase, AST and ALT </= 2.5 x the upper limit of normal or </= 5.0 x ULN if liver metastases are present.",
+   "lines": [
+    7
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Gilbert’s disease allows bilirubin ≥1.5 × ULN",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have known Gilbert’s disease?"
+  },
+  {
+   "id": "c0A14",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Serum creatinine clearance >50ml/min, either by Cockcroft-Gault formula or 24-hour urine collection analysis",
+   "lines": [
+    8
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "crcl_ml_min",
+   "op": ">",
+   "value": 50,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is creatinine clearance >50 mL/min?"
+  },
+  {
+   "id": "c0A15",
+   "type": "IF",
+   "polarity": "inclusion",
+   "source_line": "If subject has brain metastasis, they must have been stable (treated and/or asymptomatic) and off steroids for at least 2 weeks.",
+   "lines": [
+    9
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c0A15.0",
+     "type": "IN",
+     "polarity": "inclusion",
+     "source_line": "",
+     "lines": [],
+     "section": null,
+     "cwa": false,
+     "field": "brain_mets",
+     "op": null,
+     "value": null,
+     "values": [
+      "treated_stable",
+      "untreated_or_symptomatic"
+     ],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Does the patient have brain metastases?"
+    },
+    {
+     "id": "c0A15.1",
+     "type": "ALL",
+     "polarity": "inclusion",
+     "source_line": "",
+     "lines": [],
+     "section": null,
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [
+      {
+       "id": "c0A15.1.0",
+       "type": "IN",
+       "polarity": "inclusion",
+       "source_line": "",
+       "lines": [],
+       "section": null,
+       "cwa": false,
+       "field": "brain_mets",
+       "op": null,
+       "value": null,
+       "values": [
+        "treated_stable"
+       ],
+       "filter": null,
+       "k": null,
+       "months": null,
+       "text": null,
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "record",
+       "question": "If brain metastases are present, are they treated and stable?"
+      },
+      {
+       "id": "c0A15.1.1",
+       "type": "IS",
+       "polarity": "inclusion",
+       "source_line": "",
+       "lines": [],
+       "section": null,
+       "cwa": false,
+       "field": "steroids_systemic",
+       "op": null,
+       "value": false,
+       "values": [],
+       "filter": null,
+       "k": null,
+       "months": null,
+       "text": null,
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "record",
+       "question": "Is the patient off systemic steroids for at least 2 weeks?"
+      }
+     ],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": null
+    }
+   ],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c0A16",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "The subject is >/=18 years of age.",
+   "lines": [
+    10
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "age",
+   "op": ">=",
+   "value": 18,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient at least 18 years old?"
+  },
+  {
+   "id": "c0A17",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "The subject has signed informed consent.",
+   "lines": [
+    11
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Signed informed consent",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Has the patient signed the informed consent form?"
+  },
+  {
+   "id": "c0A18",
+   "type": "IF",
+   "polarity": "inclusion",
+   "source_line": "The subject is eligible if disease free from a previously treated malignancy, other than a previous NSCLC, for greater than two years. Subject with a history of prior basal cell carcinoma of the skin or pre-invasive carcinoma of the cervix are allowed.",
+   "lines": [
+    12
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c0A18.0",
+     "type": "IS",
+     "polarity": "inclusion",
+     "source_line": "",
+     "lines": [],
+     "section": null,
+     "cwa": false,
+     "field": "mi_history",
+     "op": null,
+     "value": true,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Does the patient have a history of another malignancy?"
+    },
+    {
+     "id": "c0A18.1",
+     "type": "CMP",
+     "polarity": "inclusion",
+     "source_line": "",
+     "lines": [],
+     "section": null,
+     "cwa": false,
+     "field": "mi_months_ago",
+     "op": ">=",
+     "value": 24,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Has it been at least 24 months since the prior malignancy was treated?"
+    }
+   ],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c0A19",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "The subject is eligible if disease free from a previously treated malignancy, other than a previous NSCLC, for greater than two years. Subject with a history of prior basal cell carcinoma of the skin or pre-invasive carcinoma of the cervix are allowed.",
+   "lines": [
+    12
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Prior basal cell carcinoma of skin or pre‑invasive cervical carcinoma are allowed",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have a prior basal cell carcinoma of the skin or pre‑invasive cervical carcinoma?"
+  },
+  {
+   "id": "c0A20",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Women of childbearing potential must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry and for the duration of study participation. Childbearing potential will be defined as women who have had menses within the past 12 months, who have not had tubal ligation, hysterectomy or bilateral oophorectomy. Should a woman become pregnant or suspect that she is pregnant while participating in this study, she should inform her treating physician immediately.",
+   "lines": [
+    13
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Women of childbearing potential must use adequate contraception",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Is the female patient of childbearing potential using effective contraception?"
+  },
+  {
+   "id": "c0A21",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "The subject, if a man, agrees to use effective contraception or abstinence while on study and for 90 days after last dose of study drug.",
+   "lines": [
+    14
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Male participants must use effective contraception or abstinence for 90 days after last dose",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Is the male patient using contraception or abstinent for 90 days after study drug?"
+  },
+  {
+   "id": "c0A22",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Subject is able to swallow capsules and has no surgical or anatomical condition that will preclude the patient from swallowing and absorbing oral medications on an ongoing basis.",
+   "lines": [
+    15
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Patient must be able to swallow capsules and have no condition precluding oral absorption",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Can the patient swallow capsules and has no surgical/anatomical condition that would prevent oral drug absorption?"
+  },
+  {
+   "id": "c0A23",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "The subject has received prior chemotherapy, surgery, or radiotherapy within 3 weeks of initiating study drug, or 4 weeks for bevacizumab or investigational drug or 72 hours for erlotinib or the subject has not recovered (</= Grade 1) from side effects of the prior therapy (localized palliative radiotherapy within 2 weeks is allowed).",
+   "lines": [
+    16
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "chemo"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.691,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient received chemotherapy within the past 3 weeks?"
+  },
+  {
+   "id": "c0A24",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "The subject has received prior chemotherapy, surgery, or radiotherapy within 3 weeks of initiating study drug, or 4 weeks for bevacizumab or investigational drug or 72 hours for erlotinib or the subject has not recovered (</= Grade 1) from side effects of the prior therapy (localized palliative radiotherapy within 2 weeks is allowed).",
+   "lines": [
+    16
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "surgery"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.691,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient undergone surgery within the past 3 weeks?"
+  },
+  {
+   "id": "c0A25",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "The subject has received prior chemotherapy, surgery, or radiotherapy within 3 weeks of initiating study drug, or 4 weeks for bevacizumab or investigational drug or 72 hours for erlotinib or the subject has not recovered (</= Grade 1) from side effects of the prior therapy (localized palliative radiotherapy within 2 weeks is allowed).",
+   "lines": [
+    16
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "radio"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.691,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient received radiotherapy within the past 3 weeks?"
+  },
+  {
+   "id": "c0A26",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "The subject has received prior chemotherapy, surgery, or radiotherapy within 3 weeks of initiating study drug, or 4 weeks for bevacizumab or investigational drug or 72 hours for erlotinib or the subject has not recovered (</= Grade 1) from side effects of the prior therapy (localized palliative radiotherapy within 2 weeks is allowed).",
+   "lines": [
+    16
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "antiangiogenic"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.921,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient received bevacizumab or another investigational anti‑angiogenic agent within the past 4 weeks?"
+  },
+  {
+   "id": "c0A27",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "The subject has received prior chemotherapy, surgery, or radiotherapy within 3 weeks of initiating study drug, or 4 weeks for bevacizumab or investigational drug or 72 hours for erlotinib or the subject has not recovered (</= Grade 1) from side effects of the prior therapy (localized palliative radiotherapy within 2 weeks is allowed).",
+   "lines": [
+    16
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "io"
+    ],
+    "agents": [
+     "erlotinib"
+    ],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.099,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient taken erlotinib within the past 72 hours?"
+  },
+  {
+   "id": "c0A28",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "The subject has received prior chemotherapy, surgery, or radiotherapy within 3 weeks of initiating study drug, or 4 weeks for bevacizumab or investigational drug or 72 hours for erlotinib or the subject has not recovered (</= Grade 1) from side effects of the prior therapy (localized palliative radiotherapy within 2 weeks is allowed).",
+   "lines": [
+    16
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Patient has not recovered (≤ Grade 1) from prior therapy side effects",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Has the patient recovered to ≤ Grade 1 from any prior therapy toxicities?"
+  },
+  {
+   "id": "c0A29",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "The subject has undergone prior thoracic or abdominal surgery within 30 days of study entry, excluding prior diagnostic biopsy.",
+   "lines": [
+    17
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "surgery"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.985,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient undergone thoracic or abdominal surgery within the past 30 days (excluding diagnostic biopsy)?"
+  },
+  {
+   "id": "c0A30",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "The subject has cardiac conditions as follows: uncontrolled hypertension BP > 140/90 despite optimal therapy, uncontrolled angina, ventricular arrhythmias, or congestive heart failure New York Heart Association Class II or above, baseline LVEF </= 50%, prior or current cardiomyopathy, atrial fibrillation with heart rate >100 bpm, unstable ischaemic heart disease (MI within 6 months prior to starting treatment, or angina requiring use of nitrates more than once weekly).",
+   "lines": [
+    18
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "unstable_angina",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have uncontrolled angina?"
+  },
+  {
+   "id": "c0A31",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "The subject has cardiac conditions as follows: uncontrolled hypertension BP > 140/90 despite optimal therapy, uncontrolled angina, ventricular arrhythmias, or congestive heart failure New York Heart Association Class II or above, baseline LVEF </= 50%, prior or current cardiomyopathy, atrial fibrillation with heart rate >100 bpm, unstable ischaemic heart disease (MI within 6 months prior to starting treatment, or angina requiring use of nitrates more than once weekly).",
+   "lines": [
+    18
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "chf",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have congestive heart failure (NYHA class II or higher)?"
+  },
+  {
+   "id": "c0A32",
+   "type": "IN",
+   "polarity": "exclusion",
+   "source_line": "The subject has cardiac conditions as follows: uncontrolled hypertension BP > 140/90 despite optimal therapy, uncontrolled angina, ventricular arrhythmias, or congestive heart failure New York Heart Association Class II or above, baseline LVEF </= 50%, prior or current cardiomyopathy, atrial fibrillation with heart rate >100 bpm, unstable ischaemic heart disease (MI within 6 months prior to starting treatment, or angina requiring use of nitrates more than once weekly).",
+   "lines": [
+    18
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "arrhythmia",
+   "op": null,
+   "value": null,
+   "values": [
+    "uncontrolled"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Does the patient have uncontrolled ventricular arrhythmias?"
+  },
+  {
+   "id": "c0A33",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "The subject has cardiac conditions as follows: uncontrolled hypertension BP > 140/90 despite optimal therapy, uncontrolled angina, ventricular arrhythmias, or congestive heart failure New York Heart Association Class II or above, baseline LVEF </= 50%, prior or current cardiomyopathy, atrial fibrillation with heart rate >100 bpm, unstable ischaemic heart disease (MI within 6 months prior to starting treatment, or angina requiring use of nitrates more than once weekly).",
+   "lines": [
+    18
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Baseline LVEF ≤50% or prior/current cardiomyopathy",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Is the patient’s left‑ventricular ejection fraction ≤50% or does he/she have cardiomyopathy?"
+  },
+  {
+   "id": "c0A34",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "The subject has cardiac conditions as follows: uncontrolled hypertension BP > 140/90 despite optimal therapy, uncontrolled angina, ventricular arrhythmias, or congestive heart failure New York Heart Association Class II or above, baseline LVEF </= 50%, prior or current cardiomyopathy, atrial fibrillation with heart rate >100 bpm, unstable ischaemic heart disease (MI within 6 months prior to starting treatment, or angina requiring use of nitrates more than once weekly).",
+   "lines": [
+    18
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Atrial fibrillation with heart rate >100 bpm",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have atrial fibrillation with a ventricular rate >100 bpm?"
+  },
+  {
+   "id": "c0A35",
+   "type": "IF",
+   "polarity": "exclusion",
+   "source_line": "The subject has cardiac conditions as follows: uncontrolled hypertension BP > 140/90 despite optimal therapy, uncontrolled angina, ventricular arrhythmias, or congestive heart failure New York Heart Association Class II or above, baseline LVEF </= 50%, prior or current cardiomyopathy, atrial fibrillation with heart rate >100 bpm, unstable ischaemic heart disease (MI within 6 months prior to starting treatment, or angina requiring use of nitrates more than once weekly).",
+   "lines": [
+    18
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c0A35.0",
+     "type": "IS",
+     "polarity": "inclusion",
+     "source_line": "",
+     "lines": [],
+     "section": null,
+     "cwa": false,
+     "field": "mi_history",
+     "op": null,
+     "value": true,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Has the patient had a myocardial infarction?"
+    },
+    {
+     "id": "c0A35.1",
+     "type": "CMP",
+     "polarity": "inclusion",
+     "source_line": "",
+     "lines": [],
+     "section": null,
+     "cwa": false,
+     "field": "mi_months_ago",
+     "op": "<",
+     "value": 6,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Did the myocardial infarction occur within the past 6 months?"
+    }
+   ],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c0A36",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "The subject has cardiac conditions as follows: uncontrolled hypertension BP > 140/90 despite optimal therapy, uncontrolled angina, ventricular arrhythmias, or congestive heart failure New York Heart Association Class II or above, baseline LVEF </= 50%, prior or current cardiomyopathy, atrial fibrillation with heart rate >100 bpm, unstable ischaemic heart disease (MI within 6 months prior to starting treatment, or angina requiring use of nitrates more than once weekly).",
+   "lines": [
+    18
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Uncontrolled hypertension (BP >140/90 despite optimal therapy)",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have uncontrolled hypertension (BP >140/90 despite therapy)?"
+  },
+  {
+   "id": "c0A37",
+   "type": "CMP",
+   "polarity": "exclusion",
+   "source_line": "The subject has neuropathy >/= grade 2",
+   "lines": [
+    19
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "neuropathy_grade",
+   "op": ">=",
+   "value": 2,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient’s neuropathy grade ≥2?"
+  },
+  {
+   "id": "c0A38",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "The subject is pregnant (confirmed by serum b-HCG if applicable) or is breastfeeding. In the event of inconclusive pregnancy test results, the investigator will have final determination of pregnancy status.",
+   "lines": [
+    20
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "pregnant",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient currently pregnant?"
+  },
+  {
+   "id": "c0A39",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Subjects will be excluded for other concurrent severe and/or uncontrolled medical disease which could compromise participation in the study (i.e., uncontrolled diabetes, severe infection requiring active treatment, severe malnutrition, chronic severe liver or renal disease).",
+   "lines": [
+    21
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Other severe/uncontrolled medical disease (e.g., uncontrolled diabetes, severe infection, severe malnutrition, chronic severe liver or renal disease)",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have any other severe or uncontrolled medical condition that could compromise participation?"
+  },
+  {
+   "id": "c0A40",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Refractory nausea and vomiting, chronic gastrointestinal diseases (e.g. inflammatory bowel disease), or significant bowel resection that would preclude adequate absorption",
+   "lines": [
+    22
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Refractory nausea/vomiting, chronic gastrointestinal disease, or significant bowel resection precluding absorption",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have refractory nausea/vomiting, chronic GI disease, or extensive bowel resection that would impair drug absorption?"
+  },
+  {
+   "id": "c1A0",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Subjects with poorly controlled diabetes (HbA1c >8%) are excluded.",
+   "lines": [
+    23
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "poorly controlled diabetes (HbA1c >8%)",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient's HbA1c greater than 8%?"
+  },
+  {
+   "id": "c1A1",
+   "type": "IF",
+   "polarity": "exclusion",
+   "source_line": "Subjects whose tumor harbors the EML4-ALK fusion gene are excluded unless the patient has failed treatment with Anaplastic Lymphoma Kinase (ALK) inhibitor.",
+   "lines": [
+    24
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c1A1.0",
+     "type": "IN",
+     "polarity": "exclusion",
+     "source_line": "Subjects whose tumor harbors the EML4-ALK fusion gene are excluded unless the patient has failed treatment with Anaplastic Lymphoma Kinase (ALK) inhibitor.",
+     "lines": [
+      24
+     ],
+     "section": "exclusion",
+     "cwa": false,
+     "field": "alk",
+     "op": null,
+     "value": null,
+     "values": [
+      "positive"
+     ],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": null
+    },
+    {
+     "id": "c1A1.1",
+     "type": "JUDGE",
+     "polarity": "exclusion",
+     "source_line": "Subjects whose tumor harbors the EML4-ALK fusion gene are excluded unless the patient has failed treatment with Anaplastic Lymphoma Kinase (ALK) inhibitor.",
+     "lines": [
+      24
+     ],
+     "section": "exclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": "patient has not failed ALK inhibitor treatment",
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Has the patient previously failed an ALK inhibitor therapy?"
+    }
+   ],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c1A2",
+   "type": "ANY",
+   "polarity": "exclusion",
+   "source_line": "Subjects are excluded if they have QTc prolongation >450 msec (Bazett's Formula) for males or >470 ms for females on screening or other factors that increase the risk of QT prolongation or arrhythmic events (e.g., heart failure, hypokalemia, family history of long QT interval syndrome) including heart failure that meets New York Heart Association (NYHA) class II or above or require use of a concomitant medication that can prolong the QT interval.",
+   "lines": [
+    25
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c1A2.0",
+     "type": "ALL",
+     "polarity": "exclusion",
+     "source_line": "Subjects are excluded if they have QTc prolongation >450 msec (Bazett's Formula) for males or >470 ms for females on screening or other factors that increase the risk of QT prolongation or arrhythmic events (e.g., heart failure, hypokalemia, family history of long QT interval syndrome) including heart failure that meets New York Heart Association (NYHA) class II or above or require use of a concomitant medication that can prolong the QT interval.",
+     "lines": [
+      25
+     ],
+     "section": "exclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [
+      {
+       "id": "c1A2.0.0",
+       "type": "IN",
+       "polarity": "exclusion",
+       "source_line": "Subjects are excluded if they have QTc prolongation >450 msec (Bazett's Formula) for males or >470 ms for females on screening or other factors that increase the risk of QT prolongation or arrhythmic events (e.g., heart failure, hypokalemia, family history of long QT interval syndrome) including heart failure that meets New York Heart Association (NYHA) class II or above or require use of a concomitant medication that can prolong the QT interval.",
+       "lines": [
+        25
+       ],
+       "section": "exclusion",
+       "cwa": false,
+       "field": "sex",
+       "op": null,
+       "value": null,
+       "values": [
+        "male"
+       ],
+       "filter": null,
+       "k": null,
+       "months": null,
+       "text": null,
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "record",
+       "question": null
+      },
+      {
+       "id": "c1A2.0.1",
+       "type": "CMP",
+       "polarity": "exclusion",
+       "source_line": "Subjects are excluded if they have QTc prolongation >450 msec (Bazett's Formula) for males or >470 ms for females on screening or other factors that increase the risk of QT prolongation or arrhythmic events (e.g., heart failure, hypokalemia, family history of long QT interval syndrome) including heart failure that meets New York Heart Association (NYHA) class II or above or require use of a concomitant medication that can prolong the QT interval.",
+       "lines": [
+        25
+       ],
+       "section": "exclusion",
+       "cwa": false,
+       "field": "qtc_ms",
+       "op": ">",
+       "value": 450,
+       "values": [],
+       "filter": null,
+       "k": null,
+       "months": null,
+       "text": null,
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "record",
+       "question": null
+      }
+     ],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": null
+    },
+    {
+     "id": "c1A2.1",
+     "type": "ALL",
+     "polarity": "exclusion",
+     "source_line": "Subjects are excluded if they have QTc prolongation >450 msec (Bazett's Formula) for males or >470 ms for females on screening or other factors that increase the risk of QT prolongation or arrhythmic events (e.g., heart failure, hypokalemia, family history of long QT interval syndrome) including heart failure that meets New York Heart Association (NYHA) class II or above or require use of a concomitant medication that can prolong the QT interval.",
+     "lines": [
+      25
+     ],
+     "section": "exclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [
+      {
+       "id": "c1A2.1.0",
+       "type": "IN",
+       "polarity": "exclusion",
+       "source_line": "Subjects are excluded if they have QTc prolongation >450 msec (Bazett's Formula) for males or >470 ms for females on screening or other factors that increase the risk of QT prolongation or arrhythmic events (e.g., heart failure, hypokalemia, family history of long QT interval syndrome) including heart failure that meets New York Heart Association (NYHA) class II or above or require use of a concomitant medication that can prolong the QT interval.",
+       "lines": [
+        25
+       ],
+       "section": "exclusion",
+       "cwa": false,
+       "field": "sex",
+       "op": null,
+       "value": null,
+       "values": [
+        "female"
+       ],
+       "filter": null,
+       "k": null,
+       "months": null,
+       "text": null,
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "record",
+       "question": null
+      },
+      {
+       "id": "c1A2.1.1",
+       "type": "CMP",
+       "polarity": "exclusion",
+       "source_line": "Subjects are excluded if they have QTc prolongation >450 msec (Bazett's Formula) for males or >470 ms for females on screening or other factors that increase the risk of QT prolongation or arrhythmic events (e.g., heart failure, hypokalemia, family history of long QT interval syndrome) including heart failure that meets New York Heart Association (NYHA) class II or above or require use of a concomitant medication that can prolong the QT interval.",
+       "lines": [
+        25
+       ],
+       "section": "exclusion",
+       "cwa": false,
+       "field": "qtc_ms",
+       "op": ">",
+       "value": 470,
+       "values": [],
+       "filter": null,
+       "k": null,
+       "months": null,
+       "text": null,
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "record",
+       "question": null
+      }
+     ],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": null
+    },
+    {
+     "id": "c1A2.2",
+     "type": "IS",
+     "polarity": "exclusion",
+     "source_line": "Subjects are excluded if they have QTc prolongation >450 msec (Bazett's Formula) for males or >470 ms for females on screening or other factors that increase the risk of QT prolongation or arrhythmic events (e.g., heart failure, hypokalemia, family history of long QT interval syndrome) including heart failure that meets New York Heart Association (NYHA) class II or above or require use of a concomitant medication that can prolong the QT interval.",
+     "lines": [
+      25
+     ],
+     "section": "exclusion",
+     "cwa": false,
+     "field": "chf",
+     "op": null,
+     "value": true,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": null
+    },
+    {
+     "id": "c1A2.3",
+     "type": "JUDGE",
+     "polarity": "exclusion",
+     "source_line": "Subjects are excluded if they have QTc prolongation >450 msec (Bazett's Formula) for males or >470 ms for females on screening or other factors that increase the risk of QT prolongation or arrhythmic events (e.g., heart failure, hypokalemia, family history of long QT interval syndrome) including heart failure that meets New York Heart Association (NYHA) class II or above or require use of a concomitant medication that can prolong the QT interval.",
+     "lines": [
+      25
+     ],
+     "section": "exclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": "use of concomitant QT-prolonging medication",
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Is the patient taking any medication that can prolong the QT interval?"
+    }
+   ],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c1A3",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Subjects who have abnormal K+ or Mg++ levels will be excluded if these levels cannot be corrected to within normal range with adequate supportive treatment prior to study drug initiation.",
+   "lines": [
+    26
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "abnormal potassium or magnesium levels that cannot be corrected to normal range",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Are the patient's potassium or magnesium levels abnormal and uncorrectable before study drug initiation?"
+  },
+  {
+   "id": "c1A4",
+   "type": "IF",
+   "polarity": "exclusion",
+   "source_line": "Subjects whose tumor harbors an EGFR mutation are excluded unless the subject failed treatment with EGFR TKIs in which case the subject can be randomized to Arms 2, 3, and 4.",
+   "lines": [
+    27
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c1A4.0",
+     "type": "IN",
+     "polarity": "exclusion",
+     "source_line": "Subjects whose tumor harbors an EGFR mutation are excluded unless the subject failed treatment with EGFR TKIs in which case the subject can be randomized to Arms 2, 3, and 4.",
+     "lines": [
+      27
+     ],
+     "section": "exclusion",
+     "cwa": false,
+     "field": "egfr",
+     "op": null,
+     "value": null,
+     "values": [
+      "positive"
+     ],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": null
+    },
+    {
+     "id": "c1A4.1",
+     "type": "JUDGE",
+     "polarity": "exclusion",
+     "source_line": "Subjects whose tumor harbors an EGFR mutation are excluded unless the subject failed treatment with EGFR TKIs in which case the subject can be randomized to Arms 2, 3, and 4.",
+     "lines": [
+      27
+     ],
+     "section": "exclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": "patient has not failed EGFR TKI therapy",
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Has the patient previously failed an EGFR TKI therapy?"
+    }
+   ],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c1A5",
+   "type": "HAS",
+   "polarity": "exclusion",
+   "source_line": "Drug Specific Eligibility Criteria based on Treatment Arms- Subjects are excluded from the erlotinib monotherapy arm if they have progressed on prior EGFR TKI therapy; from the AKT inhibitor arm(s) if they have received prior AKT inhibitor therapy; from the MEK inhibitor arm if they have received prior MEK inhibitor therapy; and from Sorafenib arm if they have previously received the drug or have prior history of clinically significant hemoptysis or bleeding diathesis as per principal investigator judgment.",
+   "lines": [
+    28
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "tki"
+    ],
+    "agents": [
+     "egfr inhibitor"
+    ],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c1A6",
+   "type": "HAS",
+   "polarity": "exclusion",
+   "source_line": "Drug Specific Eligibility Criteria based on Treatment Arms- Subjects are excluded from the erlotinib monotherapy arm if they have progressed on prior EGFR TKI therapy; from the AKT inhibitor arm(s) if they have received prior AKT inhibitor therapy; from the MEK inhibitor arm if they have received prior MEK inhibitor therapy; and from Sorafenib arm if they have previously received the drug or have prior history of clinically significant hemoptysis or bleeding diathesis as per principal investigator judgment.",
+   "lines": [
+    28
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "tki"
+    ],
+    "agents": [
+     "akt inhibitor"
+    ],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c1A7",
+   "type": "HAS",
+   "polarity": "exclusion",
+   "source_line": "Drug Specific Eligibility Criteria based on Treatment Arms- Subjects are excluded from the erlotinib monotherapy arm if they have progressed on prior EGFR TKI therapy; from the AKT inhibitor arm(s) if they have received prior AKT inhibitor therapy; from the MEK inhibitor arm if they have received prior MEK inhibitor therapy; and from Sorafenib arm if they have previously received the drug or have prior history of clinically significant hemoptysis or bleeding diathesis as per principal investigator judgment.",
+   "lines": [
+    28
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "tki"
+    ],
+    "agents": [
+     "mek inhibitor"
+    ],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c1A8",
+   "type": "HAS",
+   "polarity": "exclusion",
+   "source_line": "Drug Specific Eligibility Criteria based on Treatment Arms- Subjects are excluded from the erlotinib monotherapy arm if they have progressed on prior EGFR TKI therapy; from the AKT inhibitor arm(s) if they have received prior AKT inhibitor therapy; from the MEK inhibitor arm if they have received prior MEK inhibitor therapy; and from Sorafenib arm if they have previously received the drug or have prior history of clinically significant hemoptysis or bleeding diathesis as per principal investigator judgment.",
+   "lines": [
+    28
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "tki"
+    ],
+    "agents": [
+     "sorafenib"
+    ],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c1A9",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Drug Specific Eligibility Criteria based on Treatment Arms- Subjects are excluded from the erlotinib monotherapy arm if they have progressed on prior EGFR TKI therapy; from the AKT inhibitor arm(s) if they have received prior AKT inhibitor therapy; from the MEK inhibitor arm if they have received prior MEK inhibitor therapy; and from Sorafenib arm if they have previously received the drug or have prior history of clinically significant hemoptysis or bleeding diathesis as per principal investigator judgment.",
+   "lines": [
+    28
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "history of clinically significant hemoptysis or bleeding diathesis",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have a history of clinically significant hemoptysis or bleeding diathesis?"
+  }
+ ],
+ "compiler_meta": {
+  "primary": {
+   "stage_alternatives_merged": 0,
+   "model": "openai/gpt-oss-120b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 28,
+   "repaired": false,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 51
+  },
+  "secondary": {
+   "stage_alternatives_merged": 0,
+   "model": "qwen/qwen3.8-27b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 28,
+   "repaired": true,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 48
+  },
+  "prompt_version": "compiler-v1.2",
+  "lines": 28,
+  "lines_exact_agree": 15,
+  "typed_atoms": 34,
+  "typed_atoms_agree": 21,
+  "downgraded_atoms": 13
+ }
+}

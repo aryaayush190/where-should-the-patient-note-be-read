@@ -1,0 +1,2 @@
+# Copy to groq_keys.txt (git-ignored) and put one Groq API key per line.
+# Only needed to re-run experiments that call hosted models (Level 3 in README.md).

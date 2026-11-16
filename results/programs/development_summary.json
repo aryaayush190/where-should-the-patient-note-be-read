@@ -1,0 +1,461 @@
+{
+ "total": {
+  "lines": 723,
+  "atoms": 1001,
+  "typed_atoms": 522,
+  "typed_atoms_agree": 377,
+  "downgraded": 145,
+  "agreement_rate": 0.722
+ },
+ "trials": [
+  {
+   "trial_id": "NCT00250978",
+   "lines": 20,
+   "atoms": 32,
+   "typed_atoms": 17,
+   "typed_atoms_agree": 16,
+   "downgraded": 1,
+   "types": {
+    "CMP": 9,
+    "IN": 4,
+    "IS": 3,
+    "JUDGE": 14,
+    "UNSCREENABLE": 1,
+    "HAS": 1
+   },
+   "chunk_failures": [],
+   "secs": 0.5
+  },
+  {
+   "trial_id": "NCT00378573",
+   "lines": 22,
+   "atoms": 34,
+   "typed_atoms": 21,
+   "typed_atoms_agree": 13,
+   "downgraded": 8,
+   "types": {
+    "UNSCREENABLE": 1,
+    "IN": 4,
+    "IS": 2,
+    "HAS": 4,
+    "CMP": 8,
+    "JUDGE": 12,
+    "WITHIN": 3
+   },
+   "chunk_failures": [],
+   "secs": 0.5
+  },
+  {
+   "trial_id": "NCT00614822",
+   "lines": 35,
+   "atoms": 52,
+   "typed_atoms": 26,
+   "typed_atoms_agree": 19,
+   "downgraded": 7,
+   "types": {
+    "ANY": 2,
+    "IN": 4,
+    "IS": 4,
+    "SINCE": 1,
+    "UNSCREENABLE": 7,
+    "CMP": 9,
+    "HAS": 4,
+    "JUDGE": 19,
+    "WITHIN": 1,
+    "ALL": 1
+   },
+   "chunk_failures": [],
+   "secs": 0.5
+  },
+  {
+   "trial_id": "NCT00745732",
+   "lines": 45,
+   "atoms": 63,
+   "typed_atoms": 30,
+   "typed_atoms_agree": 18,
+   "downgraded": 12,
+   "types": {
+    "IN": 4,
+    "HAS": 5,
+    "JUDGE": 32,
+    "IS": 3,
+    "CMP": 11,
+    "IF": 1,
+    "ANY": 2,
+    "UNSCREENABLE": 1,
+    "WITHIN": 4
+   },
+   "chunk_failures": [],
+   "secs": 0.5
+  },
+  {
+   "trial_id": "NCT01416961",
+   "lines": 19,
+   "atoms": 29,
+   "typed_atoms": 18,
+   "typed_atoms_agree": 15,
+   "downgraded": 3,
+   "types": {
+    "ANY": 1,
+    "CMP": 11,
+    "JUDGE": 8,
+    "IN": 1,
+    "UNSCREENABLE": 3,
+    "HAS": 2,
+    "IS": 3
+   },
+   "chunk_failures": [],
+   "secs": 0.5
+  },
+  {
+   "trial_id": "NCT01507428",
+   "lines": 32,
+   "atoms": 37,
+   "typed_atoms": 16,
+   "typed_atoms_agree": 13,
+   "downgraded": 3,
+   "types": {
+    "JUDGE": 18,
+    "IN": 3,
+    "IF": 1,
+    "ANY": 1,
+    "CMP": 5,
+    "IS": 4,
+    "UNSCREENABLE": 3,
+    "HAS": 2
+   },
+   "chunk_failures": [],
+   "secs": 0.5
+  },
+  {
+   "trial_id": "NCT01753414",
+   "lines": 29,
+   "atoms": 35,
+   "typed_atoms": 13,
+   "typed_atoms_agree": 8,
+   "downgraded": 5,
+   "types": {
+    "IN": 3,
+    "JUDGE": 20,
+    "CMP": 3,
+    "IS": 4,
+    "UNSCREENABLE": 2,
+    "HAS": 3
+   },
+   "chunk_failures": [],
+   "secs": 0.4
+  },
+  {
+   "trial_id": "NCT00203931",
+   "lines": 24,
+   "atoms": 38,
+   "typed_atoms": 22,
+   "typed_atoms_agree": 15,
+   "downgraded": 7,
+   "types": {
+    "IN": 2,
+    "JUDGE": 14,
+    "CMP": 10,
+    "COUNT": 2,
+    "SINCE": 1,
+    "UNSCREENABLE": 2,
+    "IS": 5,
+    "HAS": 2
+   },
+   "chunk_failures": [],
+   "secs": 0.4
+  },
+  {
+   "trial_id": "NCT00215930",
+   "lines": 13,
+   "atoms": 40,
+   "typed_atoms": 23,
+   "typed_atoms_agree": 18,
+   "downgraded": 5,
+   "types": {
+    "IN": 4,
+    "ANY": 1,
+    "CMP": 10,
+    "UNSCREENABLE": 4,
+    "IS": 5,
+    "WITHIN": 2,
+    "JUDGE": 13,
+    "HAS": 1
+   },
+   "chunk_failures": [],
+   "secs": 0.4
+  },
+  {
+   "trial_id": "NCT00558636",
+   "lines": 36,
+   "atoms": 43,
+   "typed_atoms": 20,
+   "typed_atoms_agree": 17,
+   "downgraded": 3,
+   "types": {
+    "ANY": 1,
+    "IS": 3,
+    "WITHIN": 2,
+    "CMP": 10,
+    "JUDGE": 22,
+    "UNSCREENABLE": 1,
+    "HAS": 1,
+    "ALL": 1,
+    "IN": 2
+   },
+   "chunk_failures": [],
+   "secs": 0.4
+  },
+  {
+   "trial_id": "NCT01948141",
+   "lines": 48,
+   "atoms": 53,
+   "typed_atoms": 26,
+   "typed_atoms_agree": 19,
+   "downgraded": 7,
+   "types": {
+    "IN": 6,
+    "COUNT": 2,
+    "CMP": 7,
+    "JUDGE": 23,
+    "IS": 5,
+    "UNSCREENABLE": 4,
+    "WITHIN": 5,
+    "HAS": 1
+   },
+   "chunk_failures": [],
+   "secs": 0.4
+  },
+  {
+   "trial_id": "NCT02718066",
+   "lines": 28,
+   "atoms": 42,
+   "typed_atoms": 21,
+   "typed_atoms_agree": 15,
+   "downgraded": 6,
+   "types": {
+    "UNSCREENABLE": 5,
+    "CMP": 11,
+    "IN": 4,
+    "IF": 1,
+    "JUDGE": 16,
+    "IS": 2,
+    "SINCE": 1,
+    "ANY": 2
+   },
+   "chunk_failures": [],
+   "secs": 0.4
+  },
+  {
+   "trial_id": "NCT03110978",
+   "lines": 58,
+   "atoms": 68,
+   "typed_atoms": 26,
+   "typed_atoms_agree": 21,
+   "downgraded": 5,
+   "types": {
+    "IN": 4,
+    "JUDGE": 40,
+    "CMP": 6,
+    "HAS": 3,
+    "SINCE": 1,
+    "ANY": 3,
+    "IF": 5,
+    "UNSCREENABLE": 2,
+    "ALL": 1,
+    "IS": 3
+   },
+   "chunk_failures": [],
+   "secs": 0.4
+  },
+  {
+   "trial_id": "NCT03468985",
+   "lines": 97,
+   "atoms": 104,
+   "typed_atoms": 38,
+   "typed_atoms_agree": 23,
+   "downgraded": 15,
+   "types": {
+    "UNSCREENABLE": 13,
+    "IN": 12,
+    "HAS": 2,
+    "COUNT": 3,
+    "JUDGE": 53,
+    "IS": 4,
+    "WITHIN": 2,
+    "ANY": 5,
+    "IF": 1,
+    "CMP": 8,
+    "ALL": 1
+   },
+   "chunk_failures": [],
+   "secs": 0.3
+  },
+  {
+   "trial_id": "NCT04023617",
+   "lines": 26,
+   "atoms": 39,
+   "typed_atoms": 31,
+   "typed_atoms_agree": 25,
+   "downgraded": 6,
+   "types": {
+    "CMP": 11,
+    "IN": 5,
+    "IF": 3,
+    "COUNT": 1,
+    "IS": 7,
+    "UNSCREENABLE": 2,
+    "ANY": 2,
+    "WITHIN": 1,
+    "JUDGE": 6,
+    "ALL": 1
+   },
+   "chunk_failures": [],
+   "secs": 0.3
+  },
+  {
+   "trial_id": "NCT00409968",
+   "lines": 20,
+   "atoms": 32,
+   "typed_atoms": 21,
+   "typed_atoms_agree": 15,
+   "downgraded": 6,
+   "types": {
+    "IN": 1,
+    "ANY": 3,
+    "IS": 4,
+    "JUDGE": 10,
+    "CMP": 9,
+    "IF": 1,
+    "UNSCREENABLE": 1,
+    "WITHIN": 3
+   },
+   "chunk_failures": [],
+   "secs": 0.3
+  },
+  {
+   "trial_id": "NCT00410189",
+   "lines": 20,
+   "atoms": 31,
+   "typed_atoms": 22,
+   "typed_atoms_agree": 16,
+   "downgraded": 6,
+   "types": {
+    "IN": 1,
+    "ANY": 4,
+    "IS": 4,
+    "JUDGE": 8,
+    "CMP": 9,
+    "IF": 1,
+    "UNSCREENABLE": 1,
+    "WITHIN": 3
+   },
+   "chunk_failures": [],
+   "secs": 0.3
+  },
+  {
+   "trial_id": "NCT00410059",
+   "lines": 20,
+   "atoms": 34,
+   "typed_atoms": 22,
+   "typed_atoms_agree": 17,
+   "downgraded": 5,
+   "types": {
+    "IN": 2,
+    "ANY": 3,
+    "IS": 4,
+    "JUDGE": 10,
+    "CMP": 9,
+    "IF": 2,
+    "UNSCREENABLE": 2,
+    "WITHIN": 2
+   },
+   "chunk_failures": [],
+   "secs": 0.3
+  },
+  {
+   "trial_id": "NCT00411632",
+   "lines": 20,
+   "atoms": 33,
+   "typed_atoms": 22,
+   "typed_atoms_agree": 16,
+   "downgraded": 6,
+   "types": {
+    "IN": 2,
+    "COUNT": 1,
+    "IS": 3,
+    "ANY": 3,
+    "JUDGE": 10,
+    "CMP": 9,
+    "IF": 2,
+    "UNSCREENABLE": 1,
+    "WITHIN": 2
+   },
+   "chunk_failures": [],
+   "secs": 0.2
+  },
+  {
+   "trial_id": "NCT00826449",
+   "lines": 41,
+   "atoms": 59,
+   "typed_atoms": 25,
+   "typed_atoms_agree": 17,
+   "downgraded": 8,
+   "types": {
+    "IN": 2,
+    "UNSCREENABLE": 3,
+    "CMP": 10,
+    "JUDGE": 31,
+    "HAS": 2,
+    "COUNT": 2,
+    "ANY": 2,
+    "IS": 4,
+    "IF": 2,
+    "WITHIN": 1
+   },
+   "chunk_failures": [],
+   "secs": 0.2
+  },
+  {
+   "trial_id": "NCT01248247",
+   "lines": 28,
+   "atoms": 51,
+   "typed_atoms": 34,
+   "typed_atoms_agree": 21,
+   "downgraded": 13,
+   "types": {
+    "IN": 2,
+    "ANY": 2,
+    "IS": 4,
+    "CMP": 11,
+    "JUDGE": 16,
+    "IF": 5,
+    "UNSCREENABLE": 1,
+    "WITHIN": 6,
+    "HAS": 4
+   },
+   "chunk_failures": [],
+   "secs": 0.2
+  },
+  {
+   "trial_id": "NCT03058094",
+   "lines": 42,
+   "atoms": 52,
+   "typed_atoms": 28,
+   "typed_atoms_agree": 20,
+   "downgraded": 8,
+   "types": {
+    "CMP": 11,
+    "IN": 7,
+    "JUDGE": 19,
+    "HAS": 2,
+    "IS": 3,
+    "UNSCREENABLE": 5,
+    "SINCE": 2,
+    "WITHIN": 3
+   },
+   "chunk_failures": [],
+   "secs": 0.2
+  }
+ ]
+}

@@ -1,0 +1,477 @@
+{
+ "05bb393470": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "08bb050321": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "disease progressed after platinum chemo"
+ },
+ "0b14ee31a9": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no uncontrolled seizures or intracranial hypertension"
+ },
+ "0c5f7f1f65": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1007c30ae2": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "last chemo 4 months ago, >3 months"
+ },
+ "1051afa86a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "122dd43b9f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "brain mets measurable"
+ },
+ "1399f65557": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "154fdc6f4e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "19b80e7231": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1d98b9d186": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no prior EGFR TKI, washout satisfied"
+ },
+ "1dc08cb25f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1e2d5dd2a1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "22ebe27acf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "26b14ea1f2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "298f0ceeb2": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior local brain treatment, no progression"
+ },
+ "2f36628671": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "363310d974": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3686dd4cd4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3698667849": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "37de5b69fe": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "44828ee002": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior radiation"
+ },
+ "48f24f06b1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4db6714c89": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4e6c4480a9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "508a8ed716": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "patient has stage IV disease"
+ },
+ "50d1243369": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "58e871d944": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "normal organ function"
+ },
+ "5c32b40b00": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5fb33fb177": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "61dd553133": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "PS1 implies ECOG 0-1"
+ },
+ "62adbf5d60": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "last chemo 4 months ago"
+ },
+ "67f461d0f2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "683029b89d": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior brain RT"
+ },
+ "6af738264a": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no CYP3A4/5 interacting meds"
+ },
+ "6cf13fb718": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no hemorrhagic/thrombotic events"
+ },
+ "7409f4f0ba": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no whole-brain radiotherapy"
+ },
+ "74cd22dc9d": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "asymptomatic untreated brain metastases"
+ },
+ "7863357e5e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "78a9111b8b": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no prior HER\u2011axis therapy"
+ },
+ "79088b98fb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7caa314d2f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7d78c2bc5e": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no recent radiotherapy"
+ },
+ "81d272ec22": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "86b1a1ffe7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "895b6834d8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "900138caef": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "stage IV disease, not stage IA2"
+ },
+ "91e39899f5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "life expectancy >3 months, but not >6"
+ },
+ "949ea603c8": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "last chemo dose 4 months ago, >28 days washout, toxicities resolved"
+ },
+ "97a2f6d3c5": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "patient has had prior chemo"
+ },
+ "997db60674": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9b13285bc0": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "brain mets stable >28 days, asymptomatic, no steroids"
+ },
+ "9ecdb12dc7": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "bilirubin 0.5 mg/dL, ALT/AST normal"
+ },
+ "a0bb93f5d7": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "received prior chemo, not only adjuvant"
+ },
+ "a5b827a3f4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a8aa01fb3f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a8fa5265a7": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no major surgery or trauma in past 4 weeks"
+ },
+ "b8d9688e9e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b9d0f306b1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "bac32f378a": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no mention of hilar/mediastinal nodes"
+ },
+ "bc0ddab82f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "bef6c682ea": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "has distant brain metastases"
+ },
+ "c096d1c8f1": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Stage IV disease not resectable"
+ },
+ "c58fbaf42a": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "T790M mutation negative"
+ },
+ "c67c5354dd": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "MI >6 months ago, resolved"
+ },
+ "c720377d28": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c7750c6907": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cb1a877739": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cd44ecf60a": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "normal organ function, no severe insufficiency"
+ },
+ "cd6887c5a8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cf5b623242": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "prior systemic chemotherapy"
+ },
+ "d15873b3a5": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no major surgery"
+ },
+ "d51904a648": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d878c7080b": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no allergy to gefitinib excipients"
+ },
+ "df022a2512": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e193b95631": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e2c599f911": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "one prior chemo regimen"
+ },
+ "e73a551bc8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e8308b718a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e87ae1f727": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e89085887a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e8ee280dfe": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ea2673beb7": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "MI over a year ago"
+ },
+ "ead5afcc49": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ee81f30190": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "patient has never received chemotherapy"
+ },
+ "ef58bd54e8": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "WBC 5.6\u00d710^3/\u00b5L"
+ },
+ "f035c9c02a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f26d20ed31": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f5a3e3d249": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "performance status 1"
+ },
+ "f5e69c5a5f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f70e36fa87": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "brain metastases treated and stable for >2 months"
+ },
+ "fa63a5c74c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "fa9b403fc4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "facd6eaaf0": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "stage IV disease, not stage IA2"
+ },
+ "fba10ba7b1": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "staging MRI within 4 months"
+ }
+}

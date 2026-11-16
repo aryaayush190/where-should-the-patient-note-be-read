@@ -1,0 +1,248 @@
+{
+ "run": "TEST_proxy",
+ "n": 270,
+ "main_table": {
+  "SPLIT-Match (forced)": {
+   "n": 270,
+   "decided": 270,
+   "coverage": 1.0,
+   "acc": 0.7741,
+   "precision": 0.5571,
+   "recall": 0.5652,
+   "f1": 0.5612,
+   "tp": 39,
+   "fp": 31,
+   "fn": 30,
+   "tn": 170,
+   "f1_ci95_trial": [
+    0.3478,
+    0.7259
+   ]
+  },
+  "SPLIT-Match (selective)": {
+   "n": 270,
+   "decided": 226,
+   "coverage": 0.837,
+   "acc": 0.7222,
+   "precision": 0.8333,
+   "recall": 0.4902,
+   "f1": 0.6173,
+   "tp": 25,
+   "fp": 5,
+   "fn": 26,
+   "tn": 170,
+   "f1_ci95_trial": [
+    0.3636,
+    0.7879
+   ]
+  },
+  "zero_shot": {
+   "n": 270,
+   "decided": 270,
+   "coverage": 1.0,
+   "acc": 0.9481,
+   "precision": 0.8767,
+   "recall": 0.9275,
+   "f1": 0.9014,
+   "tp": 64,
+   "fp": 9,
+   "fn": 5,
+   "tn": 192,
+   "f1_ci95_trial": [
+    0.8392,
+    0.9649
+   ]
+  },
+  "few_shot": {
+   "n": 270,
+   "decided": 270,
+   "coverage": 1.0,
+   "acc": 0.9519,
+   "precision": 0.8784,
+   "recall": 0.942,
+   "f1": 0.9091,
+   "tp": 65,
+   "fp": 9,
+   "fn": 4,
+   "tn": 192,
+   "f1_ci95_trial": [
+    0.8553,
+    0.9655
+   ]
+  },
+  "rag": {
+   "n": 270,
+   "decided": 270,
+   "coverage": 1.0,
+   "acc": 0.9481,
+   "precision": 0.9104,
+   "recall": 0.8841,
+   "f1": 0.8971,
+   "tp": 61,
+   "fp": 6,
+   "fn": 8,
+   "tn": 195,
+   "f1_ci95_trial": [
+    0.8409,
+    0.9474
+   ]
+  },
+  "indicon_hard_veto": {
+   "n": 270,
+   "decided": 264,
+   "coverage": 0.9778,
+   "acc": 0.8852,
+   "precision": 0.9184,
+   "recall": 0.6818,
+   "f1": 0.7826,
+   "tp": 45,
+   "fp": 4,
+   "fn": 21,
+   "tn": 194,
+   "f1_ci95_trial": [
+    0.6207,
+    0.8871
+   ]
+  },
+  "indicon_advisory": {
+   "n": 270,
+   "decided": 265,
+   "coverage": 0.9815,
+   "acc": 0.9185,
+   "precision": 0.8657,
+   "recall": 0.8788,
+   "f1": 0.8722,
+   "tp": 58,
+   "fp": 9,
+   "fn": 8,
+   "tn": 190,
+   "f1_ci95_trial": [
+    0.8242,
+    0.9219
+   ]
+  }
+ },
+ "H1_non_inferiority_vs_zero_shot": {
+  "acc_diff": -0.17407407407407408,
+  "acc_diff_ci95": [
+   -0.2714795147529328,
+   -0.0883527802059975
+  ],
+  "margin": -0.05,
+  "non_inferior": false,
+  "f1_diff": -0.34025737156753466,
+  "f1_diff_ci95": [
+   -0.5345467258309524,
+   -0.1830441656791261
+  ],
+  "mcnemar": {
+   "A_only_correct": 9,
+   "B_only_correct": 56,
+   "p_exact": 2.0492453022035242e-09
+  },
+  "sign_flip_trial": {
+   "n_clusters": 18,
+   "net_diff": -47,
+   "p": 0.000732421875
+  }
+ },
+ "H1_secondary_vs_indicon": {
+  "indicon_hard_veto": {
+   "acc_diff": -0.1111111111111111,
+   "acc_diff_ci95": [
+    -0.2053002430485874,
+    -0.033691614820317815
+   ],
+   "margin": -0.05,
+   "non_inferior": false,
+   "f1_diff": -0.22145761651548335,
+   "f1_diff_ci95": [
+    -0.4094358915498352,
+    -0.0642261381437396
+   ],
+   "mcnemar": {
+    "A_only_correct": 16,
+    "B_only_correct": 46,
+    "p_exact": 0.00017632711255144299
+   },
+   "sign_flip_trial": {
+    "n_clusters": 18,
+    "net_diff": -30,
+    "p": 0.0185546875
+   }
+  },
+  "indicon_advisory": {
+   "acc_diff": -0.14444444444444443,
+   "acc_diff_ci95": [
+    -0.2434822134387352,
+    -0.062303680148912265
+   ],
+   "margin": -0.05,
+   "non_inferior": false,
+   "f1_diff": -0.3110293719911289,
+   "f1_diff_ci95": [
+    -0.511643244136697,
+    -0.15151314469195265
+   ],
+   "mcnemar": {
+    "A_only_correct": 17,
+    "B_only_correct": 56,
+    "p_exact": 5.268675318129165e-06
+   },
+   "sign_flip_trial": {
+    "n_clusters": 18,
+    "net_diff": -39,
+    "p": 0.001708984375
+   }
+  }
+ },
+ "H2_privacy": {
+  "calls_by_channel": {
+   "edge_proxy": 441,
+   "cloud_fact": 327
+  },
+  "raw_egress_violations": 0,
+  "raw_egress_detail": [],
+  "pairs_with_cloud_fact_calls": 170,
+  "disclosed_fields_per_escalated_pair": {
+   "median": 5.0,
+   "max": 21
+  },
+  "cloud_fact_payloads": 268,
+  "k_anonymity": {
+   "median": 1.0,
+   "min": 1,
+   "share_k_ge_2": 0.07835820895522388
+  },
+  "baseline_egress_chars": 0,
+  "offline_decided_share": 0.37037037037037035,
+  "pairs_with_any_cloud_fact_call": 0.6296296296296297,
+  "l2_calls_per_pair_mean": 1.2148148148148148,
+  "audit_completeness": {
+   "unparseable_log_lines_total": 2,
+   "cloud_fact_log_records": 327,
+   "l2_calls_counted_by_run": 328,
+   "note": "a difference means log records were lost to concurrent appends; the guard still ran on every call"
+  }
+ },
+ "H3_edge": {
+  "structure_s_p50": 4.377,
+  "structure_s_p95": 6.541,
+  "l1_s_median": 2.6784999999999997,
+  "eval_ms_mean": 1.074668890969069,
+  "eval_ms_max": 7.955300156027079,
+  "edge_calls": 441,
+  "patients": 45,
+  "pairs": 270,
+  "cloud_fact_calls": 328
+ },
+ "H5_aurc": {
+  "split_u": 0.1516548838984852,
+  "zero_shot": 0.009839758302726946,
+  "indicon_advisory": 0.05437405319712862
+ },
+ "H7_indicon_gate_fn_subset": {
+  "n": 17,
+  "split_forced_correct": 8
+ }
+}

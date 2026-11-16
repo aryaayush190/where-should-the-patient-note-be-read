@@ -1,0 +1,142 @@
+{
+ "098c176bf9": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "White blood cell count is 5.8 \u00d710\u00b3/\u00b5L, which is above 1.5 \u00d710\u00b3/\u00b5L"
+ },
+ "1b28a88218": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No coagulation abnormalities such as INR >2 or PT/PTT >50% above ULN are reported"
+ },
+ "1c08625348": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No significant pulmonary symptoms due to disease are reported at baseline"
+ },
+ "1cf28e1816": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No symptomatic CNS metastases, seizures, or post-WBRT/GKR restrictions are mentioned"
+ },
+ "219dda41bf": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No indication of unwillingness or inability to comply with protocol is stated"
+ },
+ "3214e094a9": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Creatinine is 0.9 mg/dL, indicating normal renal function with eGFR above 45 mL/min"
+ },
+ "3fa18231c7": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No HIV status or antiretroviral therapy is reported"
+ },
+ "4596f844ee": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No weight loss greater than 10% of baseline body mass in past 6 months is stated"
+ },
+ "45efc74ffc": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on contraception needs for women of childbearing potential is provided"
+ },
+ "47b67aac0d": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No proteinuria at CTCAE grade 2 or greater is reported"
+ },
+ "4f3d13abde": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No baseline hemoptysis is reported"
+ },
+ "57a1ea1786": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on whether pathologic tissue is available for FGFR1 amplification testing"
+ },
+ "57f215524f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Liver function tests are within normal limits with no mention of liver metastasis"
+ },
+ "58ad59eeeb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on inherited bleeding or thrombosis predisposition"
+ },
+ "5fb33fb177": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on alcohol or drug abuse status"
+ },
+ "6ea4fad1e4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on life expectancy in months"
+ },
+ "75d0bbed35": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on breastfeeding status"
+ },
+ "7cf156c60a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on NYHA class"
+ },
+ "89703d1bf5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on presence of second primary malignancy"
+ },
+ "951b724896": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on psychiatric illness or compliance-limiting social situation"
+ },
+ "95b3a5b806": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on gastrointestinal disease affecting drug absorption"
+ },
+ "9bbd0d3594": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No evidence of leptomeningeal disease in the note"
+ },
+ "afc95f6de7": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Patient is not receiving therapeutic anticoagulation or antiplatelet therapy beyond low-dose aspirin"
+ },
+ "dddfd19b19": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on palliative radiation or skeletal metastases or toxicity grades is provided"
+ },
+ "eba8f701b4": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient has malignant pleural effusion indicating measurable disease"
+ },
+ "ed2ced1956": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on tumor location or invasion of blood vessels is provided"
+ },
+ "181e2488d6": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "e5b037e0c5": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ }
+}

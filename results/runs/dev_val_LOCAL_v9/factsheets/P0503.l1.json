@@ -1,0 +1,352 @@
+{
+ "043f6e5347": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Pregnancy status not stated in the note"
+ },
+ "05a6479859": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No gastrointestinal perforation mentioned; patient has no active GI or vessel invasion"
+ },
+ "06b64a475c": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No prior anti-MET or immune checkpoint inhibitor therapy; no allergic reaction mentioned"
+ },
+ "08211f414b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "HIV status not stated in the note"
+ },
+ "084562e505": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Abscess status not stated in the note"
+ },
+ "098c176bf9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "ANC count not stated in the note"
+ },
+ "112b9b67cd": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient is able to swallow tablets as stated in the note"
+ },
+ "138a915868": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Brain metastases are treated and stable with baseline imaging within 4 weeks prior"
+ },
+ "1b8aa865a3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Concomitant CYP3A4 inducers not stated in the note"
+ },
+ "25ca8c1c2f": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No clinically significant GI bleeding within 6 months prior"
+ },
+ "26869346b9": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No tumor invasion of GI tract or airway within 28 days prior to treatment"
+ },
+ "27725549ec": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on prior surgery complications provided"
+ },
+ "28b12d5afc": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on minor procedures performed prior to registration"
+ },
+ "2a13562d0a": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Baseline disease measurements obtained within 4 weeks prior to registration"
+ },
+ "2c9d03d564": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on ongoing major illness or psychosocial issues limiting compliance"
+ },
+ "2e1d6c6520": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Prior treatment-related toxicities are resolved or clinically insignificant"
+ },
+ "2fe6a8d449": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on MET amplification or mutations or prior targeted therapy"
+ },
+ "30806f330a": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on abdominal fistula history or presence"
+ },
+ "37aac77b87": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "PT/INR and PTT are within 1.3 times ULN limits"
+ },
+ "39e5e037ba": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on cavitating pulmonary lesions"
+ },
+ "3a9d79dd20": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on history of organ transplant"
+ },
+ "3ec3d228fa": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Platelet count is at least 100 \u00d7 10^3/uL"
+ },
+ "48208667bc": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Platinum chemotherapy completed >3 weeks ago, at least 1 week prior to registration"
+ },
+ "4b6911934e": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about RET status; not stated"
+ },
+ "513a7a5bd8": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No history of autoimmune disease mentioned; not stated"
+ },
+ "572776ca75": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Brain metastases treated with WBRT and are clinically stable"
+ },
+ "5bb82fd6d8": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Bilirubin level not elevated; within normal limits"
+ },
+ "5d42fbcc70": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No cardiovascular disorders mentioned; not stated"
+ },
+ "60f24a1026": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No hypertension or blood pressure data; not stated"
+ },
+ "683a4fcb8c": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No mention of leptomeningeal disease; not stated"
+ },
+ "6b00a609d8": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient is able to swallow tablets and no contraception requirement specified"
+ },
+ "6d72625141": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No ROS1 mutation status mentioned; not stated"
+ },
+ "6e99606f61": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Urine dipstick is negative; meets requirement"
+ },
+ "71dfd0df16": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No thyroid function or hypothyroidism mentioned; not stated"
+ },
+ "747f82057b": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on concomitant anticoagulation or platelet inhibitors is provided"
+ },
+ "75b199419c": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No signs of pulmonary hemorrhage are reported within 3 months before treatment"
+ },
+ "78761660a2": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Albumin level is not stated, so cannot confirm if it is at least 2.8 g/dL"
+ },
+ "78f0085871": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No serious non-healing wound, ulcer, or bone fracture is reported within 28 days prior to registration"
+ },
+ "80b9d0efbe": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on tumor invasion of major blood vessels is provided"
+ },
+ "8146a61a9c": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No gastrointestinal disorders with high perforation/fistula risk are reported within 6 months prior to registration"
+ },
+ "83a8f9e336": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Hemoglobin level is not stated, so cannot confirm if it is at least 9 g/dL"
+ },
+ "898797333e": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on breastfeeding status is provided"
+ },
+ "8f5cd73140": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No history of myocardial infarction is reported"
+ },
+ "9653b9a8e9": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on NYHA class III or IV heart failure is provided"
+ },
+ "967db13fe4": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on PEG tube placement is provided"
+ },
+ "9ed37800d1": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on major surgery within 3 months prior to registration is provided"
+ },
+ "9f7809a6b2": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "All serum electrolyte panels are strictly within protocol limits including potassium, magnesium, and calcium"
+ },
+ "a085f92dec": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No events within 6 months prior to registration are mentioned; all conditions are stable and no prior events listed"
+ },
+ "ad4531f36b": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No systemic corticosteroid use is mentioned; patient has no steroid use within 14 days before administration"
+ },
+ "af89d4fff9": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Adjuvant chemotherapy is not mentioned; patient has progressed after first-line therapy, not adjuvant"
+ },
+ "b27145e36c": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient has measurable disease and is in Stage IV with ECOG 0, indicating life expectancy exceeds 3 months"
+ },
+ "b2c24d6889": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No RET gene rearrangement is mentioned; tumor is negative for EGFR/ALK with no actionable drivers"
+ },
+ "b2f54cc29c": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No hemoptysis of \u22652.5 mL is mentioned; patient has no bleeding risks or symptoms"
+ },
+ "b56a6a4bdf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No general condition list provided; cannot determine if any excluded condition is present"
+ },
+ "b7a077ebad": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No minor surgery is mentioned; patient has no surgical events within 28 days prior"
+ },
+ "bd697ff4b1": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No gastrointestinal disorders with high risk of perforation are mentioned; GI status is stable"
+ },
+ "d229ad9102": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No stroke, TIA, or ischemic event is mentioned; patient has no neurological events"
+ },
+ "d2f45926c9": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No inflammatory bowel disease or related conditions are mentioned; patient has no such disorders"
+ },
+ "d3a75e7c31": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information provided about history of surgery"
+ },
+ "ec66f14aa9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information about bowel or gastric obstruction"
+ },
+ "eeb21434f6": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information about peptic ulcer disease"
+ },
+ "f094f28d92": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No mention of active malignancy requiring systemic treatment"
+ },
+ "f7037e4fe2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information about malabsorption syndrome"
+ },
+ "f88ece9b99": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about decision-making capacity"
+ },
+ "fa88184461": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about infections or antibiotic use within 28 days"
+ },
+ "fb80e66112": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient has no known leptomeningeal disease"
+ },
+ "fd1d10f516": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No mention of leptomeningeal disease"
+ },
+ "2c658902c6": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "744135886a": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "df3205da46": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ }
+}

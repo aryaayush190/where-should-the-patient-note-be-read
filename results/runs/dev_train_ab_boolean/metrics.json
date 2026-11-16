@@ -1,0 +1,61 @@
+{
+ "n": 104,
+ "forced": {
+  "coverage": 1.0,
+  "acc_all": 0.8269230769230769,
+  "acc_decided": 0.8269230769230769,
+  "precision": 0.6744186046511628,
+  "recall": 0.8787878787878788,
+  "f1": 0.7631578947368421,
+  "tp": 29,
+  "fp": 14,
+  "fn": 4,
+  "tn": 57,
+  "dist": {
+   "NOT_ELIGIBLE": 61,
+   "ELIGIBLE": 43
+  }
+ },
+ "selective": {
+  "coverage": 0.6923076923076923,
+  "acc_all": 0.625,
+  "acc_decided": 0.9027777777777778,
+  "precision": 0.75,
+  "recall": 0.6923076923076923,
+  "f1": 0.7199999999999999,
+  "tp": 9,
+  "fp": 3,
+  "fn": 4,
+  "tn": 56,
+  "dist": {
+   "NOT_ELIGIBLE": 60,
+   "NEED_INFO": 26,
+   "ELIGIBLE": 12,
+   "DEFER": 6
+  }
+ },
+ "pending_as_eligible": {
+  "coverage": 0.9423076923076923,
+  "acc_decided": 0.8061224489795918,
+  "precision": 0.6052631578947368,
+  "recall": 0.8518518518518519,
+  "f1": 0.7076923076923076,
+  "tp": 23,
+  "fp": 15,
+  "fn": 4,
+  "tn": 56
+ },
+ "mean_l2_per_pair": 2.076923076923077,
+ "offline_decided": 0.21153846153846154,
+ "config": {
+  "split": "dev_train",
+  "edge": "proxy",
+  "name": "dev_train_ab_boolean",
+  "hard_veto": false,
+  "no_l1": false,
+  "no_l2": false,
+  "boolean_only": true,
+  "programs_variant": "",
+  "factsheets_from": "dev_train_proxy_v8"
+ }
+}

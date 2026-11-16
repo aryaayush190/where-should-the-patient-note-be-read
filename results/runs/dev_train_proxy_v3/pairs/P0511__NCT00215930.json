@@ -1,0 +1,518 @@
+{
+ "pair_id": "P0511__NCT00215930",
+ "patient_id": "P0511",
+ "trial_id": "NCT00215930",
+ "label": 0,
+ "selective": "NEED_INFO",
+ "forced": "ELIGIBLE",
+ "n_l2": 0,
+ "n_forced_unknown": 19,
+ "n_provisional": 12,
+ "u": 25.0,
+ "asks": [
+  {
+   "atom": "c0A2",
+   "category": "EFFUSION",
+   "question": "Is the disease stage IV or stage IIIB with malignant pleural effusion?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A6",
+   "category": "LABS",
+   "question": "What is the patient\u2019s absolute neutrophil count (\u00d710\u00b3/\u00b5L)?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A8",
+   "category": "LABS",
+   "question": "What is the patient\u2019s hemoglobin (g/dL)?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A9",
+   "category": "LABS",
+   "question": "Is the patient\u2019s creatinine less than 1.5\u202f\u00d7\u202fULN?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A10",
+   "category": "LABS",
+   "question": "Is the patient\u2019s bilirubin within normal limits?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A11",
+   "category": "LABS",
+   "question": "Is AST less than 2\u202f\u00d7\u202fULN?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A12",
+   "category": "LABS",
+   "question": "Is ALT less than 2\u202f\u00d7\u202fULN?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A19",
+   "category": "OTHER",
+   "question": "Was the initial staging work\u2011up completed within 4\u202fweeks before the first infusion?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A24",
+   "category": "OTHER",
+   "question": "Is the patient currently lactating?",
+   "answerable_by": "patient"
+  },
+  {
+   "atom": "c0A29",
+   "category": "CARDIAC",
+   "question": "Has the patient had a myocardial infarction within the past 6\u202fmonths?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A30",
+   "category": "OTHER",
+   "question": "Does the patient have a significant neurologic or psychiatric disorder that would inhibit understanding and consent?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c0A31",
+   "category": "OTHER",
+   "question": "Does the patient have untreated superior vena cava syndrome?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c0A32",
+   "category": "OTHER",
+   "question": "Does the patient have an active peptic ulcer?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c0A33",
+   "category": "OTHER",
+   "question": "Does the patient have unstable diabetes mellitus or a contraindication to high\u2011dose corticosteroid therapy?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c0A34",
+   "category": "OTHER",
+   "question": "Does the patient have hypercalcemia requiring therapy?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c0A35",
+   "category": "EFFUSION",
+   "question": "Does the patient have clinically significant ascites or pericardial effusion?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c0A36",
+   "category": "OTHER",
+   "question": "Are the patient\u2019s lesions assessable only by radionuclide scan?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c0A37",
+   "category": "OTHER",
+   "question": "Does the patient have a severe hypersensitivity reaction to Taxotere or polysorbate\u202f80?",
+   "answerable_by": "patient"
+  },
+  {
+   "atom": "c0A39",
+   "category": "OTHER",
+   "question": "Does the patient have a prior malignancy other than the specified exceptions?",
+   "answerable_by": "record"
+  }
+ ],
+ "n_atoms": 40,
+ "trace": [
+  {
+   "atom": "c0A0",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A1",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A2",
+   "type": "ANY",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A3",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A4",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A5",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A6",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A7",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c0A8",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A9",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A10",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A11",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A12",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A13",
+   "type": "IS",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A14",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A15",
+   "type": "IS",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A16",
+   "type": "WITHIN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A17",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A18",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A19",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A20",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c0A21",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A22",
+   "type": "IN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A23",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A24",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A25",
+   "type": "WITHIN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A26",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A27",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A28",
+   "type": "IN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A29",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A30",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A31",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A32",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A33",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A34",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A35",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A36",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A37",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A38",
+   "type": "HAS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A39",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  }
+ ],
+ "site_verify": [
+  "histologically confirmed adenocarcinoma, large cell or squamous cell carcinoma NSCLC; as well as be willing to undergo a biopsy to enable customization of chemotherapy; unresectable/ metastatic (stage IV or IIIB malignant pleural effusion) NSCLC; male or female, aged > 18 years;",
+  "Hemoglobin > 8gm/dl no evidence of myelodysplastic syndrome or abnormal bone marrow reserve; creatinine < 1.5 x upper normal limit(UNL) total bilirubin must be within normal limits aspartate aminotransferase(AST)Serum glutamic oxaloacetic transaminase(SGOT) and/or alanine aminotranserase (ALT) serum glutamic pyruvic transaminase(SGPT) < 2\u00d75 x UNL in the presence of a normal alkaline phosphatase; alkaline phosphatases < 4 x UNL in the presence of normal AST and ALT; patients with elevations of both alkaline phosphatase and liver enzymes (AST & ALT) will be excluded. serum calcium < 1.1 x UNL; at least one unidimensionally measurable lesion; signed informed consent;",
+  "Men with partners in the childbearing age group and women of childbearing potential must use effective contraception while on treatment and for 6 months thereafter. previous surgery (more that 30 days before study entry) is allowed but metastatic disease must be demonstrated; previous radiotherapy is allowed if: end of radiotherapy 21 days or more prior to study entry; patient has fully recovered from all toxic effects; at least one of the measurable target lesions is outside the radiation field.",
+  "The patient will be enrolled and re-biopsied at the H Lee Moffitt Cancer Center. However since the patients are being treated by FDA approved drugs and with regimens for which phase I, phase II or phase III data are available the patients may have their chemotherapy administered at the their primary (referring) oncologists office."
+ ]
+}

@@ -1,0 +1,436 @@
+{
+ "trial_id": "NCT01342965",
+ "atoms": [
+  {
+   "id": "c0A0",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Adult participants, ≥ 18 years of age.",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "age",
+   "op": ">=",
+   "value": 18,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Is the patient at least 18 years old?"
+  },
+  {
+   "id": "c0A1",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Locally advanced or recurrent (stage IIIB) or metastatic (stage IV) non-small cell lung cancer.",
+   "lines": [
+    2
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "cancer_type",
+   "op": null,
+   "value": null,
+   "values": [
+    "nsclc"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have non‑small cell lung cancer?"
+  },
+  {
+   "id": "c0A2",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Locally advanced or recurrent (stage IIIB) or metastatic (stage IV) non-small cell lung cancer.",
+   "lines": [
+    2
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "stage_group",
+   "op": null,
+   "value": null,
+   "values": [
+    "IIIB",
+    "IV"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the disease stage IIIB or IV?"
+  },
+  {
+   "id": "c0A3",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Presence of epidermal growth factor receptor (EGFR) mutations in tumours.",
+   "lines": [
+    3
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "egfr",
+   "op": null,
+   "value": null,
+   "values": [
+    "positive"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the tumor have an EGFR mutation?"
+  },
+  {
+   "id": "c0A4",
+   "type": "IS",
+   "polarity": "inclusion",
+   "source_line": "Measurable disease according to Response Evaluation Criteria In Solid Tumors (RECIST) version 1.1 criteria.",
+   "lines": [
+    4
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "measurable_disease",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is there measurable disease per RECIST 1.1?"
+  },
+  {
+   "id": "c0A5",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "European Cooperative Oncology Group (ECOG) performance status ≤ 2.",
+   "lines": [
+    5
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "ecog",
+   "op": "<=",
+   "value": 2,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the ECOG performance status 0‑2?"
+  },
+  {
+   "id": "c0A6",
+   "type": "HAS",
+   "polarity": "exclusion",
+   "source_line": "Prior exposure to agents directed at the human epidermal receptor (HER) axis (eg, but not limited to erlotinib, gefitinib, cetuximab, or trastuzumab).",
+   "lines": [
+    6
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [],
+    "agents": [
+     "erlotinib",
+     "gefitinib",
+     "cetuximab",
+     "trastuzumab"
+    ],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient previously received any HER‑axis targeted agents such as erlotinib, gefitinib, cetuximab, or trastuzumab?"
+  },
+  {
+   "id": "c0A7",
+   "type": "HAS",
+   "polarity": "exclusion",
+   "source_line": "Prior chemotherapy or systemic anti-neoplastic therapy for advanced disease.",
+   "lines": [
+    7
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "chemo",
+     "systemic"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient received prior chemotherapy or systemic anti‑neoplastic therapy for advanced disease?"
+  },
+  {
+   "id": "c0A8",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Lack of physical integrity of the upper gastrointestinal tract, or malabsorption syndrome, or inability to take oral medication, or active gastroduodenal ulcer disease.",
+   "lines": [
+    8
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Lack of physical integrity of the upper gastrointestinal tract, malabsorption syndrome, inability to take oral medication, or active gastroduodenal ulcer disease",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have any condition that prevents oral medication intake (e.g., upper GI tract integrity loss, malabsorption, active ulcer)?"
+  },
+  {
+   "id": "c0A9",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Any inflammatory changes of the surface of the eye.",
+   "lines": [
+    9
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Any inflammatory changes of the surface of the eye",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Is there any inflammatory eye surface condition (e.g., conjunctivitis)?"
+  },
+  {
+   "id": "c0A10",
+   "type": "CMP",
+   "polarity": "exclusion",
+   "source_line": "≥ Grade 2 peripheral neuropathy.",
+   "lines": [
+    10
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "neuropathy_grade",
+   "op": ">=",
+   "value": 2,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have peripheral neuropathy grade 2 or higher?"
+  },
+  {
+   "id": "c0A11",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "History of any other malignancies within 5 years, except for adequately treated carcinoma in situ of the cervix or basal or squamous cell skin cancer.",
+   "lines": [
+    11
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "History of other malignancies within 5 years, except adequately treated carcinoma in situ of the cervix or basal/squamous skin cancer",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient had any other cancer within the past 5 years, other than treated cervical carcinoma in situ or basal/squamous skin cancer?"
+  },
+  {
+   "id": "c0A12",
+   "type": "IN",
+   "polarity": "exclusion",
+   "source_line": "Brain metastasis or spinal cord compression that has not yet been definitely treated with surgery and/or radiation, or treated but without evidence of stable disease for at least 2 months.",
+   "lines": [
+    12
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "brain_mets",
+   "op": null,
+   "value": null,
+   "values": [
+    "untreated_or_symptomatic"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have untreated or symptomatic brain metastases?"
+  },
+  {
+   "id": "c0A13",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Brain metastasis or spinal cord compression that has not yet been definitely treated with surgery and/or radiation, or treated but without evidence of stable disease for at least 2 months.",
+   "lines": [
+    12
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Treated brain metastases or spinal cord compression without stable disease for at least 2 months",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "If brain metastases or spinal cord compression have been treated, has stable disease been documented for at least 2 months?"
+  },
+  {
+   "id": "c0A14",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Human immunodeficiency virus (HIV) infection.",
+   "lines": [
+    13
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "History of HIV infection",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient infected with HIV?"
+  },
+  {
+   "id": "c0A15",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Pregnant, nursing, or lactating women.",
+   "lines": [
+    14
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "pregnant",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Is the patient currently pregnant?"
+  },
+  {
+   "id": "c0A16",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Pregnant, nursing, or lactating women.",
+   "lines": [
+    14
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Patient is nursing or lactating",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Is the patient nursing or lactating?"
+  }
+ ],
+ "compiler_meta": {
+  "primary": {
+   "stage_alternatives_merged": 0,
+   "model": "openai/gpt-oss-120b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 14,
+   "repaired": true,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 17
+  },
+  "single_model": true
+ }
+}

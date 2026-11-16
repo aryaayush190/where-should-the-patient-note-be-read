@@ -1,0 +1,248 @@
+{
+ "run": "TEST_deploy",
+ "n": 270,
+ "main_table": {
+  "SPLIT-Match (forced)": {
+   "n": 270,
+   "decided": 270,
+   "coverage": 1.0,
+   "acc": 0.7704,
+   "precision": 0.5467,
+   "recall": 0.5942,
+   "f1": 0.5694,
+   "tp": 41,
+   "fp": 34,
+   "fn": 28,
+   "tn": 167,
+   "f1_ci95_trial": [
+    0.4082,
+    0.7009
+   ]
+  },
+  "SPLIT-Match (selective)": {
+   "n": 270,
+   "decided": 219,
+   "coverage": 0.8111,
+   "acc": 0.7,
+   "precision": 0.88,
+   "recall": 0.449,
+   "f1": 0.5946,
+   "tp": 22,
+   "fp": 3,
+   "fn": 27,
+   "tn": 167,
+   "f1_ci95_trial": [
+    0.3182,
+    0.7937
+   ]
+  },
+  "zero_shot": {
+   "n": 270,
+   "decided": 270,
+   "coverage": 1.0,
+   "acc": 0.9481,
+   "precision": 0.8767,
+   "recall": 0.9275,
+   "f1": 0.9014,
+   "tp": 64,
+   "fp": 9,
+   "fn": 5,
+   "tn": 192,
+   "f1_ci95_trial": [
+    0.8392,
+    0.9649
+   ]
+  },
+  "few_shot": {
+   "n": 270,
+   "decided": 270,
+   "coverage": 1.0,
+   "acc": 0.9519,
+   "precision": 0.8784,
+   "recall": 0.942,
+   "f1": 0.9091,
+   "tp": 65,
+   "fp": 9,
+   "fn": 4,
+   "tn": 192,
+   "f1_ci95_trial": [
+    0.8553,
+    0.9655
+   ]
+  },
+  "rag": {
+   "n": 270,
+   "decided": 270,
+   "coverage": 1.0,
+   "acc": 0.9481,
+   "precision": 0.9104,
+   "recall": 0.8841,
+   "f1": 0.8971,
+   "tp": 61,
+   "fp": 6,
+   "fn": 8,
+   "tn": 195,
+   "f1_ci95_trial": [
+    0.8409,
+    0.9474
+   ]
+  },
+  "indicon_hard_veto": {
+   "n": 270,
+   "decided": 264,
+   "coverage": 0.9778,
+   "acc": 0.8852,
+   "precision": 0.9184,
+   "recall": 0.6818,
+   "f1": 0.7826,
+   "tp": 45,
+   "fp": 4,
+   "fn": 21,
+   "tn": 194,
+   "f1_ci95_trial": [
+    0.6207,
+    0.8871
+   ]
+  },
+  "indicon_advisory": {
+   "n": 270,
+   "decided": 265,
+   "coverage": 0.9815,
+   "acc": 0.9185,
+   "precision": 0.8657,
+   "recall": 0.8788,
+   "f1": 0.8722,
+   "tp": 58,
+   "fp": 9,
+   "fn": 8,
+   "tn": 190,
+   "f1_ci95_trial": [
+    0.8242,
+    0.9219
+   ]
+  }
+ },
+ "H1_non_inferiority_vs_zero_shot": {
+  "acc_diff": -0.17777777777777778,
+  "acc_diff_ci95": [
+   -0.2527085730154322,
+   -0.10784102434077082
+  ],
+  "margin": -0.05,
+  "non_inferior": false,
+  "f1_diff": -0.33196400625978084,
+  "f1_diff_ci95": [
+   -0.4764141553843629,
+   -0.20406793959185826
+  ],
+  "mcnemar": {
+   "A_only_correct": 7,
+   "B_only_correct": 55,
+   "p_exact": 2.4300843108615577e-10
+  },
+  "sign_flip_trial": {
+   "n_clusters": 18,
+   "net_diff": -48,
+   "p": 0.000213623046875
+  }
+ },
+ "H1_secondary_vs_indicon": {
+  "indicon_hard_veto": {
+   "acc_diff": -0.11481481481481481,
+   "acc_diff_ci95": [
+    -0.1814520021173247,
+    -0.05642544841728146
+   ],
+   "margin": -0.05,
+   "non_inferior": false,
+   "f1_diff": -0.21316425120772953,
+   "f1_diff_ci95": [
+    -0.3405818969672432,
+    -0.08920181576026359
+   ],
+   "mcnemar": {
+    "A_only_correct": 13,
+    "B_only_correct": 44,
+    "p_exact": 4.710437609395379e-05
+   },
+   "sign_flip_trial": {
+    "n_clusters": 18,
+    "net_diff": -31,
+    "p": 0.00048828125
+   }
+  },
+  "indicon_advisory": {
+   "acc_diff": -0.14814814814814814,
+   "acc_diff_ci95": [
+    -0.22680628952611973,
+    -0.08178304618244212
+   ],
+   "margin": -0.05,
+   "non_inferior": false,
+   "f1_diff": -0.3027360066833751,
+   "f1_diff_ci95": [
+    -0.45324374407536955,
+    -0.17885000035214496
+   ],
+   "mcnemar": {
+    "A_only_correct": 13,
+    "B_only_correct": 53,
+    "p_exact": 7.237175237417024e-07
+   },
+   "sign_flip_trial": {
+    "n_clusters": 18,
+    "net_diff": -40,
+    "p": 0.000244140625
+   }
+  }
+ },
+ "H2_privacy": {
+  "calls_by_channel": {
+   "edge_local": 452,
+   "cloud_fact": 568
+  },
+  "raw_egress_violations": 0,
+  "raw_egress_detail": [],
+  "pairs_with_cloud_fact_calls": 218,
+  "disclosed_fields_per_escalated_pair": {
+   "median": 6.0,
+   "max": 21
+  },
+  "cloud_fact_payloads": 539,
+  "k_anonymity": {
+   "median": 1,
+   "min": 1,
+   "share_k_ge_2": 0.03153988868274583
+  },
+  "baseline_egress_chars": 0,
+  "offline_decided_share": 0.1925925925925926,
+  "pairs_with_any_cloud_fact_call": 0.8074074074074075,
+  "l2_calls_per_pair_mean": 2.1037037037037036,
+  "audit_completeness": {
+   "unparseable_log_lines_total": 2,
+   "cloud_fact_log_records": 568,
+   "l2_calls_counted_by_run": 568,
+   "note": "a difference means log records were lost to concurrent appends; the guard still ran on every call"
+  }
+ },
+ "H3_edge": {
+  "structure_s_p50": 277.655,
+  "structure_s_p95": 332.756,
+  "l1_s_median": 103.0575,
+  "eval_ms_mean": 0.3055803701971416,
+  "eval_ms_max": 4.402700003993232,
+  "edge_calls": 443,
+  "patients": 45,
+  "pairs": 270,
+  "cloud_fact_calls": 568
+ },
+ "H5_aurc": {
+  "split_u": 0.15782541202604175,
+  "zero_shot": 0.009839758302726946,
+  "indicon_advisory": 0.05437405319712862
+ },
+ "H7_indicon_gate_fn_subset": {
+  "n": 17,
+  "split_forced_correct": 7
+ }
+}

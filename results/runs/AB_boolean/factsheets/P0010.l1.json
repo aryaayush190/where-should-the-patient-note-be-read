@@ -1,0 +1,367 @@
+{
+ "0128bac762": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "0625bc9454": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "normal organ function"
+ },
+ "08bb050321": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "disease progressed after prior chemo"
+ },
+ "0b14ee31a9": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no seizures or intracranial hypertension"
+ },
+ "122dd43b9f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "measurable disease per RECIST"
+ },
+ "1399f65557": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "154fdc6f4e": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no GI abnormalities"
+ },
+ "19b80e7231": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "not on anticoagulants"
+ },
+ "1d98b9d186": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "EGFR TKI washout >8 days"
+ },
+ "1e2d5dd2a1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "250a5a72e0": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no allergic reaction to biologics"
+ },
+ "26b14ea1f2": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no CSF cytology"
+ },
+ "298f0ceeb2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "2b2a5577af": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "30001da547": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no active tuberculosis, hepatitis B, AIDS, or syphilis"
+ },
+ "37de5b69fe": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3ced4c07e0": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ECOG 1, no worsening, life expectancy >3 months"
+ },
+ "3d496bb66e": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "heart, lung, liver, kidney normal, immune intact"
+ },
+ "494f154dd4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4db6714c89": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4eb83e2c01": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "50d1243369": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "58e871d944": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "no severe uncontrolled systemic disease, organ function normal"
+ },
+ "5c32b40b00": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5e0680de39": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no PET/CT or CT data provided"
+ },
+ "5f6da7f984": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no diabetes, hypertension, stroke, heart failure, or kidney disease"
+ },
+ "5fb33fb177": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no alcohol or drug abuse mentioned"
+ },
+ "62adbf5d60": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no cytotoxic chemotherapy within 14 days"
+ },
+ "683029b89d": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no intracranial lesion progression after brain RT"
+ },
+ "6af738264a": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no CYP3A4/5 inhibitor/inducer use"
+ },
+ "6cf13fb718": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no hemorrhagic/thrombotic event or hemoptysis"
+ },
+ "708e745f01": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no radiotherapy within 4 weeks"
+ },
+ "7863357e5e": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no centrally located tumor with vessel invasion"
+ },
+ "7caa314d2f": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no other active malignancy"
+ },
+ "7cad937428": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "pregnancy status not stated"
+ },
+ "81d272ec22": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no MRI leptomeningeal lesion"
+ },
+ "88935dca8e": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8976af4735": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8df03fc7d1": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "AST within 3x ULN"
+ },
+ "949ea603c8": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "No anticancer therapy in past 28 days"
+ },
+ "9b13285bc0": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "9d2b95131f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Age 68, advanced NSCLC, progressed after therapy"
+ },
+ "9ecdb12dc7": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Bilirubin 0.6 mg/dL, AST 0.6 mg/dL, ALT not mentioned but within limits"
+ },
+ "a0bb93f5d7": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Prior chemotherapy and targeted therapy completed 6+ months ago"
+ },
+ "a52d45dc90": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a5b827a3f4": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a712433309": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a8fa5265a7": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ad1e0cff0f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "life expectancy at least 3 months"
+ },
+ "ae86ef7ced": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "stage IV, not stage II"
+ },
+ "b043381ac9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b07d357e44": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b481ad4ad0": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "not pregnant or breastfeeding"
+ },
+ "b8d9688e9e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c31ac64461": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "failed more than one prior regimen"
+ },
+ "c3c34a9aca": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c58fbaf42a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c67c5354dd": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no myocardial infarction or uncontrolled hypertension"
+ },
+ "c7750c6907": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "not pregnant or breastfeeding"
+ },
+ "cdb55d5c89": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "stage IV, not IIIA/IIIB"
+ },
+ "ce3e3d3255": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d0167bc974": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d51904a648": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d878c7080b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d9bdac4798": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "dcbb5daaf4": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "not on long-term glucocorticoids"
+ },
+ "e3883c624b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e8308b718a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ea2673beb7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ee81f30190": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "prior chemotherapy completed >6 months ago"
+ },
+ "f5e69c5a5f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "fd81bcf49e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ffac75eeec": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ }
+}

@@ -1,0 +1,678 @@
+{
+ "trial_id": "NCT02357992",
+ "atoms": [
+  {
+   "id": "c0A0",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Histological confirmation of non-small cell cancer will be required by either biopsy or cytology. The following primary cancer types are eligible: squamous cell carcinoma, adenocarcinoma with or without BAC features, large cell carcinoma with or without neuroendocrine features, neuroendocrine carcinoma, bronchioloalveolar cell carcinoma, or non-small cell carcinoma not otherwise specified.",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "cancer_type",
+   "op": null,
+   "value": null,
+   "values": [
+    "nsclc"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient been diagnosed with non‑small cell lung cancer?"
+  },
+  {
+   "id": "c0A1",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Histological confirmation of non-small cell cancer will be required by either biopsy or cytology. The following primary cancer types are eligible: squamous cell carcinoma, adenocarcinoma with or without BAC features, large cell carcinoma with or without neuroendocrine features, neuroendocrine carcinoma, bronchioloalveolar cell carcinoma, or non-small cell carcinoma not otherwise specified.",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "histology",
+   "op": null,
+   "value": null,
+   "values": [
+    "squamous",
+    "adenocarcinoma",
+    "large_cell",
+    "nos"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Is the tumor histology one of squamous, adenocarcinoma, large‑cell or NSCC not otherwise specified?"
+  },
+  {
+   "id": "c0A2",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Histological confirmation of non-small cell cancer will be required by either biopsy or cytology. The following primary cancer types are eligible: squamous cell carcinoma, adenocarcinoma with or without BAC features, large cell carcinoma with or without neuroendocrine features, neuroendocrine carcinoma, bronchioloalveolar cell carcinoma, or non-small cell carcinoma not otherwise specified.",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Tumor histology includes neuroendocrine carcinoma, bronchioloalveolar carcinoma, or other NSCLC subtypes listed in the protocol.",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the pathology report list neuroendocrine, bronchioloalveolar or other eligible NSCLC subtypes?"
+  },
+  {
+   "id": "c0A6",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "A PET/CT scan is required. Patients with hilar or mediastinal lymph nodes with short axis diameter </= 1cm and no abnormal hilar or mediastinal uptake on PET will be considered N0. Patients with > 1 cm short axis diameter of hilar or mediastinal lymph nodes on CT or abnormal PET (including suspicious but non-diagnostic uptake) may still be eligible if directed tissue biopsy of all abnormally identified areas are negative for cancer. Solitary pulmonary lesions </= 6mm will not be considered significant.",
+   "lines": [
+    3
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "PET/CT shows N0 status per protocol (nodes ≤1 cm and no abnormal uptake) or, if nodes >1 cm or uptake, all abnormal areas have negative biopsy; solitary lesions ≤6 mm are ignored.",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Do imaging and any required biopsies meet the N0 criteria described in the protocol?"
+  },
+  {
+   "id": "c0A7",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Patients must be considered a candidate for surgical resection of the primary tumor. Standard justification for deeming a patient medically operable based on pulmonary function for surgical resection of NSCLC may include any of the following: Baseline FEV1 > 40% predicted, post-operative predicted FEV1 > 30% predicted, diffusion capacity > 40% predicted, absent baseline hypoxemia and/or hypercapnia, exercise oxygen consumption > 50% predicted, absent severe pulmonary hypertension, absent severe cerebral, cardiac, or peripheral vascular disease, and absent severe chronic heart disease.",
+   "lines": [
+    4
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "fev1_pct",
+   "op": ">",
+   "value": 40,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Is the baseline FEV1 greater than 40 % predicted?"
+  },
+  {
+   "id": "c0A8",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Patients must be considered a candidate for surgical resection of the primary tumor. Standard justification for deeming a patient medically operable based on pulmonary function for surgical resection of NSCLC may include any of the following: Baseline FEV1 > 40% predicted, post-operative predicted FEV1 > 30% predicted, diffusion capacity > 40% predicted, absent baseline hypoxemia and/or hypercapnia, exercise oxygen consumption > 50% predicted, absent severe pulmonary hypertension, absent severe cerebral, cardiac, or peripheral vascular disease, and absent severe chronic heart disease.",
+   "lines": [
+    4
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Post‑operative predicted FEV1 > 30 %, DLCO > 40 %, no baseline hypoxemia/hypercapnia, VO₂ > 50 % predicted, and no severe pulmonary hypertension, cardiac, cerebral or peripheral vascular disease.",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Do the additional pulmonary‑cardiac functional criteria listed in the protocol apply to the patient?"
+  },
+  {
+   "id": "c0A9",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Patients must be >/= 18 years of age.",
+   "lines": [
+    5
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "age",
+   "op": ">=",
+   "value": 18,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient at least 18 years old?"
+  },
+  {
+   "id": "c0A10",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "The patient's Zubrod performance status must be Zubrod 0-2.",
+   "lines": [
+    6
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "ecog",
+   "op": "<=",
+   "value": 2,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the Zubrod/ECOG performance status 0‑2?"
+  },
+  {
+   "id": "c0A11",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "PET/CT scan to include both lungs, the mediastinum, and adrenal glands; Primary tumor dimension will be measured on diagnostic CT and again on simulation CT. Must be done within 10 weeks prior to study entry.",
+   "lines": [
+    7
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "A PET/CT covering lungs, mediastinum and adrenal glands was performed within 10 weeks before study entry.",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Was a PET/CT of the required regions performed ≤10 weeks prior to enrollment?"
+  },
+  {
+   "id": "c0A12",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Mediastinoscopy or endobronchial ultrasound (EBUS) guided biopsy of mediastinal lymph nodes is required for all patients. Must be done within 10 weeks of study entry.",
+   "lines": [
+    8
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Mediastinoscopy or EBUS‑guided mediastinal node biopsy was performed within 10 weeks before study entry.",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Was mediastinoscopy or EBUS performed ≤10 weeks before enrollment?"
+  },
+  {
+   "id": "c0A13",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "MRI or CT scans of Brain if there are symptoms or signs suggesting brain metastases, must be done within 10 weeks prior to study entry.",
+   "lines": [
+    9
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "If there are neurologic signs/symptoms, a brain MRI or CT was performed within 10 weeks before study entry.",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "If indicated, was a brain MRI/CT performed ≤10 weeks prior to enrollment?"
+  },
+  {
+   "id": "c0A14",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Invasive Mediastinal Staging - All patients with CT and/or PET evidence of hilar (level 10) or mediastinal lymph nodes > 1.0 cm in the shortest diameter must be staged by either cervical mediastinoscopy, esophageal endoscopic ultrasound guided biopsy, or endobronchial ultrasound guided biopsy.",
+   "lines": [
+    10
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Patients with mediastinal or hilar nodes >1 cm on CT/PET must have undergone invasive mediastinal staging (mediastinoscopy, EUS‑B, or EBUS).",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "If nodal size >1 cm, has invasive mediastinal staging been completed as required?"
+  },
+  {
+   "id": "c0A15",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "Patients must sign a study-specific consent form.",
+   "lines": [
+    11
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Patient must sign the study‑specific informed consent form.",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Has the patient signed the study‑specific consent?"
+  },
+  {
+   "id": "c0A16",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "Patients (men and women) of child bearing potential should use an effective (for them) method of birth control throughout their participation in this study.",
+   "lines": [
+    12
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Patients of child‑bearing potential must use an effective method of birth control throughout participation.",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Is the patient using an effective method of contraception?"
+  },
+  {
+   "id": "c0A17",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Patients with primary tumors > 3 cm.",
+   "lines": [
+    13
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Primary tumor size greater than 3 cm.",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the primary tumor larger than 3 cm in greatest dimension?"
+  },
+  {
+   "id": "c0A18",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Patients with well-differentiated neuroendocrine carcinoma (carcinoid tumor).",
+   "lines": [
+    14
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Well‑differentiated neuroendocrine (carcinoid) tumor.",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the tumor a well‑differentiated neuroendocrine (carcinoid) carcinoma?"
+  },
+  {
+   "id": "c0A19",
+   "type": "IN",
+   "polarity": "exclusion",
+   "source_line": "Direct evidence of regional or distant metastases after appropriate staging studies, or synchronous primary or prior malignancy in the past 3 years other than nonmelanomatous skin cancer or in situ cancer.",
+   "lines": [
+    15
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "tnm_m",
+   "op": null,
+   "value": null,
+   "values": [
+    "M1"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Is there evidence of distant metastasis (M1)?"
+  },
+  {
+   "id": "c0A20",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Direct evidence of regional or distant metastases after appropriate staging studies, or synchronous primary or prior malignancy in the past 3 years other than nonmelanomatous skin cancer or in situ cancer.",
+   "lines": [
+    15
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Prior or synchronous malignancy within the past 3 years (except non‑melanoma skin cancer or in‑situ cancer).",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient had another malignancy (other than non‑melanoma skin or in‑situ cancer) within the last 3 years?"
+  },
+  {
+   "id": "c0A21",
+   "type": "HAS",
+   "polarity": "exclusion",
+   "source_line": "Previous lung or mediastinal radiotherapy.",
+   "lines": [
+    16
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "radio"
+    ],
+    "agents": [],
+    "thoracic": true,
+    "setting": []
+   },
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient received prior lung or mediastinal radiotherapy?"
+  },
+  {
+   "id": "c0A22",
+   "type": "UNSCREENABLE",
+   "polarity": "exclusion",
+   "source_line": "Plans for the patient to receive other concomitant local therapy (including standard fractionated radiotherapy and surgery) while on this protocol except at disease progression.",
+   "lines": [
+    17
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Plans to receive concomitant local therapy (radiotherapy or surgery) while on protocol, except at disease progression.",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Is there a planned concurrent local therapy during the study period?"
+  },
+  {
+   "id": "c0A23",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Pregnant or lactating women, as treatment involves unforeseeable risks to the embryo or fetus.",
+   "lines": [
+    18
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "pregnant",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Is the patient currently pregnant?"
+  },
+  {
+   "id": "c0A24",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Pregnant or lactating women, as treatment involves unforeseeable risks to the embryo or fetus.",
+   "lines": [
+    18
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Patient is lactating.",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Is the patient currently lactating?"
+  },
+  {
+   "id": "c0A25",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Cannot achieve acceptable SABR planning to meet minimal requirement of target coverage and dose-volume constraints of critical structures (see RT techniques).",
+   "lines": [
+    19
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Unable to achieve acceptable SABR planning meeting target coverage and dose‑volume constraints.",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Can acceptable SABR planning be achieved for this patient?"
+  },
+  {
+   "id": "c0A3+any",
+   "type": "ANY",
+   "polarity": "inclusion",
+   "source_line": "Eligible patients must have appropriate staging studies identifying them as specific subsets of the revised IASLC stage IA based on the following combination of TNM staging: T1a,N0,M0 or T1b,N0,M0",
+   "lines": [
+    2
+   ],
+   "section": null,
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c0A3+any.0",
+     "type": "IN",
+     "polarity": "inclusion",
+     "source_line": "Eligible patients must have appropriate staging studies identifying them as specific subsets of the revised IASLC stage IA based on the following combination of TNM staging: T1a,N0,M0 or T1b,N0,M0",
+     "lines": [
+      2
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": "tnm_t",
+     "op": null,
+     "value": null,
+     "values": [
+      "T1a",
+      "T1b"
+     ],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Is the primary tumor size classified as T1a or T1b?"
+    },
+    {
+     "id": "c0A3+any.1",
+     "type": "IN",
+     "polarity": "inclusion",
+     "source_line": "Eligible patients must have appropriate staging studies identifying them as specific subsets of the revised IASLC stage IA based on the following combination of TNM staging: T1a,N0,M0 or T1b,N0,M0",
+     "lines": [
+      2
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": "tnm_n",
+     "op": null,
+     "value": null,
+     "values": [
+      "N0"
+     ],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Is the nodal status N0?"
+    },
+    {
+     "id": "c0A3+any.2",
+     "type": "IN",
+     "polarity": "inclusion",
+     "source_line": "Eligible patients must have appropriate staging studies identifying them as specific subsets of the revised IASLC stage IA based on the following combination of TNM staging: T1a,N0,M0 or T1b,N0,M0",
+     "lines": [
+      2
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": "tnm_m",
+     "op": null,
+     "value": null,
+     "values": [
+      "M0"
+     ],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Is there no distant metastasis (M0)?"
+    }
+   ],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Is the primary tumor size classified as T1a or T1b?"
+  }
+ ],
+ "compiler_meta": {
+  "primary": {
+   "stage_alternatives_merged": 1,
+   "model": "openai/gpt-oss-120b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 19,
+   "repaired": false,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 24
+  },
+  "secondary": {
+   "stage_alternatives_merged": 0,
+   "model": "qwen/qwen3.8-27b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 19,
+   "repaired": false,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 22
+  },
+  "prompt_version": "compiler-v1.2",
+  "lines": 19,
+  "lines_exact_agree": 12,
+  "typed_atoms": 9,
+  "typed_atoms_agree": 5,
+  "downgraded_atoms": 4
+ }
+}

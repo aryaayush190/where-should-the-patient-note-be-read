@@ -1,0 +1,3037 @@
+{
+ "trial_id": "NCT03468985",
+ "atoms": [
+  {
+   "id": "c0A0",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "inclusion criteria (Step 0):",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "inclusion criteria (Step 0) header",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Is this study step 0 applicable?"
+  },
+  {
+   "id": "c0A1",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "Patients with tumors with the following molecular alterations must submit testing results via Medidata Rave to determine eligibility to Arm T; the study chair, co-chair, biology co-chair, or a delegate must review the molecular testing and agree that the testing meets one of the molecular eligibility criteria below:",
+   "lines": [
+    2
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "procedure to submit molecular testing results and review by study chair",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Has the molecular testing been submitted and reviewed?"
+  },
+  {
+   "id": "c0A2",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "ROS1 gene rearrangement by fluorescence in situ hybridization (FISH) or deoxyribonucleic acid (DNA) analysis (may have progressed on prior crizotinib therapy)",
+   "lines": [
+    3
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "ros1",
+   "op": null,
+   "value": null,
+   "values": [
+    "positive"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the tumor ROS1‑positive?"
+  },
+  {
+   "id": "c0A3",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "MET exon 14 splice mutations on DNA analysis (may have progressed on prior crizotinib therapy)",
+   "lines": [
+    4
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "met",
+   "op": null,
+   "value": null,
+   "values": [
+    "positive"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the tumor MET exon‑14 splice mutation positive?"
+  },
+  {
+   "id": "c0A4",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "MET high amplification by FISH or DNA analysis or other MET mutations predicted to be sensitive to MET inhibitor (no prior targeted therapy allowed)",
+   "lines": [
+    5
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "met",
+   "op": null,
+   "value": null,
+   "values": [
+    "positive"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the tumor MET‑positive (high amplification or other sensitive mutation)?"
+  },
+  {
+   "id": "c0A5",
+   "type": "HAS",
+   "polarity": "exclusion",
+   "source_line": "MET high amplification by FISH or DNA analysis or other MET mutations predicted to be sensitive to MET inhibitor (no prior targeted therapy allowed)",
+   "lines": [
+    5
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "targeted_other",
+     "tki"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient received any prior targeted therapy?"
+  },
+  {
+   "id": "c0A6",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "RET gene rearrangement by FISH or DNA analysis (no prior targeted therapy allowed)",
+   "lines": [
+    6
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "ret",
+   "op": null,
+   "value": null,
+   "values": [
+    "positive"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the tumor RET‑positive?"
+  },
+  {
+   "id": "c0A7",
+   "type": "HAS",
+   "polarity": "exclusion",
+   "source_line": "RET gene rearrangement by FISH or DNA analysis (no prior targeted therapy allowed)",
+   "lines": [
+    6
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "targeted_other",
+     "tki"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient received any prior targeted therapy?"
+  },
+  {
+   "id": "c0A8",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "Institutions will be notified of the patient's eligibility status for Arm T within two (2) business days of submission of the molecular testing reports",
+   "lines": [
+    7
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "notification of eligibility within 2 business days",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Will the institution notify eligibility within 2 business days?"
+  },
+  {
+   "id": "c0A9",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "If patients do not have tumors with the above molecular alterations noted proceed directly to step 1 inclusion criteria (Step 1):",
+   "lines": [
+    8
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "proceed to step 1 if no molecular alteration",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "If no molecular alteration, does the patient move to step 1?"
+  },
+  {
+   "id": "c0A10",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "For patients with known molecular alterations, institution has been notified that patient is deemed eligible for Arm T per review of molecular testing reports",
+   "lines": [
+    9
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "institutional confirmation of eligibility for Arm T",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Has the institution confirmed eligibility for Arm T?"
+  },
+  {
+   "id": "c0A11",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Pathologically confirmed non-squamous non-small cell lung carcinoma (NSCLC)",
+   "lines": [
+    10
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "cancer_type",
+   "op": null,
+   "value": null,
+   "values": [
+    "nsclc"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the cancer type non‑small cell lung cancer?"
+  },
+  {
+   "id": "c0A12",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Pathologically confirmed non-squamous non-small cell lung carcinoma (NSCLC)",
+   "lines": [
+    10
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "histology",
+   "op": null,
+   "value": null,
+   "values": [
+    "adenocarcinoma",
+    "large_cell",
+    "nos",
+    "other"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "What is the tumor histology (non‑squamous)?"
+  },
+  {
+   "id": "c0A13",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Stage IV disease (includes M1a, M1b, or recurrent disease), according to the 7th edition of the lung cancer tumor, node, and metastasis (TNM) classification system",
+   "lines": [
+    11
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "stage_group",
+   "op": null,
+   "value": null,
+   "values": [
+    "IV"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the disease stage IV (including M1a/b or recurrent)?"
+  },
+  {
+   "id": "c0A14",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Tumors must be tested and known negative for EGFR tyrosine kinase inhibitor (TKI) sensitizing mutations (EGFR exon 19 deletions, L858R, L861Q, G719X) and ALK gene rearrangements by routine Clinical Laboratory Improvement Act (CLIA)-certified clinical testing methods; negative circulating tumor DNA results alone are not acceptable; prior testing for tumor PD-L1 status is not required",
+   "lines": [
+    13
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "egfr",
+   "op": null,
+   "value": null,
+   "values": [
+    "negative"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the tumor EGFR‑negative for sensitizing mutations?"
+  },
+  {
+   "id": "c0A15",
+   "type": "IN",
+   "polarity": "inclusion",
+   "source_line": "Tumors must be tested and known negative for EGFR tyrosine kinase inhibitor (TKI) sensitizing mutations (EGFR exon 19 deletions, L858R, L861Q, G719X) and ALK gene rearrangements by routine Clinical Laboratory Improvement Act (CLIA)-certified clinical testing methods; negative circulating tumor DNA results alone are not acceptable; prior testing for tumor PD-L1 status is not required",
+   "lines": [
+    13
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "alk",
+   "op": null,
+   "value": null,
+   "values": [
+    "negative"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the tumor ALK‑negative?"
+  },
+  {
+   "id": "c0A16",
+   "type": "IN",
+   "polarity": "exclusion",
+   "source_line": "Predominant non-squamous histology (patients with NSCLC not otherwise specified [NOS] are eligible); mixed tumors will be categorized by the predominant cell type; if small cell elements are present the patient is ineligible",
+   "lines": [
+    12
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "cancer_type",
+   "op": null,
+   "value": null,
+   "values": [
+    "sclc"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Does the patient have small‑cell lung cancer?"
+  },
+  {
+   "id": "c0A17",
+   "type": "COUNT",
+   "polarity": "inclusion",
+   "source_line": "Patients must have progressed radiographically following first line platinum-based chemotherapy, no additional lines of therapy are permitted",
+   "lines": [
+    14
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": ">=",
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "chemo"
+    ],
+    "agents": [
+     "platinum"
+    ],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": 1.0,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient received at least one line of platinum‑based chemotherapy?"
+  },
+  {
+   "id": "c0A18",
+   "type": "COUNT",
+   "polarity": "exclusion",
+   "source_line": "Patients must have progressed radiographically following first line platinum-based chemotherapy, no additional lines of therapy are permitted",
+   "lines": [
+    14
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": ">",
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "chemo"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": 1.0,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient received more than one line of chemotherapy?"
+  },
+  {
+   "id": "c0A19",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "NOTE: Prior adjuvant chemotherapy for early stage disease does not count as one line of therapy if 12 months or greater elapsed between completion of adjuvant therapy and initiation of first-line systemic therapy; if less than 12 months elapsed, adjuvant chemotherapy counts as one line of therapy",
+   "lines": [
+    15
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Adjuvant chemotherapy counts as a line only if <12 months between completion and start of first‑line systemic therapy",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "From the clinical record, does any adjuvant chemotherapy count as a prior line?"
+  },
+  {
+   "id": "c0A20",
+   "type": "COUNT",
+   "polarity": "inclusion",
+   "source_line": "Exception for targeted therapy sub-study (Arm T): At least one line of prior chemotherapy or targeted therapy is required, but there is no limit on number of prior treatments",
+   "lines": [
+    16
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": ">=",
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "chemo",
+     "targeted_other",
+     "tki"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": 1.0,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient received at least one line of prior chemotherapy or targeted therapy?"
+  },
+  {
+   "id": "c0A21",
+   "type": "IS",
+   "polarity": "inclusion",
+   "source_line": "Patients must have measurable disease as defined by RECIST v. 1.1 criteria; baseline measurements and evaluation of all sites of disease must be obtained within 4 weeks prior to registration",
+   "lines": [
+    17
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "measurable_disease",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have measurable disease per RECIST 1.1?"
+  },
+  {
+   "id": "c0A22",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Patients must have measurable disease as defined by RECIST v. 1.1 criteria; baseline measurements and evaluation of all sites of disease must be obtained within 4 weeks prior to registration",
+   "lines": [
+    17
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Baseline disease measurements obtained within 4 weeks prior to registration",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Are baseline measurements within 4 weeks of registration documented?"
+  },
+  {
+   "id": "c0A23",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "Chemotherapy/ targeted oral therapy administered in a daily or weekly schedule must be completed >= 1 week prior to registration;",
+   "lines": [
+    19
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "chemo",
+     "targeted_other",
+     "tki"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.23,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has any daily or weekly chemotherapy/targeted oral therapy been completed within the past week?"
+  },
+  {
+   "id": "c0A24",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "Any chemotherapy administered in an every 2 week or greater schedule must be completed >= 2 weeks prior to registration",
+   "lines": [
+    20
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "chemo"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.461,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has any chemotherapy given every 2 weeks or longer been completed within the past two weeks?"
+  },
+  {
+   "id": "c0A25",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Additionally, patients should be recovered to equal to or less than grade 1 toxicities related to any prior treatment, unless adverse event (AE)(s) are clinically nonsignificant and/or stable on supportive therapy",
+   "lines": [
+    21
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Patient’s prior treatment‑related toxicities are ≤ grade 1 or clinically insignificant/stable",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Are any residual toxicities ≤ grade 1 or stable?"
+  },
+  {
+   "id": "c0A26",
+   "type": "ANY",
+   "polarity": "inclusion",
+   "source_line": "Patients with no known brain metastasis must have baseline brain imaging within 12 weeks prior to study registration not demonstrating brain metastases OR patients with known brain metastases must have baseline brain imaging within 4 weeks prior to study registration and meet all of the following criteria:",
+   "lines": [
+    22
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c0A26.0",
+     "type": "ALL",
+     "polarity": "inclusion",
+     "source_line": "",
+     "lines": [],
+     "section": null,
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [
+      {
+       "id": "c0A26.0.0",
+       "type": "IN",
+       "polarity": "inclusion",
+       "source_line": "Patients with no known brain metastasis must have baseline brain imaging within 12 weeks prior to study registration not demonstrating brain metastases OR patients with known brain metastases must have baseline brain imaging within 4 weeks prior to study registration and meet all of the following criteria:",
+       "lines": [
+        22
+       ],
+       "section": "inclusion",
+       "cwa": false,
+       "field": "brain_mets",
+       "op": null,
+       "value": null,
+       "values": [
+        "none"
+       ],
+       "filter": null,
+       "k": null,
+       "months": null,
+       "text": null,
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "record",
+       "question": "Does the patient have no known brain metastases?"
+      },
+      {
+       "id": "c0A26.0.1",
+       "type": "JUDGE",
+       "polarity": "inclusion",
+       "source_line": "Patients with no known brain metastasis must have baseline brain imaging within 12 weeks prior to study registration not demonstrating brain metastases OR patients with known brain metastases must have baseline brain imaging within 4 weeks prior to study registration and meet all of the following criteria:",
+       "lines": [
+        22
+       ],
+       "section": "inclusion",
+       "cwa": false,
+       "field": null,
+       "op": null,
+       "value": null,
+       "values": [],
+       "filter": null,
+       "k": null,
+       "months": null,
+       "text": "Baseline brain imaging within 12 weeks prior to registration showing no metastases",
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "clinician",
+       "question": "Is there brain imaging ≤ 12 weeks ago with no metastases?"
+      }
+     ],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": null
+    },
+    {
+     "id": "c0A26.1",
+     "type": "ALL",
+     "polarity": "inclusion",
+     "source_line": "",
+     "lines": [],
+     "section": null,
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [
+      {
+       "id": "c0A26.1.0",
+       "type": "IN",
+       "polarity": "inclusion",
+       "source_line": "Patients with no known brain metastasis must have baseline brain imaging within 12 weeks prior to study registration not demonstrating brain metastases OR patients with known brain metastases must have baseline brain imaging within 4 weeks prior to study registration and meet all of the following criteria:",
+       "lines": [
+        22
+       ],
+       "section": "inclusion",
+       "cwa": false,
+       "field": "brain_mets",
+       "op": null,
+       "value": null,
+       "values": [
+        "treated_stable",
+        "untreated_or_symptomatic"
+       ],
+       "filter": null,
+       "k": null,
+       "months": null,
+       "text": null,
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "record",
+       "question": "Does the patient have known brain metastases?"
+      },
+      {
+       "id": "c0A26.1.1",
+       "type": "JUDGE",
+       "polarity": "inclusion",
+       "source_line": "Patients with no known brain metastasis must have baseline brain imaging within 12 weeks prior to study registration not demonstrating brain metastases OR patients with known brain metastases must have baseline brain imaging within 4 weeks prior to study registration and meet all of the following criteria:",
+       "lines": [
+        22
+       ],
+       "section": "inclusion",
+       "cwa": false,
+       "field": null,
+       "op": null,
+       "value": null,
+       "values": [],
+       "filter": null,
+       "k": null,
+       "months": null,
+       "text": "Baseline brain imaging within 4 weeks prior to registration for known brain metastases",
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "clinician",
+       "question": "Is there brain imaging ≤ 4 weeks ago for the known metastases?"
+      }
+     ],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": null
+    }
+   ],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c0A27",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "Any prior chemotherapy (based on administration schedule) must have been completed in greater than or equal to the following times prior to registration:",
+   "lines": [
+    18
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "header for prior‑chemotherapy timing requirements (line 18)",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Are the timing requirements for prior chemotherapy understood?"
+  },
+  {
+   "id": "c1A0",
+   "type": "ANY",
+   "polarity": "inclusion",
+   "source_line": "Have completed treatment to all symptomatic brain metastases (with whole brain radiation or radiosurgery) >= 4 weeks prior to registration, or have undergone complete neurosurgical resection >= 3 months prior to registration",
+   "lines": [
+    23
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c1A0.0",
+     "type": "SINCE",
+     "polarity": "inclusion",
+     "source_line": "Have completed treatment to all symptomatic brain metastases (with whole brain radiation or radiosurgery) >= 4 weeks prior to registration, or have undergone complete neurosurgical resection >= 3 months prior to registration",
+     "lines": [
+      23
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": {
+      "cls": [
+       "radio"
+      ],
+      "agents": [],
+      "thoracic": false,
+      "setting": []
+     },
+     "k": null,
+     "months": 0.921,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "When was the last brain radiation (whole brain or radiosurgery) completed?"
+    },
+    {
+     "id": "c1A0.1",
+     "type": "SINCE",
+     "polarity": "inclusion",
+     "source_line": "Have completed treatment to all symptomatic brain metastases (with whole brain radiation or radiosurgery) >= 4 weeks prior to registration, or have undergone complete neurosurgical resection >= 3 months prior to registration",
+     "lines": [
+      23
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": {
+      "cls": [
+       "surgery"
+      ],
+      "agents": [],
+      "thoracic": null,
+      "setting": []
+     },
+     "k": null,
+     "months": 3.0,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "When was the last complete neurosurgical resection of brain metastases performed?"
+    }
+   ],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient completed brain radiation at least 4 weeks ago or undergone neurosurgical resection at least 3 months ago?"
+  },
+  {
+   "id": "c1A1",
+   "type": "IF",
+   "polarity": "inclusion",
+   "source_line": "Be clinically stable from brain metastases at time of screening, if no treatment was administered",
+   "lines": [
+    24
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c1A1.0",
+     "type": "JUDGE",
+     "polarity": "inclusion",
+     "source_line": "Be clinically stable from brain metastases at time of screening, if no treatment was administered",
+     "lines": [
+      24
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": "no prior brain metastases treatment",
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Has the patient received any prior treatment (radiation or surgery) for brain metastases?"
+    },
+    {
+     "id": "c1A1.1",
+     "type": "JUDGE",
+     "polarity": "inclusion",
+     "source_line": "Be clinically stable from brain metastases at time of screening, if no treatment was administered",
+     "lines": [
+      24
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": "clinically stable from brain metastases",
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "clinician",
+     "question": "Is the patient clinically stable from brain metastases at screening?"
+    }
+   ],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "If no prior brain metastases treatment, is the patient clinically stable from brain metastases?"
+  },
+  {
+   "id": "c1A2",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Known leptomeningeal disease is not allowed",
+   "lines": [
+    25
+   ],
+   "section": "inclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "known leptomeningeal disease",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have known leptomeningeal disease?"
+  },
+  {
+   "id": "c1A3",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Patients must have Eastern Cooperative Oncology Group (ECOG) performance status 0-1",
+   "lines": [
+    26
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "ecog",
+   "op": "<=",
+   "value": 1,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient's ECOG performance status?"
+  },
+  {
+   "id": "c1A4",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Patients must have anticipated life expectancy greater than 3 months",
+   "lines": [
+    27
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "life_expectancy_months",
+   "op": ">",
+   "value": 3,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "What is the patient's anticipated life expectancy in months?"
+  },
+  {
+   "id": "c1A5",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Absolute neutrophil count >= 1,500/mm^3 (within 2 weeks prior to registration)",
+   "lines": [
+    28
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "anc_k_ul",
+   "op": ">=",
+   "value": 1.5,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient's absolute neutrophil count (10^3/uL)?"
+  },
+  {
+   "id": "c1A6",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Platelets >= 100,000/mm^3 (within 2 weeks prior to registration)",
+   "lines": [
+    29
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "platelets_k_ul",
+   "op": ">=",
+   "value": 100,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient's platelet count (10^3/uL)?"
+  },
+  {
+   "id": "c1A7",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Hemoglobin >= 9 g/dL (within 2 weeks prior to registration)",
+   "lines": [
+    30
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "hemoglobin_g_dl",
+   "op": ">=",
+   "value": 9,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient's hemoglobin (g/dL)?"
+  },
+  {
+   "id": "c1A8",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Subject has prothrombin time (PT)/international normalized ratio (INR) and partial thromboplastin time (PTT) test =< 1.3 x the laboratory upper limit of normal (ULN) (within 2 weeks prior to registration)",
+   "lines": [
+    31
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "PT/INR and PTT <= 1.3 x ULN",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Are the patient's PT/INR and PTT ≤ 1.3 × ULN?"
+  },
+  {
+   "id": "c1A9",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Total bilirubin =< 1.5 x ULN (within 2 weeks prior to registration)",
+   "lines": [
+    32
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "bilirubin_xuln",
+   "op": "<=",
+   "value": 1.5,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient's total bilirubin expressed as multiples of ULN?"
+  },
+  {
+   "id": "c1A10",
+   "type": "ALL",
+   "polarity": "inclusion",
+   "source_line": "Aspartate aminotransferase (AST) (serum glutamic oxaloacetic transaminase [SGOT]) and alanine aminotransferase (ALT) (serum glutamic pyruvic transaminase [SGPT]) =< 3 x ULN (within 2 weeks prior to registration)",
+   "lines": [
+    33
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c1A10.0",
+     "type": "CMP",
+     "polarity": "inclusion",
+     "source_line": "Aspartate aminotransferase (AST) (serum glutamic oxaloacetic transaminase [SGOT]) and alanine aminotransferase (ALT) (serum glutamic pyruvic transaminase [SGPT]) =< 3 x ULN (within 2 weeks prior to registration)",
+     "lines": [
+      33
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": "ast_xuln",
+     "op": "<=",
+     "value": 3,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "What is the patient's AST expressed as multiples of ULN?"
+    },
+    {
+     "id": "c1A10.1",
+     "type": "CMP",
+     "polarity": "inclusion",
+     "source_line": "Aspartate aminotransferase (AST) (serum glutamic oxaloacetic transaminase [SGOT]) and alanine aminotransferase (ALT) (serum glutamic pyruvic transaminase [SGPT]) =< 3 x ULN (within 2 weeks prior to registration)",
+     "lines": [
+      33
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": "alt_xuln",
+     "op": "<=",
+     "value": 3,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "What is the patient's ALT expressed as multiples of ULN?"
+    }
+   ],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Are AST and ALT each ≤ 3 × ULN?"
+  },
+  {
+   "id": "c1A11",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Serum albumin >= 2.8 g/dL (within 2 weeks prior to registration)",
+   "lines": [
+    34
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "albumin_g_dl",
+   "op": ">=",
+   "value": 2.8,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient's serum albumin (g/dL)?"
+  },
+  {
+   "id": "c1A12",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Serum calcium (absolute or albumin corrected), magnesium and potassium >= lower limit of normal (LLN) (within 2 weeks prior to registration)",
+   "lines": [
+    35
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "serum calcium, magnesium and potassium >= lower limit of normal",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Are serum calcium, magnesium and potassium each at or above the lower limit of normal?"
+  },
+  {
+   "id": "c1A13",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "NOTE: serum calcium, magnesium and potassium can be replaced if values are below LLN",
+   "lines": [
+    36
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "serum calcium, magnesium and potassium can be replaced if values are below LLN",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c1A14",
+   "type": "ANY",
+   "polarity": "inclusion",
+   "source_line": "Creatinine =< 1.5 x ULN or calculated (Cockcroft-Gault formula) or measured creatinine clearance >= 50 mL/min/1.73 m^2 (normalized to body surface area [BSA]) for patients with creatinine levels greater than 1.5 times the institutional normal (within 2 weeks prior to registration)",
+   "lines": [
+    37
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c1A14.0",
+     "type": "CMP",
+     "polarity": "inclusion",
+     "source_line": "Creatinine =< 1.5 x ULN or calculated (Cockcroft-Gault formula) or measured creatinine clearance >= 50 mL/min/1.73 m^2 (normalized to body surface area [BSA]) for patients with creatinine levels greater than 1.5 times the institutional normal (within 2 weeks prior to registration)",
+     "lines": [
+      37
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": "creatinine_xuln",
+     "op": "<=",
+     "value": 1.5,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "What is the patient's creatinine expressed as multiples of ULN?"
+    },
+    {
+     "id": "c1A14.1",
+     "type": "CMP",
+     "polarity": "inclusion",
+     "source_line": "Creatinine =< 1.5 x ULN or calculated (Cockcroft-Gault formula) or measured creatinine clearance >= 50 mL/min/1.73 m^2 (normalized to body surface area [BSA]) for patients with creatinine levels greater than 1.5 times the institutional normal (within 2 weeks prior to registration)",
+     "lines": [
+      37
+     ],
+     "section": "inclusion",
+     "cwa": false,
+     "field": "crcl_ml_min",
+     "op": ">=",
+     "value": 50,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "What is the patient's creatinine clearance (mL/min/1.73 m²)?"
+    }
+   ],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient's creatinine ≤ 1.5 × ULN or is creatinine clearance ≥ 50 mL/min?"
+  },
+  {
+   "id": "c1A15",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Screening urine dipstick must equal 0 or trace; if urine dipstick results are >= 1+, or if dipstick was not performed, calculation of urine protein creatinine (UPC) is required and patients must have a UPC ratio =< 1 to participate in the study (within 2 weeks prior to registration)",
+   "lines": [
+    38
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "urine dipstick 0 or trace; if ≥1+ or not performed, UPC ≤1",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the urine dipstick 0 or trace, or if not, is the UPC ratio ≤ 1?"
+  },
+  {
+   "id": "c1A16",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Patients must have corrected QT interval calculated by the Fridericia formula (QTcF) =< 500 ms within 28 days before registration",
+   "lines": [
+    39
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "qtc_ms",
+   "op": "<=",
+   "value": 500,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "What is the patient's corrected QT interval (ms) by Fridericia formula?"
+  },
+  {
+   "id": "c1A17",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Patients must be able to swallow tablets",
+   "lines": [
+    40
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "able to swallow tablets",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Is the patient able to swallow tablets?"
+  },
+  {
+   "id": "c1A18",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "All females of childbearing potential must have a blood test or urine study within 2 weeks prior to registration to rule out pregnancy",
+   "lines": [
+    41
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "female of childbearing potential has negative pregnancy test within 2 weeks",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the female patient of childbearing potential had a negative pregnancy test within the past 2 weeks?"
+  },
+  {
+   "id": "c1A19",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "A female of childbearing potential is any woman, regardless of sexual orientation or whether they have undergone tubal ligation, who meets the following criteria: 1) has not undergone a hysterectomy or bilateral oophorectomy; or 2) has not been naturally postmenopausal for at least 24 consecutive months (i.e., has had menses at any time in the preceding 24 consecutive months)",
+   "lines": [
+    42
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "definition of women of childbearing potential",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c1A20",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Women of childbearing potential (WOCBP) and males who are sexually active with WOCBP must use an accepted and effective method of contraception or abstain from sexual intercourse for at least one week prior to the start of treatment, and continue for 5 months after the last dose of protocol treatment for women of childbearing potential and 7 months after the last dose of protocol treatment for males who are sexually active with WOCBP",
+   "lines": [
+    43
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "use effective contraception or abstain as specified",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Are the patient and partner using an accepted method of contraception or abstaining as required?"
+  },
+  {
+   "id": "c1A21",
+   "type": "UNSCREENABLE",
+   "polarity": "exclusion",
+   "source_line": "(Step 1):",
+   "lines": [
+    44
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "(Step 1):",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c2A0",
+   "type": "IN",
+   "polarity": "exclusion",
+   "source_line": "Small cell elements are present",
+   "lines": [
+    45
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "cancer_type",
+   "op": null,
+   "value": null,
+   "values": [
+    "sclc"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Does the patient have small cell lung cancer?"
+  },
+  {
+   "id": "c2A1",
+   "type": "ANY",
+   "polarity": "exclusion",
+   "source_line": "Prior anti-MET therapy such as crizotinib or cabozantinib, or PD-1/PD-L1 immune checkpoint inhibitor therapy (such as nivolumab, pembrolizumab, atezolizumab) or CTLA4 inhibitor therapy (such as ipilimumab); prior allergic reaction to small molecule tyrosine kinase inhibitors or monoclonal antibodies",
+   "lines": [
+    46
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c2A1.0",
+     "type": "HAS",
+     "polarity": "exclusion",
+     "source_line": "Prior anti-MET therapy such as crizotinib or cabozantinib, or PD-1/PD-L1 immune checkpoint inhibitor therapy (such as nivolumab, pembrolizumab, atezolizumab) or CTLA4 inhibitor therapy (such as ipilimumab); prior allergic reaction to small molecule tyrosine kinase inhibitors or monoclonal antibodies",
+     "lines": [
+      46
+     ],
+     "section": "exclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": {
+      "cls": [
+       "tki"
+      ],
+      "agents": [
+       "crizotinib",
+       "cabozantinib"
+      ],
+      "thoracic": null,
+      "setting": []
+     },
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Has the patient received prior anti-MET therapy such as crizotinib or cabozantinib?"
+    },
+    {
+     "id": "c2A1.1",
+     "type": "HAS",
+     "polarity": "exclusion",
+     "source_line": "Prior anti-MET therapy such as crizotinib or cabozantinib, or PD-1/PD-L1 immune checkpoint inhibitor therapy (such as nivolumab, pembrolizumab, atezolizumab) or CTLA4 inhibitor therapy (such as ipilimumab); prior allergic reaction to small molecule tyrosine kinase inhibitors or monoclonal antibodies",
+     "lines": [
+      46
+     ],
+     "section": "exclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": {
+      "cls": [
+       "io"
+      ],
+      "agents": [
+       "nivolumab",
+       "pembrolizumab",
+       "atezolizumab"
+      ],
+      "thoracic": null,
+      "setting": []
+     },
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Has the patient received prior PD-1/PD-L1 checkpoint inhibitor therapy?"
+    },
+    {
+     "id": "c2A1.2",
+     "type": "HAS",
+     "polarity": "exclusion",
+     "source_line": "Prior anti-MET therapy such as crizotinib or cabozantinib, or PD-1/PD-L1 immune checkpoint inhibitor therapy (such as nivolumab, pembrolizumab, atezolizumab) or CTLA4 inhibitor therapy (such as ipilimumab); prior allergic reaction to small molecule tyrosine kinase inhibitors or monoclonal antibodies",
+     "lines": [
+      46
+     ],
+     "section": "exclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": {
+      "cls": [
+       "io"
+      ],
+      "agents": [
+       "ipilimumab"
+      ],
+      "thoracic": null,
+      "setting": []
+     },
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Has the patient received prior CTLA4 inhibitor therapy?"
+    },
+    {
+     "id": "c2A1.3",
+     "type": "JUDGE",
+     "polarity": "exclusion",
+     "source_line": "Prior anti-MET therapy such as crizotinib or cabozantinib, or PD-1/PD-L1 immune checkpoint inhibitor therapy (such as nivolumab, pembrolizumab, atezolizumab) or CTLA4 inhibitor therapy (such as ipilimumab); prior allergic reaction to small molecule tyrosine kinase inhibitors or monoclonal antibodies",
+     "lines": [
+      46
+     ],
+     "section": "exclusion",
+     "cwa": true,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": "Prior allergic reaction to small molecule tyrosine kinase inhibitors or monoclonal antibodies",
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "patient",
+     "question": "Has the patient had an allergic reaction to small molecule TKIs or monoclonal antibodies?"
+    }
+   ],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c2A2",
+   "type": "UNSCREENABLE",
+   "polarity": "exclusion",
+   "source_line": "Exception for targeted therapy sub-study (Arm T): Prior crizotinib may be allowed depending on the gene alteration",
+   "lines": [
+    47
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Exception: prior crizotinib may be allowed depending on gene alteration (Arm T)",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c2A3",
+   "type": "ANY",
+   "polarity": "exclusion",
+   "source_line": "Prior radiation therapy for bone metastasis within 2 weeks; any other radiation therapy within 4 weeks prior to registration",
+   "lines": [
+    48
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c2A3.0",
+     "type": "WITHIN",
+     "polarity": "exclusion",
+     "source_line": "Prior radiation therapy for bone metastasis within 2 weeks; any other radiation therapy within 4 weeks prior to registration",
+     "lines": [
+      48
+     ],
+     "section": "exclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": {
+      "cls": [
+       "radio"
+      ],
+      "agents": [],
+      "thoracic": null,
+      "setting": []
+     },
+     "k": null,
+     "months": 0.46,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Has the patient received radiation therapy for bone metastasis within the past 2 weeks?"
+    },
+    {
+     "id": "c2A3.1",
+     "type": "WITHIN",
+     "polarity": "exclusion",
+     "source_line": "Prior radiation therapy for bone metastasis within 2 weeks; any other radiation therapy within 4 weeks prior to registration",
+     "lines": [
+      48
+     ],
+     "section": "exclusion",
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": {
+      "cls": [
+       "radio"
+      ],
+      "agents": [],
+      "thoracic": null,
+      "setting": []
+     },
+     "k": null,
+     "months": 0.921,
+     "text": null,
+     "children": [],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Has the patient received any other radiation therapy within the past 4 weeks?"
+    }
+   ],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c2A4",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Known leptomeningeal disease",
+   "lines": [
+    49
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Known leptomeningeal disease",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have known leptomeningeal disease?"
+  },
+  {
+   "id": "c2A5",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Impaired decision-making capacity (IDMC)",
+   "lines": [
+    50
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Impaired decision-making capacity",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have impaired decision-making capacity?"
+  },
+  {
+   "id": "c2A6",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Clinically-significant gastrointestinal bleeding within 6 months prior to registration",
+   "lines": [
+    51
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Clinically significant gastrointestinal bleeding within 6 months prior to registration",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient had clinically significant gastrointestinal bleeding in the past 6 months?"
+  },
+  {
+   "id": "c2A7",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Hemoptysis of >= 0.5 teaspoon (2.5 mL) of red blood within 3 months prior to registration",
+   "lines": [
+    52
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Hemoptysis of ≥2.5 mL within 3 months prior to registration",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Has the patient experienced hemoptysis of at least 2.5 mL in the past 3 months?"
+  },
+  {
+   "id": "c2A8",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Drug induced pneumonitis within 3 months prior to registration",
+   "lines": [
+    53
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Drug‑induced pneumonitis within 3 months prior to registration",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient had drug‑induced pneumonitis in the past 3 months?"
+  },
+  {
+   "id": "c2A9",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Signs indicative of pulmonary hemorrhage within 3 months before the first dose of study treatment",
+   "lines": [
+    54
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Signs indicative of pulmonary hemorrhage within 3 months before first dose",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Are there signs of pulmonary hemorrhage within the past 3 months?"
+  },
+  {
+   "id": "c2A10",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Radiographic evidence of cavitating pulmonary lesion(s)",
+   "lines": [
+    55
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Radiographic evidence of cavitating pulmonary lesion(s)",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Do imaging studies show cavitating pulmonary lesions?"
+  },
+  {
+   "id": "c2A11",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Tumor invading any major blood vessels",
+   "lines": [
+    56
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Tumor invading any major blood vessels",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the tumor invading any major blood vessels?"
+  },
+  {
+   "id": "c2A12",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Evidence of tumor invading the GI tract (esophagus, stomach, small or large bowel, rectum or anus), or any evidence of endotracheal or mainstem endobronchial tumor within 28 days before the first dose of cabozantinib",
+   "lines": [
+    57
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Evidence of tumor invading the GI tract or endotracheal/mainstem airway within 28 days before first dose",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has imaging or endoscopy shown tumor invasion of the GI tract or airway within the past 28 days?"
+  },
+  {
+   "id": "c2A13",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Concomitant anticoagulation with oral anticoagulants (e.g., warfarin, direct thrombin and Factor Xa inhibitors) or platelet inhibitors (e.g., clopidogrel); allowed anticoagulants are the following:",
+   "lines": [
+    58
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Concomitant anticoagulation with oral anticoagulants or platelet inhibitors",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient taking oral anticoagulants or platelet inhibitors?"
+  },
+  {
+   "id": "c2A14",
+   "type": "UNSCREENABLE",
+   "polarity": "exclusion",
+   "source_line": "Low-dose aspirin for cardioprotection (per local applicable guidelines) is permitted",
+   "lines": [
+    59
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Low‑dose aspirin for cardioprotection is permitted",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c2A15",
+   "type": "UNSCREENABLE",
+   "polarity": "exclusion",
+   "source_line": "Low molecular weight heparins (LMWH) or unfractionated heparin is permitted",
+   "lines": [
+    60
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Low molecular weight heparins or unfractionated heparin is permitted",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c2A16",
+   "type": "UNSCREENABLE",
+   "polarity": "exclusion",
+   "source_line": "Anticoagulation with therapeutic doses of LMWH is allowed in subjects without known brain metastases who are on a stable dose of LMWH for at least 6 weeks before first dose of study treatment, and who have had no clinically significant hemorrhagic complications from the anticoagulation regimen or the tumor",
+   "lines": [
+    61
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Therapeutic LMWH allowed under specific conditions (no brain mets, stable ≥6 weeks, no hemorrhagic complications)",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": null
+  },
+  {
+   "id": "c2A17",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Concomitant treatment of strong CYP3A4 inducers (e.g., dexamethasone, phenytoin, carbamazepine, rifampin, rifabutin, rifapentine, phenobarbital, and St. John's wort)",
+   "lines": [
+    62
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Concomitant treatment with strong CYP3A4 inducers",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient receiving any strong CYP3A4 inducer such as dexamethasone or phenytoin?"
+  },
+  {
+   "id": "c2A18",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Cardiovascular disorders including:",
+   "lines": [
+    63
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Cardiovascular disorders (see lines 64‑65)",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have any cardiovascular disorder?"
+  },
+  {
+   "id": "c2A19",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Congestive heart failure (CHF): New York Heart Association (NYHA) class III (moderate) or class IV (severe) at the time of screening",
+   "lines": [
+    64
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "NYHA class III or IV congestive heart failure",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have NYHA class III or IV congestive heart failure?"
+  },
+  {
+   "id": "c2A20",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Concurrent uncontrolled hypertension defined as sustained blood pressure (BP) > 150 mm Hg systolic, or > 100 mm Hg diastolic despite optimal antihypertensive treatment within 7 days prior to registration",
+   "lines": [
+    65
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Uncontrolled hypertension (BP >150 mm Hg systolic or >100 mm Hg diastolic despite treatment) within 7 days",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient had uncontrolled hypertension within the past 7 days?"
+  },
+  {
+   "id": "c2A21",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Any of the following within 6 months prior to registration:",
+   "lines": [
+    66
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Any of the listed events within 6 months prior to registration",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient experienced any of the specified events within the past 6 months?"
+  },
+  {
+   "id": "c3A0",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Unstable angina pectoris",
+   "lines": [
+    67
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "unstable_angina",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "clinician",
+   "question": "Does the patient have unstable angina pectoris?"
+  },
+  {
+   "id": "c3A1",
+   "type": "IN",
+   "polarity": "exclusion",
+   "source_line": "Clinically-significant cardiac arrhythmias",
+   "lines": [
+    68
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "arrhythmia",
+   "op": null,
+   "value": null,
+   "values": [
+    "uncontrolled"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "clinician",
+   "question": "Does the patient have uncontrolled cardiac arrhythmias?"
+  },
+  {
+   "id": "c3A2",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Stroke (including transient ischemic attack [TIA], or other ischemic event)",
+   "lines": [
+    69
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "stroke, transient ischemic attack (TIA) or other ischemic event",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient had a stroke, TIA, or any other ischemic event?"
+  },
+  {
+   "id": "c3A3",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Myocardial infarction",
+   "lines": [
+    70
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "myocardial infarction",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient had a myocardial infarction?"
+  },
+  {
+   "id": "c3A4",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Gastrointestinal disorders associated with a high risk of perforation or fistula formation within 3 months prior to registration:",
+   "lines": [
+    71
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "gastrointestinal disorders with high risk of perforation or fistula formation within 3 months prior to registration",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Has the patient had any GI disorder that puts them at high risk for perforation or fistula within the past 3 months?"
+  },
+  {
+   "id": "c3A5",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Active peptic ulcer disease",
+   "lines": [
+    72
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "active peptic ulcer disease",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have active peptic ulcer disease?"
+  },
+  {
+   "id": "c3A6",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Inflammatory bowel disease (including ulcerative colitis and Crohn's disease), diverticulitis, cholecystitis, symptomatic cholangitis or appendicitis",
+   "lines": [
+    73
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "inflammatory bowel disease (ulcerative colitis or Crohn's), diverticulitis, cholecystitis, symptomatic cholangitis or appendicitis",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have IBD, diverticulitis, cholecystitis, symptomatic cholangitis, or appendicitis?"
+  },
+  {
+   "id": "c3A7",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Known malabsorption syndrome",
+   "lines": [
+    74
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "known malabsorption syndrome",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have a known malabsorption syndrome?"
+  },
+  {
+   "id": "c3A8",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Bowel obstruction or gastric outlet obstruction",
+   "lines": [
+    75
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "bowel obstruction or gastric outlet obstruction",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have a bowel obstruction or gastric outlet obstruction?"
+  },
+  {
+   "id": "c3A9",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Percutaneous endoscopic gastrostomy (PEG) tube placement",
+   "lines": [
+    76
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "percutaneous endoscopic gastrostomy (PEG) tube placement",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient had a PEG tube placed?"
+  },
+  {
+   "id": "c3A10",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Gastrointestinal disorders associated with a high risk of perforation or fistula formation within 6 months prior to registration:",
+   "lines": [
+    77
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "gastrointestinal disorders with high risk of perforation or fistula formation within 6 months prior to registration",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Has the patient had any GI disorder that puts them at high risk for perforation or fistula within the past 6 months?"
+  },
+  {
+   "id": "c3A11",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Abdominal fistula",
+   "lines": [
+    78
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "abdominal fistula",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have an abdominal fistula?"
+  },
+  {
+   "id": "c3A12",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Gastrointestinal perforation",
+   "lines": [
+    79
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "gastrointestinal perforation",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have a gastrointestinal perforation?"
+  },
+  {
+   "id": "c3A13",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Intra-abdominal abscess; Note: Complete resolution of an intra-abdominal abscess must be confirmed prior to initiating treatment with cabozantinib even if the abscess occurred more than 6 months prior to registration",
+   "lines": [
+    80
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "intra‑abdominal abscess that has not completely resolved",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have an intra‑abdominal abscess that has not fully resolved?"
+  },
+  {
+   "id": "c3A14",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Any of the following conditions:",
+   "lines": [
+    81
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "any of the following conditions (general heading)",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have any of the listed exclusion conditions?"
+  },
+  {
+   "id": "c3A15",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Grade 3 or greater infection, or infection requiring intravenous systemic treatment within 28 days prior to registration; patients should be off antibiotics at the time of registration.",
+   "lines": [
+    82
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "grade 3 or greater infection, or infection requiring intravenous systemic treatment within 28 days prior to registration (patient must be off antibiotics at registration)",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient had a grade 3+ infection or required IV antibiotics within the past 28 days?"
+  },
+  {
+   "id": "c3A16",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Serious non-healing wound/ulcer/bone fracture within 28 days prior to registration",
+   "lines": [
+    83
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "serious non‑healing wound, ulcer or bone fracture within 28 days prior to registration",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have a serious non‑healing wound, ulcer, or bone fracture within the past 28 days?"
+  },
+  {
+   "id": "c3A17",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "History of organ transplant",
+   "lines": [
+    84
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "history of organ transplant",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient ever undergone an organ transplant?"
+  },
+  {
+   "id": "c3A18",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Concurrent symptomatic untreated hypothyroidism within 7 days prior to registration",
+   "lines": [
+    85
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "concurrent symptomatic untreated hypothyroidism within 7 days prior to registration",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have symptomatic untreated hypothyroidism within the past 7 days?"
+  },
+  {
+   "id": "c3A19",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "History of surgery as follows:",
+   "lines": [
+    86
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "history of surgery (general heading)",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have a relevant surgical history?"
+  },
+  {
+   "id": "c3A20",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Major surgery (as an example, surgery requiring anesthesia and a > 24 hour hospital stay) within 3 months prior to registration, with wound healing at least 28 days prior to registration",
+   "lines": [
+    87
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "major surgery (requiring anesthesia and > 24 h hospital stay) within 3 months prior to registration, with wound healing at least 28 days prior to registration",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient undergone major surgery within the past 3 months (with wound healing at least 28 days ago)?"
+  },
+  {
+   "id": "c3A21",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Minor surgery within 28 days prior to registration with complete wound healing at least 10 days prior to registration",
+   "lines": [
+    88
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "minor surgery within 28 days prior to registration with complete wound healing at least 10 days prior to registration",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient had minor surgery within the past 28 days (with wound healing at least 10 days ago)?"
+  },
+  {
+   "id": "c4A0",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Minor procedures within 7 days prior to registration such as thoracentesis, paracentesis, or 18 g or smaller needle biopsy of tumor",
+   "lines": [
+    89
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Minor procedures (thoracentesis, paracentesis, or needle biopsy ≤18 g) performed within 7 days prior to registration",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Any thoracentesis, paracentesis, or needle biopsy ≤18 g performed within the past 7 days?"
+  },
+  {
+   "id": "c4A1",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Patients with clinically relevant ongoing complications from prior surgery are not eligible",
+   "lines": [
+    90
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Clinically relevant ongoing complications from prior surgery",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Are there any ongoing clinically relevant complications from prior surgery?"
+  },
+  {
+   "id": "c4A2",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Currently active other malignancies which require systemic treatment",
+   "lines": [
+    91
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Currently active other malignancies that require systemic treatment",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have any other active malignancy requiring systemic therapy?"
+  },
+  {
+   "id": "c4A3",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "A condition requiring systemic treatment with either corticosteroids (> 10 mg daily prednisone equivalents) or other immunosuppressive medications within 14 days of study drug administration; inhaled or topical steroids and adrenal replacement doses =< 10 mg daily prednisone equivalents are permitted in the absence of active autoimmune disease; patients are permitted to use topical, ocular, intra-articular, intranasal, and inhalational corticosteroids (with minimal systemic absorption); physiologic replacement doses of systemic corticosteroids are permitted, even if < 10 mg/day prednisone equivalents; a brief course of corticosteroids for prophylaxis (e.g., contrast dye allergy) or for treatment of non-autoimmune conditions (e.g., delayed-type hypersensitivity reaction caused by contact allergen) is permitted",
+   "lines": [
+    92
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Systemic corticosteroid use >10 mg prednisone equivalents daily within 14 days before study drug administration",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient taken systemic corticosteroids >10 mg prednisone equivalents per day within the past 14 days?"
+  },
+  {
+   "id": "c4A4",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Active autoimmune disease or known history of autoimmune disease for which recurrence may affect vital organ function or require immune suppressive treatment including systemic corticosteroids; these include but are not limited to patients with a history of immune related neurologic disease, multiple sclerosis, autoimmune (demyelinating) neuropathy, Guillain-Barre syndrome, myasthenia gravis; systemic autoimmune disease such as systemic lupus erythematosus (SLE), connective tissue diseases, scleroderma, inflammatory bowel disease (IBD), Crohn's, ulcerative colitis, autoimmune hepatitis; patients with a history of toxic epidermal necrolysis (TEN), Stevens-Johnson syndrome, or phospholipid syndrome should be excluded because of the risk of recurrence or exacerbation of disease; patients with vitiligo, endocrine deficiencies including type I diabetes mellitus or thyroiditis managed with replacement hormones including physiologic corticosteroids are eligible; patients with rheumatoid arthritis and other arthropathies, Sjogren's syndrome and psoriasis controlled with topical medication and patients with positive serology, such as antinuclear antibodies (ANA), anti-thyroid antibodies should be evaluated for the presence of target organ involvement and potential need for systemic treatment but should otherwise be eligible",
+   "lines": [
+    93
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "autoimmune_active",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "clinician",
+   "question": "Does the patient have an active autoimmune disease that requires systemic immunosuppressive therapy?"
+  },
+  {
+   "id": "c4A5",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Ongoing major illness or psychosocial issues that would limit compliance with the protocol",
+   "lines": [
+    94
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Ongoing major illness or psychosocial issues that would limit protocol compliance",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Are there any ongoing major medical or psychosocial issues that could limit the patient’s compliance with the protocol?"
+  },
+  {
+   "id": "c4A6",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Pregnant or breast-feeding",
+   "lines": [
+    95
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "pregnant",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Is the patient currently pregnant?"
+  },
+  {
+   "id": "c4A7",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Pregnant or breast-feeding",
+   "lines": [
+    95
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Breast‑feeding",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Is the patient currently breast‑feeding?"
+  },
+  {
+   "id": "c4A8",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Patients with known human immunodeficiency virus (HIV) disease taking antiretroviral therapy are excluded because there are no safety data with the combination of antiretroviral therapy and cabozantinib or ipilimumab or nivolumab with ipilimumab",
+   "lines": [
+    96
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Known HIV infection with ongoing antiretroviral therapy",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have HIV infection and is currently receiving antiretroviral therapy?"
+  },
+  {
+   "id": "c4A9",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Patients with known chronic active hepatitis B (defined as a positive hepatitis B surface antigen and/or hepatitis B viral load in the last",
+   "lines": [
+    97
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "Known chronic active hepatitis B (positive HBsAg and/or detectable HBV DNA)",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have chronic active hepatitis B (positive surface antigen or detectable viral load)?"
+  }
+ ],
+ "compiler_meta": {
+  "primary": {
+   "stage_alternatives_merged": 0,
+   "model": "openai/gpt-oss-120b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 97,
+   "repaired": true,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 104
+  },
+  "secondary": {
+   "stage_alternatives_merged": 0,
+   "model": "qwen/qwen3.8-27b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 97,
+   "repaired": true,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 95
+  },
+  "prompt_version": "compiler-v1.2",
+  "lines": 97,
+  "lines_exact_agree": 64,
+  "typed_atoms": 38,
+  "typed_atoms_agree": 23,
+  "downgraded_atoms": 15
+ }
+}

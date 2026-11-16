@@ -1,0 +1,397 @@
+{
+ "01149ff4b4": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No history of arrhythmia or QTc abnormalities reported in the note"
+ },
+ "05bb393470": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No history of other malignancies within 5 years mentioned in the note"
+ },
+ "08bb050321": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No history of prior platinum chemotherapy for advanced disease stated"
+ },
+ "0b14ee31a9": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No history of uncontrollable seizures or untreated intracranial hypertension reported"
+ },
+ "1051afa86a": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on tumor location relative to proximal bronchial tree provided"
+ },
+ "122dd43b9f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "MRI confirms at least one measurable intracranial lesion of at least 10 mm"
+ },
+ "1399f65557": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on tumor cavitary or necrotic nature provided"
+ },
+ "154fdc6f4e": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No GI abnormalities or malabsorption issues reported in the note"
+ },
+ "19b80e7231": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No anti-coagulant therapy reported in the patient's history"
+ },
+ "1dc08cb25f": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No participation in interventional research studies stated"
+ },
+ "1e2d5dd2a1": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on patient's ability to comply with protocol provided"
+ },
+ "22ebe27acf": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No history of HIV infection reported in the patient's note"
+ },
+ "26b14ea1f2": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on CSF cytology or leptomeningeal disease is provided"
+ },
+ "298f0ceeb2": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No history of prior local treatment for brain metastasis or lesion progression is mentioned"
+ },
+ "363310d974": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on pulmonary hypertension or related symptoms is provided"
+ },
+ "3686dd4cd4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on hilar/mediastinal nodes or PET abnormalities or tissue biopsy is provided"
+ },
+ "3698667849": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Creatinine is 1.0 mg/dL, indicating normal renal function with eGFR \u2265 25 mL/min"
+ },
+ "48f24f06b1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Tumor size is not specified in the note"
+ },
+ "4bec7ea1a1": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "MRI confirms at least one measurable intracranial lesion; no extracranial disease required"
+ },
+ "4db6714c89": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on aspirin or NSAID use or interruption is provided"
+ },
+ "4e6c4480a9": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on lactation or nursing status is provided"
+ },
+ "508a8ed716": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on stage II disease or N1 status or operability is provided"
+ },
+ "50d1243369": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on prior radiotherapy or disease progression after completion is provided"
+ },
+ "58e871d944": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on end-organ function or systemic disease control provided"
+ },
+ "5c32b40b00": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on folic acid or vitamin B12 supplementation needs"
+ },
+ "67f461d0f2": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient is considered a candidate for durvalumab by treating investigator"
+ },
+ "6af738264a": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on CYP3A4/5 inhibitors or interactors used"
+ },
+ "6cf13fb718": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No history of hemorrhagic or thrombotic events or hemoptysis reported"
+ },
+ "7863357e5e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on tumor location or vessel invasion or prior irradiation"
+ },
+ "79088b98fb": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on GI tract integrity or ability to take oral meds or ulcers"
+ },
+ "7caa314d2f": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on other active malignancies in past 3 years"
+ },
+ "81d272ec22": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on leptomeningeal lesions in MRI"
+ },
+ "86b1a1ffe7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on FEV1L value or lung function"
+ },
+ "895b6834d8": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No history of prior invasive malignancy is stated; malignancy history not reported"
+ },
+ "900138caef": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Patient has Stage IV cancer, not stage IA2; stage classification not met"
+ },
+ "91e39899f5": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Life expectancy exceeds 3 months, not below 6 months; statement false"
+ },
+ "97a2f6d3c5": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Patient received prior cytotoxic chemotherapy; requirement not met"
+ },
+ "997db60674": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No severe cerebral or psychiatric pathology stated; condition not present"
+ },
+ "9b13285bc0": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Brain metastases are asymptomatic and stable; no symptoms or steroids required"
+ },
+ "9ecdb12dc7": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Bilirubin is 0.5 mg/dL, below 1.5 mg/dL; lab value not elevated"
+ },
+ "a0bb93f5d7": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Patient received prior cytotoxic chemotherapy; not adjuvant therapy"
+ },
+ "a5b827a3f4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on hematuria or proteinuria; not stated"
+ },
+ "a8aa01fb3f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on willingness for follow-up; not stated"
+ },
+ "b8d9688e9e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on sexual activity or contraception; not stated"
+ },
+ "b9d0f306b1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on peripheral vascular disease; not stated"
+ },
+ "bac32f378a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on hilar/mediastinal lymph nodes or PET scan findings is provided"
+ },
+ "bef6c682ea": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient has documented brain metastases indicating distant metastases (M1)"
+ },
+ "c096d1c8f1": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Disease involves brain metastases, making it unresectable and not treatable with SBRT"
+ },
+ "c58fbaf42a": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient is negative for T790M mutation, so T790M mutation is not positive"
+ },
+ "c67c5354dd": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Myocardial infarction occurred over a year ago and is fully resolved, not within past 6 months"
+ },
+ "c720377d28": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on eye surface inflammatory changes is provided"
+ },
+ "c7750c6907": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on pregnancy or breastfeeding status is provided"
+ },
+ "cd44ecf60a": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Laboratory values show normal organ function with no signs of severe insufficiency"
+ },
+ "cd6887c5a8": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Tumor is adenocarcinoma of lung, which is typically peripherally located"
+ },
+ "cf5b623242": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient has received prior cytotoxic chemotherapy, so has had prior systemic therapy"
+ },
+ "d51904a648": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on pleural or pericardial effusions or their characteristics is provided"
+ },
+ "d878c7080b": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient has no allergy to gefitinib-analogue excipients"
+ },
+ "e193b95631": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on acute supplemental O\u2082 requirement or stability provided"
+ },
+ "e73a551bc8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Primary tumor size not stated in the note"
+ },
+ "e8308b718a": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "QTc_ms not measured or reported in the note"
+ },
+ "e87ae1f727": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Pleural effusion status and cytology not described in the note"
+ },
+ "e89085887a": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "FEV1% predicted not stated, but normal organ function implies adequate lung function"
+ },
+ "e8ee280dfe": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Tumor location relative to nodal disease not described"
+ },
+ "ea2673beb7": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Myocardial infarction occurred over a year ago and is fully resolved"
+ },
+ "ead5afcc49": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "No central pleural or mediastinal involvement documented"
+ },
+ "eba8f701b4": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "MRI confirms at least one measurable intracranial lesion"
+ },
+ "ee81f30190": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient is strictly EGFR TKI-na\u00efve and last chemotherapy was 4 months ago"
+ },
+ "ef58bd54e8": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ANC is 5.6 x 10^3/\u00b5L, which exceeds 4 x 10^3/\u00b5L threshold"
+ },
+ "f035c9c02a": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No history of other malignancy mentioned; only lung cancer is stated"
+ },
+ "f26d20ed31": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about central tumor location or pneumonectomy consideration is provided"
+ },
+ "f70e36fa87": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient has asymptomatic brain metastases with stable disease for at least two months"
+ },
+ "fa63a5c74c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Pleural effusion status is not stated in the note"
+ },
+ "fa9b403fc4": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Pregnancy or lactation status is not stated in the note"
+ },
+ "facd6eaaf0": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Patient has Stage IV cancer, not Stage IA2 or T1bN0M0"
+ },
+ "fba10ba7b1": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Staging studies (MRI) were performed and confirmed brain metastases prior to enrollment"
+ },
+ "2f36628671": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "5fb33fb177": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "683029b89d": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "f5e69c5a5f": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ }
+}

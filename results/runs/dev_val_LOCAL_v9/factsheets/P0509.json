@@ -1,0 +1,346 @@
+{
+ "patient_id": "P0509",
+ "fields": {
+  "age": {
+   "status": "value",
+   "value": [
+    64.0,
+    64.0
+   ],
+   "evidence": "64-year-old male",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "sex": {
+   "status": "value",
+   "value": "male",
+   "evidence": "64-year-old male",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "cancer_type": {
+   "status": "value",
+   "value": "nsclc",
+   "evidence": "Stage IIIB (T2N3M0) NSCLC",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "histology": {
+   "status": "value",
+   "value": "nos",
+   "evidence": "NSCLC (NOS)",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "stage_group": {
+   "status": "value",
+   "value": "IIIB",
+   "evidence": "Stage IIIB (T2N3M0) NSCLC",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "disease_status": {
+   "status": "value",
+   "value": "newly_diagnosed",
+   "evidence": "treatment-naive",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "ecog": {
+   "status": "value",
+   "value": [
+    1.0,
+    1.0
+   ],
+   "evidence": "SWOG performance status of 1",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "kps": {
+   "status": "value",
+   "value": [
+    100.0,
+    100.0
+   ],
+   "evidence": "SWOG performance status of 1",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "fev1_pct": {
+   "status": "value",
+   "value": [
+    68.0,
+    68.0
+   ],
+   "evidence": "FEV1 of 2.1 L (68% predicted)",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "fev1_l": {
+   "status": "value",
+   "value": [
+    2.1,
+    2.1
+   ],
+   "evidence": "FEV1 of 2.1 L",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "brain_mets": {
+   "status": "negated",
+   "value": "none",
+   "evidence": "recent brain MRI is negative for metastases",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "mi_months_ago": {
+   "status": "value",
+   "value": [
+    24.0,
+    24.0
+   ],
+   "evidence": "single uncomplicated myocardial infarction occurring over 2 years ago",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "mi_history": {
+   "status": "value",
+   "value": true,
+   "evidence": "single uncomplicated myocardial infarction occurring over 2 years ago",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "unstable_angina": {
+   "status": "negated",
+   "value": null,
+   "evidence": "completely stable coronary disease",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "steroids_systemic": {
+   "status": "negated",
+   "value": null,
+   "evidence": "willing to take protocol-mandated folic acid, vitamin B12, and dexamethasone",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "creatinine_mg_dl": {
+   "status": "value",
+   "value": [
+    0.0,
+    0.0
+   ],
+   "evidence": "calculated CrCl > 45 mL/min",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "crcl_ml_min": {
+   "status": "value",
+   "value": [
+    45.0,
+    45.0
+   ],
+   "evidence": "calculated CrCl > 45 mL/min",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "bilirubin_mg_dl": {
+   "status": "value",
+   "value": [
+    0.0,
+    0.0
+   ],
+   "evidence": "bilirubin ≤ ULN",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "ast_xuln": {
+   "status": "value",
+   "value": [
+    0.0,
+    0.0
+   ],
+   "evidence": "hepatic transaminases/alkaline phosphatase strictly within protocol limits",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "alt_xuln": {
+   "status": "value",
+   "value": [
+    0.0,
+    0.0
+   ],
+   "evidence": "hepatic transaminases/alkaline phosphatase strictly within protocol limits",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "anc_k_ul": {
+   "status": "value",
+   "value": [
+    4.1,
+    4.1
+   ],
+   "evidence": "ANC 4.1 x 10³/µL",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "wbc_k_ul": {
+   "status": "value",
+   "value": [
+    0.0,
+    0.0
+   ],
+   "evidence": "no concurrent malignancies",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "platelets_k_ul": {
+   "status": "value",
+   "value": [
+    245.0,
+    245.0
+   ],
+   "evidence": "platelets 245k/µL",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "hemoglobin_g_dl": {
+   "status": "value",
+   "value": [
+    0.0,
+    0.0
+   ],
+   "evidence": "no concurrent malignancies",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "albumin_g_dl": {
+   "status": "value",
+   "value": [
+    0.0,
+    0.0
+   ],
+   "evidence": "no concurrent malignancies",
+   "readers": [
+    "edge_local"
+   ],
+   "verified": false
+  },
+  "tnm_t": {
+   "status": "value",
+   "value": "T2",
+   "evidence": "Stage IIIB (T2N3M0) NSCLC",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_n": {
+   "status": "value",
+   "value": "N3",
+   "evidence": "Stage IIIB (T2N3M0) NSCLC",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "tnm_m": {
+   "status": "value",
+   "value": "M0",
+   "evidence": "Stage IIIB (T2N3M0) NSCLC",
+   "readers": [
+    "edge_local",
+    "regex"
+   ],
+   "verified": true
+  },
+  "neuropathy_grade": {
+   "status": "value",
+   "value": [
+    1.0,
+    1.0
+   ],
+   "evidence": null,
+   "readers": [
+    "regex"
+   ],
+   "verified": false
+  }
+ },
+ "therapy_status": "negated",
+ "events": [],
+ "lines_of_therapy": null,
+ "reader_meta": {
+  "reader": "edge_local",
+  "conflicts": [],
+  "therapy_verified": true,
+  "lines_verified": false,
+  "prompt_version": "structurer-v1.1",
+  "slm_meta": {
+   "cached": false,
+   "latency_s": 221.523,
+   "prompt_tokens": 1594,
+   "gen_tokens": 1372,
+   "prompt_s": 7.476,
+   "gen_s": 212.011,
+   "load_s": 0.003
+  }
+ }
+}

@@ -1,0 +1,992 @@
+{
+ "trial_id": "NCT00408226",
+ "atoms": [
+  {
+   "id": "c0A0",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "Patients must satisfy this criteria based on the portion of the study for which they are being considered for enrollment:",
+   "lines": [
+    1
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "portion of study selection",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Which study portion (dose-escalating or phase 2) is the patient being considered for?"
+  },
+  {
+   "id": "c0A1",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "Dose Escalating Phase: Patients with advanced solid tumor malignancies for whom single-agent pemetrexed therapy would not be contraindicated. Measurable disease not required.",
+   "lines": [
+    2
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "single-agent pemetrexed contraindication",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Is single‑agent pemetrexed therapy contraindicated for this patient?"
+  },
+  {
+   "id": "c0A2",
+   "type": "ANY",
+   "polarity": "inclusion",
+   "source_line": "Phase 2 portion: Current diagnosis of Stage IIIb (due to malignant pleural effusion or supraclavicular lymph node involvement only) or Stage IV histologically and/or cytologically proven non-small cell lung cancer according to staging system of the American Joint Committee on Cancer.",
+   "lines": [
+    3
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [
+    {
+     "id": "c0A2.0",
+     "type": "ALL",
+     "polarity": "inclusion",
+     "source_line": "",
+     "lines": [],
+     "section": null,
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [
+      {
+       "id": "c0A2.0.0",
+       "type": "IN",
+       "polarity": "inclusion",
+       "source_line": "",
+       "lines": [],
+       "section": null,
+       "cwa": false,
+       "field": "stage_group",
+       "op": null,
+       "value": null,
+       "values": [
+        "IIIB"
+       ],
+       "filter": null,
+       "k": null,
+       "months": null,
+       "text": null,
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "record",
+       "question": null
+      },
+      {
+       "id": "c0A2.0.1",
+       "type": "IS",
+       "polarity": "inclusion",
+       "source_line": "",
+       "lines": [],
+       "section": null,
+       "cwa": false,
+       "field": "malignant_effusion",
+       "op": null,
+       "value": true,
+       "values": [],
+       "filter": null,
+       "k": null,
+       "months": null,
+       "text": null,
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "record",
+       "question": null
+      }
+     ],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Is the disease stage IIIB with malignant pleural effusion or supraclavicular node involvement only?"
+    },
+    {
+     "id": "c0A2.1",
+     "type": "ALL",
+     "polarity": "inclusion",
+     "source_line": "",
+     "lines": [],
+     "section": null,
+     "cwa": false,
+     "field": null,
+     "op": null,
+     "value": null,
+     "values": [],
+     "filter": null,
+     "k": null,
+     "months": null,
+     "text": null,
+     "children": [
+      {
+       "id": "c0A2.1.0",
+       "type": "IN",
+       "polarity": "inclusion",
+       "source_line": "",
+       "lines": [],
+       "section": null,
+       "cwa": false,
+       "field": "stage_group",
+       "op": null,
+       "value": null,
+       "values": [
+        "IV"
+       ],
+       "filter": null,
+       "k": null,
+       "months": null,
+       "text": null,
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "record",
+       "question": null
+      },
+      {
+       "id": "c0A2.1.1",
+       "type": "IN",
+       "polarity": "inclusion",
+       "source_line": "",
+       "lines": [],
+       "section": null,
+       "cwa": false,
+       "field": "cancer_type",
+       "op": null,
+       "value": null,
+       "values": [
+        "nsclc"
+       ],
+       "filter": null,
+       "k": null,
+       "months": null,
+       "text": null,
+       "children": [],
+       "downgraded": false,
+       "answerable_by": "record",
+       "question": null
+      }
+     ],
+     "downgraded": false,
+     "answerable_by": "record",
+     "question": "Is the patient diagnosed with stage IV non‑small cell lung cancer?"
+    }
+   ],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Does the patient meet either the stage IIIB with effusion or stage IV NSCLC criteria?"
+  },
+  {
+   "id": "c0A3",
+   "type": "HAS",
+   "polarity": "inclusion",
+   "source_line": "(i) Patient has received maximally feasible surgical resection and/or radiotherapy for initial disease.",
+   "lines": [
+    4
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "surgery",
+     "radio"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient received maximal surgical resection and/or radiotherapy for the initial disease?"
+  },
+  {
+   "id": "c0A4",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "(ii) Either disease progression following treatment with one prior chemotherapy regimen used for the treatment of metastatic disease or disease progression following adjuvant/neoadjuvant therapy within one year of last dose of chemotherapy or (for those patients with disease progression following adjuvant/neoadjuvant therapy >1 year of last dose of chemotherapy) disease progression following one additional chemotherapy regimen for metastatic disease.",
+   "lines": [
+    5
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "disease progression after prior chemotherapy",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Has the patient experienced disease progression after the specified prior chemotherapy regimens?"
+  },
+  {
+   "id": "c0A5",
+   "type": "IS",
+   "polarity": "inclusion",
+   "source_line": "(iii) Radiographic or physical examination evidence of at least one site of unidimensionally-measurable disease, using the RECIST criteria with disease assessed within 28 days prior to treatment initiation.",
+   "lines": [
+    6
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "measurable_disease",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is there radiographic or physical evidence of at least one unidimensionally measurable lesion?"
+  },
+  {
+   "id": "c0A6",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Age ≥ 18 years.",
+   "lines": [
+    7
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "age",
+   "op": ">=",
+   "value": 18,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient at least 18 years old?"
+  },
+  {
+   "id": "c0A7",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "ECOG performance status of 0 or 1.",
+   "lines": [
+    8
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "ecog",
+   "op": "<=",
+   "value": 1,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the ECOG performance status 0 or 1?"
+  },
+  {
+   "id": "c0A8",
+   "type": "JUDGE",
+   "polarity": "inclusion",
+   "source_line": "All acute toxicity of any prior chemotherapy, surgery or radiotherapy must have resolved to NCI CTCAE Grade ≤ 1, except for alopecia.",
+   "lines": [
+    9
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "prior treatment toxicity resolved to ≤ grade 1",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Has all acute toxicity from prior chemotherapy, surgery or radiotherapy resolved to CTCAE grade ≤1 (except alopecia)?"
+  },
+  {
+   "id": "c0A9",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "The following laboratory results, within 10 days of MKC-1 administration:",
+   "lines": [
+    10
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "lab timing within 10 days",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Were the required laboratory tests obtained within 10 days of drug administration?"
+  },
+  {
+   "id": "c0A10",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Hemoglobin ≥ 9 g/dL Absolute neutrophil count ≥ 1.5 x 109/L Platelet count ≥ 75 x 109/L Serum creatinine ≤ 1.5 x ULN (upper limit of normal) Creatinine clearance ≥ 45 mL/min AST ≤ 2.5 x ULN Serum albumin ≥ LLN (lower limit of normal) or 3.5 g/dL Total bilirubin ≤ ULN",
+   "lines": [
+    11
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "hemoglobin_g_dl",
+   "op": ">=",
+   "value": 9,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is hemoglobin ≥ 9 g/dL?"
+  },
+  {
+   "id": "c0A11",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Hemoglobin ≥ 9 g/dL Absolute neutrophil count ≥ 1.5 x 109/L Platelet count ≥ 75 x 109/L Serum creatinine ≤ 1.5 x ULN (upper limit of normal) Creatinine clearance ≥ 45 mL/min AST ≤ 2.5 x ULN Serum albumin ≥ LLN (lower limit of normal) or 3.5 g/dL Total bilirubin ≤ ULN",
+   "lines": [
+    11
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "anc_k_ul",
+   "op": ">=",
+   "value": 1.5,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is absolute neutrophil count ≥ 1.5 ×10⁹/L (1.5 ×10³/µL)?"
+  },
+  {
+   "id": "c0A12",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Hemoglobin ≥ 9 g/dL Absolute neutrophil count ≥ 1.5 x 109/L Platelet count ≥ 75 x 109/L Serum creatinine ≤ 1.5 x ULN (upper limit of normal) Creatinine clearance ≥ 45 mL/min AST ≤ 2.5 x ULN Serum albumin ≥ LLN (lower limit of normal) or 3.5 g/dL Total bilirubin ≤ ULN",
+   "lines": [
+    11
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "platelets_k_ul",
+   "op": ">=",
+   "value": 75,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is platelet count ≥ 75 ×10⁹/L (75 ×10³/µL)?"
+  },
+  {
+   "id": "c0A13",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Hemoglobin ≥ 9 g/dL Absolute neutrophil count ≥ 1.5 x 109/L Platelet count ≥ 75 x 109/L Serum creatinine ≤ 1.5 x ULN (upper limit of normal) Creatinine clearance ≥ 45 mL/min AST ≤ 2.5 x ULN Serum albumin ≥ LLN (lower limit of normal) or 3.5 g/dL Total bilirubin ≤ ULN",
+   "lines": [
+    11
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "creatinine_xuln",
+   "op": "<=",
+   "value": 1.5,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is serum creatinine ≤ 1.5 × ULN?"
+  },
+  {
+   "id": "c0A14",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Hemoglobin ≥ 9 g/dL Absolute neutrophil count ≥ 1.5 x 109/L Platelet count ≥ 75 x 109/L Serum creatinine ≤ 1.5 x ULN (upper limit of normal) Creatinine clearance ≥ 45 mL/min AST ≤ 2.5 x ULN Serum albumin ≥ LLN (lower limit of normal) or 3.5 g/dL Total bilirubin ≤ ULN",
+   "lines": [
+    11
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "crcl_ml_min",
+   "op": ">=",
+   "value": 45,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is creatinine clearance ≥ 45 mL/min?"
+  },
+  {
+   "id": "c0A15",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Hemoglobin ≥ 9 g/dL Absolute neutrophil count ≥ 1.5 x 109/L Platelet count ≥ 75 x 109/L Serum creatinine ≤ 1.5 x ULN (upper limit of normal) Creatinine clearance ≥ 45 mL/min AST ≤ 2.5 x ULN Serum albumin ≥ LLN (lower limit of normal) or 3.5 g/dL Total bilirubin ≤ ULN",
+   "lines": [
+    11
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "ast_xuln",
+   "op": "<=",
+   "value": 2.5,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is AST ≤ 2.5 × ULN?"
+  },
+  {
+   "id": "c0A16",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Hemoglobin ≥ 9 g/dL Absolute neutrophil count ≥ 1.5 x 109/L Platelet count ≥ 75 x 109/L Serum creatinine ≤ 1.5 x ULN (upper limit of normal) Creatinine clearance ≥ 45 mL/min AST ≤ 2.5 x ULN Serum albumin ≥ LLN (lower limit of normal) or 3.5 g/dL Total bilirubin ≤ ULN",
+   "lines": [
+    11
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "albumin_g_dl",
+   "op": ">=",
+   "value": 3.5,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is serum albumin ≥ 3.5 g/dL (or ≥ LLN)?"
+  },
+  {
+   "id": "c0A17",
+   "type": "CMP",
+   "polarity": "inclusion",
+   "source_line": "Hemoglobin ≥ 9 g/dL Absolute neutrophil count ≥ 1.5 x 109/L Platelet count ≥ 75 x 109/L Serum creatinine ≤ 1.5 x ULN (upper limit of normal) Creatinine clearance ≥ 45 mL/min AST ≤ 2.5 x ULN Serum albumin ≥ LLN (lower limit of normal) or 3.5 g/dL Total bilirubin ≤ ULN",
+   "lines": [
+    11
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": "bilirubin_xuln",
+   "op": "<=",
+   "value": 1,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is total bilirubin ≤ ULN?"
+  },
+  {
+   "id": "c0A18",
+   "type": "UNSCREENABLE",
+   "polarity": "inclusion",
+   "source_line": "Signed informed consent.",
+   "lines": [
+    12
+   ],
+   "section": "inclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "signed informed consent",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Has the patient provided signed informed consent?"
+  },
+  {
+   "id": "c0A19",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Pre-existing hepatomegaly with disease measured as ≥ 2 cm below the costal margin, secondary to malignancy.",
+   "lines": [
+    13
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "pre‑existing hepatomegaly ≥2 cm due to malignancy",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have hepatomegaly ≥ 2 cm below the costal margin secondary to malignancy?"
+  },
+  {
+   "id": "c0A20",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Uncontrolled pleural effusions (defined as more than 2 pleuracenteses within 4 weeks of the first dose of study drug)",
+   "lines": [
+    14
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "uncontrolled pleural effusions",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Has the patient had >2 pleuracenteses within 4 weeks of the first dose (uncontrolled pleural effusion)?"
+  },
+  {
+   "id": "c0A21",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "Administration of cancer-specific therapy within the following periods prior to study drug initiation: less than 4 weeks prior: major surgery (this does not include placement of venous access device or biopsy) or any investigational therapy; less than 3 weeks prior: radiation therapy or chemotherapy (except for oral EGF-R receptor tyrosine kinase inhibitor(s); less than 2 weeks prior: oral EGF-R receptor tyrosine kinase inhibitor(s).",
+   "lines": [
+    15
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "surgery"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.921,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient undergone major surgery within the past 4 weeks?"
+  },
+  {
+   "id": "c0A22",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "Administration of cancer-specific therapy within the following periods prior to study drug initiation: less than 4 weeks prior: major surgery (this does not include placement of venous access device or biopsy) or any investigational therapy; less than 3 weeks prior: radiation therapy or chemotherapy (except for oral EGF-R receptor tyrosine kinase inhibitor(s); less than 2 weeks prior: oral EGF-R receptor tyrosine kinase inhibitor(s).",
+   "lines": [
+    15
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "radio"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.691,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient received radiation therapy within the past 3 weeks?"
+  },
+  {
+   "id": "c0A23",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "Administration of cancer-specific therapy within the following periods prior to study drug initiation: less than 4 weeks prior: major surgery (this does not include placement of venous access device or biopsy) or any investigational therapy; less than 3 weeks prior: radiation therapy or chemotherapy (except for oral EGF-R receptor tyrosine kinase inhibitor(s); less than 2 weeks prior: oral EGF-R receptor tyrosine kinase inhibitor(s).",
+   "lines": [
+    15
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [
+     "chemo"
+    ],
+    "agents": [],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.691,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Has the patient received chemotherapy within the past 3 weeks (excluding oral EGFR TKIs)?"
+  },
+  {
+   "id": "c0A24",
+   "type": "WITHIN",
+   "polarity": "exclusion",
+   "source_line": "Administration of cancer-specific therapy within the following periods prior to study drug initiation: less than 4 weeks prior: major surgery (this does not include placement of venous access device or biopsy) or any investigational therapy; less than 3 weeks prior: radiation therapy or chemotherapy (except for oral EGF-R receptor tyrosine kinase inhibitor(s); less than 2 weeks prior: oral EGF-R receptor tyrosine kinase inhibitor(s).",
+   "lines": [
+    15
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": {
+    "cls": [],
+    "agents": [
+     "egfr tki"
+    ],
+    "thoracic": null,
+    "setting": []
+   },
+   "k": null,
+   "months": 0.46,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Has the patient taken an oral EGFR tyrosine‑kinase inhibitor within the past 2 weeks?"
+  },
+  {
+   "id": "c0A25",
+   "type": "IS",
+   "polarity": "exclusion",
+   "source_line": "Pregnant or breast-feeding women. Female patients must be postmenopausal, surgically sterile or they must agree to use a physical method of contraception. Female patient with childbearing potential must have a negative pregnancy test within the 10 days before the first MKC-1 administration. Male patients must be surgically sterile or agree to use an acceptable method of contraception.",
+   "lines": [
+    16
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "pregnant",
+   "op": null,
+   "value": true,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient currently pregnant?"
+  },
+  {
+   "id": "c0A26",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Pregnant or breast-feeding women. Female patients must be postmenopausal, surgically sterile or they must agree to use a physical method of contraception. Female patient with childbearing potential must have a negative pregnancy test within the 10 days before the first MKC-1 administration. Male patients must be surgically sterile or agree to use an acceptable method of contraception.",
+   "lines": [
+    16
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "contraception requirements",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "patient",
+   "question": "Does the patient meet the required contraception criteria (post‑menopausal/surgically sterile or using acceptable method)?"
+  },
+  {
+   "id": "c0A27",
+   "type": "IN",
+   "polarity": "exclusion",
+   "source_line": "Known CNS or leptomeningeal metastases unless treated, clinically stable and not requiring steroids.",
+   "lines": [
+    17
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": "brain_mets",
+   "op": null,
+   "value": null,
+   "values": [
+    "untreated_or_symptomatic"
+   ],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": null,
+   "children": [],
+   "downgraded": true,
+   "answerable_by": "record",
+   "question": "Does the patient have untreated or symptomatic CNS/leptomeningeal metastases?"
+  },
+  {
+   "id": "c0A28",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Clinical evidence of bowel obstruction, active uncontrolled malabsorption syndromes or a history of total gastrectomy.",
+   "lines": [
+    18
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "bowel obstruction / malabsorption / total gastrectomy",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have bowel obstruction, uncontrolled malabsorption, or a history of total gastrectomy?"
+  },
+  {
+   "id": "c0A29",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Uncontrolled hypercalcemia (serum calcium-corrected > 12 mg/dL)",
+   "lines": [
+    19
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "uncontrolled hypercalcemia",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Is the patient’s corrected serum calcium > 12 mg/dL?"
+  },
+  {
+   "id": "c0A30",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Serious cardiac condition (Class III/IV congestive heart failure according to New York Heart Association classification); documented acute myocardial infarction within the previous 6 months.",
+   "lines": [
+    20
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "serious cardiac condition or recent MI",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the patient have Class III/IV congestive heart failure or an acute myocardial infarction within the past 6 months?"
+  },
+  {
+   "id": "c0A31",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Any medical conditions that, in the investigator's opinion, would impose excessive risk to the patient. Examples of such conditions include congestive heart failure of Class III or IV of the NYHA classification, infection requiring parenteral or oral anti-infective treatment, any altered mental status or any psychiatric condition that would interfere with the understanding of the informed consent.",
+   "lines": [
+    21
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "investigator‑determined excessive risk",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Does the investigator consider any medical condition to pose excessive risk to the patient?"
+  },
+  {
+   "id": "c0A32",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Patients with active secondary malignancies.",
+   "lines": [
+    22
+   ],
+   "section": "exclusion",
+   "cwa": false,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "active secondary malignancy",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "record",
+   "question": "Does the patient have an active secondary malignancy?"
+  },
+  {
+   "id": "c1A0",
+   "type": "JUDGE",
+   "polarity": "exclusion",
+   "source_line": "Treatment with antiretroviral therapy metabolized through CYP3A4 (including indinavir, nelfinavir, ritonavir and saquinavir).",
+   "lines": [
+    23
+   ],
+   "section": "exclusion",
+   "cwa": true,
+   "field": null,
+   "op": null,
+   "value": null,
+   "values": [],
+   "filter": null,
+   "k": null,
+   "months": null,
+   "text": "treatment with antiretroviral therapy metabolized through CYP3A4 (including indinavir, nelfinavir, ritonavir and saquinavir)",
+   "children": [],
+   "downgraded": false,
+   "answerable_by": "clinician",
+   "question": "Is the patient currently taking any antiretroviral medication that is metabolized by CYP3A4 (e.g., indinavir, nelfinavir, ritonavir, or saquinavir)?"
+  }
+ ],
+ "compiler_meta": {
+  "primary": {
+   "stage_alternatives_merged": 0,
+   "model": "openai/gpt-oss-120b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 23,
+   "repaired": false,
+   "chunk_failures": [],
+   "errors_after_repair": [],
+   "n_atoms": 34
+  },
+  "secondary": {
+   "stage_alternatives_merged": 0,
+   "model": "qwen/qwen3.8-27b",
+   "prompt_version": "compiler-v1.2",
+   "n_lines": 23,
+   "repaired": true,
+   "chunk_failures": [
+    "no key in the pool can serve qwen/qwen3.8-27b"
+   ],
+   "errors_after_repair": [
+    "c0A6.c0A6.1: ALL needs >= 2 children"
+   ],
+   "n_atoms": 39
+  },
+  "prompt_version": "compiler-v1.2",
+  "lines": 23,
+  "lines_exact_agree": 14,
+  "typed_atoms": 19,
+  "typed_atoms_agree": 15,
+  "downgraded_atoms": 4
+ }
+}

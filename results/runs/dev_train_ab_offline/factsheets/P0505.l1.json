@@ -1,0 +1,652 @@
+{
+ "000ad71b20": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "histology is non-bronchoalveolar"
+ },
+ "0011b418e7": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "tumor was biopsied"
+ },
+ "01466a3027": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no uncontrolled serious illness"
+ },
+ "0391d91f13": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "radiation alone recommended"
+ },
+ "045efc8402": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "04feb2d6c4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "07f7b44f00": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no herbal remedies"
+ },
+ "0a75062b24": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "100fe5aa4f": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no QTc\u2011prolonging meds"
+ },
+ "1094c534af": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "10b1a6aee7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1168deffb5": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no diabetes"
+ },
+ "151a16c49f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1954c8cd9e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "1bcb3429fa": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "AST/ALT within normal limits"
+ },
+ "20bc1877d4": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Stage IV disease, not N0M0"
+ },
+ "234e1d33cb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "248f173aa8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "249891ccca": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "ALT within normal limits"
+ },
+ "26081f027f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "2b8cf92f14": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "2d6aaca79d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "331dd75eab": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "341b7cf095": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Stage IV disease, not isolated recurrent"
+ },
+ "34eb008960": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "recommended palliative RT, not SABR"
+ },
+ "3660100e14": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3cabd561c7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "3d19563a8f": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "O2 sat 96% on room air"
+ },
+ "40128aec8e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4054f52efb": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Stage IV NSCLC with distant metastases"
+ },
+ "471d71652a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4779df2bf2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "4acebfc9fa": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "receives 45 Gy/15 Fx, not SBRT"
+ },
+ "4ad9c49347": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "54fa5fd901": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "57a7c6084e": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "EGFR mutation, no ALK"
+ },
+ "5ba45a5bcb": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "5bb82fd6d8": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "total bilirubin 1.0 mg/dL (<1.5 ULN)"
+ },
+ "5c50ea11f7": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "AST 20 U/L (<2.5 ULN)"
+ },
+ "5f0132f7cc": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "tumor stage IV, no critical structure invasion noted"
+ },
+ "5f5d193de5": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "at least one lesion >2 cm"
+ },
+ "5f736f331c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "60ca7f6062": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "total bilirubin 1.0 mg/dL (<1.5 ULN)"
+ },
+ "6141c5ac7c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "61abc8fe61": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "CT imaging shows lesions >2 cm"
+ },
+ "673a064f34": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "postmenopausal female, no contraception mention"
+ },
+ "68eca96387": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6d941c296c": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "potassium, calcium, magnesium normal"
+ },
+ "6d96545337": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6df126a96f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "6df4b3a1d4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "70244a1e0b": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "at least one lesion >2 cm radiographically evaluable"
+ },
+ "707e83addf": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "N2 disease but no mediastinoscopy/EBUS reported"
+ },
+ "71d501c015": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "PT/PTT normal"
+ },
+ "71f22d72cc": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "72fb1c8fd5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "744135886a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7792755c2e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "77acaa96e8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "788c1a92f5": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "BP 120/80"
+ },
+ "7d61b9afed": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "7ff3b12fe4": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no uncontrolled medical disease present"
+ },
+ "7ffcee888e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8061179ce9": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no superior vena cava syndrome"
+ },
+ "80703bd380": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "not lactating"
+ },
+ "82fe10d26d": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no hypercalcemia"
+ },
+ "840b0f664c": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no left bundle branch block"
+ },
+ "863de5933c": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "tumor <7 cm, no critical structure invasion"
+ },
+ "88c49e050c": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "histology is NSCLC non-bronchoalveolar subtype"
+ },
+ "88e6c43dd6": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "bilirubin normal"
+ },
+ "898797333e": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "not breastfeeding"
+ },
+ "89ed9257c6": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8c239f6de9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8db261386d": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "8ed9f7d336": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "no other suspicious lesions reported"
+ },
+ "92b98d534e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "96ecc48af0": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "99463c247b": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "only palliative radiation planned"
+ },
+ "a0c54b7714": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a26cf4480b": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a67ec1feb3": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "recommended 45\u202fGy/15\u202fFx palliative radiation"
+ },
+ "a7a59f4f9c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "a9bb3fc088": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "BP 120/80, controlled"
+ },
+ "ae1b8aebb2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "b24fbc1f4f": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no prior systemic therapy"
+ },
+ "b253b8c65a": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no QT prolongation history"
+ },
+ "b59900a287": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no prior therapy side effects"
+ },
+ "b7d0d32b78": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "bilirubin normal"
+ },
+ "b852040b72": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "bd325f8b2c": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "AST normal"
+ },
+ "bd4e17552f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "be2b14d735": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "QTc  <470 ms"
+ },
+ "c048105426": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no atrial fibrillation"
+ },
+ "c6511f66e5": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "no radiotherapy contraindication"
+ },
+ "c6bdb440e2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "c8f7f93c6b": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "stage IV distant metastases"
+ },
+ "ca71c1b896": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "LVEF normal, no cardiomyopathy"
+ },
+ "cbc2c64cdf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cc531dd1c5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "cf8f73ad34": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d045c90c34": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d0e7f9cb8b": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "histology adenocarcinoma"
+ },
+ "d218f6e623": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d3a8f32218": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "EGFR mutation present, no prior EGFR TKI"
+ },
+ "d429039bf7": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d5eeaf5a75": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "d7bf5915f9": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "BP 120/80, no heart failure, LVEF normal"
+ },
+ "d97c6f0d27": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "bilirubin normal"
+ },
+ "da2a30e7da": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "dab6a164a2": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "INR/PT/PTT normal"
+ },
+ "dbaf04e9e1": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "tumor involves lymph node"
+ },
+ "e26c0bb0da": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "weight loss <5%"
+ },
+ "e44ea04cd3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e4aed6ccb8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e65a2505f2": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e6bdf26921": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "e8308b718a": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "QTc <480 ms"
+ },
+ "e8619f0d29": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ef930eadd5": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f07c920267": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "serum calcium normal"
+ },
+ "f0bd52bbef": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f479f70b8f": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f5808f250c": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "CrCl >50 mL/min"
+ },
+ "f6a03bc8be": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "T3 stage, not T1/T2"
+ },
+ "f7396436c5": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "palliative 45 Gy/15 Fx recommended"
+ },
+ "f84f9eb505": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "f94da7ba86": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "fad34d4513": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "fd1bee54ee": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "not stated"
+ },
+ "ff5e7541c9": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "potassium normal"
+ }
+}

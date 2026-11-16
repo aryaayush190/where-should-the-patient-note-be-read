@@ -1,0 +1,105 @@
+{
+ "note": "Exploratory regression test of the frozen guard (splitmatch.llm.guard); post-freeze, not pre-specified.",
+ "notes": 45,
+ "registered_sentences": 368,
+ "unprotected_note_sentences": {
+  "shorter_than_25_chars": 31,
+  "also_in_public_criteria": 0,
+  "examples_short": [
+   "Laboratory values:",
+   "Laboratory values:",
+   "FEV1 69% predicted.",
+   "Laboratory values:",
+   "FEV1 69% predicted.",
+   "Laboratory values:",
+   "Laboratory values:",
+   "FEV1 69% predicted."
+  ]
+ },
+ "cases": {
+  "A1 real fact queries (laptop run)": {
+   "n": 539,
+   "blocked": 0,
+   "block_rate": 0.0,
+   "expected": "allow"
+  },
+  "A2 real public-criteria calls": {
+   "n": 745,
+   "blocked": 0,
+   "block_rate": 0.0,
+   "expected": "allow"
+  },
+  "P1 exact note sentence": {
+   "n": 368,
+   "blocked": 368,
+   "block_rate": 1.0,
+   "expected": "block"
+  },
+  "P2 case and spacing changed": {
+   "n": 368,
+   "blocked": 363,
+   "block_rate": 0.9864,
+   "expected": "block"
+  },
+  "P3 sentence embedded in a criterion query": {
+   "n": 368,
+   "blocked": 368,
+   "block_rate": 1.0,
+   "expected": "block"
+  },
+  "P4 patient identifier": {
+   "n": 368,
+   "blocked": 368,
+   "block_rate": 1.0,
+   "expected": "block"
+  },
+  "P5 pair identifier": {
+   "n": 368,
+   "blocked": 368,
+   "block_rate": 1.0,
+   "expected": "block"
+  },
+  "P6 first half of a sentence": {
+   "n": 339,
+   "blocked": 1,
+   "block_rate": 0.0029,
+   "expected": "block"
+  },
+  "P7 one word deleted": {
+   "n": 339,
+   "blocked": 2,
+   "block_rate": 0.0059,
+   "expected": "block"
+  },
+  "P8 punctuation removed": {
+   "n": 368,
+   "blocked": 0,
+   "block_rate": 0.0,
+   "expected": "block"
+  },
+  "P9 base64-encoded sentence": {
+   "n": 368,
+   "blocked": 0,
+   "block_rate": 0.0,
+   "expected": "block"
+  }
+ },
+ "real_traffic_partial_overlap": {
+  "fact_queries": 539,
+  "max_consecutive_note_words_not_in_criteria": 11,
+  "queries_with_ge_5_words": 24,
+  "queries_with_ge_8_words": 2,
+  "histogram": {
+   "0": 336,
+   "1": 47,
+   "2": 108,
+   "3": 14,
+   "4": 10,
+   "5": 11,
+   "6": 9,
+   "7": 2,
+   "8": 1,
+   "11": 1
+  }
+ }
+}

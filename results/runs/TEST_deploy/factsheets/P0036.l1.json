@@ -1,0 +1,317 @@
+{
+ "0128bac762": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient has agreed to appropriate contraception protocols"
+ },
+ "122dd43b9f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Imaging shows measurable disease per RECIST v1.1 with pulmonary and nodal lesions"
+ },
+ "1399f65557": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Tumor cavitary or necrotic status not stated in note"
+ },
+ "154d52890e": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No pleural or pericardial effusions are present"
+ },
+ "1c4edd10e4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Hypersensitivity to paclitaxel, carboplatin, or excipients not stated"
+ },
+ "1dc08cb25f": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient is newly diagnosed and treatment-na\u00efve, not enrolled in another research study"
+ },
+ "1e2d5dd2a1": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Compliance with protocol not stated in note"
+ },
+ "21c1b1720c": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Hypertension status not stated in note"
+ },
+ "25af5a78d9": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Patient has newly diagnosed, treatment-na\u00efve disease with curable options available"
+ },
+ "263e50af0e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "History of alcohol or drug abuse not stated in note"
+ },
+ "36952821b3": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "History of hemorrhagic or thrombotic events in past 12 months not stated"
+ },
+ "3bea08439c": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about participation in another clinical study within the past 4 weeks"
+ },
+ "494f154dd4": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about non-approved investigational drug use within the past 30 days"
+ },
+ "508a8ed716": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about stage II disease or N1 disease status"
+ },
+ "58e871d944": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about end-organ function or systemic disease severity"
+ },
+ "5bb82fd6d8": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Total bilirubin is within normal limits, at most 1.5 times ULN"
+ },
+ "5d2b1e202a": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about bilirubin level in mg/dL"
+ },
+ "5e0680de39": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "PET/CT confirms hypermetabolic lesions with SUV > 6, performed within recent timeframe"
+ },
+ "5e3d73f5ae": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about ability or willingness to swallow HKI-272 capsules"
+ },
+ "67f461d0f2": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient has Stage IIIA disease, considered a candidate for durvalumab"
+ },
+ "68543de007": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Smoking history not stated in the note"
+ },
+ "69a7bdd1b6": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about pregnancy or breastfeeding status"
+ },
+ "6d2bed808e": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about serum creatinine level in mg/dL"
+ },
+ "70002978a7": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information provided about breastfeeding status"
+ },
+ "747ab510d9": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Total bilirubin is below 3.0 times ULN"
+ },
+ "7a8e1be451": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Tumor sample is histologically proven and available for analysis"
+ },
+ "80f04fea7b": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information about ALT or AST levels or whether they exceed 1.5 x ULN"
+ },
+ "86b1a1ffe7": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "FEV1 is 83% predicted, not stated to be at least 1 L"
+ },
+ "88935dca8e": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information about hypersensitivity to erlotinib or pemetrexed"
+ },
+ "895b6834d8": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No history of prior malignancy is stated"
+ },
+ "8e7b99bb88": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No history of radiotherapy to measurable disease is stated"
+ },
+ "a52d45dc90": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information about ophthalmologic surface abnormalities"
+ },
+ "a5b827a3f4": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information about hematuria or proteinuria levels"
+ },
+ "a9c6224678": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No history of other active malignancy within past 3 years is stated"
+ },
+ "aaee7f7b57": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on progression of Tarceva or Iressa therapy is provided"
+ },
+ "ad1e0cff0f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient has healthy life expectancy, defined as at least 3 months"
+ },
+ "adcd0bc958": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on hemoptysis in the past 3 months is provided"
+ },
+ "b043381ac9": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Smoking status is not stated in the note"
+ },
+ "b07d357e44": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Brain MRI is clear and performed prior to study entry"
+ },
+ "b481ad4ad0": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Pregnancy or breastfeeding status is not stated"
+ },
+ "b868c02ce5": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on anticoagulation or antiplatelet therapy is provided"
+ },
+ "b8d9688e9e": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Contraception intent is stated, but sexual activity status is not provided"
+ },
+ "c31ac64461": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on prior chemotherapy or eligibility for further chemo is provided"
+ },
+ "c3c34a9aca": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on pleural effusion or cytology is provided"
+ },
+ "c43286b5cc": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on gastrointestinal abnormalities is provided"
+ },
+ "c629d7eedc": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Liver, kidney, and cardiac functions are all within normal limits per lab and imaging results"
+ },
+ "d0167bc974": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "Fasting glucose level is not mentioned, but no indication of diabetes or hyperglycemia is present"
+ },
+ "e193b95631": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Oxygen supplementation is not required, and if needed, it is stable and not acute"
+ },
+ "e73a551bc8": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Primary tumor size is not specified in the note"
+ },
+ "e8308b718a": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No mention of QTc_ms or radiation overlap; no indication of central tumor location or radiation overlap"
+ },
+ "ea2673beb7": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No history of myocardial infarction, SVC syndrome, or NYHA class \u22652; no serious cardiac disease"
+ },
+ "ea2f685472": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No gastrointestinal disorder or diarrhea reported; no significant acute or chronic GI symptoms"
+ },
+ "ef58bd54e8": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "White blood cell count is 4.2 x 10^3/\u00b5L, which meets the minimum requirement"
+ },
+ "f11fd95fae": {
+  "verdict": "F",
+  "basis": "stated",
+  "fact": "No evidence of significant cardiac disease or dysfunction; cardiac function is normal"
+ },
+ "f95f75e555": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "All blood counts are normal, including ANC, platelets, and hemoglobin"
+ },
+ "fa63a5c74c": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Pleural effusion status is not stated in the note"
+ },
+ "ffac75eeec": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Patient's legal status or detention status is not stated in the note"
+ },
+ "2853595305": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "7cad937428": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "aba5446ba7": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "c9a308243d": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "e8ee280dfe": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "fd81bcf49e": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ }
+}

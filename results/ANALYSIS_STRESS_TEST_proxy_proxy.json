@@ -1,0 +1,74 @@
+{
+ "H4_redaction": {
+  "variant_pairs": 1386,
+  "affected_pairs": 688,
+  "committed_wrong_split_selective": 0.10755813953488372,
+  "committed_wrong_zero_shot": 0.10610465116279069,
+  "diff_split_minus_zs": 0.0014534883720930232,
+  "diff_ci95_trial": [
+   -0.047619047619047616,
+   0.05523872180451127
+  ],
+  "ask_recall_removed_category": 0.38953488372093026,
+  "ask_recall_when_not_excluded": 0.4009433962264151,
+  "forced_acc_redacted": 0.7441860465116279,
+  "forced_acc_after_one_answer": 0.7616279069767442,
+  "forced_acc_full_note": 0.7398255813953488,
+  "zero_shot_acc_redacted": 0.8938953488372093
+ },
+ "H6_counterfactual": {
+  "variant_pairs": 1080,
+  "flip_rate_split": 0.049074074074074076,
+  "flip_rate_zero_shot": 0.023148148148148147,
+  "flip_rate_by_cue_split": {
+   "cue0": 0.05185185185185185,
+   "cue1": 0.04814814814814815,
+   "cue2": 0.044444444444444446,
+   "cue3": 0.05185185185185185
+  },
+  "flip_rate_by_cue_zero_shot": {
+   "cue0": 0.02962962962962963,
+   "cue1": 0.018518518518518517,
+   "cue2": 0.018518518518518517,
+   "cue3": 0.025925925925925925
+  },
+  "zs_minus_split_flip": -0.025925925925925925,
+  "zs_minus_split_flip_ci95_trial": [
+   -0.06780041286397219,
+   0.012501120071684572
+  ],
+  "mcnemar_flips": {
+   "A_only_correct": 24,
+   "B_only_correct": 52,
+   "p_exact": 0.0017618720029406244
+  }
+ },
+ "H8_noisy": {
+  "split_forced": {
+   "n": 270,
+   "decided": 270,
+   "coverage": 1.0,
+   "acc": 0.7962962962962963,
+   "precision": 0.6029411764705882,
+   "recall": 0.5942028985507246,
+   "f1": 0.5985401459854013,
+   "tp": 41,
+   "fp": 27,
+   "fn": 28,
+   "tn": 174
+  },
+  "zero_shot": {
+   "n": 270,
+   "decided": 270,
+   "coverage": 1.0,
+   "acc": 0.9333333333333333,
+   "precision": 0.9047619047619048,
+   "recall": 0.8260869565217391,
+   "f1": 0.8636363636363636,
+   "tp": 57,
+   "fp": 6,
+   "fn": 12,
+   "tn": 195
+  }
+ }
+}

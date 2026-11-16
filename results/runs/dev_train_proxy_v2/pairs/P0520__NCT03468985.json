@@ -1,0 +1,1484 @@
+{
+ "pair_id": "P0520__NCT03468985",
+ "patient_id": "P0520",
+ "trial_id": "NCT03468985",
+ "label": 1,
+ "selective": "NEED_INFO",
+ "forced": "ELIGIBLE",
+ "n_l2": 3,
+ "n_forced_unknown": 68,
+ "n_provisional": 21,
+ "u": 81.5,
+ "asks": [
+  {
+   "atom": "c0A2",
+   "category": "BIOMARKER",
+   "question": "Is the tumor ROS1 rearrangement positive?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A3",
+   "category": "BIOMARKER",
+   "question": "Is the tumor MET exon\u202f14 splice mutation present?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A4",
+   "category": "BIOMARKER",
+   "question": "Does the tumor have MET high amplification or a MET mutation sensitive to MET inhibitor?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A6",
+   "category": "BIOMARKER",
+   "question": "Is the tumor RET rearrangement positive?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A13",
+   "category": "OTHER",
+   "question": "Is the predominant histology non\u2011squamous (adenocarcinoma or NOS)?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A15",
+   "category": "OTHER",
+   "question": "Is any squamous histology present?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A16",
+   "category": "BIOMARKER",
+   "question": "Are EGFR sensitizing mutations negative?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A17",
+   "category": "BIOMARKER",
+   "question": "Is ALK rearrangement negative?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A21",
+   "category": "PRIOR_THERAPY",
+   "question": "Was adjuvant chemotherapy given less than 12\u202fmonths before first\u2011line systemic therapy?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A24",
+   "category": "OTHER",
+   "question": "Were baseline scans performed within 4\u202fweeks before registration?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A26",
+   "category": "PRIOR_THERAPY",
+   "question": "Was any daily or weekly chemotherapy or targeted oral therapy completed at least 1\u202fweek before registration?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c0A27",
+   "category": "PRIOR_THERAPY",
+   "question": "Was any chemotherapy given on a \u2265\u202f2\u2011week schedule completed at least 2\u202fweeks before registration?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c1A2",
+   "category": "BRAIN_METS",
+   "question": "Has the patient completed required brain metastasis treatment within the specified time frame?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c1A3",
+   "category": "BRAIN_METS",
+   "question": "Is the patient clinically stable from brain metastases without recent treatment?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c1A4",
+   "category": "BRAIN_METS",
+   "question": "Does the patient have known leptomeningeal disease?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c1A6",
+   "category": "OTHER",
+   "question": "What is the patient's estimated life expectancy in months?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c1A10",
+   "category": "OTHER",
+   "question": "Are the patient's PT/INR and PTT \u22641.3 times the upper limit of normal?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c1A12",
+   "category": "LABS",
+   "question": "What is the patient's AST level expressed as multiples of ULN?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c1A13",
+   "category": "LABS",
+   "question": "What is the patient's ALT level expressed as multiples of ULN?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c1A14",
+   "category": "LABS",
+   "question": "What is the patient's serum albumin (g/dL)?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c1A15",
+   "category": "OTHER",
+   "question": "Are calcium, magnesium and potassium levels at or above the lower limit of normal?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c1A16",
+   "category": "OTHER",
+   "question": "If any of calcium, magnesium or potassium are low, can they be replaced per protocol?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c1A18",
+   "category": "OTHER",
+   "question": "Is the urine dipstick negative/trace, or if positive/not done, is the UPC ratio \u22641?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c1A19",
+   "category": "CARDIAC",
+   "question": "What is the patient's corrected QT interval (ms) using Fridericia formula?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c1A20",
+   "category": "OTHER",
+   "question": "Is the patient able to swallow tablets?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c1A21",
+   "category": "OTHER",
+   "question": "Has a pregnancy test been performed within the past 2 weeks for females of childbearing potential?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c1A22",
+   "category": "OTHER",
+   "question": "Does the female patient meet the study definition of childbearing potential?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c1A23",
+   "category": "OTHER",
+   "question": "Is the patient using effective contraception or abstaining according to protocol requirements?",
+   "answerable_by": "patient"
+  },
+  {
+   "atom": "c2A2",
+   "category": "PRIOR_THERAPY",
+   "question": "Can you confirm: Prior anti-MET therapy such as crizotinib or cabozantinib, or PD-1/PD-L1 immune checkpoint inhibitor therapy (such as nivolumab, pembrolizumab, atezolizumab) or CTLA4 inhibitor therapy (such as ipilimumab); prior allergic reaction to small molecule tyrosine kinase inhibitors or monoclonal antibodies?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c2A7",
+   "category": "OTHER",
+   "question": "Is the patient able to give informed consent and make decisions about study participation?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c2A8",
+   "category": "LABS",
+   "question": "Has the patient had a clinically significant GI bleed in the last 6 months?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c2A9",
+   "category": "LABS",
+   "question": "Has the patient coughed up \u2265\u202f2.5\u202fmL of blood in the last 3 months?",
+   "answerable_by": "patient"
+  },
+  {
+   "atom": "c2A10",
+   "category": "LABS",
+   "question": "Has the patient experienced drug\u2011induced pneumonitis in the last 3 months?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c2A11",
+   "category": "LABS",
+   "question": "Are there any clinical signs of pulmonary hemorrhage in the last 3 months?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c2A12",
+   "category": "OTHER",
+   "question": "Do imaging studies show cavitating lung lesions?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c2A13",
+   "category": "OTHER",
+   "question": "Is there evidence that the tumor is invading major blood vessels?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c2A14",
+   "category": "OTHER",
+   "question": "Has imaging or endoscopy shown tumor invasion of the GI tract or mainstem bronchus within the past 28 days?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c2A15",
+   "category": "LABS",
+   "question": "Is the patient currently taking warfarin, a direct thrombin or Factor\u202fXa inhibitor, or a platelet inhibitor such as clopidogrel?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c2A19",
+   "category": "OTHER",
+   "question": "Is the patient taking any strong CYP3A4\u2011inducing medications?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c2A21",
+   "category": "CARDIAC",
+   "question": "Does the patient have NYHA class\u202fIII or IV congestive heart failure?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c2A22",
+   "category": "OTHER",
+   "question": "Has the patient had uncontrolled hypertension (BP\u202f>\u202f150/100\u202fmm\u202fHg) despite optimal treatment in the past 7 days?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c3A2",
+   "category": "OTHER",
+   "question": "Has the patient had a stroke, TIA, or other ischemic event?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c3A4",
+   "category": "OTHER",
+   "question": "Has the patient had any gastrointestinal disorder with high risk of perforation or fistula formation within the past 3 months?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c3A5",
+   "category": "OTHER",
+   "question": "Does the patient currently have active peptic ulcer disease?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c3A6",
+   "category": "OTHER",
+   "question": "Does the patient have inflammatory bowel disease, diverticulitis, cholecystitis, symptomatic cholangitis, or appendicitis?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c3A7",
+   "category": "OTHER",
+   "question": "Does the patient have a known malabsorption syndrome?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c3A8",
+   "category": "OTHER",
+   "question": "Does the patient have a bowel obstruction or gastric outlet obstruction?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c3A9",
+   "category": "OTHER",
+   "question": "Has the patient had a percutaneous endoscopic gastrostomy (PEG) tube placed?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c3A10",
+   "category": "OTHER",
+   "question": "Has the patient had any gastrointestinal disorder with high risk of perforation or fistula formation within the past 6 months?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c3A11",
+   "category": "OTHER",
+   "question": "Does the patient have an abdominal fistula?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c3A12",
+   "category": "OTHER",
+   "question": "Does the patient have a gastrointestinal perforation?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c3A13",
+   "category": "OTHER",
+   "question": "Does the patient have an intra\u2011abdominal abscess that has not been completely resolved?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c3A14",
+   "category": "OTHER",
+   "question": "Does the patient have any of the conditions listed in lines 83\u201187?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c3A16",
+   "category": "OTHER",
+   "question": "Does the patient have a serious non\u2011healing wound, ulcer, or bone fracture within the past 28 days?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c3A17",
+   "category": "OTHER",
+   "question": "Has the patient ever undergone an organ transplant?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c3A18",
+   "category": "OTHER",
+   "question": "Does the patient have symptomatic untreated hypothyroidism within the past 7 days?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c3A19",
+   "category": "OTHER",
+   "question": "Has the patient had any major surgery as described in line\u202f88?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c3A21",
+   "category": "OTHER",
+   "question": "Has the patient experienced any of the listed conditions within the past 6 months?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c4A2",
+   "category": "OTHER",
+   "question": "Does the patient have ongoing clinically relevant complications from prior surgery?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c4A3",
+   "category": "OTHER",
+   "question": "Does the patient have any active other malignancy that requires systemic treatment?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c4A4",
+   "category": "OTHER",
+   "question": "Has the patient taken systemic corticosteroids >10\u202fmg prednisone equivalent or other immunosuppressive medication within the past 14 days?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c4A5",
+   "category": "OTHER",
+   "question": "Does the patient have an active autoimmune disease that could affect vital organ function or require systemic corticosteroids?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c4A6",
+   "category": "OTHER",
+   "question": "Does the patient have any ongoing major illness or psychosocial issues that would limit protocol compliance?",
+   "answerable_by": "clinician"
+  },
+  {
+   "atom": "c4A8",
+   "category": "LABS",
+   "question": "Is the patient currently breast\u2011feeding?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c4A9",
+   "category": "OTHER",
+   "question": "Is the patient known to have HIV infection and currently receiving antiretroviral therapy?",
+   "answerable_by": "record"
+  },
+  {
+   "atom": "c4A10",
+   "category": "OTHER",
+   "question": "Does the patient have chronic active hepatitis B (positive hepatitis B surface antigen or detectable viral load)?",
+   "answerable_by": "record"
+  }
+ ],
+ "n_atoms": 109,
+ "trace": [
+  {
+   "atom": "c0A0",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A1",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A2",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A3",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A4",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A5",
+   "type": "HAS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A6",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A7",
+   "type": "HAS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A8",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A9",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A10",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A11",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A12",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A13",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A14",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A15",
+   "type": "IN",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A16",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A17",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A18",
+   "type": "IN",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A19",
+   "type": "COUNT",
+   "pol": "inclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "l2": "U",
+   "route": "defer"
+  },
+  {
+   "atom": "c0A20",
+   "type": "COUNT",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c0A21",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A22",
+   "type": "COUNT",
+   "pol": "inclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "l2": "T",
+   "route": "satisfied:l2"
+  },
+  {
+   "atom": "c0A23",
+   "type": "IS",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c0A24",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A25",
+   "type": "UNSCREENABLE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c0A26",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A27",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c0A28",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c1A0",
+   "type": "IF",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": true,
+   "l1": "U",
+   "route": "satisfied:assumed_absent"
+  },
+  {
+   "atom": "c1A1",
+   "type": "IF",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c1A2",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A3",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A4",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A5",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c1A6",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A7",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c1A8",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c1A9",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c1A10",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A11",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "T",
+   "verified": true,
+   "assumed": false,
+   "route": "satisfied"
+  },
+  {
+   "atom": "c1A12",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A13",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A14",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A15",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A16",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A17",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "T",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c1A18",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A19",
+   "type": "CMP",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A20",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A21",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A22",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c1A23",
+   "type": "JUDGE",
+   "pol": "inclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c2A0",
+   "type": "UNSCREENABLE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c2A1",
+   "type": "IN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c2A2",
+   "type": "ANY",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c2A3",
+   "type": "IF",
+   "pol": "exclusion",
+   "det": "T",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "l2": "U",
+   "route": "defer"
+  },
+  {
+   "atom": "c2A4",
+   "type": "WITHIN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c2A5",
+   "type": "WITHIN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c2A6",
+   "type": "IN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c2A7",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c2A8",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c2A9",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c2A10",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c2A11",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c2A12",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c2A13",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c2A14",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c2A15",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c2A16",
+   "type": "UNSCREENABLE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c2A17",
+   "type": "UNSCREENABLE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c2A18",
+   "type": "UNSCREENABLE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c2A19",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c2A20",
+   "type": "UNSCREENABLE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "route": "site_verify"
+  },
+  {
+   "atom": "c2A21",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c2A22",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c3A0",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c3A1",
+   "type": "IN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c3A2",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c3A3",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c3A4",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c3A5",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c3A6",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c3A7",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c3A8",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c3A9",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c3A10",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c3A11",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c3A12",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c3A13",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c3A14",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c3A15",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "F",
+   "route": "satisfied:l1"
+  },
+  {
+   "atom": "c3A16",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c3A17",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c3A18",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c3A19",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c3A20",
+   "type": "WITHIN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c3A21",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c4A0",
+   "type": "WITHIN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c4A1",
+   "type": "WITHIN",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": false,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c4A2",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c4A3",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c4A4",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c4A5",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c4A6",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c4A7",
+   "type": "IS",
+   "pol": "exclusion",
+   "det": "F",
+   "verified": false,
+   "assumed": true,
+   "route": "satisfied:provisional"
+  },
+  {
+   "atom": "c4A8",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c4A9",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  },
+  {
+   "atom": "c4A10",
+   "type": "JUDGE",
+   "pol": "exclusion",
+   "det": "U",
+   "verified": false,
+   "assumed": false,
+   "l1": "U",
+   "route": "ask"
+  }
+ ],
+ "site_verify": [
+  "inclusion criteria (Step 0):",
+  "Patients with tumors with the following molecular alterations must submit testing results via Medidata Rave to determine eligibility to Arm T; the study chair, co-chair, biology co-chair, or a delegate must review the molecular testing and agree that the testing meets one of the molecular eligibility criteria below:",
+  "Institutions will be notified of the patient's eligibility status for Arm T within two (2) business days of submission of the molecular testing reports",
+  "If patients do not have tumors with the above molecular alterations noted proceed directly to step 1",
+  "inclusion criteria (Step 1):",
+  "For patients with known molecular alterations, institution has been notified that patient is deemed eligible for Arm T per review of molecular testing reports",
+  "Any prior chemotherapy (based on administration schedule) must have been completed in greater than or equal to the following times prior to registration:",
+  "(Step 1):",
+  "Low-dose aspirin for cardioprotection (per local applicable guidelines) is permitted",
+  "Low molecular weight heparins (LMWH) or unfractionated heparin is permitted",
+  "Anticoagulation with therapeutic doses of LMWH is allowed in subjects without known brain metastases who are on a stable dose of LMWH for at least 6 weeks before first dose of study treatment, and who have had no clinically significant hemorrhagic complications from the anticoagulation regimen or the tumor",
+  "Cardiovascular disorders including:"
+ ]
+}

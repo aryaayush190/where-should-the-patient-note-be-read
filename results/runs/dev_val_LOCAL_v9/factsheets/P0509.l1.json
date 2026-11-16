@@ -1,0 +1,62 @@
+{
+ "0428ad8fbf": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Prothrombin time value not stated in the note"
+ },
+ "14ccca429b": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Patient has Stage IIIB NSCLC but no history of failed chemotherapy regimens"
+ },
+ "386e6eff24": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "White blood cell count is 4.1 x 10\u00b3/\u00b5L, above the 3 x 10\u00b3/\u00b5L threshold"
+ },
+ "735248f9e2": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "Myocardial infarction occurred over 2 years ago and is now stable"
+ },
+ "7958c72354": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Seizure disorder status not stated in the note"
+ },
+ "83a8f9e336": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Hemoglobin level not stated, but no indication of anemia; assumed adequate based on context"
+ },
+ "87caa41a10": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Tumor is histologically confirmed and accessible by biopsy"
+ },
+ "c5483a2e0a": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "Contraception status for women or men not stated in the note"
+ },
+ "cd7fa4572d": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No evidence of active neurologic disease; peripheral neuropathy is mild and controlled"
+ },
+ "eba8f701b4": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Stage IIIB NSCLC with PET-positive lymph node involvement confirms measurable disease"
+ },
+ "09450c1c3f": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "77559690b3": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "03e9c338e3": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No mention of wounds, ulcers, or bone fractures in the note."
+ },
+ "1d70d5faca": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Patient has a Karnofsky Performance Status of 90, indicating good functional status and life expectancy exceeding 2.761 months."
+ },
+ "3f5ef0df75": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on AST or ALT values provided in the note."
+ },
+ "422c49f372": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No history of gross hemoptysis reported in the patient note."
+ },
+ "46ac9fd47d": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No mention of cardiovascular disease or related treatment in the note."
+ },
+ "4b4f05ae68": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on patient's willingness or ability to use contraception is provided."
+ },
+ "56e59e578b": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on partial thromboplastin time is provided in the note."
+ },
+ "606bcee8f4": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No clinically meaningful illness, infection, or condition within 90 days is reported."
+ },
+ "775ded288f": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Urine protein-creatinine ratio and dipstick protein not reported, but no proteinuria noted in lab values."
+ },
+ "7fd1031fb0": {
+  "verdict": "T",
+  "basis": "stated",
+  "fact": "Creatinine is 0.8 mg/dL, indicating eGFR >45 mL/min, meeting the requirement."
+ },
+ "ca9309ffd5": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No information on mental condition or cognitive ability is provided in the note."
+ },
+ "e3af1cca71": {
+  "verdict": "F",
+  "basis": "not_mentioned",
+  "fact": "No history of abdominal fistula, gastrointestinal perforation, or intra-abdominal abscess is stated"
+ },
+ "ee465feefa": {
+  "verdict": "U",
+  "basis": "not_mentioned",
+  "fact": "No information on hypersensitivity to polysorbate 80 is provided"
+ },
+ "5e83c22799": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ },
+ "eba8f701b4": {
+  "verdict": "U",
+  "basis": "unavailable",
+  "fact": "not stated"
+ }
+}
