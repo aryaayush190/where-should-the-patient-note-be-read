@@ -4,10 +4,10 @@
 
 Code, data and released outputs for the paper submitted to the **6th TELMED Workshop at IEEE PerCom 2027** (Goa, India).
 
-Ayush Arya¹, Neha Kriti¹, Harsha Kulkarni², Sarthak Srivastava¹, Shruti Kaushik³, Varun Dutt¹ (corresponding author)
+Ayush Arya¹, Neha Kriti¹, Harsha Kulkarni², Sarthak Srivastava¹, Shruti Kaushik³, Varun Dutt¹ 
 ¹ Applied Cognitive Science Lab, Indian Institute of Technology Mandi, India · ² University Institute of Technology, Himachal Pradesh University, India · ³ Syneos Health, India
 
-📄 Paper: [`paper/TELMED2027_paper.pdf`](paper/TELMED2027_paper.pdf)
+
 
 ---
 
@@ -33,12 +33,10 @@ The main measure is **missed eligible patients**, the one error the trial site c
 │   ├── verify_freeze.py   check the frozen files against the pre-test SHA-256 manifest
 │   └── run_queues/        the exact job queues used for the study (Windows, Git Bash)
 ├── tests/                 unit tests (evaluator, authority policy, privacy gateway)
-├── data/                  synthetic patient–trial pairs, real trial criteria, generator tooling
+├── data/                  synthetic patient–trial pairs, real trial criteria, 
 ├── baselines_indicon/     cached replies and results of the earlier full-note baselines
 ├── results/               all outputs: per-pair predictions, compiled programs, analyses
-├── artifacts/             compressed call log and reply caches (see artifacts/README.md)
-├── docs/                  pre-specified analysis plan, freeze manifest, design, code reference
-└── paper/                 final PDF, figure scripts, generated numbers, Word build
+└── artifacts/             compressed call log and reply caches (see artifacts/README.md)                
 ```
 
 ## Setup
@@ -109,19 +107,6 @@ All patients are **synthetic**: attributes were sampled without reference to any
 
 Intel i5-13500H (12 cores), 16 GB RAM, no GPU; Ollama 0.40.15 with default CPU threading. Qwen3 models used Q4_K_M quantisation and gpt-oss-20b its native MXFP4 format, with context 8,192 tokens, temperature 0 and seed 0. Hosted models (gpt-oss-120b, gpt-oss-20b, Qwen3.8-27B) were served by Groq.
 
-## Citation
-
-```bibtex
-@inproceedings{arya2027patientnote,
-  author    = {Ayush Arya and Neha Kriti and Harsha Kulkarni and Sarthak Srivastava and Shruti Kaushik and Varun Dutt},
-  title     = {Where Should the Patient Note Be Read? Missed Referrals, Privacy and Device Cost of {LLM} Pre-Screening for Clinical Trials in Telemedicine},
-  booktitle = {Proc. IEEE Int. Conf. Pervasive Computing and Communications Workshops (PerCom Workshops), TELMED},
-  year      = {2027},
-  note      = {Submitted}
-}
-```
-
-See also `CITATION.cff`.
 
 ## License
 
@@ -133,4 +118,4 @@ This work was supported by grants from Syneos Health (IITM/CONS/SHILC-USA/VD/111
 
 ## Contact
 
-Varun Dutt — varun@iitmandi.ac.in (corresponding author) · Ayush Arya — aryaayush190@gmail.com
+Ayush Arya — aryaayush190@gmail.com  · Varun Dutt — varun@iitmandi.ac.in (corresponding author) 
